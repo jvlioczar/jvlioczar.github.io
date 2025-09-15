@@ -78,42 +78,14 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
   gap: 6px;               /* espaço entre título e beta */
 }
 
+/* Link do logo sem estilo nativo e sem “forçar” cor */
 .brand a {
   text-decoration: none;
-  color: inherit;            /* não force cor no link */
+  color: inherit;             /* não pinta o texto do link */
+  display: inline-block;      /* ajuda o background-clip a funcionar */
 }
 
-/* 2) Garanta o gradiente no span, não no <a> */
-.brand a .brand-gradient {
-  background: var(--brand-gradient, linear-gradient(90deg,#0A66C2,#5b8bd6));
-  -webkit-background-clip: text; /* Chrome/Edge/Safari */
-  background-clip: text;         /* Firefox */
-  -webkit-text-fill-color: transparent; /* WebKit */
-  color: transparent;             /* Firefox */
-  display: inline-block;          /* ajuda o clip a funcionar certinho */
-}
-
-.brand a .brand-gradient {
-  -webkit-text-fill-color: transparent !important;
-  color: transparent !important;
-}
-
-.brand-gradient {
-  background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* Logo: blur-to-focus + passing shine */
-  /* Two background layers: [shine sweep] over [brand gradient] */
-  background-image:
-    linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 45%, rgba(255,255,255,0) 60%),
-    linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
-  background-size: 22% 100%, 100% 100%;
-  background-position: -40% 0, 0 0;
-  background-repeat: no-repeat;
-  animation: logoFocus .85s ease-out 0s both, logoShine 1.1s ease-in-out .9s both;
-  will-change: filter, opacity, background-position;
-}
+/* Foco por teclado acessível*/
 
 .byline {
   font-size: 12px;
