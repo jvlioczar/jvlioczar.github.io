@@ -78,6 +78,11 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
   gap: 6px;               /* espaço entre título e beta */
 }
 
+.brand a {
+  text-decoration: none;   /* tira o sublinhado */
+  color: inherit;          /* usa a cor do elemento pai/span */
+}
+
 .brand-gradient {
   background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
   -webkit-background-clip: text;
