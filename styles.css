@@ -79,8 +79,18 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
 }
 
 .brand a {
-  text-decoration: none;   /* tira o sublinhado */
-  color: inherit;          /* usa a cor do elemento pai/span */
+  text-decoration: none;
+  color: inherit;            /* não force cor no link */
+}
+
+/* 2) Garanta o gradiente no span, não no <a> */
+.brand a .brand-gradient {
+  background: var(--brand-gradient, linear-gradient(90deg,#0A66C2,#5b8bd6));
+  -webkit-background-clip: text; /* Chrome/Edge/Safari */
+  background-clip: text;         /* Firefox */
+  -webkit-text-fill-color: transparent; /* WebKit */
+  color: transparent;             /* Firefox */
+  display: inline-block;          /* ajuda o clip a funcionar certinho */
 }
 
 .brand-gradient {
