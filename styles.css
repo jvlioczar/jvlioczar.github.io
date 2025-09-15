@@ -93,6 +93,11 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
   display: inline-block;          /* ajuda o clip a funcionar certinho */
 }
 
+.brand a .brand-gradient {
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
 .brand-gradient {
   background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
   -webkit-background-clip: text;
