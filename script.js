@@ -460,6 +460,11 @@ function buildCategory(name, items){
   const grid=document.createElement('div');grid.className='grid';
   sortFeaturedAlpha(items).forEach((it,i)=>{ const c=createCard(it); c.style.animationDelay=(i*30)+'ms'; grid.appendChild(c); });
   sec.appendChild(grid);
+  // --- gradient separator after the cards ---
+  const sep = document.createElement('div');
+  sep.className = 'category-sep';
+  sec.appendChild(sep);
+
   return sec;
 }
 

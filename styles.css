@@ -1985,3 +1985,13 @@ body[data-theme='light'] .card.card-link:focus-visible{
 .card .subtitle{
   margin: 0; /* remove all internal margins */
 }
+
+/* Category separator line with site gradient */
+.category-sep{
+  height: 2px;
+  width: 100%;
+  margin: 14px 4px 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
+  opacity: .9;
+}
