@@ -18,8 +18,8 @@ body{ overflow-x: hidden; }
   --bg-soft:#12161f;
   --text:#e6edf3;
   --muted:#a9b3c1;
-  --accent1:#00c4ff;
-  --accent2:#5b42f3;
+  --accent1:#4f7cff;
+  --accent2:#7a5cff;
   --accent3:#b445ff;
   --border:#1a2130;
   --border-strong:#0a0d13;
@@ -176,7 +176,7 @@ select{min-width:180px}
 .title-line .paren{ font-weight:400; opacity:.9; }
 .card .subtitle{ margin:0 0 8px 0; font-size:12px; color: var(--muted); font-weight:400; }
 
-.card .actions{ display:flex; gap:0; flex-wrap:wrap; }
+.card .actions{ display:none; }
 .card .btn, .card .visit, .btn{
   display:inline-block; padding:6px 10px; border-radius:12px;
   border:none; background: #0f1520; color: var(--text);
@@ -948,4 +948,1040 @@ html, body {
 .brand .brand-link:focus-visible{
   outline: 2px solid var(--accent2);
   outline-offset: 2px;
+}
+
+
+
+
+/* === Superbar toggle icons (mobile only) === */
+@media (max-width: 720px){
+  .superbar-toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .superbar-toggle .icon-burger{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    width: 18px;
+    height: 16px;
+  }
+  .superbar-toggle .icon-burger i{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    border-radius: 2px;
+  }
+  .superbar-toggle .icon-close{
+    display: none;
+    font-size: 20px;
+    line-height: 1;
+  }
+  /* When menu is open, swap icons */
+  .superbar.is-open .icon-burger,
+  .superbar.open .icon-burger{ display: none; }
+  .superbar.is-open .icon-close,
+  .superbar.open .icon-close{ display: inline-block; }
+  /* Hide any legacy arrow if present */
+  .superbar-toggle .arrow{ display: none !important; }
+}
+/* ===== Super-bar (multi-library tabs) ===== */
+.superbar{
+  position: sticky;
+  top: 0;
+  z-index: 50; /* above site-header */
+  width: 100%;
+  /* slightly subtler than themes: mix bg with 88% and transparent to soften */
+  background: color-mix(in oklab, var(--bg) 88%, transparent);
+}
+
+.superbar-list{
+  /* 8 equal columns, no gaps, full-bleed */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.superbar-item{ /* flat: no borders, no shadows, no bevel */
+  min-height: 37px;
+}
+
+.superbar-item a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  /* Typography inherits 100% from project */
+  font: inherit;
+  color: var(--text);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px 8px;
+  opacity: .92; /* subtle presence */
+}
+
+/* Active tab highlighted (still flat) */
+.superbar-item.active a,
+.superbar-item a[aria-current="page"]{
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Fixed colors per tab: discrete steps from accent1 -> accent2 (8 blocks) */
+:root{
+  --lib1: var(--accent1);
+  --lib2: color-mix(in oklab, var(--accent1) 86%, var(--accent2) 14%);
+  --lib3: color-mix(in oklab, var(--accent1) 72%, var(--accent2) 28%);
+  --lib4: color-mix(in oklab, var(--accent1) 58%, var(--accent2) 42%);
+  --lib5: color-mix(in oklab, var(--accent1) 42%, var(--accent2) 58%);
+  --lib6: color-mix(in oklab, var(--accent1) 28%, var(--accent2) 72%);
+  --lib7: color-mix(in oklab, var(--accent1) 14%, var(--accent2) 86%);
+  --lib8: var(--accent2);
+}
+
+/* Assign blocks without gaps; the color of one ends where the other begins */
+.superbar-item:nth-child(1){ background: var(--lib1); }
+.superbar-item:nth-child(2){ background: var(--lib2); }
+.superbar-item:nth-child(3){ background: var(--lib3); }
+.superbar-item:nth-child(4){ background: var(--lib4); }
+.superbar-item:nth-child(5){ background: var(--lib5); }
+.superbar-item:nth-child(6){ background: var(--lib6); }
+.superbar-item:nth-child(7){ background: var(--lib7); }
+
+/* Improve contrast for light & dark automatically */
+:root[data-theme="light"] .superbar-item a{ color: #0b1220; }
+:root[data-theme="dark"]  .superbar-item a{ color: #ffffff; }
+
+/* Ensure the site header sits below the superbar yet remains sticky */
+.site-header{ top: 0; z-index: 40; }
+
+@media (max-width: 720px){
+  .superbar-item{ min-height: 39px; }
+  .superbar-item a{ padding: 4px 6px; }
+}
+
+
+/* Ensure superbar not hidden behind sidebar and adapts with sidebar states */
+body {
+  padding-top: calc(37px + var(--header-offset, 0px));
+}
+.layout-has-sidebar .superbar {
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+
+/* Superbar adapts to sidebar width (expanded/collapsed) */
+.superbar{
+  left: var(--sidepush-w, 0px);
+  width: calc(100% - var(--sidepush-w, 0px));
+}
+
+
+
+/* Responsive superbar dropdown for narrow screens */
+@media (max-width: 600px){
+  .superbar-list{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .superbar.open .superbar-list{
+    display: flex;
+  }
+  .superbar-toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    background: var(--lib1);
+    color: var(--text);
+  }
+  .superbar-toggle span.arrow{
+    display:inline-block;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+  }
+  .superbar.open .superbar-toggle span.arrow{
+    transform: rotate(90deg);
+  }
+}
+
+
+
+/* ===== Super-bar (v2) adjustments ===== */
+:root{ --superbar-h: 25px; } /* +3px from previous 34px */
+
+.superbar{
+  position: fixed; /* always fixed at the very top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000; /* above sidebar and header */
+}
+
+/* Ensure layout accounts for the fixed bar height */
+body{ padding-top: var(--superbar-h); }
+
+/* Sidebars (expanded or collapsed) should start below the superbar */
+.sidepush, .sidebar, .site-sidebar{
+  top: var(--superbar-h) !important;
+}
+
+/* Grid list keeps 8 equal tabs, no gaps. Height increased by +3px via min-height */
+.superbar-list{
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.superbar-item{ min-height: calc(var(--superbar-h)); }
+
+.superbar-item a{
+  height: calc(var(--superbar-h));
+}
+
+/* Compact toggle for small screens */
+.superbar-toggle{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: var(--superbar-h);
+  padding: 0 12px;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  color: var(--text);
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.superbar-toggle .chevron{
+  display: inline-block;
+  transition: transform .2s ease;
+}
+
+/* When open */
+.superbar.is-open .superbar-toggle .chevron{ transform: rotate(90deg); }
+
+@media (max-width: 720px){
+  .superbar-toggle{ display: flex; }
+  .superbar-list{
+    display: none;
+    position: fixed;
+    top: var(--superbar-h);
+    left: 0;
+    right: 0;
+    z-index: 8999;
+    /* vertical menu (no gaps) */
+    grid-template-columns: 1fr !important;
+  }
+  .superbar.is-open .superbar-list{ display: grid; }
+  .superbar-item{ min-height: 40px; }
+  .superbar-item a{ height: 40px; justify-content: flex-start; padding: 0 16px; }
+}
+
+/* Ensure header below bar doesn't hide; if header is sticky, offset it */
+.site-header{ position: sticky; top: var(--superbar-h); z-index: 8000; }
+
+
+
+/* === Super-bar full-bleed fix === */
+html, body {
+  margin: 0 !important;
+  padding: 0;
+}
+.superbar {
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 !important;
+  width: 100vw !important;
+}
+
+
+
+/* ===== Super-bar (v2.1) full-bleed fix ===== */
+.superbar{
+  left: 0 !important;
+  right: 0 !important;
+  width: 100vw !important;      /* occupy entire viewport width */
+  margin: 0 !important;         /* kill any inherited spacing */
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.superbar-list{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.superbar-item{
+  margin: 0 !important;
+}
+
+/* Mobile dropdown: ensure full width as well */
+@media (max-width: 720px){
+  .superbar.is-open .superbar-list{
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+  }
+}
+
+
+
+/* === Super-bar v3 full-bleed fix === */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.superbar{
+  left: 0;
+  right: 0;
+  width: 100vw; /* ensure full viewport width */
+}
+body{ padding-top: var(--superbar-h); }
+
+
+
+/* ===== Super-bar (v2.1) edge-hug fix ===== */
+html, body{
+  margin: 0 !important; /* kill default UA margin to avoid top-left gap */
+}
+
+.superbar{
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.superbar, .superbar-list{
+  border: 0;
+  margin: 0;
+  padding-inline: 0;
+}
+
+.superbar-list{
+  width: 100%;
+}
+
+/* Ensure the dropdown list on mobile also aligns flush with viewport edges */
+@media (max-width: 720px){
+  .superbar-list{
+    left: 0;
+    right: 0;
+  }
+}
+
+
+
+/* ===== Super-bar active item highlight ===== */
+.superbar-item.active a,
+.superbar-item a[aria-current="page"]{
+  outline: 2px solid rgba(255,255,255,0.8);
+  outline-offset: -2px;
+  box-shadow: inset 0 -3px 0 rgba(255,255,255,0.8);
+  font-weight: 700;
+}
+:root[data-theme="light"] .superbar-item.active a{
+  outline: 2px solid rgba(0,0,0,0.4);
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,0.4);
+}
+
+
+
+/* ===== Super-bar active item highlight ===== */
+.superbar-item.active a,
+.superbar-item a[aria-current="page"],
+.superbar-item a[aria-current="true"]{
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+  font-weight: 700;
+  filter: brightness(1.15);
+  /* subtle glow for dark mode */
+  box-shadow: 0 0 6px rgba(0,0,0,0.15);
+  transition: outline-color 0.2s ease, filter 0.2s ease;
+}
+
+
+
+/* ===== Super-bar active item darker highlight ===== */
+.superbar-item.active,
+.superbar-item a[aria-current="page"] {
+  filter: brightness(0.85); /* subtle darker highlight */
+}
+
+.superbar-item.active a,
+.superbar-item a[aria-current="page"] {
+  font-weight: 700;
+  opacity: 1;
+}
+
+
+
+/* ===== Super-bar active item darker highlight ===== */
+.superbar-item.active,
+.superbar-item a[aria-current="page"]{
+  filter: brightness(85%); /* darker to stand out */
+}
+
+
+
+/* ===== Super-bar active item darker highlight ===== */
+.superbar-item.active{
+  filter: brightness(85%); /* subtle darker shade of its own background */
+}
+.superbar-item.active a{
+  opacity: 1;
+  font-weight: 700;
+}
+
+
+/* === Fix: remove inner line/outline on selected Superbar tab === */
+.superbar-item.active a,
+.superbar-item a[aria-current="page"],
+.superbar-item a[aria-current="true"]{
+  outline: none !important;
+  outline-offset: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
+
+/* === Super-bar ACTIVE tab: vertical gradient that blends into site background === */
+/* Remove previous darkening so the gradient is visible */
+.superbar-item.active,
+.superbar-item a[aria-current="page"]{
+  filter: none !important;
+}
+
+/* Base: ensure flat, no outlines/borders for active link */
+.superbar-item.active a,
+.superbar-item a[aria-current="page"],
+.superbar-item a[aria-current="true"]{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Per-tab gradient: from its solid band color at top to a mix with the page background at bottom */
+.superbar-item.active:nth-child(1){ 
+  background: linear-gradient(to bottom, var(--lib1) 0%, color-mix(in oklab, var(--lib1) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(2){ 
+  background: linear-gradient(to bottom, var(--lib2) 0%, color-mix(in oklab, var(--lib2) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(3){ 
+  background: linear-gradient(to bottom, var(--lib3) 0%, color-mix(in oklab, var(--lib3) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(4){ 
+  background: linear-gradient(to bottom, var(--lib4) 0%, color-mix(in oklab, var(--lib4) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(5){ 
+  background: linear-gradient(to bottom, var(--lib5) 0%, color-mix(in oklab, var(--lib5) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(6){ 
+  background: linear-gradient(to bottom, var(--lib6) 0%, color-mix(in oklab, var(--lib6) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(7){ 
+  background: linear-gradient(to bottom, var(--lib7) 0%, color-mix(in oklab, var(--lib7) 20%, var(--bg) 80%) 100%) !important; 
+}
+.superbar-item.active:nth-child(8){ 
+  background: linear-gradient(to bottom, var(--lib8) 0%, color-mix(in oklab, var(--lib8) 20%, var(--bg) 80%) 100%) !important; 
+}
+
+/* Light theme: boost contrast slightly by biasing toward lighter bg */
+:root[data-theme="light"] .superbar-item.active:nth-child(1){
+  background: linear-gradient(to bottom, var(--lib1) 0%, color-mix(in oklab, var(--lib1) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(2){
+  background: linear-gradient(to bottom, var(--lib2) 0%, color-mix(in oklab, var(--lib2) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(3){
+  background: linear-gradient(to bottom, var(--lib3) 0%, color-mix(in oklab, var(--lib3) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(4){
+  background: linear-gradient(to bottom, var(--lib4) 0%, color-mix(in oklab, var(--lib4) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(5){
+  background: linear-gradient(to bottom, var(--lib5) 0%, color-mix(in oklab, var(--lib5) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(6){
+  background: linear-gradient(to bottom, var(--lib6) 0%, color-mix(in oklab, var(--lib6) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(7){
+  background: linear-gradient(to bottom, var(--lib7) 0%, color-mix(in oklab, var(--lib7) 10%, var(--bg) 90%) 100%) !important;
+}
+:root[data-theme="light"] .superbar-item.active:nth-child(8){
+  background: linear-gradient(to bottom, var(--lib8) 0%, color-mix(in oklab, var(--lib8) 10%, var(--bg) 90%) 100%) !important;
+}
+
+
+/* === 2025-09-16: Superbar active item — solid background + gradient text (matches brand) === */
+/* Solid background in both themes (dark: #0e1117, light: #f6f8fb via var(--bg)) */
+.superbar-item.active{
+  background: var(--bg) !important;
+}
+
+/* Gradient text like .brand-gradient */
+.superbar-item.active a{
+  background-image:
+    linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.0) 45%, rgba(255,255,255,0) 60%),
+    linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Ensure non-active items keep normal text color */
+.superbar-item:not(.active) a{
+  -webkit-text-fill-color: initial;
+  color: var(--text);
+  background-image: none;
+}
+
+
+/* === 2025-09-16: Superbar hover effect === */
+.superbar-item:hover {
+  filter: brightness(1.2);
+  transition: filter 0.2s ease;
+}
+
+
+/* === 2025-09-16: Superbar active item rounded bottom corners === */
+.superbar-item.active {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* === 2025-09-16: Superbar neighbor rounding around active item === */
+/* Configurable radius */
+:root { --superbar-radius: 10px; }
+
+/* Ensure items don't show square bleed through rounded edges */
+.superbar-item { 
+  border-radius: 0; 
+  background-clip: padding-box;
+}
+
+/* Active item gets rounded bottom corners */
+.superbar-item.active{
+  border-bottom-left-radius: var(--superbar-radius);
+  border-bottom-right-radius: var(--superbar-radius);
+}
+
+/* Right neighbor of the active item: round bottom-left corner */
+.superbar-item.active + .superbar-item{
+  border-bottom-left-radius: var(--superbar-radius);
+}
+
+/* Left neighbor of the active item: round bottom-right corner
+   Uses :has() for previous-sibling selection (supported in modern browsers). */
+.superbar-item:has(+ .superbar-item.active){
+  border-bottom-right-radius: var(--superbar-radius);
+}
+
+
+/* === 2025-09-16: Superbar ACTIVE item — remove any background gradients and use site background === */
+/* Scope strictly to the currently active superbar item */
+.superbar-item.active{
+  /* flat background matching the site theme */
+  background: var(--bg) !important; /* dark: #0e1117, light: #f6f8fb */
+  background-image: none !important;
+  filter: none !important;
+}
+
+/* Keep gradient text on the active item's label (already set elsewhere) */
+.superbar-item.active a{
+  /* do not touch text styles here; ensure no box effects sneak in */
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Neighbor rounding behavior
+   - Large screens: keep current neighbor rounding (no change)
+   - Small screens (collapsed menu): disable rounding on neighbors only */
+@media (max-width: 720px){
+  .superbar-item.active + .superbar-item{
+    border-bottom-left-radius: 0 !important;
+  }
+  .superbar-item:has(+ .superbar-item.active){
+    border-bottom-right-radius: 0 !important;
+  }
+  /* Do NOT change the active item's own rounding */
+}
+
+/* Ensure non-active items do not inherit any stray backgrounds */
+.superbar-item:not(.active){
+  background-image: none;
+}
+
+
+/* === 2025-09-16 PATCH 2: Strict superbar active item fixes === */
+
+/* Explicitly target light/dark themes */
+html[data-theme='dark'] .superbar-item.active {
+  background-color: #0e1117 !important;
+  background-image: none !important;
+}
+html[data-theme='light'] .superbar-item.active {
+  background-color: #f6f8fb !important;
+  background-image: none !important;
+}
+
+/* Remove any pseudo-element gradient decorations */
+.superbar-item.active::before,
+.superbar-item.active::after {
+  background: none !important;
+  background-image: none !important;
+}
+
+/* Keep text gradient as is: do not override text-color */
+
+/* Remove neighbor rounding in collapsed menu (max-width 720px) without :has */
+@media (max-width: 720px){
+  .superbar-item.active {
+    border-radius: inherit !important; /* keep its own rounding */
+  }
+  .superbar-item.active + .superbar-item,
+  .superbar-item.active + .superbar-item + .superbar-item {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .superbar-item.active,
+  .superbar-item.active ~ .superbar-item {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
+
+/* === 2025-09-16 PATCH 3: Nuke all active-item gradients and fix small-screen rounding === */
+
+/* 1) Kill any per-tab gradient rules that use :nth-child on the active item */
+.superbar-item.active:nth-child(1),
+.superbar-item.active:nth-child(2),
+.superbar-item.active:nth-child(3),
+.superbar-item.active:nth-child(4),
+.superbar-item.active:nth-child(5),
+.superbar-item.active:nth-child(6),
+.superbar-item.active:nth-child(7),
+.superbar-item.active:nth-child(8),
+.superbar-item.active:nth-child(n){
+  background: var(--bg) !important;
+  background-color: var(--bg) !important;
+  background-image: none !important;
+  filter: none !important;
+}
+
+/* Theme-accurate flat backgrounds */
+html[data-theme='dark'] .superbar-item.active,
+html[data-theme='dark'] .superbar-item.active:nth-child(n){
+  background: #0e1117 !important;
+  background-color: #0e1117 !important;
+}
+html[data-theme='light'] .superbar-item.active,
+html[data-theme='light'] .superbar-item.active:nth-child(n){
+  background: #f6f8fb !important;
+  background-color: #f6f8fb !important;
+}
+
+/* Ensure no decorative layers survive */
+.superbar-item.active::before,
+.superbar-item.active::after{
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* 2) Small screens: disable rounding on neighbors (and only neighbors) reliably */
+@media (max-width: 720px){
+  /* Remove any inherited neighbor rounding rules by resetting all, then restore the active */
+  .superbar-item{ border-radius: 0 !important; }
+  .superbar-item.active{ border-radius: var(--superbar-radius) !important; }
+
+  /* Extra safety: explicitly zero the immediate prev/next corners */
+  .superbar-item.active + .superbar-item{ border-radius: 0 !important; }
+  .superbar-item:has(+ .superbar-item.active){ border-radius: 0 !important; }
+}
+
+/* Do NOT touch gradient text styles on the active link; those are defined elsewhere */
+
+
+/* === 2025-09-16 FINAL PATCH: Zero active-item own border-radius on small screens === */
+@media (max-width: 720px){
+  /* Force the active item itself to have square corners */
+  .superbar-item.active{
+    border-radius: 0 !important;
+  }
+}
+
+
+/* === 2025-09-16 PATCH 4: Small-screen rounding stays ONLY on the active tab itself === */
+@media (max-width: 720px){
+  /* Zero any rounding on items and common children to avoid "migration" */
+  .superbar-item,
+  .superbar-item > a,
+  .superbar-item > button,
+  .superbar-item > span,
+  .superbar-item > div{
+    border-radius: 0 !important;
+  }
+
+  /* Keep rounding solely on the active item and mirror it to its direct child (anchor/button) */
+  .superbar-item.active{
+    border-radius: var(--superbar-radius) !important;
+    overflow: hidden;                 /* prevents neighbor paint bleed */
+    background-clip: padding-box;     /* confines background to own box */
+    isolation: isolate;               /* isolates stacking context */
+  }
+  .superbar-item.active > a,
+  .superbar-item.active > button,
+  .superbar-item.active > span,
+  .superbar-item.active > div{
+    border-radius: inherit !important;
+  }
+
+  /* Belt-and-suspenders: make sure any following siblings are perfectly square */
+  .superbar-item.active + .superbar-item,
+  .superbar-item.active ~ .superbar-item{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
+
+/* === 2025-09-16 PATCH 5: FORCE no-gradient on active tab + container-level small-screen rounding fix === */
+
+/* Absolute specificity and theme-accurate, placed last */
+html[data-theme='dark'] .superbar .superbar-list > li.superbar-item.active{
+  background: #0e1117 !important;
+  background-color: #0e1117 !important;
+  background-image: none !important;
+  filter: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+html[data-theme='light'] .superbar .superbar-list > li.superbar-item.active{
+  background: #f6f8fb !important;
+  background-color: #f6f8fb !important;
+  background-image: none !important;
+  filter: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+/* Ensure the active item never picks up color from nth-child blocks */
+.superbar .superbar-list > li.superbar-item.active:nth-child(n){
+  background: var(--bg) !important; /* will be overridden by theme rules above */
+  background-image: none !important;
+}
+
+/* Safety: kill any pseudo-layer visuals on the active item */
+.superbar .superbar-list > li.superbar-item.active::before,
+.superbar .superbar-list > li.superbar-item.active::after{
+  content: none !important;
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* MOBILE: stop rounding migration at the container level */
+@media (max-width: 720px){
+  .superbar, .superbar-list{
+    border-radius: 0 !important;
+    overflow: visible !important; /* avoid clipping illusions */
+  }
+  .superbar .superbar-list > li.superbar-item{ 
+    border-radius: 0 !important; 
+  }
+  /* Only the active LI keeps the rounding; its direct child mirrors it */
+  .superbar .superbar-list > li.superbar-item.active{
+    border-radius: var(--superbar-radius) !important;
+    overflow: hidden;
+    background-clip: padding-box;
+    isolation: isolate;
+  }
+  .superbar .superbar-list > li.superbar-item.active > *{
+    border-radius: inherit !important;
+  }
+  /* All non-active descendants strictly square */
+  .superbar .superbar-list > li.superbar-item:not(.active),
+  .superbar .superbar-list > li.superbar-item:not(.active) *{
+    border-radius: 0 !important;
+  }
+}
+
+
+/* === 2025-09-16 PATCH 6: Super menu text color per theme === */
+html[data-theme='light'] .superbar .superbar-list > li.superbar-item > a{
+  color: #f6f8fb !important; /* light text on light theme for contrast */
+}
+html[data-theme='dark'] .superbar .superbar-list > li.superbar-item > a{
+  color: #0e1117 !important; /* dark text on dark theme for contrast */
+}
+
+
+/* === 2025-09-16 PATCH 7: Superbar text bold === */
+.superbar .superbar-list > li.superbar-item > a{
+  font-weight: 600 !important; /* semi-bold for stronger visual weight */
+}
+
+
+/* Make entire card act as the "Acesse" button */
+.card.card-link{
+  transition: transform 120ms ease, box-shadow 120ms ease, background 160ms ease, color 120ms ease;
+  display:block;
+  text-decoration:none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Hover/Focus: adopt the old button gradient and a subtle expansion */
+\1
+  transform: translateY(-2px) scale(1.015);
+  box-shadow: -4px -4px 8px var(--shadow-hi), 6px 6px 12px var(--shadow-lo);
+  outline: none;
+}
+
+/* Keep title/subtitle readable when gradient is active */
+.card.card-link:hover .subtitle,
+.card.card-link:focus-visible .subtitle{
+  color: rgba(255,255,255,0.92);
+}
+
+/* Disabled state (items without URL) */
+.card[aria-disabled="true"]{
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+
+/* Reduced card size to match title proportions */
+.card{
+  max-width: 260px;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+}
+.card .title-line{
+  font-size: 1rem;
+}
+.card .subtitle{
+  font-size: 0.85rem;
+}
+
+
+/* Press effect on active (mobile tap) */
+.card.card-link:active{
+  transform: translateY(-1px) scale(0.995);
+}
+
+/* Light theme: make text white on hover/focus */
+:root[data-theme='light'] .card.card-link:hover,
+:root[data-theme='light'] .card.card-link:focus-visible {
+  color: #fff;
+}
+:root[data-theme='light'] .card.card-link:hover .subtitle,
+:root[data-theme='light'] .card.card-link:focus-visible .subtitle {
+  color: rgba(255,255,255,0.92);
+}
+
+
+/* Press effect on mobile/touch */
+.card.card-link:active{
+  transform: translateY(0) scale(0.995);
+  box-shadow: 0 2px 6px var(--shadow-lo);
+}
+
+
+/* On LIGHT theme, make text white over the gradient on hover/focus for better contrast */
+:root[data-theme="light"] .card.card-link:hover,
+:root[data-theme="light"] .card.card-link:focus-visible{
+  color: #fff;
+}
+:root[data-theme="light"] .card.card-link:hover .subtitle,
+:root[data-theme="light"] .card.card-link:focus-visible .subtitle{
+  color: rgba(255,255,255,0.92);
+}
+
+
+/* Reduce card size for better proportion with titles */
+.card.card-link{
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+}
+
+/* Press effect for mobile tap */
+.card.card-link:active{
+  transform: translateY(-1px) scale(0.995);
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Light theme: white text on hover */
+body[data-theme='light'] .card.card-link:hover,
+body[data-theme='light'] .card.card-link:focus-visible{
+  color: #fff;
+}
+
+
+/* === Cards: compact sizing & interactions === */
+
+/* 1) Compact card size so they feel proportional to titles */
+.card{
+  padding: 10px;            /* was 12px */
+  min-height: 74px;         /* down from 90px for tighter layout */
+}
+
+/* Slightly compact title/subtitle spacing */
+.card .title-line{ margin-bottom: 4px; }
+.card .subtitle{ margin-bottom: 6px; }
+
+/* 2) Mobile/press feedback on tap */
+.card.card-link:active{
+  transform: translateY(0) scale(0.995);
+  box-shadow:-2px -2px 5px var(--shadow-hi), 4px 4px 9px var(--shadow-lo);
+  transition: transform .04s ease, box-shadow .06s ease;
+}
+
+/* 3) Light theme: force white text on hover/focus so the gradient reads like a button */
+:root[data-theme="light"] .card.card-link:hover,
+:root[data-theme="light"] .card.card-link:focus-visible{
+  color: #fff;
+}
+:root[data-theme="light"] .card.card-link:hover .title-line,
+:root[data-theme="light"] .card.card-link:hover .subtitle,
+:root[data-theme="light"] .card.card-link:focus-visible .title-line,
+:root[data-theme="light"] .card.card-link:focus-visible .subtitle{
+  color: #fff;
+}
+
+/* Ensure favicon and any inline icons don't get dimmed on hover */
+:root[data-theme="light"] .card.card-link:hover .favicon,
+:root[data-theme="light"] .card.card-link:focus-visible .favicon{
+  filter: none;
+}
+
+
+/* === Card size adjustment === */
+.card.card-link {
+  padding: 0.6rem 1rem;
+  min-height: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Make cards appear more line-like */
+.card.card-link .title-line,
+.card.card-link .subtitle {
+  line-height: 1.2;
+}
+
+/* === Press effect for mobile === */
+.card.card-link:active {
+  transform: scale(0.995);
+  transition: transform 0.08s ease-out;
+}
+
+/* === Light theme hover: white text === */
+:root[data-theme="light"] .card.card-link:hover,
+:root[data-theme="light"] .card.card-link:focus-visible {
+  color: #fff;
+}
+:root[data-theme="light"] .card.card-link:hover .subtitle,
+:root[data-theme="light"] .card.card-link:focus-visible .subtitle {
+  color: rgba(255,255,255,0.92);
+}
+
+
+/* === Slimmer card layout: proportionate to titles; more like lines === */
+.card.card-link{
+  padding: 8px 12px;
+  min-height: 48px;
+}
+.card .title-line{ min-height: 0; }
+.card .subtitle{ margin: 2px 0 0; }
+
+/* === Press effect for touch/active === */
+.card.card-link:active{
+  transform: translateY(0) scale(0.995);
+  box-shadow: -2px -2px 4px var(--shadow-hi), 4px 4px 8px var(--shadow-lo);
+  transition: transform .06s ease-out, box-shadow .06s ease-out;
+}
+
+/* === Light theme: make text white on hover/focus for better contrast === */
+[data-theme="light"] .card.card-link:hover,
+[data-theme="light"] .card.card-link:focus-visible{
+  color: #fff;
+}
+
+
+/* === Tweak: slightly smaller card height/padding === */
+.card.card-link{
+  padding: 6px 10px;
+  min-height: 40px;
+}
+
+/* === Ensure hover gradient is preserved and vivid === */
+.card.card-link:hover,
+.card.card-link:focus-visible{
+  background: linear-gradient(90deg,var(--accent1),var(--accent2),var(--accent3));
+  color: #fff;
+}
+
+
+/* === Final tweak: tighten vertical spacing inside card for harmony === */
+.card.card-link{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.card .title-line{ margin: 0; }
+.card .subtitle{ margin: 0; }
+
+
+/* === Harmonize internal spacing: reduce excess bottom margins === */
+.card .title-line{
+  margin: 0 0 2px 0;
+}
+.card .subtitle{
+  margin: 0;
+}
+
+
+/* === Symmetric card spacing === */
+.card.card-link{
+  padding: 8px 12px; /* equal top/bottom for perfect symmetry */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card .title-line,
+.card .subtitle{
+  margin: 0; /* remove all internal margins */
 }

@@ -1,4 +1,28 @@
 
+// === Superbar <-> Sidebar width sync ===
+(function(){
+  try{
+    const root = document.documentElement;
+    const side = document.querySelector('.sidepush, #sidepush, .sidebar, #sidebar');
+    const setW = () => {
+      const w = side ? side.offsetWidth : 0;
+      root.style.setProperty('--sidepush-w', w + 'px');
+    };
+    setW();
+    // Track live changes (collapse/expand)
+    if (window.ResizeObserver){
+      const ro = new ResizeObserver(setW);
+      if (side) ro.observe(side);
+      window.addEventListener('resize', setW, {passive:true});
+    }else{
+      window.addEventListener('resize', setW, {passive:true});
+    }
+  }catch(e){
+    // fail silently; layout still works with full width
+  }
+})();
+
+
 // Helper: update arrow direction and labels
 function updateMenuToggleUi(){
   var btn = document.getElementById('menuToggle'); if(!btn) return;
@@ -225,7 +249,7 @@ function setLang(lang){
   const search = document.getElementById('search'); if(search) search.placeholder = dict.search;
   const catSel = document.getElementById('categoryFilter');
   if(catSel && catSel.options.length) catSel.options[0].textContent = dict.allCats;
-  document.querySelectorAll('.visit').forEach(btn => btn.textContent = dict.visit);
+  // visit buttons removed; no-op
   const totalEl = document.querySelector('.i18n-total'); if(totalEl) totalEl.textContent = dict.total;
   const itemsEl = document.querySelector('.i18n-items'); if(itemsEl) itemsEl.textContent = dict.items;
   const byEl = document.querySelector('.i18n-by'); if(byEl) byEl.textContent = dict.by;
@@ -348,12 +372,26 @@ function createFaviconEl(url, name){
   return span;
 }
 
+
 function createCard(item){
-  const d=document.createElement('div');d.className='card';
-  const parsed=parseCompanyItem(item.name);
+  // Make the whole card a clickable link (like the old "Acesse" button)
+  const d = document.createElement('a');
+  d.className = 'card card-link';
+  d.href = item.url || '#';
+  if (item.url){
+    d.target = '_blank';
+    d.rel = 'noopener noreferrer';
+    d.setAttribute('aria-label', (parseCompanyItem(item.name).item || item.name) + ' — abrir site');
+  }else{
+    d.setAttribute('aria-disabled','true');
+    d.addEventListener('click', (e)=> e.preventDefault());
+    d.title = (getLang()==='en'?'No link available':'Sem link disponível');
+  }
+
+  const parsed = parseCompanyItem(item.name);
 
   // Title with favicon
-  const title=document.createElement('p');title.className='title-line';
+  const title = document.createElement('p'); title.className='title-line';
   const ico = createFaviconEl(item.url, parsed.item); title.appendChild(ico);
   const m = parsed.item.match(/^(.*?)(\s*\(.*\)\s*)$/);
   if(m){
@@ -363,25 +401,20 @@ function createCard(item){
     title.appendChild(document.createTextNode(' '+parsed.item));
   }
   if(isFeatured(item)){
-  var star=document.createElement('span');
-  star.className='featured-star';
-  star.title=(getLang && getLang()==='en'?'Featured':'Destaque');
-  star.textContent='★';
-  title.appendChild(star);
-}
- d.appendChild(title);
+    var star=document.createElement('span');
+    star.className='featured-star';
+    star.title=(getLang && getLang()==='en'?'Featured':'Destaque');
+    star.textContent='★';
+    title.appendChild(star);
+  }
+  d.appendChild(title);
 
   // Subtitle: company (smaller)
   if(parsed.company){
-    const sub=document.createElement('p');sub.className='subtitle';sub.textContent=parsed.company; d.appendChild(sub);
+    const sub=document.createElement('p'); sub.className='subtitle'; sub.textContent=parsed.company; d.appendChild(sub);
   }
 
-  // Actions
-  const actions=document.createElement('div');actions.className='actions';
-  const visit=document.createElement('a');visit.href=item.url||'#';visit.target='_blank';visit.rel='noopener noreferrer';visit.className='visit';visit.textContent=(getLang()==='en'?I18N.en.visit:I18N.pt.visit);
-  if(!item.url){visit.setAttribute('aria-disabled','true');visit.title=getLang()==='en'?'No link available':'Sem link disponível';}
-  actions.appendChild(visit); d.appendChild(actions);
-
+  // No actions/visit button anymore — the card itself is the link
   return d;
 }
 
@@ -1156,4 +1189,48 @@ if (typeof updateMenuToggleUi === 'function') {
       }
     });
   }
+})();
+
+
+// Superbar mobile toggle
+document.addEventListener('DOMContentLoaded', function(){
+  const superbar = document.querySelector('.superbar');
+  const toggle = document.querySelector('.superbar-toggle');
+  if(toggle){
+    toggle.addEventListener('click', () => {
+      superbar.classList.toggle('open');
+    });
+  }
+});
+
+
+// ===== Superbar compact toggle & current label =====
+(function(){
+  const nav = document.querySelector('.superbar');
+  if(!nav) return;
+  const toggle = nav.querySelector('.superbar-toggle');
+  const list = nav.querySelector('.superbar-list');
+  const current = nav.querySelector('.superbar-current');
+
+  // Set current label from active item
+  const active = list.querySelector('.superbar-item.active a') || list.querySelector('.superbar-item a');
+  if (active && current) current.textContent = active.textContent.trim();
+
+  if (toggle){
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  // Close on link click (small screens)
+  list.addEventListener('click', (ev) => {
+    const a = ev.target.closest('a');
+    if(!a) return;
+    if (window.matchMedia('(max-width: 720px)').matches){
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      if (current) current.textContent = a.textContent.trim();
+    }
+  });
 })();
