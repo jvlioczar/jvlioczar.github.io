@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0e1117">
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>A Biblioteca de IAs — Catálogo pesquisável das melhores ferramentas de IA por categoria</title>
+<title>BiblioVerse — A Biblioteca de IAs — Catálogo pesquisável das melhores ferramentas de IA por categoria</title>
 <meta content="Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador." name="description"/>
 <link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/>
 <link href="styles.css" rel="stylesheet"/>
@@ -18,15 +18,15 @@
 
 <!-- Super-bar: 8 equal tabs across the full width -->
 <nav class="superbar" aria-label="Bibliotecas">
-  <div class="superbar-toggle">BiblioVerse - A Biblioteca de Tudo <span class="icon-burger" aria-hidden="true"><i></i><i></i><i></i></span><span class="icon-close" aria-hidden="true">✕</span></div>
+  <div class="superbar-toggle"><span class="superbar-title i18n-superbar-title">BiblioVerse - A Biblioteca de Tudo</span> <span class="icon-burger" aria-hidden="true"><i></i><i></i><i></i></span><span class="icon-close" aria-hidden="true">✕</span></div>
   <ul class="superbar-list">
-    <li class="superbar-item"><a href="#design" aria-current="false">Design</a></li>
-    <li class="superbar-item"><a href="#games" aria-current="false">Games</a></li>
-    <li class="superbar-item"><a href="#idiomas" aria-current="false">Idiomas</a></li>
-        <li class="superbar-item active"><a href="index.html">IA</a></li>
-    <li class="superbar-item"><a href="#musica" aria-current="false">Música</a></li>
-    <li class="superbar-item"><a href="#programacao" aria-current="false">Programação</a></li>
-    <li class="superbar-item"><a href="#redessociais" aria-current="false">Redes Sociais</a></li>
+    <li class="superbar-item"><a href="https://design.biblioverse.org" data-key="design">Design</a></li>
+    <li class="superbar-item"><a href="https://games.biblioverse.org" data-key="games">Games</a></li>
+    <li class="superbar-item"><a href="https://language.biblioverse.org" data-key="language">Idiomas</a></li>
+    <li class="superbar-item active"><a href="https://ai.biblioverse.org" data-key="ai">IA</a></li>
+    <li class="superbar-item"><a href="https://music.biblioverse.org" data-key="music">Música</a></li>
+    <li class="superbar-item"><a href="https://code.biblioverse.org" data-key="coding">Programação</a></li>
+    <li class="superbar-item"><a href="https://social.biblioverse.org" data-key="social">Redes Sociais</a></li>
   </ul>
 </nav>
 
@@ -34,18 +34,26 @@
 <aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button id="menuToggle" class="side-toggle" aria-label="Expandir menu" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
 <div class="header-inner container">
 <div class="brand-wrap">
-<h1 class="brand">
-<a href="#" class="brand-link"><span class="brand-gradient i18n-brand">A Biblioteca de IAs</span></a>
-<span class="beta-badge">
-    BETA
+  <h1 class="brand">
+    <!-- Link apenas no ícone -->
+    <a href="https://biblioverse.org" target="_blank" rel="noopener noreferrer">
+      <img src="images/icon.svg" alt="Logo" class="brand-logo"
+           style="height:23px;width:23px;vertical-align:middle;margin-right:4px;">
+    </a>
+    <!-- Nome do site continua separado -->
+    <a href="#" class="brand-link">
+      <span class="brand-gradient i18n-brand">A Biblioteca de IAs</span>
+    </a>
+    <span class="beta-badge">
+      BETA
+    </span>
+  </h1>
+  <span class="byline">
+    <span class="i18n-by">Idealizada por</span>
+    <a class="bylink" href="https://instagram.com/jvlioczar" rel="noopener noreferrer" target="_blank">Julio Cesar Prava</a>
+    <span class="i18n-and"> &amp;</span>
+    <a class="bylink" href="https://instagram.com/roney_amorim" rel="noopener noreferrer" target="_blank">Roney Amorim</a>
   </span>
-</h1>
-<span class="byline">
-<span class="i18n-by">Idealizada por</span>
-<a class="bylink" href="https://instagram.com/jvlioczar" rel="noopener noreferrer" target="_blank">Julio Cesar Prava</a>
-<span class="i18n-and"> &amp;</span>
-<a class="bylink" href="https://instagram.com/roney_amorim/" rel="noopener noreferrer" target="_blank">Roney Amorim</a>
-</span>
 </div>
 <div class="controls">
 <input autofocus="" class="mono" id="search" placeholder="Buscar por nome" type="search"/>
@@ -76,10 +84,12 @@
 <span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava, construída com ajuda de IA e checada por Roney Amorim.</span>
 </p>
 <p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
 <div class="footer-actions">
 <a class="btn linkedin mono" href="https://linkedin.com/in/juliocesarprava/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
 <button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
 <button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" target="_blank" rel="noopener noreferrer">BiblioVerse</a>
 </div>
 <p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
 </div>
@@ -579,8 +589,8 @@
   },
   {
     "category": "Bibliotecas de IAs",
-    "name": "A Biblioteca de IAs 😉",
-    "url": "https://jvlioczar.github.io/",
+    "name": "BiblioVerse 😉",
+    "url": "https://biblioverse.org/",
     "description": "",
     "tags": [],
     "featured": true

@@ -212,6 +212,7 @@ const I18N = {
     bookmarkShare:"Salve esse projeto nos seus favoritos e compartilhe!",
     thanks:"Obrigado pela visita!",
     lastUpdate:"Última atualização: Setembro/2025",
+    footernav:"Acesse as bibliotecas de outros temas úteis no <strong class=\"bverse-strong\">BiblioVerse</strong>.",
     share:"Compartilhar",
     copied:"Link copiado!",
     favHelp:"Use Ctrl+D (Windows) ou Cmd+D (Mac) para favoritar esta página.",
@@ -229,15 +230,38 @@ const I18N = {
     noResults:"No results.",
     footerLeadPre:"",
     projectName:"The AI Library",
-    footerLeadPost:"project was conceived by Julio Cesar Prava, developed with the help of AI and reviewed by Roney Amorim.",
+    footerLeadPost:"was conceived by Julio Cesar Prava, built with the help of AI, and reviewed by Roney Amorim.",
     bookmarkShare:"Bookmark this project and share it!",
     thanks:"Thanks for visiting!",
     lastUpdate:"Last update: September/2025",
+    footernav:"Access libraries on other useful topics at <strong class=\"bverse-strong\">BiblioVerse</strong>.",
     share:"Share",
     copied:"Link copied!",
     favHelp:"Use Ctrl+D (Windows) or Cmd+D (Mac) to bookmark this page.",
     kbdTitle:
 "Keyboard shortcuts\n/ – Focus the search bar\nT – Toggle theme color\nL – Toggle language\n\n★ – Featured"
+  }
+};
+
+// Labels for the top superbar items
+const SUPERBAR_I18N = {
+  pt: {
+    design: "Design",
+    games: "Games",
+    language: "Idiomas",
+    ai: "IA",
+    music: "Música",
+    coding: "Programação",
+    social: "Redes Sociais"
+  },
+  en: {
+    design: "Design",
+    games: "Games",
+    language: "Language",
+    ai: "AI",
+    music: "Music",
+    coding: "Coding",
+    social: "Social"
   }
 };
 
@@ -259,6 +283,7 @@ function setLang(lang){
   const leadPost = document.querySelector('.i18n-footer-lead-post'); if(leadPost) leadPost.textContent = dict.footerLeadPost;
 
   const fNote = document.querySelector('.i18n-bookmarkShare'); if(fNote) fNote.textContent = dict.bookmarkShare;
+  const fNav = document.querySelector('.i18n-footernav'); if(fNav) fNav.innerHTML = dict.footernav;
   const lastUp = document.querySelector('.i18n-lastupdate'); if(lastUp) lastUp.textContent = dict.lastUpdate;
 
   const fThanks = document.querySelector('.i18n-thanks'); if(fThanks) fThanks.textContent = dict.thanks;
@@ -278,6 +303,27 @@ function setLang(lang){
   if(infoBtn2){ infoBtn2.setAttribute('aria-label', lang==='en' ? 'Information' : 'Informações'); }
   const catSel2 = document.getElementById('categoryFilter');
   if(catSel2){ catSel2.setAttribute('title', lang==='en' ? 'Filter by category' : 'Filtrar por categoria'); }
+
+// Update superbar labels
+  try{
+    const labels = SUPERBAR_I18N[lang] || SUPERBAR_I18N.pt;
+    document.querySelectorAll('.superbar-list [data-key]').forEach(function(a){
+      const key = a.getAttribute('data-key');
+      if (key && labels[key]) { a.textContent = labels[key]; }
+    });
+  }catch(e){}
+
+
+// Localize superbar mobile toggle title
+try{
+  var st = document.querySelector('.superbar .superbar-toggle .i18n-superbar-title');
+  if(st){
+    st.textContent = (lang==='en')
+      ? 'BiblioVerse - The Library of Everything'
+      : 'BiblioVerse - A Biblioteca de Tudo';
+  }
+}catch(e){}
+
 }
 
 
@@ -559,7 +605,7 @@ function ensureTopButton(){
 }
 function updateDocTitleAndMeta(){
   const lang=getLang();
-  const name = lang==='en' ? 'The AI Library' : 'A Biblioteca de IAs';
+  const name = lang==='en' ? 'BiblioVerse — The AI Library' : 'BiblioVerse — A Biblioteca de IAs';
   const desc = lang==='en' ? 'Searchable catalog of the best AI tools by category' : 'Catálogo pesquisável das melhores ferramentas de IA por categoria';
   document.title = name + ' — ' + desc;
   const meta=document.querySelector('meta[name="description"]'); if(meta){ meta.setAttribute('content', desc); }

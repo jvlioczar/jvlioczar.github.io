@@ -1124,7 +1124,7 @@ body {
 
 
 /* ===== Super-bar (v2) adjustments ===== */
-:root{ --superbar-h: 25px; } /* +3px from previous 34px */
+:root{ --superbar-h: 29px; } /* +3px from previous 34px */
 
 .superbar{
   position: fixed; /* always fixed at the very top */
@@ -1786,7 +1786,6 @@ html[data-theme='dark'] .superbar .superbar-list > li.superbar-item > a{
 
 /* Reduced card size to match title proportions */
 .card{
-  max-width: 260px;
   padding: 14px 16px;
   font-size: 0.95rem;
 }
@@ -1945,7 +1944,7 @@ body[data-theme='light'] .card.card-link:focus-visible{
 /* === Tweak: slightly smaller card height/padding === */
 .card.card-link{
   padding: 6px 10px;
-  min-height: 40px;
+  min-height: 38px;
 }
 
 /* === Ensure hover gradient is preserved and vivid === */
@@ -1976,7 +1975,7 @@ body[data-theme='light'] .card.card-link:focus-visible{
 
 /* === Symmetric card spacing === */
 .card.card-link{
-  padding: 8px 12px; /* equal top/bottom for perfect symmetry */
+  padding: 6px 8px; /* equal top/bottom for perfect symmetry */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1994,4 +1993,39 @@ body[data-theme='light'] .card.card-link:focus-visible{
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
   opacity: .9;
+}
+
+
+/* === Mobile full-width cards ===
+   Make cards occupy the full available width (with container padding) on small screens.
+   Keeps the existing design untouched on larger breakpoints. */
+@media (max-width: 640px){
+  .grid{
+    /* Force a single column that stretches across the container */
+    grid-template-columns: 1fr !important;
+  }
+  .card{
+    width: 100% !important;
+    max-width: none !important;
+  }
+  /* Ensure comfortable margins while allowing cards to visually reach the screen edges */
+  .container{
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+}
+
+
+/* Footer emphasis weights */
+.footer .proj-name{ font-weight: 800; }
+.footer .bverse-strong{ font-weight: 800; }
+
+/* BiblioVerse button in footer with brand gradient */
+.btn.bverse{
+  background: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
+  color: #fff;
+}
+.btn.bverse:hover{
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: -3px -3px 6px var(--shadow-hi), 5px 5px 10px var(--shadow-lo);
 }
