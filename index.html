@@ -1,191 +1,3845 @@
 <!DOCTYPE html>
 
-<html data-theme="dark" lang="pt-br">
+<html>
 <head>
+<!-- Ícones principais --><!-- Apple (iOS) -->
+<link href="./images/icon_192.png" rel="apple-touch-icon"/>
+<!-- Preload opcional para o SVG se quiser -->
+<link as="image" href="./images/icon.svg" imagesizes="23px" rel="preload"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>BiblioVerse — A Biblioteca de Tudo</title>
-<meta content="BiblioVerse — A Biblioteca de Tudo. Portal central para acessar as bibliotecas temáticas e conhecer o projeto e seus curadores." data-i18n="meta.description" name="description"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<title>BiblioVerse — A Biblioteca de IAs — Catálogo pesquisável das melhores ferramentas de IA por categoria</title>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<meta content="#0e1117" name="theme-color"/>
+<link href="manifest.webmanifest" rel="manifest"/>
+<meta content="Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="images/logo.svg" rel="icon" type="image/svg+xml"/>
-<link href="styles.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<link href="./manifest.webmanifest" rel="manifest"/>
 </head>
 <body>
-<header class="site-header">
-<div class="container header-inner">
+<!-- Super-bar: 8 equal tabs across the full width -->
+<nav aria-label="Bibliotecas" class="superbar">
+<div class="superbar-toggle"><span class="superbar-title i18n-superbar-title">BiblioVerse - A Biblioteca de Tudo</span> <span aria-hidden="true" class="icon-burger"><i></i><i></i><i></i></span><span aria-hidden="true" class="icon-close">✕</span></div>
+<ul class="superbar-list">
+<li class="superbar-item"><a data-key="design" href="https://design.biblioverse.org">Design</a></li>
+<li class="superbar-item"><a data-key="games" href="https://games.biblioverse.org">Games</a></li>
+<li class="superbar-item"><a data-key="language" href="https://language.biblioverse.org">Idiomas</a></li>
+<li class="superbar-item active"><a data-key="ai" href="https://ai.biblioverse.org">IA</a></li>
+<li class="superbar-item"><a data-key="music" href="https://music.biblioverse.org">Música</a></li>
+<li class="superbar-item"><a data-key="coding" href="https://code.biblioverse.org">Programação</a></li>
+<li class="superbar-item"><a data-key="social" href="https://social.biblioverse.org">Redes Sociais</a></li>
+</ul>
+</nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
 <div class="brand-wrap">
 <h1 class="brand">
-<span class="brand-gradient" data-i18n="brand.name">BiblioVerse</span>
-<span class="beta-badge" data-i18n="brand.beta">BETA</span>
+<!-- Link apenas no ícone -->
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<!-- Nome do site continua separado -->
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de IAs</span>
+</a>
+<span class="beta-badge">
+      BETA
+    </span>
 </h1>
 <span class="byline">
-<span data-i18n="brand.byline.prefix">A biblioteca de tudo</span>
-<span> </span><span data-i18n="brand.byline.suffix"></span>
+<span class="i18n-by">Idealizada por</span>
+<a class="bylink" href="https://instagram.com/jvlioczar" rel="noopener noreferrer" target="_blank">Julio Cesar Prava</a>
+<span class="i18n-and"> &amp;</span>
+<a class="bylink" href="https://instagram.com/roney_amorim" rel="noopener noreferrer" target="_blank">Roney Amorim</a>
 </span>
-</div><div class="controls" role="group">
-<button aria-label="Toggle language" class="toggle" id="langToggle" title="EN/PT">🌐</button>
-<button aria-label="Alternar tema" class="toggle" id="themeToggle">☀️</button>
+</div>
+<div class="controls">
+<input autofocus="" class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
 </div>
 </div>
-</header>
-<main class="container">
-<!-- Hero Logo (200x200, responsivo e centralizado) -->
-<img alt="Logo do BiblioVerse" class="hero-logo" data-i18n-attr="alt:hero.logoAlt" fetchpriority="high" loading="eager" src="images/logo.png"/>
-<!-- Grid de bibliotecas -->
-<section aria-label="Acesso rápido às bibliotecas" data-i18n-attr="aria-label:section.libs.aria">
-<div class="lib-grid" role="list">
-<!-- Ordem alfabética por nome completo (PT) -->
-<a class="lib-card" data-key="coding" href="https://code.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">💻</span>
-<span class="lib-name" data-i18n="libs.coding">Biblioteca de Programação (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="design" href="https://design.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎨</span>
-<span class="lib-name" data-i18n="libs.design">Biblioteca de Design (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="language" href="https://language.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗣️</span>
-<span class="lib-name" data-i18n="libs.language">Biblioteca de Estudo de Idiomas (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="games" href="https://games.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎮</span>
-<span class="lib-name" data-i18n="libs.games">Biblioteca de Games (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="ai" href="https://ai.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🤖</span>
-<span class="lib-name" data-i18n="libs.ai">Biblioteca de IAs</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="music" href="https://music.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎵</span>
-<span class="lib-name" data-i18n="libs.music">Biblioteca de Música (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
-<a class="lib-card" data-key="social" href="https://social.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗺</span>
-<span class="lib-name" data-i18n="libs.social">Biblioteca de Redes Sociais (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
 </div>
-</section>
-<!-- Sobre o projeto (cor oposta) -->
-<section aria-label="Sobre o projeto" class="" data-i18n-attr="aria-label:section.about.aria">
-<h2 class="section-title gradient-title" data-i18n="section.about.title">Sobre o BiblioVerse</h2><div class="about-card"><p data-i18n="section.about.p1">
-        O BiblioVerse é um hub de bibliotecas temáticas com curadoria humana.
-        A missão é simples: <em>acesso rápido, claro e verificado</em> ao melhor conteúdo,
-        em uma interface mínima e veloz. Código aberto, espírito colaborativo.
-      </p><p data-i18n="section.about.p2">
-        Foco em três pilares: utilidade, transparência e performance. Se um link não ajuda,
-        ele não entra. Se ajuda, entra polido — com contexto, ícone e tradução quando couber.
-      </p></div>
-</section>
-<!-- Curadores com filtro por biblioteca -->
-<section aria-label="Curadores" data-i18n-attr="aria-label:section.curators.aria">
-<div class="cur-head">
-<h2 class="section-title gradient-title" data-i18n="section.curators.title">Curadores</h2>
-<label class="sr-only" data-i18n="section.curators.filterLabel" for="libFilter">Filtrar por biblioteca</label>
-<select class="mono" data-i18n-select="section.curators.filterOptions" id="libFilter">
-<option data-i18n="section.curators.all" value="all">Todas as bibliotecas</option>
-<option data-i18n="libs.design.short" value="design">Design</option>
-<option data-i18n="libs.games.short" value="games">Games</option>
-<option data-i18n="libs.language.short" value="language">Idiomas</option>
-<option data-i18n="libs.ai.short" value="ai">IA</option>
-<option data-i18n="libs.music.short" value="music">Música</option>
-<option data-i18n="libs.coding.short" value="coding">Programação</option>
-<option data-i18n="libs.social.short" value="social">Redes Sociais</option>
-</select>
-</div>
-<div class="curators" id="curators" role="list">
-<article class="cur-card" data-libs="language" role="listitem">
-<img alt="Aline Lima" class="cur-photo" loading="lazy" src="images/curadores/aline.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Aline Lima</h3>
-<p class="cur-desc" data-i18n="curators.aline.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com/in/juliocesarprava" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com/jvlioczar" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="social" role="listitem">
-<img alt="Andreza Moras" class="cur-photo" loading="lazy" src="images/curadores/andreza.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Andreza Moras</h3>
-<p class="cur-desc" data-i18n="curators.andreza.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="design, games, language, ai, music, coding, social" role="listitem">
-<img alt="Julio Cesar Prava" class="cur-photo" loading="lazy" src="images/curadores/julio.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Julio Cesar Prava</h3>
-<p class="cur-desc" data-i18n="curators.julio.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com/in/juliocesarprava" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com/jvlioczar" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="coding" role="listitem">
-<img alt="Roney Amorim" class="cur-photo" loading="lazy" src="images/curadores/roney.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Roney Amorim</h3>
-<p class="cur-desc" data-i18n="curators.roney.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="design" role="listitem">
-<img alt="Tainá Rodrigues" class="cur-photo" loading="lazy" src="images/curadores/taina.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Tainá Rodrigues</h3>
-<p class="cur-desc" data-i18n="curators.taina.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="games" role="listitem">
-<img alt="Henrique Mendonça Prado" class="cur-photo" loading="lazy" src="images/curadores/henrique.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Henrique Mendonça Prado</h3>
-<p class="cur-desc" data-i18n="curators.henrique.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-</div>
-</section>
-</main>
+</header><div class="container">
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
 <footer class="footer">
 <div class="footer-inner">
-<div class="footer-count" data-i18n="footer.count">
-        Portal central do <strong class="proj-name">BiblioVerse</strong> — última atualização: Setembro/2025
-      </div>
-<p class="footer-lead" data-i18n="footer.lead">&lt;strong class="proj-name"&gt;BiblioVerse&lt;/strong&gt; é um projeto colaborativo para organizar e facilitar o acesso a bibliotecas úteis em diferentes temas.</p>
-<div class="footer-actions">
-<button class="btn share" data-i18n="actions.share" id="shareBtn" type="button">Compartilhar</button>
+<!-- Total vem primeiro -->
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Setembro/2025</span>
 </div>
-<p class="footer-thanks" data-i18n="footer.thanks">Obrigado pela visita!</p>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de IAs</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava, construída com ajuda de IA e checada por Roney Amorim.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://linkedin.com/in/juliocesarprava/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
 </div>
 </footer>
-<button aria-label="Voltar ao topo" data-i18n-attr="aria-label:actions.toTop;title:actions.toTop" id="toTopBtn" title="Voltar ao topo">
-<svg aria-hidden="true" height="18" viewbox="0 0 24 24" width="18"><path d="M7 14l5-5 5 5"></path></svg>
-</button>
-<script src="script.js"></script>
+</div><script id="preloaded-data" type="application/json">[
+  {
+    "category": "Agentes de IA",
+    "name": "AgentGPT",
+    "url": "https://agentgpt.reworkd.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Amelia",
+    "url": "https://soundhound.com/voice-ai-products/amelia/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "AutoGPT",
+    "url": "https://agpt.co/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Claude",
+    "url": "https://anthropic.com/solutions/agents",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "CrewAI",
+    "url": "https://crewai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Director",
+    "url": "https://director.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Fin",
+    "url": "https://fin.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Forethought",
+    "url": "https://forethought.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Interakt",
+    "url": "https://haptik.ai/interakt",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Kruti",
+    "url": "https://kruti.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Manus",
+    "url": "https://manus.im/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "MyShell",
+    "url": "https://myshell.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Relevance",
+    "url": "https://relevanceai.com/agents",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Runner H",
+    "url": "https://runner.hcompany.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Agentes de IA",
+    "name": "Sierra",
+    "url": "https://sierra.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Beautiful",
+    "url": "https://beautiful.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "ClassPoint",
+    "url": "https://classpoint.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Decktopus",
+    "url": "https://decktopus.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Gamma",
+    "url": "https://gamma.app/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Google Slides",
+    "url": "https://workspace.google.com/products/slides/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Kroma AI",
+    "url": "https://kroma.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "PopAI",
+    "url": "https://popai.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "PowerPoint Copilot",
+    "url": "https://microsoft.com/en-us/microsoft-365/powerpoint/ai-powerpoint-generator",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Prezi AI",
+    "url": "https://prezi.com/features/ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "SlidesAI",
+    "url": "https://slidesai.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Slidesgo",
+    "url": "https://slidesgo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Apresentações com IA",
+    "name": "Tome",
+    "url": "https://tome.app/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Adobe Podcast",
+    "url": "https://podcast.adobe.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "AI Coustics",
+    "url": "https://ai-coustics.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "AIVA",
+    "url": "https://aiva.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Boomy",
+    "url": "https://boomy.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Covers",
+    "url": "https://covers.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Donna AI",
+    "url": "https://musicdonna.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/music",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Lyria",
+    "url": "https://deepmind.google/models/lyria/realtime/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Magenta",
+    "url": "https://magenta.withgoogle.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Moises",
+    "url": "https://moises.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Musicfy",
+    "url": "https://musicfy.lol/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "MusicGen",
+    "url": "https://labs.envato.com/music-gen",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "MusicLM",
+    "url": "https://aitestkitchen.withgoogle.com/experiments/musiclm",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Sonauto",
+    "url": "https://sonauto.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Stable Audio",
+    "url": "https://stability.ai/stable-audio",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Suno",
+    "url": "https://suno.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "Udio",
+    "url": "https://udio.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Áudio com IA",
+    "name": "X-Minus",
+    "url": "https://x-minus.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "Automation Anywhere",
+    "url": "https://automationanywhere.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "IFTTT",
+    "url": "https://ifttt.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "Make",
+    "url": "https://make.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "Microsoft Power Automate",
+    "url": "https://powerautomate.microsoft.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "N8N",
+    "url": "https://n8n.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "UiPath",
+    "url": "https://uipath.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Automação com IA",
+    "name": "Zapier",
+    "url": "https://zapier.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avatar com IA",
+    "name": "Colossyan",
+    "url": "https://colossyan.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avatar com IA",
+    "name": "D-ID",
+    "url": "https://d-id.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avatar com IA",
+    "name": "HeyGen",
+    "url": "https://heygen.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avatar com IA",
+    "name": "Synthesia",
+    "url": "https://synthesia.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avatar com IA",
+    "name": "Synthesys",
+    "url": "https://synthesys.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Banco de imagens com IA",
+    "name": "Adobe Stock",
+    "url": "https://stock.adobe.com/au/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bcontent_type%3Aimage%5D=1&filters%5Bgentech%5D=only&k=ia&order=relevance&limit=100&search_type=filter-select&search_page=1&get_facets=1",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Banco de imagens com IA",
+    "name": "Envato",
+    "url": "https://elements.envato.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Banco de imagens com IA",
+    "name": "Getty Images Generative AI",
+    "url": "https://gettyimages.com/ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Banco de imagens com IA",
+    "name": "Lummi",
+    "url": "https://lummi.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Banco de imagens com IA",
+    "name": "Shutterstock",
+    "url": "https://shutterstock.com/search?image_type=generated",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "Hugging Face Models",
+    "url": "https://huggingface.co/models?sort=likes",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "Kaggle Game Arena",
+    "url": "https://kaggle.com/game-arena",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "LMArena",
+    "url": "https://lmarena.ai/leaderboard",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/rankings",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "Papers with Code",
+    "url": "https://paperswithcode.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Benchmarks de IA",
+    "name": "Stanford HELM",
+    "url": "https://crfm.stanford.edu/helm",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "BiblioVerse 😉",
+    "url": "https://biblioverse.org/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "AI Top Hub",
+    "url": "https://aitophub.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "AI Valley",
+    "url": "https://aivalley.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Easy With AI",
+    "url": "https://easywithai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "EliteAI Tools",
+    "url": "https://eliteai.tools/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Future Tools",
+    "url": "https://futuretools.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Futurepedia",
+    "url": "https://futurepedia.io/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Nextool AI",
+    "url": "https://nextool.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "OpenTools.ai",
+    "url": "https://opentools.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "There's An AI For That",
+    "url": "https://theresanaiforthat.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Toolnest",
+    "url": "https://toolnest.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Bibliotecas de IAs",
+    "name": "Top AI Tools",
+    "url": "https://topai.tools/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Bing Chat",
+    "url": "https://bing.com/new",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Character",
+    "url": "https://character.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Clarice",
+    "url": "https://clarice.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Cohere",
+    "url": "https://dashboard.cohere.com/playground",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Copilot",
+    "url": "https://copilot.microsoft.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "DeepSeek",
+    "url": "https://deepseek.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Gemini (Bard)",
+    "url": "https://gemini.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Granite",
+    "url": "https://ibm.com/granite/playground/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Grok",
+    "url": "https://grok.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Jamba",
+    "url": "https://studio.ai21.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Kimi",
+    "url": "https://kimi.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Le Chat",
+    "url": "https://chat.mistral.ai/chat",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Meta AI",
+    "url": "https://meta.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Nemotron",
+    "url": "https://nemotron.one/chat/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Nova",
+    "url": "https://nova.amazon.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Perplexity",
+    "url": "https://perplexity.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Pi",
+    "url": "https://pi.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Poe",
+    "url": "https://poe.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Qwen",
+    "url": "https://chat.qwen.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Reka",
+    "url": "https://app.reka.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Solar Pro",
+    "url": "https://console.upstage.ai/playground/chat",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "StepFun",
+    "url": "https://stepfun.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Yi-Large",
+    "url": "https://app.fireworks.ai/playground",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Chat com IA",
+    "name": "Z.ai",
+    "url": "https://chat.z.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Currículo com IA",
+    "name": "Kickresume",
+    "url": "https://kickresume.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Currículo com IA",
+    "name": "Resume.io",
+    "url": "https://resume.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Adobe Express",
+    "url": "https://adobe.com/express/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Canva",
+    "url": "https://canva.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Figma",
+    "url": "https://figma.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Freepik",
+    "url": "https://freepik.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Ideogram",
+    "url": "https://ideogram.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Image Farm",
+    "url": "https://imagefarm.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Logo Diffusion",
+    "url": "https://logodiffusion.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Lovart",
+    "url": "https://lovart.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Microsoft Designer",
+    "url": "https://designer.microsoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Playground",
+    "url": "https://playground.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Post Nitro",
+    "url": "https://postnitro.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Recraft",
+    "url": "https://recraft.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Relume",
+    "url": "https://relume.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Spline",
+    "url": "https://spline.design/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "Stockimg",
+    "url": "https://stockimg.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Design com IA",
+    "name": "UX Pilot",
+    "url": "https://uxpilot.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Detetive com IA",
+    "name": "Maltego",
+    "url": "https://maltego.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Detetive com IA",
+    "name": "White Bridge",
+    "url": "http://whitebridge.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Alexandre Chiavegatto Filho",
+    "url": "https://x.com/SaudenoBR",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Andrew Ng",
+    "url": "https://deeplearning.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Danilo Gato",
+    "url": "https://x.com/oDaniloGato/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Diogo Cortiz",
+    "url": "https://x.com/diogocortiz",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Lex Fridman",
+    "url": "https://x.com/lexfridman",
+    "description": "Pesquisador do MIT e podcaster, uma das vozes mais populares no debate público sobre IA.",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Miguel Lannes Fernandes",
+    "url": "https://x.com/inventormiguel_",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Paula Bernardes",
+    "url": "https://x.com/PaulaBernar_des",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Pedro Burgos",
+    "url": "https://x.com/Burgos",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Rachel Woods",
+    "url": "https://x.com/rachel_l_woods",
+    "description": "Ex-Facebook data scientist, CEO na DiviUp Agency e Founder da The AI Exchange.",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Two Minute Papers",
+    "url": "https://youtube.com/@TwoMinutePapers",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Victor Dias",
+    "url": "https://youtube.com/@UniversoProgramado",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Divulgadores de IAs",
+    "name": "Yannic Kilcher",
+    "url": "https://youtube.com/@YannicKilcher",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Curipod",
+    "url": "https://curipod.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Edcafe",
+    "url": "https://edcafe.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Gradescope",
+    "url": "https://gradescope.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Khanmigo",
+    "url": "https://khanmigo.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "MagicSchool",
+    "url": "https://magicschool.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Quizlet Q-Chat",
+    "url": "https://quizlet.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "ScribeHow",
+    "url": "https://scribehow.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Vega",
+    "url": "https://myvega.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Educação com IA",
+    "name": "Wayground",
+    "url": "https://wayground.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Frase",
+    "url": "https://frase.io",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Google Docs",
+    "url": "https://workspace.google.com/products/docs/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Grammarly",
+    "url": "https://grammarly.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Jetpack AI Assistant",
+    "url": "https://jetpack.com/ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Microsoft Word Copilot",
+    "url": "https://microsoft.com/en-us/microsoft-365",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Pinpoint",
+    "url": "https://journaliststudio.google.com/pinpoint/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "ProWritingAid",
+    "url": "https://prowritingaid.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Quillbot",
+    "url": "https://quillbot.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Reword",
+    "url": "https://reword.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Sudowrite",
+    "url": "https://sudowrite.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Type",
+    "url": "https://type.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Wordtune",
+    "url": "https://wordtune.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Escrita com IA",
+    "name": "Writeseed",
+    "url": "https://writeseed.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Ad Auris",
+    "url": "https://adauris.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Azure Speech Service",
+    "url": "https://speech.microsoft.com/portal",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Chatterbox",
+    "url": "https://chatterboxai.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Descript",
+    "url": "https://descript.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Fala com IA",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Fala com IA",
+    "name": "FakeYou",
+    "url": "https://fakeyou.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Fish Audio",
+    "url": "https://fish.audio/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "IBM Watson",
+    "url": "https://ibm.com/br-pt/products/text-to-speech",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Illuminate",
+    "url": "https://illuminate.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Inworld TTS",
+    "url": "https://inworld.ai/tts",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Kokoro",
+    "url": "https://kokorotts.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "LMNT",
+    "url": "https://lmnt.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Luvvoice",
+    "url": "https://luvvoice.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Murf",
+    "url": "https://murf.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Natural Readers",
+    "url": "https://naturalreaders.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Octave",
+    "url": "https://octavetts.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Play AI",
+    "url": "https://play.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "PlayHT",
+    "url": "https://play.ht/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Polly",
+    "url": "https://aws.amazon.com/polly/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Replica Studios",
+    "url": "https://replicastudios.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Resemble AI",
+    "url": "https://resemble.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Speechify",
+    "url": "https://speechify.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Speechma",
+    "url": "https://speechma.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "TopMediai",
+    "url": "https://topmediai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Voicemod",
+    "url": "https://voicemod.net/en/ai-voices/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Wondercraft",
+    "url": "https://wondercraft.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Fala com IA",
+    "name": "Zonos",
+    "url": "https://zonosai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Alexandr Wang",
+    "url": "https://x.com/alexandr_wang",
+    "description": "Fundador e CEO da Scale AI, uma plataforma que usa dados para treinamento para modelos de aprendizado de máquina.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Andrej Karpathy",
+    "url": "https://x.com/karpathy",
+    "description": "Ex-diretor de IA da Tesla e OpenAI, divulgador técnico muito popular.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Dario Amodei",
+    "url": "https://x.com/DarioAmodei",
+    "description": "CEO e cofundador da Anthropic (criadora do Claude).",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "David Holz",
+    "url": "https://x.com/davidsholz",
+    "description": "Fundador e CEO da MidJourney, referência em geração de imagens por IA.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Demis Hassabis",
+    "url": "https://x.com/demishassabis",
+    "description": "CEO e cofundador da DeepMind (Google DeepMind), referência em IA científica.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Emad Mostaque",
+    "url": "https://x.com/EMostaque",
+    "description": "Fundador da Stability AI (Stable Diffusion).",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Fei-Fei Li",
+    "url": "https://x.com/drfeifei",
+    "description": "Professora em Stanford, pioneira no ImageNet e referência global em visão computacional e ética em IA.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Gary Marcus",
+    "url": "https://x.com/garymarcus",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Geoffrey Hinton",
+    "url": "https://x.com/geoffreyhinton",
+    "description": "Ex-Google, conhecido como 'padrinho da IA'; crítico dos riscos da IA avançada.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Ilya Sutskever",
+    "url": "https://x.com/ilyasut",
+    "description": "Cofundador e ex-chief scientist da OpenAI, agora lidera a Safe Superintelligence Inc. (SSI).",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Joy Buolamwini",
+    "url": "https://x.com/jovialjoy",
+    "description": "Fundadora da Algorithmic Justice League, pesquisadora e ativista pela justiça algorítmica.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Logan Kilpatrick",
+    "url": "https://x.com/OfficialLoganK",
+    "description": "Fundadora da Algorithmic Justice League, pesquisadora e ativista pela justiça algorítmica.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Mustafa Suleyman",
+    "url": "https://x.com/mustafasuleymn",
+    "description": "Cofundador da DeepMind, ex-CEO da Inflection AI e atual CEO da Microsoft AI.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Reid Hoffman",
+    "url": "https://x.com/reidhoffman",
+    "description": "Cofundador do LinkedIn e grande investidor em IA (OpenAI, Anthropic, Inflection).",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Sam Altman",
+    "url": "https://x.com/sama",
+    "description": "CEO da OpenAI, voz central no avanço dos modelos de linguagem.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Timnit Gebru",
+    "url": "https://x.com/timnitGebru",
+    "description": "Ex-Google, fundadora do DAIR (Distributed AI Research Institute), destaque nos debates sobre ética e vieses em IA.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Tristan Harris",
+    "url": "https://x.com/tristanharris",
+    "description": "Ex-Google, cofundador do Center for Humane Technology, crítico dos riscos sociais da IA.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Yann LeCun",
+    "url": "https://x.com/ylecun",
+    "description": "Chefe de IA da Meta e um dos ‘pais da deep learning’.",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave da IA",
+    "name": "Yoshua Bengio",
+    "url": "https://x.com/yoshua_bengio",
+    "description": "Pesquisador da Universidade de Montreal, pioneiro em redes neurais profundas.",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "AlphaSense",
+    "url": "https://alpha-sense.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Brightwave",
+    "url": "https://brightwave.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Cleo",
+    "url": "https://cleo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Numerai",
+    "url": "https://numer.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Perplexity Finance",
+    "url": "https://perplexity.ai/finance",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Power Bi",
+    "url": "https://microsoft.com/power-platform/products/power-bi/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "S&P Kensho",
+    "url": "https://spglobal.com/spdji/en/indices/thematics/sp-kensho-global-artificial-intelligence-enablers-index/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Finanças com IA",
+    "name": "Wealthfront",
+    "url": "https://wealthfront.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Any.do",
+    "url": "https://any.do/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Asana",
+    "url": "https://asana.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "BeeDone",
+    "url": "https://beedone.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "ClickUp",
+    "url": "https://clickup.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Clockwise",
+    "url": "https://getclockwise.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Coda",
+    "url": "https://coda.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Jira",
+    "url": "https://atlassian.com/software/jira",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Mapify",
+    "url": "https://mapify.so/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "monday.com",
+    "url": "https://monday.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Motion",
+    "url": "https://usemotion.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Notion",
+    "url": "https://notion.so/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Reclaim",
+    "url": "https://reclaim.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gerenciamento com IA",
+    "name": "Scribe",
+    "url": "https://scribehow.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Adobe",
+    "url": "https://adobe.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Alibaba",
+    "url": "https://alibaba.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Alphabet",
+    "url": "https://abc.xyz/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Amazon",
+    "url": "https://amazon.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Anthropic",
+    "url": "https://anthropic.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Apple",
+    "url": "https://apple.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "ByteDance",
+    "url": "https://bytedance.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Cohere",
+    "url": "https://cohere.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "DeepMind",
+    "url": "https://deepmind.google/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "DeepSeek",
+    "url": "https://deepseek.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Descript",
+    "url": "https://descript.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "IBM",
+    "url": "https://ibm.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Inflection AI",
+    "url": "https://inflection.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Meta",
+    "url": "https://about.meta.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Microsoft",
+    "url": "https://microsoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Midjourney",
+    "url": "https://midjourney.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Nvidia",
+    "url": "https://nvidia.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "OpenAI",
+    "url": "https://openai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Oracle",
+    "url": "https://oracle.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Palantir",
+    "url": "https://palantir.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Perplexity",
+    "url": "https://perplexity.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Scale AI",
+    "url": "https://scale.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "Stability AI",
+    "url": "https://stability.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Grandes empresas de IA",
+    "name": "xAI",
+    "url": "https://x.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "Fal",
+    "url": "https://fal.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "Gemini (Bard)",
+    "url": "https://gemini.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "Grok",
+    "url": "https://grok.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "IA de uso geral",
+    "name": "Meta AI",
+    "url": "https://meta.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Avatalks",
+    "url": "https://avatalks.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Babbel",
+    "url": "https://babbel.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Busuu",
+    "url": "https://busuu.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Duolingo",
+    "url": "https://duolingo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Elsa AI",
+    "url": "https://elsaspeak.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Falou",
+    "url": "https://falou.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "LangDay",
+    "url": "https://langday.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "LanguaTalk",
+    "url": "https://languatalk.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Lingvist",
+    "url": "https://lingvist.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Memrise",
+    "url": "https://memrise.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "MosaLingua",
+    "url": "https://mosalingua.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Praktika",
+    "url": "https://praktika.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Pronounce",
+    "url": "https://getpronounce.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Speaking",
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Talkpal",
+    "url": "https://talkpal.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Idiomas com IA",
+    "name": "Univerbal",
+    "url": "https://univerbal.app/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Aftershoot",
+    "url": "https://aftershoot.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Dreamina",
+    "url": "https://dreamina.capcut.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Enhancor",
+    "url": "https://enhancor.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Firefly",
+    "url": "https://firefly.adobe.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Flux",
+    "url": "https://playground.bfl.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Gemini (Bard)",
+    "url": "https://gemini.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Grok",
+    "url": "https://grok.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Ideogram",
+    "url": "https://ideogram.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Janus Pro",
+    "url": "https://janusai.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Kling",
+    "url": "https://klingai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Kolors",
+    "url": "https://kolors-ai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Krea",
+    "url": "https://krea.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "LetzAI",
+    "url": "https://letz.ai/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Lexica",
+    "url": "https://lexica.art/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Logo Diffusion",
+    "url": "https://logodiffusion.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Luma Photon",
+    "url": "https://lumalabs.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Mage",
+    "url": "https://mage.space/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Magnific AI",
+    "url": "https://magnific.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Midjourney",
+    "url": "https://midjourney.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "NVIDIA Canvas",
+    "url": "https://nvidia.com/studio/canvas/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "OpenArt",
+    "url": "https://openart.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Photoroom",
+    "url": "https://photoroom.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Playground",
+    "url": "https://playground.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Recraft",
+    "url": "https://recraft.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Reve Image",
+    "url": "https://preview.reve.art/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Runware",
+    "url": "https://runware.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "RunDiffusion",
+    "url": "https://rundiffusion.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Seedream",
+    "url": "https://seedream.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Sora",
+    "url": "https://sora.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Spline",
+    "url": "https://spline.design/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Stable Diffusion",
+    "url": "https://stability.ai/stable-image",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Topaz Labs",
+    "url": "https://topazlabs.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Upscale",
+    "url": "https://upscale.media/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Imagem com IA",
+    "name": "Vivago",
+    "url": "https://vivago.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Allen Institute for AI",
+    "url": "https://allenai.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Copilot Labs",
+    "url": "https://copilot.microsoft.com/labs/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Google Labs",
+    "url": "https://labs.google/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Jetson AI Lab",
+    "url": "https://jetson-ai-lab.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Laboratórios de IA",
+    "name": "Replicate",
+    "url": "https://replicate.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "AI Ad Generator",
+    "url": "https://adcreative.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Anyword",
+    "url": "https://anyword.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Attentive",
+    "url": "https://attentive.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Bagel",
+    "url": "https://bagel.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Copy.ai",
+    "url": "https://copy.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Gan AI",
+    "url": "https://gan.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Jasper",
+    "url": "https://jasper.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Krisp",
+    "url": "https://krisp.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "MarketMuse",
+    "url": "https://marketmuse.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Sprout Social",
+    "url": "https://sproutsocial.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Waymark",
+    "url": "https://waymark.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Marketing com IA",
+    "name": "Writesonic",
+    "url": "https://writesonic.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Matemática com IA",
+    "name": "MathGPT",
+    "url": "https://math-gpt.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Matemática com IA",
+    "name": "Photomath",
+    "url": "https://photomath.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Matemática com IA",
+    "name": "Qanda",
+    "url": "https://qanda.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Matemática com IA",
+    "name": "Solvely",
+    "url": "https://solvely.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Arc",
+    "url": "https://arc.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Brave",
+    "url": "https://brave.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Brave",
+    "url": "https://browserbase.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Comet",
+    "url": "https://perplexity.ai/comet/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Dia",
+    "url": "https://diabrowser.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "DuckAssist",
+    "url": "https://duckduckgo.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Edge",
+    "url": "https://microsoft.com/edge/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Firefox",
+    "url": "https://firefox.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Exa",
+    "url": "https://exa.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Fellou",
+    "url": "https://fellou.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Opera One",
+    "url": "https://opera.com/one",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Navegador com IA",
+    "name": "Sigma",
+    "url": "https://sigmabrowser.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Adobe Firefly",
+    "url": "https://firefly.adobe.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Canva Magic Studio",
+    "url": "https://canva.com/ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "ClipDrop",
+    "url": "https://clipdrop.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Fotor",
+    "url": "https://fotor.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Freepik AI",
+    "url": "https://freepik.com/ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Higgsfield",
+    "url": "https://higgsfield.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Krea AI",
+    "url": "https://krea.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Labs Google",
+    "url": "https://labs.google/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Media IO",
+    "url": "https://media.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Microsoft Designer",
+    "url": "https://designer.microsoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Replicate",
+    "url": "https://replicate.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Tencent AI",
+    "url": "https://arc.tencent.com/en/ai-demos/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pacotes de IAs",
+    "name": "Topaz Labs",
+    "url": "https://topazlabs.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Connected Papers",
+    "url": "https://connectedpapers.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Consensus",
+    "url": "https://consensus.app/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Elicit",
+    "url": "https://elicit.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Research Rabbit",
+    "url": "https://researchrabbitapp.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Scispace",
+    "url": "https://scispace.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "scite",
+    "url": "https://scite.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Pesquisa com IA",
+    "name": "Semantic Scholar",
+    "url": "https://semanticscholar.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Alibaba Cloud AI",
+    "url": "https://alibabacloud.com/solutions/ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com/machine-learning/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Anthropic Claude",
+    "url": "https://anthropic.com/claude",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Baidu AI Cloud",
+    "url": "https://cloud.baidu.com/product/ai.html",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "DataRobot",
+    "url": "https://datarobot.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Google Cloud Vertex AI",
+    "url": "https://cloud.google.com/vertex-ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "H2O.ai",
+    "url": "https://h2o.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "IBM Watsonx",
+    "url": "https://ibm.com/watsonx",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "LangChain",
+    "url": "https://langchain.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Microsoft Azure AI",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Nvidia AI Solutions",
+    "url": "https://nvidia.com/en-au/solutions/ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "OpenAI Platform",
+    "url": "https://platform.openai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Oracle Cloud AI",
+    "url": "https://oracle.com/artificial-intelligence/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Salesforce Einstein",
+    "url": "https://salesforce.com/products/einstein/overview/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "SAP AI Core & AI Foundation",
+    "url": "https://sap.com/products/artificial-intelligence.html",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Plataforma de serviços com IA",
+    "name": "Tencent Cloud AI",
+    "url": "https://tencentcloud.com/solutions/ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Base44",
+    "url": "https://base44.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Cline",
+    "url": "https://cline.bot/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Codex",
+    "url": "https://developers.openai.com/codex/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Cursor",
+    "url": "https://cursor.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Devin",
+    "url": "https://devin.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Durable",
+    "url": "https://durable.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Firebase Studio",
+    "url": "https://studio.firebase.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Framer",
+    "url": "https://framer.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "GitHub Copilot",
+    "url": "https://copilot.github.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Google AI Code Generation",
+    "url": "https://cloud.google.com/use-cases/ai-code-generation",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Jules",
+    "url": "https://jules.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Kiro",
+    "url": "https://kiro.dev/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Lovable",
+    "url": "https://lovable.dev/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Mendable",
+    "url": "https://mendable.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "New Relic",
+    "url": "https://newrelic.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Q Developer",
+    "url": "https://aws.amazon.com/q/developer/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Replit",
+    "url": "https://replit.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Screenshot to Code",
+    "url": "https://screenshottocode.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Tabnine",
+    "url": "https://tabnine.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "AIPRM",
+    "url": "https://aiprm.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "OpenSea",
+    "url": "https://opensea.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "PromptBase",
+    "url": "https://promptbase.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "PromptHub",
+    "url": "https://prompthub.us/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "PromptLayer",
+    "url": "https://promptlayer.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Prompting para IA",
+    "name": "PromptPerfect",
+    "url": "https://promptbase.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Programação com IA",
+    "name": "Windsurf (Codeium)",
+    "url": "https://windsurf.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Retratos com IA",
+    "name": "Gemini (Bard)",
+    "url": "https://gemini.google.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Retratos com IA",
+    "name": "Lensa",
+    "url": "https://lensa-ai.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Retratos com IA",
+    "name": "Photo AI",
+    "url": "https://photoai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Retratos com IA",
+    "name": "Remini",
+    "url": "https://remini.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Retratos com IA",
+    "name": "Sora",
+    "url": "https://sora.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Saúde com IA",
+    "name": "Glass Health",
+    "url": "https://glass.health/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Saúde com IA",
+    "name": "Hippocratic AI",
+    "url": "https://hippocraticai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Saúde com IA",
+    "name": "PathAI",
+    "url": "https://pathai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Saúde com IA",
+    "name": "Tempus AI",
+    "url": "https://tempus.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Alessio",
+    "url": "https://instagram.com/lostingans",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Ali Aboutine",
+    "url": "https://instagram.com/aliaboutine/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Ariadna Giménez",
+    "url": "https://instagram.com/khoba_____/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "David Szauder",
+    "url": "https://instagram.com/davidszauder/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Francisco Aguirre",
+    "url": "https://instagram.com/_franciscoaguirre_/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Harold Cohen",
+    "url": "https://en.wikipedia.org/wiki/Harold_Cohen_(artist)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "High Taid",
+    "url": "https://instagram.com/high.taid",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Jay Pirabakaran",
+    "url": "https://instagram.com/jayprints",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Julie Wieland",
+    "url": "https://instagram.com/juliewdesign/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Jyo John Mulloor",
+    "url": "https://instagram.com/jyo_john_mulloor/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Katsukokoiso",
+    "url": "https://instagram.com/katsukokoiso.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Laura Zambelli",
+    "url": "https://instagram.com/lazambelliph",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Liber",
+    "url": "https://instagram.com/liberxx0/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Mac Baconai",
+    "url": "https://instagram.com/macbaconai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Maja Petrić",
+    "url": "https://instagram.com/maja_petric/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Mr. Relative",
+    "url": "https://instagram.com/mr_relative_/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Niceaunties",
+    "url": "https://instagram.com/niceaunties/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Refik Anadol",
+    "url": "https://instagram.com/refikanadol/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Sougwen Chung",
+    "url": "https://instagram.com/sougwen/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Str4ngeThing",
+    "url": "https://instagram.com/str4ngething/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Suzan Valois",
+    "url": "https://instagram.com/iva_ai_popsurreal/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Sintografistas de IA",
+    "name": "Thierry Lechanteur",
+    "url": "https://instagram.com/thierrylechanteur",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "AI alignment",
+    "url": "https://en.wikipedia.org/wiki/AI_alignment",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Algorithm",
+    "url": "https://en.wikipedia.org/wiki/Algorithm",
+    "description": "The set of rules or instructions that guide the functioning of AI",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Algorithmic bias",
+    "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "description": "An unwanted tendency or distortion in AI results, inherited from data or design",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Artificial General Intelligence",
+    "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "description": "The idea of an AI with broad cognitive capacity, like a human",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Artificial Intelligence",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "description": "Systems that simulate forms of human intelligence in machines",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Data",
+    "url": "https://en.wikipedia.org/wiki/Data_(computing)",
+    "description": "The 'fuel' of AI; without it, nothing works",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Deep learning",
+    "url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "description": "Deep neural networks responsible for breakthroughs such as speech recognition, translation, and computer vision",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Explainability",
+    "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "description": "The effort to understand and make transparent the decisions taken by an AI model",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Fine-tuning",
+    "url": "https://en.wikipedia.org/wiki/Fine-tuning_(machine_learning)",
+    "description": "The process of taking a pre-trained model and adjusting it with specific data to make it more suitable for a task or style",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Generative AI",
+    "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+    "description": "Systems capable of creating new content (text, image, audio, video) based on learned patterns",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Hallucination",
+    "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Hyperparameter tuning",
+    "url": "https://en.wikipedia.org/wiki/Hyperparameter_optimization",
+    "description": "The fine adjustment of the 'knobs and levers' of the model (number of layers, learning rate, regularization, etc.), usually done during training to improve performance",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Inference",
+    "url": "https://en.wikipedia.org/wiki/Inference",
+    "description": "The act of AI applying what it has learned to respond or make decisions in real time",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Large Language Models",
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "description": "AIs trained on massive amounts of text to generate and understand natural language",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Machine learning",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "description": "A subfield of AI that teaches systems to learn patterns from data",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Multimodal AI",
+    "url": "https://en.wikipedia.org/wiki/Multimodal_artificial_intelligence",
+    "description": "Models that process different types of input and output simultaneously (text, image, audio, etc.)",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Narrow AI",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Narrow_vs._general_AI",
+    "description": "AIs specialized in a specific task (e.g., movie recommendation, facial recognition)",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Neural networks",
+    "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+    "description": "Structures inspired by the human brain used to learn complex relationships between data",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Overfitting",
+    "url": "https://en.wikipedia.org/wiki/Overfitting",
+    "description": "When an AI learns the details of a dataset so well that it fails to generalize properly",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Prompt engineering",
+    "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+    "description": "The input (question or command) given to a language model",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Reinforcement learning",
+    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Token",
+    "url": "https://en.wikipedia.org/wiki/Tokenization_(lexical_analysis)",
+    "description": "The minimal unit of text used by a language model (can be a word, part of a word, or even a character)",
+    "tags": []
+  },
+  {
+    "category": "Termos de IA",
+    "name": "Training",
+    "url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets",
+    "description": "The process of feeding the AI with data so it can learn patterns",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "Amazon Translate",
+    "url": "https://aws.amazon.com/translate/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "Azure Tradutor",
+    "url": "https://azure.microsoft.com/products/ai-services/ai-translator",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "DeepL",
+    "url": "https://deepl.com/translator",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "Google Translate",
+    "url": "https://translate.google.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "Rask AI",
+    "url": "https://rask.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Tradução com IA",
+    "name": "Unbabel",
+    "url": "https://unbabel.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Aimbly",
+    "url": "https://aimbly.co/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Amazon Transcribe",
+    "url": "https://aws.amazon.com/pm/transcribe",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Azure Speech Service",
+    "url": "https://speech.microsoft.com/portal",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Fireflies",
+    "url": "https://fireflies.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Fireworks",
+    "url": "https://fireworks.ai/platform/voice-agent-platform",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Fish Audio",
+    "url": "https://fish.audio/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Gladia",
+    "url": "https://gladia.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Krisp",
+    "url": "https://krisp.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Laxis",
+    "url": "https://laxis.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Rev",
+    "url": "https://rev.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Summarize",
+    "url": "https://summarize.tech/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Transkriptor",
+    "url": "https://transkriptor.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Voxtral",
+    "url": "https://voxtral.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Transcrição com IA",
+    "name": "Zoom AI",
+    "url": "https://zoom.us/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "AnyVideo",
+    "url": "https://anyvideo.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "ArtificialStudio",
+    "url": "https://artificialstudio.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Artlist",
+    "url": "https://artlist.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "CapCut",
+    "url": "https://capcut.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Captions",
+    "url": "https://captions.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Clipfly",
+    "url": "https://clipfly.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Descript",
+    "url": "https://descript.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Dream Machine",
+    "url": "https://dream-machine.lumalabs.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "FlexClip",
+    "url": "https://flexclip.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Genmo",
+    "url": "https://genmo.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Google Lumiere",
+    "url": "https://lumiere-video.github.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Hailuo",
+    "url": "https://hailuoai.video/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Haiper AI",
+    "url": "https://haiper.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Higgsfield",
+    "url": "https://higgsfield.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Hunyuan Video",
+    "url": "https://hunyuanvideoai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Kaiber",
+    "url": "https://kaiber.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Kapwing",
+    "url": "https://kapwing.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Kling AI",
+    "url": "https://klingai.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Live Portrait",
+    "url": "https://liveportrait.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "LTX",
+    "url": "https://ltx.studio/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Luma Labs",
+    "url": "https://lumalabs.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Midjourney",
+    "url": "https://midjourney.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Mojo",
+    "url": "https://mojo-app.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Odyssey ML",
+    "url": "https://odyssey.systems/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Pika",
+    "url": "https://pika.art/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "PixVerse",
+    "url": "https://app.pixverse.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "pxz",
+    "url": "https://pxz.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Rask",
+    "url": "https://rask.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Runware",
+    "url": "https://runware.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Runway",
+    "url": "https://runwayml.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Seedance",
+    "url": "https://seedanceai.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Sora",
+    "url": "https://sora.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Topaz Labs",
+    "url": "https://topazlabs.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Unboring Reface",
+    "url": "https://reface.ai/unboring/animate",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Veed",
+    "url": "https://veed.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Veo",
+    "url": "https://gemini.google/overview/video-generation/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Vidful",
+    "url": "https://vidful.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Vidnoz",
+    "url": "https://vidnoz.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Vidu",
+    "url": "https://vidu.studio/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Viggle",
+    "url": "https://viggle.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Vivago",
+    "url": "https://vivago.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Vizard",
+    "url": "https://vizard.ai/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Wan",
+    "url": "https://wanai.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Vídeo com IA",
+    "name": "Wondershare Filmora",
+    "url": "https://filmora.wondershare.net",
+    "description": "",
+    "tags": []
+  }
+]</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="./sw-register.js"></script>
 </body>
 </html>
