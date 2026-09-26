@@ -148,9 +148,8 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
 /* Curators */
 .cur-head{ display:flex; gap:12px; align-items:center; justify-content:space-between; }
 .curators{
-  display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; margin-top:10px;
+  display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:12px; margin-top:10px;
 }
-@media (max-width:980px){ .curators{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width:640px){ .curators{ grid-template-columns: 1fr; } }
 
 .cur-card{
