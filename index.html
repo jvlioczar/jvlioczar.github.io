@@ -36,25 +36,20 @@
 <!-- Grid de bibliotecas -->
 <section aria-label="Acesso rápido às bibliotecas" data-i18n-attr="aria-label:section.libs.aria">
 <div class="lib-grid" role="list">
-<!-- Ordem alfabética por nome completo (PT) -->
-<a class="lib-card" data-key="coding" href="https://code.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">💻</span>
-<span class="lib-name" data-i18n="libs.coding">Biblioteca de Programação (em construção)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
-</a>
+<!-- Ordem alfabética pelo nome curto do tema (PT) -->
 <a class="lib-card" data-key="design" href="https://design.biblioverse.org" rel="noopener" role="listitem" target="_blank">
 <span class="favicon">🎨</span>
 <span class="lib-name" data-i18n="libs.design">Biblioteca de Design</span>
 <span aria-hidden="true" class="lib-visit">↗</span>
 </a>
-<a class="lib-card" data-key="language" href="https://language.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗣️</span>
-<span class="lib-name" data-i18n="libs.language">Biblioteca de Estudo de Idiomas (em construção)</span>
+<a class="lib-card" data-key="philosophy" href="https://philosophy.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<span class="favicon">🦉</span>
+<span class="lib-name" data-i18n="libs.philosophy">Biblioteca de Filosofia</span>
 <span aria-hidden="true" class="lib-visit">↗</span>
 </a>
 <a class="lib-card" data-key="games" href="https://games.biblioverse.org" rel="noopener" role="listitem" target="_blank">
 <span class="favicon">🎮</span>
-<span class="lib-name" data-i18n="libs.games">Biblioteca de Games (em construção)</span>
+<span class="lib-name" data-i18n="libs.games">Biblioteca de Games</span>
 <span aria-hidden="true" class="lib-visit">↗</span>
 </a>
 <a class="lib-card" data-key="ai" href="https://ai.biblioverse.org" rel="noopener" role="listitem" target="_blank">
@@ -62,9 +57,24 @@
 <span class="lib-name" data-i18n="libs.ai">Biblioteca de IAs</span>
 <span aria-hidden="true" class="lib-visit">↗</span>
 </a>
+<a class="lib-card" data-key="language" href="https://language.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<span class="favicon">🗣️</span>
+<span class="lib-name" data-i18n="libs.language">Biblioteca de Estudo de Idiomas</span>
+<span aria-hidden="true" class="lib-visit">↗</span>
+</a>
 <a class="lib-card" data-key="music" href="https://music.biblioverse.org" rel="noopener" role="listitem" target="_blank">
 <span class="favicon">🎵</span>
-<span class="lib-name" data-i18n="libs.music">Biblioteca de Música (em construção)</span>
+<span class="lib-name" data-i18n="libs.music">Biblioteca de Música</span>
+<span aria-hidden="true" class="lib-visit">↗</span>
+</a>
+<a class="lib-card" data-key="coding" href="https://code.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<span class="favicon">💻</span>
+<span class="lib-name" data-i18n="libs.coding">Biblioteca de Programação</span>
+<span aria-hidden="true" class="lib-visit">↗</span>
+</a>
+<a class="lib-card" data-key="thinking" href="https://thinking.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<span class="favicon">🧠</span>
+<span class="lib-name" data-i18n="libs.thinking">Biblioteca de Racionalidade</span>
 <span aria-hidden="true" class="lib-visit">↗</span>
 </a>
 <a class="lib-card" data-key="social" href="https://social.biblioverse.org" rel="noopener" role="listitem" target="_blank">
@@ -93,11 +103,13 @@
 <select class="mono" data-i18n-select="section.curators.filterOptions" id="libFilter">
 <option data-i18n="section.curators.all" value="all">Todas as bibliotecas</option>
 <option data-i18n="libs.design.short" value="design">Design</option>
+<option data-i18n="libs.philosophy.short" value="philosophy">Filosofia</option>
 <option data-i18n="libs.games.short" value="games">Games</option>
 <option data-i18n="libs.language.short" value="language">Idiomas</option>
 <option data-i18n="libs.ai.short" value="ai">IA</option>
 <option data-i18n="libs.music.short" value="music">Música</option>
 <option data-i18n="libs.coding.short" value="coding">Programação</option>
+<option data-i18n="libs.thinking.short" value="thinking">Racionalidade</option>
 <option data-i18n="libs.social.short" value="social">Redes Sociais</option>
 </select>
 </div>
@@ -113,18 +125,7 @@
 </div>
 </div>
 </article>
-<article class="cur-card" data-libs="social" role="listitem">
-<img alt="Andreza Moras" class="cur-photo" loading="lazy" src="images/curadores/andreza.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Andreza Moras</h3>
-<p class="cur-desc" data-i18n="curators.andreza.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="design, games, language, ai, music, coding, social" role="listitem">
+<article class="cur-card" data-libs="design, philosophy, games, language, ai, music, coding, thinking, social" role="listitem">
 <img alt="Julio Cesar Prava" class="cur-photo" loading="lazy" src="images/curadores/julio.jpg"/>
 <div class="cur-meta">
 <h3 class="cur-name">Julio Cesar Prava</h3>
@@ -135,33 +136,11 @@
 </div>
 </div>
 </article>
-<article class="cur-card" data-libs="coding" role="listitem">
+<article class="cur-card" data-libs="ai, coding" role="listitem">
 <img alt="Roney Amorim" class="cur-photo" loading="lazy" src="images/curadores/roney.jpg"/>
 <div class="cur-meta">
 <h3 class="cur-name">Roney Amorim</h3>
 <p class="cur-desc" data-i18n="curators.roney.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="design" role="listitem">
-<img alt="Tainá Rodrigues" class="cur-photo" loading="lazy" src="images/curadores/taina.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Tainá Rodrigues</h3>
-<p class="cur-desc" data-i18n="curators.taina.desc">Eu estou preparando minha descrição.</p>
-<div class="cur-links">
-<a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
-<a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-</div>
-</div>
-</article>
-<article class="cur-card" data-libs="games" role="listitem">
-<img alt="Henrique Mendonça Prado" class="cur-photo" loading="lazy" src="images/curadores/henrique.jpg"/>
-<div class="cur-meta">
-<h3 class="cur-name">Henrique Mendonça Prado</h3>
-<p class="cur-desc" data-i18n="curators.henrique.desc">Eu estou preparando minha descrição.</p>
 <div class="cur-links">
 <a class="btn" data-i18n="links.linkedin" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a>
 <a class="btn" data-i18n="links.instagram" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
@@ -174,7 +153,7 @@
 <footer class="footer">
 <div class="footer-inner">
 <div class="footer-count" data-i18n="footer.count">
-        Portal central do <strong class="proj-name">BiblioVerse</strong> — última atualização: Fevereiro/2026
+        Portal central do <strong class="proj-name">BiblioVerse</strong> — última atualização: Setembro/2026
       </div>
 <p class="footer-lead" data-i18n="footer.lead">&lt;strong class="proj-name"&gt;BiblioVerse&lt;/strong&gt; é um projeto colaborativo para organizar e facilitar o acesso a bibliotecas úteis em diferentes temas.</p>
 <div class="footer-actions">
