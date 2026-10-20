@@ -23,7 +23,7 @@
       'groups.special': 'Projetos Especiais',
       'special.goats': 'GOATs',
       'special.lfb': 'Lendas do Futebol Brasileiro (LFB)',
-      'special.biggestclubs': 'The Biggest Clubs in World Football',
+      'special.biggestclubs': 'Os Maiores Clubes do Futebol Mundial',
       'libs.design': 'Biblioteca de Design',
       'libs.design.short': 'Design',
       'libs.language': 'Biblioteca de Estudo de Idiomas',

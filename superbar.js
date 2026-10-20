@@ -71,7 +71,7 @@
     // Projetos especiais
     { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' }, tags: 'goat maiores de todos os tempos greatest of all time esporte sports' },
     { key: 'lfb',          group: 'special', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' }, tags: 'lfb futebol football soccer brasil brazil jogadores players' },
-    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'The Biggest Clubs in World Football', en: 'The Biggest Clubs in World Football' }, tags: 'maiores clubes futebol football soccer times ranking' }
+    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' }, tags: 'maiores clubes futebol football soccer times ranking' }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
