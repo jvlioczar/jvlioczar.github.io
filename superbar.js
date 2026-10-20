@@ -53,7 +53,7 @@
   var BV_LIBS = [
     { key: 'ai',          group: 'tech',      icon: '🤖', url: 'https://ai.biblioverse.org',          name: { pt: 'IA', en: 'AI', es: 'IA', fr: 'IA', de: 'KI', it: 'IA' }, tags: 'inteligencia artificial artificial intelligence chatgpt' },
     { key: 'coding',      group: 'tech',      icon: '💻', url: 'https://code.biblioverse.org',        name: { pt: 'Programação', en: 'Coding', es: 'Programación', fr: 'Programmation', de: 'Programmierung', it: 'Programmazione' }, tags: 'programming code codigo desenvolvimento software dev' },
-    { key: 'data',        group: 'tech',      icon: '📊', url: 'https://data.biblioverse.org',        name: { pt: 'Dados', en: 'Data', es: 'Datos', fr: 'Données', de: 'Daten', it: 'Dati' }, tags: 'estatistica statistics analytics planilhas' },
+    { key: 'data',        group: 'knowledge', icon: '📊', url: 'https://data.biblioverse.org',        name: { pt: 'Dados', en: 'Data', es: 'Datos', fr: 'Données', de: 'Daten', it: 'Dati' }, tags: 'estatistica statistics analytics planilhas' },
     { key: 'web3',        group: 'tech',      icon: '🔗', url: 'https://web3.biblioverse.org',        name: { pt: 'Web3', en: 'Web3' }, tags: 'blockchain cripto crypto bitcoin ethereum defi nft' },
     { key: 'design',      group: 'creative',  icon: '🎨', url: 'https://design.biblioverse.org',      name: { pt: 'Design', en: 'Design', es: 'Diseño', fr: 'Design', de: 'Design', it: 'Design' }, tags: 'grafico graphic ux ui tipografia typography' },
     { key: 'photography', group: 'creative',  icon: '📷', url: 'https://photography.biblioverse.org', name: { pt: 'Fotografia', en: 'Photography', es: 'Fotografía', fr: 'Photographie', de: 'Fotografie', it: 'Fotografia' }, tags: 'foto photo camera' },
@@ -66,7 +66,7 @@
     { key: 'thinking',    group: 'knowledge', icon: '🧠', url: 'https://thinking.biblioverse.org',    name: { pt: 'Racionalidade', en: 'Rationality', es: 'Racionalidad', fr: 'Rationalité', de: 'Rationalität', it: 'Razionalità' }, tags: 'pensamento critico critical thinking evidencias' },
     { key: 'job',         group: 'life',      icon: '💼', url: 'https://job.biblioverse.org',         name: { pt: 'Emprego', en: 'Jobs', es: 'Empleo', fr: 'Emploi', de: 'Jobs', it: 'Lavoro' }, tags: 'carreira career vagas trabalho work' },
     { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' }, tags: 'produtividade productivity gestao' },
-    { key: 'social',      group: 'life',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' }, tags: 'social media' },
+    { key: 'social',      group: 'tech',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' }, tags: 'social media' },
     { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' }, tags: 'viajar turismo trip' },
     // Projetos especiais
     { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' }, tags: 'goat maiores de todos os tempos greatest of all time esporte sports' },
