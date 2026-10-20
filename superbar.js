@@ -122,6 +122,11 @@
     ' background:var(--p-bg);color:var(--p-text);border:1px solid var(--p-border);border-radius:16px;box-shadow:0 18px 50px rgba(0,0,0,.35);padding:14px;',
     ' font-family:' + FONT + ';font-size:14px;line-height:1.25;display:none;text-align:left;}',
     '.bvbar-panel.is-open{display:block;}',
+    // rolagem do painel com o gradiente da marca
+    '.bvbar-panel::-webkit-scrollbar{width:10px;}',
+    '.bvbar-panel::-webkit-scrollbar-track{background:transparent;margin:14px 0;}',
+    '.bvbar-panel::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--accent1,#4f7cff),var(--accent2,#7a5cff),var(--accent3,#b445ff));border:2px solid var(--p-bg);background-clip:padding-box;border-radius:999px;}',
+    '@supports not selector(::-webkit-scrollbar){.bvbar-panel{scrollbar-width:thin;scrollbar-color:var(--accent2,#7a5cff) transparent;}}',
     '.bvbar-top{display:flex;gap:8px;align-items:center;position:sticky;top:-14px;margin:-14px -14px 4px;padding:14px 14px 8px;background:var(--p-bg);z-index:1;}',
     '.bvbar-search{flex:1;min-width:0;height:42px;border-radius:12px;border:1px solid var(--p-border);background:var(--p-soft);color:var(--p-text);padding:0 12px;font:inherit;font-size:16px;outline:none;-webkit-appearance:none;appearance:none;}',
     '.bvbar-search:focus{border-color:var(--accent1,#4f7cff);box-shadow:0 0 0 3px rgba(79,124,255,.25);}',

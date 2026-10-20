@@ -226,7 +226,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
 }
 
 /* i18n toggle spacing */
-.controls .toggle#langToggle{ margin-right:8px; }
+
 
 
 /* Identity-aligned select (libraries filter) */
@@ -501,6 +501,21 @@ html.about-open{ overflow:hidden; }
 /* Celular: botões do header numa linha própria abaixo do título (não sobrepõem o nome) */
 @media (max-width:720px){
   .site-header .controls{ position:static; transform:none; justify-content:flex-start; }
+}
+
+/* Divisória entre [Sobre, LinkedIn] e [idioma, tema] */
+.controls-sep{ width:1px; height:24px; flex:none; margin:0 4px; background:var(--muted); opacity:.35; border-radius:1px; }
+
+/* Barra de rolagem com a identidade do site (gradiente da marca): página e painel Sobre */
+html::-webkit-scrollbar{ width:12px; }
+html::-webkit-scrollbar-track{ background:var(--bg); }
+html::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,var(--accent1),var(--accent2),var(--accent3));
+  border:3px solid var(--bg); background-clip:padding-box; border-radius:999px;
+}
+html::-webkit-scrollbar-thumb:hover{ border-width:2px; }
+@supports not selector(::-webkit-scrollbar){
+  html{ scrollbar-color:var(--accent2) var(--bg); }
 }
 
 /* Scroll do painel Sobre com a identidade do site (gradiente da marca) */
