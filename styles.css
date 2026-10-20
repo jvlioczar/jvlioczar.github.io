@@ -93,6 +93,13 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
 /* Gral crumbs removed */
 
 /* Library grid */
+/* Grupos de bibliotecas (mesmos da superbar) */
+.lib-group + .lib-group{ margin-top: 22px; }
+.lib-group-title{
+  margin: 0 0 10px 2px; font-size: 12px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+}
+
 .lib-grid{
   display:grid;
   grid-template-columns: repeat(3, minmax(0,1fr));
@@ -161,6 +168,15 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:14px/1.
   box-shadow:-3px -3px 6px var(--shadow-hi), 5px 5px 10px var(--shadow-lo);
 }
 .cur-photo{ width:72px; height:72px; border-radius:12px; object-fit:cover; border:1px solid var(--border); }
+/* Símbolo do curador (no lugar da foto) */
+.cur-symbol{
+  width:72px; height:72px; flex:none; border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  background: linear-gradient(135deg,var(--accent1),var(--accent2),var(--accent3));
+  color:#fff; font-size:30px; font-weight:700; line-height:1;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
+  user-select:none;
+}
 .cur-name{ margin:0 0 4px 0; font-size:16px; }
 .cur-desc{ margin:0 0 8px 0; color:var(--muted); font-size:13px; }
 .cur-links{ display:flex; gap:8px; flex-wrap:wrap }

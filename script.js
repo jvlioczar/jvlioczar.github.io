@@ -4,7 +4,7 @@
   const langToggle  = document.getElementById('langToggle');
   const libFilter   = document.getElementById('libFilter');
   const curators    = document.getElementById('curators');
-  const libGrid     = document.querySelector('.lib-grid');
+  const libGrids    = document.querySelectorAll('.lib-grid');
 
   // ===== Dictionaries =====
   const I18N = {
@@ -16,6 +16,11 @@
       'brand.byline.prefix': 'A biblioteca de tudo',
       'hero.logoAlt': 'Logo do BiblioVerse',
       'section.libs.aria': 'Acesso rápido às bibliotecas',
+      'groups.tech': 'Tecnologia',
+      'groups.creative': 'Criatividade',
+      'groups.culture': 'Cultura e lazer',
+      'groups.knowledge': 'Conhecimento',
+      'groups.life': 'Vida prática',
       'libs.design': 'Biblioteca de Design',
       'libs.design.short': 'Design',
       'libs.language': 'Biblioteca de Estudo de Idiomas',
@@ -79,6 +84,11 @@
       'brand.byline.suffix': '',
       'hero.logoAlt': 'BiblioVerse logo',
       'section.libs.aria': 'Quick access to libraries',
+      'groups.tech': 'Technology',
+      'groups.creative': 'Creativity',
+      'groups.culture': 'Culture & Leisure',
+      'groups.knowledge': 'Knowledge',
+      'groups.life': 'Everyday Life',
       'libs.design': 'Design Library',
       'libs.design.short': 'Design',
       'libs.language': 'Language Study Library',
@@ -176,20 +186,21 @@
     return txt.normalize('NFD').replace(/\p{Diacritic}/gu, '');
   }
 
-  // ===== Sorting: library cards =====
+  // ===== Sorting: library cards (inside each group) =====
   function sortLibCards(lang){
-    if(!libGrid) return;
-    const cards = Array.from(libGrid.querySelectorAll('.lib-card'));
-    cards.sort((a,b)=>{
-      // Ordena pelo nome curto do tema (ignora "Biblioteca da/de")
-      const shortOf = el => { const k = el.getAttribute('data-i18n') + '.short'; return (I18N[lang] && I18N[lang][k]) || getI18nText(el, lang); };
-      const aText = shortOf(a.querySelector('.lib-name'));
-      const bText = shortOf(b.querySelector('.lib-name'));
-      return aText.localeCompare(bText, lang === 'en' ? 'en' : 'pt-BR', {sensitivity:'base'});
+    // Ordena pelo nome curto do tema (ignora "Biblioteca da/de")
+    const shortOf = el => { const k = el.getAttribute('data-i18n') + '.short'; return (I18N[lang] && I18N[lang][k]) || getI18nText(el, lang); };
+    libGrids.forEach(grid => {
+      const cards = Array.from(grid.querySelectorAll('.lib-card'));
+      cards.sort((a,b)=>{
+        const aText = shortOf(a.querySelector('.lib-name'));
+        const bText = shortOf(b.querySelector('.lib-name'));
+        return aText.localeCompare(bText, lang === 'en' ? 'en' : 'pt-BR', {sensitivity:'base'});
+      });
+      const frag = document.createDocumentFragment();
+      cards.forEach(c => frag.appendChild(c));
+      grid.appendChild(frag);
     });
-    const frag = document.createDocumentFragment();
-    cards.forEach(c => frag.appendChild(c));
-    libGrid.appendChild(frag);
   }
 
   // ===== Sorting: filter select options =====

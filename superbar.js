@@ -90,7 +90,8 @@
     '.bvbar a,.bvbar button{color:#fff;font:inherit;margin:0;}',
     '.bvbar button{-webkit-tap-highlight-color:transparent;}',
     '.bvbar-home{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;white-space:nowrap;flex:none;min-height:36px;}',
-    '.bvbar-home img{width:22px;height:22px;display:block;border-radius:6px;}',
+    // ícone sobre um chip branco: o logo em gradiente azul/roxo some contra a barra da mesma cor
+    '.bvbar-home img{width:28px;height:28px;display:block;padding:3px;border-radius:8px;background:#fff;object-fit:contain;box-shadow:0 1px 3px rgba(5,8,15,.3);flex:none;}',
     '.bvbar-sep{opacity:.6;flex:none;}',
     '.bvbar-pill{display:inline-flex;align-items:center;gap:6px;border:0;background:rgba(255,255,255,.16);height:32px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:background .15s;}',
     '.bvbar-pill:hover{background:rgba(255,255,255,.28);}',
@@ -185,7 +186,7 @@
     nav.innerHTML = '';
     nav.classList.add('bvbar');
     var home = el('a', 'bvbar-home'); home.href = HOME;
-    var img = el('img'); img.src = nav.getAttribute('data-logo') || DEFAULT_LOGO; img.alt = ''; img.width = 22; img.height = 22;
+    var img = el('img'); img.src = nav.getAttribute('data-logo') || DEFAULT_LOGO; img.alt = ''; img.width = 28; img.height = 28;
     img.onerror = function () { img.style.display = 'none'; };
     home.appendChild(img); home.appendChild(el('span', 'txt', 'BiblioVerse'));
     nav.appendChild(home);
