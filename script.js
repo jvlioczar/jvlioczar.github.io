@@ -58,6 +58,15 @@
       'section.about.title': 'Sobre o BiblioVerse',
       'section.about.p1': 'O BiblioVerse é um hub de bibliotecas temáticas com curadoria humana. A missão é simples: <em>acesso rápido, claro e verificado</em> ao melhor conteúdo, em uma interface mínima e veloz. Código aberto, espírito colaborativo.',
       'section.about.p2': 'Foco em três pilares: utilidade, transparência e performance. Se um link não ajuda, ele não entra. Se ajuda, entra polido — com contexto, ícone e tradução quando couber.',
+      'section.creator.aria': 'Sobre o criador',
+      'section.creator.title': 'Sobre o criador',
+      'section.creator.p1': 'O BiblioVerse nasceu de um hábito antigo de Julio Cesar Prava: há anos ele anota em planilhas do Google os melhores sites, aplicativos, blogs e ferramentas para designers. Com o início do boom da inteligência artificial, uma segunda biblioteca começou — e, a partir dela, todas as outras ideias vieram à tona.',
+      'section.creator.p2': 'Curador e organizador de informação nato, Julio tem como valores a busca do bem comum e da cooperação, a transparência, a informação livre, o acesso ao conhecimento, a inclusão digital e o pensamento crítico. É fã de projetos como a Wikipédia.',
+      'about.title': 'Sobre',
+      'actions.about': 'Sobre',
+      'actions.close': 'Fechar',
+      'links.companyLinkedin': 'BiblioVerse no LinkedIn',
+      'links.creatorLinkedin': 'LinkedIn do Julio',
       'section.curators.aria': 'Curadores',
       'section.curators.title': 'Curadores',
       'section.curators.filterLabel': 'Filtrar por biblioteca',
@@ -125,6 +134,15 @@
       'section.about.title': 'About BiblioVerse',
       'section.about.p1': 'BiblioVerse is a hub of themed libraries curated by humans. The mission is simple: <em>fast, clear, verified access</em> to the best content, in a minimal and fast interface. Open-source, collaborative spirit.',
       'section.about.p2': 'We focus on three pillars: usefulness, transparency, and performance. If a link doesn\'t help, it\'s out. If it helps, it comes polished — with context, icon and translation when relevant.',
+      'section.creator.aria': 'About the creator',
+      'section.creator.title': 'About the creator',
+      'section.creator.p1': 'BiblioVerse grew out of a long-standing habit of Julio Cesar Prava: for years he has been noting down, in Google Sheets, the best websites, apps, blogs and tools for designers. When the AI boom began, a second library was started — and from there, all the other ideas came to light.',
+      'section.creator.p2': 'A born curator and organizer of information, Julio values the pursuit of the common good and cooperation, transparency, free information, access to knowledge, digital inclusion and critical thinking. He is a fan of projects like Wikipedia.',
+      'about.title': 'About',
+      'actions.about': 'About',
+      'actions.close': 'Close',
+      'links.companyLinkedin': 'BiblioVerse on LinkedIn',
+      'links.creatorLinkedin': "Julio's LinkedIn",
       'section.curators.aria': 'Curators',
       'section.curators.title': 'Curators',
       'section.curators.filterLabel': 'Filter by library',
@@ -312,9 +330,39 @@
     }, { passive: false });
   }
 
+  // ===== About modal (header "Sobre" button) =====
+  function setupAbout(){
+    const btn = document.getElementById('aboutToggle');
+    const modal = document.getElementById('aboutModal');
+    if(!btn || !modal) return;
+    const sheet = modal.querySelector('.about-sheet');
+    const closeBtn = document.getElementById('aboutClose');
+    const open = () => {
+      modal.hidden = false;
+      modal.setAttribute('aria-hidden', 'false');
+      btn.setAttribute('aria-expanded', 'true');
+      root.classList.add('about-open');
+      sheet.scrollTop = 0;
+      (closeBtn || sheet).focus();
+    };
+    const close = () => {
+      if(modal.hidden) return;
+      modal.hidden = true;
+      modal.setAttribute('aria-hidden', 'true');
+      btn.setAttribute('aria-expanded', 'false');
+      root.classList.remove('about-open');
+      btn.focus();
+    };
+    btn.addEventListener('click', () => modal.hidden ? open() : close());
+    if(closeBtn) closeBtn.addEventListener('click', close);
+    modal.addEventListener('click', ev => { if(ev.target === modal) close(); });
+    document.addEventListener('keydown', ev => { if(ev.key === 'Escape') close(); });
+  }
+
   // ===== Bootstrap =====
   document.addEventListener('DOMContentLoaded', () => {
     setupShare();
+    setupAbout();
     applyTheme(curTheme);
     applyI18n(curLang);
 

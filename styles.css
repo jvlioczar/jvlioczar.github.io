@@ -457,3 +457,48 @@ section { margin-top: 10px; }
 .btn-share-gradient:active {
   transform: scale(0.985);
 }
+
+
+/* ===== Sobre (painel aberto pelo botão do header) ===== */
+.about-toggle{ font-weight:700; font-family:inherit; }
+.li-toggle{
+  display:inline-flex; align-items:center; justify-content:center; width:38px; padding:0;
+  text-decoration:none; font-weight:700; font-family:Arial, sans-serif; font-size:15px;
+}
+.li-toggle:hover{ background:#0a66c2; color:#fff; border-color:#0a66c2; }
+.about-modal{
+  position:fixed; top:var(--bvbar-h, 44px); left:0; right:0; bottom:0;
+  z-index:8000; /* abaixo da superbar (9000) e do painel dela */
+  display:flex; align-items:flex-start; justify-content:center;
+  padding:24px 16px; background:rgba(5,8,15,.55); backdrop-filter:blur(3px);
+}
+.about-modal[hidden]{ display:none; }
+html.about-open{ overflow:hidden; }
+.about-sheet{
+  width:100%; max-width:860px; max-height:100%; overflow:auto; overscroll-behavior:contain;
+  background:var(--bg); color:var(--text);
+  border:1px solid var(--border); border-radius:18px;
+  box-shadow:0 18px 50px rgba(0,0,0,.35);
+  padding:8px 20px 24px; outline:none;
+}
+.about-sheet-head{
+  position:sticky; top:-8px; z-index:1; margin:-8px -20px 0; padding:14px 20px 10px;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  background:var(--bg); border-bottom:1px solid var(--border);
+}
+.about-sheet-title{ margin:0; font-size:18px; }
+.about-close{ width:38px; padding:0; flex:none; font-family:inherit; }
+.about-sheet > section{ margin-top:18px; }
+.about-sheet .cur-head::after{ content:none; }
+.about-links{ margin-top:4px; }
+.footer-actions{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+.footer-actions a.btn{ text-decoration:none; }
+@media (max-width:640px){
+  .about-modal{ padding:0; }
+  .about-sheet{ max-width:none; height:100%; border-radius:0; border:0; padding:8px 16px 24px; }
+  .about-sheet-head{ margin:-8px -16px 0; padding:12px 16px 10px; }
+}
+/* Celular: botões do header numa linha própria abaixo do título (não sobrepõem o nome) */
+@media (max-width:720px){
+  .site-header .controls{ position:static; transform:none; justify-content:flex-start; }
+}

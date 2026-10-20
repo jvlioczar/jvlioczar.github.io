@@ -28,6 +28,8 @@
 <span> </span><span data-i18n="brand.byline.suffix"></span>
 </span>
 </div><div class="controls" role="group">
+<button aria-controls="aboutModal" aria-expanded="false" aria-haspopup="dialog" class="toggle about-toggle" data-i18n="actions.about" id="aboutToggle" type="button">Sobre</button>
+<a aria-label="BiblioVerse no LinkedIn" class="toggle li-toggle" data-i18n-attr="aria-label:links.companyLinkedin;title:links.companyLinkedin" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener" target="_blank" title="BiblioVerse no LinkedIn">in</a>
 <button aria-label="Toggle language" class="toggle" id="langToggle" title="EN/PT">🌐</button>
 <button aria-label="Alternar tema" class="toggle" id="themeToggle">☀️</button>
 </div>
@@ -148,7 +150,14 @@
 </div>
 </div>
 </section>
-<!-- Sobre o projeto (cor oposta) -->
+</main>
+<!-- Sobre (aberto pelo botão "Sobre" do header) -->
+<div aria-hidden="true" class="about-modal" hidden id="aboutModal">
+<div aria-labelledby="aboutTitle" aria-modal="true" class="about-sheet" role="dialog" tabindex="-1">
+<div class="about-sheet-head">
+<h2 class="about-sheet-title" data-i18n="about.title" id="aboutTitle">Sobre</h2>
+<button aria-label="Fechar" class="toggle about-close" data-i18n-attr="aria-label:actions.close;title:actions.close" id="aboutClose" title="Fechar" type="button">✕</button>
+</div>
 <section aria-label="Sobre o projeto" class="" data-i18n-attr="aria-label:section.about.aria">
 <h2 class="section-title gradient-title" data-i18n="section.about.title">Sobre o BiblioVerse</h2><div class="about-card"><p data-i18n="section.about.p1">
         O BiblioVerse é um hub de bibliotecas temáticas com curadoria humana.
@@ -157,7 +166,15 @@
       </p><p data-i18n="section.about.p2">
         Foco em três pilares: utilidade, transparência e performance. Se um link não ajuda,
         ele não entra. Se ajuda, entra polido — com contexto, ícone e tradução quando couber.
-      </p></div>
+      </p><div class="cur-links about-links">
+<a class="btn" data-i18n="links.companyLinkedin" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener" target="_blank">BiblioVerse no LinkedIn</a>
+</div></div>
+</section>
+<!-- Sobre o criador -->
+<section aria-label="Sobre o criador" data-i18n-attr="aria-label:section.creator.aria">
+<h2 class="section-title gradient-title" data-i18n="section.creator.title">Sobre o criador</h2><div class="about-card"><p data-i18n="section.creator.p1">O BiblioVerse nasceu de um hábito antigo de Julio Cesar Prava: há anos ele anota em planilhas do Google os melhores sites, aplicativos, blogs e ferramentas para designers. Com o início do boom da inteligência artificial, uma segunda biblioteca começou — e, a partir dela, todas as outras ideias vieram à tona.</p><p data-i18n="section.creator.p2">Curador e organizador de informação nato, Julio tem como valores a busca do bem comum e da cooperação, a transparência, a informação livre, o acesso ao conhecimento, a inclusão digital e o pensamento crítico. É fã de projetos como a Wikipédia.</p><div class="cur-links about-links">
+<a class="btn" data-i18n="links.creatorLinkedin" href="https://www.linkedin.com/in/juliocesarprava" rel="noopener" target="_blank">LinkedIn do Julio</a>
+</div></div>
 </section>
 <!-- Curadores com filtro por biblioteca -->
 <section aria-label="Curadores" data-i18n-attr="aria-label:section.curators.aria">
@@ -211,7 +228,8 @@
 </article>
 </div>
 </section>
-</main>
+</div>
+</div>
 <footer class="footer">
 <div class="footer-inner">
 <div class="footer-count" data-i18n="footer.count">
@@ -220,6 +238,7 @@
 <p class="footer-lead" data-i18n="footer.lead">&lt;strong class="proj-name"&gt;BiblioVerse&lt;/strong&gt; é um projeto colaborativo para organizar e facilitar o acesso a bibliotecas úteis em diferentes temas.</p>
 <div class="footer-actions">
 <button class="btn share" data-i18n="actions.share" id="shareBtn" type="button">Compartilhar</button>
+<a class="btn share" data-i18n="links.companyLinkedin" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener" target="_blank">BiblioVerse no LinkedIn</a>
 </div>
 <p class="footer-thanks" data-i18n="footer.thanks">Obrigado pela visita!</p>
 </div>
