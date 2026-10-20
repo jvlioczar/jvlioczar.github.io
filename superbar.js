@@ -5,6 +5,7 @@
  * ── COMO ACRESCENTAR UMA BIBLIOTECA NOVA ─────────────────────────────────────
  * 1. Copie uma linha de BV_LIBS (mais abaixo) e troque key, group, icon, url e name.
  *    Em "name" só pt e en são obrigatórios; os outros idiomas caem no inglês.
+ *    Projetos especiais usam group: 'special' (grupo sempre exibido por último).
  * 2. Publique este arquivo no repositório do biblioverse.org. Pronto: a barra de
  *    TODAS as bibliotecas se atualiza sozinha, sem mexer em nenhum outro site.
  *
@@ -41,7 +42,9 @@
     { key: 'creative',  name: { pt: 'Criatividade',    en: 'Creativity',        es: 'Creatividad',      fr: 'Créativité',         de: 'Kreativität',      it: 'Creatività' } },
     { key: 'culture',   name: { pt: 'Cultura e lazer', en: 'Culture & Leisure', es: 'Cultura y ocio',   fr: 'Culture et loisirs', de: 'Kultur & Freizeit', it: 'Cultura e tempo libero' } },
     { key: 'knowledge', name: { pt: 'Conhecimento',    en: 'Knowledge',         es: 'Conocimiento',     fr: 'Connaissance',       de: 'Wissen',           it: 'Conoscenza' } },
-    { key: 'life',      name: { pt: 'Vida prática',    en: 'Everyday Life',     es: 'Vida práctica',    fr: 'Vie pratique',       de: 'Alltag',           it: 'Vita pratica' } }
+    { key: 'life',      name: { pt: 'Vida prática',    en: 'Everyday Life',     es: 'Vida práctica',    fr: 'Vie pratique',       de: 'Alltag',           it: 'Vita pratica' } },
+    // projects: true = grupo de projetos especiais: sempre o último do painel e fora da contagem de bibliotecas
+    { key: 'special',   projects: true, name: { pt: 'Projetos especiais', en: 'Special Projects', es: 'Proyectos especiales', fr: 'Projets spéciaux', de: 'Sonderprojekte', it: 'Progetti speciali' } }
   ];
 
   // ── Bibliotecas ───────────────────────────────────────────────────────────
@@ -64,7 +67,11 @@
     { key: 'job',         group: 'life',      icon: '💼', url: 'https://job.biblioverse.org',         name: { pt: 'Emprego', en: 'Jobs', es: 'Empleo', fr: 'Emploi', de: 'Jobs', it: 'Lavoro' }, tags: 'carreira career vagas trabalho work' },
     { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' }, tags: 'produtividade productivity gestao' },
     { key: 'social',      group: 'life',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' }, tags: 'social media' },
-    { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' }, tags: 'viajar turismo trip' }
+    { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' }, tags: 'viajar turismo trip' },
+    // Projetos especiais
+    { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' }, tags: 'goat maiores de todos os tempos greatest of all time esporte sports' },
+    { key: 'lfb',          group: 'special', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' }, tags: 'lfb futebol football soccer brasil brazil jogadores players' },
+    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'The Biggest Clubs in World Football', en: 'The Biggest Clubs in World Football' }, tags: 'maiores clubes futebol football soccer times ranking' }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
@@ -174,7 +181,10 @@
   function init() {
     var nav = document.getElementById('bvbar');
     if (!nav) return;
-    var libs = BV_LIBS.slice(), groups = BV_GROUPS;
+    var libs = BV_LIBS.slice();
+    var isProj = function (g) { return !!g.projects; };
+    var groups = BV_GROUPS.filter(function (g) { return !isProj(g); }).concat(BV_GROUPS.filter(isProj));
+    var projGroups = BV_GROUPS.filter(isProj).map(function (g) { return g.key; });
     var currentKey = nav.getAttribute('data-current') || '';
     var current = libs.filter(function (l) { return l.key === currentKey; })[0] || null;
 
@@ -207,7 +217,7 @@
     btn.setAttribute('aria-keyshortcuts', 'B');
     btn.innerHTML = BURGER;
     var btnLbl = el('span', 'lbl'); btn.appendChild(btnLbl);
-    btn.appendChild(el('span', 'bvbar-count', String(libs.filter(function (l) { return !l.soon; }).length)));
+    btn.appendChild(el('span', 'bvbar-count', String(libs.filter(function (l) { return !l.soon && projGroups.indexOf(l.group) < 0; }).length)));
     nav.appendChild(btn);
 
     // Painel
