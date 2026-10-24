@@ -82,12 +82,12 @@
 
   // ── Textos da interface ───────────────────────────────────────────────────
   var BV_TEXT = {
-    pt: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Fechar', home: 'Página inicial do BiblioVerse', here: 'você está aqui', none: 'Nenhuma biblioteca encontrada.', all: 'Conhecer o BiblioVerse', soon: 'em breve', open: 'Abrir lista de bibliotecas' },
-    en: { libs: 'Libraries', search: 'Search libraries…', close: 'Close', home: 'BiblioVerse home page', here: 'you are here', none: 'No library found.', all: 'Visit BiblioVerse', soon: 'soon', open: 'Open library list' },
-    es: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Cerrar', home: 'Página de inicio de BiblioVerse', here: 'estás aquí', none: 'No se encontró ninguna biblioteca.', all: 'Conocer BiblioVerse', soon: 'pronto', open: 'Abrir lista de bibliotecas' },
-    fr: { libs: 'Bibliothèques', search: 'Rechercher une bibliothèque…', close: 'Fermer', home: "Page d'accueil de BiblioVerse", here: 'vous êtes ici', none: 'Aucune bibliothèque trouvée.', all: 'Découvrir BiblioVerse', soon: 'bientôt', open: 'Ouvrir la liste des bibliothèques' },
-    de: { libs: 'Bibliotheken', search: 'Bibliothek suchen…', close: 'Schließen', home: 'BiblioVerse-Startseite', here: 'Sie sind hier', none: 'Keine Bibliothek gefunden.', all: 'BiblioVerse entdecken', soon: 'bald', open: 'Bibliotheksliste öffnen' },
-    it: { libs: 'Biblioteche', search: 'Cerca biblioteca…', close: 'Chiudi', home: 'Pagina iniziale di BiblioVerse', here: 'sei qui', none: 'Nessuna biblioteca trovata.', all: 'Scopri BiblioVerse', soon: 'presto', open: "Apri l'elenco delle biblioteche" }
+    pt: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Fechar', home: 'Página inicial do BiblioVerse', here: 'você está aqui', none: 'Nenhuma biblioteca encontrada.', all: 'Conhecer o BiblioVerse', soon: 'em breve', open: 'Abrir lista de bibliotecas', by: 'Criado por' },
+    en: { libs: 'Libraries', search: 'Search libraries…', close: 'Close', home: 'BiblioVerse home page', here: 'you are here', none: 'No library found.', all: 'Visit BiblioVerse', soon: 'soon', open: 'Open library list', by: 'Created by' },
+    es: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Cerrar', home: 'Página de inicio de BiblioVerse', here: 'estás aquí', none: 'No se encontró ninguna biblioteca.', all: 'Conocer BiblioVerse', soon: 'pronto', open: 'Abrir lista de bibliotecas', by: 'Creado por' },
+    fr: { libs: 'Bibliothèques', search: 'Rechercher une bibliothèque…', close: 'Fermer', home: "Page d'accueil de BiblioVerse", here: 'vous êtes ici', none: 'Aucune bibliothèque trouvée.', all: 'Découvrir BiblioVerse', soon: 'bientôt', open: 'Ouvrir la liste des bibliothèques', by: 'Créé par' },
+    de: { libs: 'Bibliotheken', search: 'Bibliothek suchen…', close: 'Schließen', home: 'BiblioVerse-Startseite', here: 'Sie sind hier', none: 'Keine Bibliothek gefunden.', all: 'BiblioVerse entdecken', soon: 'bald', open: 'Bibliotheksliste öffnen', by: 'Erstellt von' },
+    it: { libs: 'Biblioteche', search: 'Cerca biblioteca…', close: 'Chiudi', home: 'Pagina iniziale di BiblioVerse', here: 'sei qui', none: 'Nessuna biblioteca trovata.', all: 'Scopri BiblioVerse', soon: 'presto', open: "Apri l'elenco delle biblioteche", by: 'Creato da' }
   };
 
   // ── Estilos ───────────────────────────────────────────────────────────────
@@ -151,8 +151,10 @@
     '.bvbar-item.is-current{border-color:var(--accent2,#7a5cff);background:rgba(122,92,255,.16);}',
     '.bvbar-item.is-soon{opacity:.55;}',
     '.bvbar-none{padding:18px 4px;color:var(--p-muted);display:none;}',
-    '.bvbar-foot{display:flex;justify-content:flex-end;margin-top:12px;padding-top:10px;border-top:1px solid var(--p-border);font-size:12.5px;}',
+    '.bvbar-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px;padding-top:10px;border-top:1px solid var(--p-border);font-size:12.5px;}',
     '.bvbar-foot a{color:var(--accent1,#4f7cff);text-decoration:none;font-weight:700;padding:6px 2px;}',
+    '.bvbar-credit{color:var(--p-muted);}',
+    '.bvbar-credit a{font-weight:600;}',
     'html.bvbar-lock,html.bvbar-lock body{overflow:hidden;}',
     // responsivo
     '@media (max-width:720px){',
@@ -244,7 +246,11 @@
     top.appendChild(search); top.appendChild(close); panel.appendChild(top);
     var body = el('div', 'bvbar-body'); panel.appendChild(body);
     var none = el('div', 'bvbar-none'); panel.appendChild(none);
-    var foot = el('div', 'bvbar-foot'); var allLink = el('a'); allLink.href = HOME; foot.appendChild(allLink); panel.appendChild(foot);
+    var foot = el('div', 'bvbar-foot');
+    var credit = el('span', 'bvbar-credit'); var creditBy = document.createTextNode(''); var creditLink = el('a');
+    creditLink.href = 'https://www.linkedin.com/in/juliocesarprava'; creditLink.target = '_blank'; creditLink.rel = 'noopener';
+    creditLink.textContent = 'Julio Cesar Prava'; credit.appendChild(creditBy); credit.appendChild(creditLink); foot.appendChild(credit);
+    var allLink = el('a'); allLink.href = HOME; foot.appendChild(allLink); panel.appendChild(foot);
     document.body.appendChild(backdrop); document.body.appendChild(panel);
 
     var items = [], lastLang = null;
@@ -257,7 +263,7 @@
       btnLbl.textContent = t.libs; btn.title = t.open; btn.setAttribute('aria-label', t.open);
       search.placeholder = t.search; search.setAttribute('aria-label', t.search);
       close.title = t.close; close.setAttribute('aria-label', t.close);
-      none.textContent = t.none; allLink.textContent = t.all + ' →';
+      none.textContent = t.none; creditBy.nodeValue = t.by + ' '; allLink.textContent = t.all + ' →';
       panel.setAttribute('aria-label', t.libs);
       body.innerHTML = ''; items = [];
       groups.forEach(function (g) {
@@ -324,7 +330,7 @@
     panel.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); shut(); return; }
       if (e.key === 'Tab') { // mantém o foco dentro do painel
-        var f = [search, close].concat(visibleItems(), [allLink]);
+        var f = [search, close].concat(visibleItems(), [creditLink, allLink]);
         var i = f.indexOf(document.activeElement);
         if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
         else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
