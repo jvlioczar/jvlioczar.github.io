@@ -1,5 +1,5 @@
 /*!
- * BiblioVerse Superbar v3 · https://biblioverse.org/superbar.js
+ * BiblioVerse Superbar v5 · https://biblioverse.org/superbar.js
  * Barra universal de todas as bibliotecas do BiblioVerse e do site principal.
  *
  * ── COMO ACRESCENTAR UMA BIBLIOTECA NOVA ─────────────────────────────────────
@@ -75,7 +75,9 @@
     { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' }, tags: 'maiores clubes futebol football soccer times ranking' },
     { key: 'brasileirosnaaustralia', group: 'special', icon: '🦘', url: 'https://brasileirosnaaustralia.biblioverse.org', name: { pt: 'Brasileiros na Austrália', en: 'Brazilians in Australia', es: 'Brasileños en Australia', fr: 'Brésiliens en Australie', de: 'Brasilianer in Australien', it: 'Brasiliani in Australia' }, tags: 'australia brasil brazil imigracao immigration intercambio sydney melbourne brisbane perth' },
     { key: 'ethicalfood',  group: 'special', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Guia de Alimentos Éticos', en: 'Ethical Food Directory', es: 'Guía de Alimentos Éticos', fr: 'Guide des aliments éthiques', de: 'Leitfaden für ethische Lebensmittel', it: 'Guida agli alimenti etici' }, tags: 'comida etica ethical food vegano vegan vegetariano plant based restaurantes restaurants' },
-    { key: 'politicaparainiciantes', group: 'special', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' }, tags: 'politica politics eleicoes elections democracia democracy governo government' }
+    { key: 'politicaparainiciantes', group: 'special', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' }, tags: 'politica politics eleicoes elections democracia democracy governo government' },
+    { key: 'australianculture', group: 'special', icon: '🪃', url: 'https://australianculture.biblioverse.org', name: { pt: 'Cultura Australiana', en: 'Australian Culture', es: 'Cultura australiana', fr: 'Culture australienne', de: 'Australische Kultur', it: 'Cultura australiana' }, tags: 'australia cultura culture aussie musica music comida food arte art historia history' },
+    { key: 'brazilianculture', group: 'special', icon: '🦜', url: 'https://brazilianculture.biblioverse.org', name: { pt: 'Cultura Brasileira', en: 'Brazilian Culture', es: 'Cultura brasileña', fr: 'Culture brésilienne', de: 'Brasilianische Kultur', it: 'Cultura brasiliana' }, tags: 'brasil brazil cultura culture musica music comida food arte art historia history' }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
@@ -353,7 +355,7 @@
     render();
   }
 
-  var api = { version: 3, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
+  var api = { version: 5, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
     setLang: function (code) { forcedLang = code || null; }, open: function () {}, close: function () {}, refresh: function () {} };
   window.BiblioVerseBar = api;
 
