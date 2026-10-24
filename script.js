@@ -25,7 +25,7 @@
       'special.lfb': 'Lendas do Futebol Brasileiro (LFB)',
       'special.biggestclubs': 'Os Maiores Clubes do Futebol Mundial',
       'special.brasileirosnaaustralia': 'Brasileiros na Austrália',
-      'special.ethicalfood': 'Ethical Food Directory',
+      'special.ethicalfood': 'Guia de Alimentos Éticos',
       'special.politicaparainiciantes': 'Política Para Iniciantes',
       'libs.design': 'Biblioteca de Design',
       'libs.design.short': 'Design',
