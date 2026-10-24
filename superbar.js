@@ -68,10 +68,14 @@
     { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' }, tags: 'produtividade productivity gestao' },
     { key: 'social',      group: 'tech',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' }, tags: 'social media' },
     { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' }, tags: 'viajar turismo trip' },
+    { key: 'antiscam',    group: 'life',      icon: '🛡️', url: 'https://antiscam.biblioverse.org',    name: { pt: 'Antigolpe', en: 'Anti-Scam', es: 'Antiestafas', fr: 'Anti-arnaques', de: 'Betrugsschutz', it: 'Antitruffa' }, tags: 'golpes fraudes scam scams fraud phishing seguranca security estafa arnaque betrug truffa' },
     // Projetos especiais
     { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' }, tags: 'goat maiores de todos os tempos greatest of all time esporte sports' },
     { key: 'lfb',          group: 'special', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' }, tags: 'lfb futebol football soccer brasil brazil jogadores players' },
-    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' }, tags: 'maiores clubes futebol football soccer times ranking' }
+    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' }, tags: 'maiores clubes futebol football soccer times ranking' },
+    { key: 'brasileirosnaaustralia', group: 'special', icon: '🦘', url: 'https://brasileirosnaaustralia.biblioverse.org', name: { pt: 'Brasileiros na Austrália', en: 'Brazilians in Australia', es: 'Brasileños en Australia', fr: 'Brésiliens en Australie', de: 'Brasilianer in Australien', it: 'Brasiliani in Australia' }, tags: 'australia brasil brazil imigracao immigration intercambio sydney melbourne brisbane perth' },
+    { key: 'ethicalfood',  group: 'special', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Ethical Food Directory', en: 'Ethical Food Directory' }, tags: 'comida etica ethical food vegano vegan vegetariano plant based restaurantes restaurants' },
+    { key: 'politicaparainiciantes', group: 'special', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' }, tags: 'politica politics eleicoes elections democracia democracy governo government' }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
@@ -139,6 +143,9 @@
     '.bvbar-item .ico{font-size:18px;width:24px;text-align:center;flex:none;}',
     '.bvbar-item .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;}',
     '.bvbar-item .tag{font-size:10.5px;color:var(--p-muted);white-space:nowrap;flex:none;}',
+    // Items with a tag ("you are here", "soon") put it on a second line, so long names are not cut
+    '.bvbar-item:has(.tag){flex-wrap:wrap;row-gap:0;}',
+    '.bvbar-item:has(.tag) .tag{flex-basis:100%;padding-left:34px;line-height:1.3;}',
     '.bvbar-item.is-current{border-color:var(--accent2,#7a5cff);background:rgba(122,92,255,.16);}',
     '.bvbar-item.is-soon{opacity:.55;}',
     '.bvbar-none{padding:18px 4px;color:var(--p-muted);display:none;}',
