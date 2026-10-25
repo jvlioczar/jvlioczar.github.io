@@ -19,7 +19,7 @@
  *   <script src="https://biblioverse.org/superbar.js" defer></script>
  *
  *   data-current = chave da biblioteca (ex.: "web3"). No site principal use data-current="".
- *   Opcionais: data-logo="url do ícone", data-lang="es" (força um idioma), data-offset="none"
+ *   Opcionais: data-lang="es" (força um idioma), data-offset="none"
  *   (não empurra o conteúdo para baixo; use se o site já reservar o espaço da barra).
  *
  * ── IDIOMA ───────────────────────────────────────────────────────────────────
@@ -33,7 +33,6 @@
   if (window.BiblioVerseBar) return;
 
   var HOME = 'https://biblioverse.org';
-  var DEFAULT_LOGO = 'https://biblioverse.org/images/icon.svg';
   var FALLBACK_LANG = 'en';
 
   // ── Grupos (ordem de exibição no painel) ──────────────────────────────────
@@ -105,13 +104,11 @@
     '.bvbar a,.bvbar button{color:#fff;font:inherit;margin:0;}',
     '.bvbar button{-webkit-tap-highlight-color:transparent;}',
     '.bvbar-home{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;white-space:nowrap;flex:none;min-height:36px;}',
-    // ícone sobre um chip branco: o logo em gradiente azul/roxo some contra a barra da mesma cor
-    '.bvbar-home img{width:28px;height:28px;display:block;padding:3px;border-radius:8px;background:#fff;object-fit:contain;box-shadow:0 1px 3px rgba(5,8,15,.3);flex:none;}',
     '.bvbar-sep{opacity:.6;flex:none;}',
     '.bvbar-pill{display:inline-flex;align-items:center;gap:6px;border:0;background:rgba(255,255,255,.16);height:32px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:background .15s;}',
     '.bvbar-pill:hover{background:rgba(255,255,255,.28);}',
     '.bvbar-pill:focus-visible,.bvbar-home:focus-visible{outline:2px solid #fff;outline-offset:2px;}',
-    '.bvbar-current{font-weight:700;min-width:0;max-width:min(46vw,320px);}',
+    '.bvbar-current{font-weight:700;min-width:0;max-width:min(60vw,520px);}',
     '.bvbar-current .nm{overflow:hidden;text-overflow:ellipsis;min-width:0;}',
     '.bvbar-caret{font-size:9px;opacity:.85;transition:transform .15s;flex:none;}',
     '.bvbar.is-open .bvbar-caret{transform:rotate(180deg);}',
@@ -160,7 +157,10 @@
     'html.bvbar-lock,html.bvbar-lock body{overflow:hidden;}',
     // responsivo
     '@media (max-width:720px){',
-    ' .bvbar-home .txt,.bvbar-menu .lbl{display:none;}',
+    ' .bvbar-menu .lbl{display:none;}',
+    // on a library or project page the phone bar shows only its name (BiblioVerse stays in the panel)
+    ' .bvbar.has-current .bvbar-home,.bvbar.has-current .bvbar-sep{display:none;}',
+    ' .bvbar-current{max-width:none;flex:0 1 auto;}',
     ' .bvbar-panel{top:var(--bvbar-h);left:0;right:0;bottom:0;width:auto;max-height:none;border-radius:0;border:0;border-top:1px solid var(--p-border);',
     '   padding:14px max(14px,env(safe-area-inset-right)) max(18px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));}',
     ' .bvbar-grid{grid-template-columns:repeat(2,minmax(0,1fr));}',
@@ -170,7 +170,6 @@
     ' .bvbar{gap:6px;}',
     ' .bvbar-pill{padding:0 10px;}',
     ' .bvbar-count{display:none;}',
-    ' .bvbar-current{max-width:52vw;}',
     '}',
     '@media (max-width:340px){.bvbar-grid{grid-template-columns:1fr;}}',
     '@media (prefers-reduced-motion:reduce){.bvbar-caret,.bvbar-backdrop,.bvbar-pill{transition:none;}}',
@@ -214,12 +213,11 @@
     nav.innerHTML = '';
     nav.classList.add('bvbar');
     var home = el('a', 'bvbar-home'); home.href = HOME;
-    var img = el('img'); img.src = nav.getAttribute('data-logo') || DEFAULT_LOGO; img.alt = ''; img.width = 28; img.height = 28;
-    img.onerror = function () { img.style.display = 'none'; };
-    home.appendChild(img); home.appendChild(el('span', 'txt', 'BiblioVerse'));
+    home.appendChild(el('span', 'txt', 'BiblioVerse'));
     nav.appendChild(home);
 
     var curBtn = null, curName = null;
+    nav.classList.toggle('has-current', !!current);
     if (current) {
       nav.appendChild(el('span', 'bvbar-sep', '/'));
       curBtn = el('button', 'bvbar-pill bvbar-current'); curBtn.type = 'button';
