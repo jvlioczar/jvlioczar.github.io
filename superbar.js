@@ -1,5 +1,5 @@
 /*!
- * BiblioVerse Superbar v9 · https://biblioverse.org/superbar.js
+ * BiblioVerse Superbar v10 · https://biblioverse.org/superbar.js
  * Barra universal de todas as bibliotecas do BiblioVerse e do site principal.
  *
  * ── COMO ACRESCENTAR UMA BIBLIOTECA NOVA ─────────────────────────────────────
@@ -95,7 +95,8 @@
   };
 
   // ── Estilos ───────────────────────────────────────────────────────────────
-  var FONT = '"Courier New",Courier,monospace';
+  var FONT = '"TASA Explorer",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace';
+  var FONT_URL = 'https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;600;700&display=swap';
   var CSS = [
     ':root:root{--bvbar-h:44px;--superbar-h:var(--bvbar-h);}',
     'html.bvbar-on body{padding-top:var(--bvbar-h)!important;}',
@@ -196,6 +197,8 @@
     var projGroups = BV_GROUPS.filter(isProj).map(function (g) { return g.key; });
     var currentKey = nav.getAttribute('data-current') || '';
 
+    // A barra carrega a própria fonte: nem todo projeto usa a TASA Explorer
+    var fontLink = el('link'); fontLink.id = 'bvbar-font'; fontLink.rel = 'stylesheet'; fontLink.href = FONT_URL; document.head.appendChild(fontLink);
     var st = el('style'); st.id = 'bvbar-style'; st.textContent = CSS; document.head.appendChild(st);
     if (nav.getAttribute('data-offset') !== 'none') document.documentElement.classList.add('bvbar-on');
 
@@ -315,7 +318,7 @@
     render();
   }
 
-  var api = { version: 9, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
+  var api = { version: 10, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
     setLang: function (code) { forcedLang = code || null; }, open: function () {}, close: function () {}, refresh: function () {} };
   window.BiblioVerseBar = api;
 
