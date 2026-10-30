@@ -123,7 +123,7 @@
       'special.lfb': 'Brazilian Football Legends (LFB)',
       'special.biggestclubs': 'The Biggest Clubs in World Football',
       'special.brasileirosnaaustralia': 'Brazilians in Australia',
-      'special.ethicalfood': 'Ethical Food Directory',
+      'special.ethicalfood': 'Ethical Food Guide',
       'special.politicaparainiciantes': 'Politics for Beginners',
       'special.australianculture': 'Australian Culture',
       'special.brazilianculture': 'Brazilian Culture',
