@@ -1,5 +1,5 @@
 /*!
- * BiblioVerse Superbar v6 · https://biblioverse.org/superbar.js
+ * BiblioVerse Superbar v8 · https://biblioverse.org/superbar.js
  * Barra universal de todas as bibliotecas do BiblioVerse e do site principal.
  *
  * ── COMO ACRESCENTAR UMA BIBLIOTECA NOVA ─────────────────────────────────────
@@ -96,6 +96,7 @@
 
   // ── Estilos ───────────────────────────────────────────────────────────────
   var FONT = '"TASA Explorer",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace';
+  var FONT_URL = 'https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;600;700&display=swap';
   var CSS = [
     ':root:root{--bvbar-h:44px;--superbar-h:var(--bvbar-h);}',
     'html.bvbar-on body{padding-top:var(--bvbar-h)!important;}',
@@ -104,17 +105,14 @@
     ' padding:0 max(12px,env(safe-area-inset-right)) 0 max(12px,env(safe-area-inset-left));margin:0;',
     ' background:linear-gradient(90deg,var(--accent1,#4f7cff),var(--accent2,#7a5cff));color:#fff;font-family:' + FONT + ';font-size:14px;line-height:1;box-sizing:border-box;}',
     '.bvbar *,.bvbar-panel *{box-sizing:border-box;}',
+    // mesma fonte em todos os sites, seja qual for a fonte de cada projeto
+    '.bvbar,.bvbar *,.bvbar-panel,.bvbar-panel *{font-family:' + FONT + '!important;}',
     '.bvbar a,.bvbar button{color:#fff;font:inherit;margin:0;}',
     '.bvbar button{-webkit-tap-highlight-color:transparent;}',
     '.bvbar-home{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;white-space:nowrap;flex:none;min-height:36px;}',
-    '.bvbar-sep{opacity:.6;flex:none;}',
     '.bvbar-pill{display:inline-flex;align-items:center;gap:6px;border:0;background:rgba(255,255,255,.16);height:32px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:background .15s;}',
     '.bvbar-pill:hover{background:rgba(255,255,255,.28);}',
     '.bvbar-pill:focus-visible,.bvbar-home:focus-visible{outline:2px solid #fff;outline-offset:2px;}',
-    '.bvbar-current{font-weight:700;min-width:0;max-width:min(60vw,520px);}',
-    '.bvbar-current .nm{overflow:hidden;text-overflow:ellipsis;min-width:0;}',
-    '.bvbar-caret{font-size:9px;opacity:.85;transition:transform .15s;flex:none;}',
-    '.bvbar.is-open .bvbar-caret{transform:rotate(180deg);}',
     '.bvbar-spacer{flex:1;min-width:4px;}',
     '.bvbar-menu{flex:none;}',
     '.bvbar-burger{display:block;width:18px;height:14px;flex:none;}',
@@ -158,9 +156,6 @@
     // responsivo
     '@media (max-width:720px){',
     ' .bvbar-menu .lbl{display:none;}',
-    // on a library or project page the phone bar shows only its name (BiblioVerse stays in the panel)
-    ' .bvbar.has-current .bvbar-home,.bvbar.has-current .bvbar-sep{display:none;}',
-    ' .bvbar-current{max-width:none;flex:0 1 auto;}',
     ' .bvbar-panel{top:var(--bvbar-h);left:0;right:0;bottom:0;width:auto;max-height:none;border-radius:0;border:0;border-top:1px solid var(--p-border);',
     '   padding:14px max(14px,env(safe-area-inset-right)) max(18px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));}',
     ' .bvbar-grid{grid-template-columns:repeat(2,minmax(0,1fr));}',
@@ -172,7 +167,7 @@
     ' .bvbar-count{display:none;}',
     '}',
     '@media (max-width:340px){.bvbar-grid{grid-template-columns:1fr;}}',
-    '@media (prefers-reduced-motion:reduce){.bvbar-caret,.bvbar-backdrop,.bvbar-pill{transition:none;}}',
+    '@media (prefers-reduced-motion:reduce){.bvbar-backdrop,.bvbar-pill{transition:none;}}',
     '@media print{.bvbar,.bvbar-panel,.bvbar-backdrop{display:none!important;}html.bvbar-on body{padding-top:0!important;}}'
   ].join('\n');
 
@@ -201,8 +196,9 @@
     var groups = BV_GROUPS.filter(function (g) { return !isProj(g); }).concat(BV_GROUPS.filter(isProj));
     var projGroups = BV_GROUPS.filter(isProj).map(function (g) { return g.key; });
     var currentKey = nav.getAttribute('data-current') || '';
-    var current = libs.filter(function (l) { return l.key === currentKey; })[0] || null;
 
+    // A barra carrega a própria fonte: nem todo projeto usa a TASA Explorer
+    var fontLink = el('link'); fontLink.id = 'bvbar-font'; fontLink.rel = 'stylesheet'; fontLink.href = FONT_URL; document.head.appendChild(fontLink);
     var st = el('style'); st.id = 'bvbar-style'; st.textContent = CSS; document.head.appendChild(st);
     if (nav.getAttribute('data-offset') !== 'none') document.documentElement.classList.add('bvbar-on');
 
@@ -214,17 +210,6 @@
     home.appendChild(el('span', 'txt', 'BiblioVerse'));
     nav.appendChild(home);
 
-    var curBtn = null, curName = null;
-    nav.classList.toggle('has-current', !!current);
-    if (current) {
-      nav.appendChild(el('span', 'bvbar-sep', '/'));
-      curBtn = el('button', 'bvbar-pill bvbar-current'); curBtn.type = 'button';
-      curBtn.setAttribute('aria-haspopup', 'dialog'); curBtn.setAttribute('aria-expanded', 'false'); curBtn.setAttribute('aria-controls', 'bvbar-panel');
-      curBtn.appendChild(el('span', 'ico', current.icon));
-      curName = el('span', 'nm'); curBtn.appendChild(curName);
-      curBtn.appendChild(el('span', 'bvbar-caret', '▼'));
-      nav.appendChild(curBtn);
-    }
     nav.appendChild(el('span', 'bvbar-spacer'));
     var btn = el('button', 'bvbar-pill bvbar-menu'); btn.type = 'button';
     btn.setAttribute('aria-haspopup', 'dialog'); btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-controls', 'bvbar-panel');
@@ -255,7 +240,6 @@
       lastLang = L;
       nav.setAttribute('aria-label', 'BiblioVerse');
       home.title = t.home; home.setAttribute('aria-label', t.home);
-      if (curBtn) { curName.textContent = pick(current.name, L); curBtn.title = t.open; curBtn.setAttribute('aria-label', pick(current.name, L) + ' · ' + t.open); }
       btnLbl.textContent = t.libs; btn.title = t.open; btn.setAttribute('aria-label', t.open);
       close.title = t.close; close.setAttribute('aria-label', t.close);
       creditBy.nodeValue = t.by + ' '; allLink.textContent = t.all + ' →';
@@ -279,7 +263,7 @@
     }
     function isOpen() { return panel.classList.contains('is-open'); }
     var lastFocus = null;
-    function setExpanded(v) { btn.setAttribute('aria-expanded', v); if (curBtn) curBtn.setAttribute('aria-expanded', v); }
+    function setExpanded(v) { btn.setAttribute('aria-expanded', v); }
     function open() {
       if (isOpen()) return;
       lastFocus = document.activeElement;
@@ -298,7 +282,6 @@
     function toggle() { isOpen() ? shut() : open(); }
 
     btn.addEventListener('click', toggle);
-    if (curBtn) curBtn.addEventListener('click', toggle);
     close.addEventListener('click', shut);
     backdrop.addEventListener('click', shut);
     panel.addEventListener('keydown', function (e) {
@@ -335,7 +318,7 @@
     render();
   }
 
-  var api = { version: 6, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
+  var api = { version: 8, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
     setLang: function (code) { forcedLang = code || null; }, open: function () {}, close: function () {}, refresh: function () {} };
   window.BiblioVerseBar = api;
 
