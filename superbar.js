@@ -1,5 +1,5 @@
 /*!
- * BiblioVerse Superbar v5 · https://biblioverse.org/superbar.js
+ * BiblioVerse Superbar v6 · https://biblioverse.org/superbar.js
  * Barra universal de todas as bibliotecas do BiblioVerse e do site principal.
  *
  * ── COMO ACRESCENTAR UMA BIBLIOTECA NOVA ─────────────────────────────────────
@@ -49,50 +49,49 @@
 
   // ── Bibliotecas ───────────────────────────────────────────────────────────
   // key: chave usada em data-current | group: chave de BV_GROUPS | soon: true = "em breve"
-  // tags: palavras extras para a busca (sem acento, em qualquer idioma)
   var BV_LIBS = [
-    { key: 'ai',          group: 'tech',      icon: '🤖', url: 'https://ai.biblioverse.org',          name: { pt: 'IA', en: 'AI', es: 'IA', fr: 'IA', de: 'KI', it: 'IA' }, tags: 'inteligencia artificial artificial intelligence chatgpt' },
-    { key: 'coding',      group: 'tech',      icon: '💻', url: 'https://code.biblioverse.org',        name: { pt: 'Programação', en: 'Coding', es: 'Programación', fr: 'Programmation', de: 'Programmierung', it: 'Programmazione' }, tags: 'programming code codigo desenvolvimento software dev' },
-    { key: 'data',        group: 'knowledge', icon: '📊', url: 'https://data.biblioverse.org',        name: { pt: 'Dados', en: 'Data', es: 'Datos', fr: 'Données', de: 'Daten', it: 'Dati' }, tags: 'estatistica statistics analytics planilhas' },
-    { key: 'web3',        group: 'tech',      icon: '🔗', url: 'https://web3.biblioverse.org',        name: { pt: 'Web3', en: 'Web3' }, tags: 'blockchain cripto crypto bitcoin ethereum defi nft' },
-    { key: 'design',      group: 'creative',  icon: '🎨', url: 'https://design.biblioverse.org',      name: { pt: 'Design', en: 'Design', es: 'Diseño', fr: 'Design', de: 'Design', it: 'Design' }, tags: 'grafico graphic ux ui tipografia typography' },
-    { key: 'photography', group: 'creative',  icon: '📷', url: 'https://photography.biblioverse.org', name: { pt: 'Fotografia', en: 'Photography', es: 'Fotografía', fr: 'Photographie', de: 'Fotografie', it: 'Fotografia' }, tags: 'foto photo camera' },
-    { key: 'print',       group: 'creative',  icon: '📰', url: 'https://print.biblioverse.org',       name: { pt: 'Mídia Impressa', en: 'Print Media', es: 'Medios impresos', fr: 'Presse écrite', de: 'Printmedien', it: 'Stampa' }, tags: 'jornal revista impressao grafica magazine newspaper' },
-    { key: 'art',         group: 'creative',  icon: '🖼️', url: 'https://art.biblioverse.org',         name: { pt: 'Arte', en: 'Art', es: 'Arte', fr: 'Art', de: 'Kunst', it: 'Arte' }, tags: 'arte pintura escultura museu artista art painting museum artist' },
-    { key: 'games',       group: 'culture',   icon: '🎮', url: 'https://games.biblioverse.org',       name: { pt: 'Games', en: 'Games', es: 'Videojuegos', fr: 'Jeux vidéo', de: 'Games', it: 'Videogiochi' }, tags: 'jogos videogame esports' },
-    { key: 'list',        group: 'culture',   icon: '📋', url: 'https://list.biblioverse.org',        name: { pt: 'Listas', en: 'Lists', es: 'Listas', fr: 'Listes', de: 'Listen', it: 'Liste' }, tags: 'rankings top' },
-    { key: 'music',       group: 'culture',   icon: '🎵', url: 'https://music.biblioverse.org',       name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' }, tags: 'musica songs bandas' },
-    { key: 'philosophy',  group: 'freethought', icon: '🦉', url: 'https://philosophy.biblioverse.org',  name: { pt: 'Filosofia', en: 'Philosophy', es: 'Filosofía', fr: 'Philosophie', de: 'Philosophie', it: 'Filosofia' }, tags: 'etica ethics filosofos' },
-    { key: 'language',    group: 'knowledge', icon: '🗣️', url: 'https://language.biblioverse.org',    name: { pt: 'Idiomas', en: 'Languages', es: 'Idiomas', fr: 'Langues', de: 'Sprachen', it: 'Lingue' }, tags: 'linguas ingles english estudo' },
-    { key: 'thinking',    group: 'freethought', icon: '🧠', url: 'https://thinking.biblioverse.org',    name: { pt: 'Racionalidade', en: 'Rationality', es: 'Racionalidad', fr: 'Rationalité', de: 'Rationalität', it: 'Razionalità' }, tags: 'pensamento critico critical thinking evidencias' },
-    { key: 'job',         group: 'life',      icon: '💼', url: 'https://job.biblioverse.org',         name: { pt: 'Emprego', en: 'Jobs', es: 'Empleo', fr: 'Emploi', de: 'Jobs', it: 'Lavoro' }, tags: 'carreira career vagas trabalho work' },
-    { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' }, tags: 'produtividade productivity gestao' },
-    { key: 'social',      group: 'tech',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' }, tags: 'social media' },
-    { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' }, tags: 'viajar turismo trip' },
-    { key: 'antiscam',    group: 'life',      icon: '🛡️', url: 'https://antiscam.biblioverse.org',    name: { pt: 'Antigolpe', en: 'Anti-Scam', es: 'Antiestafas', fr: 'Anti-arnaques', de: 'Betrugsschutz', it: 'Antitruffa' }, tags: 'golpes fraudes scam scams fraud phishing seguranca security estafa arnaque betrug truffa' },
-    { key: 'conspiracy', group: 'freethought',   icon: '🕵️', url: 'https://conspiracy.biblioverse.org', name: { pt: 'Conspirações', en: 'Conspiracies', es: 'Conspiraciones', fr: 'Conspirations', de: 'Verschwörungen', it: 'Cospirazioni' }, tags: 'conspiracao teorias da conspiracao conspiracy theories mitos desinformacao misinformation ufo ovni conspiracion complot verschworung complotto' },
-    { key: 'truecrime', group: 'culture',   icon: '🔍', url: 'https://truecrime.biblioverse.org', name: { pt: 'True Crime', en: 'True Crime', es: 'True crime', fr: 'True crime', de: 'True Crime', it: 'True crime' }, tags: 'crimes reais casos criminais serial killers podcasts documentarios investigacao crimen reel crime vrai' },
-    { key: 'esports', group: 'culture',   icon: '🕹️', url: 'https://esports.biblioverse.org', name: { pt: 'eSports', en: 'eSports', es: 'eSports', fr: 'eSport', de: 'E-Sport', it: 'eSports' }, tags: 'esportes eletronicos competicoes campeonatos times jogadores e-sports deportes electronicos sport electronique' },
+    { key: 'ai',          group: 'tech',      icon: '🤖', url: 'https://ai.biblioverse.org',          name: { pt: 'IA', en: 'AI', es: 'IA', fr: 'IA', de: 'KI', it: 'IA' } },
+    { key: 'coding',      group: 'tech',      icon: '💻', url: 'https://code.biblioverse.org',        name: { pt: 'Programação', en: 'Coding', es: 'Programación', fr: 'Programmation', de: 'Programmierung', it: 'Programmazione' } },
+    { key: 'data',        group: 'knowledge', icon: '📊', url: 'https://data.biblioverse.org',        name: { pt: 'Dados', en: 'Data', es: 'Datos', fr: 'Données', de: 'Daten', it: 'Dati' } },
+    { key: 'web3',        group: 'tech',      icon: '🔗', url: 'https://web3.biblioverse.org',        name: { pt: 'Web3', en: 'Web3' } },
+    { key: 'design',      group: 'creative',  icon: '🎨', url: 'https://design.biblioverse.org',      name: { pt: 'Design', en: 'Design', es: 'Diseño', fr: 'Design', de: 'Design', it: 'Design' } },
+    { key: 'photography', group: 'creative',  icon: '📷', url: 'https://photography.biblioverse.org', name: { pt: 'Fotografia', en: 'Photography', es: 'Fotografía', fr: 'Photographie', de: 'Fotografie', it: 'Fotografia' } },
+    { key: 'print',       group: 'creative',  icon: '📰', url: 'https://print.biblioverse.org',       name: { pt: 'Mídia Impressa', en: 'Print Media', es: 'Medios impresos', fr: 'Presse écrite', de: 'Printmedien', it: 'Stampa' } },
+    { key: 'art',         group: 'creative',  icon: '🖼️', url: 'https://art.biblioverse.org',         name: { pt: 'Arte', en: 'Art', es: 'Arte', fr: 'Art', de: 'Kunst', it: 'Arte' } },
+    { key: 'games',       group: 'culture',   icon: '🎮', url: 'https://games.biblioverse.org',       name: { pt: 'Games', en: 'Games', es: 'Videojuegos', fr: 'Jeux vidéo', de: 'Games', it: 'Videogiochi' } },
+    { key: 'list',        group: 'culture',   icon: '📋', url: 'https://list.biblioverse.org',        name: { pt: 'Listas', en: 'Lists', es: 'Listas', fr: 'Listes', de: 'Listen', it: 'Liste' } },
+    { key: 'music',       group: 'culture',   icon: '🎵', url: 'https://music.biblioverse.org',       name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' } },
+    { key: 'philosophy',  group: 'freethought', icon: '🦉', url: 'https://philosophy.biblioverse.org',  name: { pt: 'Filosofia', en: 'Philosophy', es: 'Filosofía', fr: 'Philosophie', de: 'Philosophie', it: 'Filosofia' } },
+    { key: 'language',    group: 'knowledge', icon: '🗣️', url: 'https://language.biblioverse.org',    name: { pt: 'Idiomas', en: 'Languages', es: 'Idiomas', fr: 'Langues', de: 'Sprachen', it: 'Lingue' } },
+    { key: 'thinking',    group: 'freethought', icon: '🧠', url: 'https://thinking.biblioverse.org',    name: { pt: 'Racionalidade', en: 'Rationality', es: 'Racionalidad', fr: 'Rationalité', de: 'Rationalität', it: 'Razionalità' } },
+    { key: 'job',         group: 'life',      icon: '💼', url: 'https://job.biblioverse.org',         name: { pt: 'Emprego', en: 'Jobs', es: 'Empleo', fr: 'Emploi', de: 'Jobs', it: 'Lavoro' } },
+    { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' } },
+    { key: 'social',      group: 'tech',      icon: '🗺', url: 'https://social.biblioverse.org',      name: { pt: 'Redes Sociais', en: 'Social', es: 'Redes sociales', fr: 'Réseaux sociaux', de: 'Soziale Netzwerke', it: 'Social network' } },
+    { key: 'travel',      group: 'life',      icon: '✈️', url: 'https://travel.biblioverse.org',      name: { pt: 'Viagem', en: 'Travel', es: 'Viajes', fr: 'Voyage', de: 'Reisen', it: 'Viaggi' } },
+    { key: 'antiscam',    group: 'life',      icon: '🛡️', url: 'https://antiscam.biblioverse.org',    name: { pt: 'Antigolpe', en: 'Anti-Scam', es: 'Antiestafas', fr: 'Anti-arnaques', de: 'Betrugsschutz', it: 'Antitruffa' } },
+    { key: 'conspiracy', group: 'freethought',   icon: '🕵️', url: 'https://conspiracy.biblioverse.org', name: { pt: 'Conspirações', en: 'Conspiracies', es: 'Conspiraciones', fr: 'Conspirations', de: 'Verschwörungen', it: 'Cospirazioni' } },
+    { key: 'truecrime', group: 'culture',   icon: '🔍', url: 'https://truecrime.biblioverse.org', name: { pt: 'True Crime', en: 'True Crime', es: 'True crime', fr: 'True crime', de: 'True Crime', it: 'True crime' } },
+    { key: 'esports', group: 'culture',   icon: '🕹️', url: 'https://esports.biblioverse.org', name: { pt: 'eSports', en: 'eSports', es: 'eSports', fr: 'eSport', de: 'E-Sport', it: 'eSports' } },
     // Projetos especiais
-    { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' }, tags: 'goat maiores de todos os tempos greatest of all time esporte sports' },
-    { key: 'lfb',          group: 'special', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' }, tags: 'lfb futebol football soccer brasil brazil jogadores players' },
-    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' }, tags: 'maiores clubes futebol football soccer times ranking' },
-    { key: 'brasileirosnaaustralia', group: 'special', icon: '🦘', url: 'https://brasileirosnaaustralia.biblioverse.org', name: { pt: 'Brasileiros na Austrália', en: 'Brazilians in Australia', es: 'Brasileños en Australia', fr: 'Brésiliens en Australie', de: 'Brasilianer in Australien', it: 'Brasiliani in Australia' }, tags: 'australia brasil brazil imigracao immigration intercambio sydney melbourne brisbane perth' },
-    { key: 'ethicalfood',  group: 'special', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Guia de Alimentos Éticos', en: 'Ethical Food Directory', es: 'Guía de Alimentos Éticos', fr: 'Guide des aliments éthiques', de: 'Leitfaden für ethische Lebensmittel', it: 'Guida agli alimenti etici' }, tags: 'comida etica ethical food vegano vegan vegetariano plant based restaurantes restaurants' },
-    { key: 'politicaparainiciantes', group: 'special', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' }, tags: 'politica politics eleicoes elections democracia democracy governo government' },
-    { key: 'australianculture', group: 'special', icon: '🪃', url: 'https://australianculture.biblioverse.org', name: { pt: 'Cultura Australiana', en: 'Australian Culture', es: 'Cultura australiana', fr: 'Culture australienne', de: 'Australische Kultur', it: 'Cultura australiana' }, tags: 'australia cultura culture aussie musica music comida food arte art historia history' },
-    { key: 'brazilianculture', group: 'special', icon: '🦜', url: 'https://brazilianculture.biblioverse.org', name: { pt: 'Cultura Brasileira', en: 'Brazilian Culture', es: 'Cultura brasileña', fr: 'Culture brésilienne', de: 'Brasilianische Kultur', it: 'Cultura brasiliana' }, tags: 'brasil brazil cultura culture musica music comida food arte art historia history' },
-    { key: 'typesofrock', group: 'special', icon: '🎸', url: 'https://typesofrock.biblioverse.org', name: { pt: 'Tipos de Rock', en: 'Types of Rock', es: 'Tipos de rock', fr: 'Types de rock', de: 'Arten von Rock', it: 'Tipi di rock' }, tags: 'rock musica music generos genres subgeneros subgenres bandas bands metal punk' }
+    { key: 'goats',        group: 'special', icon: '🐐', url: 'https://goat.biblioverse.org',                     name: { pt: 'GOATs', en: 'GOATs' } },
+    { key: 'lfb',          group: 'special', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' } },
+    { key: 'biggestclubs', group: 'special', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' } },
+    { key: 'brasileirosnaaustralia', group: 'special', icon: '🦘', url: 'https://brasileirosnaaustralia.biblioverse.org', name: { pt: 'Brasileiros na Austrália', en: 'Brazilians in Australia', es: 'Brasileños en Australia', fr: 'Brésiliens en Australie', de: 'Brasilianer in Australien', it: 'Brasiliani in Australia' } },
+    { key: 'ethicalfood',  group: 'special', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Guia de Alimentos Éticos', en: 'Ethical Food Directory', es: 'Guía de Alimentos Éticos', fr: 'Guide des aliments éthiques', de: 'Leitfaden für ethische Lebensmittel', it: 'Guida agli alimenti etici' } },
+    { key: 'politicaparainiciantes', group: 'special', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' } },
+    { key: 'australianculture', group: 'special', icon: '🪃', url: 'https://australianculture.biblioverse.org', name: { pt: 'Cultura Australiana', en: 'Australian Culture', es: 'Cultura australiana', fr: 'Culture australienne', de: 'Australische Kultur', it: 'Cultura australiana' } },
+    { key: 'brazilianculture', group: 'special', icon: '🦜', url: 'https://brazilianculture.biblioverse.org', name: { pt: 'Cultura Brasileira', en: 'Brazilian Culture', es: 'Cultura brasileña', fr: 'Culture brésilienne', de: 'Brasilianische Kultur', it: 'Cultura brasiliana' } },
+    { key: 'typesofrock', group: 'special', icon: '🎸', url: 'https://typesofrock.biblioverse.org', name: { pt: 'Tipos de Rock', en: 'Types of Rock', es: 'Tipos de rock', fr: 'Types de rock', de: 'Arten von Rock', it: 'Tipi di rock' } }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
   var BV_TEXT = {
-    pt: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Fechar', home: 'Página inicial do BiblioVerse', here: 'você está aqui', none: 'Nenhuma biblioteca encontrada.', all: 'Conhecer o BiblioVerse', soon: 'em breve', open: 'Abrir lista de bibliotecas', by: 'Criado por' },
-    en: { libs: 'Libraries', search: 'Search libraries…', close: 'Close', home: 'BiblioVerse home page', here: 'you are here', none: 'No library found.', all: 'Visit BiblioVerse', soon: 'soon', open: 'Open library list', by: 'Created by' },
-    es: { libs: 'Bibliotecas', search: 'Buscar biblioteca…', close: 'Cerrar', home: 'Página de inicio de BiblioVerse', here: 'estás aquí', none: 'No se encontró ninguna biblioteca.', all: 'Conocer BiblioVerse', soon: 'pronto', open: 'Abrir lista de bibliotecas', by: 'Creado por' },
-    fr: { libs: 'Bibliothèques', search: 'Rechercher une bibliothèque…', close: 'Fermer', home: "Page d'accueil de BiblioVerse", here: 'vous êtes ici', none: 'Aucune bibliothèque trouvée.', all: 'Découvrir BiblioVerse', soon: 'bientôt', open: 'Ouvrir la liste des bibliothèques', by: 'Créé par' },
-    de: { libs: 'Bibliotheken', search: 'Bibliothek suchen…', close: 'Schließen', home: 'BiblioVerse-Startseite', here: 'Sie sind hier', none: 'Keine Bibliothek gefunden.', all: 'BiblioVerse entdecken', soon: 'bald', open: 'Bibliotheksliste öffnen', by: 'Erstellt von' },
-    it: { libs: 'Biblioteche', search: 'Cerca biblioteca…', close: 'Chiudi', home: 'Pagina iniziale di BiblioVerse', here: 'sei qui', none: 'Nessuna biblioteca trovata.', all: 'Scopri BiblioVerse', soon: 'presto', open: "Apri l'elenco delle biblioteche", by: 'Creato da' }
+    pt: { libs: 'Bibliotecas', close: 'Fechar', home: 'Página inicial do BiblioVerse', here: 'você está aqui', all: 'Conhecer o BiblioVerse', soon: 'em breve', open: 'Abrir lista de bibliotecas', by: 'Criado por' },
+    en: { libs: 'Libraries', close: 'Close', home: 'BiblioVerse home page', here: 'you are here', all: 'Visit BiblioVerse', soon: 'soon', open: 'Open library list', by: 'Created by' },
+    es: { libs: 'Bibliotecas', close: 'Cerrar', home: 'Página de inicio de BiblioVerse', here: 'estás aquí', all: 'Conocer BiblioVerse', soon: 'pronto', open: 'Abrir lista de bibliotecas', by: 'Creado por' },
+    fr: { libs: 'Bibliothèques', close: 'Fermer', home: "Page d'accueil de BiblioVerse", here: 'vous êtes ici', all: 'Découvrir BiblioVerse', soon: 'bientôt', open: 'Ouvrir la liste des bibliothèques', by: 'Créé par' },
+    de: { libs: 'Bibliotheken', close: 'Schließen', home: 'BiblioVerse-Startseite', here: 'Sie sind hier', all: 'BiblioVerse entdecken', soon: 'bald', open: 'Bibliotheksliste öffnen', by: 'Erstellt von' },
+    it: { libs: 'Biblioteche', close: 'Chiudi', home: 'Pagina iniziale di BiblioVerse', here: 'sei qui', all: 'Scopri BiblioVerse', soon: 'presto', open: "Apri l'elenco delle biblioteche", by: 'Creato da' }
   };
 
   // ── Estilos ───────────────────────────────────────────────────────────────
@@ -136,9 +135,7 @@
     '.bvbar-panel::-webkit-scrollbar-track{background:transparent;margin:14px 0;}',
     '.bvbar-panel::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--accent1,#4f7cff),var(--accent2,#7a5cff),var(--accent3,#b445ff));border:2px solid var(--p-bg);background-clip:padding-box;border-radius:999px;}',
     '@supports not selector(::-webkit-scrollbar){.bvbar-panel{scrollbar-width:thin;scrollbar-color:var(--accent2,#7a5cff) transparent;}}',
-    '.bvbar-top{display:flex;gap:8px;align-items:center;position:sticky;top:-14px;margin:-14px -14px 4px;padding:14px 14px 8px;background:var(--p-bg);z-index:1;}',
-    '.bvbar-search{flex:1;min-width:0;height:42px;border-radius:12px;border:1px solid var(--p-border);background:var(--p-soft);color:var(--p-text);padding:0 12px;font:inherit;font-size:16px;outline:none;-webkit-appearance:none;appearance:none;}',
-    '.bvbar-search:focus{border-color:var(--accent1,#4f7cff);box-shadow:0 0 0 3px rgba(79,124,255,.25);}',
+    '.bvbar-top{display:flex;justify-content:flex-end;align-items:center;position:sticky;top:-14px;margin:-14px -14px 4px;padding:14px 14px 8px;background:var(--p-bg);z-index:1;}',
     '.bvbar-close{flex:none;height:42px;width:42px;border-radius:12px;border:1px solid var(--p-border);background:var(--p-soft);color:var(--p-text);cursor:pointer;font-size:16px;font-family:inherit;}',
     '.bvbar-group{margin:10px 0 2px;}',
     '.bvbar-gtitle{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted);margin:0 0 6px 2px;font-weight:700;font-family:inherit;}',
@@ -153,7 +150,6 @@
     '.bvbar-item:has(.tag) .tag{flex-basis:100%;padding-left:34px;line-height:1.3;}',
     '.bvbar-item.is-current{border-color:var(--accent2,#7a5cff);background:rgba(122,92,255,.16);}',
     '.bvbar-item.is-soon{opacity:.55;}',
-    '.bvbar-none{padding:18px 4px;color:var(--p-muted);display:none;}',
     '.bvbar-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px;padding-top:10px;border-top:1px solid var(--p-border);font-size:12.5px;}',
     '.bvbar-foot a{color:var(--accent1,#4f7cff);text-decoration:none;font-weight:700;padding:6px 2px;}',
     '.bvbar-credit{color:var(--p-muted);}',
@@ -185,10 +181,8 @@
     '<rect y="12" width="18" height="2" rx="1" fill="currentColor"/></svg>';
 
   // ── Utilitários ───────────────────────────────────────────────────────────
-  function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function pick(obj, L) { return (obj && (obj[L] || obj[FALLBACK_LANG] || obj.pt)) || ''; }
-  function allNames(obj) { var out = []; for (var k in obj) if (Object.prototype.hasOwnProperty.call(obj, k)) out.push(obj[k]); return out.join(' '); }
 
   var forcedLang = null;
   function resolveLang(nav) {
@@ -245,11 +239,9 @@
     var panel = el('div', 'bvbar-panel'); panel.id = 'bvbar-panel';
     panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'true');
     var top = el('div', 'bvbar-top');
-    var search = el('input', 'bvbar-search'); search.type = 'search'; search.autocomplete = 'off'; search.spellcheck = false;
     var close = el('button', 'bvbar-close', '✕'); close.type = 'button';
-    top.appendChild(search); top.appendChild(close); panel.appendChild(top);
+    top.appendChild(close); panel.appendChild(top);
     var body = el('div', 'bvbar-body'); panel.appendChild(body);
-    var none = el('div', 'bvbar-none'); panel.appendChild(none);
     var foot = el('div', 'bvbar-foot');
     var credit = el('span', 'bvbar-credit'); var creditBy = document.createTextNode(''); var creditLink = el('a');
     creditLink.href = 'https://www.linkedin.com/in/juliocesarprava'; creditLink.target = '_blank'; creditLink.rel = 'noopener';
@@ -265,9 +257,8 @@
       home.title = t.home; home.setAttribute('aria-label', t.home);
       if (curBtn) { curName.textContent = pick(current.name, L); curBtn.title = t.open; curBtn.setAttribute('aria-label', pick(current.name, L) + ' · ' + t.open); }
       btnLbl.textContent = t.libs; btn.title = t.open; btn.setAttribute('aria-label', t.open);
-      search.placeholder = t.search; search.setAttribute('aria-label', t.search);
       close.title = t.close; close.setAttribute('aria-label', t.close);
-      none.textContent = t.none; creditBy.nodeValue = t.by + ' '; allLink.textContent = t.all + ' →';
+      creditBy.nodeValue = t.by + ' '; allLink.textContent = t.all + ' →';
       panel.setAttribute('aria-label', t.libs);
       body.innerHTML = ''; items = [];
       groups.forEach(function (g) {
@@ -281,26 +272,11 @@
           a.appendChild(el('span', 'ico', l.icon)); a.appendChild(el('span', 'nm', pick(l.name, L)));
           if (l.key === currentKey) { a.classList.add('is-current'); a.setAttribute('aria-current', 'page'); a.appendChild(el('span', 'tag', t.here)); }
           else if (l.soon) { a.classList.add('is-soon'); a.appendChild(el('span', 'tag', t.soon)); }
-          a._bvText = norm([allNames(l.name), l.key, l.tags || '', allNames(g.name)].join(' '));
           grid.appendChild(a); items.push(a);
         });
         sec.appendChild(grid); body.appendChild(sec);
       });
-      filter();
     }
-    function filter() {
-      var q = norm(search.value.trim()), words = q ? q.split(/\s+/) : [], any = false;
-      body.querySelectorAll('.bvbar-group').forEach(function (sec) {
-        var vis = 0;
-        sec.querySelectorAll('.bvbar-item').forEach(function (a) {
-          var ok = words.every(function (w) { return a._bvText.indexOf(w) > -1; });
-          a.style.display = ok ? '' : 'none'; if (ok) vis++;
-        });
-        sec.style.display = vis ? '' : 'none'; if (vis) any = true;
-      });
-      none.style.display = any ? 'none' : 'block';
-    }
-    function visibleItems() { return items.filter(function (a) { return a.style.display !== 'none' && a.parentNode.parentNode.style.display !== 'none'; }); }
     function isOpen() { return panel.classList.contains('is-open'); }
     var lastFocus = null;
     function setExpanded(v) { btn.setAttribute('aria-expanded', v); if (curBtn) curBtn.setAttribute('aria-expanded', v); }
@@ -310,8 +286,8 @@
       if (resolveLang(nav) !== lastLang) render();
       panel.classList.add('is-open'); backdrop.classList.add('is-open'); nav.classList.add('is-open'); setExpanded('true');
       if (window.matchMedia('(max-width:720px)').matches) document.documentElement.classList.add('bvbar-lock');
-      search.value = ''; filter(); panel.scrollTop = 0;
-      setTimeout(function () { try { search.focus({ preventScroll: true }); } catch (e) { search.focus(); } }, 0);
+      panel.scrollTop = 0;
+      setTimeout(function () { try { close.focus({ preventScroll: true }); } catch (e) { close.focus(); } }, 0);
     }
     function shut() {
       if (!isOpen()) return;
@@ -325,25 +301,19 @@
     if (curBtn) curBtn.addEventListener('click', toggle);
     close.addEventListener('click', shut);
     backdrop.addEventListener('click', shut);
-    search.addEventListener('input', filter);
-    search.addEventListener('keydown', function (e) {
-      var v = visibleItems();
-      if (e.key === 'Enter' && v.length) { e.preventDefault(); location.href = v[0].href; }
-      if (e.key === 'ArrowDown' && v.length) { e.preventDefault(); v[0].focus(); }
-    });
     panel.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); shut(); return; }
       if (e.key === 'Tab') { // mantém o foco dentro do painel
-        var f = [search, close].concat(visibleItems(), [creditLink, allLink]);
+        var f = [close].concat(items, [creditLink, allLink]);
         var i = f.indexOf(document.activeElement);
         if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
         else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
         return;
       }
       var a = document.activeElement; if (!a || !a.classList || !a.classList.contains('bvbar-item')) return;
-      var v = visibleItems(), k = v.indexOf(a);
-      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') { e.preventDefault(); (v[k + 1] || v[0]).focus(); }
-      if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); if (k <= 0) search.focus(); else v[k - 1].focus(); }
+      var k = items.indexOf(a);
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') { e.preventDefault(); (items[k + 1] || items[0]).focus(); }
+      if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); if (k <= 0) close.focus(); else items[k - 1].focus(); }
     });
     // Atalho de teclado: B abre/fecha (ignorado enquanto se digita em campos)
     document.addEventListener('keydown', function (e) {
@@ -365,7 +335,7 @@
     render();
   }
 
-  var api = { version: 5, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
+  var api = { version: 6, libs: BV_LIBS, groups: BV_GROUPS, text: BV_TEXT,
     setLang: function (code) { forcedLang = code || null; }, open: function () {}, close: function () {}, refresh: function () {} };
   window.BiblioVerseBar = api;
 
