@@ -63,6 +63,7 @@
     { key: 'music',       group: 'culture',   icon: '🎵', url: 'https://music.biblioverse.org',       name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' } },
     { key: 'philosophy',  group: 'freethought', icon: '🦉', url: 'https://philosophy.biblioverse.org',  name: { pt: 'Filosofia', en: 'Philosophy', es: 'Filosofía', fr: 'Philosophie', de: 'Philosophie', it: 'Filosofia' } },
     { key: 'language',    group: 'knowledge', icon: '🗣️', url: 'https://language.biblioverse.org',    name: { pt: 'Idiomas', en: 'Languages', es: 'Idiomas', fr: 'Langues', de: 'Sprachen', it: 'Lingue' } },
+    { key: 'history',     group: 'knowledge', icon: '📜', url: 'https://history.biblioverse.org',     name: { pt: 'História', en: 'History', es: 'Historia', fr: 'Histoire', de: 'Geschichte', it: 'Storia' } },
     { key: 'thinking',    group: 'freethought', icon: '🧠', url: 'https://thinking.biblioverse.org',    name: { pt: 'Racionalidade', en: 'Rationality', es: 'Racionalidad', fr: 'Rationalité', de: 'Rationalität', it: 'Razionalità' } },
     { key: 'job',         group: 'life',      icon: '💼', url: 'https://job.biblioverse.org',         name: { pt: 'Emprego', en: 'Jobs', es: 'Empleo', fr: 'Emploi', de: 'Jobs', it: 'Lavoro' } },
     { key: 'management',  group: 'life',      icon: '🗂️', url: 'https://management.biblioverse.org',  name: { pt: 'Organização', en: 'Organization', es: 'Organización', fr: 'Organisation', de: 'Organisation', it: 'Organizzazione' } },
