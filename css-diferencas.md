@@ -184,3 +184,25 @@ copie a folha inteira.
   e do logo ficam nos HTML de propósito.
 - Os 404 no console de ai, language e data são favicons de sites externos e não
   têm relação com o CSS.
+
+## Barra das bibliotecas (desde 2026-11-08)
+
+O cabeçalho das 23 bibliotecas segue um padrão único, em duas linhas:
+
+1. logo do BiblioVerse (volta para a home, na mesma aba) · nome da biblioteca ·
+   botão **Bibliotecas** · tema, idioma e informações;
+2. busca por nome e todas as categorias.
+
+- **Layout:** seção 4b de `assets/library.css`. O HTML de cada biblioteca não
+  muda de ordem: `.controls` vira `display: contents` e cada controle ocupa uma
+  área da grade do `.header-inner`.
+- **Botão Bibliotecas:** `assets/libbar.js`, incluído no `<head>` de cada
+  biblioteca logo depois da superbar. A lista vem de `window.BiblioVerseBar`
+  (BV_LIBS e BV_GROUPS em `superbar.js`), só com os grupos de bibliotecas:
+  projetos especiais ficam de fora. Os links são caminhos (`/art/`) e abrem na
+  mesma aba, para o app instalado não sair para o navegador.
+- **Âncoras:** o script mede a altura do cabeçalho em `--lib-header-h`, usada no
+  `scroll-margin-top` das categorias e subcategorias.
+- O selo BETA saiu de todas as bibliotecas.
+- Nova biblioteca: além da linha em BV_LIBS, incluir
+  `<script src="/assets/libbar.js" defer></script>` depois da superbar.
