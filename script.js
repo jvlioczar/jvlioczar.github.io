@@ -631,7 +631,21 @@
     if(fromHash) applyShow(fromHash, false);
   }
 
+  // Grupos de projetos especiais: do que tem mais projetos para o que tem menos (empate mantém a ordem do HTML)
+  function sortSpecialGroups(){
+    const sec = document.getElementById('projetos');
+    if(!sec) return;
+    const groups = Array.from(sec.querySelectorAll(':scope > .lib-group'));
+    if(!groups.length) return;
+    const after = groups[groups.length - 1].nextSibling;
+    groups
+      .map((g, i) => ({ g, i, n: g.querySelectorAll('.lib-card').length }))
+      .sort((a, b) => (b.n - a.n) || (a.i - b.i))
+      .forEach(({ g }) => sec.insertBefore(g, after));
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
+    sortSpecialGroups();
     updateCounts();
     buildHeroIcons();
     setupDoors();
