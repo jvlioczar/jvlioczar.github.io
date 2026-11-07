@@ -1,0 +1,1093 @@
+/* ============================================================================
+   BiblioVerse — folha de estilo compartilhada das 23 bibliotecas
+   https://biblioverse.org/assets/library.css
+
+   Uma única folha para ai, antiscam, art, code, conspiracy, data, design,
+   esports, games, history, job, language, list, management, music,
+   philosophy, photography, print, social, thinking, travel, truecrime e web3.
+
+   Como alterar em massa: veja css-diferencas.md na raiz do hub.
+   Resumo: cores, fonte, raios, sombras e durações ficam nos tokens da
+   seção 1; cada componente tem a sua seção numerada; as animações
+   (keyframes) ficam na seção 13.
+
+   Índice
+    1. Tokens (tema escuro) e tema claro
+    2. Base e estabilidade de layout
+    3. Esqueleto de carregamento e reserva de espaço
+    4. Cabeçalho, marca e selo BETA
+    5. Controles (busca, select, toggles, tooltips, seletor de idioma)
+    6. Categorias e subcategorias
+    7. Cards (itens do catálogo)
+    8. Botões
+    9. Rodapé
+   10. Elementos flutuantes (voltar ao topo, toast, instalar PWA)
+   11. Menu lateral (sidepush) e comportamento responsivo
+   12. Catálogo sem JavaScript
+   13. Animações e movimento reduzido
+   ========================================================================== */
+
+
+/* ============================================================================
+   1. TOKENS
+   Tema escuro é o padrão; o tema claro redefine só o que muda.
+   ========================================================================== */
+:root{
+  /* Cores */
+  --bg:#0e1117;
+  --bg-soft:#12161f;
+  --text:#e6edf3;
+  --muted:#a9b3c1;
+  --accent1:#4f7cff;
+  --accent2:#7a5cff;
+  --accent3:#b445ff;
+  --border:#1a2130;
+  --border-strong:#0a0d13;
+  --chip:#151a22;
+  --chip-border:#20283a;
+  --shadow-hi: rgba(255,255,255,0.05);
+  --shadow-lo: rgba(0,0,0,0.6);
+
+  /* Gradientes da identidade */
+  --grad-brand: linear-gradient(90deg, var(--accent1), var(--accent2), var(--accent3));
+  --grad-accent: linear-gradient(90deg, var(--accent1), var(--accent2));
+
+  /* Sombras neumórficas (pequena, média, grande) */
+  --shadow-neo:    -2px -2px 4px var(--shadow-hi), 3px 3px 6px var(--shadow-lo);
+  --shadow-neo-lg: -3px -3px 6px var(--shadow-hi), 5px 5px 10px var(--shadow-lo);
+  --shadow-neo-xl: -4px -4px 8px var(--shadow-hi), 6px 6px 12px var(--shadow-lo);
+
+  /* Tipografia */
+  --font-ui: "TASA Explorer", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Raios */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-card: 18px;
+
+  /* Durações */
+  --dur-fast: .15s;
+  --dur-side: .22s;
+
+  /* Controles do cabeçalho (busca, select, toggles) */
+  --control-h: 38px;
+  --ctrl-h: 38px;
+  --ctrl-radius: 14px;
+  --ctrl-pad-x: 12px;
+  --ctrl-arrow-x: 16px;
+
+  /* Menu lateral */
+  --side-w-closed: 68px;
+  --side-w-open: 248px;
+  --side-bg: color-mix(in oklab, var(--bg) 85%, black 15%);
+  --side-border: var(--border-strong);
+
+  /* Superbar (superbar.js redefine --bvbar-h e --superbar-h com a altura real) */
+  --superbar-h: 44px;
+}
+
+:root[data-theme="light"]{
+  --bg:#f6f8fb;
+  --bg-soft:#ffffff;
+  --text:#0b1220;
+  --muted:#495266;
+  --border:#dbe2ee;
+  --border-strong:#cfd8e8;
+  --chip:#f3f6fb;
+  --chip-border:#e3e9f4;
+  --shadow-hi: rgba(255,255,255,0.9);
+  --shadow-lo: rgba(0,0,0,0.10);
+  --side-bg: color-mix(in oklab, white 96%, #e7ecf4 4%);
+  --side-border: color-mix(in oklab, #cfd7e4 80%, #000 20%);
+}
+
+
+/* ============================================================================
+   2. BASE E ESTABILIDADE DE LAYOUT
+   ========================================================================== */
+*{ box-sizing: border-box; }
+
+html, body{
+  margin: 0;
+  padding: 0;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.5 var(--font-ui);
+}
+
+html{
+  scrollbar-gutter: stable;   /* reserva a barra de rolagem: a largura não pula */
+  font-size-adjust: 0.5;      /* troca tardia da webfont não desloca o layout */
+}
+@supports not (scrollbar-gutter: stable){
+  html{ overflow-y: scroll; }
+}
+body{
+  overflow-x: hidden;
+  padding-top: var(--bvbar-h, 44px); /* espaço da superbar enquanto superbar.js não carrega */
+}
+
+/* Contêiner central */
+.container{ max-width: 1100px; margin: 0 auto; padding: 22px; }
+
+kbd{ background:#101725; padding:2px 6px; border-radius:6px; border:1px solid #2e3a4f; font-size:11px; }
+:root[data-theme="light"] kbd{ background:#e8eefb; border-color:#d5dff2; color:#1a2a45; }
+
+
+/* ============================================================================
+   3. ESQUELETO DE CARREGAMENTO E RESERVA DE ESPAÇO (anti-CLS)
+   ========================================================================== */
+#root{
+  min-height: 1000px;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+}
+@media (max-width: 800px){
+  #root{ min-height: 800px; contain-intrinsic-size: 800px; }
+}
+#root.hydrated{
+  min-height: 0 !important;
+  contain-intrinsic-size: auto;
+}
+
+#count{ display: inline-block; min-width: 3ch; }
+
+.skeleton{ padding: 8px 0 16px; }
+.skeleton-title{ height: 28px; border-radius: var(--radius-md); opacity: .55; }
+.skeleton-grid{ margin-top: 12px; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+@media (min-width: 760px){ .skeleton-grid{ grid-template-columns: repeat(4, minmax(0,1fr)); } }
+.skeleton-card{ height: 68px; border-radius: var(--radius-lg); position: relative; overflow: hidden; }
+.skeleton-title, .skeleton-card{
+  background: linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.12), rgba(255,255,255,.06));
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.2s infinite linear;
+}
+
+/* Caixa do favicon reservada antes de a imagem chegar */
+.card .favicon, .item .favicon, img.favicon{
+  width: 20px; height: 20px; aspect-ratio: 1 / 1; flex: 0 0 20px; object-fit: contain;
+}
+
+.category{ content-visibility: auto; contain-intrinsic-size: 320px; }
+.grid .card{ content-visibility: auto; contain: layout paint style; contain-intrinsic-size: 120px 320px; }
+
+
+/* ============================================================================
+   4. CABEÇALHO, MARCA E SELO BETA
+   ========================================================================== */
+.site-header{
+  position: sticky;
+  top: var(--bvbar-h, 44px);  /* gruda logo abaixo da superbar */
+  z-index: 8000;
+  width: 100%;
+  min-height: 64px;
+  background: color-mix(in oklab, var(--bg) 100%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border-strong);
+}
+.header-inner{
+  display: flex; flex-wrap: wrap; gap: 12px;
+  justify-content: space-between; align-items: center;
+  padding-top: 12px; padding-bottom: 10px;
+}
+
+.brand-wrap{ display: flex; flex-direction: column; gap: 2px; }
+
+.brand{
+  margin: 0;
+  font-size: 31.6px;
+  letter-spacing: .5px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.brand a,
+.brand .brand-link{
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.brand .brand-link:focus-visible{
+  outline: 2px solid var(--accent2);
+  outline-offset: 2px;
+}
+/* Telas pequenas: cabeçalho mais compacto (depois das regras base, para vencer a cascata) */
+@media (max-width: 600px){
+  .container{ padding: 16px; }
+  .brand{ font-size: 20px; }
+}
+
+/* Nome do site: gradiente no texto + animação de foco e brilho (seção 13) */
+.brand-gradient{
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Duas camadas: [brilho que passa] sobre [gradiente da marca] */
+  background-image:
+    linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 45%, rgba(255,255,255,0) 60%),
+    var(--grad-brand);
+  background-size: 22% 100%, 100% 100%;
+  background-position: -40% 0, 0 0;
+  background-repeat: no-repeat;
+  animation: logoFocus .85s ease-out 0s both, logoShine 1.1s ease-in-out .9s both;
+  will-change: filter, opacity, background-position;
+}
+
+.byline{ font-size: 12px; color: var(--muted); }
+.byline .bylink{
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--muted);
+  opacity: .85;
+}
+.byline .bylink:hover{ opacity: 1; }
+
+.beta-badge{
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--grad-brand);
+  color: #fff;
+  transform: translateY(4px);
+}
+.beta-badge .beta-icon{ width: 10px; height: 10px; fill: currentColor; }
+
+
+/* ============================================================================
+   5. CONTROLES: busca, select, toggles, tooltips, seletor de idioma
+   ========================================================================== */
+.controls{ display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.control-group{ display: flex; gap: 8px; align-items: center; position: relative; }
+
+/* Fonte da identidade em todos os controles e botões */
+.btn, .toggle, .visit, .mono{ font-family: var(--font-ui) !important; }
+
+input[type="search"], select{
+  background: var(--bg-soft); color: var(--text); border: 1px solid var(--border);
+  height: var(--control-h); padding: 0 12px; border-radius: var(--radius-lg); outline: none; min-width: 220px;
+  box-shadow: var(--shadow-neo);
+  font-family: var(--font-ui);
+}
+.controls input[type="search"]{
+  height: var(--ctrl-h);
+  padding: 0 var(--ctrl-pad-x);
+  border-radius: var(--ctrl-radius);
+  display: inline-flex; align-items: center;
+}
+
+select{
+  min-width: 180px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 34px; /* espaço da seta */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='%23e6edf3'><path d='M7 10l5 5 5-5H7z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+:root[data-theme="light"] select{
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='%230b1220'><path d='M7 10l5 5 5-5H7z'/></svg>");
+}
+.controls select{
+  height: var(--ctrl-h);
+  line-height: var(--ctrl-h);
+  padding: 0 calc(var(--ctrl-pad-x) + 22px) 0 var(--ctrl-pad-x);
+  border-radius: var(--ctrl-radius);
+  background-position: right var(--ctrl-arrow-x) center;
+}
+
+.toggle{
+  background: var(--bg-soft); color: var(--text); border: 1px solid var(--border);
+  height: var(--control-h); padding: 0 12px; border-radius: var(--radius-lg); cursor: pointer;
+  box-shadow: var(--shadow-neo-lg);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.toggle:active{ transform: translateY(1px); }
+.toggle.info{ padding: 8px 10px; }
+.controls .toggle{
+  position: relative; /* âncora do microtooltip */
+  height: var(--ctrl-h);
+  padding: 0 var(--ctrl-pad-x);
+  border-radius: var(--ctrl-radius);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+
+/* Microtooltips dos toggles (tema e idioma), com o texto do aria-label */
+.controls .toggle::after{
+  content: attr(aria-label);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translate(-50%, -4px);
+  background: var(--bg-soft);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 6px 8px;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: var(--shadow-neo-lg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur-fast) ease, transform var(--dur-fast) ease;
+  z-index: 60;
+}
+.controls .toggle::before{
+  content: "";
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px; height: 8px;
+  background: var(--bg-soft);
+  border-left: 1px solid var(--border);
+  border-top: 1px solid var(--border);
+  rotate: 45deg;
+  box-shadow: -2px -2px 3px var(--shadow-hi);
+  opacity: 0;
+  transition: opacity var(--dur-fast) ease;
+  z-index: 59;
+}
+.controls .toggle:hover::after,
+.controls .toggle:focus-visible::after{ opacity: 1; transform: translate(-50%, 0); }
+.controls .toggle:hover::before,
+.controls .toggle:focus-visible::before{ opacity: 1; }
+.controls .toggle[aria-label=""]::after,
+.controls .toggle[aria-label=""]::before{ display: none; }
+
+/* Tooltip de informações (botão i) */
+.info{ position: relative; }
+.info-btn{ display: inline-flex; align-items: center; justify-content: center; }
+.tooltip{
+  position: absolute; top: 110%; right: 0;
+  min-width: 260px; max-width: 320px;
+  background: var(--bg-soft); color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  padding: 10px 12px;
+  box-shadow: var(--shadow-neo-xl);
+  font-size: 12px; line-height: 1.4;
+  font-family: var(--font-ui);
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity var(--dur-fast) ease, transform var(--dur-fast) ease;
+  z-index: 40; pointer-events: none;
+}
+.info:hover .tooltip, .info:focus-within .tooltip{
+  opacity: 1; transform: translateY(0); pointer-events: auto;
+}
+.tooltip strong{ display: block; margin-bottom: 6px; font-weight: 700; }
+
+.infotooltip{
+  position: absolute; right: 0; top: 100%; transform: translateY(8px);
+  background: var(--bg-soft); color: var(--text); border: 1px solid var(--border);
+  box-shadow: var(--shadow-neo-lg);
+  border-radius: var(--radius-md); padding: 10px 12px; min-width: 260px; max-width: 320px;
+  text-align: left; white-space: pre-wrap;
+  display: none; z-index: 50;
+  font-size: 12px; line-height: 1.4;
+}
+.control-group:hover #infoTip[aria-hidden="false"]{ display: block; }
+
+/* Seletor de idioma em lista (usado pela biblioteca language) */
+.lang-picker{ position: relative; display: inline-flex; }
+.lang-dropdown{
+  display: none; position: absolute; top: calc(100% + 6px); right: 0;
+  background: var(--bg-soft); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 6px;
+  box-shadow: -3px -3px 6px var(--shadow-hi), 5px 5px 12px var(--shadow-lo);
+  flex-direction: column; gap: 4px; z-index: 200; min-width: 44px;
+}
+.lang-picker.open .lang-dropdown{ display: flex; }
+.lang-option{
+  background: none; border: none; cursor: pointer; font-size: 1.25rem;
+  border-radius: var(--radius-sm); padding: 4px 6px; line-height: 1;
+  transition: background var(--dur-fast);
+}
+.lang-option:hover{ background: var(--border); }
+.lang-option.active{ background: var(--border); outline: 2px solid var(--text); outline-offset: 1px; }
+
+
+/* ============================================================================
+   6. CATEGORIAS E SUBCATEGORIAS
+   ========================================================================== */
+.category{ margin: 18px 0; }
+section.category{ scroll-margin-top: calc(var(--bvbar-h, 44px) + 90px); } /* âncora abaixo da superbar + cabeçalho */
+
+.category h2{
+  margin: 12px 4px; font-size: 20px; color: #cfe7ff; opacity: .9;
+  display: flex; align-items: center; gap: 8px;
+}
+:root[data-theme="light"] .category h2{ color: #354f7a; opacity: 0.9; }
+.category h2 .cat-title{
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cat-ico{
+  font-size: 20px; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Botão de âncora (#) ao lado do título */
+.cat-anchor{
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 24px; height: 24px;
+  margin-left: 8px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text);
+  box-shadow: -3px -3px 6px var(--shadow-hi), 4px 4px 8px var(--shadow-lo);
+  transition: background .18s ease, color .18s ease, transform var(--dur-fast) ease, box-shadow var(--dur-fast) ease;
+  cursor: pointer;
+}
+.cat-anchor:hover{
+  background: var(--grad-brand);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: -2px -2px 5px var(--shadow-hi), 3px 3px 7px var(--shadow-lo);
+}
+.cat-anchor svg{ width: 14px; height: 14px; display: block; }
+
+/* Linha separadora entre categorias */
+.category-sep{
+  height: 2px;
+  width: 100%;
+  margin: 14px 4px 6px;
+  border-radius: 999px;
+  background: var(--grad-brand);
+  opacity: .9;
+}
+
+/* Grade de cards */
+.grid{ display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 12px; }
+@media (max-width: 640px){
+  .grid{ grid-template-columns: 1fr !important; }
+  .card{ width: 100% !important; max-width: none !important; }
+  .container{ padding-left: 14px !important; padding-right: 14px !important; }
+}
+
+/* Recolher categoria (+/−) */
+.cat-toggle{
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; min-width: 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 15px; line-height: 1;
+  margin-left: auto;
+  box-shadow: -1px -1px 3px var(--shadow-hi), 2px 2px 4px var(--shadow-lo);
+  transition: background var(--dur-fast) ease, color var(--dur-fast) ease;
+  user-select: none;
+  flex-shrink: 0;
+}
+.cat-toggle:hover{ background: var(--grad-accent); color: #fff; border-color: transparent; }
+.category.collapsed .subcategory{ display: none; }
+
+/* Subcategorias (bloco dentro da categoria) */
+.subcategory{
+  margin: 12px 0 8px;
+  scroll-margin-top: calc(var(--bvbar-h, 44px) + 120px);
+}
+.subcategory h3{
+  font-size: 13px;
+  color: var(--muted);
+  margin: 8px 4px 10px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  display: flex; align-items: center; gap: 7px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: color-mix(in oklab, var(--bg-soft) 80%, var(--accent1) 4%);
+  border: 1px solid rgba(255,255,255,0.13);
+}
+:root[data-theme="light"] .subcategory h3{
+  background: color-mix(in oklab, var(--bg-soft) 85%, var(--accent1) 6%);
+  border: 1px solid rgba(0,0,0,0.18);
+}
+.subcategory.is-collapsed > .grid{ display: none; }
+
+/* Título h3 clicável para recolher/expandir */
+.subcat-h3{
+  display: flex; align-items: center; gap: 6px;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  margin: 0 -8px;
+  transition: background var(--dur-fast);
+  user-select: none;
+}
+.subcat-h3:hover{ background: color-mix(in oklab, var(--bg) 90%, var(--accent1) 4%); }
+.subcat-h3:active{ background: color-mix(in oklab, var(--bg) 84%, var(--accent1) 8%); }
+.subcat-lbl-text{ flex: 1 1 0; min-width: 0; }
+.subcat-inline-toggle{
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 22px; height: 22px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 13px; font-weight: 700; line-height: 1;
+  pointer-events: none; /* o h3 recebe o clique */
+  transition: background var(--dur-fast), color var(--dur-fast), border-color var(--dur-fast);
+}
+.subcat-h3:hover .subcat-inline-toggle{ border-color: var(--accent1); color: var(--text); }
+
+/* Dica de navegação por subcategorias (só no desktop) */
+.subcat-nav-hint{
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  background: color-mix(in oklab, var(--bg) 92%, var(--accent1) 4%);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 9px 14px;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.8;
+}
+@media (max-width: 768px){
+  .subcat-nav-hint{ display: none; }
+}
+
+
+/* ============================================================================
+   7. CARDS (itens do catálogo)
+   ========================================================================== */
+.card{
+  background: var(--bg-soft);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-card);
+  padding: 10px;
+  min-height: 74px;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-neo);
+  transition: transform .08s ease, box-shadow .12s ease;
+  opacity: 0;
+  animation: cardIn .28s ease both; /* entrada suave (seção 13) */
+}
+.card:hover{ transform: translateY(-2px); box-shadow: var(--shadow-neo-lg); }
+.card[aria-disabled="true"]{ opacity: .6; cursor: not-allowed; }
+
+.title-line{ display: flex; align-items: center; gap: 8px; }
+.card .title-line{
+  position: relative; padding-right: 28px; min-height: 0; margin: 0;
+  font-size: 1rem; font-weight: 700; letter-spacing: .2px;
+  display: flex; align-items: center; gap: 8px;
+  white-space: normal; overflow: visible; text-overflow: clip;
+}
+.title-line .name{ min-width: 0; }
+.title-line .paren{ display: block; font-weight: 400; opacity: .9; font-size: .85em; }
+.card .subtitle{ margin: 0; font-size: 0.85rem; color: var(--muted); font-weight: 400; }
+.card .actions{ display: none; margin-top: 12px; }
+
+/* O card inteiro é o link ("Acesse") */
+.card.card-link{
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 6px 8px;
+  min-height: 38px;
+  height: auto;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, background 160ms ease, color 120ms ease;
+}
+.card.card-link .title-line,
+.card.card-link .subtitle{ line-height: 1.2; }
+.card.card-link:hover,
+.card.card-link:focus-visible{
+  transform: translateY(-2px) scale(1.015);
+  box-shadow: var(--shadow-neo-xl);
+  outline: none;
+  background: var(--grad-brand);
+  color: #fff;
+}
+.card.card-link:hover .subtitle,
+.card.card-link:focus-visible .subtitle{ color: rgba(255,255,255,0.92); }
+.card.card-link:active{
+  transform: translateY(0) scale(0.995);
+  box-shadow: -2px -2px 4px var(--shadow-hi), 4px 4px 8px var(--shadow-lo);
+  transition: transform .06s ease-out, box-shadow .06s ease-out;
+}
+/* Tema claro: texto branco sobre o gradiente */
+:root[data-theme="light"] .card.card-link:hover,
+:root[data-theme="light"] .card.card-link:focus-visible,
+:root[data-theme="light"] .card.card-link:hover .title-line,
+:root[data-theme="light"] .card.card-link:focus-visible .title-line{ color: #fff; }
+:root[data-theme="light"] .card.card-link:hover .subtitle,
+:root[data-theme="light"] .card.card-link:focus-visible .subtitle{ color: rgba(255,255,255,0.92); }
+:root[data-theme="light"] .card.card-link:hover .favicon,
+:root[data-theme="light"] .card.card-link:focus-visible .favicon{ filter: none; }
+
+/* Favicon */
+.favicon{
+  width: 20px; height: 20px; flex: 0 0 20px;
+  border-radius: 6px; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--bg); border: 1px solid var(--border);
+  box-shadow: inset -1px -1px 2px var(--shadow-hi), inset 1px 1px 2px var(--shadow-lo);
+}
+.favicon img{ width: 100%; height: 100%; display: block; }
+:root[data-theme="dark"] .favicon{ background: #ffffff; } /* contraste no escuro */
+.favicon.fallback{ font-size: 10px; color: var(--muted); }
+
+/* Selos: destaque (★) e encerrado (🪦). Posição com os dois juntos: script.js */
+.featured-star,
+.ended-badge{
+  position: absolute; right: 0; top: 0;
+  margin-left: auto;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: var(--radius-sm);
+  font-size: 12px; line-height: 1;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-soft);
+  box-shadow: inset 1px 1px 2px var(--shadow-lo), inset -1px -1px 2px var(--shadow-hi);
+}
+.featured-star{ color: #ffd34d; }
+.ended-badge{ color: #c9c9cf; }
+:root[data-theme="light"] .featured-star{ color: #e0a800; }
+:root[data-theme="light"] .ended-badge{ color: #6b6b6f; }
+.title-line .featured-star + .ended-badge{ right: 2px; }
+
+
+/* ============================================================================
+   8. BOTÕES
+   ========================================================================== */
+.card .btn, .card .visit, .btn{
+  display: inline-block; padding: 6px 10px; border-radius: var(--radius-md);
+  border: none; background: #0f1520; color: var(--text);
+  text-decoration: none; font-size: 12px; margin: 0;
+  box-shadow: var(--shadow-neo);
+  transition: transform .12s ease, box-shadow .12s ease, background .2s ease;
+}
+:root[data-theme="light"] .card .btn,
+:root[data-theme="light"] .card .visit,
+:root[data-theme="light"] .btn{ background: #e7eaf3; color: #182033; }
+.card .btn:hover, .card .visit:hover, .btn:hover,
+:root[data-theme="light"] .card .btn:hover,
+:root[data-theme="light"] .card .visit:hover,
+:root[data-theme="light"] .btn:hover,
+:root[data-theme="light"] .visit:hover{
+  transform: translateY(-1px) scale(1.02);
+  background: var(--grad-accent);
+  box-shadow: var(--shadow-neo-lg);
+}
+
+.footer .btn.linkedin{ background: #0A66C2; color: #fff; }
+.btn.linkedin:hover{ background: linear-gradient(90deg, #0A66C2, #5b8bd6); }
+.footer .btn.share{ background: #b445ff; color: #fff; }
+.btn.share:hover{ background: linear-gradient(90deg, #0A66C2, #5b8bd6); }
+.btn.bverse{ background: var(--grad-brand); color: #fff; }
+.btn.bverse:hover{ transform: translateY(-1px) scale(1.02); box-shadow: var(--shadow-neo-lg); }
+
+
+/* ============================================================================
+   9. RODAPÉ
+   ========================================================================== */
+.footer{
+  margin: 28px 0 10px; opacity: .95; font-size: 13px; text-align: center;
+  border-top: 1px solid var(--border-strong); padding-top: 16px;
+}
+.footer-inner{ display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.footer-actions{ display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.footer-count{
+  opacity: .8;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border-strong);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.footer-count .sep{ margin: 0 6px; opacity: .6; }
+.footer-lead{ margin: 0 0 4px 0; }
+.footer-note{ margin: 2px 0 0 0; }
+.footer .proj-name{ font-weight: 800; }
+.footer .bverse-strong{ font-weight: 800; }
+
+
+/* ============================================================================
+   10. ELEMENTOS FLUTUANTES
+   ========================================================================== */
+/* Voltar ao topo */
+#toTopBtn{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 44px; height: 44px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text);
+  display: grid; place-items: center;
+  box-shadow: var(--shadow-neo-xl);
+  cursor: pointer;
+  opacity: 0; pointer-events: none; transform: translateY(8px);
+  transition: opacity .18s ease, transform .18s ease, box-shadow .18s ease, background .18s ease;
+  z-index: 50;
+}
+#toTopBtn svg{ width: 18px; height: 18px; fill: currentColor; }
+#toTopBtn.show{ opacity: 0.95; pointer-events: auto; transform: translateY(0); }
+#toTopBtn:hover{
+  background: var(--grad-brand);
+  color: #fff;
+  box-shadow: -2px -2px 6px var(--shadow-hi), 4px 4px 10px var(--shadow-lo);
+}
+
+/* Toast */
+#toast{
+  position: fixed;
+  left: 50%;
+  bottom: 84px;
+  transform: translate(-50%, 20px);
+  background: var(--bg-soft);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  font-size: 14px;
+  box-shadow: var(--shadow-neo-xl);
+  opacity: 0; pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+  z-index: 50;
+}
+#toast.show{ opacity: 0.98; pointer-events: auto; transform: translate(-50%, 0); }
+
+/* Botão de instalar o PWA */
+.pwa-install{
+  position: fixed; right: 16px; bottom: 16px;
+  padding: .6rem .9rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(0,0,0,.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+  background: color-mix(in srgb, Canvas 96%, transparent);
+  color: CanvasText;
+  cursor: pointer;
+  z-index: 60;
+}
+@media (prefers-color-scheme: dark){
+  .pwa-install{ border-color: rgba(255,255,255,.18); background: color-mix(in srgb, Canvas 88%, transparent); }
+}
+
+
+/* ============================================================================
+   11. MENU LATERAL (sidepush)
+   Desktop: empurra o conteúdo (push). Celular e tablet em pé: gaveta sobreposta.
+   ========================================================================== */
+.sidepush{
+  position: fixed;
+  inset: 0 auto 0 0;
+  top: var(--bvbar-h, 44px) !important; /* começa abaixo da superbar */
+  width: var(--side-w-closed);
+  background:
+    linear-gradient(to bottom, rgba(30,40,60,0.45), rgba(40,30,40,0.45)),
+    var(--side-bg);
+  border-right: 1px solid var(--side-border);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  transition: width var(--dur-side) ease;
+  box-shadow: 0 0 0 1px var(--border-strong);
+}
+:root[data-theme="light"] .sidepush{
+  background:
+    linear-gradient(to bottom, rgba(100,160,255,0.20), rgba(230,90,150,0.20)),
+    var(--side-bg);
+}
+body.side-open .sidepush{ width: var(--side-w-open); }
+
+/* Topo do menu: só o botão de seta */
+.sidepush-top{
+  position: sticky; top: 0;
+  display: flex !important; align-items: center; gap: 10px;
+  height: 37px; flex: 0 0 auto; padding: 0 12px;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--side-bg) 92%, transparent);
+  backdrop-filter: blur(4px);
+}
+.sidepush-title{
+  font-weight: 700; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: .85;
+}
+body.side-open .sidepush-title{ display: none; }
+
+.side-toggle{
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 10px;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--text); cursor: pointer;
+  font-size: 16px; line-height: 1;
+  transition: none;
+}
+.side-toggle:active,
+.side-toggle:hover{ transform: none; }
+.side-toggle:focus-visible{ outline: 2px solid var(--side-border); outline-offset: 2px; }
+
+.hamburger{
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft); color: var(--text); cursor: pointer;
+  box-shadow: var(--shadow-neo);
+}
+.hamburger:active{ transform: translateY(1px); }
+
+/* Área rolável: só ela recorta; a barra de rolagem fica sempre reservada
+   para os itens terem a mesma largura com menus curtos ou longos */
+.sidepush-scroll{
+  overflow-y: auto; overflow-x: hidden;
+  scrollbar-gutter: stable;
+  padding: 10px 8px 16px; flex: 1 1 auto;
+  scrollbar-color: color-mix(in oklab, var(--bg) 40%, white 5%) color-mix(in oklab, var(--side-bg) 80%, black 20%);
+  scrollbar-width: thin;
+}
+.sidepush-scroll::-webkit-scrollbar{ width: 10px; }
+.sidepush-scroll::-webkit-scrollbar-track{ background: color-mix(in oklab, var(--side-bg) 80%, black 20%); }
+.sidepush-scroll::-webkit-scrollbar-thumb{ background: color-mix(in oklab, var(--bg) 40%, white 5%); border-radius: var(--radius-sm); }
+
+.sidepush-menu{
+  list-style: none; margin: 8px 0 0; padding: 0;
+  display: flex; flex-direction: column; gap: 4px;
+  max-width: 100%;
+}
+
+/* Linha de item: envolve cada item do menu */
+.sidepush-item-row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sidepush-item{
+  display: flex; align-items: center; gap: 10px;
+  height: 40px; padding: 0 10px;
+  border-radius: var(--radius-md); cursor: pointer;
+  color: var(--text); text-decoration: none;
+  border: 1px solid transparent;
+  min-width: 0; flex: 1 1 0;
+  transition: background var(--dur-fast), border-color var(--dur-fast);
+  box-sizing: border-box;
+}
+body:not(.side-open) .sidepush-item{ flex: 1 1 auto; } /* fechado: só o ícone ocupa a linha */
+.sidepush-item .ico{ width: 18px; height: 18px; display: inline-flex; align-items: center; justify-content: center; opacity: .9; flex-shrink: 0; }
+.sidepush-item .label{ font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sidepush-item:hover{
+  background: color-mix(in oklab, var(--bg) 86%, var(--accent1) 4%);
+  border-color: var(--border);
+}
+.sidepush-menu .sidepush-item.active{
+  background: var(--bg-soft);
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-neo);
+  transform: translateY(0);
+}
+.sidepush-menu .sidepush-item.active .label{ opacity: 1; }
+.sidepush-menu .sidepush-item:focus-visible{
+  outline: 2px solid var(--border);
+  outline-offset: 2px;
+  border-radius: var(--radius-md);
+}
+
+/* Ícones do menu */
+.ico{ text-shadow: 1px 1px 2px rgba(0,0,0,0.6); }
+:root[data-theme="light"] .ico{ text-shadow: 1px 1px 2px rgba(150,150,150,0.4); }
+
+/* Rótulos só com o menu aberto */
+.sidepush .label{ display: none; }
+body.side-open .sidepush .label{ display: inline; }
+
+/* Ícone integrado de expandir/recolher subcategorias */
+.sidepush-expand-icon{
+  flex-shrink: 0;
+  margin-left: auto;
+  width: 20px; height: 20px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 13px; font-weight: 700; line-height: 1;
+  transition: background var(--dur-fast), color var(--dur-fast), border-color var(--dur-fast);
+}
+.sidepush-item:hover .sidepush-expand-icon{ border-color: var(--accent1); color: var(--text); }
+body:not(.side-open) .sidepush-expand-icon{ display: none; }
+
+/* Subitens (subcategorias): só aparecem com o menu aberto */
+.sidepush-subitem{
+  display: none;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  padding: 0 8px 0 38px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid transparent;
+  margin: 0 0 1px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  font-size: 11px;
+}
+body:not(.side-open) .sidepush-subitem{ display: none; }
+body:not(.side-open) li.sidepush-subcat-li,
+body:not(.side-open) li:has(> .sidepush-subitem){ display: none; } /* sem vão entre os ícones */
+body.side-open li.sidepush-subcat-li{ margin-top: -3px; } /* subcategorias coladas na categoria */
+body.side-open .sidepush-subitem{ display: flex; }
+.sidepush-subitem .label{
+  font-size: 11px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: 0.8;
+  min-width: 0;
+  flex: 1 1 0;
+}
+.sidepush-subitem:hover{
+  background: color-mix(in oklab, var(--bg) 86%, var(--accent1) 4%);
+  border-color: var(--border);
+  color: var(--text);
+}
+.sidepush-subitem.active{
+  background: var(--bg-soft);
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-neo);
+}
+
+/* Conteúdo empurrado pelo menu (desktop) */
+.push-wrap{ margin-left: var(--side-w-closed); transition: margin-left var(--dur-side) ease; }
+body.side-open .push-wrap{ margin-left: var(--side-w-open); }
+.push-wrap .container{ max-width: 1100px; margin-left: auto; margin-right: auto; }
+
+/* Véu atrás da gaveta (só celular e tablet em pé) */
+.side-scrim{ display: none; top: var(--bvbar-h, 44px) !important; }
+
+/* Telas médias: menu aberto mais estreito */
+@media (max-width: 1024px){
+  :root{ --side-w-open: min(44vw, 320px); }
+}
+
+/* Celular: gaveta sobreposta, sem empurrar o conteúdo */
+@media (max-width: 768px){
+  .push-wrap,
+  body.side-open .push-wrap{ margin-left: 0 !important; }
+
+  .sidepush{
+    width: min(92vw, 360px);
+    transform: translateX(-100%);
+    transition: transform var(--dur-side) ease;
+    box-shadow: none;
+  }
+  body.side-open .sidepush{
+    transform: translateX(0);
+    box-shadow: 0 0 0 1px var(--side-border), 0 18px 44px rgba(0,0,0,.28);
+  }
+  body:not(.side-open) .sidepush{ will-change: transform; }
+  body.side-open{ overflow: hidden; } /* sem rolagem do fundo com a gaveta aberta */
+
+  .side-scrim{
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease;
+    z-index: 45; /* abaixo do menu (50), acima do conteúdo */
+  }
+  body.side-open .side-scrim{ opacity: 1; pointer-events: auto; }
+}
+
+/* Tablet em pé: mesma gaveta sobreposta */
+@media (max-width: 1024px) and (orientation: portrait){
+  .push-wrap,
+  body.side-open .push-wrap{ margin-left: 0 !important; }
+
+  .sidepush{
+    width: min(92vw, 380px);
+    transform: translateX(-100%);
+    transition: transform var(--dur-side) ease;
+    box-shadow: none;
+  }
+  body.side-open .sidepush{
+    transform: translateX(0);
+    box-shadow: 0 0 0 1px var(--side-border), 0 18px 44px rgba(0,0,0,.28);
+  }
+
+  .side-scrim{
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease;
+    z-index: 45;
+  }
+  body.side-open .side-scrim{ opacity: 1; pointer-events: auto; }
+}
+
+
+/* ============================================================================
+   12. CATÁLOGO SEM JAVASCRIPT (gerado pelo build da biblioteca data)
+   ========================================================================== */
+.noscript-catalog{ padding: 8px 0 24px; }
+.noscript-catalog h2{ font-size: 1.1rem; margin: 22px 0 8px; }
+.noscript-catalog ul{ margin: 0; padding-left: 20px; columns: 3 220px; }
+.noscript-catalog li{ margin: 2px 0; }
+.noscript-catalog a{ color: inherit; }
+
+
+/* ============================================================================
+   13. ANIMAÇÕES E MOVIMENTO REDUZIDO
+   Para trocar uma animação em todas as bibliotecas, edite aqui.
+   ========================================================================== */
+/* Entrada dos cards (usada em .card; o atraso por card vem de script.js) */
+@keyframes cardIn{
+  from{ opacity: 0; transform: translateY(6px); }
+  to  { opacity: 1; transform: translateY(0); }
+}
+
+/* Nome do site: desfoque → foco, depois um brilho que passa (usadas em .brand-gradient) */
+@keyframes logoFocus{
+  0%  { filter: blur(10px); opacity: 0; }
+  100%{ filter: blur(0); opacity: 1; }
+}
+@keyframes logoShine{
+  0%  { background-position: -60% 0, 0 0; }
+  100%{ background-position: 160% 0, 0 0; }
+}
+
+/* Cintilação do esqueleto de carregamento (usada em .skeleton-title e .skeleton-card) */
+@keyframes skeleton-shimmer{
+  0%  { background-position: 200% 0; }
+  100%{ background-position: -200% 0; }
+}
+
+/* Quem pediu menos movimento não vê animação nem transição alguma */
+@media (prefers-reduced-motion: reduce){
+  *{ animation: none !important; transition: none !important; }
+}
