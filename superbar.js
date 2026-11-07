@@ -87,7 +87,8 @@
     { key: 'brazilianculture', group: 'special', icon: '🦜', url: 'https://brazilianculture.biblioverse.org', name: { pt: 'Cultura Brasileira', en: 'Brazilian Culture', es: 'Cultura brasileña', fr: 'Culture brésilienne', de: 'Brasilianische Kultur', it: 'Cultura brasiliana' } },
     { key: 'typesofrock', group: 'special', icon: '🎸', url: 'https://typesofrock.biblioverse.org', name: { pt: 'Tipos de Rock', en: 'Types of Rock', es: 'Tipos de rock', fr: 'Types de rock', de: 'Arten von Rock', it: 'Tipi di rock' } },
     { key: 'aihistory', group: 'special', icon: '⏳', url: 'https://aihistory.biblioverse.org', name: { pt: 'Linha do Tempo da História da IA', en: 'AI History Timeline', es: 'Cronología de la historia de la IA', fr: 'Chronologie de l’histoire de l’IA', de: 'Zeitleiste der KI-Geschichte', it: 'Cronologia della storia dell’IA' } },
-    { key: 'curatedai', group: 'special', icon: '🏛️', url: 'https://curatedai.biblioverse.org', name: { pt: 'Curated AI', en: 'Curated AI', es: 'Curated AI', fr: 'Curated AI', de: 'Curated AI', it: 'Curated AI' } }
+    { key: 'curatedai', group: 'special', icon: '🏛️', url: 'https://curatedai.biblioverse.org', name: { pt: 'Curated AI', en: 'Curated AI', es: 'Curated AI', fr: 'Curated AI', de: 'Curated AI', it: 'Curated AI' } },
+    { key: 'mymusictaste', group: 'special', icon: '🎧', url: 'https://mymusictaste.biblioverse.org', name: { pt: 'My Music Taste', en: 'My Music Taste', es: 'My Music Taste', fr: 'My Music Taste', de: 'My Music Taste', it: 'My Music Taste' } }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
