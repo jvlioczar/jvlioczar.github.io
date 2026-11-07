@@ -12,7 +12,7 @@
  * 1. Copie uma linha de BV_LIBS (mais abaixo) e troque key, group, icon, url e name.
  *    Em "name" só pt e en são obrigatórios; os outros idiomas caem no inglês.
  *    Bibliotecas usam os grupos temáticos de BV_GROUPS; projetos especiais usam um grupo
- *    marcado com projects: true (think, ai, travel, sports, data).
+ *    marcado com projects: true (beginners, animals, ai, music, travel, sports).
  * 2. Publique este arquivo no repositório do biblioverse.org. Pronto: a barra de
  *    TODOS os sites se atualiza sozinha, sem mexer em nenhum outro site.
  *
@@ -53,11 +53,12 @@
     { key: 'freethought', name: { pt: 'Pensamento Livre', en: 'Freethought', es: 'Librepensamiento', fr: 'Libre pensée', de: 'Freidenkertum', it: 'Libero pensiero' } },
     { key: 'life',      name: { pt: 'Vida prática',    en: 'Everyday Life',     es: 'Vida práctica',    fr: 'Vie pratique',       de: 'Alltag',           it: 'Vita pratica' } },
     // Projetos especiais (projects: true): fora da lista de bibliotecas, agrupados por natureza
-    { key: 'think',  projects: true, name: { pt: 'Para pensar melhor', en: 'Think Better', es: 'Para pensar mejor', fr: 'Pour mieux penser', de: 'Besser denken', it: 'Per pensare meglio' } },
-    { key: 'ai',     projects: true, name: { pt: 'Inteligência Artificial', en: 'Artificial Intelligence', es: 'Inteligencia artificial', fr: 'Intelligence artificielle', de: 'Künstliche Intelligenz', it: 'Intelligenza artificiale' } },
+    { key: 'beginners', projects: true, name: { pt: 'Para iniciantes', en: 'For Beginners', es: 'Para principiantes', fr: 'Pour débutants', de: 'Für Einsteiger', it: 'Per principianti' } },
+    { key: 'animals', projects: true, name: { pt: 'Ética animal', en: 'Animal Ethics', es: 'Ética animal', fr: 'Éthique animale', de: 'Tierethik', it: 'Etica animale' } },
+    { key: 'ai', projects: true, name: { pt: 'Inteligência Artificial', en: 'Artificial Intelligence', es: 'Inteligencia artificial', fr: 'Intelligence artificielle', de: 'Künstliche Intelligenz', it: 'Intelligenza artificiale' } },
+    { key: 'music', projects: true, name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' } },
     { key: 'travel', projects: true, name: { pt: 'Cultura e Viagem', en: 'Culture & Travel', es: 'Cultura y viajes', fr: 'Culture et voyage', de: 'Kultur & Reisen', it: 'Cultura e viaggi' } },
-    { key: 'sports', projects: true, name: { pt: 'Esportes', en: 'Sports', es: 'Deportes', fr: 'Sports', de: 'Sport', it: 'Sport' } },
-    { key: 'data',   projects: true, name: { pt: 'Dados', en: 'Data', es: 'Datos', fr: 'Données', de: 'Daten', it: 'Dati' } }
+    { key: 'sports', projects: true, name: { pt: 'Esportes', en: 'Sports', es: 'Deportes', fr: 'Sports', de: 'Sport', it: 'Sport' } }
   ];
 
   // ── Projetos ──────────────────────────────────────────────────────────────
@@ -87,11 +88,11 @@
     { key: 'truecrime', group: 'culture',   icon: '🔍', url: 'https://biblioverse.org/truecrime/', name: { pt: 'True Crime', en: 'True Crime', es: 'True crime', fr: 'True crime', de: 'True Crime', it: 'True crime' } },
     { key: 'esports', group: 'culture',   icon: '🕹️', url: 'https://biblioverse.org/esports/', name: { pt: 'eSports', en: 'eSports', es: 'eSports', fr: 'eSport', de: 'E-Sport', it: 'eSports' } },
     // Projetos especiais · Para pensar melhor
-    { key: 'politicaparainiciantes', group: 'think', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' } },
-    { key: 'eticaparainiciantes', group: 'think', icon: '⚖️', url: 'https://eticaparainiciantes.biblioverse.org', name: { pt: 'Ética Para Iniciantes', en: 'Ethics for Beginners', es: 'Ética para principiantes', fr: 'L’éthique pour débutants', de: 'Ethik für Einsteiger', it: 'Etica per principianti' } },
-    { key: 'cienciaparainiciantes', group: 'think', icon: '🔬', url: 'https://cienciaparainiciantes.biblioverse.org', name: { pt: 'Ciência Para Iniciantes', en: 'Science for Beginners', es: 'Ciencia para principiantes', fr: 'La science pour débutants', de: 'Wissenschaft für Einsteiger', it: 'Scienza per principianti' } },
-    { key: 'questaodeetica', group: 'think', icon: '👁️', url: 'https://questaodeetica.biblioverse.org', name: { pt: 'Questão de Ética', en: 'Questão de Ética', es: 'Questão de Ética', fr: 'Questão de Ética', de: 'Questão de Ética', it: 'Questão de Ética' } },
-    { key: 'pelosanimais', group: 'think', icon: '🐾', url: 'https://pelosanimais.biblioverse.org', name: { pt: 'Guia de Argumentação Pelos Animais', en: 'Arguing for Animals Guide', es: 'Guía de argumentación por los animales', fr: 'Guide d’argumentation pour les animaux', de: 'Argumentationsleitfaden für die Tiere', it: 'Guida all’argomentazione per gli animali' } },
+    { key: 'politicaparainiciantes', group: 'beginners', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' } },
+    { key: 'eticaparainiciantes', group: 'beginners', icon: '⚖️', url: 'https://eticaparainiciantes.biblioverse.org', name: { pt: 'Ética Para Iniciantes', en: 'Ethics for Beginners', es: 'Ética para principiantes', fr: 'L’éthique pour débutants', de: 'Ethik für Einsteiger', it: 'Etica per principianti' } },
+    { key: 'cienciaparainiciantes', group: 'beginners', icon: '🔬', url: 'https://cienciaparainiciantes.biblioverse.org', name: { pt: 'Ciência Para Iniciantes', en: 'Science for Beginners', es: 'Ciencia para principiantes', fr: 'La science pour débutants', de: 'Wissenschaft für Einsteiger', it: 'Scienza per principianti' } },
+    { key: 'questaodeetica', group: 'animals', icon: '👁️', url: 'https://questaodeetica.biblioverse.org', name: { pt: 'Questão de Ética', en: 'Questão de Ética', es: 'Questão de Ética', fr: 'Questão de Ética', de: 'Questão de Ética', it: 'Questão de Ética' } },
+    { key: 'pelosanimais', group: 'animals', icon: '🐾', url: 'https://pelosanimais.biblioverse.org', name: { pt: 'Guia de Argumentação Pelos Animais', en: 'Arguing for Animals Guide', es: 'Guía de argumentación por los animales', fr: 'Guide d’argumentation pour les animaux', de: 'Argumentationsleitfaden für die Tiere', it: 'Guida all’argomentazione per gli animali' } },
     // Projetos especiais · Inteligência Artificial
     { key: 'aihistory', group: 'ai', icon: '⏳', url: 'https://aihistory.biblioverse.org', name: { pt: 'Linha do Tempo da História da IA', en: 'AI History Timeline', es: 'Cronología de la historia de la IA', fr: 'Chronologie de l’histoire de l’IA', de: 'Zeitleiste der KI-Geschichte', it: 'Cronologia della storia dell’IA' } },
     { key: 'curatedai', group: 'ai', icon: '🏛️', url: 'https://curatedai.biblioverse.org', name: { pt: 'Curated AI', en: 'Curated AI', es: 'Curated AI', fr: 'Curated AI', de: 'Curated AI', it: 'Curated AI' } },
@@ -106,8 +107,9 @@
     { key: 'lfb',          group: 'sports', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' } },
     { key: 'biggestclubs', group: 'sports', icon: '🏆', url: 'https://biggestclubs.biblioverse.org',              name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' } },
     // Projetos especiais · Dados
-    { key: 'ethicalfood',  group: 'data', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Guia de Alimentos Éticos', en: 'Ethical Food Guide', es: 'Guía de Alimentos Éticos', fr: 'Guide des aliments éthiques', de: 'Leitfaden für ethische Lebensmittel', it: 'Guida agli alimenti etici' } },
-    { key: 'typesofrock', group: 'data', icon: '🎸', url: 'https://typesofrock.biblioverse.org', name: { pt: 'Tipos de Rock', en: 'Types of Rock', es: 'Tipos de rock', fr: 'Types de rock', de: 'Arten von Rock', it: 'Tipi di rock' } }
+    { key: 'ethicalfood',  group: 'animals', icon: '🥗', url: 'https://ethicalfood.biblioverse.org',                name: { pt: 'Guia de Alimentos Éticos', en: 'Ethical Food Guide', es: 'Guía de Alimentos Éticos', fr: 'Guide des aliments éthiques', de: 'Leitfaden für ethische Lebensmittel', it: 'Guida agli alimenti etici' } },
+    { key: 'typesofrock', group: 'music', icon: '🎸', url: 'https://typesofrock.biblioverse.org', name: { pt: 'Tipos de Rock', en: 'Types of Rock', es: 'Tipos de rock', fr: 'Types de rock', de: 'Arten von Rock', it: 'Tipi di rock' } },
+    { key: 'brazilianmusic', group: 'music', icon: '🎶', url: 'https://brazilianmusic.biblioverse.org', name: { pt: 'Música Brasileira', en: 'Brazilian Music', es: 'Música brasileña', fr: 'Musique brésilienne', de: 'Brasilianische Musik', it: 'Musica brasiliana' } }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────
