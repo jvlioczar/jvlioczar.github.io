@@ -1,0 +1,4807 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Web3 — Catálogo pesquisável de Web3: blockchain, cripto, DeFi, NFTs e mais</title>
+<meta content="Catálogo pesquisável de Web3: conceitos de blockchain, criptomoedas, DeFi, corretoras, carteiras, NFTs, ferramentas, regulação, pessoas e história." name="description"/>
+<link href="https://biblioverse.org/web3/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="web3" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Web3</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Web3</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Blockchain",
+    "url": "https://en.wikipedia.org/wiki/Blockchain",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Livro-razão distribuído",
+    "url": "https://en.wikipedia.org/wiki/Distributed_ledger",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Consenso distribuído",
+    "url": "https://en.wikipedia.org/wiki/Consensus_(computer_science)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Prova de trabalho",
+    "url": "https://en.wikipedia.org/wiki/Proof_of_work",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Prova de participação",
+    "url": "https://en.wikipedia.org/wiki/Proof_of_stake",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Falha bizantina",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_fault",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Gasto duplo",
+    "url": "https://en.wikipedia.org/wiki/Double-spending",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Mineração",
+    "url": "https://en.wikipedia.org/wiki/Cryptocurrency_mining",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Fork",
+    "url": "https://en.wikipedia.org/wiki/Fork_(blockchain)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Contrato inteligente",
+    "url": "https://en.wikipedia.org/wiki/Smart_contract",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Aplicação descentralizada (dApp)",
+    "url": "https://en.wikipedia.org/wiki/Decentralized_application",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Blockchain e consenso",
+    "name": "Oráculo",
+    "url": "https://en.wikipedia.org/wiki/Blockchain_oracle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Função hash criptográfica",
+    "url": "https://en.wikipedia.org/wiki/Cryptographic_hash_function",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Criptografia de chave pública",
+    "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Assinatura digital",
+    "url": "https://en.wikipedia.org/wiki/Digital_signature",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Criptografia de curvas elípticas",
+    "url": "https://en.wikipedia.org/wiki/Elliptic-curve_cryptography",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Árvore de Merkle",
+    "url": "https://en.wikipedia.org/wiki/Merkle_tree",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Prova de conhecimento zero",
+    "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Criptografia e segurança",
+    "name": "Carteira de criptomoedas",
+    "url": "https://en.wikipedia.org/wiki/Cryptocurrency_wallet",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Criptomoeda",
+    "url": "https://en.wikipedia.org/wiki/Cryptocurrency",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Token ERC-20",
+    "url": "https://en.wikipedia.org/wiki/ERC-20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Token ERC-721",
+    "url": "https://en.wikipedia.org/wiki/ERC-721",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Token não fungível (NFT)",
+    "url": "https://en.wikipedia.org/wiki/Non-fungible_token",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Stablecoin",
+    "url": "https://en.wikipedia.org/wiki/Stablecoin",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Oferta de security tokens (STO)",
+    "url": "https://en.wikipedia.org/wiki/Security_token_offering",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Tokenomics",
+    "url": "https://en.wikipedia.org/wiki/Tokenomics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Airdrop",
+    "url": "https://en.wikipedia.org/wiki/Airdrop_(cryptocurrency)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tokens e ativos digitais",
+    "name": "Oferta inicial de moedas (ICO)",
+    "url": "https://en.wikipedia.org/wiki/Initial_coin_offering",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Web3",
+    "url": "https://en.wikipedia.org/wiki/Web3",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Cypherpunk",
+    "url": "https://en.wikipedia.org/wiki/Cypherpunk",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Criptoanarquismo",
+    "url": "https://en.wikipedia.org/wiki/Crypto-anarchism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Organização autônoma descentralizada (DAO)",
+    "url": "https://en.wikipedia.org/wiki/Decentralized_autonomous_organization",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Metaverso",
+    "url": "https://en.wikipedia.org/wiki/Metaverse",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Bolha das criptomoedas",
+    "url": "https://en.wikipedia.org/wiki/Cryptocurrency_bubble",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Capitalização de mercado",
+    "url": "https://en.wikipedia.org/wiki/Market_capitalization",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "Halving do Bitcoin",
+    "url": "https://en.wikipedia.org/wiki/Bitcoin_halving",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Mercado e cultura cripto",
+    "name": "FOMO",
+    "url": "https://en.wikipedia.org/wiki/Fear_of_missing_out",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Rug pull",
+    "url": "https://en.wikipedia.org/wiki/Rug_pull",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Pump and dump",
+    "url": "https://en.wikipedia.org/wiki/Pump_and_dump",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Esquema Ponzi",
+    "url": "https://en.wikipedia.org/wiki/Ponzi_scheme",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Phishing",
+    "url": "https://en.wikipedia.org/wiki/Phishing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Ataque de 51%",
+    "url": "https://en.wikipedia.org/wiki/51%25_attack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Ataque Sybil",
+    "url": "https://en.wikipedia.org/wiki/Sybil_attack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Golpe do abate de porcos",
+    "url": "https://en.wikipedia.org/wiki/Pig_butchering_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Cryptojacking",
+    "url": "https://en.wikipedia.org/wiki/Cryptojacking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Front running",
+    "url": "https://en.wikipedia.org/wiki/Front_running",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes e ataques",
+    "name": "Wash trading",
+    "url": "https://en.wikipedia.org/wiki/Wash_trade",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Bitcoin",
+    "url": "https://bitcoin.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Ethereum",
+    "url": "https://ethereum.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "XRP",
+    "url": "https://xrpl.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "BNB",
+    "url": "https://www.bnbchain.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Solana",
+    "url": "https://solana.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Cardano",
+    "url": "https://cardano.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "TRON",
+    "url": "https://tron.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Litecoin",
+    "url": "https://litecoin.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Bitcoin Cash",
+    "url": "https://bitcoincash.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Stellar",
+    "url": "https://stellar.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Principais",
+    "name": "Toncoin",
+    "url": "https://ton.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "Tether (USDT)",
+    "url": "https://tether.to/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "USD Coin (USDC)",
+    "url": "https://www.circle.com/usdc",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "USDS (antiga DAI)",
+    "url": "https://sky.money/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "Ethena USDe",
+    "url": "https://ethena.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "PayPal USD (PYUSD)",
+    "url": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "Euro Coin (EURC)",
+    "url": "https://www.circle.com/eurc",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "Frax",
+    "url": "https://frax.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "TerraUSD (UST)",
+    "url": "https://en.wikipedia.org/wiki/Terra_(blockchain)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Stablecoins",
+    "name": "Diem (Libra)",
+    "url": "https://en.wikipedia.org/wiki/Diem_(digital_currency)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Privacidade",
+    "name": "Monero",
+    "url": "https://www.getmonero.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Privacidade",
+    "name": "Zcash",
+    "url": "https://z.cash/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Privacidade",
+    "name": "Tornado Cash",
+    "url": "https://en.wikipedia.org/wiki/Tornado_Cash",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Privacidade",
+    "name": "Railgun",
+    "url": "https://railgun.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Privacidade",
+    "name": "Aztec",
+    "url": "https://aztec.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Memecoins",
+    "name": "Dogecoin",
+    "url": "https://dogecoin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Memecoins",
+    "name": "Shiba Inu",
+    "url": "https://shib.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Memecoins",
+    "name": "Pepe",
+    "url": "https://www.pepe.vip/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Memecoins",
+    "name": "Bonk",
+    "url": "https://bonkcoin.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Criptomoedas",
+    "subcategory": "Memecoins",
+    "name": "pump.fun",
+    "url": "https://pump.fun/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Avalanche",
+    "url": "https://www.avalanche.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Sui",
+    "url": "https://sui.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Aptos",
+    "url": "https://aptosfoundation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "NEAR",
+    "url": "https://near.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Algorand",
+    "url": "https://algorand.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Tezos",
+    "url": "https://tezos.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Hedera",
+    "url": "https://hedera.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Ethereum Classic",
+    "url": "https://ethereumclassic.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Internet Computer",
+    "url": "https://internetcomputer.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 1",
+    "name": "Kaspa",
+    "url": "https://kaspa.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Arbitrum",
+    "url": "https://arbitrum.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Optimism",
+    "url": "https://www.optimism.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Base",
+    "url": "https://www.base.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "zkSync",
+    "url": "https://www.zksync.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Starknet",
+    "url": "https://www.starknet.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Polygon",
+    "url": "https://polygon.technology/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Scroll",
+    "url": "https://scroll.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Linea",
+    "url": "https://linea.build/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Lightning Network",
+    "url": "https://lightning.network/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Layer 2 e rollups",
+    "name": "Stacks",
+    "url": "https://www.stacks.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Polkadot",
+    "url": "https://polkadot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Cosmos",
+    "url": "https://cosmos.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Chainlink",
+    "url": "https://chain.link/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Pyth Network",
+    "url": "https://www.pyth.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Wormhole",
+    "url": "https://wormhole.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "LayerZero",
+    "url": "https://layerzero.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Axelar",
+    "url": "https://www.axelar.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blockchains",
+    "subcategory": "Interoperabilidade e oráculos",
+    "name": "Celestia",
+    "url": "https://celestia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Conceitos DeFi",
+    "name": "Finanças descentralizadas (DeFi)",
+    "url": "https://en.wikipedia.org/wiki/Decentralized_finance",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Conceitos DeFi",
+    "name": "Exchange descentralizada (DEX)",
+    "url": "https://en.wikipedia.org/wiki/Decentralized_exchange",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Conceitos DeFi",
+    "name": "Formador de mercado automatizado (AMM)",
+    "url": "https://en.wikipedia.org/wiki/Constant_function_market_maker",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Conceitos DeFi",
+    "name": "Contratos perpétuos",
+    "url": "https://en.wikipedia.org/wiki/Perpetual_futures",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Uniswap",
+    "url": "https://uniswap.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Curve",
+    "url": "https://www.curve.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "PancakeSwap",
+    "url": "https://pancakeswap.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Balancer",
+    "url": "https://balancer.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "SushiSwap",
+    "url": "https://www.sushi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Jupiter",
+    "url": "https://jup.ag/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Raydium",
+    "url": "https://raydium.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Orca",
+    "url": "https://www.orca.so/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "Aerodrome",
+    "url": "https://aerodrome.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "THORChain",
+    "url": "https://thorchain.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Exchanges descentralizadas (DEX)",
+    "name": "CoW Swap",
+    "url": "https://cow.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Aave",
+    "url": "https://aave.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Compound",
+    "url": "https://compound.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Morpho",
+    "url": "https://morpho.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Spark",
+    "url": "https://spark.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Kamino",
+    "url": "https://kamino.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Euler",
+    "url": "https://www.euler.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Liquity",
+    "url": "https://www.liquity.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Empréstimos",
+    "name": "Sky (antiga MakerDAO)",
+    "url": "https://sky.money/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "Lido",
+    "url": "https://lido.fi/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "Rocket Pool",
+    "url": "https://rocketpool.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "EigenLayer (EigenCloud)",
+    "url": "https://www.eigencloud.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "ether.fi",
+    "url": "https://www.ether.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "Jito",
+    "url": "https://www.jito.network/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Staking e restaking",
+    "name": "Marinade",
+    "url": "https://marinade.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "Hyperliquid",
+    "url": "https://hyperliquid.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "dYdX",
+    "url": "https://www.dydx.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "GMX",
+    "url": "https://gmx.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "Synthetix",
+    "url": "https://synthetix.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "Drift",
+    "url": "https://www.drift.trade/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "Polymarket",
+    "url": "https://polymarket.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Derivativos e mercados de previsão",
+    "name": "Augur",
+    "url": "https://en.wikipedia.org/wiki/Augur_(software)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "1inch",
+    "url": "https://1inch.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Matcha",
+    "url": "https://matcha.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "LI.FI",
+    "url": "https://li.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Jumper",
+    "url": "https://jumper.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Yearn",
+    "url": "https://yearn.fi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Pendle",
+    "url": "https://www.pendle.finance/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Convex",
+    "url": "https://www.convexfinance.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "DeFi",
+    "subcategory": "Agregadores e rendimento",
+    "name": "Beefy",
+    "url": "https://beefy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Binance",
+    "url": "https://www.binance.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Coinbase",
+    "url": "https://www.coinbase.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Kraken",
+    "url": "https://www.kraken.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "OKX",
+    "url": "https://www.okx.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Bybit",
+    "url": "https://www.bybit.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Bitget",
+    "url": "https://www.bitget.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "KuCoin",
+    "url": "https://www.kucoin.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Gemini",
+    "url": "https://www.gemini.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Bitstamp",
+    "url": "https://www.bitstamp.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Crypto.com",
+    "url": "https://crypto.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Bitfinex",
+    "url": "https://www.bitfinex.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Internacionais",
+    "name": "Upbit",
+    "url": "https://upbit.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Mercado Bitcoin",
+    "url": "https://www.mercadobitcoin.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Foxbit",
+    "url": "https://foxbit.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "NovaDAX",
+    "url": "https://www.novadax.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Bitypreço",
+    "url": "https://bitypreco.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Mynt (BTG Pactual)",
+    "url": "https://www.mynt.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Nubank Cripto",
+    "url": "https://nubank.com.br/sobre-cripto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Ripio",
+    "url": "https://www.ripio.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Brasil e América Latina",
+    "name": "Bitso",
+    "url": "https://bitso.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "FTX",
+    "url": "https://en.wikipedia.org/wiki/FTX",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "Mt. Gox",
+    "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "QuadrigaCX",
+    "url": "https://en.wikipedia.org/wiki/QuadrigaCX",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "BlockFi",
+    "url": "https://en.wikipedia.org/wiki/BlockFi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "Voyager Digital",
+    "url": "https://en.wikipedia.org/wiki/Voyager_Digital",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "BTC-e",
+    "url": "https://en.wikipedia.org/wiki/BTC-e",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Corretoras",
+    "subcategory": "Encerradas",
+    "name": "Cryptopia",
+    "url": "https://en.wikipedia.org/wiki/Cryptopia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "MetaMask",
+    "url": "https://metamask.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Phantom",
+    "url": "https://phantom.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Rabby",
+    "url": "https://rabby.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Trust Wallet",
+    "url": "https://trustwallet.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Rainbow",
+    "url": "https://rainbow.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Exodus",
+    "url": "https://www.exodus.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Zerion",
+    "url": "https://zerion.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Safe (multisig)",
+    "url": "https://safe.global/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Keplr",
+    "url": "https://www.keplr.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Autocustódia",
+    "name": "Backpack",
+    "url": "https://backpack.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Ledger",
+    "url": "https://www.ledger.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Trezor",
+    "url": "https://trezor.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Keystone",
+    "url": "https://keyst.one/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "BitBox",
+    "url": "https://bitbox.swiss/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Coldcard",
+    "url": "https://coldcard.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Tangem",
+    "url": "https://tangem.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "GridPlus Lattice1",
+    "url": "https://gridplus.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Foundation Passport",
+    "url": "https://foundation.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Hardware",
+    "name": "Blockstream Jade",
+    "url": "https://blockstream.com/jade/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Bitcoin Core",
+    "url": "https://bitcoincore.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Sparrow",
+    "url": "https://sparrowwallet.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Electrum",
+    "url": "https://electrum.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "BlueWallet",
+    "url": "https://bluewallet.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Wasabi Wallet",
+    "url": "https://wasabiwallet.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Nunchuk",
+    "url": "https://nunchuk.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Phoenix",
+    "url": "https://phoenix.acinq.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Muun",
+    "url": "https://muun.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Breez",
+    "url": "https://breez.technology/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Wallet of Satoshi",
+    "url": "https://www.walletofsatoshi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Carteiras",
+    "subcategory": "Bitcoin",
+    "name": "Samourai Wallet",
+    "url": "https://en.wikipedia.org/wiki/Samourai_Wallet",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "OpenSea",
+    "url": "https://opensea.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "Blur",
+    "url": "https://blur.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "Magic Eden",
+    "url": "https://magiceden.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "Rarible",
+    "url": "https://rarible.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "SuperRare",
+    "url": "https://superrare.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "Zora",
+    "url": "https://zora.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "Tensor",
+    "url": "https://www.tensor.trade/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Marketplaces",
+    "name": "objkt",
+    "url": "https://objkt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "CryptoPunks",
+    "url": "https://cryptopunks.app/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "Bored Ape Yacht Club",
+    "url": "https://boredapeyachtclub.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "Art Blocks",
+    "url": "https://www.artblocks.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "Azuki",
+    "url": "https://www.azuki.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "Pudgy Penguins",
+    "url": "https://pudgypenguins.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "Nouns",
+    "url": "https://nouns.wtf/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Coleções icônicas",
+    "name": "CryptoKitties",
+    "url": "https://www.cryptokitties.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "Axie Infinity",
+    "url": "https://axieinfinity.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "The Sandbox",
+    "url": "https://www.sandbox.game/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "Decentraland",
+    "url": "https://decentraland.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "Gods Unchained",
+    "url": "https://godsunchained.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "Sorare",
+    "url": "https://sorare.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "NFTs e metaverso",
+    "subcategory": "Games Web3 e metaverso",
+    "name": "Immutable",
+    "url": "https://www.immutable.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Etherscan",
+    "url": "https://etherscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "mempool.space",
+    "url": "https://mempool.space/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Solscan",
+    "url": "https://solscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Blockchair",
+    "url": "https://blockchair.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Blockchain.com Explorer",
+    "url": "https://www.blockchain.com/explorer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Mintscan",
+    "url": "https://www.mintscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Subscan",
+    "url": "https://www.subscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Exploradores de blocos",
+    "name": "Cardanoscan",
+    "url": "https://cardanoscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Preços e mercado",
+    "name": "CoinGecko",
+    "url": "https://www.coingecko.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Preços e mercado",
+    "name": "CoinMarketCap",
+    "url": "https://coinmarketcap.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Preços e mercado",
+    "name": "TradingView",
+    "url": "https://www.tradingview.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Preços e mercado",
+    "name": "Messari",
+    "url": "https://messari.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "DefiLlama",
+    "url": "https://defillama.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Dune",
+    "url": "https://dune.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "L2BEAT",
+    "url": "https://l2beat.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Nansen",
+    "url": "https://www.nansen.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Glassnode",
+    "url": "https://glassnode.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Token Terminal",
+    "url": "https://tokenterminal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Artemis",
+    "url": "https://www.artemis.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "Arkham",
+    "url": "https://arkm.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "ultrasound.money",
+    "url": "https://ultrasound.money/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Dados e análise",
+    "subcategory": "Análise on-chain e DeFi",
+    "name": "growthepie",
+    "url": "https://www.growthepie.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Solidity",
+    "url": "https://soliditylang.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Vyper",
+    "url": "https://vyperlang.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Hardhat",
+    "url": "https://hardhat.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Foundry",
+    "url": "https://getfoundry.sh/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Remix IDE",
+    "url": "https://remix.ethereum.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Anchor (Solana)",
+    "url": "https://www.anchor-lang.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Linguagens e frameworks",
+    "name": "Scaffold-ETH",
+    "url": "https://scaffoldeth.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Bibliotecas e SDKs",
+    "name": "OpenZeppelin",
+    "url": "https://www.openzeppelin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Bibliotecas e SDKs",
+    "name": "ethers.js",
+    "url": "https://docs.ethers.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Bibliotecas e SDKs",
+    "name": "viem",
+    "url": "https://viem.sh/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Bibliotecas e SDKs",
+    "name": "wagmi",
+    "url": "https://wagmi.sh/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Bibliotecas e SDKs",
+    "name": "thirdweb",
+    "url": "https://thirdweb.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "Alchemy",
+    "url": "https://www.alchemy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "Infura",
+    "url": "https://www.infura.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "QuickNode",
+    "url": "https://www.quicknode.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "The Graph",
+    "url": "https://thegraph.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "Tenderly",
+    "url": "https://tenderly.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Infraestrutura e nós",
+    "name": "Geth",
+    "url": "https://geth.ethereum.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "IPFS",
+    "url": "https://ipfs.tech/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "Filecoin",
+    "url": "https://filecoin.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "Arweave",
+    "url": "https://arweave.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "Storj",
+    "url": "https://www.storj.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "Sia",
+    "url": "https://sia.tech/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Desenvolvimento",
+    "subcategory": "Armazenamento descentralizado",
+    "name": "Swarm",
+    "url": "https://www.ethswarm.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Nomes e identidade",
+    "name": "ENS (Ethereum Name Service)",
+    "url": "https://ens.domains/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Nomes e identidade",
+    "name": "Unstoppable Domains",
+    "url": "https://unstoppabledomains.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Nomes e identidade",
+    "name": "Sign-In with Ethereum",
+    "url": "https://login.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Nomes e identidade",
+    "name": "World (Worldcoin)",
+    "url": "https://world.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Nomes e identidade",
+    "name": "Identidade autossoberana",
+    "url": "https://en.wikipedia.org/wiki/Self-sovereign_identity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Redes sociais descentralizadas",
+    "name": "Farcaster",
+    "url": "https://farcaster.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Redes sociais descentralizadas",
+    "name": "Lens",
+    "url": "https://lens.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Redes sociais descentralizadas",
+    "name": "Nostr",
+    "url": "https://nostr.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Identidade e social",
+    "subcategory": "Redes sociais descentralizadas",
+    "name": "Damus",
+    "url": "https://damus.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Trail of Bits",
+    "url": "https://www.trailofbits.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "CertiK",
+    "url": "https://www.certik.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Consensys Diligence",
+    "url": "https://diligence.security/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Cantina (Spearbit)",
+    "url": "https://www.cantina.security/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Code4rena",
+    "url": "https://code4rena.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Sherlock",
+    "url": "https://www.sherlock.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "Immunefi",
+    "url": "https://immunefi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Auditorias e pesquisa",
+    "name": "SlowMist",
+    "url": "https://www.slowmist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Rastreamento e investigação",
+    "name": "Chainalysis",
+    "url": "https://www.chainalysis.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Rastreamento e investigação",
+    "name": "Elliptic",
+    "url": "https://www.elliptic.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Rastreamento e investigação",
+    "name": "TRM Labs",
+    "url": "https://www.trmlabs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Rastreamento e investigação",
+    "name": "rekt.news",
+    "url": "https://rekt.news/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Rastreamento e investigação",
+    "name": "Web3 Is Going Just Great",
+    "url": "https://www.web3isgoinggreat.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Ferramentas de proteção",
+    "name": "Revoke.cash",
+    "url": "https://revoke.cash/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Ferramentas de proteção",
+    "name": "Scam Sniffer",
+    "url": "https://www.scamsniffer.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Segurança e auditoria",
+    "subcategory": "Ferramentas de proteção",
+    "name": "Chainabuse",
+    "url": "https://www.chainabuse.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "ETFs e gestoras",
+    "name": "iShares Bitcoin Trust (IBIT)",
+    "url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "ETFs e gestoras",
+    "name": "Grayscale",
+    "url": "https://www.grayscale.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "ETFs e gestoras",
+    "name": "Fidelity Digital Assets",
+    "url": "https://www.fidelitydigitalassets.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "ETFs e gestoras",
+    "name": "Hashdex",
+    "url": "https://www.hashdex.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Fundos de venture",
+    "name": "a16z crypto",
+    "url": "https://a16zcrypto.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Fundos de venture",
+    "name": "Paradigm",
+    "url": "https://www.paradigm.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Fundos de venture",
+    "name": "Pantera Capital",
+    "url": "https://panteracapital.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Fundos de venture",
+    "name": "Multicoin Capital",
+    "url": "https://multicoin.capital/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Circle",
+    "url": "https://www.circle.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Tether",
+    "url": "https://tether.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Strategy (MicroStrategy)",
+    "url": "https://www.strategy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Galaxy Digital",
+    "url": "https://www.galaxy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Consensys",
+    "url": "https://consensys.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Ripple",
+    "url": "https://ripple.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Blockstream",
+    "url": "https://blockstream.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Investimento institucional",
+    "subcategory": "Empresas",
+    "name": "Three Arrows Capital",
+    "url": "https://en.wikipedia.org/wiki/Three_Arrows_Capital",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "Moeda digital de banco central (CBDC)",
+    "url": "https://en.wikipedia.org/wiki/Central_bank_digital_currency",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "CBDCs por país",
+    "url": "https://en.wikipedia.org/wiki/Central_bank_digital_currencies_by_country",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "Drex (Brasil)",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/drex",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "Yuan digital (e-CNY)",
+    "url": "https://en.wikipedia.org/wiki/Digital_renminbi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "Euro digital",
+    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Moedas digitais de bancos centrais",
+    "name": "eNaira",
+    "url": "https://en.wikipedia.org/wiki/ENaira",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Leis e regulação",
+    "name": "MiCA (União Europeia)",
+    "url": "https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Leis e regulação",
+    "name": "GENIUS Act (EUA)",
+    "url": "https://en.wikipedia.org/wiki/GENIUS_Act",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Leis e regulação",
+    "name": "Bitcoin em El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Leis e regulação",
+    "name": "Criptomoedas no Brasil",
+    "url": "https://pt.wikipedia.org/wiki/Criptomoedas_no_Brasil",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Leis e regulação",
+    "name": "Teste de Howey",
+    "url": "https://en.wikipedia.org/wiki/SEC_v._W._J._Howey_Co.",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "SEC",
+    "url": "https://www.sec.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "CFTC",
+    "url": "https://www.cftc.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "CVM",
+    "url": "https://www.gov.br/cvm/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "Banco Central do Brasil",
+    "url": "https://www.bcb.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "GAFI/FATF",
+    "url": "https://www.fatf-gafi.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "ABCripto",
+    "url": "https://www.abcripto.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "Coin Center",
+    "url": "https://www.coincenter.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Regulação e CBDCs",
+    "subcategory": "Órgãos e associações",
+    "name": "Blockchain Association",
+    "url": "https://theblockchainassociation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Ethereum Foundation",
+    "url": "https://ethereum.foundation/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Solana Foundation",
+    "url": "https://solana.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Web3 Foundation",
+    "url": "https://web3.foundation/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Cardano Foundation",
+    "url": "https://cardanofoundation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Zcash Foundation",
+    "url": "https://zfnd.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Uniswap Foundation",
+    "url": "https://www.uniswapfoundation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Linux Foundation Decentralized Trust",
+    "url": "https://www.lfdecentralizedtrust.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Fundações",
+    "name": "Enterprise Ethereum Alliance",
+    "url": "https://entethalliance.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Financiamento de código aberto",
+    "name": "Gitcoin",
+    "url": "https://www.gitcoin.co/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Financiamento de código aberto",
+    "name": "OpenSats",
+    "url": "https://opensats.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Financiamento de código aberto",
+    "name": "Brink",
+    "url": "https://brink.dev/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e fundações",
+    "subcategory": "Financiamento de código aberto",
+    "name": "Protocol Labs",
+    "url": "https://pl.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "CoinDesk",
+    "url": "https://www.coindesk.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "The Block",
+    "url": "https://www.theblock.co/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Decrypt",
+    "url": "https://decrypt.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Cointelegraph",
+    "url": "https://cointelegraph.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Blockworks",
+    "url": "https://blockworks.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "The Defiant",
+    "url": "https://thedefiant.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Bitcoin Magazine",
+    "url": "https://bitcoinmagazine.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Protos",
+    "url": "https://protos.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "DL News",
+    "url": "https://www.dlnews.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Internacionais",
+    "name": "Citation Needed (Molly White)",
+    "url": "https://www.citationneeded.news/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "Livecoins",
+    "url": "https://livecoins.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "Portal do Bitcoin",
+    "url": "https://portaldobitcoin.uol.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "Cointelegraph Brasil",
+    "url": "https://cointelegraph.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "CriptoFácil",
+    "url": "https://www.criptofacil.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "BlockTrends",
+    "url": "https://blocktrends.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Notícias e mídia",
+    "subcategory": "Brasil",
+    "name": "Exame Future of Money",
+    "url": "https://exame.com/future-of-money/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Bankless",
+    "url": "https://www.bankless.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Unchained",
+    "url": "https://unchainedcrypto.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "What Bitcoin Did",
+    "url": "https://www.whatbitcoindid.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Empire",
+    "url": "https://blockworks.com/podcast/empire",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Epicenter",
+    "url": "https://epicenter.tv/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Zero Knowledge Podcast",
+    "url": "https://zeroknowledge.fm/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Podcasts",
+    "name": "Stephan Livera Podcast",
+    "url": "https://stephanlivera.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Coin Bureau",
+    "url": "https://www.youtube.com/@CoinBureau",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Finematics",
+    "url": "https://www.youtube.com/@Finematics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Whiteboard Crypto",
+    "url": "https://www.youtube.com/@WhiteboardCrypto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "aantonop",
+    "url": "https://www.youtube.com/@aantonop",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Patrick Collins",
+    "url": "https://www.youtube.com/@PatrickAlphaC",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Smart Contract Programmer",
+    "url": "https://www.youtube.com/@smartcontractprogrammer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Dapp University",
+    "url": "https://www.youtube.com/@DappUniversity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "3Blue1Brown - Como o Bitcoin funciona?",
+    "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Augusto Backes",
+    "url": "https://www.youtube.com/@augustobackes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e canais",
+    "subcategory": "Canais de vídeo",
+    "name": "Investidor 4.20",
+    "url": "https://www.youtube.com/@investidor4.20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "ethereum.org (Aprenda)",
+    "url": "https://ethereum.org/en/learn/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Learn Me A Bitcoin",
+    "url": "https://learnmeabitcoin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "CryptoZombies",
+    "url": "https://cryptozombies.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Cyfrin Updraft",
+    "url": "https://updraft.cyfrin.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Alchemy University",
+    "url": "https://www.alchemy.com/university",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Speedrun Ethereum",
+    "url": "https://speedrunethereum.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Solidity by Example",
+    "url": "https://solidity-by-example.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Ethernaut",
+    "url": "https://ethernaut.openzeppelin.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Damn Vulnerable DeFi",
+    "url": "https://www.damnvulnerabledefi.xyz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Binance Academy",
+    "url": "https://academy.binance.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Coinbase Learn",
+    "url": "https://www.coinbase.com/learn",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "MIT - Blockchain and Money",
+    "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Cursos e guias",
+    "name": "Princeton - Bitcoin and Cryptocurrency Technologies",
+    "url": "https://www.coursera.org/learn/cryptocurrency",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Satoshi Nakamoto - Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "url": "https://bitcoin.org/bitcoin.pdf",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Vitalik Buterin - Ethereum Whitepaper",
+    "url": "https://ethereum.org/en/whitepaper/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Gavin Wood - Ethereum Yellow Paper",
+    "url": "https://ethereum.github.io/yellowpaper/paper.pdf",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Wei Dai - b-money",
+    "url": "https://www.weidai.com/bmoney.txt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Nick Szabo - Bit Gold",
+    "url": "https://unenumerated.blogspot.com/2005/12/bit-gold.html",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Poon & Dryja - The Bitcoin Lightning Network",
+    "url": "https://lightning.network/lightning-network-paper.pdf",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Anatoly Yakovenko - Solana Whitepaper",
+    "url": "https://solana.com/solana-whitepaper.pdf",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Timothy C. May - The Crypto Anarchist Manifesto",
+    "url": "https://en.wikipedia.org/wiki/Crypto-anarchism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação",
+    "subcategory": "Whitepapers e documentos fundamentais",
+    "name": "Eric Hughes - A Cypherpunk's Manifesto",
+    "url": "https://en.wikipedia.org/wiki/Cypherpunk",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Andreas Antonopoulos - Mastering Bitcoin",
+    "url": "https://www.goodreads.com/search?q=Andreas+Antonopoulos+Mastering+Bitcoin",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Saifedean Ammous - The Bitcoin Standard",
+    "url": "https://en.wikipedia.org/wiki/The_Bitcoin_Standard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Nathaniel Popper - Digital Gold",
+    "url": "https://www.goodreads.com/search?q=Nathaniel+Popper+Digital+Gold",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Jonathan Bier - The Blocksize War",
+    "url": "https://www.goodreads.com/search?q=Jonathan+Bier+The+Blocksize+War",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Fernando Ulrich - Bitcoin: A Moeda na Era Digital",
+    "url": "https://www.goodreads.com/search?q=Fernando+Ulrich+Bitcoin+a+moeda+na+era+digital",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Bitcoin",
+    "name": "Narayanan et al. - Bitcoin and Cryptocurrency Technologies",
+    "url": "https://www.goodreads.com/search?q=Bitcoin+and+Cryptocurrency+Technologies+Narayanan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ethereum e Web3",
+    "name": "Antonopoulos & Wood - Mastering Ethereum",
+    "url": "https://www.goodreads.com/search?q=Mastering+Ethereum+Antonopoulos+Wood",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ethereum e Web3",
+    "name": "Camila Russo - The Infinite Machine",
+    "url": "https://www.goodreads.com/search?q=Camila+Russo+The+Infinite+Machine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ethereum e Web3",
+    "name": "Chris Dixon - Read Write Own",
+    "url": "https://www.goodreads.com/search?q=Chris+Dixon+Read+Write+Own",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ethereum e Web3",
+    "name": "Don & Alex Tapscott - Blockchain Revolution",
+    "url": "https://www.goodreads.com/search?q=Tapscott+Blockchain+Revolution",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ethereum e Web3",
+    "name": "Vigna & Casey - The Age of Cryptocurrency",
+    "url": "https://www.goodreads.com/search?q=The+Age+of+Cryptocurrency+Vigna+Casey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Laura Shin - The Cryptopians",
+    "url": "https://www.goodreads.com/search?q=Laura+Shin+The+Cryptopians",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Zeke Faux - Number Go Up",
+    "url": "https://en.wikipedia.org/wiki/Number_Go_Up",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Michael Lewis - Going Infinite",
+    "url": "https://en.wikipedia.org/wiki/Going_Infinite",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Ben Mezrich - Bitcoin Billionaires",
+    "url": "https://en.wikipedia.org/wiki/Bitcoin_Billionaires",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Andy Greenberg - Tracers in the Dark",
+    "url": "https://www.goodreads.com/search?q=Andy+Greenberg+Tracers+in+the+Dark",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "Finn Brunton - Digital Cash",
+    "url": "https://www.goodreads.com/search?q=Finn+Brunton+Digital+Cash",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e escândalos",
+    "name": "David Gerard - Attack of the 50 Foot Blockchain",
+    "url": "https://www.goodreads.com/search?q=David+Gerard+Attack+of+the+50+Foot+Blockchain",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Satoshi Nakamoto",
+    "url": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Hal Finney",
+    "url": "https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Nick Szabo",
+    "url": "https://en.wikipedia.org/wiki/Nick_Szabo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Wei Dai",
+    "url": "https://en.wikipedia.org/wiki/Wei_Dai",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "David Chaum",
+    "url": "https://en.wikipedia.org/wiki/David_Chaum",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Adam Back",
+    "url": "https://en.wikipedia.org/wiki/Adam_Back",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Timothy C. May",
+    "url": "https://en.wikipedia.org/wiki/Timothy_C._May",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Eric Hughes",
+    "url": "https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Ralph Merkle",
+    "url": "https://en.wikipedia.org/wiki/Ralph_Merkle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pioneiros e cypherpunks",
+    "name": "Gavin Andresen",
+    "url": "https://en.wikipedia.org/wiki/Gavin_Andresen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Vitalik Buterin",
+    "url": "https://en.wikipedia.org/wiki/Vitalik_Buterin",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Gavin Wood",
+    "url": "https://en.wikipedia.org/wiki/Gavin_Wood",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Joseph Lubin",
+    "url": "https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Charles Hoskinson",
+    "url": "https://en.wikipedia.org/wiki/Charles_Hoskinson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Anatoly Yakovenko",
+    "url": "https://en.wikipedia.org/wiki/Anatoly_Yakovenko",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Changpeng Zhao",
+    "url": "https://en.wikipedia.org/wiki/Changpeng_Zhao",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Brian Armstrong",
+    "url": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Jed McCaleb",
+    "url": "https://en.wikipedia.org/wiki/Jed_McCaleb",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Silvio Micali",
+    "url": "https://en.wikipedia.org/wiki/Silvio_Micali",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Emin Gün Sirer",
+    "url": "https://en.wikipedia.org/wiki/Emin_G%C3%BCn_Sirer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Winklevoss twins",
+    "url": "https://en.wikipedia.org/wiki/Winklevoss_twins",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Jack Dorsey",
+    "url": "https://en.wikipedia.org/wiki/Jack_Dorsey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Fundadores e criadores",
+    "name": "Michael Saylor",
+    "url": "https://en.wikipedia.org/wiki/Michael_J._Saylor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Andreas Antonopoulos",
+    "url": "https://en.wikipedia.org/wiki/Andreas_Antonopoulos",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Laura Shin",
+    "url": "https://laurashin.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Balaji Srinivasan",
+    "url": "https://en.wikipedia.org/wiki/Balaji_Srinivasan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Chris Dixon",
+    "url": "https://en.wikipedia.org/wiki/Chris_Dixon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Arvind Narayanan",
+    "url": "https://en.wikipedia.org/wiki/Arvind_Narayanan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Molly White",
+    "url": "https://en.wikipedia.org/wiki/Molly_White_(writer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Dan Boneh",
+    "url": "https://en.wikipedia.org/wiki/Dan_Boneh",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Shafi Goldwasser",
+    "url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Pesquisadores e educadores",
+    "name": "Jameson Lopp",
+    "url": "https://www.lopp.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Brasil e América Latina",
+    "name": "Fernando Ulrich",
+    "url": "https://www.youtube.com/@FernandoUlrichCanal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Brasil e América Latina",
+    "name": "Jorge Stolfi",
+    "url": "https://en.wikipedia.org/wiki/Jorge_Stolfi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Brasil e América Latina",
+    "name": "Wences Casares",
+    "url": "https://en.wikipedia.org/wiki/Wences_Casares",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Brasil e América Latina",
+    "name": "Gustavo Chamati",
+    "url": "https://pt.wikipedia.org/wiki/Gustavo_Chamati",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Brasil e América Latina",
+    "name": "Tasso Lago",
+    "url": "https://pt.wikipedia.org/wiki/Tasso_Lago",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Marcos históricos",
+    "name": "História do Bitcoin",
+    "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Marcos históricos",
+    "name": "Divisão Ethereum Classic",
+    "url": "https://en.wikipedia.org/wiki/Ethereum_Classic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Marcos históricos",
+    "name": "Guerra do tamanho de bloco",
+    "url": "https://en.wikipedia.org/wiki/Bitcoin_scalability_problem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Marcos históricos",
+    "name": "CryptoKitties",
+    "url": "https://en.wikipedia.org/wiki/CryptoKitties",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Marcos históricos",
+    "name": "Everydays: The First 5000 Days",
+    "url": "https://en.wikipedia.org/wiki/Everydays:_the_First_5000_Days",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "The DAO",
+    "url": "https://en.wikipedia.org/wiki/The_DAO",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "Terra/Luna",
+    "url": "https://en.wikipedia.org/wiki/Terra_(blockchain)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "Falência da FTX",
+    "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "Celsius Network",
+    "url": "https://en.wikipedia.org/wiki/Celsius_Network",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "BitConnect",
+    "url": "https://en.wikipedia.org/wiki/BitConnect",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "OneCoin",
+    "url": "https://en.wikipedia.org/wiki/OneCoin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Colapsos e escândalos",
+    "name": "Silk Road",
+    "url": "https://en.wikipedia.org/wiki/Silk_Road_(marketplace)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Ataques e hacks",
+    "name": "Hack da Bitfinex (2016)",
+    "url": "https://en.wikipedia.org/wiki/2016_Bitfinex_hack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Ataques e hacks",
+    "name": "Hack da Coincheck (2018)",
+    "url": "https://en.wikipedia.org/wiki/Coincheck",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Ataques e hacks",
+    "name": "Hack da Ronin Network (2022)",
+    "url": "https://en.wikipedia.org/wiki/Ronin_Network",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Ataques e hacks",
+    "name": "Poly Network (2021)",
+    "url": "https://en.wikipedia.org/wiki/Poly_Network_exploit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "História e casos",
+    "subcategory": "Ataques e hacks",
+    "name": "Hack da Bybit (2025)",
+    "url": "https://en.wikipedia.org/wiki/Bybit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

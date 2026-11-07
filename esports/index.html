@@ -1,0 +1,3647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de eSports — Catálogo pesquisável de esportes eletrônicos: jogos competitivos por gênero, campeonatos, equipes, lendas, enciclopédias, notícias, dados e transmissões</title>
+<meta content="Catálogo pesquisável de eSports: jogos competitivos por gênero (MOBA, FPS, battle royale, luta, esportes, estratégia e mobile), campeonatos por jogo, equipes por continente, lendas por jogo, enciclopédias, notícias, sites de dados e estatísticas e transmissão." name="description"/>
+<link href="https://biblioverse.org/esports/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="esports" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de eSports</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de eSports</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "MOBA",
+    "name": "League of Legends",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "MOBA",
+    "name": "Dota 2",
+    "url": "https://pt.wikipedia.org/wiki/Dota_2",
+    "url_en": "https://en.wikipedia.org/wiki/Dota_2",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "MOBA",
+    "name": "Smite 2",
+    "url": "https://pt.wikipedia.org/wiki/Smite",
+    "url_en": "https://en.wikipedia.org/wiki/Smite_(video_game)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "MOBA",
+    "name": "Deadlock",
+    "url": "https://en.wikipedia.org/wiki/Deadlock_(video_game)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "MOBA",
+    "name": "Heroes of the Storm",
+    "url": "https://pt.wikipedia.org/wiki/Heroes_of_the_Storm",
+    "url_en": "https://en.wikipedia.org/wiki/Heroes_of_the_Storm",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Counter-Strike 2",
+    "url": "https://pt.wikipedia.org/wiki/Counter-Strike_2",
+    "url_en": "https://en.wikipedia.org/wiki/Counter-Strike_2",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Valorant",
+    "url": "https://pt.wikipedia.org/wiki/Valorant",
+    "url_en": "https://en.wikipedia.org/wiki/Valorant",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Overwatch 2",
+    "url": "https://pt.wikipedia.org/wiki/Overwatch_2",
+    "url_en": "https://en.wikipedia.org/wiki/Overwatch_(2023_video_game)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Rainbow Six Siege",
+    "url": "https://pt.wikipedia.org/wiki/Tom_Clancy's_Rainbow_Six_Siege",
+    "url_en": "https://en.wikipedia.org/wiki/Tom_Clancy's_Rainbow_Six_Siege",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Call of Duty",
+    "url": "https://pt.wikipedia.org/wiki/Call_of_Duty",
+    "url_en": "https://en.wikipedia.org/wiki/Call_of_Duty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Halo Infinite",
+    "url": "https://pt.wikipedia.org/wiki/Halo_Infinite",
+    "url_en": "https://en.wikipedia.org/wiki/Halo_Infinite",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Marvel Rivals",
+    "url": "https://pt.wikipedia.org/wiki/Marvel_Rivals",
+    "url_en": "https://en.wikipedia.org/wiki/Marvel_Rivals",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Point Blank",
+    "url": "https://pt.wikipedia.org/wiki/Point_Blank_(jogo_eletr%C3%B4nico)",
+    "url_en": "https://en.wikipedia.org/wiki/Point_Blank_(2008_video_game)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "CrossFire",
+    "url": "https://pt.wikipedia.org/wiki/Crossfire",
+    "url_en": "https://en.wikipedia.org/wiki/Crossfire_(disambiguation)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Quake Champions",
+    "url": "https://en.wikipedia.org/wiki/Quake_Champions",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "FPS e tiro tático",
+    "name": "Team Fortress 2",
+    "url": "https://pt.wikipedia.org/wiki/Team_Fortress_2",
+    "url_en": "https://en.wikipedia.org/wiki/Team_Fortress_2",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Battle royale",
+    "name": "Fortnite",
+    "url": "https://pt.wikipedia.org/wiki/Fortnite",
+    "url_en": "https://en.wikipedia.org/wiki/Fortnite",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Battle royale",
+    "name": "PUBG: Battlegrounds",
+    "url": "https://pt.wikipedia.org/wiki/PlayerUnknown's_Battlegrounds",
+    "url_en": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Battle royale",
+    "name": "Apex Legends",
+    "url": "https://pt.wikipedia.org/wiki/Apex_Legends",
+    "url_en": "https://en.wikipedia.org/wiki/Apex_Legends",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Battle royale",
+    "name": "Call of Duty: Warzone",
+    "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Warzone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Street Fighter 6",
+    "url": "https://pt.wikipedia.org/wiki/Street_Fighter_6",
+    "url_en": "https://en.wikipedia.org/wiki/Street_Fighter_6",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Tekken 8",
+    "url": "https://pt.wikipedia.org/wiki/Tekken_8",
+    "url_en": "https://en.wikipedia.org/wiki/Tekken_8",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Super Smash Bros. Ultimate",
+    "url": "https://pt.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+    "url_en": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Super Smash Bros. Melee",
+    "url": "https://pt.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+    "url_en": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Mortal Kombat 1",
+    "url": "https://pt.wikipedia.org/wiki/Mortal_Kombat_1",
+    "url_en": "https://en.wikipedia.org/wiki/Mortal_Kombat_1",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Guilty Gear Strive",
+    "url": "https://pt.wikipedia.org/wiki/Guilty_Gear_3",
+    "url_en": "https://en.wikipedia.org/wiki/Guilty_Gear_Strive",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Fatal Fury: City of the Wolves",
+    "url": "https://pt.wikipedia.org/wiki/Fatal_Fury:_City_of_the_Wolves",
+    "url_en": "https://en.wikipedia.org/wiki/Fatal_Fury:_City_of_the_Wolves",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Luta",
+    "name": "Dragon Ball FighterZ",
+    "url": "https://pt.wikipedia.org/wiki/Dragon_Ball_FighterZ",
+    "url_en": "https://en.wikipedia.org/wiki/Dragon_Ball_FighterZ",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "EA Sports FC",
+    "url": "https://en.wikipedia.org/wiki/EA_Sports_FC",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "eFootball",
+    "url": "https://pt.wikipedia.org/wiki/EFootball_2022",
+    "url_en": "https://en.wikipedia.org/wiki/EFootball",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "Rocket League",
+    "url": "https://pt.wikipedia.org/wiki/Rocket_League",
+    "url_en": "https://en.wikipedia.org/wiki/Rocket_League",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "NBA 2K",
+    "url": "https://pt.wikipedia.org/wiki/NBA_2K",
+    "url_en": "https://en.wikipedia.org/wiki/NBA_2K",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "Gran Turismo 7",
+    "url": "https://pt.wikipedia.org/wiki/Gran_Turismo_7",
+    "url_en": "https://en.wikipedia.org/wiki/Gran_Turismo_7",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "iRacing",
+    "url": "https://pt.wikipedia.org/wiki/IRacing",
+    "url_en": "https://en.wikipedia.org/wiki/IRacing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "Trackmania",
+    "url": "https://pt.wikipedia.org/wiki/Trackmania_(jogo_eletr%C3%B4nico_de_2020)",
+    "url_en": "https://en.wikipedia.org/wiki/Trackmania_(2020_video_game)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Esportes e corrida",
+    "name": "F1 25",
+    "url": "https://pt.wikipedia.org/wiki/F1_25_(jogo_eletr%C3%B4nico)",
+    "url_en": "https://en.wikipedia.org/wiki/F1_25",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "StarCraft II",
+    "url": "https://pt.wikipedia.org/wiki/StarCraft_II",
+    "url_en": "https://en.wikipedia.org/wiki/StarCraft_II",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Age of Empires II",
+    "url": "https://pt.wikipedia.org/wiki/Age_of_Empires_II:_The_Age_of_Kings",
+    "url_en": "https://en.wikipedia.org/wiki/Age_of_Empires_II",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Warcraft III",
+    "url": "https://pt.wikipedia.org/wiki/Warcraft_III",
+    "url_en": "https://en.wikipedia.org/wiki/Warcraft_III:_Reign_of_Chaos",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Teamfight Tactics",
+    "url": "https://pt.wikipedia.org/wiki/Teamfight_Tactics",
+    "url_en": "https://en.wikipedia.org/wiki/Teamfight_Tactics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Hearthstone",
+    "url": "https://pt.wikipedia.org/wiki/Hearthstone",
+    "url_en": "https://en.wikipedia.org/wiki/Hearthstone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Magic: The Gathering Arena",
+    "url": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Estratégia e cartas",
+    "name": "Chess.com e xadrez online",
+    "url": "https://pt.wikipedia.org/wiki/Chess.com",
+    "url_en": "https://en.wikipedia.org/wiki/Chess.com",
+    "name_en": "Chess.com and online chess",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Free Fire",
+    "url": "https://pt.wikipedia.org/wiki/Free_Fire",
+    "url_en": "https://en.wikipedia.org/wiki/Free_Fire_(video_game)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Mobile Legends: Bang Bang",
+    "url": "https://pt.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+    "url_en": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Honor of Kings",
+    "url": "https://en.wikipedia.org/wiki/Honor_of_Kings",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "PUBG Mobile",
+    "url": "https://en.wikipedia.org/wiki/PUBG_Mobile",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "League of Legends: Wild Rift",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends:_Wild_Rift",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends:_Wild_Rift",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Clash Royale",
+    "url": "https://pt.wikipedia.org/wiki/Clash_Royale",
+    "url_en": "https://en.wikipedia.org/wiki/Clash_Royale",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Brawl Stars",
+    "url": "https://pt.wikipedia.org/wiki/Brawl_Stars",
+    "url_en": "https://en.wikipedia.org/wiki/Brawl_Stars",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Pokémon Unite",
+    "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Unite",
+    "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Unite",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Arena of Valor",
+    "url": "https://pt.wikipedia.org/wiki/Arena_of_Valor",
+    "url_en": "https://en.wikipedia.org/wiki/Arena_of_Valor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Jogos competitivos",
+    "subcategory": "Mobile",
+    "name": "Call of Duty: Mobile",
+    "url": "https://pt.wikipedia.org/wiki/Call_of_Duty:_Mobile",
+    "url_en": "https://en.wikipedia.org/wiki/Call_of_Duty:_Mobile",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "Mundial de League of Legends",
+    "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_League_of_Legends",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends_World_Championship",
+    "name_en": "League of Legends World Championship",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "Mid-Season Invitational",
+    "url": "https://pt.wikipedia.org/wiki/Mid-Season_Invitational",
+    "url_en": "https://en.wikipedia.org/wiki/Mid-Season_Invitational",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "LCK (Coreia)",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends_Champions_Korea",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends_Champions_Korea",
+    "name_en": "LCK (Korea)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "LPL (China)",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends_Pro_League",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends_Pro_League",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "LEC (Europa)",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends_EMEA_Championship",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends_EMEA_Championship",
+    "name_en": "LEC (Europe)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "LTA (Américas)",
+    "url": "https://pt.wikipedia.org/wiki/League_of_Legends_Championship_of_The_Americas",
+    "url_en": "https://en.wikipedia.org/wiki/League_of_Legends_Championship_of_The_Americas",
+    "name_en": "LTA (Americas)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "League of Legends",
+    "name": "CBLOL",
+    "url": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_League_of_Legends",
+    "url_en": "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_de_League_of_Legends",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Counter-Strike",
+    "name": "Majors de Counter-Strike",
+    "url": "https://pt.wikipedia.org/wiki/Campeonatos_Majors_de_Counter-Strike",
+    "url_en": "https://en.wikipedia.org/wiki/Counter-Strike_Major_Championships",
+    "name_en": "Counter-Strike Majors",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Counter-Strike",
+    "name": "IEM Katowice",
+    "url": "https://pt.wikipedia.org/wiki/Intel_Extreme_Masters",
+    "url_en": "https://en.wikipedia.org/wiki/Intel_Extreme_Masters",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Counter-Strike",
+    "name": "ESL Pro League",
+    "url": "https://pt.wikipedia.org/wiki/ESL_Pro_League",
+    "url_en": "https://en.wikipedia.org/wiki/ESL_Pro_League",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Counter-Strike",
+    "name": "BLAST Premier",
+    "url": "https://pt.wikipedia.org/wiki/Blast_Premier",
+    "url_en": "https://en.wikipedia.org/wiki/Blast_Premier",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Counter-Strike",
+    "name": "PGL",
+    "url": "https://en.wikipedia.org/wiki/PGL_Travel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Dota 2",
+    "name": "The International",
+    "url": "https://pt.wikipedia.org/wiki/The_International_(Dota_2)",
+    "url_en": "https://en.wikipedia.org/wiki/The_International_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Dota 2",
+    "name": "Dota Pro Circuit",
+    "url": "https://pt.wikipedia.org/wiki/Circuito_Profissional_de_Dota",
+    "url_en": "https://en.wikipedia.org/wiki/Dota_Pro_Circuit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Dota 2",
+    "name": "DreamLeague",
+    "url": "https://pt.wikipedia.org/wiki/DreamHack",
+    "url_en": "https://en.wikipedia.org/wiki/DreamHack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Valorant",
+    "name": "Valorant Champions Tour",
+    "url": "https://pt.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "url_en": "https://en.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Valorant",
+    "name": "Valorant Champions",
+    "url": "https://pt.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "url_en": "https://en.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Valorant",
+    "name": "VCT Masters",
+    "url": "https://pt.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "url_en": "https://en.wikipedia.org/wiki/Valorant_Champions_Tour",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Luta e FGC",
+    "name": "EVO",
+    "url": "https://pt.wikipedia.org/wiki/Evolution_Championship_Series",
+    "url_en": "https://en.wikipedia.org/wiki/Evolution_Championship_Series",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Luta e FGC",
+    "name": "Capcom Cup",
+    "url": "https://en.wikipedia.org/wiki/Capcom_Cup",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Luta e FGC",
+    "name": "Capcom Pro Tour",
+    "url": "https://en.wikipedia.org/wiki/Capcom_Pro_Tour",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Luta e FGC",
+    "name": "Tekken World Tour",
+    "url": "https://en.wikipedia.org/wiki/Tekken_World_Tour",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Battle royale e mobile",
+    "name": "Copa do Mundo de Fortnite",
+    "url": "https://en.wikipedia.org/wiki/Fortnite_World_Cup",
+    "name_en": "Fortnite World Cup",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Battle royale e mobile",
+    "name": "Fortnite Champion Series",
+    "url": "https://en.wikipedia.org/wiki/Fortnite_Championship_Series",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Battle royale e mobile",
+    "name": "Free Fire World Series",
+    "url": "https://pt.wikipedia.org/wiki/Free_Fire_World_Series",
+    "url_en": "https://en.wikipedia.org/wiki/Free_Fire_World_Series",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Battle royale e mobile",
+    "name": "MLBB M-Series",
+    "url": "https://en.wikipedia.org/wiki/M_series",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Battle royale e mobile",
+    "name": "Apex Legends Global Series",
+    "url": "https://en.wikipedia.org/wiki/Apex_Legends_Global_Series",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Rocket League Championship Series",
+    "url": "https://pt.wikipedia.org/wiki/Rocket_League_Championship_Series",
+    "url_en": "https://en.wikipedia.org/wiki/Rocket_League_Championship_Series",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Overwatch League",
+    "url": "https://en.wikipedia.org/wiki/Overwatch_League",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Call of Duty League",
+    "url": "https://en.wikipedia.org/wiki/Call_of_Duty_League",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Six Invitational (Rainbow Six)",
+    "url": "https://en.wikipedia.org/wiki/Six_Invitational",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "FIFAe World Cup",
+    "url": "https://pt.wikipedia.org/wiki/FIFAe_World_Cup",
+    "url_en": "https://en.wikipedia.org/wiki/FIFAe_World_Cup",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Halo Championship Series",
+    "url": "https://pt.wikipedia.org/wiki/Halo_(franquia)",
+    "url_en": "https://en.wikipedia.org/wiki/Halo_(franchise)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Hearthstone World Championship",
+    "url": "https://en.wikipedia.org/wiki/Hearthstone#Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Outros jogos",
+    "name": "Global StarCraft II League",
+    "url": "https://pt.wikipedia.org/wiki/GOMTV_Global_StarCraft_II_League",
+    "url_en": "https://en.wikipedia.org/wiki/Global_StarCraft_II_League",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "Esports World Cup",
+    "url": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_de_Esports",
+    "url_en": "https://en.wikipedia.org/wiki/Esports_World_Cup",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "Jogos Olímpicos de Esports",
+    "url": "https://en.wikipedia.org/wiki/Olympic_Esports_Games",
+    "name_en": "Olympic Esports Games",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "Esports nos Jogos Asiáticos",
+    "url": "https://en.wikipedia.org/wiki/Esports_at_the_Asian_Games",
+    "name_en": "Esports at the Asian Games",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "World Cyber Games",
+    "url": "https://pt.wikipedia.org/wiki/World_Cyber_Games",
+    "url_en": "https://en.wikipedia.org/wiki/World_Cyber_Games",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "Intel Extreme Masters",
+    "url": "https://pt.wikipedia.org/wiki/Intel_Extreme_Masters",
+    "url_en": "https://en.wikipedia.org/wiki/Intel_Extreme_Masters",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "DreamHack",
+    "url": "https://pt.wikipedia.org/wiki/DreamHack",
+    "url_en": "https://en.wikipedia.org/wiki/DreamHack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "BlizzCon",
+    "url": "https://pt.wikipedia.org/wiki/BlizzCon",
+    "url_en": "https://en.wikipedia.org/wiki/BlizzCon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Campeonatos",
+    "subcategory": "Multijogos e eventos",
+    "name": "Brasil Game Show",
+    "url": "https://pt.wikipedia.org/wiki/Brasil_Game_Show",
+    "url_en": "https://en.wikipedia.org/wiki/Brasil_Game_Show",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "FURIA",
+    "url": "https://pt.wikipedia.org/wiki/Furia_Esports",
+    "url_en": "https://en.wikipedia.org/wiki/Furia_Esports",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "LOUD",
+    "url": "https://pt.wikipedia.org/wiki/Loud_(organiza%C3%A7%C3%A3o)",
+    "url_en": "https://en.wikipedia.org/wiki/Loud_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "paiN Gaming",
+    "url": "https://pt.wikipedia.org/wiki/PaiN_Gaming",
+    "url_en": "https://en.wikipedia.org/wiki/PaiN_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "MIBR",
+    "url": "https://pt.wikipedia.org/wiki/MIBR",
+    "url_en": "https://en.wikipedia.org/wiki/Made_in_Brazil_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Vivo Keyd Stars",
+    "url": "https://liquipedia.net/leagueoflegends/Keyd_Stars",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "INTZ",
+    "url": "https://liquipedia.net/leagueoflegends/INTZ",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Fluxo W7M",
+    "url": "https://pt.wikipedia.org/wiki/Fluxo_(esporte_eletr%C3%B4nico)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "RED Canids",
+    "url": "https://pt.wikipedia.org/wiki/Red_Canids_Kalunga",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Imperial Esports",
+    "url": "https://pt.wikipedia.org/wiki/Imperial_Esports",
+    "url_en": "https://en.wikipedia.org/wiki/Imperial_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "9z Team",
+    "url": "https://liquipedia.net/counterstrike/9z_Team",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Leviatán",
+    "url": "https://liquipedia.net/valorant/Leviat%C3%A1n",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Isurus",
+    "url": "https://en.wikipedia.org/wiki/Isurus_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "G3X",
+    "url": "https://g3x.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Rensga Esports",
+    "url": "https://pt.wikipedia.org/wiki/Rensga_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Liberty Esports",
+    "url": "https://pt.wikipedia.org/wiki/Liberty_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "Los Grandes",
+    "url": "https://liquipedia.net/leagueoflegends/LOS",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Sul",
+    "name": "B4 Esports",
+    "url": "https://liquipedia.net/freefire/B4_eSports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "Team Liquid",
+    "url": "https://pt.wikipedia.org/wiki/Team_Liquid",
+    "url_en": "https://en.wikipedia.org/wiki/Team_Liquid",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "Cloud9",
+    "url": "https://pt.wikipedia.org/wiki/Cloud9",
+    "url_en": "https://en.wikipedia.org/wiki/Cloud9",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "100 Thieves",
+    "url": "https://pt.wikipedia.org/wiki/100_Thieves",
+    "url_en": "https://en.wikipedia.org/wiki/100_Thieves",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "Evil Geniuses",
+    "url": "https://pt.wikipedia.org/wiki/Evil_Geniuses",
+    "url_en": "https://en.wikipedia.org/wiki/Evil_Geniuses",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "Complexity Gaming",
+    "url": "https://en.wikipedia.org/wiki/Complexity_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "TSM",
+    "url": "https://en.wikipedia.org/wiki/TSM_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "NRG",
+    "url": "https://en.wikipedia.org/wiki/NRG_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "Sentinels",
+    "url": "https://pt.wikipedia.org/wiki/Sentinels",
+    "url_en": "https://en.wikipedia.org/wiki/Sentinels_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "OpTic Gaming",
+    "url": "https://pt.wikipedia.org/wiki/OpTic_Gaming",
+    "url_en": "https://en.wikipedia.org/wiki/OpTic_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "FaZe Clan",
+    "url": "https://pt.wikipedia.org/wiki/FaZe_Clan",
+    "url_en": "https://en.wikipedia.org/wiki/FaZe_Clan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "América do Norte",
+    "name": "FlyQuest",
+    "url": "https://pt.wikipedia.org/wiki/FlyQuest",
+    "url_en": "https://en.wikipedia.org/wiki/FlyQuest",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Fnatic",
+    "url": "https://pt.wikipedia.org/wiki/Fnatic",
+    "url_en": "https://en.wikipedia.org/wiki/Fnatic",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "G2 Esports",
+    "url": "https://pt.wikipedia.org/wiki/G2_Esports",
+    "url_en": "https://en.wikipedia.org/wiki/G2_Esports",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Natus Vincere (NAVI)",
+    "url": "https://pt.wikipedia.org/wiki/Natus_Vincere",
+    "url_en": "https://en.wikipedia.org/wiki/Natus_Vincere",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Team Vitality",
+    "url": "https://pt.wikipedia.org/wiki/Team_Vitality",
+    "url_en": "https://en.wikipedia.org/wiki/Team_Vitality",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Team Spirit",
+    "url": "https://pt.wikipedia.org/wiki/Team_Spirit",
+    "url_en": "https://en.wikipedia.org/wiki/Team_Spirit_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Astralis",
+    "url": "https://pt.wikipedia.org/wiki/Astralis",
+    "url_en": "https://en.wikipedia.org/wiki/Astralis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Ninjas in Pyjamas",
+    "url": "https://pt.wikipedia.org/wiki/Ninjas_in_Pyjamas",
+    "url_en": "https://en.wikipedia.org/wiki/Ninjas_in_Pyjamas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "MOUZ",
+    "url": "https://pt.wikipedia.org/wiki/Mouz",
+    "url_en": "https://en.wikipedia.org/wiki/Mouz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Heroic",
+    "url": "https://pt.wikipedia.org/wiki/Heroic",
+    "url_en": "https://en.wikipedia.org/wiki/Heroic_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Karmine Corp",
+    "url": "https://pt.wikipedia.org/wiki/Karmine_Corp",
+    "url_en": "https://en.wikipedia.org/wiki/Karmine_Corp",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "OG",
+    "url": "https://pt.wikipedia.org/wiki/OG_(esporte_eletr%C3%B4nico)",
+    "url_en": "https://en.wikipedia.org/wiki/OG_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Virtus.pro",
+    "url": "https://pt.wikipedia.org/wiki/Virtus.pro",
+    "url_en": "https://en.wikipedia.org/wiki/Virtus.pro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Team Secret",
+    "url": "https://pt.wikipedia.org/wiki/Team_Secret",
+    "url_en": "https://en.wikipedia.org/wiki/Team_Secret",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "ENCE",
+    "url": "https://en.wikipedia.org/wiki/Ence_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Godsent",
+    "url": "https://en.wikipedia.org/wiki/Godsent",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Europa",
+    "name": "Guild Esports",
+    "url": "https://en.wikipedia.org/wiki/Guild_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "T1",
+    "url": "https://pt.wikipedia.org/wiki/T1_(esporte_eletr%C3%B4nico)",
+    "url_en": "https://en.wikipedia.org/wiki/T1_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Gen.G",
+    "url": "https://pt.wikipedia.org/wiki/Gen.G",
+    "url_en": "https://en.wikipedia.org/wiki/Gen.G",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Hanwha Life Esports",
+    "url": "https://en.wikipedia.org/wiki/Hanwha_Life_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Dplus KIA",
+    "url": "https://pt.wikipedia.org/wiki/Dplus_KIA",
+    "url_en": "https://en.wikipedia.org/wiki/Dplus_KIA",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Bilibili Gaming",
+    "url": "https://pt.wikipedia.org/wiki/Bilibili_Gaming",
+    "url_en": "https://en.wikipedia.org/wiki/Bilibili_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "JD Gaming",
+    "url": "https://pt.wikipedia.org/wiki/JD_Gaming",
+    "url_en": "https://en.wikipedia.org/wiki/JD_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "EDward Gaming",
+    "url": "https://pt.wikipedia.org/wiki/Edward_Gaming",
+    "url_en": "https://en.wikipedia.org/wiki/Edward_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Paper Rex",
+    "url": "https://en.wikipedia.org/wiki/Paper_Rex",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Talon Esports",
+    "url": "https://en.wikipedia.org/wiki/Talon_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Rex Regum Qeon (RRQ)",
+    "url": "https://en.wikipedia.org/wiki/RRQ_(esports)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "ONIC Esports",
+    "url": "https://en.wikipedia.org/wiki/Onic_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "The MongolZ",
+    "url": "https://en.wikipedia.org/wiki/The_MongolZ",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Global Esports",
+    "url": "https://liquipedia.net/valorant/Global_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Top Esports",
+    "url": "https://en.wikipedia.org/wiki/Top_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Weibo Gaming",
+    "url": "https://en.wikipedia.org/wiki/Weibo_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Royal Never Give Up (RNG)",
+    "url": "https://en.wikipedia.org/wiki/Royal_Never_Give_Up",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Invictus Gaming",
+    "url": "https://en.wikipedia.org/wiki/Invictus_Gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "FunPlus Phoenix",
+    "url": "https://en.wikipedia.org/wiki/FunPlus_Phoenix",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "LNG Esports",
+    "url": "https://en.wikipedia.org/wiki/LNG_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "S8UL Esports (Índia)",
+    "url": "https://liquipedia.net/pubgmobile/S8UL_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "GodLike Esports (Índia)",
+    "url": "https://liquipedia.net/pubgmobile/GodLike_Esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Ásia e Oceania",
+    "name": "Revenant XSpark (Índia)",
+    "url": "https://liquipedia.net/pubgmobile/Revenant_XSpark",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Oriente Médio",
+    "name": "Team Falcons",
+    "url": "https://en.wikipedia.org/wiki/Team_Falcons",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Equipes",
+    "subcategory": "Oriente Médio",
+    "name": "Twisted Minds",
+    "url": "https://en.wikipedia.org/wiki/Twisted_Minds",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Faker",
+    "url": "https://pt.wikipedia.org/wiki/Faker_(jogador)",
+    "url_en": "https://en.wikipedia.org/wiki/Faker_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Uzi",
+    "url": "https://en.wikipedia.org/wiki/Uzi_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Deft",
+    "url": "https://en.wikipedia.org/wiki/Deft_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Caps",
+    "url": "https://en.wikipedia.org/wiki/Caps_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Rekkles",
+    "url": "https://en.wikipedia.org/wiki/Rekkles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Doublelift",
+    "url": "https://en.wikipedia.org/wiki/Doublelift",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Bjergsen",
+    "url": "https://en.wikipedia.org/wiki/Bjergsen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "brTT",
+    "url": "https://pt.wikipedia.org/wiki/BrTT",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Bengi",
+    "url": "https://liquipedia.net/leagueoflegends/Bengi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Mata",
+    "url": "https://liquipedia.net/leagueoflegends/Mata",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "League of Legends",
+    "name": "Remilia",
+    "url": "https://en.wikipedia.org/wiki/Remilia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "s1mple",
+    "url": "https://pt.wikipedia.org/wiki/S1mple",
+    "url_en": "https://en.wikipedia.org/wiki/S1mple",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "ZywOo",
+    "url": "https://pt.wikipedia.org/wiki/ZywOo",
+    "url_en": "https://en.wikipedia.org/wiki/ZywOo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "FalleN",
+    "url": "https://pt.wikipedia.org/wiki/FalleN",
+    "url_en": "https://en.wikipedia.org/wiki/FalleN",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "coldzera",
+    "url": "https://pt.wikipedia.org/wiki/Coldzera",
+    "url_en": "https://en.wikipedia.org/wiki/Coldzera",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "fer",
+    "url": "https://liquipedia.net/counterstrike/Fer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "device",
+    "url": "https://pt.wikipedia.org/wiki/Dev1ce",
+    "url_en": "https://en.wikipedia.org/wiki/Dev1ce",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "GeT_RiGhT",
+    "url": "https://pt.wikipedia.org/wiki/Christopher_Alesund",
+    "url_en": "https://en.wikipedia.org/wiki/GeT_RiGhT",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "f0rest",
+    "url": "https://pt.wikipedia.org/wiki/F0rest",
+    "url_en": "https://en.wikipedia.org/wiki/F0rest",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "olofmeister",
+    "url": "https://en.wikipedia.org/wiki/Olofmeister",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "kennyS",
+    "url": "https://en.wikipedia.org/wiki/KennyS",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "NiKo",
+    "url": "https://en.wikipedia.org/wiki/NiKo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "donk",
+    "url": "https://pt.wikipedia.org/wiki/Donk_(jogador)",
+    "url_en": "https://en.wikipedia.org/wiki/Donk_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "vilga",
+    "url": "https://liquipedia.net/counterstrike/Vilga",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Counter-Strike",
+    "name": "zAAz",
+    "url": "https://liquipedia.net/counterstrike/ZAAz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "N0tail",
+    "url": "https://en.wikipedia.org/wiki/N0tail",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Puppey",
+    "url": "https://en.wikipedia.org/wiki/Puppey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Dendi",
+    "url": "https://en.wikipedia.org/wiki/Dendi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "KuroKy",
+    "url": "https://en.wikipedia.org/wiki/KuroKy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Miracle-",
+    "url": "https://en.wikipedia.org/wiki/Miracle-",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Topson",
+    "url": "https://en.wikipedia.org/wiki/Topson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Yatoro",
+    "url": "https://liquipedia.net/dota2/Yatoro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Dota 2",
+    "name": "Collapse",
+    "url": "https://liquipedia.net/dota2/Collapse",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "StarCraft e estratégia",
+    "name": "BoxeR",
+    "url": "https://pt.wikipedia.org/wiki/Lim_Yo-Hwan",
+    "url_en": "https://en.wikipedia.org/wiki/Lim_Yo-hwan",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "StarCraft e estratégia",
+    "name": "Flash",
+    "url": "https://pt.wikipedia.org/wiki/Lee_Young-Ho",
+    "url_en": "https://en.wikipedia.org/wiki/Flash_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "StarCraft e estratégia",
+    "name": "Jaedong",
+    "url": "https://pt.wikipedia.org/wiki/Lee_Jae-Dong",
+    "url_en": "https://en.wikipedia.org/wiki/Jaedong",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "StarCraft e estratégia",
+    "name": "Serral",
+    "url": "https://pt.wikipedia.org/wiki/Joona_Sotala",
+    "url_en": "https://en.wikipedia.org/wiki/Serral",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "StarCraft e estratégia",
+    "name": "Moon",
+    "url": "https://en.wikipedia.org/wiki/Moon_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Daigo Umehara",
+    "url": "https://pt.wikipedia.org/wiki/Daigo_Umehara",
+    "url_en": "https://en.wikipedia.org/wiki/Daigo_Umehara",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Justin Wong",
+    "url": "https://en.wikipedia.org/wiki/Justin_Wong",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Tokido",
+    "url": "https://en.wikipedia.org/wiki/Tokido",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Arslan Ash",
+    "url": "https://en.wikipedia.org/wiki/Arslan_Ash",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "MkLeo",
+    "url": "https://en.wikipedia.org/wiki/MkLeo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Mang0",
+    "url": "https://pt.wikipedia.org/wiki/Mango_(jogador)",
+    "url_en": "https://en.wikipedia.org/wiki/Mang0",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Knee",
+    "url": "https://en.wikipedia.org/wiki/Knee_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "GO1 (Dragon Ball FighterZ)",
+    "url": "https://liquipedia.net/fighters/GO1",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "SonicFox",
+    "url": "https://en.wikipedia.org/wiki/SonicFox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Armada",
+    "url": "https://en.wikipedia.org/wiki/Armada_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Luta",
+    "name": "Hungrybox",
+    "url": "https://en.wikipedia.org/wiki/Hungrybox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "TenZ",
+    "url": "https://en.wikipedia.org/wiki/TenZ",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "aspas",
+    "url": "https://liquipedia.net/valorant/Aspas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Scump",
+    "url": "https://en.wikipedia.org/wiki/Scump",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Crimsix",
+    "url": "https://en.wikipedia.org/wiki/Crimsix",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Bugha",
+    "url": "https://en.wikipedia.org/wiki/Bu%C4%9Fa",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Nobru (Free Fire)",
+    "url": "https://pt.wikipedia.org/wiki/Nobru",
+    "url_en": "https://en.wikipedia.org/wiki/Nobru",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "ZmjjKK",
+    "url": "https://liquipedia.net/valorant/ZmjjKK",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Demon1",
+    "url": "https://liquipedia.net/valorant/Demon1",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Chronicle",
+    "url": "https://liquipedia.net/valorant/Chronicle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "florescent",
+    "url": "https://liquipedia.net/valorant/Florescent",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "mimi",
+    "url": "https://liquipedia.net/valorant/Mimi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "alexis",
+    "url": "https://liquipedia.net/valorant/Alexis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "bstrdd",
+    "url": "https://liquipedia.net/valorant/Bstrdd",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "daiki",
+    "url": "https://liquipedia.net/valorant/Daiki",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Pengu (Rainbow Six)",
+    "url": "https://liquipedia.net/rainbowsix/Pengu",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Paluh (Rainbow Six)",
+    "url": "https://liquipedia.net/rainbowsix/Paluh",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Shaiiko (Rainbow Six)",
+    "url": "https://liquipedia.net/rainbowsix/Shaiiko",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "soulz1 (Rainbow Six)",
+    "url": "https://liquipedia.net/rainbowsix/Soulz1",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Profit (Overwatch)",
+    "url": "https://en.wikipedia.org/wiki/Profit_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Fleta (Overwatch)",
+    "url": "https://en.wikipedia.org/wiki/Fleta_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "N9 (CrossFire)",
+    "url": "https://liquipedia.net/crossfire/N9",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Xxiao (CrossFire)",
+    "url": "https://liquipedia.net/crossfire/Xxiao",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "aqua (Fortnite)",
+    "url": "https://liquipedia.net/fortnite/Aqua",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "nyhrox (Fortnite)",
+    "url": "https://liquipedia.net/fortnite/Nyhrox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "SwizzY (Fortnite)",
+    "url": "https://liquipedia.net/fortnite/SwizzY",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Valorant e outros FPS",
+    "name": "Blinkzr (Apex Legends)",
+    "url": "https://liquipedia.net/apexlegends/Blinkzr",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Fatal1ty",
+    "url": "https://en.wikipedia.org/wiki/Johnathan_Wendel",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Thresh",
+    "url": "https://en.wikipedia.org/wiki/Dennis_Fong",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Grubby",
+    "url": "https://en.wikipedia.org/wiki/Grubby",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Sky (Li Xiaofeng)",
+    "url": "https://en.wikipedia.org/wiki/Sky_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Moon (Warcraft III)",
+    "url": "https://en.wikipedia.org/wiki/Moon_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Pioneiros e outros jogos",
+    "name": "Blinky (GeoGuessr)",
+    "url": "https://liquipedia.net/geoguessr/Blinky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Moshi (Free Fire)",
+    "url": "https://liquipedia.net/freefire/Moshi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "JOENA (Free Fire)",
+    "url": "https://liquipedia.net/freefire/Joena",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Fly (Honor of Kings)",
+    "url": "https://liquipedia.net/honorofkings/Fly",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "YiNuo (Honor of Kings)",
+    "url": "https://liquipedia.net/honorofkings/YiNuo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Paraboy (PUBG Mobile)",
+    "url": "https://liquipedia.net/pubgmobile/Paraboy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Order (PUBG Mobile)",
+    "url": "https://liquipedia.net/pubgmobile/Order",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "KarlTzy (Mobile Legends)",
+    "url": "https://en.wikipedia.org/wiki/KarlTzy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Lemon (Mobile Legends)",
+    "url": "https://liquipedia.net/mobilelegends/Lemon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Mobile",
+    "name": "Tensai (Brawl Stars)",
+    "url": "https://liquipedia.net/brawlstars/Tensai",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Kaydop (Rocket League)",
+    "url": "https://en.wikipedia.org/wiki/Kaydop",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Turbopolsa (Rocket League)",
+    "url": "https://en.wikipedia.org/wiki/Turbopolsa",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Jarno Opmeer (sim racing)",
+    "url": "https://en.wikipedia.org/wiki/Jarno_Opmeer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Brendon Leigh (sim racing)",
+    "url": "https://en.wikipedia.org/wiki/Brendon_Leigh",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Umut Gültekin (EA Sports FC)",
+    "url": "https://liquipedia.net/easportsfc/Umut",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lendas dos eSports",
+    "subcategory": "Esportes e corrida",
+    "name": "Agge (EA Sports FC)",
+    "url": "https://liquipedia.net/easportsfc/Agge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Enciclopédias",
+    "name": "Liquipedia",
+    "url": "https://liquipedia.net/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Enciclopédias",
+    "name": "Leaguepedia (LoL Esports Wiki)",
+    "url": "https://lol.fandom.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Enciclopédias",
+    "name": "Lista de jogos de esports",
+    "url": "https://en.wikipedia.org/wiki/List_of_esports_games",
+    "name_en": "List of esports games",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Enciclopédias",
+    "name": "Lista de ligas de esports",
+    "url": "https://en.wikipedia.org/wiki/List_of_esports_leagues_and_tournaments",
+    "name_en": "List of esports leagues and tournaments",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "HLTV",
+    "url": "https://www.hltv.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Dot Esports",
+    "url": "https://dotesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Dexerto",
+    "url": "https://www.dexerto.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Esports Insider",
+    "url": "https://esportsinsider.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Esports.gg",
+    "url": "https://esports.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Sheep Esports",
+    "url": "https://www.sheepesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "VLR.gg (notícias de Valorant)",
+    "url": "https://www.vlr.gg/",
+    "name_en": "VLR.gg (Valorant news)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "IGN",
+    "url": "https://www.ign.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "PC Gamer",
+    "url": "https://www.pcgamer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "GosuGamers",
+    "url": "https://www.gosugamers.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Inven Global",
+    "url": "https://www.invenglobal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Esports News UK",
+    "url": "https://esports-news.co.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias internacionais",
+    "name": "Millenium (França)",
+    "url": "https://www.millenium.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "ge eSports",
+    "url": "https://ge.globo.com/esports/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Mais Esports",
+    "url": "https://maisesports.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Draft5",
+    "url": "https://draft5.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "The Enemy",
+    "url": "https://www.theenemy.com.br/esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "The Clutch",
+    "url": "https://theclutch.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Dust2 Brasil (Counter-Strike)",
+    "url": "https://www.dust2.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "VZone (Valorant Zone)",
+    "url": "https://vzone.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Millenium Brasil",
+    "url": "https://br.millenium.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "ESPN Esports Brasil",
+    "url": "https://www.espn.com.br/esports/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Lance! Esports",
+    "url": "https://www.lance.com.br/esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "TechTudo E-sports",
+    "url": "https://www.techtudo.com.br/e-sports/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "UOL Start",
+    "url": "https://www.uol.com.br/start/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "IGN Brasil",
+    "url": "https://br.ign.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e notícias",
+    "subcategory": "Notícias no Brasil",
+    "name": "Voxel",
+    "url": "https://www.estadao.com.br/tecmundo/voxel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "HLTV Stats (Counter-Strike)",
+    "url": "https://www.hltv.org/stats",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "Oracle's Elixir (LoL)",
+    "url": "https://oracleselixir.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "Games of Legends (LoL)",
+    "url": "https://gol.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "OP.GG",
+    "url": "https://op.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "Dotabuff (Dota 2)",
+    "url": "https://www.dotabuff.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "OpenDota",
+    "url": "https://www.opendota.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "STRATZ (Dota 2)",
+    "url": "https://stratz.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "VLR.gg Stats (Valorant)",
+    "url": "https://www.vlr.gg/stats",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "Tracker.gg",
+    "url": "https://tracker.gg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "Aligulac (StarCraft II)",
+    "url": "https://aligulac.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Estatísticas por jogo",
+    "name": "start.gg (torneios)",
+    "url": "https://www.start.gg/",
+    "name_en": "start.gg (tournaments)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "Esports Charts",
+    "url": "https://escharts.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "Esports Earnings",
+    "url": "https://www.esportsearnings.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "Streams Charts",
+    "url": "https://streamscharts.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "TwitchTracker",
+    "url": "https://twitchtracker.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "SullyGnome",
+    "url": "https://sullygnome.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de dados e estatísticas",
+    "subcategory": "Audiência e premiações",
+    "name": "Newzoo",
+    "url": "https://newzoo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Plataformas",
+    "name": "Twitch",
+    "url": "https://www.twitch.tv/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Plataformas",
+    "name": "YouTube Gaming",
+    "url": "https://www.youtube.com/gaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Plataformas",
+    "name": "Kick",
+    "url": "https://kick.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Plataformas",
+    "name": "Discord",
+    "url": "https://discord.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Plataformas",
+    "name": "r/esports (Reddit)",
+    "url": "https://www.reddit.com/r/esports/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "LoL Esports",
+    "url": "https://lolesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "Valorant Esports",
+    "url": "https://valorantesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "Counter-Strike (Valve)",
+    "url": "https://www.counter-strike.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "Dota 2 Esports (Valve)",
+    "url": "https://www.dota2.com/esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "CBLOL (YouTube)",
+    "url": "https://www.youtube.com/@CBLOL",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "ESL (YouTube)",
+    "url": "https://www.youtube.com/@ESLCS",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Canais oficiais",
+    "name": "BLAST (YouTube)",
+    "url": "https://www.youtube.com/@BLASTCS",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Streamers e comunicadores",
+    "name": "Gaules",
+    "url": "https://pt.wikipedia.org/wiki/Gaules",
+    "url_en": "https://en.wikipedia.org/wiki/Gaules",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Streamers e comunicadores",
+    "name": "Thorin",
+    "url": "https://en.wikipedia.org/wiki/Duncan_Shields",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Streamers e comunicadores",
+    "name": "Richard Lewis",
+    "url": "https://en.wikipedia.org/wiki/Richard_Lewis_(journalist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Streamers e comunicadores",
+    "name": "Caedrel",
+    "url": "https://en.wikipedia.org/wiki/Caedrel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e transmissão",
+    "subcategory": "Streamers e comunicadores",
+    "name": "Tarik",
+    "url": "https://en.wikipedia.org/wiki/Tarik_(gamer)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "História e conceitos",
+    "name": "Esports",
+    "url": "https://pt.wikipedia.org/wiki/Esporte_eletr%C3%B4nico",
+    "url_en": "https://en.wikipedia.org/wiki/Esports",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "História e conceitos",
+    "name": "Spacewar! (primeiro torneio, 1972)",
+    "url": "https://pt.wikipedia.org/wiki/Spacewar!",
+    "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
+    "name_en": "Spacewar! (first tournament, 1972)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "História e conceitos",
+    "name": "Red Annihilation (Quake, 1997)",
+    "url": "https://en.wikipedia.org/wiki/Red_Annihilation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "História e conceitos",
+    "name": "Metagame",
+    "url": "https://pt.wikipedia.org/wiki/Meta-jogos",
+    "url_en": "https://en.wikipedia.org/wiki/Metagame",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "História e conceitos",
+    "name": "League of Legends nos esports",
+    "url": "https://en.wikipedia.org/wiki/League_of_Legends_in_esports",
+    "name_en": "League of Legends in esports",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "Riot Games",
+    "url": "https://pt.wikipedia.org/wiki/Riot_Games",
+    "url_en": "https://en.wikipedia.org/wiki/Riot_Games",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "Valve",
+    "url": "https://pt.wikipedia.org/wiki/Valve_Corporation",
+    "url_en": "https://en.wikipedia.org/wiki/Valve_Corporation",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "ESL",
+    "url": "https://pt.wikipedia.org/wiki/ESL_(empresa)",
+    "url_en": "https://en.wikipedia.org/wiki/ESL_(company)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "Garena",
+    "url": "https://pt.wikipedia.org/wiki/Garena",
+    "url_en": "https://en.wikipedia.org/wiki/Garena",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "Moonton",
+    "url": "https://pt.wikipedia.org/wiki/Moonton",
+    "url_en": "https://en.wikipedia.org/wiki/Moonton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "Gamers Club",
+    "url": "https://gamersclub.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Desenvolvedoras e organizadoras",
+    "name": "FACEIT",
+    "url": "https://pt.wikipedia.org/wiki/FACEIT",
+    "url_en": "https://en.wikipedia.org/wiki/FACEIT",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Federações e integridade",
+    "name": "IESF (International Esports Federation)",
+    "url": "https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Internacional_de_Esportes_Eletr%C3%B4nicos",
+    "url_en": "https://en.wikipedia.org/wiki/International_Esports_Federation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Federações e integridade",
+    "name": "Global Esports Federation",
+    "url": "https://en.wikipedia.org/wiki/Global_Esports_Federation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Federações e integridade",
+    "name": "Esports Integrity Commission (ESIC)",
+    "url": "https://en.wikipedia.org/wiki/Esports_Integrity_Commission",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ecossistema",
+    "subcategory": "Federações e integridade",
+    "name": "Escândalos de manipulação em esports",
+    "url": "https://en.wikipedia.org/wiki/Match_fixing#Esports",
+    "name_en": "Esports match-fixing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

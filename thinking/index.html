@@ -1,0 +1,6267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca da Racionalidade — Catálogo pesquisável de pensamento crítico, racionalidade e evidências</title>
+<meta content="Catálogo pesquisável de pensamento crítico, racionalidade e práticas baseadas em evidências: livros, guias de falácias e vieses, organizações, pessoas, divulgação científica e filosófica." name="description"/>
+<link href="https://biblioverse.org/thinking/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="thinking" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca da Racionalidade</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca da Racionalidade</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Internet Encyclopedia of Philosophy",
+    "url": "https://iep.utm.edu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "RationalWiki",
+    "url": "https://rationalwiki.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Quackwatch",
+    "url": "https://quackwatch.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "The Skeptic's Dictionary",
+    "url": "https://www.skepdic.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Scholarpedia",
+    "url": "https://www.scholarpedia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "PhilPapers",
+    "url": "https://philpapers.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Encyclopedia of Philosophy (Routledge)",
+    "url": "https://www.rep.routledge.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "LessWrong Wiki",
+    "url": "https://www.lesswrong.com/wikitags",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Enciclopédias e referências",
+    "name": "Wikipédia",
+    "url": "https://www.wikipedia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "Fallacy Guide",
+    "url": "https://www.fallacyguide.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "Your Logical Fallacy Is",
+    "url": "https://yourlogicalfallacyis.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "Stephen's Guide to the Logical Fallacies",
+    "url": "https://www.fallacies.ca/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "List of Fallacies (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "The Fallacy Files",
+    "url": "https://www.fallacyfiles.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "Logically Fallacious",
+    "url": "https://www.logicallyfallacious.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "An Illustrated Book of Bad Arguments",
+    "url": "https://bookofbadarguments.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de falácias",
+    "name": "Fallacies (IEP)",
+    "url": "https://iep.utm.edu/fallacy/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "List of Cognitive Biases (The Decision Lab)",
+    "url": "https://thedecisionlab.com/biases",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "List of Cognitive Biases (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "Cognitive Bias Lab",
+    "url": "https://www.cognitivebiaslab.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "Cognitive Bias Codex",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "Your Bias Is",
+    "url": "https://yourbias.is/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "Effectiviology",
+    "url": "https://effectiviology.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Referências e guias",
+    "subcategory": "Guias de vieses",
+    "name": "You Are Not So Smart",
+    "url": "https://youarenotsosmart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "The Decision Lab",
+    "url": "https://thedecisionlab.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Clearer Thinking",
+    "url": "https://www.clearerthinking.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "School of Thought",
+    "url": "https://www.schoolofthought.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Emergent Thinkers",
+    "url": "https://emergentthinkers.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Foundation for Critical Thinking",
+    "url": "https://www.criticalthinking.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "LessWrong",
+    "url": "https://www.lesswrong.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Center for Applied Rationality",
+    "url": "https://rationality.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Astral Codex Ten",
+    "url": "https://www.astralcodexten.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Farnam Street",
+    "url": "https://fs.blog/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Good Judgment",
+    "url": "https://goodjudgment.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Metaculus",
+    "url": "https://www.metaculus.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Manifold",
+    "url": "https://manifold.markets/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Polymarket",
+    "url": "https://polymarket.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Kalshi",
+    "url": "https://kalshi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Organizações",
+    "name": "Overcoming Bias",
+    "url": "https://www.overcomingbias.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Julia Galef",
+    "url": "https://en.wikipedia.org/wiki/Julia_Galef",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Daniel Kahneman",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Amos Tversky",
+    "url": "https://en.wikipedia.org/wiki/Amos_Tversky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Gerd Gigerenzer",
+    "url": "https://en.wikipedia.org/wiki/Gerd_Gigerenzer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Keith Stanovich",
+    "url": "https://en.wikipedia.org/wiki/Keith_Stanovich",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Philip Tetlock",
+    "url": "https://en.wikipedia.org/wiki/Philip_E._Tetlock",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Hugo Mercier",
+    "url": "https://scholar.google.com/scholar?q=%22Hugo+Mercier%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Dan Sperber",
+    "url": "https://en.wikipedia.org/wiki/Dan_Sperber",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Richard Paul",
+    "url": "https://scholar.google.com/scholar?q=%22Richard+Paul%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Linda Elder",
+    "url": "https://en.wikipedia.org/wiki/Linda_Elder",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Michael Shermer",
+    "url": "https://en.wikipedia.org/wiki/Michael_Shermer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Steven Novella",
+    "url": "https://en.wikipedia.org/wiki/Steven_Novella",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Annie Duke",
+    "url": "https://en.wikipedia.org/wiki/Annie_Duke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Eliezer Yudkowsky",
+    "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Scott Alexander",
+    "url": "https://en.wikipedia.org/wiki/Slate_Star_Codex",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Hans Rosling",
+    "url": "https://en.wikipedia.org/wiki/Hans_Rosling",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Robin Hanson",
+    "url": "https://en.wikipedia.org/wiki/Robin_Hanson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pensamento crítico",
+    "subcategory": "Pessoas",
+    "name": "Nate Silver",
+    "url": "https://en.wikipedia.org/wiki/Nate_Silver",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "John Dewey - How We Think",
+    "url": "https://en.wikipedia.org/wiki/How_We_Think",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Carol Tavris & Elliot Aronson - Mistakes Were Made (But Not by Me)",
+    "url": "https://en.wikipedia.org/wiki/Mistakes_Were_Made_(But_Not_by_Me)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Steven Pinker - Rationality",
+    "url": "https://en.wikipedia.org/wiki/Rationality:_What_It_Is,_Why_It_Seems_Scarce,_Why_It_Matters",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Holyoak & Morrison - The Cambridge Handbook of Thinking and Reasoning",
+    "url": "https://www.goodreads.com/search?q=The%20Cambridge%20Handbook%20of%20Thinking%20and%20Reasoning%20Holyoak%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Markus Knauff & Wolfgang Spohn - The Handbook of Rationality",
+    "url": "https://www.goodreads.com/search?q=The%20Handbook%20of%20Rationality%20Markus%20Knauff%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Julia Galef - The Scout Mindset",
+    "url": "https://en.wikipedia.org/wiki/The_Scout_Mindset",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Daniel Kahneman - Thinking, Fast and Slow",
+    "url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Kahneman, Sibony & Sunstein - Noise",
+    "url": "https://en.wikipedia.org/wiki/Noise:_A_Flaw_in_Human_Judgment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Thaler & Sunstein - Nudge",
+    "url": "https://en.wikipedia.org/wiki/Nudge_(book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Dan Ariely - Predictably Irrational",
+    "url": "https://en.wikipedia.org/wiki/Predictably_Irrational",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Michael Lewis - The Undoing Project",
+    "url": "https://en.wikipedia.org/wiki/The_Undoing_Project",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Hugo Mercier & Dan Sperber - The Enigma of Reason",
+    "url": "https://www.goodreads.com/search?q=The%20Enigma%20of%20Reason%20Hugo%20Mercier%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Sloman & Fernbach - The Knowledge Illusion",
+    "url": "https://www.goodreads.com/search?q=The%20Knowledge%20Illusion%20Sloman%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Stuart Sutherland - Irrationality",
+    "url": "https://www.goodreads.com/search?q=Irrationality%20Stuart%20Sutherland",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Robert Cialdini - Influence",
+    "url": "https://en.wikipedia.org/wiki/Influence:_Science_and_Practice",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Annie Duke - Thinking in Bets",
+    "url": "https://www.goodreads.com/search?q=Thinking%20in%20Bets%20Annie%20Duke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Michael Shermer - Why People Believe Weird Things",
+    "url": "https://en.wikipedia.org/wiki/Why_People_Believe_Weird_Things",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Eliezer Yudkowsky - Rationality: From AI to Zombies",
+    "url": "https://www.goodreads.com/search?q=Rationality%3A%20From%20AI%20to%20Zombies%20Eliezer%20Yudkowsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Cognição e racionalidade",
+    "name": "Keith Stanovich - What Intelligence Tests Miss",
+    "url": "https://www.goodreads.com/search?q=What%20Intelligence%20Tests%20Miss%20Keith%20Stanovich",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "David Hume - An Enquiry Concerning Human Understanding",
+    "url": "https://en.wikipedia.org/wiki/An_Enquiry_Concerning_Human_Understanding",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Ben Goldacre - Bad Science",
+    "url": "https://en.wikipedia.org/wiki/Bad_Science_(Goldacre_book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Naomi Oreskes & Erik Conway - Merchants of Doubt",
+    "url": "https://en.wikipedia.org/wiki/Merchants_of_Doubt",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Mario Bunge - Pseudociência e Ideologia",
+    "url": "https://www.goodreads.com/search?q=Pseudoci%C3%AAncia%20e%20Ideologia%20Mario%20Bunge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Bertrand Russell - Sceptical Essays",
+    "url": "https://www.goodreads.com/search?q=Sceptical%20Essays%20Bertrand%20Russell",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Carl Sagan - The Demon-Haunted World",
+    "url": "https://en.wikipedia.org/wiki/The_Demon-Haunted_World",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Karl Popper - The Logic of Scientific Discovery",
+    "url": "https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Paul K. Moser - The Oxford Handbook of Epistemology",
+    "url": "https://www.goodreads.com/search?q=The%20Oxford%20Handbook%20of%20Epistemology%20Paul%20K.%20Moser",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Thomas Kuhn - The Structure of Scientific Revolutions",
+    "url": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Karl Popper - Conjectures and Refutations",
+    "url": "https://www.goodreads.com/search?q=Conjectures%20and%20Refutations%20Karl%20Popper",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "David Deutsch - The Beginning of Infinity",
+    "url": "https://en.wikipedia.org/wiki/The_Beginning_of_Infinity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Alan Chalmers - What Is This Thing Called Science?",
+    "url": "https://en.wikipedia.org/wiki/What_Is_This_Thing_Called_Science%3F",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Paul Feyerabend - Against Method",
+    "url": "https://en.wikipedia.org/wiki/Against_Method",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Bergstrom & West - Calling Bullshit",
+    "url": "https://www.goodreads.com/search?q=Calling%20Bullshit%20Bergstrom%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Ben Goldacre - Bad Pharma",
+    "url": "https://en.wikipedia.org/wiki/Bad_Pharma",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Stuart Ritchie - Science Fictions",
+    "url": "https://www.goodreads.com/search?q=Science%20Fictions%20Stuart%20Ritchie",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Epistemologia e ciência",
+    "name": "Richard Feynman - The Meaning of It All",
+    "url": "https://www.goodreads.com/search?q=The%20Meaning%20of%20It%20All%20Richard%20Feynman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "James Rachels - Created from Animals",
+    "url": "https://www.goodreads.com/search?q=Created%20from%20Animals%20James%20Rachels",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "John Stuart Mill - On Liberty",
+    "url": "https://en.wikipedia.org/wiki/On_Liberty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Peter Singer - Practical Ethics",
+    "url": "https://en.wikipedia.org/wiki/Practical_Ethics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Derek Parfit - Reasons and Persons",
+    "url": "https://en.wikipedia.org/wiki/Reasons_and_Persons",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Peter Singer - The Expanding Circle",
+    "url": "https://en.wikipedia.org/wiki/The_Expanding_Circle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Peter Singer - Animal Liberation",
+    "url": "https://en.wikipedia.org/wiki/Animal_Liberation_(book)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "John Stuart Mill - Utilitarianism",
+    "url": "https://en.wikipedia.org/wiki/Utilitarianism_(book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Henry Sidgwick - The Methods of Ethics",
+    "url": "https://en.wikipedia.org/wiki/The_Methods_of_Ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Joshua Greene - Moral Tribes",
+    "url": "https://www.goodreads.com/search?q=Moral%20Tribes%20Joshua%20Greene",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "William MacAskill - Doing Good Better",
+    "url": "https://en.wikipedia.org/wiki/Doing_Good_Better",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "William MacAskill - What We Owe the Future",
+    "url": "https://en.wikipedia.org/wiki/What_We_Owe_the_Future",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Toby Ord - The Precipice",
+    "url": "https://en.wikipedia.org/wiki/The_Precipice:_Existential_Risk_and_the_Future_of_Humanity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Lazari-Radek & Singer - The Point of View of the Universe",
+    "url": "https://www.goodreads.com/search?q=The%20Point%20of%20View%20of%20the%20Universe%20Lazari-Radek%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "Jonathan Birch - The Edge of Sentience",
+    "url": "https://www.goodreads.com/search?q=The%20Edge%20of%20Sentience%20Jonathan%20Birch",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Ética",
+    "name": "James Rachels - The Elements of Moral Philosophy",
+    "url": "https://en.wikipedia.org/wiki/The_Elements_of_Moral_Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Browne & Keeley - Asking the Right Questions",
+    "url": "https://www.goodreads.com/search?q=Asking%20the%20Right%20Questions%20Browne%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "D.Q. McInerny - Being Logical",
+    "url": "https://www.goodreads.com/search?q=Being%20Logical%20D.Q.%20McInerny",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Robert Thouless - Straight and Crooked Thinking",
+    "url": "https://en.wikipedia.org/wiki/Straight_and_Crooked_Thinking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Ludwig Wittgenstein - Tractatus Logico-Philosophicus",
+    "url": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Anthony Weston - A Rulebook for Arguments",
+    "url": "https://www.goodreads.com/search?q=A%20Rulebook%20for%20Arguments%20Anthony%20Weston",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Irving Copi - Introduction to Logic",
+    "url": "https://www.goodreads.com/search?q=Introduction%20to%20Logic%20Irving%20Copi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Graham Priest - Logic, A Very Short Introduction",
+    "url": "https://www.goodreads.com/search?q=Logic%2C%20A%20Very%20Short%20Introduction%20Graham%20Priest",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Nigel Warburton - Thinking from A to Z",
+    "url": "https://www.goodreads.com/search?q=Thinking%20from%20A%20to%20Z%20Nigel%20Warburton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Ali Almossawi - An Illustrated Book of Bad Arguments",
+    "url": "https://bookofbadarguments.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Lógica e argumentação",
+    "name": "Desidério Murcho - Pensar Outra Vez",
+    "url": "https://www.goodreads.com/search?q=Pensar%20Outra%20Vez%20Desid%C3%A9rio%20Murcho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Hans Rosling - Factfulness",
+    "url": "https://en.wikipedia.org/wiki/Factfulness",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Nassim Nicholas Taleb - Fooled by Randomness",
+    "url": "https://en.wikipedia.org/wiki/Fooled_by_Randomness",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Darrell Huff - How to Lie with Statistics",
+    "url": "https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Trisha Greenhalgh - How to Read a Paper",
+    "url": "https://www.goodreads.com/search?q=How%20to%20Read%20a%20Paper%20Trisha%20Greenhalgh",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Tetlock & Gardner - Superforecasting",
+    "url": "https://www.goodreads.com/search?q=Superforecasting%20Tetlock%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Nate Silver - The Signal and the Noise",
+    "url": "https://en.wikipedia.org/wiki/The_Signal_and_the_Noise",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "David Spiegelhalter - The Art of Statistics",
+    "url": "https://www.goodreads.com/search?q=The%20Art%20of%20Statistics%20David%20Spiegelhalter",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Gerd Gigerenzer - Risk Savvy",
+    "url": "https://www.goodreads.com/search?q=Risk%20Savvy%20Gerd%20Gigerenzer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Gerd Gigerenzer - Calculated Risks",
+    "url": "https://www.goodreads.com/search?q=Calculated%20Risks%20Gerd%20Gigerenzer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "John Allen Paulos - Innumeracy",
+    "url": "https://en.wikipedia.org/wiki/Innumeracy_(book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Nassim Nicholas Taleb - The Black Swan",
+    "url": "https://en.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Leonard Mlodinow - The Drunkard's Walk",
+    "url": "https://en.wikipedia.org/wiki/The_Drunkard's_Walk",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Judea Pearl - The Book of Why",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Why",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Charles Wheelan - Naked Statistics",
+    "url": "https://www.goodreads.com/search?q=Naked%20Statistics%20Charles%20Wheelan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Números, estatística e incerteza",
+    "name": "Tim Harford - The Data Detective",
+    "url": "https://www.goodreads.com/search?q=The%20Data%20Detective%20Tim%20Harford",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "John Rawls - A Theory of Justice",
+    "url": "https://en.wikipedia.org/wiki/A_Theory_of_Justice",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Jason Brennan - Against Democracy",
+    "url": "https://en.wikipedia.org/wiki/Against_Democracy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Achen & Bartels - Democracy for Realists",
+    "url": "https://www.goodreads.com/search?q=Democracy%20for%20Realists%20Achen%20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Deborah Stone - Policy Paradox",
+    "url": "https://www.goodreads.com/search?q=Policy%20Paradox%20Deborah%20Stone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Magnus Vinding - Reasoned Politics",
+    "url": "https://www.goodreads.com/search?q=Reasoned%20Politics%20Magnus%20Vinding",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Hannah Arendt - The Human Condition",
+    "url": "https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Bryan Caplan - The Myth of the Rational Voter",
+    "url": "https://en.wikipedia.org/wiki/The_Myth_of_the_Rational_Voter",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "John E. Roemer - Theories of Distributive Justice",
+    "url": "https://www.goodreads.com/search?q=Theories%20of%20Distributive%20Justice%20John%20E.%20Roemer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Robert E. Goodin - The Oxford Handbook of Political Science",
+    "url": "https://www.goodreads.com/search?q=The%20Oxford%20Handbook%20of%20Political%20Science%20Robert%20E.%20Goodin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Jonathan Haidt - The Righteous Mind",
+    "url": "https://en.wikipedia.org/wiki/The_Righteous_Mind",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Karl Popper - The Open Society and Its Enemies",
+    "url": "https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Steven Pinker - Enlightenment Now",
+    "url": "https://en.wikipedia.org/wiki/Enlightenment_Now",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Steven Pinker - The Better Angels of Our Nature",
+    "url": "https://en.wikipedia.org/wiki/The_Better_Angels_of_Our_Nature",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Política e sociedade",
+    "name": "Hélène Landemore - Democratic Reason",
+    "url": "https://www.goodreads.com/search?q=Democratic%20Reason%20H%C3%A9l%C3%A8ne%20Landemore",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Instituto de Prática Baseada em Evidências",
+    "url": "https://institutodepbe.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "UK Research and Innovation",
+    "url": "https://www.ukri.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Nesta",
+    "url": "https://www.nesta.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Centre for Reviews and Dissemination",
+    "url": "https://www.york.ac.uk/crd/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Instituto Questão de Ciência",
+    "url": "https://iqc.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "PBECast",
+    "url": "https://institutodepbe.com.br/pbecast/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "EPPI-Centre",
+    "url": "https://eppi.ioe.ac.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Sense about Science",
+    "url": "https://senseaboutscience.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Trisha Greenhalgh",
+    "url": "https://en.wikipedia.org/wiki/Trisha_Greenhalgh",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Iain Chalmers",
+    "url": "https://en.wikipedia.org/wiki/Iain_Chalmers",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Paul Glasziou",
+    "url": "https://en.wikipedia.org/wiki/Paul_Glasziou",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Prática Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ben Goldacre",
+    "url": "https://en.wikipedia.org/wiki/Ben_Goldacre",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Luna Educação",
+    "url": "https://lunaeducacao.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "What Works Clearinghouse",
+    "url": "https://ies.ed.gov/ncee/wwc/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Education Endowment Foundation",
+    "url": "https://educationendowmentfoundation.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Instituto Alfa e Beto",
+    "url": "https://www.alfaebeto.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Evidence for ESSA",
+    "url": "https://www.evidenceforessa.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "The Learning Scientists",
+    "url": "https://www.learningscientists.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "researchED",
+    "url": "https://researched.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Deans for Impact",
+    "url": "https://deansforimpact.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Retrieval Practice",
+    "url": "https://www.retrievalpractice.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John Hattie",
+    "url": "https://en.wikipedia.org/wiki/John_Hattie",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Robert Slavin",
+    "url": "https://en.wikipedia.org/wiki/Robert_Slavin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Lucelmo Lacerda",
+    "url": "https://pt.wikipedia.org/wiki/Lucelmo_Lacerda",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Dylan Wiliam",
+    "url": "https://en.wikipedia.org/wiki/Dylan_Wiliam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Daniel Willingham",
+    "url": "https://en.wikipedia.org/wiki/Daniel_T._Willingham",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John Sweller",
+    "url": "https://en.wikipedia.org/wiki/John_Sweller",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Paul A. Kirschner",
+    "url": "https://scholar.google.com/scholar?q=%22Paul+A.+Kirschner%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Daisy Christodoulou",
+    "url": "https://en.wikipedia.org/wiki/Daisy_Christodoulou",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Pooja Agarwal",
+    "url": "https://scholar.google.com/scholar?q=%22Pooja+Agarwal%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Educação Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Barak Rosenshine",
+    "url": "https://en.wikipedia.org/wiki/Barak_Rosenshine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Campbell Collaboration",
+    "url": "https://www.campbellcollaboration.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "What Works Network",
+    "url": "https://www.gov.uk/guidance/what-works-network",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "EVIPNet",
+    "url": "https://www.who.int/initiatives/evidence-informed-policy-network",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "FGV Clear",
+    "url": "https://fgvclear.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Coalizão Brasileira pelas Evidências",
+    "url": "https://coalizaopelasevidencias.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Sociedade Brasileira de Econometria",
+    "url": "https://www.sbe.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Coalition for Evidence-Based Policy",
+    "url": "https://coalition4evidence.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "J-PAL",
+    "url": "https://www.povertyactionlab.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Innovations for Poverty Action",
+    "url": "https://poverty-action.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "The Pew Charitable Trusts",
+    "url": "https://www.pew.org/en/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Observatório de Políticas Científicas",
+    "url": "https://serrapilheira.org/en/projetos/observatorio-de-politicas-cientificas/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "William T. Grant Foundation",
+    "url": "https://wtgrantfoundation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Behavioural Insights Team",
+    "url": "https://www.bi.team/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Our World in Data",
+    "url": "https://ourworldindata.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Gapminder",
+    "url": "https://www.gapminder.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "IPEA",
+    "url": "https://www.ipea.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "3ie",
+    "url": "https://www.3ieimpact.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Arnold Ventures",
+    "url": "https://www.arnoldventures.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Justin Parkhurst",
+    "url": "https://scholar.google.com/scholar?q=%22Justin+Parkhurst%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Donald T. Campbell",
+    "url": "https://en.wikipedia.org/wiki/Donald_T._Campbell",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Sandra M. Nutley",
+    "url": "https://scholar.google.com/scholar?q=%22Sandra+M.+Nutley%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Huw Davies",
+    "url": "https://scholar.google.com/scholar?q=%22Huw+Davies%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Kai Spiekermann",
+    "url": "https://scholar.google.com/scholar?q=%22Kai+Spiekermann%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "David Estlund",
+    "url": "https://en.wikipedia.org/wiki/David_Estlund",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Hélène Landemore",
+    "url": "https://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Landemore",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Joshua Cohen",
+    "url": "https://en.wikipedia.org/wiki/Joshua_Cohen_(philosopher)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ricardo Paes de Barros",
+    "url": "https://pt.wikipedia.org/wiki/Ricardo_Paes_de_Barros",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Naercio Menezes Filho",
+    "url": "https://scholar.google.com/scholar?q=%22Naercio+Menezes+Filho%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Thomas Conti",
+    "url": "https://scholar.google.com/scholar?q=%22Thomas+Conti%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Victor Rangel",
+    "url": "https://scholar.google.com/scholar?q=%22Victor+Rangel%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ana Luiza Pessanha",
+    "url": "https://scholar.google.com/scholar?q=%22Ana+Luiza+Pessanha%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Brian Head",
+    "url": "https://scholar.google.com/scholar?q=%22Brian+Head%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Gary Banks",
+    "url": "https://scholar.google.com/scholar?q=%22Gary+Banks%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jason Brennan",
+    "url": "https://en.wikipedia.org/wiki/Jason_Brennan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Larry Temkin",
+    "url": "https://en.wikipedia.org/wiki/Larry_Temkin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Tony Atkinson",
+    "url": "https://en.wikipedia.org/wiki/Anthony_Barnes_Atkinson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Esther Duflo",
+    "url": "https://en.wikipedia.org/wiki/Esther_Duflo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Abhijit Banerjee",
+    "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Política Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Michael Kremer",
+    "url": "https://en.wikipedia.org/wiki/Michael_Kremer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Associação Brasileira de Psicologia Baseada em Evidências",
+    "url": "https://abpbe.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Instituto de Psicologia Baseada em Evidências",
+    "url": "https://inpbe.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Sínteses",
+    "url": "https://sinteses.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Garagem PSI",
+    "url": "https://www.garagempsi.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Verywell Mind",
+    "url": "https://www.verywellmind.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Society of Clinical Psychology",
+    "url": "https://div12.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "The Depression Project",
+    "url": "https://thedepressionproject.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Psicometria Online",
+    "url": "https://psicometriaonline.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Center for Open Science",
+    "url": "https://cos.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Association for Psychological Science",
+    "url": "https://www.psychologicalscience.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "David H. Barlow",
+    "url": "https://en.wikipedia.org/wiki/David_H._Barlow",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Scott O. Lilienfeld",
+    "url": "https://en.wikipedia.org/wiki/Scott_Lilienfeld",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Aaron T. Beck",
+    "url": "https://en.wikipedia.org/wiki/Aaron_T._Beck",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Paul Meehl",
+    "url": "https://en.wikipedia.org/wiki/Paul_E._Meehl",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jan Leonardi",
+    "url": "https://scholar.google.com/scholar?q=%22Jan+Leonardi%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ramiro Figueiredo Catelan",
+    "url": "https://scholar.google.com/scholar?q=%22Ramiro+Figueiredo+Catelan%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Anelisa Vaz de Carvalho",
+    "url": "https://scholar.google.com/scholar?q=%22Anelisa+Vaz+de+Carvalho%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Bruno Figueiredo Damásio",
+    "url": "https://scholar.google.com/scholar?q=%22Bruno+Figueiredo+Dam%C3%A1sio%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Carmem Beatriz Neufeld",
+    "url": "https://scholar.google.com/scholar?q=%22Carmem+Beatriz+Neufeld%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Tobias de Medeiros Chaves Ferreira",
+    "url": "https://scholar.google.com/scholar?q=%22Tobias+de+Medeiros+Chaves+Ferreira%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Fernanda Brunkow",
+    "url": "https://scholar.google.com/scholar?q=%22Fernanda+Brunkow%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Fernanda Landeiro",
+    "url": "https://scholar.google.com/scholar?q=%22Fernanda+Landeiro%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Filipe Luis Souza",
+    "url": "https://scholar.google.com/scholar?q=%22Filipe+Luis+Souza%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Igor Eckert",
+    "url": "https://scholar.google.com/scholar?q=%22Igor+Eckert%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Loren Beiram",
+    "url": "https://scholar.google.com/scholar?q=%22Loren+Beiram%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Roberta Ekuni",
+    "url": "https://scholar.google.com/scholar?q=%22Roberta+Ekuni%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Tammy Marchiori",
+    "url": "https://scholar.google.com/scholar?q=%22Tammy+Marchiori%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Anna Keila Hecke Polak",
+    "url": "https://scholar.google.com/scholar?q=%22Anna+Keila+Hecke+Polak%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Bernardo Mattos",
+    "url": "https://scholar.google.com/scholar?q=%22Bernardo+Mattos%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Júlia Amaral",
+    "url": "https://scholar.google.com/scholar?q=%22J%C3%BAlia+Amaral%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Iane Almeida",
+    "url": "https://scholar.google.com/scholar?q=%22Iane+Almeida%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Henrique Freire",
+    "url": "https://scholar.google.com/scholar?q=%22Henrique+Freire%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Thiago Mácimo",
+    "url": "https://scholar.google.com/scholar?q=%22Thiago+M%C3%A1cimo%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jennifer Craco",
+    "url": "https://scholar.google.com/scholar?q=%22Jennifer+Craco%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Letícia Duarte",
+    "url": "https://scholar.google.com/scholar?q=%22Let%C3%ADcia+Duarte%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Tanise Chites da Costa",
+    "url": "https://scholar.google.com/scholar?q=%22Tanise+Chites+da+Costa%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Freya Bizarro",
+    "url": "https://scholar.google.com/scholar?q=%22Freya+Bizarro%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Psicologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Markus Knauff",
+    "url": "https://scholar.google.com/scholar?q=%22Markus+Knauff%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Cochrane",
+    "url": "https://www.cochrane.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Centre for Evidence-Based Medicine",
+    "url": "https://www.cebm.ox.ac.uk/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Medicina Baseada em Evidências",
+    "url": "https://medicinabaseadaemevidencias.blogspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Sociedade Brasileira de Imunizações",
+    "url": "https://sbim.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "NICE",
+    "url": "https://www.nice.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "GRADE Working Group",
+    "url": "https://www.gradeworkinggroup.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Science-Based Medicine",
+    "url": "https://sciencebasedmedicine.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Cochrane Brasil",
+    "url": "https://brazil.cochrane.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Epistemonikos",
+    "url": "https://www.epistemonikos.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Journal of Evidence-Based Healthcare",
+    "url": "https://www5.bahiana.edu.br/index.php/evidence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Gordon Guyatt",
+    "url": "https://en.wikipedia.org/wiki/Gordon_Guyatt",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "David Sackett",
+    "url": "https://en.wikipedia.org/wiki/David_Sackett",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Archie Cochrane",
+    "url": "https://en.wikipedia.org/wiki/Archie_Cochrane",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Alvan Feinstein",
+    "url": "https://en.wikipedia.org/wiki/Alvan_Feinstein",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John Wennberg",
+    "url": "https://en.wikipedia.org/wiki/John_Wennberg",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "David M. Eddy",
+    "url": "https://en.wikipedia.org/wiki/David_M._Eddy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Trisha Greenhalgh",
+    "url": "https://en.wikipedia.org/wiki/Trisha_Greenhalgh",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Álvaro Nagib Atallah",
+    "url": "https://scholar.google.com/scholar?q=%22%C3%81lvaro+Nagib+Atallah%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Luis Claudio Correia",
+    "url": "https://scholar.google.com/scholar?q=%22Luis+Claudio+Correia%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Andrea Furlan",
+    "url": "https://en.wikipedia.org/wiki/Andrea_Furlan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "José Neto",
+    "url": "https://scholar.google.com/scholar?q=%22Jos%C3%A9+Neto%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Gregory Lewis",
+    "url": "https://scholar.google.com/scholar?q=%22Gregory+Lewis%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Medicina Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John Ioannidis",
+    "url": "https://en.wikipedia.org/wiki/John_Ioannidis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "JBI",
+    "url": "https://jbi.global/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Fuld National Institute for EBP",
+    "url": "https://fuld.nursing.osu.edu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Centro de Excelência do JBI (Brasil)",
+    "url": "https://www.ee.usp.br/jbibrasil/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Evidence-Based Nursing (periódico)",
+    "url": "https://ebn.bmj.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Bernadette Mazurek Melnyk",
+    "url": "https://scholar.google.com/scholar?q=%22Bernadette+Mazurek+Melnyk%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ellen Fineout-Overholt",
+    "url": "https://scholar.google.com/scholar?q=%22Ellen+Fineout-Overholt%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Nicky Cullum",
+    "url": "https://en.wikipedia.org/wiki/Nicky_Cullum",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enfermagem Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Cristina Maria Galvão",
+    "url": "https://scholar.google.com/scholar?q=%22Cristina+Maria+Galv%C3%A3o%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "American Dental Education Association",
+    "url": "https://www.adea.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Evidence-Based Dentistry (periódico)",
+    "url": "https://www.nature.com/ebd/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Cochrane Oral Health",
+    "url": "https://oralhealth.cochrane.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Associação Brasileira de Ensino Odontológico",
+    "url": "https://abeno.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Centre for Evidence-based Dentistry",
+    "url": "https://www.cebd.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "American Dental Association",
+    "url": "https://www.ada.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ian Needleman",
+    "url": "https://scholar.google.com/scholar?q=%22Ian+Needleman%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Derek Richards",
+    "url": "https://scholar.google.com/scholar?q=%22Derek+Richards%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Alan Lawrence",
+    "url": "https://scholar.google.com/scholar?q=%22Alan+Lawrence%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Michael Glick",
+    "url": "https://en.wikipedia.org/wiki/Michael_Glick",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jaime Aparecido Cury",
+    "url": "https://scholar.google.com/scholar?q=%22Jaime+Aparecido+Cury%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Asbjørn Jokstad",
+    "url": "https://scholar.google.com/scholar?q=%22Asbj%C3%B8rn+Jokstad%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Odontologia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Luiz Rodolfo",
+    "url": "https://scholar.google.com/scholar?q=%22Luiz+Rodolfo%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "PEDro",
+    "url": "https://pedro.org.au/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Female Physio Co.",
+    "url": "https://femalephysioco.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Chris Maher",
+    "url": "https://scholar.google.com/scholar?q=%22Chris+Maher%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Rob Herbert",
+    "url": "https://scholar.google.com/scholar?q=%22Rob+Herbert%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Bruno Tirotti Saragiotto",
+    "url": "https://scholar.google.com/scholar?q=%22Bruno+Tirotti+Saragiotto%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Lucíola da Cunha Menezes Costa",
+    "url": "https://scholar.google.com/scholar?q=%22Luc%C3%ADola+da+Cunha+Menezes+Costa%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Leonardo Oliveira Pena Costa",
+    "url": "https://scholar.google.com/scholar?q=%22Leonardo+Oliveira+Pena+Costa%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Fisioterapia Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Tiê Parma Yamato",
+    "url": "https://scholar.google.com/scholar?q=%22Ti%C3%AA+Parma+Yamato%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Centre for Evidence-based Veterinary Medicine",
+    "url": "https://www.nottingham.ac.uk/cevm/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "RCVS Knowledge",
+    "url": "https://rcvsknowledge.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Veterinary Evidence (periódico)",
+    "url": "https://veterinaryevidence.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Peter Cockcroft",
+    "url": "https://scholar.google.com/scholar?q=%22Peter+Cockcroft%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Mark Holmes",
+    "url": "https://scholar.google.com/scholar?q=%22Mark+Holmes%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Rachel Dean",
+    "url": "https://scholar.google.com/scholar?q=%22Rachel+Dean%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Alexandre Daniel",
+    "url": "https://scholar.google.com/scholar?q=%22Alexandre+Daniel%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Renato Silvano Pulz",
+    "url": "https://scholar.google.com/scholar?q=%22Renato+Silvano+Pulz%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Siobhan Mullan",
+    "url": "https://scholar.google.com/scholar?q=%22Siobhan+Mullan%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Anne Fawcett",
+    "url": "https://scholar.google.com/scholar?q=%22Anne+Fawcett%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Barry Kipperman",
+    "url": "https://scholar.google.com/scholar?q=%22Barry+Kipperman%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Maira Rezende Formenton",
+    "url": "https://scholar.google.com/scholar?q=%22Maira+Rezende+Formenton%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Veterinária Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Isabelle Tancioni",
+    "url": "https://scholar.google.com/scholar?q=%22Isabelle+Tancioni%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Evidence-Based Nutrition",
+    "url": "https://www.evidencebasednutrition.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Eat Right (Academy of Nutrition and Dietetics)",
+    "url": "https://www.eatright.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "NutritionFacts",
+    "url": "https://nutritionfacts.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Physicians Committee for Responsible Medicine",
+    "url": "https://www.pcrm.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Associação Brasileira de Nutrição Esportiva",
+    "url": "https://abne.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "NutriRECS",
+    "url": "https://www.nutrirecs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Nupens USP",
+    "url": "https://www.fsp.usp.br/nupens/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Examine",
+    "url": "https://examine.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "The Nutrition Source (Harvard)",
+    "url": "https://nutritionsource.hsph.harvard.edu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Walter Willett",
+    "url": "https://en.wikipedia.org/wiki/Walter_Willett",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Michael Greger",
+    "url": "https://en.wikipedia.org/wiki/Michael_Greger",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Neal D. Barnard",
+    "url": "https://en.wikipedia.org/wiki/Neal_D._Barnard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Eric Slywitch",
+    "url": "https://scholar.google.com/scholar?q=%22Eric+Slywitch%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Nutrição Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Carlos Monteiro",
+    "url": "https://en.wikipedia.org/wiki/Carlos_Augusto_Monteiro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Sentience Institute",
+    "url": "https://www.sentienceinstitute.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Senciencia",
+    "url": "https://senciencia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Center for Reducing Suffering",
+    "url": "https://centerforreducingsuffering.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Faunalytics",
+    "url": "https://faunalytics.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Animal Ethics",
+    "url": "https://www.animal-ethics.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Ethox Centre",
+    "url": "https://www.ethox.ox.ac.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Cushman Lab",
+    "url": "https://cushmanlab.fas.harvard.edu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Institute for Futures Studies",
+    "url": "https://www.iffs.se/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Mimir Center",
+    "url": "https://mimircenter.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Center for Policy and Animal Welfare",
+    "url": "https://www.c-paw.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Jeremy Coller Centre for Animal Sentience",
+    "url": "https://www.lse.ac.uk/sentience",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "NYU Center for Mind, Ethics, and Policy",
+    "url": "https://sites.google.com/nyu.edu/mindethicspolicy/home",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Organizações",
+    "name": "Wild Animal Initiative",
+    "url": "https://www.wildanimalinitiative.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Peter Singer",
+    "url": "https://en.wikipedia.org/wiki/Peter_Singer",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Derek Parfit",
+    "url": "https://en.wikipedia.org/wiki/Derek_Parfit",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "James Rachels",
+    "url": "https://en.wikipedia.org/wiki/James_Rachels",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Ronald Anthony Hope",
+    "url": "https://scholar.google.com/scholar?q=%22Ronald+Anthony+Hope%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John McMillan",
+    "url": "https://scholar.google.com/scholar?q=%22John+McMillan%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Alasdair Cochrane",
+    "url": "https://en.wikipedia.org/wiki/Alasdair_Cochrane",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Vitor Douglas de Andrade",
+    "url": "https://scholar.google.com/scholar?q=%22Vitor+Douglas+de+Andrade%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Peter Railton",
+    "url": "https://en.wikipedia.org/wiki/Peter_Railton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Owen Flanagan",
+    "url": "https://en.wikipedia.org/wiki/Owen_Flanagan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Patricia Churchland",
+    "url": "https://en.wikipedia.org/wiki/Patricia_Churchland",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Joshua Greene",
+    "url": "https://en.wikipedia.org/wiki/Joshua_Greene_(psychologist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jonathan Haidt",
+    "url": "https://en.wikipedia.org/wiki/Jonathan_Haidt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Walter Sinnott-Armstrong",
+    "url": "https://en.wikipedia.org/wiki/Walter_Sinnott-Armstrong",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Joshua Knobe",
+    "url": "https://en.wikipedia.org/wiki/Joshua_Knobe",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Sam Harris",
+    "url": "https://en.wikipedia.org/wiki/Sam_Harris",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Luciano Carlos Cunha",
+    "url": "https://pt.wikipedia.org/wiki/Luciano_Carlos_Cunha",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jesse Prinz",
+    "url": "https://en.wikipedia.org/wiki/Jesse_Prinz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Fiery Cushman",
+    "url": "https://en.wikipedia.org/wiki/Fiery_Cushman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Molly Crockett",
+    "url": "https://en.wikipedia.org/wiki/Molly_Crockett",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "John Broome",
+    "url": "https://en.wikipedia.org/wiki/John_Broome_(philosopher)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Krister Bykvist",
+    "url": "https://scholar.google.com/scholar?q=%22Krister+Bykvist%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Kyle Johannsen",
+    "url": "https://en.wikipedia.org/wiki/Kyle_Johannsen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jonathan Birch",
+    "url": "https://en.wikipedia.org/wiki/Jonathan_Birch_(philosopher)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jeff Sebo",
+    "url": "https://en.wikipedia.org/wiki/Jeff_Sebo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Persis Eskander",
+    "url": "https://scholar.google.com/scholar?q=%22Persis+Eskander%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Martha Nussbaum",
+    "url": "https://en.wikipedia.org/wiki/Martha_Nussbaum",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Jacob Barrett",
+    "url": "https://scholar.google.com/scholar?q=%22Jacob+Barrett%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Karri Heikkinen",
+    "url": "https://scholar.google.com/scholar?q=%22Karri+Heikkinen%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Toby Newberry",
+    "url": "https://scholar.google.com/scholar?q=%22Toby+Newberry%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética Baseada em Evidências",
+    "subcategory": "Pessoas",
+    "name": "Oscar Horta",
+    "url": "https://en.wikipedia.org/wiki/Oscar_Horta",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Centre for Effective Altruism",
+    "url": "https://www.centreforeffectivealtruism.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "GiveWell",
+    "url": "https://www.givewell.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Evidence Action",
+    "url": "https://www.evidenceaction.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Coefficient Giving",
+    "url": "https://coefficientgiving.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Rethink Priorities",
+    "url": "https://rethinkpriorities.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Center on Long-Term Risk",
+    "url": "https://longtermrisk.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "80,000 Hours",
+    "url": "https://80000hours.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Giving What We Can",
+    "url": "https://www.givingwhatwecan.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Animal Charity Evaluators",
+    "url": "https://animalcharityevaluators.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "The Life You Can Save",
+    "url": "https://www.thelifeyoucansave.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Founders Pledge",
+    "url": "https://founderspledge.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Global Priorities Institute",
+    "url": "https://www.globalprioritiesinstitute.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "Future of Humanity Institute",
+    "url": "https://en.wikipedia.org/wiki/Future_of_Humanity_Institute",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Organizações",
+    "name": "EA Forum",
+    "url": "https://forum.effectivealtruism.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "William MacAskill",
+    "url": "https://en.wikipedia.org/wiki/William_MacAskill",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Toby Ord",
+    "url": "https://en.wikipedia.org/wiki/Toby_Ord",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Peter Singer",
+    "url": "https://en.wikipedia.org/wiki/Peter_Singer",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Holden Karnofsky",
+    "url": "https://en.wikipedia.org/wiki/Holden_Karnofsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Nick Beckstead",
+    "url": "https://scholar.google.com/scholar?q=%22Nick+Beckstead%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Hilary Greaves",
+    "url": "https://en.wikipedia.org/wiki/Hilary_Greaves",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Nick Bostrom",
+    "url": "https://en.wikipedia.org/wiki/Nick_Bostrom",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Brian Tomasik",
+    "url": "https://en.wikipedia.org/wiki/Brian_Tomasik",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Magnus Vinding",
+    "url": "https://scholar.google.com/scholar?q=%22Magnus+Vinding%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Tobias Baumann",
+    "url": "https://scholar.google.com/scholar?q=%22Tobias+Baumann%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "David Pearce",
+    "url": "https://en.wikipedia.org/wiki/David_Pearce_(philosopher)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Altruísmo eficaz",
+    "subcategory": "Pessoas",
+    "name": "Jacy Reese Anthis",
+    "url": "https://en.wikipedia.org/wiki/Jacy_Reese_Anthis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Organizações",
+    "name": "Núcleo de Estudos em Lógica e Filosofia Analítica (NULFA)",
+    "url": "https://nulfa.weebly.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Organizações",
+    "name": "Aristotelian Society",
+    "url": "https://www.aristoteliansociety.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Organizações",
+    "name": "Círculo de Viena (Institut Wiener Kreis)",
+    "url": "https://en.wikipedia.org/wiki/Vienna_Circle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Bertrand Russell",
+    "url": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "G. E. Moore",
+    "url": "https://en.wikipedia.org/wiki/G._E._Moore",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Ludwig Wittgenstein",
+    "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Franz Brentano",
+    "url": "https://en.wikipedia.org/wiki/Franz_Brentano",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Rudolf Carnap",
+    "url": "https://en.wikipedia.org/wiki/Rudolf_Carnap",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "A. J. Ayer",
+    "url": "https://en.wikipedia.org/wiki/A._J._Ayer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "W. V. O. Quine",
+    "url": "https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Hans Hahn",
+    "url": "https://en.wikipedia.org/wiki/Hans_Hahn_(mathematician)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Philipp Frank",
+    "url": "https://en.wikipedia.org/wiki/Philipp_Frank",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Otto Neurath",
+    "url": "https://en.wikipedia.org/wiki/Otto_Neurath",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Gottlob Frege",
+    "url": "https://en.wikipedia.org/wiki/Gottlob_Frege",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Karl Popper",
+    "url": "https://en.wikipedia.org/wiki/Karl_Popper",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Moritz Schlick",
+    "url": "https://en.wikipedia.org/wiki/Moritz_Schlick",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Sven Ove Hansson",
+    "url": "https://en.wikipedia.org/wiki/Sven_Ove_Hansson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Massimo Pigliucci",
+    "url": "https://en.wikipedia.org/wiki/Massimo_Pigliucci",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Maarten Boudry",
+    "url": "https://en.wikipedia.org/wiki/Maarten_Boudry",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Paul Thagard",
+    "url": "https://en.wikipedia.org/wiki/Paul_Thagard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Ian Hacking",
+    "url": "https://en.wikipedia.org/wiki/Ian_Hacking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Damian Fernandez-Beanato",
+    "url": "https://scholar.google.com/scholar?q=%22Damian+Fernandez-Beanato%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Daniel Dennett",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Dennett",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Susan Haack",
+    "url": "https://en.wikipedia.org/wiki/Susan_Haack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Saul Kripke",
+    "url": "https://en.wikipedia.org/wiki/Saul_Kripke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filosofia analítica",
+    "subcategory": "Pessoas",
+    "name": "Newton da Costa",
+    "url": "https://en.wikipedia.org/wiki/Newton_da_Costa",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Instituto Ponto Azul",
+    "url": "https://www.institutopontoazul.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Universo Racionalista",
+    "url": "https://universoracionalista.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Revista Questão de Ciência",
+    "url": "https://revistaquestaodeciencia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Sapienship",
+    "url": "https://www.sapienship.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Instituto Serrapilheira",
+    "url": "https://serrapilheira.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Ciência Todo Dia",
+    "url": "https://www.youtube.com/@CienciaTodoDia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Manual do Mundo",
+    "url": "https://www.manualdomundo.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Nerdologia",
+    "url": "https://www.youtube.com/@nerdologia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Kurzgesagt",
+    "url": "https://kurzgesagt.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Projetos",
+    "name": "Veritasium",
+    "url": "https://www.youtube.com/@veritasium",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Carl Sagan",
+    "url": "https://en.wikipedia.org/wiki/Carl_Sagan",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "David Attenborough",
+    "url": "https://en.wikipedia.org/wiki/David_Attenborough",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Richard Feynman",
+    "url": "https://en.wikipedia.org/wiki/Richard_Feynman",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Isaac Asimov",
+    "url": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Arthur C. Clarke",
+    "url": "https://en.wikipedia.org/wiki/Arthur_C._Clarke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Neil deGrasse Tyson",
+    "url": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Stephen Hawking",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Bill Nye",
+    "url": "https://en.wikipedia.org/wiki/Bill_Nye",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Richard Dawkins",
+    "url": "https://en.wikipedia.org/wiki/Richard_Dawkins",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Brian Cox",
+    "url": "https://en.wikipedia.org/wiki/Brian_Cox_(physicist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Brian Greene",
+    "url": "https://en.wikipedia.org/wiki/Brian_Greene",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Jane Goodall",
+    "url": "https://en.wikipedia.org/wiki/Jane_Goodall",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Steven Pinker",
+    "url": "https://en.wikipedia.org/wiki/Steven_Pinker",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Siddhartha Mukherjee",
+    "url": "https://en.wikipedia.org/wiki/Siddhartha_Mukherjee",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Atul Gawande",
+    "url": "https://en.wikipedia.org/wiki/Atul_Gawande",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Yuval Noah Harari",
+    "url": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Michio Kaku",
+    "url": "https://en.wikipedia.org/wiki/Michio_Kaku",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Steven Weinberg",
+    "url": "https://en.wikipedia.org/wiki/Steven_Weinberg",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Christopher Hitchens",
+    "url": "https://en.wikipedia.org/wiki/Christopher_Hitchens",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Stephen Jay Gould",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Jay_Gould",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Oliver Sacks",
+    "url": "https://en.wikipedia.org/wiki/Oliver_Sacks",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Sam Harris",
+    "url": "https://en.wikipedia.org/wiki/Sam_Harris",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "James Randi",
+    "url": "https://en.wikipedia.org/wiki/James_Randi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Lisa Randall",
+    "url": "https://en.wikipedia.org/wiki/Lisa_Randall",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Frans de Waal",
+    "url": "https://en.wikipedia.org/wiki/Frans_de_Waal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Desmond Morris",
+    "url": "https://en.wikipedia.org/wiki/Desmond_Morris",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Mario Bunge",
+    "url": "https://en.wikipedia.org/wiki/Mario_Bunge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Derek Muller",
+    "url": "https://en.wikipedia.org/wiki/Derek_Muller",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Hank Green",
+    "url": "https://en.wikipedia.org/wiki/Hank_Green",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "John Green",
+    "url": "https://en.wikipedia.org/wiki/John_Green",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Andrew Huberman",
+    "url": "https://en.wikipedia.org/wiki/Andrew_Huberman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Michael Stevens",
+    "url": "https://www.youtube.com/@Vsauce",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Massimo Pigliucci",
+    "url": "https://en.wikipedia.org/wiki/Massimo_Pigliucci",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (mundo)",
+    "name": "Sabine Hossenfelder",
+    "url": "https://en.wikipedia.org/wiki/Sabine_Hossenfelder",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Natalia Pasternak",
+    "url": "https://en.wikipedia.org/wiki/Natalia_Pasternak",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Carlos Orsi",
+    "url": "https://pt.wikipedia.org/wiki/Carlos_Orsi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Reinaldo José Lopes",
+    "url": "https://www1.folha.uol.com.br/colunas/reinaldojoselopes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Salvador Nogueira",
+    "url": "https://mensageirosideral.blogfolha.uol.com.br",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Herton Escobar",
+    "url": "https://hertonescobar.com.br",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Luisa Massarani",
+    "url": "https://pt.wikipedia.org/wiki/Luisa_Massarani",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Carlos Vogt",
+    "url": "https://pt.wikipedia.org/wiki/Carlos_Vogt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Drauzio Varella",
+    "url": "https://en.wikipedia.org/wiki/Drauzio_Varella",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Julio Abramczyk",
+    "url": "https://www1.folha.uol.com.br/colunas/julioabramczyk",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Douglas Rodrigues",
+    "url": "https://www.instagram.com/douglasrodrigues42",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Marcelo Gleiser",
+    "url": "https://en.wikipedia.org/wiki/Marcelo_Gleiser",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Pedro Loos",
+    "url": "https://pt.wikipedia.org/wiki/Pedro_Loos",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Atila Iamarino",
+    "url": "https://en.wikipedia.org/wiki/Atila_Iamarino",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Pirula",
+    "url": "https://en.wikipedia.org/wiki/Pirula_(YouTuber)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Bernardo Esteves",
+    "url": "https://en.wikipedia.org/wiki/Bernardo_Esteves",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Iberê Thenório",
+    "url": "https://pt.wikipedia.org/wiki/Iber%C3%AA_Then%C3%B3rio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "André Bacchi",
+    "url": "https://www.instagram.com/bacchi.andre",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Luana Araújo",
+    "url": "https://www.instagram.com/drluanaaraujo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Daniel Gontijo",
+    "url": "https://x.com/profgontijo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Ruth Helena Bellinghini",
+    "url": "https://scholar.google.com/scholar?q=%22Ruth+Helena+Bellinghini%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Marcelo Takeshi Yamashita",
+    "url": "https://scholar.google.com/scholar?q=%22Marcelo+Takeshi+Yamashita%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação científica",
+    "subcategory": "Pessoas (Brasil)",
+    "name": "Daniel Dahis",
+    "url": "https://scholar.google.com/scholar?q=%22Daniel+Dahis%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "1000-Word Philosophy",
+    "url": "https://1000wordphilosophy.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Philosophy Now",
+    "url": "https://philosophynow.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Philosophy Ideas",
+    "url": "https://www.philosophyideas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Closer To Truth",
+    "url": "https://closertotruth.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Big Think",
+    "url": "https://bigthink.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Senciência",
+    "url": "https://senciencia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Isto Não É Filosofia",
+    "url": "https://www.istonaoefilosofia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Philosophy Bites",
+    "url": "https://philosophybites.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Wireless Philosophy",
+    "url": "https://www.wi-phi.com",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Daily Nous",
+    "url": "https://dailynous.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Aeon",
+    "url": "https://aeon.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Projetos",
+    "name": "Crítica na Rede",
+    "url": "https://criticanarede.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Michael Sandel",
+    "url": "https://en.wikipedia.org/wiki/Michael_Sandel",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Alain de Botton",
+    "url": "https://en.wikipedia.org/wiki/Alain_de_Botton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Byung-Chul Han",
+    "url": "https://en.wikipedia.org/wiki/Byung-Chul_Han",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "George Orwell",
+    "url": "https://en.wikipedia.org/wiki/George_Orwell",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Julian Baggini",
+    "url": "https://en.wikipedia.org/wiki/Julian_Baggini",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Jeremy Stangroom",
+    "url": "https://en.wikipedia.org/wiki/Jeremy_Stangroom",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Nigel Warburton",
+    "url": "https://en.wikipedia.org/wiki/Nigel_Warburton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Simon Blackburn",
+    "url": "https://en.wikipedia.org/wiki/Simon_Blackburn",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Desidério Murcho",
+    "url": "https://en.wikipedia.org/wiki/Desid%C3%A9rio_Murcho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Thomas Nagel",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Nagel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Stephen Law",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Vitor Lima",
+    "url": "https://www.istonaoefilosofia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Stephen Downes",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Downes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Peter Gibson",
+    "url": "https://www.philosophyideas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Mario Sergio Cortella",
+    "url": "https://en.wikipedia.org/wiki/Mario_Sergio_Cortella",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Clóvis de Barros Filho",
+    "url": "https://pt.wikipedia.org/wiki/Cl%C3%B3vis_de_Barros_Filho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Marilena Chaui",
+    "url": "https://en.wikipedia.org/wiki/Marilena_Chaui",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "Robert Todd Carroll",
+    "url": "https://en.wikipedia.org/wiki/Robert_Todd_Carroll",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "David Chalmers",
+    "url": "https://en.wikipedia.org/wiki/David_Chalmers",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação filosófica",
+    "subcategory": "Pessoas",
+    "name": "David Bourget",
+    "url": "https://scholar.google.com/scholar?q=%22David+Bourget%22",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Projetos",
+    "name": "Língua Ciência",
+    "url": "https://open.spotify.com/show/7dC5BqjXhOnIJewrDcNfOD",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Projetos",
+    "name": "Etimosofia",
+    "url": "https://www.youtube.com/@etimosofia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Projetos",
+    "name": "Ethnologue",
+    "url": "https://www.ethnologue.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Projetos",
+    "name": "Glottolog",
+    "url": "https://glottolog.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Projetos",
+    "name": "WALS (World Atlas of Language Structures)",
+    "url": "https://wals.info/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Noam Chomsky",
+    "url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "David Crystal",
+    "url": "https://en.wikipedia.org/wiki/David_Crystal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Lila Gleitman",
+    "url": "https://en.wikipedia.org/wiki/Lila_Gleitman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "William Labov",
+    "url": "https://en.wikipedia.org/wiki/William_Labov",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "William Stokoe",
+    "url": "https://en.wikipedia.org/wiki/William_Stokoe",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Joan Bybee",
+    "url": "https://en.wikipedia.org/wiki/Joan_Bybee",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Con Slobodchikoff",
+    "url": "https://en.wikipedia.org/wiki/Con_Slobodchikoff",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Michael Halliday",
+    "url": "https://en.wikipedia.org/wiki/Michael_Halliday",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Daniel Everett",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Everett",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Martin Haspelmath",
+    "url": "https://en.wikipedia.org/wiki/Martin_Haspelmath",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Edward Sapir",
+    "url": "https://en.wikipedia.org/wiki/Edward_Sapir",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Benjamin Lee Whorf",
+    "url": "https://en.wikipedia.org/wiki/Benjamin_Lee_Whorf",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Roman Jakobson",
+    "url": "https://en.wikipedia.org/wiki/Roman_Jakobson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Joseph Greenberg",
+    "url": "https://en.wikipedia.org/wiki/Joseph_Greenberg",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "George Lakoff",
+    "url": "https://en.wikipedia.org/wiki/George_Lakoff",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Anna Wierzbicka",
+    "url": "https://en.wikipedia.org/wiki/Anna_Wierzbicka",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Nicholas Evans",
+    "url": "https://en.wikipedia.org/wiki/Nicholas_Evans_(linguist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Joaquim Mattoso Câmara Jr.",
+    "url": "https://pt.wikipedia.org/wiki/Mattoso_C%C3%A2mara",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Ferdinand de Saussure",
+    "url": "https://en.wikipedia.org/wiki/Ferdinand_de_Saussure",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "John McWhorter",
+    "url": "https://en.wikipedia.org/wiki/John_McWhorter",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgação linguística",
+    "subcategory": "Pessoas",
+    "name": "Marcos Bagno",
+    "url": "https://pt.wikipedia.org/wiki/Marcos_Bagno",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Committee for Skeptical Inquiry",
+    "url": "https://skepticalinquirer.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Skeptical Inquirer",
+    "url": "https://skepticalinquirer.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Center for Inquiry",
+    "url": "https://centerforinquiry.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "The Skeptics Society",
+    "url": "https://www.skeptic.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Skeptic (revista)",
+    "url": "https://www.skeptic.com/magazine/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "James Randi Educational Foundation",
+    "url": "https://web.randi.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Instituto Questão de Ciência",
+    "url": "https://iqc.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "Retraction Watch",
+    "url": "https://retractionwatch.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Ceticismo científico",
+    "name": "The Skeptics' Guide to the Universe",
+    "url": "https://www.theskepticsguide.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Google Scholar",
+    "url": "https://scholar.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "SciELO",
+    "url": "https://scielo.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Cochrane Library",
+    "url": "https://www.cochranelibrary.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "arXiv",
+    "url": "https://arxiv.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Open Science Framework",
+    "url": "https://osf.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "PubPeer",
+    "url": "https://pubpeer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Connected Papers",
+    "url": "https://www.connectedpapers.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Elicit",
+    "url": "https://elicit.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Consensus",
+    "url": "https://consensus.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Our World in Data",
+    "url": "https://ourworldindata.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Pesquisa e dados científicos",
+    "name": "Gapminder",
+    "url": "https://www.gapminder.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Snopes",
+    "url": "https://www.snopes.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Full Fact",
+    "url": "https://fullfact.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Agência Lupa",
+    "url": "https://www.agencialupa.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Aos Fatos",
+    "url": "https://www.aosfatos.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "FactCheck.org",
+    "url": "https://www.factcheck.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "PolitiFact",
+    "url": "https://www.politifact.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Google Fact Check Explorer",
+    "url": "https://toolbox.google.com/factcheck/explorer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Boatos.org",
+    "url": "https://www.boatos.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "E-farsas",
+    "url": "https://www.e-farsas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Projeto Comprova",
+    "url": "https://projetocomprova.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "AFP Fact Check",
+    "url": "https://factcheck.afp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Reuters Fact Check",
+    "url": "https://www.reuters.com/fact-check/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Maldita.es (Espanha)",
+    "url": "https://maldita.es/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Chequeado (Argentina)",
+    "url": "https://chequeado.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Correctiv (Alemanha)",
+    "url": "https://correctiv.org/faktencheck/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Africa Check",
+    "url": "https://africacheck.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "BOOM (Índia)",
+    "url": "https://www.boomlive.in/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Roundcheck (Nigéria)",
+    "url": "https://roundcheck.com.ng/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "FactCheckHub (Nigéria)",
+    "url": "https://factcheckhub.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "ABC News Fact Check (Austrália)",
+    "url": "https://www.abc.net.au/news/factcheck",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "AAP FactCheck (Austrália)",
+    "url": "https://www.aap.com.au/factcheck/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Annie Lab (Hong Kong)",
+    "url": "https://annielab.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "China Fact Check / 有据 (China)",
+    "url": "https://chinafactcheck.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Factcheck Lab (Hong Kong)",
+    "url": "https://www.factchecklab.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ciência e ceticismo",
+    "subcategory": "Checagem de fatos",
+    "name": "Media Bias/Fact Check",
+    "url": "https://mediabiasfactcheck.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Rationally Speaking",
+    "url": "https://rationallyspeakingpodcast.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Very Bad Wizards",
+    "url": "https://www.verybadwizards.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Philosophy Bites",
+    "url": "https://philosophybites.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "The Skeptics' Guide to the Universe",
+    "url": "https://www.theskepticsguide.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Making Sense",
+    "url": "https://www.samharris.org/podcasts",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "80,000 Hours Podcast",
+    "url": "https://80000hours.org/podcast/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Hidden Brain",
+    "url": "https://hiddenbrain.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Freakonomics Radio",
+    "url": "https://freakonomics.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "More or Less",
+    "url": "https://www.bbc.co.uk/programmes/b006qshd",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "EconTalk",
+    "url": "https://www.econtalk.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Conversations with Tyler",
+    "url": "https://conversationswithtyler.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Internacionais",
+    "name": "Dwarkesh Podcast",
+    "url": "https://www.dwarkesh.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Brasil",
+    "name": "Naruhodo!",
+    "url": "https://www.b9.com.br/shows/naruhodo/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Brasil",
+    "name": "Ciência Suja",
+    "url": "https://www.cienciasuja.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Brasil",
+    "name": "Dragões de Garagem",
+    "url": "https://dragoesdegaragem.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Brasil",
+    "name": "PBECast",
+    "url": "https://institutodepbe.com.br/pbecast/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts",
+    "subcategory": "Brasil",
+    "name": "Fronteiras da Ciência",
+    "url": "https://www.ufrgs.br/luminapodcasts/site/index/fronteiras-da-ciencia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,2897 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Organização — Catálogo pesquisável de organização pessoal, produtividade, gestão do tempo e de projetos</title>
+<meta content="Catálogo pesquisável sobre organização: gestão do tempo, produtividade, apps de tarefas e notas, gestão de projetos e equipes, organização da casa e das finanças, metodologias, livros e pessoas." name="description"/>
+<link href="https://biblioverse.org/management/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="management" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Organização</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Organização</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Produtividade",
+    "url": "https://en.wikipedia.org/wiki/Productivity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Gestão do tempo",
+    "url": "https://en.wikipedia.org/wiki/Time_management",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Procrastinação",
+    "url": "https://en.wikipedia.org/wiki/Procrastination",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Matriz de Eisenhower",
+    "url": "https://en.wikipedia.org/wiki/Eisenhower_matrix",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Técnica Pomodoro",
+    "url": "https://en.wikipedia.org/wiki/Pomodoro_Technique",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Getting Things Done (GTD)",
+    "url": "https://en.wikipedia.org/wiki/Getting_Things_Done",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Timeboxing",
+    "url": "https://en.wikipedia.org/wiki/Timeboxing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Princípio de Pareto (80/20)",
+    "url": "https://en.wikipedia.org/wiki/Pareto_principle",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Lei de Parkinson",
+    "url": "https://en.wikipedia.org/wiki/Parkinson%27s_law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Lei de Hofstadter",
+    "url": "https://en.wikipedia.org/wiki/Hofstadter%27s_law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Falácia do planejamento",
+    "url": "https://en.wikipedia.org/wiki/Planning_fallacy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Multitarefa",
+    "url": "https://en.wikipedia.org/wiki/Human_multitasking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Estado de fluxo (flow)",
+    "url": "https://en.wikipedia.org/wiki/Flow_(psychology)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Hábito",
+    "url": "https://en.wikipedia.org/wiki/Habit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Produtividade e gestão do tempo",
+    "name": "Kaizen",
+    "url": "https://en.wikipedia.org/wiki/Kaizen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Organização profissional (personal organizer)",
+    "url": "https://en.wikipedia.org/wiki/Professional_organizing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Método KonMari",
+    "url": "https://en.wikipedia.org/wiki/Marie_Kondo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Vida simples e minimalismo",
+    "url": "https://en.wikipedia.org/wiki/Simple_living",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Bullet Journal",
+    "url": "https://en.wikipedia.org/wiki/Bullet_journal",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Agenda e planner",
+    "url": "https://en.wikipedia.org/wiki/Personal_organizer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Diário",
+    "url": "https://en.wikipedia.org/wiki/Diary",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Finanças pessoais",
+    "url": "https://en.wikipedia.org/wiki/Personal_finance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Orçamento",
+    "url": "https://en.wikipedia.org/wiki/Budget",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Mise en place",
+    "url": "https://en.wikipedia.org/wiki/Mise_en_place",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Preparo de refeições (meal prep)",
+    "url": "https://en.wikipedia.org/wiki/Meal_preparation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Organização pessoal e do lar",
+    "name": "Lista de compras",
+    "url": "https://en.wikipedia.org/wiki/Shopping_list",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Gestão do conhecimento pessoal (PKM)",
+    "url": "https://en.wikipedia.org/wiki/Personal_knowledge_management",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Zettelkasten",
+    "url": "https://en.wikipedia.org/wiki/Zettelkasten",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Tomada de notas",
+    "url": "https://en.wikipedia.org/wiki/Note-taking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Método Cornell",
+    "url": "https://en.wikipedia.org/wiki/Cornell_Notes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Mapa mental",
+    "url": "https://en.wikipedia.org/wiki/Mind_map",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Repetição espaçada",
+    "url": "https://en.wikipedia.org/wiki/Spaced_repetition",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Commonplace book",
+    "url": "https://en.wikipedia.org/wiki/Commonplace_book",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão do conhecimento",
+    "name": "Wiki pessoal",
+    "url": "https://en.wikipedia.org/wiki/Personal_wiki",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Gestão de projetos",
+    "url": "https://en.wikipedia.org/wiki/Project_management",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Kanban",
+    "url": "https://en.wikipedia.org/wiki/Kanban_(development)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Scrum",
+    "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Desenvolvimento ágil",
+    "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Modelo cascata",
+    "url": "https://en.wikipedia.org/wiki/Waterfall_model",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Gráfico de Gantt",
+    "url": "https://en.wikipedia.org/wiki/Gantt_chart",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Método do caminho crítico",
+    "url": "https://en.wikipedia.org/wiki/Critical_path_method",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "PERT",
+    "url": "https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Estrutura analítica do projeto (EAP/WBS)",
+    "url": "https://en.wikipedia.org/wiki/Work_breakdown_structure",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Matriz RACI",
+    "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Gráfico de burndown",
+    "url": "https://en.wikipedia.org/wiki/Burndown_chart",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Reunião diária (stand-up)",
+    "url": "https://en.wikipedia.org/wiki/Stand-up_meeting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Retrospectiva",
+    "url": "https://en.wikipedia.org/wiki/Retrospective",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "OKR",
+    "url": "https://en.wikipedia.org/wiki/OKR",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Metas SMART",
+    "url": "https://en.wikipedia.org/wiki/SMART_criteria",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão de projetos",
+    "name": "Indicador-chave de desempenho (KPI)",
+    "url": "https://en.wikipedia.org/wiki/Performance_indicator",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Administração",
+    "url": "https://en.wikipedia.org/wiki/Management",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Delegação",
+    "url": "https://en.wikipedia.org/wiki/Delegation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Tomada de decisão",
+    "url": "https://en.wikipedia.org/wiki/Decision-making",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Análise SWOT",
+    "url": "https://en.wikipedia.org/wiki/SWOT_analysis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Processo de negócio",
+    "url": "https://en.wikipedia.org/wiki/Business_process",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Fluxograma",
+    "url": "https://en.wikipedia.org/wiki/Flowchart",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Procedimento operacional padrão",
+    "url": "https://en.wikipedia.org/wiki/Standard_operating_procedure",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Ciclo PDCA",
+    "url": "https://en.wikipedia.org/wiki/PDCA",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "5S",
+    "url": "https://en.wikipedia.org/wiki/5S_(methodology)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Lean",
+    "url": "https://en.wikipedia.org/wiki/Lean_manufacturing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Six Sigma",
+    "url": "https://en.wikipedia.org/wiki/Six_Sigma",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Gestão da qualidade",
+    "url": "https://en.wikipedia.org/wiki/Quality_management",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Gestão da mudança",
+    "url": "https://en.wikipedia.org/wiki/Change_management",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Análise de causa raiz",
+    "url": "https://en.wikipedia.org/wiki/Root_cause_analysis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Diagrama de Ishikawa",
+    "url": "https://en.wikipedia.org/wiki/Ishikawa_diagram",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "5 porquês",
+    "url": "https://en.wikipedia.org/wiki/Five_whys",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Gestão e melhoria de processos",
+    "name": "Gestão de e-mail",
+    "url": "https://en.wikipedia.org/wiki/Email_management",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Todoist",
+    "url": "https://todoist.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "TickTick",
+    "url": "https://ticktick.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Things 3",
+    "url": "https://culturedcode.com/things/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Microsoft To Do",
+    "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Any.do",
+    "url": "https://www.any.do/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "OmniFocus",
+    "url": "https://www.omnigroup.com/omnifocus/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Remember The Milk",
+    "url": "https://www.rememberthemilk.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Superlist",
+    "url": "https://www.superlist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Listas de tarefas",
+    "name": "Amazing Marvin",
+    "url": "https://amazingmarvin.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Notion",
+    "url": "https://www.notion.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Obsidian",
+    "url": "https://obsidian.md/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Evernote",
+    "url": "https://evernote.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Microsoft OneNote",
+    "url": "https://www.onenote.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Google Keep",
+    "url": "https://workspace.google.com/products/keep/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Logseq",
+    "url": "https://logseq.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Roam Research",
+    "url": "https://roamresearch.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Anytype",
+    "url": "https://anytype.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Capacities",
+    "url": "https://capacities.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Tana",
+    "url": "https://tana.inc/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Craft",
+    "url": "https://www.craft.do/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Bear",
+    "url": "https://bear.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Joplin",
+    "url": "https://joplinapp.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Standard Notes",
+    "url": "https://standardnotes.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Simplenote",
+    "url": "https://simplenote.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Readwise",
+    "url": "https://readwise.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Zotero",
+    "url": "https://www.zotero.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Anki",
+    "url": "https://apps.ankiweb.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Goodnotes",
+    "url": "https://www.goodnotes.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Notability",
+    "url": "https://notability.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Heptabase",
+    "url": "https://heptabase.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Reflect",
+    "url": "https://reflect.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Notas e segundo cérebro",
+    "name": "Microsoft Loop",
+    "url": "https://www.microsoft.com/microsoft-loop",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Google Agenda",
+    "url": "https://workspace.google.com/products/calendar/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Notion Calendar",
+    "url": "https://www.notion.com/product/calendar",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Fantastical",
+    "url": "https://flexibits.com/fantastical",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Morgen",
+    "url": "https://www.morgen.so/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Calendly",
+    "url": "https://calendly.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Cal.com",
+    "url": "https://cal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Doodle",
+    "url": "https://doodle.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "When2meet",
+    "url": "https://www.when2meet.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Calendário e agendamento",
+    "name": "Amie",
+    "url": "https://amie.so/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Motion",
+    "url": "https://www.usemotion.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Reclaim.ai",
+    "url": "https://reclaim.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Sunsama",
+    "url": "https://www.sunsama.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Akiflow",
+    "url": "https://akiflow.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Structured",
+    "url": "https://structured.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Planejamento com IA",
+    "name": "Tiimo",
+    "url": "https://www.tiimoapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Forest",
+    "url": "https://www.forestapp.cc/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Freedom",
+    "url": "https://freedom.to/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Cold Turkey",
+    "url": "https://getcoldturkey.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Opal",
+    "url": "https://opalapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Focusmate",
+    "url": "https://www.focusmate.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Pomofocus",
+    "url": "https://pomofocus.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Session",
+    "url": "https://www.stayinsession.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Brain.fm",
+    "url": "https://www.brain.fm/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Foco e bloqueio de distrações",
+    "name": "Noisli",
+    "url": "https://www.noisli.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Habitica",
+    "url": "https://habitica.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Streaks",
+    "url": "https://streaks.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Loop Habit Tracker",
+    "url": "https://loophabits.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Habitify",
+    "url": "https://www.habitify.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Fabulous",
+    "url": "https://www.thefabulous.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Daylio",
+    "url": "https://daylio.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Headspace",
+    "url": "https://www.headspace.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Calm",
+    "url": "https://www.calm.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Hábitos, rotina e bem-estar",
+    "name": "Sleep Cycle",
+    "url": "https://www.sleepcycle.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Toggl Track",
+    "url": "https://toggl.com/track/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Clockify",
+    "url": "https://clockify.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "RescueTime",
+    "url": "https://www.rescuetime.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Rize",
+    "url": "https://rize.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Harvest",
+    "url": "https://www.getharvest.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Timing",
+    "url": "https://timingapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apps de produtividade",
+    "subcategory": "Controle de tempo",
+    "name": "Everhour",
+    "url": "https://everhour.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Asana",
+    "url": "https://asana.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "monday.com",
+    "url": "https://monday.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "ClickUp",
+    "url": "https://clickup.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Linear",
+    "url": "https://linear.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Basecamp",
+    "url": "https://basecamp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Wrike",
+    "url": "https://www.wrike.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Smartsheet",
+    "url": "https://www.smartsheet.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Airtable",
+    "url": "https://www.airtable.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Microsoft Planner",
+    "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Teamwork.com",
+    "url": "https://www.teamwork.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Zoho Projects",
+    "url": "https://www.zoho.com/projects/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Plane",
+    "url": "https://plane.so/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "OpenProject",
+    "url": "https://www.openproject.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Taiga",
+    "url": "https://taiga.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Runrun.it",
+    "url": "https://runrun.it/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Ferramentas de gestão de projetos",
+    "name": "Shortcut",
+    "url": "https://www.shortcut.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Slack",
+    "url": "https://slack.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Microsoft Teams",
+    "url": "https://www.microsoft.com/microsoft-teams/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Google Workspace",
+    "url": "https://workspace.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Zoom",
+    "url": "https://www.zoom.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Loom",
+    "url": "https://www.loom.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Twist",
+    "url": "https://twist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Otter.ai",
+    "url": "https://otter.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Fireflies.ai",
+    "url": "https://fireflies.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Superhuman (e-mail)",
+    "url": "https://superhuman.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Comunicação e colaboração",
+    "name": "Spark Mail",
+    "url": "https://sparkmailapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "Miro",
+    "url": "https://miro.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "FigJam",
+    "url": "https://www.figma.com/figjam/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "Mural",
+    "url": "https://www.mural.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "Whimsical",
+    "url": "https://whimsical.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "Lucidchart",
+    "url": "https://www.lucidchart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "draw.io",
+    "url": "https://www.drawio.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Quadros brancos e diagramas",
+    "name": "XMind",
+    "url": "https://xmind.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "Confluence",
+    "url": "https://www.atlassian.com/software/confluence",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "GitBook",
+    "url": "https://www.gitbook.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "Slab",
+    "url": "https://slab.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "Scribe",
+    "url": "https://scribe.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "Tango",
+    "url": "https://www.tango.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Documentação e processos",
+    "name": "Process Street",
+    "url": "https://www.process.st/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Zapier",
+    "url": "https://zapier.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Make",
+    "url": "https://www.make.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "n8n",
+    "url": "https://n8n.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "IFTTT",
+    "url": "https://ifttt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Power Automate",
+    "url": "https://www.microsoft.com/power-platform/products/power-automate",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Raycast",
+    "url": "https://www.raycast.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Alfred",
+    "url": "https://www.alfredapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "TextExpander",
+    "url": "https://textexpander.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Espanso",
+    "url": "https://espanso.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Projetos e equipes",
+    "subcategory": "Automação e atalhos",
+    "name": "Microsoft PowerToys",
+    "url": "https://learn.microsoft.com/windows/powertoys/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Bullet Journal",
+    "url": "https://bulletjournal.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Moleskine",
+    "url": "https://www.moleskine.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Leuchtturm1917",
+    "url": "https://www.leuchtturm1917.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Hobonichi Techo",
+    "url": "https://www.1101.com/store/techo/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Passion Planner",
+    "url": "https://passionplanner.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Full Focus Planner",
+    "url": "https://fullfocus.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Planners e papelaria",
+    "name": "Tilibra",
+    "url": "https://www.tilibra.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "KonMari",
+    "url": "https://konmari.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "The Home Edit",
+    "url": "https://thehomeedit.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Tody",
+    "url": "https://todyapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Sweepy",
+    "url": "https://sweepy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Cozi",
+    "url": "https://www.cozi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "AnyList",
+    "url": "https://www.anylist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Bring!",
+    "url": "https://www.getbring.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Paprika",
+    "url": "https://www.paprikaapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Casa, cozinha e família",
+    "name": "Mealime",
+    "url": "https://www.mealime.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "YNAB",
+    "url": "https://www.ynab.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "Monarch",
+    "url": "https://www.monarch.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "Actual Budget",
+    "url": "https://actualbudget.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "GnuCash",
+    "url": "https://www.gnucash.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "Mobills",
+    "url": "https://www.mobills.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "Organizze",
+    "url": "https://www.organizze.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Finanças pessoais",
+    "name": "Mint",
+    "url": "https://en.wikipedia.org/wiki/Intuit_Mint",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "1Password",
+    "url": "https://1password.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Bitwarden",
+    "url": "https://bitwarden.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Google Drive",
+    "url": "https://workspace.google.com/products/drive/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Paperless-ngx",
+    "url": "https://docs.paperless-ngx.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Everything (busca no Windows)",
+    "url": "https://www.voidtools.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Hazel",
+    "url": "https://www.noodlesoft.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Raindrop.io",
+    "url": "https://raindrop.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Instapaper",
+    "url": "https://www.instapaper.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vida organizada",
+    "subcategory": "Arquivos, senhas e leitura",
+    "name": "Pocket",
+    "url": "https://en.wikipedia.org/wiki/Pocket_(service)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Métodos de produtividade",
+    "name": "Getting Things Done (David Allen)",
+    "url": "https://gettingthingsdone.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Métodos de produtividade",
+    "name": "Forte Labs (método PARA e segundo cérebro)",
+    "url": "https://fortelabs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Métodos de produtividade",
+    "name": "Zettelkasten.de",
+    "url": "https://zettelkasten.de/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Métodos de produtividade",
+    "name": "FranklinCovey",
+    "url": "https://www.franklincovey.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Métodos de produtividade",
+    "name": "Triad Productivity (Christian Barbosa)",
+    "url": "https://www.triadps.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "PMI (Project Management Institute)",
+    "url": "https://www.pmi.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "PMBOK",
+    "url": "https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "PRINCE2",
+    "url": "https://en.wikipedia.org/wiki/PRINCE2",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "IPMA",
+    "url": "https://ipma.world/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "Manifesto Ágil",
+    "url": "https://agilemanifesto.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "Guia do Scrum",
+    "url": "https://scrumguides.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "Scrum.org",
+    "url": "https://www.scrum.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "Scrum Alliance",
+    "url": "https://www.scrumalliance.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "Kanban University",
+    "url": "https://kanban.university/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Gestão de projetos e ágil",
+    "name": "SAFe (Scaled Agile Framework)",
+    "url": "https://framework.scaledagile.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Qualidade e processos",
+    "name": "Lean Enterprise Institute",
+    "url": "https://www.lean.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Qualidade e processos",
+    "name": "ISO 9001",
+    "url": "https://en.wikipedia.org/wiki/ISO_9001",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Qualidade e processos",
+    "name": "ITIL",
+    "url": "https://en.wikipedia.org/wiki/ITIL",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metodologias e certificações",
+    "subcategory": "Qualidade e processos",
+    "name": "Sistema Toyota de Produção",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Production_System",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "James Clear",
+    "url": "https://jamesclear.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Cal Newport",
+    "url": "https://calnewport.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Ali Abdaal",
+    "url": "https://aliabdaal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Thomas Frank",
+    "url": "https://www.youtube.com/@Thomasfrank",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Ness Labs",
+    "url": "https://nesslabs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Zen Habits",
+    "url": "https://zenhabits.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "The Minimalists",
+    "url": "https://www.theminimalists.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Lifehacker",
+    "url": "https://lifehacker.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e canais",
+    "name": "Vida Organizada (Thais Godinho)",
+    "url": "https://vidaorganizada.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "David Allen - A Arte de Fazer Acontecer (GTD)",
+    "url": "https://www.goodreads.com/search?q=David+Allen+Getting+Things+Done",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "James Clear - Hábitos Atômicos",
+    "url": "https://www.goodreads.com/search?q=James+Clear+Atomic+Habits",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Cal Newport - Trabalho Focado",
+    "url": "https://www.goodreads.com/search?q=Cal+Newport+Deep+Work",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Stephen Covey - Os 7 Hábitos das Pessoas Altamente Eficazes",
+    "url": "https://www.goodreads.com/search?q=Covey+7+Habits+of+Highly+Effective+People",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Charles Duhigg - O Poder do Hábito",
+    "url": "https://www.goodreads.com/search?q=Charles+Duhigg+The+Power+of+Habit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Greg McKeown - Essencialismo",
+    "url": "https://www.goodreads.com/search?q=Greg+McKeown+Essentialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Oliver Burkeman - Quatro Mil Semanas",
+    "url": "https://www.goodreads.com/search?q=Oliver+Burkeman+Four+Thousand+Weeks",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Tiago Forte - Criando um Segundo Cérebro",
+    "url": "https://www.goodreads.com/search?q=Tiago+Forte+Building+a+Second+Brain",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Sönke Ahrens - How to Take Smart Notes",
+    "url": "https://www.goodreads.com/search?q=Sonke+Ahrens+How+to+Take+Smart+Notes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Marie Kondo - A Mágica da Arrumação",
+    "url": "https://www.goodreads.com/search?q=Marie+Kondo+The+Life-Changing+Magic+of+Tidying+Up",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Francesco Cirillo - The Pomodoro Technique",
+    "url": "https://www.goodreads.com/search?q=Francesco+Cirillo+The+Pomodoro+Technique",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Brian Tracy - Engula Aquele Sapo",
+    "url": "https://www.goodreads.com/search?q=Brian+Tracy+Eat+That+Frog",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Gary Keller - A Única Coisa",
+    "url": "https://www.goodreads.com/search?q=Gary+Keller+The+One+Thing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "John Doerr - Avalie o Que Importa",
+    "url": "https://www.goodreads.com/search?q=John+Doerr+Measure+What+Matters",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Jeff Sutherland - Scrum",
+    "url": "https://www.goodreads.com/search?q=Jeff+Sutherland+Scrum+The+Art+of+Doing+Twice+the+Work",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Peter Drucker - O Gestor Eficaz",
+    "url": "https://www.goodreads.com/search?q=Peter+Drucker+The+Effective+Executive",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Christian Barbosa - A Tríade do Tempo",
+    "url": "https://www.goodreads.com/search?q=Christian+Barbosa+A+Triade+do+Tempo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "David Allen",
+    "url": "https://en.wikipedia.org/wiki/David_Allen_(author)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Stephen Covey",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Covey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Peter Drucker",
+    "url": "https://en.wikipedia.org/wiki/Peter_Drucker",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Marie Kondo",
+    "url": "https://en.wikipedia.org/wiki/Marie_Kondo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Cal Newport",
+    "url": "https://en.wikipedia.org/wiki/Cal_Newport",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "James Clear",
+    "url": "https://en.wikipedia.org/wiki/James_Clear",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Ryder Carroll",
+    "url": "https://en.wikipedia.org/wiki/Ryder_Carroll",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Niklas Luhmann",
+    "url": "https://en.wikipedia.org/wiki/Niklas_Luhmann",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Frederick Winslow Taylor",
+    "url": "https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Henry Gantt",
+    "url": "https://en.wikipedia.org/wiki/Henry_Gantt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Taiichi Ohno",
+    "url": "https://en.wikipedia.org/wiki/Taiichi_Ohno",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "W. Edwards Deming",
+    "url": "https://en.wikipedia.org/wiki/W._Edwards_Deming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Eliyahu Goldratt",
+    "url": "https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

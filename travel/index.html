@@ -1,0 +1,4037 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Viagem — Catálogo pesquisável sobre viagem: planejamento, passagens, hospedagem, destinos, apps e mais</title>
+<meta content="Catálogo pesquisável para quem quer viajar: conceitos, guias e wikis, passagens e milhas, hospedagem, passeios, comunidades e blogs, principais destinos, saúde, segurança, vistos e ferramentas do viajante." name="description"/>
+<link href="https://biblioverse.org/travel/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="travel" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Viagem</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Viagem</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo",
+    "url": "https://en.wikipedia.org/wiki/Tourism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Mochilão (backpacking)",
+    "url": "https://en.wikipedia.org/wiki/Backpacking_(travel)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Road trip",
+    "url": "https://en.wikipedia.org/wiki/Road_trip",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Ecoturismo",
+    "url": "https://en.wikipedia.org/wiki/Ecotourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo de aventura",
+    "url": "https://en.wikipedia.org/wiki/Adventure_travel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo cultural",
+    "url": "https://en.wikipedia.org/wiki/Cultural_tourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo gastronômico",
+    "url": "https://en.wikipedia.org/wiki/Culinary_tourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo religioso",
+    "url": "https://en.wikipedia.org/wiki/Religious_tourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo de saúde",
+    "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Viagem de negócios",
+    "url": "https://en.wikipedia.org/wiki/Business_travel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Turismo sustentável",
+    "url": "https://en.wikipedia.org/wiki/Sustainable_tourism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Slow travel",
+    "url": "https://en.wikipedia.org/wiki/Slow_travel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Nômade digital",
+    "url": "https://en.wikipedia.org/wiki/Digital_nomad",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Gap year",
+    "url": "https://en.wikipedia.org/wiki/Gap_year",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Volunturismo",
+    "url": "https://en.wikipedia.org/wiki/Voluntourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Lua de mel",
+    "url": "https://en.wikipedia.org/wiki/Honeymoon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Cruzeiro",
+    "url": "https://en.wikipedia.org/wiki/Cruise_ship",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de viagem",
+    "name": "Overtourism",
+    "url": "https://en.wikipedia.org/wiki/Overtourism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Passaporte",
+    "url": "https://en.wikipedia.org/wiki/Passport",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Visto",
+    "url": "https://en.wikipedia.org/wiki/Travel_visa",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Exigências de visto para brasileiros",
+    "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Brazilian_citizens",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Espaço Schengen",
+    "url": "https://en.wikipedia.org/wiki/Schengen_Area",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "ESTA (Estados Unidos)",
+    "url": "https://en.wikipedia.org/wiki/Electronic_System_for_Travel_Authorization",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "ETIAS (União Europeia)",
+    "url": "https://en.wikipedia.org/wiki/European_Travel_Information_and_Authorisation_System",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Seguro viagem",
+    "url": "https://en.wikipedia.org/wiki/Travel_insurance",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Controle de fronteira",
+    "url": "https://en.wikipedia.org/wiki/Border_control",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Alfândega",
+    "url": "https://en.wikipedia.org/wiki/Customs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Free shop (duty-free)",
+    "url": "https://en.wikipedia.org/wiki/Duty-free_shop",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Certificado Internacional de Vacinação",
+    "url": "https://en.wikipedia.org/wiki/International_Certificate_of_Vaccination_or_Prophylaxis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Documentos e fronteiras",
+    "name": "Permissão Internacional para Dirigir",
+    "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Companhia aérea",
+    "url": "https://en.wikipedia.org/wiki/Airline",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Companhia aérea de baixo custo",
+    "url": "https://en.wikipedia.org/wiki/Low-cost_carrier",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Aliança aérea",
+    "url": "https://en.wikipedia.org/wiki/Airline_alliance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Programa de milhas",
+    "url": "https://en.wikipedia.org/wiki/Frequent-flyer_program",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Overbooking",
+    "url": "https://en.wikipedia.org/wiki/Overbooking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Jet lag",
+    "url": "https://en.wikipedia.org/wiki/Jet_lag",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Trem de alta velocidade",
+    "url": "https://en.wikipedia.org/wiki/High-speed_rail",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Interrail",
+    "url": "https://en.wikipedia.org/wiki/Interrail",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Aluguel de carro",
+    "url": "https://en.wikipedia.org/wiki/Car_rental",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Transporte",
+    "name": "Carona",
+    "url": "https://en.wikipedia.org/wiki/Hitchhiking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Hotel",
+    "url": "https://en.wikipedia.org/wiki/Hotel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Albergue (hostel)",
+    "url": "https://en.wikipedia.org/wiki/Hostel",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Pousada (bed and breakfast)",
+    "url": "https://en.wikipedia.org/wiki/Bed_and_breakfast",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Aluguel por temporada",
+    "url": "https://en.wikipedia.org/wiki/Vacation_rental",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Resort",
+    "url": "https://en.wikipedia.org/wiki/Resort",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "All inclusive",
+    "url": "https://en.wikipedia.org/wiki/All-inclusive_resort",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Camping",
+    "url": "https://en.wikipedia.org/wiki/Camping",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Glamping",
+    "url": "https://en.wikipedia.org/wiki/Glamping",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "Hospitalidade gratuita (hospitality exchange)",
+    "url": "https://en.wikipedia.org/wiki/Hospitality_exchange",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Hospedagem",
+    "name": "House sitting",
+    "url": "https://en.wikipedia.org/wiki/House_sitting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Casa de câmbio",
+    "url": "https://en.wikipedia.org/wiki/Bureau_de_change",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "IOF",
+    "url": "https://pt.wikipedia.org/wiki/Imposto_sobre_Opera%C3%A7%C3%B5es_Financeiras",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Gorjeta",
+    "url": "https://en.wikipedia.org/wiki/Gratuity",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Paridade do poder de compra",
+    "url": "https://en.wikipedia.org/wiki/Purchasing_power_parity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Roteiro de viagem",
+    "url": "https://en.wikipedia.org/wiki/Travel_itinerary",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Fuso horário",
+    "url": "https://en.wikipedia.org/wiki/Time_zone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Tomadas e voltagens pelo mundo",
+    "url": "https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "eSIM",
+    "url": "https://en.wikipedia.org/wiki/ESIM",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Roaming",
+    "url": "https://en.wikipedia.org/wiki/Roaming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Bagagem",
+    "url": "https://en.wikipedia.org/wiki/Baggage",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Choque cultural",
+    "url": "https://en.wikipedia.org/wiki/Culture_shock",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Mal de altitude",
+    "url": "https://en.wikipedia.org/wiki/Altitude_sickness",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Dinheiro, saúde e dia a dia",
+    "name": "Diarreia do viajante",
+    "url": "https://en.wikipedia.org/wiki/Travelers%27_diarrhea",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Wikivoyage",
+    "url": "https://www.wikivoyage.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Lonely Planet",
+    "url": "https://www.lonelyplanet.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Atlas Obscura",
+    "url": "https://www.atlasobscura.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Rick Steves",
+    "url": "https://www.ricksteves.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Rough Guides",
+    "url": "https://www.roughguides.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Fodor's",
+    "url": "https://www.fodors.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Frommer's",
+    "url": "https://www.frommers.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Time Out",
+    "url": "https://www.timeout.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Culture Trip",
+    "url": "https://theculturetrip.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Guias e wikis",
+    "name": "Wikitravel",
+    "url": "https://wikitravel.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Revistas e portais",
+    "name": "National Geographic Travel",
+    "url": "https://www.nationalgeographic.com/travel",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Revistas e portais",
+    "name": "Condé Nast Traveler",
+    "url": "https://www.cntraveler.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Revistas e portais",
+    "name": "Travel + Leisure",
+    "url": "https://www.travelandleisure.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Revistas e portais",
+    "name": "Melhores Destinos",
+    "url": "https://www.melhoresdestinos.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Revistas e portais",
+    "name": "Viagem e Turismo",
+    "url": "https://viagemeturismo.abril.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Wanderlog",
+    "url": "https://wanderlog.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "TripIt",
+    "url": "https://www.tripit.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Rome2Rio",
+    "url": "https://www.rome2rio.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Google Travel",
+    "url": "https://www.google.com/travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Tripadvisor",
+    "url": "https://www.tripadvisor.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Roadtrippers",
+    "url": "https://roadtrippers.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Roteiros e organização",
+    "name": "Visit A City",
+    "url": "https://www.visitacity.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Clima e época certa",
+    "name": "Weather Spark",
+    "url": "https://weatherspark.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Clima e época certa",
+    "name": "Climate-Data.org",
+    "url": "https://en.climate-data.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Clima e época certa",
+    "name": "Feriados pelo mundo (Time and Date)",
+    "url": "https://www.timeanddate.com/holidays/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Custo e orçamento",
+    "name": "Numbeo",
+    "url": "https://www.numbeo.com/cost-of-living/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Custo e orçamento",
+    "name": "Budget Your Trip",
+    "url": "https://www.budgetyourtrip.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Custo e orçamento",
+    "name": "Expatistan",
+    "url": "https://www.expatistan.com/cost-of-living",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Planejamento e inspiração",
+    "subcategory": "Custo e orçamento",
+    "name": "XE (câmbio)",
+    "url": "https://www.xe.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Google Flights",
+    "url": "https://www.google.com/travel/flights",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Skyscanner",
+    "url": "https://www.skyscanner.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Kayak",
+    "url": "https://www.kayak.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Momondo",
+    "url": "https://www.momondo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Kiwi.com",
+    "url": "https://www.kiwi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Expedia",
+    "url": "https://www.expedia.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Hopper",
+    "url": "https://www.hopper.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Going",
+    "url": "https://www.going.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Secret Flying",
+    "url": "https://www.secretflying.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Decolar",
+    "url": "https://www.decolar.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "MaxMilhas",
+    "url": "https://www.maxmilhas.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Busca de voos",
+    "name": "Passagens Imperdíveis",
+    "url": "https://www.passagensimperdiveis.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "LATAM",
+    "url": "https://www.latamairlines.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "GOL",
+    "url": "https://www.voegol.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "Azul",
+    "url": "https://www.voeazul.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "Avianca",
+    "url": "https://www.avianca.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "Copa Airlines",
+    "url": "https://www.copaair.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "Aerolíneas Argentinas",
+    "url": "https://www.aerolineas.com.ar/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas do Brasil e América Latina",
+    "name": "Aeroméxico",
+    "url": "https://aeromexico.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Emirates",
+    "url": "https://www.emirates.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Qatar Airways",
+    "url": "https://www.qatarairways.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Singapore Airlines",
+    "url": "https://www.singaporeair.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Turkish Airlines",
+    "url": "https://www.turkishairlines.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Etihad Airways",
+    "url": "https://www.etihad.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "American Airlines",
+    "url": "https://www.aa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Delta Air Lines",
+    "url": "https://www.delta.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "United Airlines",
+    "url": "https://www.united.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Air Canada",
+    "url": "https://www.aircanada.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Lufthansa",
+    "url": "https://www.lufthansa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Air France",
+    "url": "https://www.airfrance.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "KLM",
+    "url": "https://www.klm.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "British Airways",
+    "url": "https://www.britishairways.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Iberia",
+    "url": "https://www.iberia.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "TAP Air Portugal",
+    "url": "https://www.flytap.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "ITA Airways",
+    "url": "https://www.ita-airways.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Swiss",
+    "url": "https://www.swiss.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Cathay Pacific",
+    "url": "https://www.cathaypacific.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Japan Airlines",
+    "url": "https://www.jal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "ANA",
+    "url": "https://www.ana.co.jp/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Korean Air",
+    "url": "https://www.koreanair.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Air India",
+    "url": "https://www.airindia.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Qantas",
+    "url": "https://www.qantas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Air New Zealand",
+    "url": "https://www.airnewzealand.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Ethiopian Airlines",
+    "url": "https://www.ethiopianairlines.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas internacionais",
+    "name": "Royal Air Maroc",
+    "url": "https://www.royalairmaroc.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Ryanair",
+    "url": "https://www.ryanair.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "easyJet",
+    "url": "https://www.easyjet.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Wizz Air",
+    "url": "https://wizzair.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Vueling",
+    "url": "https://www.vueling.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Southwest Airlines",
+    "url": "https://www.southwest.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "JetBlue",
+    "url": "https://www.jetblue.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "AirAsia",
+    "url": "https://www.airasia.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Scoot",
+    "url": "https://www.flyscoot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Jetstar",
+    "url": "https://www.jetstar.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "IndiGo",
+    "url": "https://www.goindigo.in/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Volaris",
+    "url": "https://www.volaris.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "JetSMART",
+    "url": "https://jetsmart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Flybondi",
+    "url": "https://flybondi.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Sky Airline",
+    "url": "https://www.skyairline.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Companhias aéreas de baixo custo",
+    "name": "Norse Atlantic Airways",
+    "url": "https://flynorse.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Alianças e rankings de companhias aéreas",
+    "name": "Star Alliance",
+    "url": "https://www.staralliance.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Alianças e rankings de companhias aéreas",
+    "name": "oneworld",
+    "url": "https://www.oneworld.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Alianças e rankings de companhias aéreas",
+    "name": "SkyTeam",
+    "url": "https://www.skyteam.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Alianças e rankings de companhias aéreas",
+    "name": "Skytrax World Airline Awards",
+    "url": "https://www.worldairlineawards.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Alianças e rankings de companhias aéreas",
+    "name": "AirlineRatings",
+    "url": "https://www.airlineratings.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "The Points Guy",
+    "url": "https://thepointsguy.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Passageiro de Primeira",
+    "url": "https://passageirodeprimeira.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Seats.aero",
+    "url": "https://seats.aero/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Smiles",
+    "url": "https://www.smiles.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "LATAM Pass",
+    "url": "https://latampass.latam.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Azul Fidelidade",
+    "url": "https://www.voeazul.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Livelo",
+    "url": "https://www.livelo.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Milhas e pontos",
+    "name": "Esfera",
+    "url": "https://www.esfera.com.vc/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "Flightradar24",
+    "url": "https://www.flightradar24.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "FlightAware",
+    "url": "https://www.flightaware.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "Flighty",
+    "url": "https://www.flighty.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "aeroLOPA (mapas de assentos)",
+    "url": "https://www.aerolopa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "Sleeping in Airports",
+    "url": "https://www.sleepinginairports.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "Priority Pass",
+    "url": "https://www.prioritypass.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "AirHelp",
+    "url": "https://www.airhelp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "Regulamento europeu de direitos dos passageiros (EU261)",
+    "url": "https://en.wikipedia.org/wiki/Air_Passengers_Rights_Regulation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Voos, aeroportos e direitos",
+    "name": "ANAC",
+    "url": "https://www.gov.br/anac/pt-br",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "The Man in Seat 61",
+    "url": "https://www.seat61.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Omio",
+    "url": "https://www.omio.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Trainline",
+    "url": "https://www.thetrainline.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Interrail e Eurail",
+    "url": "https://www.interrail.com/en",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Amtrak",
+    "url": "https://www.amtrak.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Japan Rail Pass",
+    "url": "https://japanrailpass.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "FlixBus",
+    "url": "https://www.flixbus.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "12Go",
+    "url": "https://12go.asia/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Direct Ferries",
+    "url": "https://www.directferries.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "BlaBlaCar",
+    "url": "https://www.blablacar.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "ClickBus",
+    "url": "https://www.clickbus.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Trens, ônibus e balsas",
+    "name": "Buser",
+    "url": "https://www.buser.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Citymapper",
+    "url": "https://citymapper.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Moovit",
+    "url": "https://moovitapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Waze",
+    "url": "https://www.waze.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Uber",
+    "url": "https://www.uber.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Bolt",
+    "url": "https://bolt.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Grab",
+    "url": "https://www.grab.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Rentalcars.com",
+    "url": "https://www.rentalcars.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "DiscoverCars",
+    "url": "https://www.discovercars.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Turo",
+    "url": "https://turo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Localiza",
+    "url": "https://www.localiza.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Passagens e transporte",
+    "subcategory": "Carros e mobilidade urbana",
+    "name": "Movida",
+    "url": "https://www.movida.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Booking.com",
+    "url": "https://www.booking.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Airbnb",
+    "url": "https://www.airbnb.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Hostelworld",
+    "url": "https://www.hostelworld.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Hotels.com",
+    "url": "https://www.hotels.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Agoda",
+    "url": "https://www.agoda.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Trivago",
+    "url": "https://www.trivago.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Vrbo",
+    "url": "https://www.vrbo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Hotéis e reservas",
+    "name": "Trip.com",
+    "url": "https://www.trip.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Redes hoteleiras",
+    "name": "Marriott Bonvoy",
+    "url": "https://www.marriott.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Redes hoteleiras",
+    "name": "Hilton",
+    "url": "https://www.hilton.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Redes hoteleiras",
+    "name": "Accor (ALL)",
+    "url": "https://all.accor.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Redes hoteleiras",
+    "name": "IHG",
+    "url": "https://www.ihg.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Redes hoteleiras",
+    "name": "Hyatt",
+    "url": "https://www.hyatt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "Couchsurfing",
+    "url": "https://www.couchsurfing.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "Worldpackers",
+    "url": "https://www.worldpackers.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "Workaway",
+    "url": "https://www.workaway.info/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "HelpX",
+    "url": "https://www.helpx.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "WWOOF",
+    "url": "https://wwoof.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "Servas International",
+    "url": "https://www.servas.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "TrustedHousesitters",
+    "url": "https://www.trustedhousesitters.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "HomeExchange",
+    "url": "https://www.homeexchange.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Hospedagem",
+    "subcategory": "Trocas, voluntariado e camping",
+    "name": "Hipcamp",
+    "url": "https://www.hipcamp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "GetYourGuide",
+    "url": "https://www.getyourguide.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Viator",
+    "url": "https://www.viator.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Klook",
+    "url": "https://www.klook.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Civitatis",
+    "url": "https://www.civitatis.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Tiqets",
+    "url": "https://www.tiqets.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Headout",
+    "url": "https://www.headout.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Go City",
+    "url": "https://gocity.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "GuruWalk (free tours)",
+    "url": "https://www.guruwalk.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Passeios e ingressos",
+    "name": "Freetour.com",
+    "url": "https://www.freetour.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "TasteAtlas",
+    "url": "https://www.tasteatlas.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "Guia Michelin",
+    "url": "https://guide.michelin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "HappyCow (vegano e vegetariano)",
+    "url": "https://www.happycow.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "TheFork",
+    "url": "https://www.thefork.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "OpenTable",
+    "url": "https://www.opentable.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "Yelp",
+    "url": "https://www.yelp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Gastronomia",
+    "name": "Eater",
+    "url": "https://www.eater.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "AllTrails",
+    "url": "https://www.alltrails.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "Wikiloc",
+    "url": "https://www.wikiloc.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "Komoot",
+    "url": "https://www.komoot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "National Park Service (EUA)",
+    "url": "https://www.nps.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "Recreation.gov",
+    "url": "https://www.recreation.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "ICMBio (parques nacionais do Brasil)",
+    "url": "https://www.gov.br/icmbio/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Natureza e trilhas",
+    "name": "Surfline",
+    "url": "https://www.surfline.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Patrimônios e cultura",
+    "name": "Patrimônio Mundial da UNESCO",
+    "url": "https://whc.unesco.org/en/list/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Patrimônios e cultura",
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experiências e atrações",
+    "subcategory": "Patrimônios e cultura",
+    "name": "New 7 Wonders",
+    "url": "https://world.new7wonders.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "Fóruns do Tripadvisor",
+    "url": "https://www.tripadvisor.com/ForumHome",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "FlyerTalk",
+    "url": "https://www.flyertalk.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "r/travel",
+    "url": "https://www.reddit.com/r/travel/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "r/solotravel",
+    "url": "https://www.reddit.com/r/solotravel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "r/onebag",
+    "url": "https://www.reddit.com/r/onebag/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "Mochileiros.com",
+    "url": "https://www.mochileiros.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "Nomads.com",
+    "url": "https://nomads.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Fóruns e comunidades",
+    "name": "Travel Massive",
+    "url": "https://www.travelmassive.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Diários e mapas de viagem",
+    "name": "Polarsteps",
+    "url": "https://www.polarsteps.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Diários e mapas de viagem",
+    "name": "FindPenguins",
+    "url": "https://findpenguins.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Comunidades e redes sociais",
+    "subcategory": "Diários e mapas de viagem",
+    "name": "Visited",
+    "url": "https://visitedapp.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs internacionais",
+    "name": "Nomadic Matt",
+    "url": "https://www.nomadicmatt.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs internacionais",
+    "name": "Expert Vagabond",
+    "url": "https://expertvagabond.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs internacionais",
+    "name": "Adventurous Kate",
+    "url": "https://www.adventurouskate.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs internacionais",
+    "name": "The Blonde Abroad",
+    "url": "https://www.theblondeabroad.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs internacionais",
+    "name": "Migrationology",
+    "url": "https://www.migrationology.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs brasileiros",
+    "name": "Viaje na Viagem",
+    "url": "https://www.viajenaviagem.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs brasileiros",
+    "name": "360meridianos",
+    "url": "https://www.360meridianos.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs brasileiros",
+    "name": "Matraqueando",
+    "url": "https://www.matraqueando.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Blogs brasileiros",
+    "name": "Mala de Aventuras",
+    "url": "https://www.maladeaventuras.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Tamara Klink",
+    "url": "https://www.instagram.com/tamaraklink/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Lexie Alford (Lexie Limitless)",
+    "url": "https://www.instagram.com/lexielimitless/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "The Bucket List Family",
+    "url": "https://www.instagram.com/thebucketlistfamily/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Murad Osmann (#FollowMeTo)",
+    "url": "https://www.instagram.com/muradosmann/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Chris Burkard",
+    "url": "https://www.instagram.com/chrisburkard/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "196 Sonhos (Anderson Dias)",
+    "url": "https://www.instagram.com/196sonhos/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Louis Cole",
+    "url": "https://www.instagram.com/louiscole/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Alex Strohl",
+    "url": "https://www.instagram.com/alexstrohl/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Lauren Bullen (Gypsea Lust)",
+    "url": "https://www.instagram.com/gypsea_lust/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Daniel Kordan",
+    "url": "https://www.instagram.com/danielkordan/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Jack Morris",
+    "url": "https://www.instagram.com/jackmorris/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Itchy Boots (Noraly)",
+    "url": "https://www.instagram.com/itchybootstravel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Peter Santenello",
+    "url": "https://www.instagram.com/petersantenello/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Kara and Nate",
+    "url": "https://www.instagram.com/karaandnate/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Luisito Comunica",
+    "url": "https://www.instagram.com/luisitocomunica/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Asel Mustafaeva",
+    "url": "https://www.instagram.com/aselmustafaeva/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Pierre T. Lambert",
+    "url": "https://www.instagram.com/pierretlambert/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Kristin Wilson (Traveling with Kristin)",
+    "url": "https://www.instagram.com/travelingwithkristin/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Marina Guaragna",
+    "url": "https://www.instagram.com/marinaguaragna/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Drew Binsky",
+    "url": "https://www.instagram.com/drewbinsky/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Lost LeBlanc",
+    "url": "https://www.instagram.com/lostleblanc/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Expert Vagabond (Matt Karsten)",
+    "url": "https://www.instagram.com/expertvagabond/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Nomadic Matt",
+    "url": "https://www.instagram.com/nomadicmatt/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Mark Wiens",
+    "url": "https://www.instagram.com/migrationology/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Eamon & Bec",
+    "url": "https://www.instagram.com/eamonandbec/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Sam Kolder",
+    "url": "https://www.instagram.com/samkolder/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Beautiful Destinations",
+    "url": "https://www.instagram.com/beautifuldestinations/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "National Geographic Travel",
+    "url": "https://www.instagram.com/natgeotravel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Partiu Intercâmbio",
+    "url": "https://www.instagram.com/partiuintercambio/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Travel and Share (Romulo e Mirella)",
+    "url": "https://www.instagram.com/travelandshare/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Por Aí de Kombi (Vanessa e Lorenzo)",
+    "url": "https://www.instagram.com/poraidekombi/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Num Pulo (Daniel Negreiros e Paula Albino)",
+    "url": "https://www.instagram.com/numpulo/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Viaje Sem Limites (Nataly Castro)",
+    "url": "https://www.instagram.com/viajesemlimites/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Prefiro Viajar (Amanda Antunes)",
+    "url": "https://www.instagram.com/prefiroviajar/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Estevam Pelo Mundo (Lucas Estevam)",
+    "url": "https://www.instagram.com/estevampelomundo/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Viaje na Viagem (Ricardo Freire)",
+    "url": "https://www.instagram.com/viajenaviagem/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Criadores no Instagram",
+    "name": "Jesse Koz e Shurastey",
+    "url": "https://www.instagram.com/jessekoz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Canais no YouTube",
+    "name": "Kara and Nate",
+    "url": "https://www.youtube.com/@KaraandNate",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Canais no YouTube",
+    "name": "Drew Binsky",
+    "url": "https://www.youtube.com/@drewbinsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Canais no YouTube",
+    "name": "Mark Wiens",
+    "url": "https://www.youtube.com/@MarkWiens",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Canais no YouTube",
+    "name": "Lost LeBlanc",
+    "url": "https://www.youtube.com/@LostLeBlanc",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Blogs e criadores",
+    "subcategory": "Canais no YouTube",
+    "name": "Estevam Pelo Mundo",
+    "url": "https://www.youtube.com/results?search_query=Estevam+Pelo+Mundo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Rankings e turismo mundial",
+    "name": "ONU Turismo (OMT)",
+    "url": "https://www.untourism.int/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Rankings e turismo mundial",
+    "name": "Rankings do turismo mundial",
+    "url": "https://en.wikipedia.org/wiki/World_Tourism_rankings",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Rankings e turismo mundial",
+    "name": "Cidades mais visitadas por turistas estrangeiros",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Visit Brasil",
+    "url": "https://visitbrasil.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Visit the USA",
+    "url": "https://www.visittheusa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Destination Canada",
+    "url": "https://travel.destinationcanada.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Argentina Travel",
+    "url": "https://www.argentina.travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Chile Travel",
+    "url": "https://chile.travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Américas",
+    "name": "Peru Travel",
+    "url": "https://www.peru.travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "France.fr",
+    "url": "https://www.france.fr/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "Italia.it",
+    "url": "https://www.italia.it/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "Spain.info",
+    "url": "https://www.spain.info/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "Visit Portugal",
+    "url": "https://www.visitportugal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "VisitBritain",
+    "url": "https://www.visitbritain.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "Visit Greece",
+    "url": "https://www.visitgreece.gr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Europa",
+    "name": "Go Türkiye",
+    "url": "https://goturkiye.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Japan Travel (JNTO)",
+    "url": "https://www.japan.travel/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Amazing Thailand",
+    "url": "https://www.tourismthailand.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Wonderful Indonesia",
+    "url": "https://www.indonesia.travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Vietnam Travel",
+    "url": "https://vietnam.travel/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Visit Dubai",
+    "url": "https://www.visitdubai.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "Australia.com",
+    "url": "https://www.australia.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "Ásia e Oceania",
+    "name": "New Zealand",
+    "url": "https://www.newzealand.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "África e Oriente Médio",
+    "name": "Experience Egypt",
+    "url": "https://www.experienceegypt.eg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "África e Oriente Médio",
+    "name": "Visit Morocco",
+    "url": "https://www.visitmorocco.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Destinos",
+    "subcategory": "África e Oriente Médio",
+    "name": "South Africa Tourism",
+    "url": "https://www.southafrica.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Saúde do viajante",
+    "name": "CDC Travelers' Health",
+    "url": "https://wwwnc.cdc.gov/travel",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Saúde do viajante",
+    "name": "Fit for Travel (NHS)",
+    "url": "https://www.fitfortravel.nhs.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Alertas e segurança",
+    "name": "Smartraveller (Austrália)",
+    "url": "https://www.smartraveller.gov.au/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Alertas e segurança",
+    "name": "Travel.State.Gov (EUA)",
+    "url": "https://travel.state.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Alertas e segurança",
+    "name": "Foreign travel advice (Reino Unido)",
+    "url": "https://www.gov.uk/foreign-travel-advice",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Alertas e segurança",
+    "name": "Portal Consular (Itamaraty)",
+    "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "Passport Index",
+    "url": "https://www.passportindex.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "Henley Passport Index",
+    "url": "https://www.henleyglobal.com/passport-index",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "VisaGuide.World",
+    "url": "https://visaguide.world/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "Sherpa",
+    "url": "https://www.joinsherpa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "iVisa",
+    "url": "https://www.ivisa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "ESTA (site oficial)",
+    "url": "https://esta.cbp.dhs.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "ETIAS (site oficial)",
+    "url": "https://travel-europe.europa.eu/etias_en",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Vistos e passaporte",
+    "name": "Passaporte (Polícia Federal)",
+    "url": "https://www.gov.br/pf/pt-br/assuntos/passaporte",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Seguro viagem",
+    "name": "World Nomads",
+    "url": "https://www.worldnomads.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Seguro viagem",
+    "name": "SafetyWing",
+    "url": "https://safetywing.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Seguro viagem",
+    "name": "Allianz Travel",
+    "url": "https://www.allianztravelinsurance.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Seguro viagem",
+    "name": "Assist Card",
+    "url": "https://www.assistcard.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Saúde, segurança e documentos",
+    "subcategory": "Seguro viagem",
+    "name": "Seguros Promo",
+    "url": "https://www.segurospromo.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Organic Maps",
+    "url": "https://organicmaps.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Maps.me",
+    "url": "https://maps.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Google Tradutor",
+    "url": "https://translate.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "DeepL",
+    "url": "https://www.deepl.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Papago",
+    "url": "https://papago.naver.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Mapas e tradução",
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Airalo",
+    "url": "https://www.airalo.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Holafly",
+    "url": "https://esim.holafly.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Nomad eSIM",
+    "url": "https://www.nomadesim.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Wise",
+    "url": "https://wise.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Revolut",
+    "url": "https://www.revolut.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Internet e dinheiro",
+    "name": "Nomad (conta global)",
+    "url": "https://www.nomadglobal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Tomadas, fusos e conversões",
+    "name": "World Standards (tomadas e voltagem por país)",
+    "url": "https://www.worldstandards.eu/electricity/plug-voltage-by-country/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Tomadas, fusos e conversões",
+    "name": "Time and Date",
+    "url": "https://www.timeanddate.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Tomadas, fusos e conversões",
+    "name": "Every Time Zone",
+    "url": "https://everytimezone.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Malas e equipamentos",
+    "name": "Osprey",
+    "url": "https://www.osprey.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Malas e equipamentos",
+    "name": "Peak Design",
+    "url": "https://www.peakdesign.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Malas e equipamentos",
+    "name": "Tortuga",
+    "url": "https://www.tortugabackpacks.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Malas e equipamentos",
+    "name": "Away",
+    "url": "https://www.awaytravel.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas do viajante",
+    "subcategory": "Malas e equipamentos",
+    "name": "Samsonite",
+    "url": "https://www.samsonite.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Jack Kerouac - On the Road",
+    "url": "https://www.goodreads.com/search?q=Jack+Kerouac+On+the+Road",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Rolf Potts - Vagabonding",
+    "url": "https://www.goodreads.com/search?q=Rolf+Potts+Vagabonding",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Alain de Botton - A Arte de Viajar",
+    "url": "https://www.goodreads.com/search?q=Alain+de+Botton+The+Art+of+Travel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Paul Theroux - The Great Railway Bazaar",
+    "url": "https://www.goodreads.com/search?q=Paul+Theroux+The+Great+Railway+Bazaar",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Bill Bryson - Uma Caminhada na Floresta",
+    "url": "https://www.goodreads.com/search?q=Bill+Bryson+A+Walk+in+the+Woods",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Jon Krakauer - Na Natureza Selvagem",
+    "url": "https://www.goodreads.com/search?q=Jon+Krakauer+Into+the+Wild",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Elizabeth Gilbert - Comer, Rezar, Amar",
+    "url": "https://www.goodreads.com/search?q=Elizabeth+Gilbert+Eat+Pray+Love",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Che Guevara - Diários de Motocicleta",
+    "url": "https://www.goodreads.com/search?q=Che+Guevara+The+Motorcycle+Diaries",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Amyr Klink - Cem Dias entre Céu e Mar",
+    "url": "https://www.goodreads.com/search?q=Amyr+Klink+Cem+Dias+entre+C%C3%A9u+e+Mar",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Livros de viagem",
+    "name": "Marco Polo - As Viagens",
+    "url": "https://www.goodreads.com/search?q=Marco+Polo+The+Travels",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Marco Polo",
+    "url": "https://en.wikipedia.org/wiki/Marco_Polo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Ibn Battuta",
+    "url": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Fernão de Magalhães",
+    "url": "https://en.wikipedia.org/wiki/Ferdinand_Magellan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Thomas Cook",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Cook",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Nellie Bly",
+    "url": "https://en.wikipedia.org/wiki/Nellie_Bly",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Anthony Bourdain",
+    "url": "https://en.wikipedia.org/wiki/Anthony_Bourdain",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Tony Wheeler (Lonely Planet)",
+    "url": "https://en.wikipedia.org/wiki/Tony_Wheeler",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Rick Steves",
+    "url": "https://en.wikipedia.org/wiki/Rick_Steves",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Michael Palin",
+    "url": "https://en.wikipedia.org/wiki/Michael_Palin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Paul Theroux",
+    "url": "https://en.wikipedia.org/wiki/Paul_Theroux",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e pessoas",
+    "subcategory": "Viajantes e exploradores",
+    "name": "Amyr Klink",
+    "url": "https://pt.wikipedia.org/wiki/Amyr_Klink",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

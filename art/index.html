@@ -1,0 +1,4037 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Arte — Catálogo pesquisável de arte: conceitos, técnicas, materiais, movimentos, artistas, museus e mais</title>
+<meta content="Catálogo pesquisável de arte: conceitos, técnicas, materiais, movimentos artísticos, artistas, curadores, críticos, influenciadores, grupos, museus, bienais, redes sociais, cursos e livros." name="description"/>
+<link href="https://biblioverse.org/art/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="art" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Arte</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Arte</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte",
+    "url": "https://en.wikipedia.org/wiki/Art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "História da arte",
+    "url": "https://en.wikipedia.org/wiki/Art_history",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Belas-artes",
+    "url": "https://en.wikipedia.org/wiki/Fine_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Artesanato",
+    "url": "https://en.wikipedia.org/wiki/Handicraft",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Artes decorativas",
+    "url": "https://en.wikipedia.org/wiki/Decorative_arts",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte popular",
+    "url": "https://en.wikipedia.org/wiki/Folk_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte moderna",
+    "url": "https://en.wikipedia.org/wiki/Modern_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte contemporânea",
+    "url": "https://en.wikipedia.org/wiki/Contemporary_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte conceitual",
+    "url": "https://en.wikipedia.org/wiki/Conceptual_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Vanguarda",
+    "url": "https://en.wikipedia.org/wiki/Avant-garde",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Estética",
+    "url": "https://en.wikipedia.org/wiki/Aesthetics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Filosofia da Arte (Stanford Encyclopedia of Philosophy)",
+    "url": "https://plato.stanford.edu/entries/art-definition/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Filosofia da Estética (Internet Encyclopedia of Philosophy)",
+    "url": "https://iep.utm.edu/aesthetics/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Crítica de arte",
+    "url": "https://en.wikipedia.org/wiki/Art_criticism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Curadoria",
+    "url": "https://en.wikipedia.org/wiki/Curator",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Mecenato",
+    "url": "https://en.wikipedia.org/wiki/Patronage",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Mercado de arte",
+    "url": "https://en.wikipedia.org/wiki/Art_market",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Arte pública",
+    "url": "https://en.wikipedia.org/wiki/Public_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Iconografia",
+    "url": "https://en.wikipedia.org/wiki/Iconography",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Obra-prima",
+    "url": "https://en.wikipedia.org/wiki/Masterpiece",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Proveniência",
+    "url": "https://en.wikipedia.org/wiki/Provenance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Falsificação de arte",
+    "url": "https://en.wikipedia.org/wiki/Art_forgery",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Arte e sociedade",
+    "name": "Conservação e restauro",
+    "url": "https://en.wikipedia.org/wiki/Conservation_and_restoration_of_cultural_property",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Teoria das cores",
+    "url": "https://en.wikipedia.org/wiki/Color_theory",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Círculo cromático",
+    "url": "https://en.wikipedia.org/wiki/Color_wheel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Cores complementares",
+    "url": "https://en.wikipedia.org/wiki/Complementary_colors",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Composição",
+    "url": "https://en.wikipedia.org/wiki/Composition_(visual_arts)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Perspectiva",
+    "url": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Ponto de fuga",
+    "url": "https://en.wikipedia.org/wiki/Vanishing_point",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Escorço",
+    "url": "https://en.wikipedia.org/wiki/Foreshortening",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Proporção áurea",
+    "url": "https://en.wikipedia.org/wiki/Golden_ratio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Claro-escuro (chiaroscuro)",
+    "url": "https://en.wikipedia.org/wiki/Chiaroscuro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Sfumato",
+    "url": "https://en.wikipedia.org/wiki/Sfumato",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Tenebrismo",
+    "url": "https://en.wikipedia.org/wiki/Tenebrism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Textura",
+    "url": "https://en.wikipedia.org/wiki/Texture_(visual_arts)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Elementos da arte",
+    "url": "https://en.wikipedia.org/wiki/Elements_of_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Forma",
+    "url": "https://en.wikipedia.org/wiki/Shape",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Elementos e linguagem visual",
+    "name": "Espaço negativo",
+    "url": "https://en.wikipedia.org/wiki/Negative_space",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Pintura",
+    "url": "https://en.wikipedia.org/wiki/Painting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Pintura a óleo",
+    "url": "https://en.wikipedia.org/wiki/Oil_painting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Aquarela",
+    "url": "https://en.wikipedia.org/wiki/Watercolor_painting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Pintura acrílica",
+    "url": "https://en.wikipedia.org/wiki/Acrylic_paint",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Guache",
+    "url": "https://en.wikipedia.org/wiki/Gouache",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Têmpera",
+    "url": "https://en.wikipedia.org/wiki/Tempera",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Afresco",
+    "url": "https://en.wikipedia.org/wiki/Fresco",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Encáustica",
+    "url": "https://en.wikipedia.org/wiki/Encaustic_painting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Pastel",
+    "url": "https://en.wikipedia.org/wiki/Pastel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Impasto",
+    "url": "https://en.wikipedia.org/wiki/Impasto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Velatura (glazing)",
+    "url": "https://en.wikipedia.org/wiki/Glaze_(painting_technique)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Grisaille",
+    "url": "https://en.wikipedia.org/wiki/Grisaille",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Trompe-l'œil",
+    "url": "https://en.wikipedia.org/wiki/Trompe-l%27%C5%93il",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Pintura",
+    "name": "Pintura em nanquim",
+    "url": "https://en.wikipedia.org/wiki/Ink_wash_painting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Desenho",
+    "url": "https://en.wikipedia.org/wiki/Drawing",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Esboço",
+    "url": "https://en.wikipedia.org/wiki/Sketch_(drawing)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Desenho de figura humana",
+    "url": "https://en.wikipedia.org/wiki/Figure_drawing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Carvão",
+    "url": "https://en.wikipedia.org/wiki/Charcoal_(art)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Gravura",
+    "url": "https://en.wikipedia.org/wiki/Printmaking",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Xilogravura",
+    "url": "https://en.wikipedia.org/wiki/Woodcut",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Água-forte",
+    "url": "https://en.wikipedia.org/wiki/Etching",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Litografia",
+    "url": "https://en.wikipedia.org/wiki/Lithography",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Serigrafia",
+    "url": "https://en.wikipedia.org/wiki/Screen_printing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Linoleogravura",
+    "url": "https://en.wikipedia.org/wiki/Linocut",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Monotipia",
+    "url": "https://en.wikipedia.org/wiki/Monotyping",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Desenho, gravura e caligrafia",
+    "name": "Caligrafia",
+    "url": "https://en.wikipedia.org/wiki/Calligraphy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Escultura",
+    "url": "https://en.wikipedia.org/wiki/Sculpture",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Escultura em bronze",
+    "url": "https://en.wikipedia.org/wiki/Bronze_sculpture",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Escultura em madeira",
+    "url": "https://en.wikipedia.org/wiki/Wood_carving",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Escultura em mármore",
+    "url": "https://en.wikipedia.org/wiki/Marble_sculpture",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Cerâmica",
+    "url": "https://en.wikipedia.org/wiki/Ceramic_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Instalação",
+    "url": "https://en.wikipedia.org/wiki/Installation_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Assemblage",
+    "url": "https://en.wikipedia.org/wiki/Assemblage_(art)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Móbile",
+    "url": "https://en.wikipedia.org/wiki/Mobile_(sculpture)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Escultura e arte tridimensional",
+    "name": "Land art",
+    "url": "https://en.wikipedia.org/wiki/Land_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Colagem",
+    "url": "https://en.wikipedia.org/wiki/Collage",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Mosaico",
+    "url": "https://en.wikipedia.org/wiki/Mosaic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Vitral",
+    "url": "https://en.wikipedia.org/wiki/Stained_glass",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Tapeçaria",
+    "url": "https://en.wikipedia.org/wiki/Tapestry",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Arte têxtil",
+    "url": "https://en.wikipedia.org/wiki/Textile_arts",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Mural",
+    "url": "https://en.wikipedia.org/wiki/Mural",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Grafite",
+    "url": "https://en.wikipedia.org/wiki/Graffiti",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Arte de rua",
+    "url": "https://en.wikipedia.org/wiki/Street_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Performance",
+    "url": "https://en.wikipedia.org/wiki/Performance_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Videoarte",
+    "url": "https://en.wikipedia.org/wiki/Video_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Arte digital",
+    "url": "https://en.wikipedia.org/wiki/Digital_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Arte generativa",
+    "url": "https://en.wikipedia.org/wiki/Generative_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Pixel art",
+    "url": "https://en.wikipedia.org/wiki/Pixel_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Outras linguagens",
+    "name": "Ready-made",
+    "url": "https://en.wikipedia.org/wiki/Readymades_of_Marcel_Duchamp",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Artesanato",
+    "url": "https://en.wikipedia.org/wiki/Handicraft",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Movimento Arts and Crafts",
+    "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Marcenaria",
+    "url": "https://en.wikipedia.org/wiki/Woodworking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Tecelagem",
+    "url": "https://en.wikipedia.org/wiki/Weaving",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Bordado",
+    "url": "https://en.wikipedia.org/wiki/Embroidery",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Crochê",
+    "url": "https://en.wikipedia.org/wiki/Crochet",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Tricô",
+    "url": "https://en.wikipedia.org/wiki/Knitting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Macramê",
+    "url": "https://en.wikipedia.org/wiki/Macram%C3%A9",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Cestaria",
+    "url": "https://en.wikipedia.org/wiki/Basket_weaving",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Origami",
+    "url": "https://en.wikipedia.org/wiki/Origami",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Renda de bilros",
+    "url": "https://pt.wikipedia.org/wiki/Renda_de_bilros",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Arte marajoara",
+    "url": "https://pt.wikipedia.org/wiki/Arte_marajoara",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Mestre Vitalino",
+    "url": "https://pt.wikipedia.org/wiki/Mestre_Vitalino",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Técnicas",
+    "subcategory": "Artesanato",
+    "name": "Etsy",
+    "url": "https://www.etsy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Pigmento",
+    "url": "https://en.wikipedia.org/wiki/Pigment",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Tinta a óleo",
+    "url": "https://en.wikipedia.org/wiki/Oil_paint",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Azul ultramar",
+    "url": "https://en.wikipedia.org/wiki/Ultramarine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Azul da Prússia",
+    "url": "https://en.wikipedia.org/wiki/Prussian_blue",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Vermelhão",
+    "url": "https://en.wikipedia.org/wiki/Vermilion",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Pigmentos de cádmio",
+    "url": "https://en.wikipedia.org/wiki/Cadmium_pigments",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Branco de chumbo",
+    "url": "https://en.wikipedia.org/wiki/Lead_white",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Ocre",
+    "url": "https://en.wikipedia.org/wiki/Ochre",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Pigmentos e tintas",
+    "name": "Verniz",
+    "url": "https://en.wikipedia.org/wiki/Varnish",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Tela",
+    "url": "https://en.wikipedia.org/wiki/Canvas",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Gesso (preparação)",
+    "url": "https://en.wikipedia.org/wiki/Gesso",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Pintura sobre painel",
+    "url": "https://en.wikipedia.org/wiki/Panel_painting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Papel",
+    "url": "https://en.wikipedia.org/wiki/Paper",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Pincel",
+    "url": "https://en.wikipedia.org/wiki/Paintbrush",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Espátula",
+    "url": "https://en.wikipedia.org/wiki/Palette_knife",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Paleta",
+    "url": "https://en.wikipedia.org/wiki/Palette_(painting)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Suportes e ferramentas",
+    "name": "Cavalete",
+    "url": "https://en.wikipedia.org/wiki/Easel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Winsor & Newton",
+    "url": "https://www.winsornewton.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Faber-Castell",
+    "url": "https://www.faber-castell.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Schmincke",
+    "url": "https://www.schmincke.de/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Daniel Smith",
+    "url": "https://danielsmith.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Golden Artist Colors",
+    "url": "https://goldenartistcolors.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Liquitex",
+    "url": "https://www.liquitex.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Sennelier",
+    "url": "https://www.sennelier.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Caran d'Ache",
+    "url": "https://www.carandache.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Canson",
+    "url": "https://www.canson.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Copic",
+    "url": "https://copic.jp/en/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Posca",
+    "url": "https://www.posca.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Kremer Pigmente",
+    "url": "https://www.kremer-pigmente.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Marcas de materiais artísticos",
+    "name": "Acrilex",
+    "url": "https://www.acrilex.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Lojas de materiais",
+    "name": "Blick Art Materials",
+    "url": "https://www.dickblick.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Lojas de materiais",
+    "name": "Jackson's Art Supplies",
+    "url": "https://www.jacksonsart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Materiais",
+    "subcategory": "Lojas de materiais",
+    "name": "Cass Art",
+    "url": "https://www.cassart.co.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte rupestre",
+    "url": "https://en.wikipedia.org/wiki/Cave_painting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte do Antigo Egito",
+    "url": "https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte grega antiga",
+    "url": "https://en.wikipedia.org/wiki/Ancient_Greek_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte romana",
+    "url": "https://en.wikipedia.org/wiki/Roman_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte bizantina",
+    "url": "https://en.wikipedia.org/wiki/Byzantine_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte islâmica",
+    "url": "https://en.wikipedia.org/wiki/Islamic_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte românica",
+    "url": "https://en.wikipedia.org/wiki/Romanesque_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Arte gótica",
+    "url": "https://en.wikipedia.org/wiki/Gothic_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Iluminura",
+    "url": "https://en.wikipedia.org/wiki/Illuminated_manuscript",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Renascimento",
+    "url": "https://en.wikipedia.org/wiki/Renaissance_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Maneirismo",
+    "url": "https://en.wikipedia.org/wiki/Mannerism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Barroco",
+    "url": "https://en.wikipedia.org/wiki/Baroque_painting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Rococó",
+    "url": "https://en.wikipedia.org/wiki/Rococo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Neoclassicismo",
+    "url": "https://en.wikipedia.org/wiki/Neoclassicism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Romantismo",
+    "url": "https://en.wikipedia.org/wiki/Romanticism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Realismo",
+    "url": "https://en.wikipedia.org/wiki/Realism_(art_movement)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Irmandade Pré-Rafaelita",
+    "url": "https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Ukiyo-e",
+    "url": "https://en.wikipedia.org/wiki/Ukiyo-e",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Impressionismo",
+    "url": "https://en.wikipedia.org/wiki/Impressionism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Pós-impressionismo",
+    "url": "https://en.wikipedia.org/wiki/Post-Impressionism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Pontilhismo",
+    "url": "https://en.wikipedia.org/wiki/Pointillism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Simbolismo",
+    "url": "https://en.wikipedia.org/wiki/Symbolism_(movement)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Do Renascimento ao século XIX",
+    "name": "Art Nouveau",
+    "url": "https://en.wikipedia.org/wiki/Art_Nouveau",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Fauvismo",
+    "url": "https://en.wikipedia.org/wiki/Fauvism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Expressionismo",
+    "url": "https://en.wikipedia.org/wiki/Expressionism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Cubismo",
+    "url": "https://en.wikipedia.org/wiki/Cubism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Futurismo",
+    "url": "https://en.wikipedia.org/wiki/Futurism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Dadaísmo",
+    "url": "https://en.wikipedia.org/wiki/Dada",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Surrealismo",
+    "url": "https://en.wikipedia.org/wiki/Surrealism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Construtivismo",
+    "url": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Suprematismo",
+    "url": "https://en.wikipedia.org/wiki/Suprematism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "De Stijl",
+    "url": "https://en.wikipedia.org/wiki/De_Stijl",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Bauhaus",
+    "url": "https://en.wikipedia.org/wiki/Bauhaus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Art Déco",
+    "url": "https://en.wikipedia.org/wiki/Art_Deco",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Muralismo mexicano",
+    "url": "https://en.wikipedia.org/wiki/Mexican_muralism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Expressionismo abstrato",
+    "url": "https://en.wikipedia.org/wiki/Abstract_expressionism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Modernismo brasileiro",
+    "url": "https://pt.wikipedia.org/wiki/Modernismo_no_Brasil",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Semana de Arte Moderna (1922)",
+    "url": "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Concretismo",
+    "url": "https://pt.wikipedia.org/wiki/Arte_concreta",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Modernismo",
+    "name": "Neoconcretismo",
+    "url": "https://pt.wikipedia.org/wiki/Neoconcretismo",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Pop art",
+    "url": "https://en.wikipedia.org/wiki/Pop_art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Minimalismo",
+    "url": "https://en.wikipedia.org/wiki/Minimalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Op art",
+    "url": "https://en.wikipedia.org/wiki/Op_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Fluxus",
+    "url": "https://en.wikipedia.org/wiki/Fluxus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Arte povera",
+    "url": "https://en.wikipedia.org/wiki/Arte_Povera",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Neoexpressionismo",
+    "url": "https://en.wikipedia.org/wiki/Neo-expressionism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Hiper-realismo",
+    "url": "https://en.wikipedia.org/wiki/Hyperrealism_(visual_arts)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Young British Artists",
+    "url": "https://en.wikipedia.org/wiki/Young_British_Artists",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Superflat",
+    "url": "https://en.wikipedia.org/wiki/Superflat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Movimentos artísticos",
+    "subcategory": "Arte contemporânea",
+    "name": "Tropicália",
+    "url": "https://en.wikipedia.org/wiki/Tropic%C3%A1lia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Leonardo da Vinci",
+    "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Michelangelo",
+    "url": "https://en.wikipedia.org/wiki/Michelangelo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Rafael",
+    "url": "https://en.wikipedia.org/wiki/Raphael",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Sandro Botticelli",
+    "url": "https://en.wikipedia.org/wiki/Sandro_Botticelli",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Jan van Eyck",
+    "url": "https://en.wikipedia.org/wiki/Jan_van_Eyck",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Hieronymus Bosch",
+    "url": "https://en.wikipedia.org/wiki/Hieronymus_Bosch",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Albrecht Dürer",
+    "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "Ticiano",
+    "url": "https://en.wikipedia.org/wiki/Titian",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Renascimento e Maneirismo",
+    "name": "El Greco",
+    "url": "https://en.wikipedia.org/wiki/El_Greco",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Caravaggio",
+    "url": "https://en.wikipedia.org/wiki/Caravaggio",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Artemisia Gentileschi",
+    "url": "https://en.wikipedia.org/wiki/Artemisia_Gentileschi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Peter Paul Rubens",
+    "url": "https://en.wikipedia.org/wiki/Peter_Paul_Rubens",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Rembrandt",
+    "url": "https://en.wikipedia.org/wiki/Rembrandt",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Johannes Vermeer",
+    "url": "https://en.wikipedia.org/wiki/Johannes_Vermeer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Barroco",
+    "name": "Diego Velázquez",
+    "url": "https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Ukiyo-e",
+    "name": "Katsushika Hokusai",
+    "url": "https://en.wikipedia.org/wiki/Hokusai",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Ukiyo-e",
+    "name": "Utagawa Hiroshige",
+    "url": "https://en.wikipedia.org/wiki/Hiroshige",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Ukiyo-e",
+    "name": "Kitagawa Utamaro",
+    "url": "https://en.wikipedia.org/wiki/Utamaro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Romantismo e Realismo",
+    "name": "Francisco de Goya",
+    "url": "https://en.wikipedia.org/wiki/Francisco_Goya",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Romantismo e Realismo",
+    "name": "J. M. W. Turner",
+    "url": "https://en.wikipedia.org/wiki/J._M._W._Turner",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Romantismo e Realismo",
+    "name": "Eugène Delacroix",
+    "url": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Romantismo e Realismo",
+    "name": "Gustave Courbet",
+    "url": "https://en.wikipedia.org/wiki/Gustave_Courbet",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Édouard Manet",
+    "url": "https://en.wikipedia.org/wiki/%C3%89douard_Manet",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Claude Monet",
+    "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Edgar Degas",
+    "url": "https://en.wikipedia.org/wiki/Edgar_Degas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Pierre-Auguste Renoir",
+    "url": "https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Berthe Morisot",
+    "url": "https://en.wikipedia.org/wiki/Berthe_Morisot",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Impressionismo",
+    "name": "Auguste Rodin",
+    "url": "https://en.wikipedia.org/wiki/Auguste_Rodin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pós-impressionismo",
+    "name": "Paul Cézanne",
+    "url": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pós-impressionismo",
+    "name": "Vincent van Gogh",
+    "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pós-impressionismo",
+    "name": "Paul Gauguin",
+    "url": "https://en.wikipedia.org/wiki/Paul_Gauguin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pós-impressionismo",
+    "name": "Georges Seurat",
+    "url": "https://en.wikipedia.org/wiki/Georges_Seurat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Simbolismo e Expressionismo",
+    "name": "Gustav Klimt",
+    "url": "https://en.wikipedia.org/wiki/Gustav_Klimt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Simbolismo e Expressionismo",
+    "name": "Edvard Munch",
+    "url": "https://en.wikipedia.org/wiki/Edvard_Munch",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Simbolismo e Expressionismo",
+    "name": "Egon Schiele",
+    "url": "https://en.wikipedia.org/wiki/Egon_Schiele",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Fauvismo e Cubismo",
+    "name": "Henri Matisse",
+    "url": "https://en.wikipedia.org/wiki/Henri_Matisse",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Fauvismo e Cubismo",
+    "name": "Pablo Picasso",
+    "url": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Fauvismo e Cubismo",
+    "name": "Georges Braque",
+    "url": "https://en.wikipedia.org/wiki/Georges_Braque",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Abstração e Construtivismo",
+    "name": "Wassily Kandinsky",
+    "url": "https://en.wikipedia.org/wiki/Wassily_Kandinsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Abstração e Construtivismo",
+    "name": "Piet Mondrian",
+    "url": "https://en.wikipedia.org/wiki/Piet_Mondrian",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Abstração e Construtivismo",
+    "name": "Kazimir Malevich",
+    "url": "https://en.wikipedia.org/wiki/Kazimir_Malevich",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Dadaísmo e Surrealismo",
+    "name": "Marcel Duchamp",
+    "url": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Dadaísmo e Surrealismo",
+    "name": "Salvador Dalí",
+    "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Dadaísmo e Surrealismo",
+    "name": "René Magritte",
+    "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Muralismo mexicano",
+    "name": "Frida Kahlo",
+    "url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Muralismo mexicano",
+    "name": "Diego Rivera",
+    "url": "https://en.wikipedia.org/wiki/Diego_Rivera",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Muralismo mexicano",
+    "name": "José Clemente Orozco",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Clemente_Orozco",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Muralismo mexicano",
+    "name": "David Alfaro Siqueiros",
+    "url": "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Modernismo americano",
+    "name": "Georgia O'Keeffe",
+    "url": "https://en.wikipedia.org/wiki/Georgia_O%27Keeffe",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Modernismo americano",
+    "name": "Edward Hopper",
+    "url": "https://en.wikipedia.org/wiki/Edward_Hopper",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Modernismo americano",
+    "name": "Norman Rockwell",
+    "url": "https://en.wikipedia.org/wiki/Norman_Rockwell",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Modernismo americano",
+    "name": "Bob Ross",
+    "url": "https://en.wikipedia.org/wiki/Bob_Ross",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Expressionismo abstrato",
+    "name": "Jackson Pollock",
+    "url": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Expressionismo abstrato",
+    "name": "Mark Rothko",
+    "url": "https://en.wikipedia.org/wiki/Mark_Rothko",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Expressionismo abstrato",
+    "name": "Willem de Kooning",
+    "url": "https://en.wikipedia.org/wiki/Willem_de_Kooning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "Andy Warhol",
+    "url": "https://en.wikipedia.org/wiki/Andy_Warhol",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "Roy Lichtenstein",
+    "url": "https://en.wikipedia.org/wiki/Roy_Lichtenstein",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "David Hockney",
+    "url": "https://en.wikipedia.org/wiki/David_Hockney",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "Jeff Koons",
+    "url": "https://en.wikipedia.org/wiki/Jeff_Koons",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "Takashi Murakami",
+    "url": "https://en.wikipedia.org/wiki/Takashi_Murakami",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Pop art e neo-pop",
+    "name": "KAWS",
+    "url": "https://en.wikipedia.org/wiki/Kaws",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Yves Klein",
+    "url": "https://en.wikipedia.org/wiki/Yves_Klein",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Joseph Beuys",
+    "url": "https://en.wikipedia.org/wiki/Joseph_Beuys",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Louise Bourgeois",
+    "url": "https://en.wikipedia.org/wiki/Louise_Bourgeois",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Marina Abramović",
+    "url": "https://en.wikipedia.org/wiki/Marina_Abramovi%C4%87",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Ai Weiwei",
+    "url": "https://en.wikipedia.org/wiki/Ai_Weiwei",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte conceitual e performance",
+    "name": "Damien Hirst",
+    "url": "https://en.wikipedia.org/wiki/Damien_Hirst",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte de rua e grafite",
+    "name": "Jean-Michel Basquiat",
+    "url": "https://en.wikipedia.org/wiki/Jean-Michel_Basquiat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte de rua e grafite",
+    "name": "Keith Haring",
+    "url": "https://en.wikipedia.org/wiki/Keith_Haring",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte de rua e grafite",
+    "name": "Shepard Fairey",
+    "url": "https://en.wikipedia.org/wiki/Shepard_Fairey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte de rua e grafite",
+    "name": "JR",
+    "url": "https://en.wikipedia.org/wiki/JR_(artist)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte crítica",
+    "name": "Banksy",
+    "url": "https://en.wikipedia.org/wiki/Banksy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte crítica",
+    "name": "Paweł Kuczyński",
+    "url": "https://en.wikipedia.org/wiki/Pawe%C5%82_Kuczy%C5%84ski",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Arte crítica",
+    "name": "Luis Quiles",
+    "url": "https://www.facebook.com/LuisQuilesArt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Yayoi Kusama",
+    "url": "https://en.wikipedia.org/wiki/Yayoi_Kusama",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Gerhard Richter",
+    "url": "https://en.wikipedia.org/wiki/Gerhard_Richter",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Kara Walker",
+    "url": "https://en.wikipedia.org/wiki/Kara_Walker",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Olafur Eliasson",
+    "url": "https://en.wikipedia.org/wiki/Olafur_Eliasson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Anish Kapoor",
+    "url": "https://en.wikipedia.org/wiki/Anish_Kapoor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas",
+    "subcategory": "Contemporâneos",
+    "name": "Beeple",
+    "url": "https://en.wikipedia.org/wiki/Beeple",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Barroco e Academicismo brasileiro",
+    "name": "Aleijadinho",
+    "url": "https://pt.wikipedia.org/wiki/Aleijadinho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Barroco e Academicismo brasileiro",
+    "name": "Pedro Américo",
+    "url": "https://pt.wikipedia.org/wiki/Pedro_Am%C3%A9rico",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Barroco e Academicismo brasileiro",
+    "name": "Almeida Júnior",
+    "url": "https://pt.wikipedia.org/wiki/Almeida_J%C3%BAnior",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Tarsila do Amaral",
+    "url": "https://pt.wikipedia.org/wiki/Tarsila_do_Amaral",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Candido Portinari",
+    "url": "https://pt.wikipedia.org/wiki/Candido_Portinari",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Anita Malfatti",
+    "url": "https://pt.wikipedia.org/wiki/Anita_Malfatti",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Di Cavalcanti",
+    "url": "https://pt.wikipedia.org/wiki/Di_Cavalcanti",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Lasar Segall",
+    "url": "https://pt.wikipedia.org/wiki/Lasar_Segall",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Modernismo brasileiro",
+    "name": "Alfredo Volpi",
+    "url": "https://pt.wikipedia.org/wiki/Alfredo_Volpi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Concretismo e Neoconcretismo",
+    "name": "Hélio Oiticica",
+    "url": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Oiticica",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Concretismo e Neoconcretismo",
+    "name": "Lygia Clark",
+    "url": "https://pt.wikipedia.org/wiki/Lygia_Clark",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Concretismo e Neoconcretismo",
+    "name": "Lygia Pape",
+    "url": "https://pt.wikipedia.org/wiki/Lygia_Pape",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Concretismo e Neoconcretismo",
+    "name": "Abraham Palatnik",
+    "url": "https://pt.wikipedia.org/wiki/Abraham_Palatnik",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Concretismo e Neoconcretismo",
+    "name": "Tomie Ohtake",
+    "url": "https://pt.wikipedia.org/wiki/Tomie_Ohtake",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Arte de rua brasileira",
+    "name": "Os Gêmeos",
+    "url": "https://pt.wikipedia.org/wiki/Os_G%C3%AAmeos",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Arte de rua brasileira",
+    "name": "Eduardo Kobra",
+    "url": "https://pt.wikipedia.org/wiki/Eduardo_Kobra",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Arthur Bispo do Rosário",
+    "url": "https://pt.wikipedia.org/wiki/Arthur_Bispo_do_Ros%C3%A1rio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Cildo Meireles",
+    "url": "https://pt.wikipedia.org/wiki/Cildo_Meireles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Beatriz Milhazes",
+    "url": "https://pt.wikipedia.org/wiki/Beatriz_Milhazes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Adriana Varejão",
+    "url": "https://pt.wikipedia.org/wiki/Adriana_Varej%C3%A3o",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Ernesto Neto",
+    "url": "https://pt.wikipedia.org/wiki/Ernesto_Neto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Vik Muniz",
+    "url": "https://pt.wikipedia.org/wiki/Vik_Muniz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Artistas brasileiros",
+    "subcategory": "Contemporâneos brasileiros",
+    "name": "Romero Britto",
+    "url": "https://pt.wikipedia.org/wiki/Romero_Britto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Hans Ulrich Obrist",
+    "url": "https://en.wikipedia.org/wiki/Hans_Ulrich_Obrist",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Adriano Pedrosa",
+    "url": "https://en.wikipedia.org/wiki/Adriano_Pedrosa",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Carolyn Christov-Bakargiev",
+    "url": "https://en.wikipedia.org/wiki/Carolyn_Christov-Bakargiev",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Harald Szeemann",
+    "url": "https://en.wikipedia.org/wiki/Harald_Szeemann",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Okwui Enwezor",
+    "url": "https://en.wikipedia.org/wiki/Okwui_Enwezor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Curadores",
+    "name": "Lucy Lippard",
+    "url": "https://en.wikipedia.org/wiki/Lucy_R._Lippard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Giorgio Vasari",
+    "url": "https://en.wikipedia.org/wiki/Giorgio_Vasari",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Ernst Gombrich",
+    "url": "https://en.wikipedia.org/wiki/Ernst_Gombrich",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "John Berger",
+    "url": "https://en.wikipedia.org/wiki/John_Berger",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Clement Greenberg",
+    "url": "https://en.wikipedia.org/wiki/Clement_Greenberg",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Arthur Danto",
+    "url": "https://en.wikipedia.org/wiki/Arthur_Danto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Rosalind Krauss",
+    "url": "https://en.wikipedia.org/wiki/Rosalind_E._Krauss",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Jerry Saltz",
+    "url": "https://en.wikipedia.org/wiki/Jerry_Saltz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Mário Pedrosa",
+    "url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Pedrosa",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Críticos e historiadores",
+    "name": "Ferreira Gullar",
+    "url": "https://pt.wikipedia.org/wiki/Ferreira_Gullar",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Great Art Explained",
+    "url": "https://www.youtube.com/@GreatArtExplained",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "The Art Assignment",
+    "url": "https://www.youtube.com/@theartassignment",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Proko",
+    "url": "https://www.youtube.com/@ProkoTV",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Marco Bucci",
+    "url": "https://www.youtube.com/@marcobucci",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Sinix Design",
+    "url": "https://www.youtube.com/@SinixDesign",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Jazza",
+    "url": "https://www.youtube.com/@Jazza",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Bob Ross",
+    "url": "https://www.youtube.com/results?search_query=Bob+Ross+The+Joy+of+Painting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Curadores, críticos e divulgadores",
+    "subcategory": "Influenciadores e canais",
+    "name": "Jerry Saltz no Instagram",
+    "url": "https://www.instagram.com/jerrysaltz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Guerrilla Girls",
+    "url": "https://en.wikipedia.org/wiki/Guerrilla_Girls",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Die Brücke",
+    "url": "https://en.wikipedia.org/wiki/Die_Br%C3%BCcke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Der Blaue Reiter",
+    "url": "https://en.wikipedia.org/wiki/Der_Blaue_Reiter",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Grupo Gutai",
+    "url": "https://en.wikipedia.org/wiki/Gutai_group",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Grupo dos Cinco",
+    "url": "https://pt.wikipedia.org/wiki/Grupo_dos_Cinco_(Brasil)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Grupo Santa Helena",
+    "url": "https://pt.wikipedia.org/wiki/Grupo_Santa_Helena",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Grupos e coletivos",
+    "subcategory": "Grupos e coletivos",
+    "name": "Grupo Ruptura",
+    "url": "https://pt.wikipedia.org/wiki/Grupo_Ruptura",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Museu do Louvre",
+    "url": "https://www.louvre.fr/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Museo del Prado",
+    "url": "https://www.museodelprado.es/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "MoMA",
+    "url": "https://www.moma.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Galleria degli Uffizi",
+    "url": "https://www.uffizi.it/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Rijksmuseum",
+    "url": "https://www.rijksmuseum.nl/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Van Gogh Museum",
+    "url": "https://www.vangoghmuseum.nl/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Musée d'Orsay",
+    "url": "https://www.musee-orsay.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Tate Modern",
+    "url": "https://www.tate.org.uk/visit/tate-modern",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "National Gallery (Londres)",
+    "url": "https://www.nationalgallery.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Museu Hermitage",
+    "url": "https://www.hermitagemuseum.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Guggenheim",
+    "url": "https://www.guggenheim.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Centre Pompidou",
+    "url": "https://www.centrepompidou.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no mundo",
+    "name": "Art Institute of Chicago",
+    "url": "https://www.artic.edu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "MASP",
+    "url": "https://masp.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "Pinacoteca de São Paulo",
+    "url": "https://pinacoteca.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "Inhotim",
+    "url": "https://www.inhotim.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "Museu Nacional de Belas Artes",
+    "url": "https://mnba.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "MAM São Paulo",
+    "url": "https://mam.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "MAM Rio",
+    "url": "https://mam.rio/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Museus no Brasil",
+    "name": "Instituto Tomie Ohtake",
+    "url": "https://www.institutotomieohtake.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "Bienal de Veneza",
+    "url": "https://www.labiennale.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "Bienal de São Paulo",
+    "url": "https://www.bienal.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "documenta",
+    "url": "https://www.documenta.de/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "Art Basel",
+    "url": "https://www.artbasel.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "Frieze",
+    "url": "https://www.frieze.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "TEFAF",
+    "url": "https://www.tefaf.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "SP-Arte",
+    "url": "https://www.sp-arte.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Bienais e feiras",
+    "name": "ArtRio",
+    "url": "https://www.artrio.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Prêmios",
+    "name": "Turner Prize",
+    "url": "https://en.wikipedia.org/wiki/Turner_Prize",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Museus, bienais e feiras",
+    "subcategory": "Prêmios",
+    "name": "Prêmio PIPA",
+    "url": "https://www.premiopipa.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "ArtStation",
+    "url": "https://www.artstation.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "DeviantArt",
+    "url": "https://www.deviantart.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "Behance",
+    "url": "https://www.behance.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "Cara",
+    "url": "https://cara.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "Pixiv",
+    "url": "https://www.pixiv.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "ArtConnect",
+    "url": "https://www.artconnect.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Portfólio e comunidade",
+    "name": "r/Art",
+    "url": "https://www.reddit.com/r/Art/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Comprar e vender arte",
+    "name": "Artsy",
+    "url": "https://www.artsy.net/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Comprar e vender arte",
+    "name": "Saatchi Art",
+    "url": "https://www.saatchiart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Comprar e vender arte",
+    "name": "Singulart",
+    "url": "https://www.singulart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Comprar e vender arte",
+    "name": "Society6",
+    "url": "https://society6.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Redes sociais e comunidades",
+    "subcategory": "Comprar e vender arte",
+    "name": "Redbubble",
+    "url": "https://www.redbubble.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "WikiArt",
+    "url": "https://www.wikiart.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "Smarthistory",
+    "url": "https://smarthistory.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "The Met Collection (Open Access)",
+    "url": "https://www.metmuseum.org/art/collection",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "Art UK",
+    "url": "https://artuk.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "Web Gallery of Art",
+    "url": "https://www.wga.hu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Acervos digitais",
+    "name": "Europeana",
+    "url": "https://www.europeana.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Proko",
+    "url": "https://www.proko.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Drawabox",
+    "url": "https://drawabox.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Ctrl+Paint",
+    "url": "https://www.ctrlpaint.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Schoolism",
+    "url": "https://www.schoolism.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "New Masters Academy",
+    "url": "https://www.nma.art/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Domestika",
+    "url": "https://www.domestika.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Line of Action",
+    "url": "https://line-of-action.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Cursos e prática",
+    "name": "Quickposes",
+    "url": "https://quickposes.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "ARTnews",
+    "url": "https://www.artnews.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "The Art Newspaper",
+    "url": "https://www.theartnewspaper.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "Hyperallergic",
+    "url": "https://hyperallergic.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "Artforum",
+    "url": "https://www.artforum.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "Juxtapoz",
+    "url": "https://www.juxtapoz.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender e explorar",
+    "subcategory": "Revistas e sites",
+    "name": "Colossal",
+    "url": "https://www.thisiscolossal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Ernst Gombrich - A História da Arte",
+    "url": "https://www.goodreads.com/search?q=Gombrich+The+Story+of+Art",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "John Berger - Modos de Ver",
+    "url": "https://www.goodreads.com/search?q=John+Berger+Ways+of+Seeing",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Giorgio Vasari - Vidas dos Artistas",
+    "url": "https://www.goodreads.com/search?q=Vasari+Lives+of+the+Artists",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Wassily Kandinsky - Do Espiritual na Arte",
+    "url": "https://www.goodreads.com/search?q=Kandinsky+Concerning+the+Spiritual+in+Art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Rudolf Arnheim - Arte e Percepção Visual",
+    "url": "https://www.goodreads.com/search?q=Rudolf+Arnheim+Art+and+Visual+Perception",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Will Gompertz - Isso é Arte?",
+    "url": "https://www.goodreads.com/search?q=Will+Gompertz+What+Are+You+Looking+At",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "História e teoria da arte",
+    "name": "Victoria Finlay - Color: A Natural History of the Palette",
+    "url": "https://www.goodreads.com/search?q=Victoria+Finlay+Color+A+Natural+History",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Betty Edwards - Desenhando com o Lado Direito do Cérebro",
+    "url": "https://www.goodreads.com/search?q=Betty+Edwards+Drawing+on+the+Right+Side+of+the+Brain",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Johannes Itten - A Arte da Cor",
+    "url": "https://www.goodreads.com/search?q=Johannes+Itten+The+Art+of+Color",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Josef Albers - A Interação da Cor",
+    "url": "https://www.goodreads.com/search?q=Josef+Albers+Interaction+of+Color",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "James Gurney - Color and Light",
+    "url": "https://www.goodreads.com/search?q=James+Gurney+Color+and+Light",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Andrew Loomis - Figure Drawing for All It's Worth",
+    "url": "https://www.goodreads.com/search?q=Andrew+Loomis+Figure+Drawing+for+All+It%27s+Worth",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Julia Cameron - O Caminho do Artista",
+    "url": "https://www.goodreads.com/search?q=Julia+Cameron+The+Artist%27s+Way",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros",
+    "subcategory": "Técnica e criatividade",
+    "name": "Austin Kleon - Roube Como um Artista",
+    "url": "https://www.goodreads.com/search?q=Austin+Kleon+Steal+Like+an+Artist",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,6247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Filosofia — Catálogo pesquisável de filosofia: áreas, conceitos, obras, filósofos e recursos</title>
+<meta content="Catálogo pesquisável de filosofia: áreas (metafísica, epistemologia, lógica, ética, estética e mais), conceitos, escolas, obras, filósofos e recursos." name="description"/>
+<link href="https://biblioverse.org/philosophy/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="philosophy" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Filosofia</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Filosofia</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Internet Encyclopedia of Philosophy",
+    "url": "https://iep.utm.edu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Routledge Encyclopedia of Philosophy",
+    "url": "https://www.rep.routledge.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Britannica (Filosofia)",
+    "url": "https://www.britannica.com/topic/philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "1000-Word Philosophy",
+    "url": "https://1000wordphilosophy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Crítica na Rede",
+    "url": "https://criticanarede.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Enciclopédias",
+    "name": "Enciclopédia de Termos Lógico-Filosóficos",
+    "url": "https://cful.letras.ulisboa.pt/cfulprojects/encyclopedia-of-logico-philosophical-terms-new-edition/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "PhilPapers",
+    "url": "https://philpapers.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "PhilArchive",
+    "url": "https://philarchive.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "PhilPeople",
+    "url": "https://philpeople.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "JSTOR",
+    "url": "https://www.jstor.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "Project Gutenberg (Filosofia)",
+    "url": "https://www.gutenberg.org/ebooks/bookshelf/57",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "Early Modern Texts",
+    "url": "https://www.earlymoderntexts.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "Perseus Digital Library",
+    "url": "https://www.perseus.tufts.edu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Bases, repositórios e diretórios",
+    "name": "Domínio Público (Brasil)",
+    "url": "https://www.dominiopublico.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Guias e mapas",
+    "name": "Philosophy Pages",
+    "url": "https://www.philosophypages.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Guias e mapas",
+    "name": "Philosophy Ideas",
+    "url": "https://www.philosophyideas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Guias e mapas",
+    "name": "Outline of Philosophy (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Outline_of_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Guias e mapas",
+    "name": "Glossary of philosophy (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Glossary_of_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Enciclopédias e referências",
+    "subcategory": "Guias e mapas",
+    "name": "PhilPapers Surveys",
+    "url": "https://survey2020.philpeople.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Mind",
+    "url": "https://academic.oup.com/mind",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "The Philosophical Review",
+    "url": "https://read.dukeupress.edu/the-philosophical-review",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Noûs",
+    "url": "https://onlinelibrary.wiley.com/journal/14680068",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "The Journal of Philosophy",
+    "url": "https://www.journalofphilosophy.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Philosophy & Public Affairs",
+    "url": "https://onlinelibrary.wiley.com/journal/10884963",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Ethics",
+    "url": "https://www.journals.uchicago.edu/toc/et/current",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Analysis",
+    "url": "https://academic.oup.com/analysis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Australasian Journal of Philosophy",
+    "url": "https://www.tandfonline.com/journals/rajp20",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Philosophical Studies",
+    "url": "https://link.springer.com/journal/11098",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Synthese",
+    "url": "https://link.springer.com/journal/11229",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Philosophy and Phenomenological Research",
+    "url": "https://onlinelibrary.wiley.com/journal/19331592",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Kriterion",
+    "url": "https://www.scielo.br/j/kr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Manuscrito",
+    "url": "https://www.scielo.br/j/man/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Trans/Form/Ação",
+    "url": "https://www.scielo.br/j/trans/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Periódicos acadêmicos",
+    "name": "Principia",
+    "url": "https://periodicos.ufsc.br/index.php/principia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "Philosophy Now",
+    "url": "https://philosophynow.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "The Philosophers' Magazine",
+    "url": "https://www.philosophersmag.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "Aeon",
+    "url": "https://aeon.co/philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "Psyche",
+    "url": "https://psyche.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "Daily Nous",
+    "url": "https://dailynous.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "New Work in Philosophy",
+    "url": "https://newworkinphilosophy.substack.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "Revista Cult",
+    "url": "https://revistacult.uol.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "IAI TV (Institute of Art and Ideas)",
+    "url": "https://iai.tv/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Periódicos e revistas",
+    "subcategory": "Revistas e sites de divulgação",
+    "name": "The Point",
+    "url": "https://thepointmag.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "History of Philosophy without any gaps",
+    "url": "https://historyofphilosophy.net/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Philosophy Bites",
+    "url": "https://philosophybites.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Philosophize This!",
+    "url": "https://www.philosophizethis.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Very Bad Wizards",
+    "url": "https://www.verybadwizards.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "The Partially Examined Life",
+    "url": "https://partiallyexaminedlife.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Hi-Phi Nation",
+    "url": "https://hiphination.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Elucidations",
+    "url": "https://elucidations.vercel.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "In Our Time (Filosofia)",
+    "url": "https://www.bbc.co.uk/programmes/p01f0vzr",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Rationally Speaking",
+    "url": "https://rationallyspeakingpodcast.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "Filosofia Pop",
+    "url": "https://filosofiapop.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Podcasts",
+    "name": "The Philosopher's Zone (ABC)",
+    "url": "https://www.abc.net.au/listen/programs/philosopherszone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Wireless Philosophy",
+    "url": "https://www.wi-phi.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Crash Course Philosophy",
+    "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Closer To Truth",
+    "url": "https://closertotruth.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "The School of Life",
+    "url": "https://www.theschooloflife.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Philosophy Tube",
+    "url": "https://www.youtube.com/@PhilosophyTube",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Kane B",
+    "url": "https://www.youtube.com/@KaneB",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Isto Não É Filosofia",
+    "url": "https://www.istonaoefilosofia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Filosofia do Início",
+    "url": "https://www.youtube.com/@filosofiadoinicio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Academy of Ideas",
+    "url": "https://www.youtube.com/@academyofideas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Einzelgänger",
+    "url": "https://www.youtube.com/@Einzelganger",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Podcasts e vídeos",
+    "subcategory": "Canais de vídeo",
+    "name": "Jeffrey Kaplan",
+    "url": "https://www.youtube.com/results?search_query=Jeffrey+Kaplan+philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "Justice (Michael Sandel, Harvard)",
+    "url": "https://www.edx.org/learn/justice/harvard-university-justice",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "Death (Shelly Kagan, Open Yale)",
+    "url": "https://oyc.yale.edu/philosophy/phil-176",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "Introduction to Philosophy (Edinburgh)",
+    "url": "https://www.coursera.org/learn/philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "MIT OpenCourseWare (Filosofia)",
+    "url": "https://ocw.mit.edu/search/?d=Linguistics%20and%20Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "Open Yale Courses (Filosofia)",
+    "url": "https://oyc.yale.edu/philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "The Great Courses (Filosofia)",
+    "url": "https://plus.thegreatcourses.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Cursos online",
+    "name": "Filosofia (Khan Academy)",
+    "url": "https://www.khanacademy.org/humanities/philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Recursos para ensino",
+    "name": "Philosophy for Children (P4C)",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_for_Children",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Recursos para ensino",
+    "name": "PLATO (Philosophy Learning and Teaching Organization)",
+    "url": "https://www.plato-philosophy.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Recursos para ensino",
+    "name": "Teaching Philosophy (periódico)",
+    "url": "https://www.pdcnet.org/teachphil",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cursos e aulas",
+    "subcategory": "Recursos para ensino",
+    "name": "Olimpíada de Filosofia",
+    "url": "https://www.olimpiadadefilosofia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "American Philosophical Association",
+    "url": "https://www.apaonline.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Aristotelian Society",
+    "url": "https://www.aristoteliansociety.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Royal Institute of Philosophy",
+    "url": "https://royalinstitutephilosophy.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Mind Association",
+    "url": "https://www.mindassociation.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Australasian Association of Philosophy",
+    "url": "https://aap.org.au/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "British Philosophical Association",
+    "url": "https://bpa.ac.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "FISP (Federação Internacional de Sociedades de Filosofia)",
+    "url": "https://www.fisp.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Institut International de Philosophie",
+    "url": "https://www.iiphilo.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Internacionais",
+    "name": "Society for Women in Philosophy",
+    "url": "https://www.swipinfo.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Brasileiras",
+    "name": "ANPOF",
+    "url": "https://anpof.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Brasileiras",
+    "name": "Sociedade Brasileira de Filosofia Analítica",
+    "url": "https://www.sbfa.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Brasileiras",
+    "name": "Sociedade Brasileira de Lógica",
+    "url": "https://www.sbl.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Brasileiras",
+    "name": "CLE Unicamp (Centro de Lógica e Epistemologia)",
+    "url": "https://www.cle.unicamp.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Organizações e sociedades",
+    "subcategory": "Brasileiras",
+    "name": "NULFA",
+    "url": "https://nulfa.weebly.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Metafísica",
+    "url": "https://en.wikipedia.org/wiki/Metaphysics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Ontologia",
+    "url": "https://en.wikipedia.org/wiki/Ontology",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Existência",
+    "url": "https://en.wikipedia.org/wiki/Existence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Ser",
+    "url": "https://en.wikipedia.org/wiki/Being",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Substância",
+    "url": "https://en.wikipedia.org/wiki/Substance_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Universais",
+    "url": "https://en.wikipedia.org/wiki/Universal_(metaphysics)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Nominalismo",
+    "url": "https://en.wikipedia.org/wiki/Nominalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Realismo (metafísica)",
+    "url": "https://en.wikipedia.org/wiki/Philosophical_realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Idealismo",
+    "url": "https://en.wikipedia.org/wiki/Idealism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Materialismo",
+    "url": "https://en.wikipedia.org/wiki/Materialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Mereologia",
+    "url": "https://en.wikipedia.org/wiki/Mereology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Ontologia",
+    "name": "Emergência",
+    "url": "https://en.wikipedia.org/wiki/Emergence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Livre-arbítrio",
+    "url": "https://en.wikipedia.org/wiki/Free_will",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Determinismo",
+    "url": "https://en.wikipedia.org/wiki/Determinism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Compatibilismo",
+    "url": "https://en.wikipedia.org/wiki/Compatibilism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Incompatibilismo",
+    "url": "https://en.wikipedia.org/wiki/Incompatibilism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Libertarismo (metafísica)",
+    "url": "https://en.wikipedia.org/wiki/Libertarianism_(metaphysics)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Fatalismo",
+    "url": "https://en.wikipedia.org/wiki/Fatalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Livre-arbítrio e determinismo",
+    "name": "Responsabilidade moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_responsibility",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Filosofia do espaço e do tempo",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_space_and_time",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Eternalismo",
+    "url": "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Presentismo",
+    "url": "https://en.wikipedia.org/wiki/Presentism_(philosophy_of_time)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Causalidade",
+    "url": "https://en.wikipedia.org/wiki/Causality",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Contrafactuais",
+    "url": "https://en.wikipedia.org/wiki/Counterfactual_conditional",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Tempo, espaço e causalidade",
+    "name": "Princípio da razão suficiente",
+    "url": "https://en.wikipedia.org/wiki/Principle_of_sufficient_reason",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Mundos possíveis",
+    "url": "https://en.wikipedia.org/wiki/Possible_world",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Realismo modal",
+    "url": "https://en.wikipedia.org/wiki/Modal_realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Necessidade e contingência",
+    "url": "https://en.wikipedia.org/wiki/Contingency_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Identidade",
+    "url": "https://en.wikipedia.org/wiki/Identity_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Identidade pessoal",
+    "url": "https://en.wikipedia.org/wiki/Personal_identity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Metafísica",
+    "subcategory": "Modalidade e identidade",
+    "name": "Navio de Teseu",
+    "url": "https://en.wikipedia.org/wiki/Ship_of_Theseus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Epistemologia",
+    "url": "https://en.wikipedia.org/wiki/Epistemology",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Crença verdadeira justificada",
+    "url": "https://en.wikipedia.org/wiki/Definitions_of_knowledge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Problema de Gettier",
+    "url": "https://en.wikipedia.org/wiki/Gettier_problem",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Fundacionalismo",
+    "url": "https://en.wikipedia.org/wiki/Foundationalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Coerentismo",
+    "url": "https://en.wikipedia.org/wiki/Coherentism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Confiabilismo",
+    "url": "https://en.wikipedia.org/wiki/Reliabilism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Epistemologia das virtudes",
+    "url": "https://en.wikipedia.org/wiki/Virtue_epistemology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Teorias do conhecimento",
+    "name": "Internalismo e externalismo",
+    "url": "https://en.wikipedia.org/wiki/Internalism_and_externalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Empirismo",
+    "url": "https://en.wikipedia.org/wiki/Empiricism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Racionalismo",
+    "url": "https://en.wikipedia.org/wiki/Rationalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "A priori e a posteriori",
+    "url": "https://en.wikipedia.org/wiki/A_priori_and_a_posteriori",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Analítico e sintético",
+    "url": "https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Testemunho",
+    "url": "https://en.wikipedia.org/wiki/Testimony",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Percepção",
+    "url": "https://en.wikipedia.org/wiki/Perception",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Fontes do conhecimento",
+    "name": "Intuição",
+    "url": "https://en.wikipedia.org/wiki/Intuition",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Ceticismo filosófico",
+    "url": "https://en.wikipedia.org/wiki/Philosophical_skepticism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Cérebro numa cuba",
+    "url": "https://en.wikipedia.org/wiki/Brain_in_a_vat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Problema da indução",
+    "url": "https://en.wikipedia.org/wiki/Problem_of_induction",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Trilema de Münchhausen",
+    "url": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Gênio maligno",
+    "url": "https://en.wikipedia.org/wiki/Evil_demon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Ceticismo",
+    "name": "Solipsismo",
+    "url": "https://en.wikipedia.org/wiki/Solipsism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Epistemologia social",
+    "url": "https://en.wikipedia.org/wiki/Social_epistemology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Epistemologia bayesiana",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_epistemology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Desacordo epistêmico",
+    "url": "https://en.wikipedia.org/wiki/Peer_disagreement",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Injustiça epistêmica",
+    "url": "https://en.wikipedia.org/wiki/Epistemic_injustice",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Epistemologia feminista",
+    "url": "https://en.wikipedia.org/wiki/Feminist_epistemology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Teoria da verdade",
+    "url": "https://en.wikipedia.org/wiki/Truth",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Teoria da correspondência",
+    "url": "https://en.wikipedia.org/wiki/Correspondence_theory_of_truth",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Epistemologia",
+    "subcategory": "Epistemologia social e formal",
+    "name": "Pragmatismo (verdade)",
+    "url": "https://en.wikipedia.org/wiki/Pragmatic_theory_of_truth",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Lógica",
+    "url": "https://en.wikipedia.org/wiki/Logic",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Lógica proposicional",
+    "url": "https://en.wikipedia.org/wiki/Propositional_calculus",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Lógica de primeira ordem",
+    "url": "https://en.wikipedia.org/wiki/First-order_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Silogismo",
+    "url": "https://en.wikipedia.org/wiki/Syllogism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Modus ponens",
+    "url": "https://en.wikipedia.org/wiki/Modus_ponens",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Validade",
+    "url": "https://en.wikipedia.org/wiki/Validity_(logic)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Solidez",
+    "url": "https://en.wikipedia.org/wiki/Soundness",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Dedução",
+    "url": "https://en.wikipedia.org/wiki/Deductive_reasoning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Indução",
+    "url": "https://en.wikipedia.org/wiki/Inductive_reasoning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógica clássica",
+    "name": "Abdução",
+    "url": "https://en.wikipedia.org/wiki/Abductive_reasoning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica modal",
+    "url": "https://en.wikipedia.org/wiki/Modal_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica paraconsistente",
+    "url": "https://en.wikipedia.org/wiki/Paraconsistent_logic",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica intuicionista",
+    "url": "https://en.wikipedia.org/wiki/Intuitionistic_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica fuzzy",
+    "url": "https://en.wikipedia.org/wiki/Fuzzy_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica deôntica",
+    "url": "https://en.wikipedia.org/wiki/Deontic_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica temporal",
+    "url": "https://en.wikipedia.org/wiki/Temporal_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Lógicas não clássicas",
+    "name": "Lógica multivalorada",
+    "url": "https://en.wikipedia.org/wiki/Many-valued_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Metalógica",
+    "name": "Metalógica",
+    "url": "https://en.wikipedia.org/wiki/Metalogic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Metalógica",
+    "name": "Teoremas da incompletude de Gödel",
+    "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Metalógica",
+    "name": "Teorema da completude",
+    "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_completeness_theorem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Metalógica",
+    "name": "Decidibilidade",
+    "url": "https://en.wikipedia.org/wiki/Decidability_(logic)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Metalógica",
+    "name": "Teoria dos conjuntos",
+    "url": "https://en.wikipedia.org/wiki/Set_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Argumento",
+    "url": "https://en.wikipedia.org/wiki/Argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Lógica informal",
+    "url": "https://en.wikipedia.org/wiki/Informal_logic",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Falácia",
+    "url": "https://en.wikipedia.org/wiki/Fallacy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Lista de falácias",
+    "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Pensamento crítico",
+    "url": "https://en.wikipedia.org/wiki/Critical_thinking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Navalha de Occam",
+    "url": "https://en.wikipedia.org/wiki/Occam's_razor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Lógica",
+    "subcategory": "Argumentação e falácias",
+    "name": "Princípio da caridade",
+    "url": "https://en.wikipedia.org/wiki/Principle_of_charity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Metaética",
+    "url": "https://en.wikipedia.org/wiki/Meta-ethics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Realismo moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Antirrealismo moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_anti-realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Teoria do erro",
+    "url": "https://en.wikipedia.org/wiki/Moral_error_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Expressivismo",
+    "url": "https://en.wikipedia.org/wiki/Expressivism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Construtivismo moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_constructivism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Relativismo moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_relativism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Guilhotina de Hume",
+    "url": "https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Metaética",
+    "name": "Falácia naturalista",
+    "url": "https://en.wikipedia.org/wiki/Naturalistic_fallacy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Ética normativa",
+    "url": "https://en.wikipedia.org/wiki/Normative_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Consequencialismo",
+    "url": "https://en.wikipedia.org/wiki/Consequentialism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Utilitarismo",
+    "url": "https://en.wikipedia.org/wiki/Utilitarianism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Deontologia",
+    "url": "https://en.wikipedia.org/wiki/Deontology",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Ética das virtudes",
+    "url": "https://en.wikipedia.org/wiki/Virtue_ethics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Contratualismo",
+    "url": "https://en.wikipedia.org/wiki/Contractualism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Ética do cuidado",
+    "url": "https://en.wikipedia.org/wiki/Ethics_of_care",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Egoísmo ético",
+    "url": "https://en.wikipedia.org/wiki/Ethical_egoism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Teoria do mandamento divino",
+    "url": "https://en.wikipedia.org/wiki/Divine_command_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética normativa",
+    "name": "Particularismo moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_particularism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética aplicada",
+    "url": "https://en.wikipedia.org/wiki/Applied_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética animal",
+    "url": "https://en.wikipedia.org/wiki/Animal_ethics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Especismo",
+    "url": "https://en.wikipedia.org/wiki/Speciesism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Senciocentrismo",
+    "url": "https://en.wikipedia.org/wiki/Sentientism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Direitos animais",
+    "url": "https://en.wikipedia.org/wiki/Animal_rights",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Bioética",
+    "url": "https://en.wikipedia.org/wiki/Bioethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética ambiental",
+    "url": "https://en.wikipedia.org/wiki/Environmental_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética da inteligência artificial",
+    "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética empresarial",
+    "url": "https://en.wikipedia.org/wiki/Business_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Neuroética",
+    "url": "https://en.wikipedia.org/wiki/Neuroethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética médica",
+    "url": "https://en.wikipedia.org/wiki/Medical_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Altruísmo eficaz",
+    "url": "https://en.wikipedia.org/wiki/Effective_altruism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Longotermismo",
+    "url": "https://en.wikipedia.org/wiki/Longtermism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Ética populacional",
+    "url": "https://en.wikipedia.org/wiki/Population_ethics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ética",
+    "subcategory": "Ética aplicada",
+    "name": "Sofrimento dos animais selvagens",
+    "url": "https://en.wikipedia.org/wiki/Wild_animal_suffering",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Estética",
+    "url": "https://en.wikipedia.org/wiki/Aesthetics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Beleza",
+    "url": "https://en.wikipedia.org/wiki/Beauty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Sublime",
+    "url": "https://en.wikipedia.org/wiki/Sublime_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Gosto",
+    "url": "https://en.wikipedia.org/wiki/Taste_(sociology)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Mimese",
+    "url": "https://en.wikipedia.org/wiki/Mimesis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Experiência estética",
+    "url": "https://en.wikipedia.org/wiki/Aesthetic_experience",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Conceitos fundamentais",
+    "name": "Distância estética",
+    "url": "https://en.wikipedia.org/wiki/Aesthetic_distance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofia da arte",
+    "name": "Definição de arte",
+    "url": "https://en.wikipedia.org/wiki/Theory_of_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofia da arte",
+    "name": "Arte pela arte",
+    "url": "https://en.wikipedia.org/wiki/Art_for_art's_sake",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofia da arte",
+    "name": "Teoria institucional da arte",
+    "url": "https://en.wikipedia.org/wiki/Institutional_theory_of_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofia da arte",
+    "name": "Ontologia da arte",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_art",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofia da arte",
+    "name": "Intencionalismo",
+    "url": "https://en.wikipedia.org/wiki/Intentional_fallacy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofias das artes",
+    "name": "Filosofia da música",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_music",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofias das artes",
+    "name": "Filosofia do cinema",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_film",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofias das artes",
+    "name": "Filosofia da literatura",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_literature",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estética",
+    "subcategory": "Filosofias das artes",
+    "name": "Filosofia do design",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_design",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Justiça",
+    "url": "https://en.wikipedia.org/wiki/Justice",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Justiça como equidade",
+    "url": "https://en.wikipedia.org/wiki/Justice_as_Fairness",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Véu da ignorância",
+    "url": "https://en.wikipedia.org/wiki/Veil_of_ignorance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Igualitarismo",
+    "url": "https://en.wikipedia.org/wiki/Egalitarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Igualitarismo da sorte",
+    "url": "https://en.wikipedia.org/wiki/Luck_egalitarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Abordagem das capacidades",
+    "url": "https://en.wikipedia.org/wiki/Capability_approach",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Libertarianismo",
+    "url": "https://en.wikipedia.org/wiki/Libertarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Teorias da justiça",
+    "name": "Prioritarismo",
+    "url": "https://en.wikipedia.org/wiki/Prioritarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Liberalismo",
+    "url": "https://en.wikipedia.org/wiki/Liberalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Conservadorismo",
+    "url": "https://en.wikipedia.org/wiki/Conservatism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Socialismo",
+    "url": "https://en.wikipedia.org/wiki/Socialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Anarquismo",
+    "url": "https://en.wikipedia.org/wiki/Anarchism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Republicanismo",
+    "url": "https://en.wikipedia.org/wiki/Republicanism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Comunitarismo",
+    "url": "https://en.wikipedia.org/wiki/Communitarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Marxismo",
+    "url": "https://en.wikipedia.org/wiki/Marxism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Correntes",
+    "name": "Feminismo",
+    "url": "https://en.wikipedia.org/wiki/Feminism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Contrato social",
+    "url": "https://en.wikipedia.org/wiki/Social_contract",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Soberania",
+    "url": "https://en.wikipedia.org/wiki/Sovereignty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Direitos",
+    "url": "https://en.wikipedia.org/wiki/Rights",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Democracia",
+    "url": "https://en.wikipedia.org/wiki/Democracy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Legitimidade política",
+    "url": "https://en.wikipedia.org/wiki/Legitimacy_(political)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Desobediência civil",
+    "url": "https://en.wikipedia.org/wiki/Civil_disobedience",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Tirania da maioria",
+    "url": "https://en.wikipedia.org/wiki/Tyranny_of_the_majority",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia política",
+    "subcategory": "Conceitos",
+    "name": "Liberdade positiva e negativa",
+    "url": "https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Problema mente-corpo",
+    "url": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_problem",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Dualismo",
+    "url": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Fisicalismo",
+    "url": "https://en.wikipedia.org/wiki/Physicalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Funcionalismo",
+    "url": "https://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Teoria da identidade",
+    "url": "https://en.wikipedia.org/wiki/Type_physicalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Materialismo eliminativo",
+    "url": "https://en.wikipedia.org/wiki/Eliminative_materialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Pampsiquismo",
+    "url": "https://en.wikipedia.org/wiki/Panpsychism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Dualismo de propriedades",
+    "url": "https://en.wikipedia.org/wiki/Property_dualism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Problema mente-corpo",
+    "name": "Epifenomenalismo",
+    "url": "https://en.wikipedia.org/wiki/Epiphenomenalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Consciência",
+    "url": "https://en.wikipedia.org/wiki/Consciousness",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Problema difícil da consciência",
+    "url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Qualia",
+    "url": "https://en.wikipedia.org/wiki/Qualia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Zumbi filosófico",
+    "url": "https://en.wikipedia.org/wiki/Philosophical_zombie",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Quarto de Mary",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Como é ser um morcego?",
+    "url": "https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Consciência",
+    "name": "Quarto chinês",
+    "url": "https://en.wikipedia.org/wiki/Chinese_room",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Intencionalidade",
+    "url": "https://en.wikipedia.org/wiki/Intentionality",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Mente estendida",
+    "url": "https://en.wikipedia.org/wiki/Extended_mind_thesis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Teoria computacional da mente",
+    "url": "https://en.wikipedia.org/wiki/Computational_theory_of_mind",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Problema das outras mentes",
+    "url": "https://en.wikipedia.org/wiki/Problem_of_other_minds",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Senciência",
+    "url": "https://en.wikipedia.org/wiki/Sentience",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da mente",
+    "subcategory": "Mente e cognição",
+    "name": "Mentes digitais",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Filosofia da ciência",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_science",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Método científico",
+    "url": "https://en.wikipedia.org/wiki/Scientific_method",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Falseabilidade",
+    "url": "https://en.wikipedia.org/wiki/Falsifiability",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Problema da demarcação",
+    "url": "https://en.wikipedia.org/wiki/Demarcation_problem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Método hipotético-dedutivo",
+    "url": "https://en.wikipedia.org/wiki/Hypothetico-deductive_model",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Método científico",
+    "name": "Explicação científica",
+    "url": "https://en.wikipedia.org/wiki/Scientific_explanation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Mudança de paradigma",
+    "url": "https://en.wikipedia.org/wiki/Paradigm_shift",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Programas de pesquisa",
+    "url": "https://en.wikipedia.org/wiki/Imre_Lakatos",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Realismo científico",
+    "url": "https://en.wikipedia.org/wiki/Scientific_realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Instrumentalismo",
+    "url": "https://en.wikipedia.org/wiki/Instrumentalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Subdeterminação",
+    "url": "https://en.wikipedia.org/wiki/Underdetermination",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Realismo estrutural",
+    "url": "https://en.wikipedia.org/wiki/Structural_realism_(philosophy_of_science)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Anarquismo epistemológico",
+    "url": "https://en.wikipedia.org/wiki/Epistemological_anarchism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Teorias e debates",
+    "name": "Pseudociência",
+    "url": "https://en.wikipedia.org/wiki/Pseudoscience",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia da física",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_physics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia da biologia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_biology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia da psicologia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_psychology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia das ciências sociais",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_social_science",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia da química",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_chemistry",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da ciência",
+    "subcategory": "Filosofias das ciências",
+    "name": "Filosofia da economia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_and_economics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Filosofia da linguagem",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_language",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Sentido e referência",
+    "url": "https://en.wikipedia.org/wiki/Sense_and_reference",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Teoria descritivista",
+    "url": "https://en.wikipedia.org/wiki/Descriptivist_theory_of_names",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Teoria causal da referência",
+    "url": "https://en.wikipedia.org/wiki/Causal_theory_of_reference",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Princípio de verificação",
+    "url": "https://en.wikipedia.org/wiki/Verificationism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Significado e referência",
+    "name": "Holismo semântico",
+    "url": "https://en.wikipedia.org/wiki/Semantic_holism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Pragmática",
+    "name": "Atos de fala",
+    "url": "https://en.wikipedia.org/wiki/Speech_act",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Pragmática",
+    "name": "Implicatura",
+    "url": "https://en.wikipedia.org/wiki/Implicature",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Pragmática",
+    "name": "Jogos de linguagem",
+    "url": "https://en.wikipedia.org/wiki/Language_game_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Pragmática",
+    "name": "Filosofia da linguagem comum",
+    "url": "https://en.wikipedia.org/wiki/Ordinary_language_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Linguagem e mente",
+    "name": "Argumento da linguagem privada",
+    "url": "https://en.wikipedia.org/wiki/Private_language_argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Linguagem e mente",
+    "name": "Indeterminação da tradução",
+    "url": "https://en.wikipedia.org/wiki/Indeterminacy_of_translation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Linguagem e mente",
+    "name": "Relatividade linguística",
+    "url": "https://en.wikipedia.org/wiki/Linguistic_relativity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da linguagem",
+    "subcategory": "Linguagem e mente",
+    "name": "Terra Gêmea",
+    "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Filosofia da religião",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_religion",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Argumento ontológico",
+    "url": "https://en.wikipedia.org/wiki/Ontological_argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Argumento cosmológico",
+    "url": "https://en.wikipedia.org/wiki/Cosmological_argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Argumento teleológico",
+    "url": "https://en.wikipedia.org/wiki/Teleological_argument",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Problema do mal",
+    "url": "https://en.wikipedia.org/wiki/Problem_of_evil",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Aposta de Pascal",
+    "url": "https://en.wikipedia.org/wiki/Pascal's_wager",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Dilema de Eutífron",
+    "url": "https://en.wikipedia.org/wiki/Euthyphro_dilemma",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Argumentos",
+    "name": "Bule de Russell",
+    "url": "https://en.wikipedia.org/wiki/Russell's_teapot",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Teísmo",
+    "url": "https://en.wikipedia.org/wiki/Theism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Deísmo",
+    "url": "https://en.wikipedia.org/wiki/Deism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Ateísmo",
+    "url": "https://en.wikipedia.org/wiki/Atheism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Agnosticismo",
+    "url": "https://en.wikipedia.org/wiki/Agnosticism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Panteísmo",
+    "url": "https://en.wikipedia.org/wiki/Pantheism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Fideísmo",
+    "url": "https://en.wikipedia.org/wiki/Fideism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filosofia da religião",
+    "subcategory": "Posições",
+    "name": "Humanismo secular",
+    "url": "https://en.wikipedia.org/wiki/Secular_humanism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia do direito",
+    "name": "Filosofia do direito",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia do direito",
+    "name": "Positivismo jurídico",
+    "url": "https://en.wikipedia.org/wiki/Legal_positivism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia do direito",
+    "name": "Direito natural",
+    "url": "https://en.wikipedia.org/wiki/Natural_law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia do direito",
+    "name": "Realismo jurídico",
+    "url": "https://en.wikipedia.org/wiki/Legal_realism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia do direito",
+    "name": "Estado de direito",
+    "url": "https://en.wikipedia.org/wiki/Rule_of_law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da educação",
+    "name": "Filosofia da educação",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_education",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da educação",
+    "name": "Pedagogia crítica",
+    "url": "https://en.wikipedia.org/wiki/Critical_pedagogy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da educação",
+    "name": "Paideia",
+    "url": "https://en.wikipedia.org/wiki/Paideia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da educação",
+    "name": "Filosofia para crianças",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_for_Children",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da história",
+    "name": "Filosofia da história",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_history",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da história",
+    "name": "Historicismo",
+    "url": "https://en.wikipedia.org/wiki/Historicism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da história",
+    "name": "Materialismo histórico",
+    "url": "https://en.wikipedia.org/wiki/Historical_materialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da história",
+    "name": "Fim da história",
+    "url": "https://en.wikipedia.org/wiki/The_End_of_History_and_the_Last_Man",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da matemática",
+    "name": "Filosofia da matemática",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_mathematics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da matemática",
+    "name": "Platonismo matemático",
+    "url": "https://en.wikipedia.org/wiki/Mathematical_Platonism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da matemática",
+    "name": "Formalismo",
+    "url": "https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da matemática",
+    "name": "Logicismo",
+    "url": "https://en.wikipedia.org/wiki/Logicism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da matemática",
+    "name": "Intuicionismo",
+    "url": "https://en.wikipedia.org/wiki/Intuitionism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Filosofia da tecnologia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_technology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Filosofia da inteligência artificial",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Teste de Turing",
+    "url": "https://en.wikipedia.org/wiki/Turing_test",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Singularidade tecnológica",
+    "url": "https://en.wikipedia.org/wiki/Technological_singularity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Alinhamento de IA",
+    "url": "https://en.wikipedia.org/wiki/AI_alignment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Transumanismo",
+    "url": "https://en.wikipedia.org/wiki/Transhumanism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da tecnologia e da IA",
+    "name": "Risco existencial",
+    "url": "https://en.wikipedia.org/wiki/Global_catastrophic_risk",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia ambiental",
+    "name": "Filosofia ambiental",
+    "url": "https://en.wikipedia.org/wiki/Environmental_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia ambiental",
+    "name": "Ecologia profunda",
+    "url": "https://en.wikipedia.org/wiki/Deep_ecology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia ambiental",
+    "name": "Antropocentrismo",
+    "url": "https://en.wikipedia.org/wiki/Anthropocentrism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da ação",
+    "name": "Teoria da ação",
+    "url": "https://en.wikipedia.org/wiki/Action_theory_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da ação",
+    "name": "Razão prática",
+    "url": "https://en.wikipedia.org/wiki/Practical_reason",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da ação",
+    "name": "Acrasia",
+    "url": "https://en.wikipedia.org/wiki/Akrasia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia feminista",
+    "name": "Filosofia feminista",
+    "url": "https://en.wikipedia.org/wiki/Feminist_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia feminista",
+    "name": "Teoria do ponto de vista",
+    "url": "https://en.wikipedia.org/wiki/Standpoint_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia feminista",
+    "name": "Interseccionalidade",
+    "url": "https://en.wikipedia.org/wiki/Intersectionality",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia experimental",
+    "name": "Filosofia experimental",
+    "url": "https://en.wikipedia.org/wiki/Experimental_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia experimental",
+    "name": "Psicologia moral",
+    "url": "https://en.wikipedia.org/wiki/Moral_psychology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia experimental",
+    "name": "Intuições morais",
+    "url": "https://en.wikipedia.org/wiki/Moral_intuitionism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia comparada e intercultural",
+    "name": "Filosofia comparada",
+    "url": "https://en.wikipedia.org/wiki/Comparative_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia comparada e intercultural",
+    "name": "Filosofia africana",
+    "url": "https://en.wikipedia.org/wiki/African_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia comparada e intercultural",
+    "name": "Filosofia latino-americana",
+    "url": "https://en.wikipedia.org/wiki/Latin_American_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia comparada e intercultural",
+    "name": "Filosofia indígena americana",
+    "url": "https://en.wikipedia.org/wiki/Indigenous_American_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da morte e do sentido da vida",
+    "name": "Sentido da vida",
+    "url": "https://en.wikipedia.org/wiki/Meaning_of_life",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da morte e do sentido da vida",
+    "name": "Absurdismo",
+    "url": "https://en.wikipedia.org/wiki/Absurdism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da morte e do sentido da vida",
+    "name": "Niilismo",
+    "url": "https://en.wikipedia.org/wiki/Nihilism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da morte e do sentido da vida",
+    "name": "Filosofia da morte",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_death",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Outras subáreas",
+    "subcategory": "Filosofia da morte e do sentido da vida",
+    "name": "Antinatalismo",
+    "url": "https://en.wikipedia.org/wiki/Antinatalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Pré-socráticos",
+    "url": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Sofistas",
+    "url": "https://en.wikipedia.org/wiki/Sophist",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Platonismo",
+    "url": "https://en.wikipedia.org/wiki/Platonism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Aristotelismo",
+    "url": "https://en.wikipedia.org/wiki/Aristotelianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Estoicismo",
+    "url": "https://en.wikipedia.org/wiki/Stoicism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Epicurismo",
+    "url": "https://en.wikipedia.org/wiki/Epicureanism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Ceticismo pirrônico",
+    "url": "https://en.wikipedia.org/wiki/Pyrrhonism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Cinismo",
+    "url": "https://en.wikipedia.org/wiki/Cynicism_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Antigas",
+    "name": "Neoplatonismo",
+    "url": "https://en.wikipedia.org/wiki/Neoplatonism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Medievais",
+    "name": "Escolástica",
+    "url": "https://en.wikipedia.org/wiki/Scholasticism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Medievais",
+    "name": "Tomismo",
+    "url": "https://en.wikipedia.org/wiki/Thomism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Medievais",
+    "name": "Agostinianismo",
+    "url": "https://en.wikipedia.org/wiki/Augustinianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Medievais",
+    "name": "Filosofia islâmica",
+    "url": "https://en.wikipedia.org/wiki/Early_Islamic_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Medievais",
+    "name": "Filosofia judaica",
+    "url": "https://en.wikipedia.org/wiki/Jewish_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Racionalismo continental",
+    "url": "https://en.wikipedia.org/wiki/Continental_rationalism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Empirismo britânico",
+    "url": "https://en.wikipedia.org/wiki/British_empiricism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Iluminismo",
+    "url": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Idealismo alemão",
+    "url": "https://en.wikipedia.org/wiki/German_idealism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Utilitarismo clássico",
+    "url": "https://en.wikipedia.org/wiki/Utilitarianism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Modernas",
+    "name": "Romantismo",
+    "url": "https://en.wikipedia.org/wiki/Romanticism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Filosofia analítica",
+    "url": "https://en.wikipedia.org/wiki/Analytic_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Filosofia continental",
+    "url": "https://en.wikipedia.org/wiki/Continental_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Positivismo lógico",
+    "url": "https://en.wikipedia.org/wiki/Logical_positivism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Pragmatismo",
+    "url": "https://en.wikipedia.org/wiki/Pragmatism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Fenomenologia",
+    "url": "https://en.wikipedia.org/wiki/Phenomenology_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Existencialismo",
+    "url": "https://en.wikipedia.org/wiki/Existentialism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Escola de Frankfurt",
+    "url": "https://en.wikipedia.org/wiki/Frankfurt_School",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Estruturalismo",
+    "url": "https://en.wikipedia.org/wiki/Structuralism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Pós-estruturalismo",
+    "url": "https://en.wikipedia.org/wiki/Post-structuralism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Pós-modernismo",
+    "url": "https://en.wikipedia.org/wiki/Postmodern_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Hermenêutica",
+    "url": "https://en.wikipedia.org/wiki/Hermeneutics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Teoria crítica",
+    "url": "https://en.wikipedia.org/wiki/Critical_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Contemporâneas",
+    "name": "Naturalismo filosófico",
+    "url": "https://en.wikipedia.org/wiki/Naturalism_(philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Confucionismo",
+    "url": "https://en.wikipedia.org/wiki/Confucianism",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Taoismo",
+    "url": "https://en.wikipedia.org/wiki/Taoism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Filosofia budista",
+    "url": "https://en.wikipedia.org/wiki/Buddhist_philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Vedanta",
+    "url": "https://en.wikipedia.org/wiki/Vedanta",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Legalismo chinês",
+    "url": "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Moísmo",
+    "url": "https://en.wikipedia.org/wiki/Mohism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Zen",
+    "url": "https://en.wikipedia.org/wiki/Zen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Jainismo",
+    "url": "https://en.wikipedia.org/wiki/Jainism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Escolas e correntes",
+    "subcategory": "Orientais",
+    "name": "Nyaya",
+    "url": "https://en.wikipedia.org/wiki/Nyaya",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Problema do bonde",
+    "url": "https://en.wikipedia.org/wiki/Trolley_problem",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Alegoria da caverna",
+    "url": "https://en.wikipedia.org/wiki/Allegory_of_the_cave",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Máquina de experiências",
+    "url": "https://en.wikipedia.org/wiki/Experience_machine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Criança se afogando",
+    "url": "https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "O violinista",
+    "url": "https://en.wikipedia.org/wiki/A_Defense_of_Abortion",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Anel de Giges",
+    "url": "https://en.wikipedia.org/wiki/Ring_of_Gyges",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Asno de Buridan",
+    "url": "https://en.wikipedia.org/wiki/Buridan's_ass",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Dilema do prisioneiro",
+    "url": "https://en.wikipedia.org/wiki/Prisoner's_dilemma",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Paradoxo de Newcomb",
+    "url": "https://en.wikipedia.org/wiki/Newcomb's_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Problema da Bela Adormecida",
+    "url": "https://en.wikipedia.org/wiki/Sleeping_Beauty_problem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Experimentos mentais",
+    "name": "Teletransporte e identidade",
+    "url": "https://en.wikipedia.org/wiki/Teletransportation_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxos de Zenão",
+    "url": "https://en.wikipedia.org/wiki/Zeno's_paradoxes",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo do mentiroso",
+    "url": "https://en.wikipedia.org/wiki/Liar_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo sorites",
+    "url": "https://en.wikipedia.org/wiki/Sorites_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo de Russell",
+    "url": "https://en.wikipedia.org/wiki/Russell's_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo de Fermi",
+    "url": "https://en.wikipedia.org/wiki/Fermi_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo da tolerância",
+    "url": "https://en.wikipedia.org/wiki/Paradox_of_tolerance",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo de Moore",
+    "url": "https://en.wikipedia.org/wiki/Moore's_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo do enforcamento inesperado",
+    "url": "https://en.wikipedia.org/wiki/Unexpected_hanging_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Experimentos mentais e paradoxos",
+    "subcategory": "Paradoxos",
+    "name": "Paradoxo de Epicuro",
+    "url": "https://en.wikipedia.org/wiki/Problem_of_evil",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Platão - A República",
+    "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Platão - Apologia de Sócrates",
+    "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Aristóteles - Ética a Nicômaco",
+    "url": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Aristóteles - Metafísica",
+    "url": "https://en.wikipedia.org/wiki/Metaphysics_(Aristotle)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Aristóteles - Organon",
+    "url": "https://en.wikipedia.org/wiki/Organon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Marco Aurélio - Meditações",
+    "url": "https://en.wikipedia.org/wiki/Meditations",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Epicteto - Encheirídion",
+    "url": "https://en.wikipedia.org/wiki/Enchiridion_of_Epictetus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Sexto Empírico - Esboços Pirrônicos",
+    "url": "https://en.wikipedia.org/wiki/Outlines_of_Pyrrhonism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Lucrécio - Sobre a Natureza das Coisas",
+    "url": "https://en.wikipedia.org/wiki/De_rerum_natura",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Agostinho - Confissões",
+    "url": "https://en.wikipedia.org/wiki/Confessions_(Augustine)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Boécio - A Consolação da Filosofia",
+    "url": "https://en.wikipedia.org/wiki/The_Consolation_of_Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Tomás de Aquino - Suma Teológica",
+    "url": "https://en.wikipedia.org/wiki/Summa_Theologica",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Confúcio - Analectos",
+    "url": "https://en.wikipedia.org/wiki/Analects",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Antiguidade e Idade Média",
+    "name": "Laozi - Tao Te Ching",
+    "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Descartes - Meditações Metafísicas",
+    "url": "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Hobbes - Leviatã",
+    "url": "https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Espinosa - Ética",
+    "url": "https://en.wikipedia.org/wiki/Ethics_(Spinoza_book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Locke - Ensaio sobre o Entendimento Humano",
+    "url": "https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Hume - Tratado da Natureza Humana",
+    "url": "https://en.wikipedia.org/wiki/A_Treatise_of_Human_Nature",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Rousseau - O Contrato Social",
+    "url": "https://en.wikipedia.org/wiki/The_Social_Contract",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Kant - Crítica da Razão Pura",
+    "url": "https://en.wikipedia.org/wiki/Critique_of_Pure_Reason",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Kant - Fundamentação da Metafísica dos Costumes",
+    "url": "https://en.wikipedia.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Mary Wollstonecraft - Reivindicação dos Direitos da Mulher",
+    "url": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Bentham - Uma Introdução aos Princípios da Moral e da Legislação",
+    "url": "https://en.wikipedia.org/wiki/An_Introduction_to_the_Principles_of_Morals_and_Legislation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Hegel - Fenomenologia do Espírito",
+    "url": "https://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Mill - Sobre a Liberdade",
+    "url": "https://en.wikipedia.org/wiki/On_Liberty",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Mill - Utilitarismo",
+    "url": "https://en.wikipedia.org/wiki/Utilitarianism_(book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Marx & Engels - Manifesto Comunista",
+    "url": "https://en.wikipedia.org/wiki/The_Communist_Manifesto",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Nietzsche - Assim Falou Zaratustra",
+    "url": "https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Modernidade",
+    "name": "Kierkegaard - Temor e Tremor",
+    "url": "https://en.wikipedia.org/wiki/Fear_and_Trembling",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Wittgenstein - Tractatus Logico-Philosophicus",
+    "url": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Wittgenstein - Investigações Filosóficas",
+    "url": "https://en.wikipedia.org/wiki/Philosophical_Investigations",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Heidegger - Ser e Tempo",
+    "url": "https://en.wikipedia.org/wiki/Being_and_Time",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Sartre - O Ser e o Nada",
+    "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Simone de Beauvoir - O Segundo Sexo",
+    "url": "https://en.wikipedia.org/wiki/The_Second_Sex",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Camus - O Mito de Sísifo",
+    "url": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Popper - A Lógica da Pesquisa Científica",
+    "url": "https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Kuhn - A Estrutura das Revoluções Científicas",
+    "url": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Quine - Dois Dogmas do Empirismo",
+    "url": "https://en.wikipedia.org/wiki/Two_Dogmas_of_Empiricism",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Rawls - Uma Teoria da Justiça",
+    "url": "https://en.wikipedia.org/wiki/A_Theory_of_Justice",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Nozick - Anarquia, Estado e Utopia",
+    "url": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Singer - Libertação Animal",
+    "url": "https://en.wikipedia.org/wiki/Animal_Liberation_(book)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Parfit - Razões e Pessoas",
+    "url": "https://en.wikipedia.org/wiki/Reasons_and_Persons",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Kripke - O Nome e a Necessidade",
+    "url": "https://en.wikipedia.org/wiki/Naming_and_Necessity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Nagel - Como é ser um morcego?",
+    "url": "https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Foucault - Vigiar e Punir",
+    "url": "https://en.wikipedia.org/wiki/Discipline_and_Punish",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Arendt - A Condição Humana",
+    "url": "https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Contemporâneas",
+    "name": "Chalmers - The Conscious Mind",
+    "url": "https://en.wikipedia.org/wiki/The_Conscious_Mind",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Bertrand Russell - Os Problemas da Filosofia",
+    "url": "https://en.wikipedia.org/wiki/The_Problems_of_Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Thomas Nagel - Que Quer Dizer Tudo Isto?",
+    "url": "https://www.goodreads.com/search?q=Thomas+Nagel+What+Does+It+All+Mean",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Simon Blackburn - Pense",
+    "url": "https://www.goodreads.com/search?q=Simon+Blackburn+Think",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Nigel Warburton - Uma Pequena História da Filosofia",
+    "url": "https://www.goodreads.com/search?q=A+Little+History+of+Philosophy+Warburton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Jostein Gaarder - O Mundo de Sofia",
+    "url": "https://en.wikipedia.org/wiki/Sophie's_World",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Bertrand Russell - História da Filosofia Ocidental",
+    "url": "https://en.wikipedia.org/wiki/A_History_of_Western_Philosophy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Julian Baggini - O Porco Filósofo",
+    "url": "https://www.goodreads.com/search?q=The+Pig+That+Wants+to+Be+Eaten+Baggini",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Obras fundamentais",
+    "subcategory": "Introduções à filosofia",
+    "name": "Desidério Murcho - Pensar Outra Vez",
+    "url": "https://www.goodreads.com/search?q=Pensar+Outra+Vez+Desid%C3%A9rio+Murcho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Tales de Mileto",
+    "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Heráclito",
+    "url": "https://en.wikipedia.org/wiki/Heraclitus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Parmênides",
+    "url": "https://en.wikipedia.org/wiki/Parmenides",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Pitágoras",
+    "url": "https://en.wikipedia.org/wiki/Pythagoras",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Demócrito",
+    "url": "https://en.wikipedia.org/wiki/Democritus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Sócrates",
+    "url": "https://en.wikipedia.org/wiki/Socrates",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Platão",
+    "url": "https://en.wikipedia.org/wiki/Plato",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Aristóteles",
+    "url": "https://en.wikipedia.org/wiki/Aristotle",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Diógenes de Sinope",
+    "url": "https://en.wikipedia.org/wiki/Diogenes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Epicuro",
+    "url": "https://en.wikipedia.org/wiki/Epicurus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Zenão de Cítio",
+    "url": "https://en.wikipedia.org/wiki/Zeno_of_Citium",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Pirro de Élis",
+    "url": "https://en.wikipedia.org/wiki/Pyrrho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Sêneca",
+    "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Epicteto",
+    "url": "https://en.wikipedia.org/wiki/Epictetus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Marco Aurélio",
+    "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Plotino",
+    "url": "https://en.wikipedia.org/wiki/Plotinus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Antiguidade",
+    "name": "Hipátia",
+    "url": "https://en.wikipedia.org/wiki/Hypatia",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Confúcio",
+    "url": "https://en.wikipedia.org/wiki/Confucius",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Laozi",
+    "url": "https://en.wikipedia.org/wiki/Laozi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Zhuangzi",
+    "url": "https://en.wikipedia.org/wiki/Zhuang_Zhou",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Mêncio",
+    "url": "https://en.wikipedia.org/wiki/Mencius",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Mozi",
+    "url": "https://en.wikipedia.org/wiki/Mozi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Sidarta Gautama (Buda)",
+    "url": "https://en.wikipedia.org/wiki/The_Buddha",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Nagarjuna",
+    "url": "https://en.wikipedia.org/wiki/Nagarjuna",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Adi Shankara",
+    "url": "https://en.wikipedia.org/wiki/Adi_Shankara",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Wang Yangming",
+    "url": "https://en.wikipedia.org/wiki/Wang_Yangming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Filosofia oriental",
+    "name": "Dogen",
+    "url": "https://en.wikipedia.org/wiki/D%C5%8Dgen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Agostinho de Hipona",
+    "url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Boécio",
+    "url": "https://en.wikipedia.org/wiki/Boethius",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Anselmo de Cantuária",
+    "url": "https://en.wikipedia.org/wiki/Anselm_of_Canterbury",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Avicena",
+    "url": "https://en.wikipedia.org/wiki/Avicenna",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Averróis",
+    "url": "https://en.wikipedia.org/wiki/Averroes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Maimônides",
+    "url": "https://en.wikipedia.org/wiki/Maimonides",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Pedro Abelardo",
+    "url": "https://en.wikipedia.org/wiki/Peter_Abelard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Tomás de Aquino",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Guilherme de Ockham",
+    "url": "https://en.wikipedia.org/wiki/William_of_Ockham",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Idade Média",
+    "name": "Hildegarda de Bingen",
+    "url": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Nicolau Maquiavel",
+    "url": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Michel de Montaigne",
+    "url": "https://en.wikipedia.org/wiki/Michel_de_Montaigne",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Francis Bacon",
+    "url": "https://en.wikipedia.org/wiki/Francis_Bacon",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Thomas Hobbes",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "René Descartes",
+    "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Baruch Espinosa",
+    "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Blaise Pascal",
+    "url": "https://en.wikipedia.org/wiki/Blaise_Pascal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "John Locke",
+    "url": "https://en.wikipedia.org/wiki/John_Locke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Gottfried Leibniz",
+    "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "George Berkeley",
+    "url": "https://en.wikipedia.org/wiki/George_Berkeley",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "David Hume",
+    "url": "https://en.wikipedia.org/wiki/David_Hume",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Voltaire",
+    "url": "https://en.wikipedia.org/wiki/Voltaire",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Jean-Jacques Rousseau",
+    "url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Immanuel Kant",
+    "url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Mary Wollstonecraft",
+    "url": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Renascimento e Modernidade",
+    "name": "Jeremy Bentham",
+    "url": "https://en.wikipedia.org/wiki/Jeremy_Bentham",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "G. W. F. Hegel",
+    "url": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Arthur Schopenhauer",
+    "url": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Søren Kierkegaard",
+    "url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "John Stuart Mill",
+    "url": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Karl Marx",
+    "url": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Friedrich Nietzsche",
+    "url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Henry Sidgwick",
+    "url": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Charles Sanders Peirce",
+    "url": "https://en.wikipedia.org/wiki/Charles_Sanders_Peirce",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "William James",
+    "url": "https://en.wikipedia.org/wiki/William_James",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XIX",
+    "name": "Harriet Taylor Mill",
+    "url": "https://en.wikipedia.org/wiki/Harriet_Taylor_Mill",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Gottlob Frege",
+    "url": "https://en.wikipedia.org/wiki/Gottlob_Frege",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Bertrand Russell",
+    "url": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Edmund Husserl",
+    "url": "https://en.wikipedia.org/wiki/Edmund_Husserl",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Ludwig Wittgenstein",
+    "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Martin Heidegger",
+    "url": "https://en.wikipedia.org/wiki/Martin_Heidegger",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Jean-Paul Sartre",
+    "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Simone de Beauvoir",
+    "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Albert Camus",
+    "url": "https://en.wikipedia.org/wiki/Albert_Camus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Hannah Arendt",
+    "url": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Karl Popper",
+    "url": "https://en.wikipedia.org/wiki/Karl_Popper",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Thomas Kuhn",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Kuhn",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "W. V. O. Quine",
+    "url": "https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "John Rawls",
+    "url": "https://en.wikipedia.org/wiki/John_Rawls",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Robert Nozick",
+    "url": "https://en.wikipedia.org/wiki/Robert_Nozick",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Michel Foucault",
+    "url": "https://en.wikipedia.org/wiki/Michel_Foucault",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Jacques Derrida",
+    "url": "https://en.wikipedia.org/wiki/Jacques_Derrida",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Iris Murdoch",
+    "url": "https://en.wikipedia.org/wiki/Iris_Murdoch",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Elizabeth Anscombe",
+    "url": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Philippa Foot",
+    "url": "https://en.wikipedia.org/wiki/Philippa_Foot",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Bernard Williams",
+    "url": "https://en.wikipedia.org/wiki/Bernard_Williams",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Derek Parfit",
+    "url": "https://en.wikipedia.org/wiki/Derek_Parfit",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Daniel Dennett",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Dennett",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Saul Kripke",
+    "url": "https://en.wikipedia.org/wiki/Saul_Kripke",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Século XX",
+    "name": "Jürgen Habermas",
+    "url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Peter Singer",
+    "url": "https://en.wikipedia.org/wiki/Peter_Singer",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Martha Nussbaum",
+    "url": "https://en.wikipedia.org/wiki/Martha_Nussbaum",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Thomas Nagel",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Nagel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "David Chalmers",
+    "url": "https://en.wikipedia.org/wiki/David_Chalmers",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Judith Butler",
+    "url": "https://en.wikipedia.org/wiki/Judith_Butler",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Slavoj Žižek",
+    "url": "https://en.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Michael Sandel",
+    "url": "https://en.wikipedia.org/wiki/Michael_Sandel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Kwame Anthony Appiah",
+    "url": "https://en.wikipedia.org/wiki/Kwame_Anthony_Appiah",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Christine Korsgaard",
+    "url": "https://en.wikipedia.org/wiki/Christine_Korsgaard",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Nick Bostrom",
+    "url": "https://en.wikipedia.org/wiki/Nick_Bostrom",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "William MacAskill",
+    "url": "https://en.wikipedia.org/wiki/William_MacAskill",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Patricia Churchland",
+    "url": "https://en.wikipedia.org/wiki/Patricia_Churchland",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Timothy Williamson",
+    "url": "https://en.wikipedia.org/wiki/Timothy_Williamson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Byung-Chul Han",
+    "url": "https://en.wikipedia.org/wiki/Byung-Chul_Han",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Contemporâneos",
+    "name": "Oscar Horta",
+    "url": "https://en.wikipedia.org/wiki/Oscar_Horta",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Newton da Costa",
+    "url": "https://en.wikipedia.org/wiki/Newton_da_Costa",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Marilena Chaui",
+    "url": "https://en.wikipedia.org/wiki/Marilena_Chaui",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Paulo Freire",
+    "url": "https://en.wikipedia.org/wiki/Paulo_Freire",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Vilém Flusser",
+    "url": "https://en.wikipedia.org/wiki/Vil%C3%A9m_Flusser",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Oswaldo Porchat",
+    "url": "https://pt.wikipedia.org/wiki/Oswaldo_Porchat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Bento Prado Júnior",
+    "url": "https://pt.wikipedia.org/wiki/Bento_Prado_J%C3%BAnior",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Djamila Ribeiro",
+    "url": "https://en.wikipedia.org/wiki/Djamila_Ribeiro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Sueli Carneiro",
+    "url": "https://en.wikipedia.org/wiki/Sueli_Carneiro",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Enrique Dussel",
+    "url": "https://en.wikipedia.org/wiki/Enrique_Dussel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Mario Bunge",
+    "url": "https://en.wikipedia.org/wiki/Mario_Bunge",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Desidério Murcho",
+    "url": "https://en.wikipedia.org/wiki/Desid%C3%A9rio_Murcho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Filósofos",
+    "subcategory": "Brasil e América Latina",
+    "name": "Luciano Carlos Cunha",
+    "url": "https://pt.wikipedia.org/wiki/Luciano_Carlos_Cunha",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Nigel Warburton",
+    "url": "https://en.wikipedia.org/wiki/Nigel_Warburton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Alain de Botton",
+    "url": "https://en.wikipedia.org/wiki/Alain_de_Botton",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Julian Baggini",
+    "url": "https://en.wikipedia.org/wiki/Julian_Baggini",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Simon Blackburn",
+    "url": "https://en.wikipedia.org/wiki/Simon_Blackburn",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Massimo Pigliucci",
+    "url": "https://en.wikipedia.org/wiki/Massimo_Pigliucci",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Stephen Law",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Law",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Peter Adamson",
+    "url": "https://en.wikipedia.org/wiki/Peter_Adamson_(philosopher)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Stephen West",
+    "url": "https://www.philosophizethis.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Internacionais",
+    "name": "Abigail Thorn",
+    "url": "https://en.wikipedia.org/wiki/Abigail_Thorn",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Brasil",
+    "name": "Mario Sergio Cortella",
+    "url": "https://en.wikipedia.org/wiki/Mario_Sergio_Cortella",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Brasil",
+    "name": "Clóvis de Barros Filho",
+    "url": "https://pt.wikipedia.org/wiki/Cl%C3%B3vis_de_Barros_Filho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Brasil",
+    "name": "Vitor Lima",
+    "url": "https://www.istonaoefilosofia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Divulgadores",
+    "subcategory": "Brasil",
+    "name": "Viviane Mosé",
+    "url": "https://pt.wikipedia.org/wiki/Viviane_Mos%C3%A9",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

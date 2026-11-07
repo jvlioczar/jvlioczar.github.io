@@ -1,0 +1,3407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca Antigolpe — Catálogo pesquisável para evitar golpes, fraudes e scams: como identificar, verificar, denunciar e se proteger</title>
+<meta content="Catálogo pesquisável para evitar golpes, fraudes e scams: tipos de golpe, apostas e jogos de azar, ferramentas para verificar sites, perfis e investimentos, onde denunciar, guias oficiais, proteção digital, livros, documentários e quem desmascara golpes." name="description"/>
+<link href="https://biblioverse.org/antiscam/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="antiscam" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca Antigolpe</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca Antigolpe</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe (conto do vigário)",
+    "url": "https://en.wikipedia.org/wiki/Confidence_trick",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Phishing",
+    "url": "https://en.wikipedia.org/wiki/Phishing",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Smishing (golpe por SMS)",
+    "url": "https://en.wikipedia.org/wiki/SMS_phishing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Vishing (golpe por ligação)",
+    "url": "https://en.wikipedia.org/wiki/Voice_phishing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Spear phishing",
+    "url": "https://en.wikipedia.org/wiki/Spear_phishing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do amor (romance scam)",
+    "url": "https://en.wikipedia.org/wiki/Romance_scam",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Pig butchering",
+    "url": "https://en.wikipedia.org/wiki/Pig_butchering_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Catfishing",
+    "url": "https://en.wikipedia.org/wiki/Catfishing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Sextorsão",
+    "url": "https://en.wikipedia.org/wiki/Sextortion",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do falso suporte técnico",
+    "url": "https://en.wikipedia.org/wiki/Technical_support_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do adiantamento (419)",
+    "url": "https://en.wikipedia.org/wiki/Advance-fee_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do falso emprego",
+    "url": "https://en.wikipedia.org/wiki/Employment_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do falso sequestro",
+    "url": "https://en.wikipedia.org/wiki/Virtual_kidnapping",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe da loteria",
+    "url": "https://en.wikipedia.org/wiki/Lottery_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Falsa caridade",
+    "url": "https://en.wikipedia.org/wiki/Charity_fraud",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Fraude de cartão de crédito",
+    "url": "https://en.wikipedia.org/wiki/Credit_card_fraud",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Troca de SIM (SIM swap)",
+    "url": "https://en.wikipedia.org/wiki/SIM_swap_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Roubo de identidade",
+    "url": "https://en.wikipedia.org/wiki/Identity_theft",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Deepfake",
+    "url": "https://en.wikipedia.org/wiki/Deepfake",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Clonagem de voz (deepfake de áudio)",
+    "url": "https://en.wikipedia.org/wiki/Audio_deepfake",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Ransomware",
+    "url": "https://en.wikipedia.org/wiki/Ransomware",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Scareware",
+    "url": "https://en.wikipedia.org/wiki/Scareware",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe de entrega fantasma (brushing)",
+    "url": "https://en.wikipedia.org/wiki/Brushing_(e-commerce)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Golpe do pagamento em excesso",
+    "url": "https://en.wikipedia.org/wiki/Overpayment_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Fraude de seguro",
+    "url": "https://en.wikipedia.org/wiki/Insurance_fraud",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Falso antivírus (rogue security software)",
+    "url": "https://en.wikipedia.org/wiki/Rogue_security_software",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Tipos de golpe",
+    "name": "Lista de golpes (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_scams",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Pirâmide financeira",
+    "url": "https://en.wikipedia.org/wiki/Pyramid_scheme",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Esquema Ponzi",
+    "url": "https://en.wikipedia.org/wiki/Ponzi_scheme",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Marketing multinível",
+    "url": "https://en.wikipedia.org/wiki/Multi-level_marketing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Pump and dump",
+    "url": "https://en.wikipedia.org/wiki/Pump_and_dump",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Rug pull (golpe de saída)",
+    "url": "https://en.wikipedia.org/wiki/Exit_scam",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Golpes com criptomoedas",
+    "url": "https://en.wikipedia.org/wiki/Cryptocurrency_and_crime",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes financeiros e de investimento",
+    "name": "Fraude de investimento",
+    "url": "https://en.wikipedia.org/wiki/Securities_fraud",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Engenharia social",
+    "url": "https://en.wikipedia.org/wiki/Social_engineering_(security)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Pretexting",
+    "url": "https://en.wikipedia.org/wiki/Pretexting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Falsificação de identificador de chamada",
+    "url": "https://en.wikipedia.org/wiki/Caller_ID_spoofing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Falsificação de e-mail (spoofing)",
+    "url": "https://en.wikipedia.org/wiki/Email_spoofing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Typosquatting",
+    "url": "https://en.wikipedia.org/wiki/Typosquatting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Ataque homográfico",
+    "url": "https://en.wikipedia.org/wiki/IDN_homograph_attack",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Pharming",
+    "url": "https://en.wikipedia.org/wiki/Pharming",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Técnicas dos golpistas",
+    "name": "Conta laranja (money mule)",
+    "url": "https://en.wikipedia.org/wiki/Money_mule",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Autenticação multifator",
+    "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Gerenciador de senhas",
+    "url": "https://en.wikipedia.org/wiki/Password_manager",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Força de senha",
+    "url": "https://en.wikipedia.org/wiki/Password_strength",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Antivírus",
+    "url": "https://en.wikipedia.org/wiki/Antivirus_software",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Chargeback (contestação)",
+    "url": "https://en.wikipedia.org/wiki/Chargeback",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Congelamento de crédito",
+    "url": "https://en.wikipedia.org/wiki/Credit_freeze",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Conheça seu cliente (KYC)",
+    "url": "https://en.wikipedia.org/wiki/Know_your_customer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Proteção e prevenção",
+    "name": "Pagamento com garantia (escrow)",
+    "url": "https://en.wikipedia.org/wiki/Escrow",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Esquema de Bernie Madoff",
+    "url": "https://en.wikipedia.org/wiki/Madoff_investment_scandal",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Charles Ponzi",
+    "url": "https://en.wikipedia.org/wiki/Charles_Ponzi",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Colapso da FTX",
+    "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "OneCoin",
+    "url": "https://en.wikipedia.org/wiki/OneCoin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Theranos",
+    "url": "https://en.wikipedia.org/wiki/Theranos",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Escândalo da Enron",
+    "url": "https://en.wikipedia.org/wiki/Enron_scandal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Escândalo da Wirecard",
+    "url": "https://en.wikipedia.org/wiki/Wirecard_scandal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Fyre Festival",
+    "url": "https://en.wikipedia.org/wiki/Fyre_Festival",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Victor Lustig (vendeu a Torre Eiffel)",
+    "url": "https://en.wikipedia.org/wiki/Victor_Lustig",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Frank Abagnale",
+    "url": "https://en.wikipedia.org/wiki/Frank_Abagnale",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Anna Sorokin",
+    "url": "https://en.wikipedia.org/wiki/Anna_Sorokin",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Simon Leviev (O Golpista do Tinder)",
+    "url": "https://en.wikipedia.org/wiki/Simon_Leviev",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "TelexFree",
+    "url": "https://pt.wikipedia.org/wiki/TelexFree",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Avestruz Master",
+    "url": "https://pt.wikipedia.org/wiki/Avestruz_Master",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Jordan Belfort e a Stratton Oakmont (O Lobo de Wall Street)",
+    "url": "https://en.wikipedia.org/wiki/Stratton_Oakmont",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Sam Bankman-Fried",
+    "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Elizabeth Holmes",
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Ruja Ignatova (a Rainha das Criptomoedas)",
+    "url": "https://en.wikipedia.org/wiki/Ruja_Ignatova",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Terra e Luna (Do Kwon)",
+    "url": "https://en.wikipedia.org/wiki/Terra_(blockchain)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Celsius Network",
+    "url": "https://en.wikipedia.org/wiki/Celsius_Network",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Mt. Gox",
+    "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Bitconnect",
+    "url": "https://en.wikipedia.org/wiki/Bitconnect",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Stanford Financial Group (Allen Stanford)",
+    "url": "https://en.wikipedia.org/wiki/Stanford_Financial_Group",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Lou Pearlman",
+    "url": "https://en.wikipedia.org/wiki/Lou_Pearlman",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Bre-X",
+    "url": "https://en.wikipedia.org/wiki/Bre-X",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Nick Leeson e a quebra do Barings",
+    "url": "https://en.wikipedia.org/wiki/Nick_Leeson",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Jérôme Kerviel",
+    "url": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Kerviel",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Escândalo das emissões da Volkswagen",
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Contas falsas do Wells Fargo",
+    "url": "https://en.wikipedia.org/wiki/Wells_Fargo_cross-selling_scandal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Gregor MacGregor e o país inventado de Poyais",
+    "url": "https://en.wikipedia.org/wiki/Gregor_MacGregor",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes famosos",
+    "name": "Bolha dos Mares do Sul",
+    "url": "https://en.wikipedia.org/wiki/South_Sea_Company",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da falsa central (falso gerente de banco)",
+    "url": "https://blog.pagbank.com.br/golpe-da-falsa-central",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso advogado",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-do-falso-advogado-como-se-proteger-dessa-fraude/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da falsa dívida (falsa renegociação / Limpa Nome)",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-limpa-nome/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da maquininha (visor quebrado ou adulterada)",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-da-maquininha-saiba-como-funciona-e-proteja-se/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do presente de aniversário (falsa entrega com taxa)",
+    "url": "https://blog.pagbank.com.br/golpe-do-presente",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do bolo de aniversário",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-do-bolo-aniversario/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do WhatsApp (novo número, falso parente e clonagem)",
+    "url": "https://www.serasa.com.br/premium/blog/golpes-de-whatsapp-saiba-e-previna-se/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpes do Pix (tipos mais comuns)",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-do-pix-conheca-os-tipos/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do Pix errado (falsa devolução)",
+    "url": "https://meutudo.com.br/blog/golpe-do-pix-errado/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do Pix multiplicador",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-pix-multiplicador/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso comprador (comprovante de Pix falso)",
+    "url": "https://olhardigital.com.br/2026/02/26/seguranca/golpe-do-falso-comprador-o-que-e-o-esquema-que-fez-viih-tube-perder-quase-r-7-mil/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da mão fantasma (acesso remoto ao celular)",
+    "url": "https://blog.nubank.com.br/golpe-mao-fantasma-acesso-remoto/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso motoboy (recolhimento do cartão)",
+    "url": "https://blog.nubank.com.br/golpe-motoboy/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da troca de cartão",
+    "url": "https://www.promobit.com.br/blog/golpe-da-troca-de-cartao-saiba-como-acontece-e-como-se-proteger/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do boleto falso",
+    "url": "https://blog.nubank.com.br/como-saber-se-um-boleto-e-falso/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso empréstimo (depósito antecipado)",
+    "url": "https://www.serasa.com.br/credito/blog/golpe-do-emprestimo-tipos-mais-comuns-e-como-se-prevenir/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do bilhete premiado",
+    "url": "https://www.serasa.com.br/premium/blog/saiba-como-identificar-o-golpe-do-bilhete-premiado/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso leilão",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-leilao-falso-como-identificar-para-nao-cair/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do falso aluguel",
+    "url": "https://www.sindiconet.com.br/informese/como-funciona-o-golpe-do-aluguel-noticias-mercado",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da loja falsa (site ou perfil falso)",
+    "url": "https://www.serasa.com.br/imprensa/golpistas-nao-poupam-nem-instagram-para-praticar-fraudes/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Black Fraude (falsas promoções)",
+    "url": "https://www.serasa.com.br/premium/blog/black-fraude-conheca-os-golpes-mais-comuns/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe dos Correios (falsa taxa de entrega ou alfândega)",
+    "url": "https://www.serasa.com.br/premium/blog/golpe-da-entrega-falsa/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da CNH suspensa / falsa multa (Detran)",
+    "url": "https://www.serasa.com.br/blog/golpe-suspensao-cnh/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do INSS (falsa revisão de benefício e prova de vida)",
+    "url": "https://diariodonordeste.verdesmares.com.br/negocios/veja-golpes-mais-comuns-contra-aposentados-e-pensionistas-do-inss-1.3147104",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe do FGTS (falso saque)",
+    "url": "https://www.serasa.com.br/imprensa/serasa-faz-alerta-contra-o-golpe-do-fgts/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe dos valores a receber (Banco Central)",
+    "url": "https://www.bcb.gov.br/meubc/valores-a-receber",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Golpe da antena falsa (SMS em massa)",
+    "url": "https://www.serasa.com.br/blog/golpe-da-atena-falsa-como-se-proteger/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Golpes comuns no Brasil",
+    "name": "Glossário de fraudes bancárias digitais (Ministério da Justiça)",
+    "url": "https://www.gov.br/mj/pt-br/assuntos/alianca-nacional-de-combate-a-fraudes-bancarias-digitais/glossario_final_iniciativa_1-8_v10.pdf",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Jogo de azar",
+    "url": "https://en.wikipedia.org/wiki/Gambling",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Cassino online",
+    "url": "https://en.wikipedia.org/wiki/Online_gambling",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Apostas esportivas (bets)",
+    "url": "https://en.wikipedia.org/wiki/Sports_betting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Casa de apostas",
+    "url": "https://en.wikipedia.org/wiki/Bookmaker",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Loteria",
+    "url": "https://en.wikipedia.org/wiki/Lottery",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Opções binárias",
+    "url": "https://en.wikipedia.org/wiki/Binary_option",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Fortune Tiger (jogo do tigrinho)",
+    "url": "https://pt.wikipedia.org/wiki/Fortune_Tiger",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Loot box (caixa de recompensa)",
+    "url": "https://en.wikipedia.org/wiki/Loot_box",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Manipulação de resultados",
+    "url": "https://en.wikipedia.org/wiki/Match_fixing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Vantagem da casa",
+    "url": "https://en.wikipedia.org/wiki/Casino_game",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Falácia do apostador",
+    "url": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Valor esperado",
+    "url": "https://en.wikipedia.org/wiki/Expected_value",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Jogo patológico (vício em apostas)",
+    "url": "https://en.wikipedia.org/wiki/Problem_gambling",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Conceitos de apostas",
+    "name": "Polymarket (mercado de previsões)",
+    "url": "https://en.wikipedia.org/wiki/Polymarket",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Regulação e sites autorizados",
+    "name": "Lei das Bets",
+    "url": "https://pt.wikipedia.org/wiki/Lei_das_Bets",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Regulação e sites autorizados",
+    "name": "Secretaria de Prêmios e Apostas (bets autorizadas)",
+    "url": "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Regulação e sites autorizados",
+    "name": "Loterias Caixa",
+    "url": "https://loterias.caixa.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Regulação e sites autorizados",
+    "name": "UK Gambling Commission",
+    "url": "https://www.gamblingcommission.gov.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "Gamblers Anonymous",
+    "url": "https://www.gamblersanonymous.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "Jogadores Anônimos",
+    "url": "https://pt.wikipedia.org/wiki/Jogadores_An%C3%B4nimos",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "GambleAware",
+    "url": "https://www.gambleaware.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "GamCare",
+    "url": "https://www.gamcare.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "Gambling Therapy",
+    "url": "https://www.gamblingtherapy.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "Gamban",
+    "url": "https://gamban.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Apostas e jogos de azar",
+    "subcategory": "Ajuda e bloqueio de apostas",
+    "name": "BetBlocker",
+    "url": "https://betblocker.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Google Safe Browsing",
+    "url": "https://transparencyreport.google.com/safe-browsing/search",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "VirusTotal",
+    "url": "https://www.virustotal.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Scamadviser",
+    "url": "https://www.scamadviser.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "urlscan.io",
+    "url": "https://urlscan.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "URLVoid",
+    "url": "https://www.urlvoid.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Norton Safe Web",
+    "url": "https://safeweb.norton.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "ICANN Lookup (dono do domínio)",
+    "url": "https://lookup.icann.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Registro.br (WHOIS)",
+    "url": "https://registro.br/tecnologia/ferramentas/whois/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Get Safe Online — Check a Website",
+    "url": "https://www.getsafeonline.org/checkawebsite/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Scam Detector",
+    "url": "https://www.scam-detector.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Sites, links e lojas",
+    "name": "Bitdefender Scamio",
+    "url": "https://www.bitdefender.com/en-us/consumer/scamio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "Reclame Aqui",
+    "url": "https://www.reclameaqui.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "Consumidor.gov.br",
+    "url": "https://www.consumidor.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "Trustpilot",
+    "url": "https://www.trustpilot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "Better Business Bureau",
+    "url": "https://www.bbb.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "OpenCorporates",
+    "url": "https://opencorporates.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "Companies House (Reino Unido)",
+    "url": "https://find-and-update.company-information.service.gov.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "SEC EDGAR (EUA)",
+    "url": "https://www.sec.gov/edgar/search/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Reputação de empresas",
+    "name": "VIES — validar empresa na União Europeia",
+    "url": "https://ec.europa.eu/taxation_customs/vies/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "E-mails, telefones e vazamentos",
+    "name": "Have I Been Pwned",
+    "url": "https://haveibeenpwned.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "E-mails, telefones e vazamentos",
+    "name": "Mozilla Monitor",
+    "url": "https://monitor.mozilla.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "E-mails, telefones e vazamentos",
+    "name": "Truecaller",
+    "url": "https://www.truecaller.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "E-mails, telefones e vazamentos",
+    "name": "Hiya",
+    "url": "https://www.hiya.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "E-mails, telefones e vazamentos",
+    "name": "MxToolbox (analisar cabeçalho de e-mail)",
+    "url": "https://mxtoolbox.com/EmailHeaders.aspx",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "TinEye",
+    "url": "https://tineye.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "Google Lens",
+    "url": "https://search.google/ways-to-search/lens/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "Yandex Imagens",
+    "url": "https://yandex.com/images/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "Social Catfish",
+    "url": "https://socialcatfish.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "Forensically",
+    "url": "https://29a.ch/photo-forensics/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Imagens, perfis e deepfakes",
+    "name": "InVID-WeVerify",
+    "url": "https://www.invid-project.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "CVM",
+    "url": "https://www.gov.br/cvm/pt-br",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "Banco Central — Encontre uma instituição",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/encontreinstituicao",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "Investor.gov (SEC)",
+    "url": "https://www.investor.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "FINRA BrokerCheck",
+    "url": "https://brokercheck.finra.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "FCA ScamSmart",
+    "url": "https://www.fca.org.uk/scamsmart",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "FCA Financial Services Register",
+    "url": "https://register.fca.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Investimentos e instituições financeiras",
+    "name": "IOSCO I-SCAN",
+    "url": "https://www.iosco.org/i-scan/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Cripto",
+    "name": "Chainabuse",
+    "url": "https://www.chainabuse.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Cripto",
+    "name": "Revoke.cash",
+    "url": "https://revoke.cash/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Cripto",
+    "name": "Scam Sniffer",
+    "url": "https://www.scamsniffer.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Cripto",
+    "name": "Web3 Is Going Just Great",
+    "url": "https://www.web3isgoinggreat.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Snopes",
+    "url": "https://www.snopes.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "FactCheck.org",
+    "url": "https://www.factcheck.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "PolitiFact",
+    "url": "https://www.politifact.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Full Fact",
+    "url": "https://fullfact.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Google Fact Check Explorer",
+    "url": "https://toolbox.google.com/factcheck/explorer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Aos Fatos",
+    "url": "https://www.aosfatos.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Agência Lupa",
+    "url": "https://www.agencialupa.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Boatos.org",
+    "url": "https://www.boatos.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "E-farsas",
+    "url": "https://www.e-farsas.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Projeto Comprova",
+    "url": "https://projetocomprova.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "AFP Fact Check",
+    "url": "https://factcheck.afp.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Reuters Fact Check",
+    "url": "https://www.reuters.com/fact-check/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Maldita.es (Espanha)",
+    "url": "https://maldita.es/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Chequeado (Argentina)",
+    "url": "https://chequeado.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Correctiv (Alemanha)",
+    "url": "https://correctiv.org/faktencheck/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Africa Check",
+    "url": "https://africacheck.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "BOOM (Índia)",
+    "url": "https://www.boomlive.in/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Roundcheck (Nigéria)",
+    "url": "https://roundcheck.com.ng/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "FactCheckHub (Nigéria)",
+    "url": "https://factcheckhub.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "ABC News Fact Check (Austrália)",
+    "url": "https://www.abc.net.au/news/factcheck",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "AAP FactCheck (Austrália)",
+    "url": "https://www.aap.com.au/factcheck/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Annie Lab (Hong Kong)",
+    "url": "https://annielab.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "China Fact Check / 有据 (China)",
+    "url": "https://chinafactcheck.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Verificar antes de confiar",
+    "subcategory": "Checagem de fatos e boatos",
+    "name": "Factcheck Lab (Hong Kong)",
+    "url": "https://www.factchecklab.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Brasil",
+    "name": "SaferNet — Denuncie",
+    "url": "https://new.safernet.org.br/denuncie",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Brasil",
+    "name": "Registrato (Banco Central)",
+    "url": "https://www.bcb.gov.br/cidadaniafinanceira/registrato",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Brasil",
+    "name": "Reclamação ao Banco Central",
+    "url": "https://www.bcb.gov.br/meubc/registrar_reclamacao",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Brasil",
+    "name": "CERT.br (incidentes de segurança)",
+    "url": "https://www.cert.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Brasil",
+    "name": "Consumidor.gov.br",
+    "url": "https://www.consumidor.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "FBI IC3",
+    "url": "https://www.ic3.gov/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "FTC ReportFraud",
+    "url": "https://reportfraud.ftc.gov/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Action Fraud (Reino Unido)",
+    "url": "https://www.actionfraud.police.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Scamwatch (Austrália)",
+    "url": "https://www.scamwatch.gov.au/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Canadian Anti-Fraud Centre",
+    "url": "https://antifraudcentre-centreantifraude.ca/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "econsumer.gov",
+    "url": "https://www.econsumer.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Europol — Denuncie um crime",
+    "url": "https://www.europol.europa.eu/report-a-crime",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Interpol",
+    "url": "https://www.interpol.int/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "NCSC — Denunciar phishing (Reino Unido)",
+    "url": "https://www.ncsc.gov.uk/collection/phishing-scams",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Cybermalveillance.gouv.fr (França)",
+    "url": "https://www.cybermalveillance.gouv.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Pharos (França)",
+    "url": "https://www.internet-signalement.gouv.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "INCIBE — Linha 017 (Espanha)",
+    "url": "https://www.incibe.es/linea-de-ayuda-en-ciberseguridad",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "National Cyber Crime Reporting Portal (Índia)",
+    "url": "https://cybercrime.gov.in/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "ScamShield (Singapura)",
+    "url": "https://www.scamshield.gov.sg/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Internacional",
+    "name": "Netsafe (Nova Zelândia)",
+    "url": "https://netsafe.org.nz/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Denunciar phishing",
+    "name": "Google — Denunciar phishing",
+    "url": "https://safebrowsing.google.com/safebrowsing/report_phish/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Denunciar phishing",
+    "name": "Microsoft — Denunciar golpe",
+    "url": "https://reportfraud.microsoft.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Denunciar golpes",
+    "subcategory": "Denunciar phishing",
+    "name": "APWG — Report Phishing",
+    "url": "https://apwg.org/reportphishing/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Cartilha de Segurança para Internet (CERT.br)",
+    "url": "https://cartilha.cert.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Internet Segura",
+    "url": "https://internetsegura.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "SaferNet Brasil",
+    "url": "https://new.safernet.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "FTC — Consumer Advice",
+    "url": "https://consumer.ftc.gov/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Scamwatch — Tipos de golpe",
+    "url": "https://www.scamwatch.gov.au/types-of-scams",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Get Safe Online",
+    "url": "https://www.getsafeonline.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Which? (golpes)",
+    "url": "https://www.which.co.uk/consumer-rights/scams",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "AARP Fraud Watch Network",
+    "url": "https://www.aarp.org/money/scams-fraud/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Google Safety Center",
+    "url": "https://safety.google/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Stop. Think. Connect.",
+    "url": "https://www.stopthinkconnect.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Global Anti-Scam Alliance (GASA)",
+    "url": "https://www.gasa.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "NCSC (Reino Unido)",
+    "url": "https://www.ncsc.gov.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "CISA (EUA)",
+    "url": "https://www.cisa.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "ENISA (União Europeia)",
+    "url": "https://www.enisa.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Australian Cyber Security Centre",
+    "url": "https://www.cyber.gov.au/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Consumer Financial Protection Bureau (EUA)",
+    "url": "https://www.consumerfinance.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Take Five to Stop Fraud (Reino Unido)",
+    "url": "https://www.takefive-stopfraud.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Guias oficiais",
+    "name": "Stop Scams UK",
+    "url": "https://stopscamsuk.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Organizações antifraude",
+    "name": "ACFE (Association of Certified Fraud Examiners)",
+    "url": "https://www.acfe.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Organizações antifraude",
+    "name": "Cifas (Reino Unido)",
+    "url": "https://www.cifas.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Organizações antifraude",
+    "name": "ICPEN (rede internacional de proteção ao consumidor)",
+    "url": "https://www.icpen.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Organizações antifraude",
+    "name": "Anti-Phishing Working Group (APWG)",
+    "url": "https://apwg.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Testes e treinos",
+    "name": "Google Phishing Quiz",
+    "url": "https://phishingquiz.withgoogle.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Comunidades",
+    "name": "r/Scams",
+    "url": "https://www.reddit.com/r/Scams/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Comunidades",
+    "name": "r/phishing",
+    "url": "https://www.reddit.com/r/phishing/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Blogs e notícias de segurança",
+    "name": "KrebsOnSecurity",
+    "url": "https://krebsonsecurity.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Blogs e notícias de segurança",
+    "name": "Schneier on Security",
+    "url": "https://www.schneier.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Blogs e notícias de segurança",
+    "name": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Aprender a se proteger",
+    "subcategory": "Blogs e notícias de segurança",
+    "name": "Troy Hunt",
+    "url": "https://www.troyhunt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "Bitwarden",
+    "url": "https://bitwarden.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "1Password",
+    "url": "https://1password.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "Proton Pass",
+    "url": "https://proton.me/pass",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "Ente Auth",
+    "url": "https://ente.com/auth/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "Aegis Authenticator",
+    "url": "https://getaegis.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "YubiKey",
+    "url": "https://www.yubico.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Senhas e autenticação",
+    "name": "2FA Directory",
+    "url": "https://2fa.directory/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "Malwarebytes",
+    "url": "https://www.malwarebytes.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "uBlock Origin",
+    "url": "https://ublockorigin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "Bitdefender",
+    "url": "https://www.bitdefender.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "NextDNS",
+    "url": "https://nextdns.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "Quad9",
+    "url": "https://www.quad9.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Navegação e bloqueio",
+    "name": "Cloudflare 1.1.1.1 for Families",
+    "url": "https://one.one.one.one/family/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Bloqueio de ligações e spam",
+    "name": "Não Me Perturbe",
+    "url": "https://www.naomeperturbe.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Bloqueio de ligações e spam",
+    "name": "National Do Not Call Registry (EUA)",
+    "url": "https://www.donotcall.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Bloqueio de ligações e spam",
+    "name": "Telephone Preference Service (Reino Unido)",
+    "url": "https://www.tpsonline.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Bloqueio de ligações e spam",
+    "name": "Nomorobo",
+    "url": "https://www.nomorobo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Bloqueio de ligações e spam",
+    "name": "RoboKiller",
+    "url": "https://www.robokiller.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "Serasa",
+    "url": "https://www.serasa.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "ANPD (proteção de dados)",
+    "url": "https://www.gov.br/anpd/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "IdentityTheft.gov (EUA)",
+    "url": "https://www.identitytheft.gov/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "Experian",
+    "url": "https://www.experian.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "Equifax",
+    "url": "https://www.equifax.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Proteção digital",
+    "subcategory": "Dados pessoais e crédito",
+    "name": "TransUnion",
+    "url": "https://www.transunion.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Robert Cialdini - As Armas da Persuasão",
+    "url": "https://www.goodreads.com/search?q=Robert+Cialdini+Influence",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Kevin Mitnick - A Arte de Enganar",
+    "url": "https://www.goodreads.com/search?q=Kevin+Mitnick+The+Art+of+Deception",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Maria Konnikova - The Confidence Game",
+    "url": "https://www.goodreads.com/search?q=Maria+Konnikova+The+Confidence+Game",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Frank Abagnale - Prenda-me Se For Capaz",
+    "url": "https://www.goodreads.com/search?q=Frank+Abagnale+Catch+Me+If+You+Can",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "John Carreyrou - Bad Blood",
+    "url": "https://www.goodreads.com/search?q=John+Carreyrou+Bad+Blood",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Bethany McLean - The Smartest Guys in the Room",
+    "url": "https://www.goodreads.com/search?q=Bethany+McLean+The+Smartest+Guys+in+the+Room",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Zeke Faux - Number Go Up",
+    "url": "https://www.goodreads.com/search?q=Zeke+Faux+Number+Go+Up",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Dan Davies - Lying for Money",
+    "url": "https://www.goodreads.com/search?q=Dan+Davies+Lying+for+Money",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Brian Krebs - Spam Nation",
+    "url": "https://www.goodreads.com/search?q=Brian+Krebs+Spam+Nation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Jordan Belfort - O Lobo de Wall Street",
+    "url": "https://www.goodreads.com/search?q=Jordan+Belfort+The+Wolf+of+Wall+Street",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Diana B. Henriques - The Wizard of Lies",
+    "url": "https://www.goodreads.com/search?q=Diana+Henriques+The+Wizard+of+Lies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Harry Markopolos - No One Would Listen",
+    "url": "https://www.goodreads.com/search?q=Harry+Markopolos+No+One+Would+Listen",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "Michael Lewis - Going Infinite",
+    "url": "https://en.wikipedia.org/wiki/Going_Infinite",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Livros",
+    "name": "David W. Maurer - The Big Con",
+    "url": "https://www.goodreads.com/search?q=David+Maurer+The+Big+Con",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "O Golpista do Tinder",
+    "url": "https://en.wikipedia.org/wiki/The_Tinder_Swindler",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Fyre: The Greatest Party That Never Happened",
+    "url": "https://en.wikipedia.org/wiki/Fyre_(film)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Inventing Anna",
+    "url": "https://en.wikipedia.org/wiki/Inventing_Anna",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "The Inventor: Out for Blood in Silicon Valley",
+    "url": "https://en.wikipedia.org/wiki/The_Inventor:_Out_for_Blood_in_Silicon_Valley",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Bad Vegan",
+    "url": "https://en.wikipedia.org/wiki/Bad_Vegan",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Prenda-me Se For Capaz",
+    "url": "https://en.wikipedia.org/wiki/Catch_Me_If_You_Can",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "O Mago das Mentiras",
+    "url": "https://en.wikipedia.org/wiki/The_Wizard_of_Lies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "O Lobo de Wall Street",
+    "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Golpe de Mestre (The Sting)",
+    "url": "https://en.wikipedia.org/wiki/The_Sting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Nove Rainhas",
+    "url": "https://en.wikipedia.org/wiki/Nine_Queens",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Os Vigaristas (Matchstick Men)",
+    "url": "https://en.wikipedia.org/wiki/Matchstick_Men",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "O Primeiro Milhão (Boiler Room)",
+    "url": "https://en.wikipedia.org/wiki/Boiler_Room_(film)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "A Grande Aposta",
+    "url": "https://en.wikipedia.org/wiki/The_Big_Short_(film)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Enron: Os Mais Espertos da Sala",
+    "url": "https://en.wikipedia.org/wiki/Enron:_The_Smartest_Guys_in_the_Room",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Madoff: O Monstro de Wall Street",
+    "url": "https://en.wikipedia.org/wiki/Madoff:_The_Monster_of_Wall_Street",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "The Dropout",
+    "url": "https://en.wikipedia.org/wiki/The_Dropout",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Trust No One: The Hunt for the Crypto King",
+    "url": "https://en.wikipedia.org/wiki/Trust_No_One:_The_Hunt_for_the_Crypto_King",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "Dinheiro Sujo (Dirty Money)",
+    "url": "https://en.wikipedia.org/wiki/Dirty_Money_(2018_TV_series)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e filmes",
+    "subcategory": "Filmes e documentários",
+    "name": "American Greed",
+    "url": "https://en.wikipedia.org/wiki/American_Greed",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Wesley Teixeira",
+    "url": "https://www.instagram.com/wesleystx",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Cabelo",
+    "url": "https://www.instagram.com/thecabelo",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Coffeezilla",
+    "url": "https://www.youtube.com/@Coffeezilla",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Jim Browning",
+    "url": "https://www.youtube.com/@JimBrowning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Kitboga",
+    "url": "https://www.youtube.com/results?search_query=Kitboga",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Scammer Payback",
+    "url": "https://www.youtube.com/@ScammerPayback",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Mark Rober",
+    "url": "https://www.youtube.com/@MarkRober",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Folding Ideas (Dan Olson)",
+    "url": "https://www.youtube.com/@FoldingIdeas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Molly White",
+    "url": "https://www.mollywhite.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "James Veitch",
+    "url": "https://en.wikipedia.org/wiki/James_Veitch_(comedian)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Guga Fígueiredo",
+    "url": "https://www.instagram.com/gugafigu",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Caçadores de golpes",
+    "name": "Rogério Betin",
+    "url": "https://www.instagram.com/rogeriobetin/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Harry Markopolos",
+    "url": "https://en.wikipedia.org/wiki/Harry_Markopolos",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "John Carreyrou",
+    "url": "https://en.wikipedia.org/wiki/John_Carreyrou",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Tyler Shultz",
+    "url": "https://en.wikipedia.org/wiki/Tyler_Shultz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Carson Block",
+    "url": "https://en.wikipedia.org/wiki/Carson_Block",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Hindenburg Research",
+    "url": "https://en.wikipedia.org/wiki/Hindenburg_Research",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Brian Krebs",
+    "url": "https://en.wikipedia.org/wiki/Brian_Krebs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Jornalistas e denunciantes",
+    "name": "Troy Hunt",
+    "url": "https://en.wikipedia.org/wiki/Troy_Hunt",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Especialistas",
+    "name": "Kevin Mitnick",
+    "url": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Especialistas",
+    "name": "Bruce Schneier",
+    "url": "https://en.wikipedia.org/wiki/Bruce_Schneier",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Especialistas",
+    "name": "Robert Cialdini",
+    "url": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas",
+    "subcategory": "Especialistas",
+    "name": "Maria Konnikova",
+    "url": "https://en.wikipedia.org/wiki/Maria_Konnikova",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,3287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Emprego — Catálogo pesquisável sobre carreira: vagas, freelance, trabalho remoto, currículo, salários e mais</title>
+<meta content="Catálogo pesquisável sobre a vida profissional: sites de vagas e freelance, trabalho remoto, currículo e portfólio, entrevistas, salários, recrutamento, qualificação, direitos trabalhistas e conceitos de carreira." name="description"/>
+<link href="https://biblioverse.org/job/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="job" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Emprego</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Emprego</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Emprego",
+    "url": "https://en.wikipedia.org/wiki/Employment",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Carreira",
+    "url": "https://en.wikipedia.org/wiki/Career",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Desenvolvimento de carreira",
+    "url": "https://en.wikipedia.org/wiki/Career_development",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Mercado de trabalho",
+    "url": "https://en.wikipedia.org/wiki/Labour_economics",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Desemprego",
+    "url": "https://en.wikipedia.org/wiki/Unemployment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Freelancer",
+    "url": "https://en.wikipedia.org/wiki/Freelancer",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Gig economy",
+    "url": "https://en.wikipedia.org/wiki/Gig_worker",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Trabalho remoto",
+    "url": "https://en.wikipedia.org/wiki/Remote_work",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Nômade digital",
+    "url": "https://en.wikipedia.org/wiki/Digital_nomad",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Estágio",
+    "url": "https://en.wikipedia.org/wiki/Internship",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Programa de aprendizagem",
+    "url": "https://en.wikipedia.org/wiki/Apprenticeship",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Networking",
+    "url": "https://en.wikipedia.org/wiki/Business_networking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Marca pessoal",
+    "url": "https://en.wikipedia.org/wiki/Personal_branding",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Mentoria",
+    "url": "https://en.wikipedia.org/wiki/Mentorship",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Carreira e trabalho",
+    "name": "Coaching",
+    "url": "https://en.wikipedia.org/wiki/Coaching",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Currículo",
+    "url": "https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Carta de apresentação",
+    "url": "https://en.wikipedia.org/wiki/Cover_letter",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Portfólio profissional",
+    "url": "https://en.wikipedia.org/wiki/Career_portfolio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Recrutamento",
+    "url": "https://en.wikipedia.org/wiki/Recruitment",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Headhunter (executive search)",
+    "url": "https://en.wikipedia.org/wiki/Executive_search",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Sistema de rastreamento de candidatos (ATS)",
+    "url": "https://en.wikipedia.org/wiki/Applicant_tracking_system",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Entrevista de emprego",
+    "url": "https://en.wikipedia.org/wiki/Job_interview",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Método STAR",
+    "url": "https://en.wikipedia.org/wiki/Situation,_task,_action,_result",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Elevator pitch",
+    "url": "https://en.wikipedia.org/wiki/Elevator_pitch",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Verificação de antecedentes",
+    "url": "https://en.wikipedia.org/wiki/Background_check",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Período de experiência",
+    "url": "https://en.wikipedia.org/wiki/Probation_(workplace)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Processo seletivo",
+    "name": "Onboarding",
+    "url": "https://en.wikipedia.org/wiki/Onboarding",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Salário",
+    "url": "https://en.wikipedia.org/wiki/Salary",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Salário mínimo",
+    "url": "https://en.wikipedia.org/wiki/Minimum_wage",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Benefícios",
+    "url": "https://en.wikipedia.org/wiki/Employee_benefits",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Participação nos lucros",
+    "url": "https://en.wikipedia.org/wiki/Profit_sharing",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Stock options",
+    "url": "https://en.wikipedia.org/wiki/Employee_stock_option",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Transparência salarial",
+    "url": "https://en.wikipedia.org/wiki/Pay_transparency",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Férias",
+    "url": "https://en.wikipedia.org/wiki/Annual_leave",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Contrato de trabalho",
+    "url": "https://en.wikipedia.org/wiki/Employment_contract",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Sindicato",
+    "url": "https://en.wikipedia.org/wiki/Trade_union",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Demissão em massa (layoff)",
+    "url": "https://en.wikipedia.org/wiki/Layoff",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Seguro-desemprego",
+    "url": "https://en.wikipedia.org/wiki/Unemployment_benefits",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Remuneração e benefícios",
+    "name": "Aposentadoria",
+    "url": "https://en.wikipedia.org/wiki/Retirement",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Soft skills",
+    "url": "https://en.wikipedia.org/wiki/Soft_skills",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Liderança",
+    "url": "https://en.wikipedia.org/wiki/Leadership",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Inteligência emocional",
+    "url": "https://en.wikipedia.org/wiki/Emotional_intelligence",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Gestão do tempo",
+    "url": "https://en.wikipedia.org/wiki/Time_management",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Pensamento crítico",
+    "url": "https://en.wikipedia.org/wiki/Critical_thinking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Trabalho em equipe",
+    "url": "https://en.wikipedia.org/wiki/Teamwork",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Resolução de problemas",
+    "url": "https://en.wikipedia.org/wiki/Problem_solving",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Educação ao longo da vida",
+    "url": "https://en.wikipedia.org/wiki/Lifelong_learning",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Habilidades",
+    "name": "Requalificação profissional",
+    "url": "https://en.wikipedia.org/wiki/Retraining",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Cultura organizacional",
+    "url": "https://en.wikipedia.org/wiki/Organizational_culture",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Recursos humanos",
+    "url": "https://en.wikipedia.org/wiki/Human_resources",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Avaliação de desempenho",
+    "url": "https://en.wikipedia.org/wiki/Performance_appraisal",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "OKR",
+    "url": "https://en.wikipedia.org/wiki/OKR",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Feedback 360°",
+    "url": "https://en.wikipedia.org/wiki/360-degree_feedback",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Employer branding",
+    "url": "https://en.wikipedia.org/wiki/Employer_branding",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Diversidade, equidade e inclusão",
+    "url": "https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Equilíbrio entre vida e trabalho",
+    "url": "https://en.wikipedia.org/wiki/Work%E2%80%93life_balance",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Burnout",
+    "url": "https://en.wikipedia.org/wiki/Occupational_burnout",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Síndrome do impostor",
+    "url": "https://en.wikipedia.org/wiki/Impostor_syndrome",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Assédio moral no trabalho",
+    "url": "https://en.wikipedia.org/wiki/Workplace_bullying",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Saúde e segurança ocupacional",
+    "url": "https://en.wikipedia.org/wiki/Occupational_safety_and_health",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Grande Renúncia",
+    "url": "https://en.wikipedia.org/wiki/Great_Resignation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Cultura e bem-estar no trabalho",
+    "name": "Quiet quitting",
+    "url": "https://en.wikipedia.org/wiki/Quiet_quitting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "LinkedIn Vagas",
+    "url": "https://www.linkedin.com/jobs/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Indeed",
+    "url": "https://www.indeed.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Glassdoor",
+    "url": "https://www.glassdoor.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Monster",
+    "url": "https://www.monster.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "CareerBuilder",
+    "url": "https://www.careerbuilder.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "SimplyHired",
+    "url": "https://www.simplyhired.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Jooble",
+    "url": "https://jooble.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Adzuna",
+    "url": "https://www.adzuna.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Plataformas globais",
+    "name": "Talent.com",
+    "url": "https://www.talent.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "StepStone",
+    "url": "https://www.stepstone.de/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "Xing",
+    "url": "https://www.xing.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "Reed",
+    "url": "https://www.reed.co.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "Welcome to the Jungle",
+    "url": "https://www.welcometothejungle.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "EURES",
+    "url": "https://eures.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "Seek",
+    "url": "https://www.seek.com.au/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Europa, Ásia e Oceania",
+    "name": "Naukri",
+    "url": "https://www.naukri.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Catho",
+    "url": "https://www.catho.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Vagas.com",
+    "url": "https://www.vagas.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Gupy (portal de vagas)",
+    "url": "https://portal.gupy.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "InfoJobs",
+    "url": "https://www.infojobs.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Indeed Brasil",
+    "url": "https://br.indeed.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "BNE",
+    "url": "https://www.bne.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Empregos.com.br",
+    "url": "https://www.empregos.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Trampos",
+    "url": "https://trampos.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Revelo",
+    "url": "https://www.revelo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Brasil",
+    "name": "Emprega Brasil (Sine)",
+    "url": "https://empregabrasil.mte.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Portugal e América Latina",
+    "name": "Net-Empregos",
+    "url": "https://www.net-empregos.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Portugal e América Latina",
+    "name": "Computrabajo",
+    "url": "https://www.computrabajo.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Portugal e América Latina",
+    "name": "Bumeran",
+    "url": "https://www.bumeran.com.ar/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Portugal e América Latina",
+    "name": "OCC Mundial",
+    "url": "https://www.occ.com.mx/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Estágios e primeiro emprego",
+    "name": "Handshake",
+    "url": "https://joinhandshake.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Estágios e primeiro emprego",
+    "name": "CIEE",
+    "url": "https://portal.ciee.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Estágios e primeiro emprego",
+    "name": "Nube",
+    "url": "https://www.nube.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Estágios e primeiro emprego",
+    "name": "Cia de Talentos",
+    "url": "https://www.ciadetalentos.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Estágios e primeiro emprego",
+    "name": "AIESEC",
+    "url": "https://aiesec.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Startups",
+    "name": "Wellfound",
+    "url": "https://wellfound.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Startups",
+    "name": "Work at a Startup (Y Combinator)",
+    "url": "https://www.workatastartup.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Startups",
+    "name": "Startup.jobs",
+    "url": "https://startup.jobs/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Startups",
+    "name": "Built In",
+    "url": "https://builtin.com/jobs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "Carreiras na ONU",
+    "url": "https://careers.un.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "EU Careers (EPSO)",
+    "url": "https://eu-careers.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "USAJOBS",
+    "url": "https://www.usajobs.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "Devex",
+    "url": "https://www.devex.com/jobs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "Impactpool",
+    "url": "https://www.impactpool.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "ReliefWeb Jobs",
+    "url": "https://reliefweb.int/jobs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "PCI Concursos",
+    "url": "https://www.pciconcursos.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Setor público e organismos internacionais",
+    "name": "JC Concursos",
+    "url": "https://jcconcursos.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Impacto social e ONGs",
+    "name": "Idealist",
+    "url": "https://www.idealist.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas de emprego",
+    "subcategory": "Impacto social e ONGs",
+    "name": "80,000 Hours (vagas)",
+    "url": "https://jobs.80000hours.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Tecnologia",
+    "name": "Dice",
+    "url": "https://www.dice.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Tecnologia",
+    "name": "Hacker News: Who is hiring?",
+    "url": "https://hnhiring.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Tecnologia",
+    "name": "GeekHunter",
+    "url": "https://www.geekhunter.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Tecnologia",
+    "name": "Programathor",
+    "url": "https://programathor.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Design e criatividade",
+    "name": "Dribbble Jobs",
+    "url": "https://dribbble.com/jobs",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Design e criatividade",
+    "name": "Authentic Jobs",
+    "url": "https://authenticjobs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Design e criatividade",
+    "name": "Krop",
+    "url": "https://www.krop.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Design e criatividade",
+    "name": "Working Not Working",
+    "url": "https://workingnotworking.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Design e criatividade",
+    "name": "Coroflot",
+    "url": "https://www.coroflot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Comunicação, mídia e audiovisual",
+    "name": "Mediabistro",
+    "url": "https://www.mediabistro.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Comunicação, mídia e audiovisual",
+    "name": "JournalismJobs.com",
+    "url": "https://www.journalismjobs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Comunicação, mídia e audiovisual",
+    "name": "Mandy",
+    "url": "https://www.mandy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Comunicação, mídia e audiovisual",
+    "name": "Backstage",
+    "url": "https://www.backstage.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Saúde e educação",
+    "name": "Health eCareers",
+    "url": "https://www.healthecareers.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Saúde e educação",
+    "name": "HigherEdJobs",
+    "url": "https://www.higheredjobs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Vagas por área",
+    "subcategory": "Saúde e educação",
+    "name": "Teach Away",
+    "url": "https://www.teachaway.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "We Work Remotely",
+    "url": "https://weworkremotely.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Remote OK",
+    "url": "https://remoteok.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Remotive",
+    "url": "https://remotive.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "FlexJobs",
+    "url": "https://www.flexjobs.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Remote.co",
+    "url": "https://remote.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Working Nomads",
+    "url": "https://www.workingnomads.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Himalayas",
+    "url": "https://himalayas.app/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "JustRemote",
+    "url": "https://justremote.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "DailyRemote",
+    "url": "https://dailyremote.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Jobspresso",
+    "url": "https://jobspresso.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Arc",
+    "url": "https://arc.dev/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Vagas remotas",
+    "name": "Turing",
+    "url": "https://www.turing.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Receber do exterior",
+    "name": "Wise",
+    "url": "https://wise.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Receber do exterior",
+    "name": "Payoneer",
+    "url": "https://www.payoneer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Receber do exterior",
+    "name": "Husky",
+    "url": "https://husky.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Receber do exterior",
+    "name": "Remessa Online",
+    "url": "https://www.remessaonline.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Nomadismo e coworking",
+    "name": "Nomads.com (Nomad List)",
+    "url": "https://nomads.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Nomadismo e coworking",
+    "name": "Coworker",
+    "url": "https://www.coworker.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Nomadismo e coworking",
+    "name": "WeWork",
+    "url": "https://www.wework.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Trabalho remoto",
+    "subcategory": "Nomadismo e coworking",
+    "name": "Numbeo (custo de vida)",
+    "url": "https://www.numbeo.com/cost-of-living/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Upwork",
+    "url": "https://www.upwork.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Fiverr",
+    "url": "https://www.fiverr.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Workana",
+    "url": "https://www.workana.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Freelancer.com",
+    "url": "https://www.freelancer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Guru",
+    "url": "https://www.guru.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "PeoplePerHour",
+    "url": "https://www.peopleperhour.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Malt",
+    "url": "https://www.malt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "Contra",
+    "url": "https://contra.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "99Freelas",
+    "url": "https://www.99freelas.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Plataformas gerais",
+    "name": "GetNinjas",
+    "url": "https://www.getninjas.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "Toptal",
+    "url": "https://www.toptal.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "Braintrust",
+    "url": "https://www.usebraintrust.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "A.Team",
+    "url": "https://www.a.team/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "Lemon.io",
+    "url": "https://lemon.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "Gun.io",
+    "url": "https://gun.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Talentos de elite e tecnologia",
+    "name": "Codeable",
+    "url": "https://www.codeable.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Criativos",
+    "name": "99designs",
+    "url": "https://99designs.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Criativos",
+    "name": "Behance (vagas e freelas)",
+    "url": "https://www.behance.net/joblist",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Escrita, tradução e conteúdo",
+    "name": "ProZ.com",
+    "url": "https://www.proz.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Escrita, tradução e conteúdo",
+    "name": "ProBlogger Jobs",
+    "url": "https://problogger.com/jobs/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Escrita, tradução e conteúdo",
+    "name": "Contently",
+    "url": "https://contently.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Escrita, tradução e conteúdo",
+    "name": "Textbroker",
+    "url": "https://www.textbroker.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Microtarefas e serviços locais",
+    "name": "TaskRabbit",
+    "url": "https://www.taskrabbit.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Microtarefas e serviços locais",
+    "name": "Thumbtack",
+    "url": "https://www.thumbtack.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Microtarefas e serviços locais",
+    "name": "Bark",
+    "url": "https://www.bark.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Microtarefas e serviços locais",
+    "name": "Amazon Mechanical Turk",
+    "url": "https://www.mturk.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Microtarefas e serviços locais",
+    "name": "Prolific",
+    "url": "https://www.prolific.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Bonsai",
+    "url": "https://www.hellobonsai.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Toggl Track",
+    "url": "https://toggl.com/track/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Clockify",
+    "url": "https://clockify.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Calendly",
+    "url": "https://calendly.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Wave",
+    "url": "https://www.waveapps.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Freelance",
+    "subcategory": "Ferramentas do freelancer",
+    "name": "Stripe",
+    "url": "https://stripe.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Canva (currículos)",
+    "url": "https://www.canva.com/resumes/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Europass",
+    "url": "https://europass.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Resume.io",
+    "url": "https://resume.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Zety",
+    "url": "https://zety.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Novorésumé",
+    "url": "https://novoresume.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Kickresume",
+    "url": "https://www.kickresume.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Enhancv",
+    "url": "https://enhancv.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Reactive Resume",
+    "url": "https://rxresu.me/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Criadores de currículo",
+    "name": "Overleaf (modelos de CV)",
+    "url": "https://www.overleaf.com/gallery/tagged/cv",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Otimização e busca de vagas",
+    "name": "Jobscan",
+    "url": "https://www.jobscan.co/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Otimização e busca de vagas",
+    "name": "Teal",
+    "url": "https://www.tealhq.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Otimização e busca de vagas",
+    "name": "Rezi",
+    "url": "https://www.rezi.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Otimização e busca de vagas",
+    "name": "Huntr",
+    "url": "https://huntr.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Otimização e busca de vagas",
+    "name": "Simplify",
+    "url": "https://simplify.jobs/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Portfólio",
+    "name": "Behance",
+    "url": "https://www.behance.net/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Portfólio",
+    "name": "Dribbble",
+    "url": "https://dribbble.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Portfólio",
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Portfólio",
+    "name": "Adobe Portfolio",
+    "url": "https://portfolio.adobe.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Portfólio",
+    "name": "Carrd",
+    "url": "https://carrd.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Redes profissionais",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Redes profissionais",
+    "name": "Blind",
+    "url": "https://www.teamblind.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Currículo, portfólio e networking",
+    "subcategory": "Redes profissionais",
+    "name": "Meetup",
+    "url": "https://www.meetup.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "Glassdoor (entrevistas)",
+    "url": "https://www.glassdoor.com/Interview/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "Google Interview Warmup",
+    "url": "https://grow.google/certificates/interview-warmup/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "Big Interview",
+    "url": "https://www.biginterview.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "Yoodli",
+    "url": "https://yoodli.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "interviewing.io",
+    "url": "https://interviewing.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "Tech Interview Handbook",
+    "url": "https://www.techinterviewhandbook.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "LeetCode",
+    "url": "https://leetcode.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Preparação para entrevistas",
+    "name": "HackerRank",
+    "url": "https://www.hackerrank.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "16Personalities",
+    "url": "https://www.16personalities.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "Big Five (Truity)",
+    "url": "https://www.truity.com/test/big-five-personality-test",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "CliftonStrengths",
+    "url": "https://www.gallup.com/cliftonstrengths/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "VIA Character Strengths",
+    "url": "https://www.viacharacter.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "O*NET Interest Profiler",
+    "url": "https://onetinterestprofiler.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Entrevistas e testes",
+    "subcategory": "Testes de perfil e vocação",
+    "name": "DISC",
+    "url": "https://en.wikipedia.org/wiki/DISC_assessment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Levels.fyi",
+    "url": "https://www.levels.fyi/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Glassdoor (salários)",
+    "url": "https://www.glassdoor.com/Salaries/index.htm",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Payscale",
+    "url": "https://www.payscale.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Salary.com",
+    "url": "https://www.salary.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Indeed (salários)",
+    "url": "https://www.indeed.com/career/salaries",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Guia Salarial Robert Half",
+    "url": "https://www.roberthalf.com/us/en/insights/salary-guide",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Pesquisa salarial",
+    "name": "Salario.com.br",
+    "url": "https://www.salario.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Avaliação de empresas",
+    "name": "Glassdoor (avaliações)",
+    "url": "https://www.glassdoor.com/Reviews/index.htm",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Avaliação de empresas",
+    "name": "Indeed (empresas)",
+    "url": "https://www.indeed.com/companies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Avaliação de empresas",
+    "name": "Comparably",
+    "url": "https://www.comparably.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Avaliação de empresas",
+    "name": "Kununu",
+    "url": "https://www.kununu.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Salários e empresas",
+    "subcategory": "Avaliação de empresas",
+    "name": "Great Place to Work",
+    "url": "https://www.greatplacetowork.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Greenhouse",
+    "url": "https://www.greenhouse.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Lever",
+    "url": "https://www.lever.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Ashby",
+    "url": "https://www.ashbyhq.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Workday",
+    "url": "https://www.workday.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "SmartRecruiters",
+    "url": "https://www.smartrecruiters.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Workable",
+    "url": "https://www.workable.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Teamtailor",
+    "url": "https://www.teamtailor.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "BambooHR",
+    "url": "https://www.bamboohr.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Sistemas de recrutamento (ATS)",
+    "name": "Gupy",
+    "url": "https://www.gupy.io/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Robert Half",
+    "url": "https://www.roberthalf.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Michael Page",
+    "url": "https://www.michaelpage.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Hays",
+    "url": "https://www.hays.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Randstad",
+    "url": "https://www.randstad.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Adecco",
+    "url": "https://www.adecco.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "ManpowerGroup",
+    "url": "https://www.manpowergroup.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Korn Ferry",
+    "url": "https://www.kornferry.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Spencer Stuart",
+    "url": "https://www.spencerstuart.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Heidrick & Struggles",
+    "url": "https://www.heidrick.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Agências e headhunters",
+    "name": "Egon Zehnder",
+    "url": "https://www.egonzehnder.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Contratação internacional e folha",
+    "name": "Deel",
+    "url": "https://www.deel.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Contratação internacional e folha",
+    "name": "Remote.com",
+    "url": "https://remote.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Contratação internacional e folha",
+    "name": "Oyster",
+    "url": "https://www.oysterhr.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Contratação internacional e folha",
+    "name": "Rippling",
+    "url": "https://www.rippling.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recrutamento e RH",
+    "subcategory": "Contratação internacional e folha",
+    "name": "Gusto",
+    "url": "https://gusto.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Coursera",
+    "url": "https://www.coursera.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "LinkedIn Learning",
+    "url": "https://www.linkedin.com/learning/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Google Career Certificates",
+    "url": "https://grow.google/certificates/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "edX",
+    "url": "https://www.edx.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Alura",
+    "url": "https://www.alura.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Fundação Bradesco — Escola Virtual",
+    "url": "https://www.ev.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Cursos e certificados",
+    "name": "Escola Virtual de Governo (EV.G)",
+    "url": "https://www.escolavirtual.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Orientação de carreira",
+    "name": "O*NET OnLine",
+    "url": "https://www.onetonline.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Orientação de carreira",
+    "name": "Occupational Outlook Handbook",
+    "url": "https://www.bls.gov/ooh/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Orientação de carreira",
+    "name": "80,000 Hours",
+    "url": "https://80000hours.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Orientação de carreira",
+    "name": "CareerExplorer",
+    "url": "https://www.careerexplorer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Qualificação e orientação",
+    "subcategory": "Orientação de carreira",
+    "name": "Guia do Estudante — Profissões",
+    "url": "https://guiadoestudante.abril.com.br/profissoes/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "Sebrae",
+    "url": "https://sebrae.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "Portal do Empreendedor (MEI)",
+    "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "NFS-e Nacional",
+    "url": "https://www.gov.br/nfse/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "Contabilizei",
+    "url": "https://www.contabilizei.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Empreendedorismo e autônomos",
+    "subcategory": "Abrir e formalizar um negócio",
+    "name": "Stripe Atlas",
+    "url": "https://stripe.com/atlas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Consolidação das Leis do Trabalho (CLT)",
+    "url": "https://pt.wikipedia.org/wiki/Consolida%C3%A7%C3%A3o_das_Leis_do_Trabalho",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Ministério do Trabalho e Emprego",
+    "url": "https://www.gov.br/trabalho-e-emprego/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "FGTS",
+    "url": "https://www.fgts.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Meu INSS",
+    "url": "https://meu.inss.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Tribunal Superior do Trabalho (TST)",
+    "url": "https://www.tst.jus.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Décimo terceiro salário",
+    "url": "https://pt.wikipedia.org/wiki/D%C3%A9cimo_terceiro_sal%C3%A1rio",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Brasil",
+    "name": "Microempreendedor individual (MEI)",
+    "url": "https://pt.wikipedia.org/wiki/Microempreendedor_individual",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "Organização Internacional do Trabalho (OIT)",
+    "url": "https://www.ilo.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "ILOSTAT",
+    "url": "https://ilostat.ilo.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "U.S. Department of Labor",
+    "url": "https://www.dol.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "EU-OSHA",
+    "url": "https://osha.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Direitos e legislação",
+    "subcategory": "Internacional",
+    "name": "Eurofound",
+    "url": "https://www.eurofound.europa.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "Ask a Manager",
+    "url": "https://www.askamanager.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "The Muse",
+    "url": "https://www.themuse.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "Harvard Business Review",
+    "url": "https://hbr.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "Fast Company — Work Life",
+    "url": "https://www.fastcompany.com/work-life",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "WorkLife com Adam Grant (podcast)",
+    "url": "https://www.ted.com/podcasts/worklife",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "Você S/A",
+    "url": "https://vocesa.abril.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "Exame — Carreira",
+    "url": "https://exame.com/carreira/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Blogs e mídia",
+    "name": "InfoMoney — Carreira",
+    "url": "https://www.infomoney.com.br/carreira/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Richard N. Bolles - What Color Is Your Parachute?",
+    "url": "https://www.goodreads.com/search?q=What+Color+Is+Your+Parachute",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Bill Burnett e Dave Evans - O Design da Sua Vida",
+    "url": "https://www.goodreads.com/search?q=Designing+Your+Life+Burnett+Evans",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Cal Newport - So Good They Can't Ignore You",
+    "url": "https://www.goodreads.com/search?q=Cal+Newport+So+Good+They+Can%27t+Ignore+You",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Reid Hoffman - Comece por Você",
+    "url": "https://www.goodreads.com/search?q=Reid+Hoffman+The+Start-up+of+You",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Herminia Ibarra - Working Identity",
+    "url": "https://www.goodreads.com/search?q=Herminia+Ibarra+Working+Identity",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Stephen Covey - Os 7 Hábitos das Pessoas Altamente Eficazes",
+    "url": "https://www.goodreads.com/search?q=Covey+7+Habits+of+Highly+Effective+People",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Dale Carnegie - Como Fazer Amigos e Influenciar Pessoas",
+    "url": "https://www.goodreads.com/search?q=Dale+Carnegie+How+to+Win+Friends",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Daniel Pink - Motivação 3.0",
+    "url": "https://www.goodreads.com/search?q=Daniel+Pink+Drive",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Chris Voss - Negocie Como Se Sua Vida Dependesse Disso",
+    "url": "https://www.goodreads.com/search?q=Chris+Voss+Never+Split+the+Difference",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Livros",
+    "name": "Keith Ferrazzi - Never Eat Alone",
+    "url": "https://www.goodreads.com/search?q=Keith+Ferrazzi+Never+Eat+Alone",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Peter Drucker",
+    "url": "https://en.wikipedia.org/wiki/Peter_Drucker",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Adam Grant",
+    "url": "https://en.wikipedia.org/wiki/Adam_Grant",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Simon Sinek",
+    "url": "https://en.wikipedia.org/wiki/Simon_Sinek",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Brené Brown",
+    "url": "https://en.wikipedia.org/wiki/Bren%C3%A9_Brown",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Daniel H. Pink",
+    "url": "https://en.wikipedia.org/wiki/Daniel_H._Pink",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Cal Newport",
+    "url": "https://en.wikipedia.org/wiki/Cal_Newport",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Herminia Ibarra",
+    "url": "https://en.wikipedia.org/wiki/Herminia_Ibarra",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Richard N. Bolles",
+    "url": "https://en.wikipedia.org/wiki/Richard_Nelson_Bolles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Stephen Covey",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Covey",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Dale Carnegie",
+    "url": "https://en.wikipedia.org/wiki/Dale_Carnegie",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Conteúdo e inspiração",
+    "subcategory": "Pessoas",
+    "name": "Max Gehringer",
+    "url": "https://pt.wikipedia.org/wiki/Max_Gehringer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

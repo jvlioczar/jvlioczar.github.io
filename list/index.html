@@ -1,0 +1,3517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Listas — Catálogo pesquisável de listas, rankings, estatísticas e curadoria</title>
+<meta content="Catálogo pesquisável para quem gosta de listas: sites de listas e rankings, tier lists, estatísticas, pesquisas de opinião, índices globais, curadoria e conceitos de votação e classificação." name="description"/>
+<link href="https://biblioverse.org/list/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="list" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Listas</span>
+</a>
+<span class="beta-badge">BETA</span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div class="subcat-nav-hint" id="subcatNavHint" aria-live="polite"></div>
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Listas</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">
+[
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Lista",
+    "url": "https://en.wikipedia.org/wiki/List",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Ranking",
+    "url": "https://en.wikipedia.org/wiki/Ranking",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Tier list",
+    "url": "https://en.wikipedia.org/wiki/Tier_list",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Pódio",
+    "url": "https://en.wikipedia.org/wiki/Podium",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Ordem alfabética",
+    "url": "https://en.wikipedia.org/wiki/Alphabetical_order",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Categorização",
+    "url": "https://en.wikipedia.org/wiki/Categorization",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Classificação",
+    "url": "https://en.wikipedia.org/wiki/Classification",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Taxonomia",
+    "url": "https://en.wikipedia.org/wiki/Taxonomy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Folksonomia",
+    "url": "https://en.wikipedia.org/wiki/Folksonomy",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Tag (metadado)",
+    "url": "https://en.wikipedia.org/wiki/Tag_(metadata)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Curadoria de conteúdo",
+    "url": "https://en.wikipedia.org/wiki/Content_curation",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Checklist",
+    "url": "https://en.wikipedia.org/wiki/Checklist",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Lista de desejos",
+    "url": "https://en.wikipedia.org/wiki/Wish_list",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Playlist",
+    "url": "https://en.wikipedia.org/wiki/Playlist",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Listas e organização",
+    "name": "Hall da fama",
+    "url": "https://en.wikipedia.org/wiki/Hall_of_fame",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Biblioteca",
+    "url": "https://en.wikipedia.org/wiki/Library",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Bibliografia",
+    "url": "https://en.wikipedia.org/wiki/Bibliography",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Referência (citação)",
+    "url": "https://en.wikipedia.org/wiki/Citation",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Enciclopédia",
+    "url": "https://en.wikipedia.org/wiki/Encyclopedia",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Dicionário",
+    "url": "https://en.wikipedia.org/wiki/Dictionary",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Almanaque",
+    "url": "https://en.wikipedia.org/wiki/Almanac",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Glossário",
+    "url": "https://en.wikipedia.org/wiki/Glossary",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Tesauro",
+    "url": "https://en.wikipedia.org/wiki/Thesaurus",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Índice remissivo",
+    "url": "https://en.wikipedia.org/wiki/Index_(publishing)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Catálogo de biblioteca",
+    "url": "https://en.wikipedia.org/wiki/Library_catalog",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Referência e conhecimento",
+    "name": "Wiki",
+    "url": "https://en.wikipedia.org/wiki/Wiki",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Sistema de votação",
+    "url": "https://en.wikipedia.org/wiki/Electoral_system",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Voto preferencial",
+    "url": "https://en.wikipedia.org/wiki/Ranked_voting",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Contagem de Borda",
+    "url": "https://en.wikipedia.org/wiki/Borda_count",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Método de Condorcet",
+    "url": "https://en.wikipedia.org/wiki/Condorcet_method",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Método de Schulze",
+    "url": "https://en.wikipedia.org/wiki/Schulze_method",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Ranked pairs",
+    "url": "https://en.wikipedia.org/wiki/Ranked_pairs",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Método de Kemeny-Young",
+    "url": "https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Voto alternativo (instant-runoff)",
+    "url": "https://en.wikipedia.org/wiki/Instant-runoff_voting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Voto por aprovação",
+    "url": "https://en.wikipedia.org/wiki/Approval_voting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Voto por pontuação",
+    "url": "https://en.wikipedia.org/wiki/Score_voting",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Paradoxo de Condorcet",
+    "url": "https://en.wikipedia.org/wiki/Condorcet_paradox",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Teorema da impossibilidade de Arrow",
+    "url": "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Votação e escolha social",
+    "name": "Teoria da escolha social",
+    "url": "https://en.wikipedia.org/wiki/Social_choice_theory",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Instituto de pesquisa",
+    "url": "https://en.wikipedia.org/wiki/Research_institute",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa de opinião pública",
+    "url": "https://en.wikipedia.org/wiki/Opinion_poll",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa de mercado",
+    "url": "https://en.wikipedia.org/wiki/Market_research",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa amostral (amostragem)",
+    "url": "https://en.wikipedia.org/wiki/Sampling_(statistics)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa quantitativa",
+    "url": "https://en.wikipedia.org/wiki/Quantitative_research",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa qualitativa",
+    "url": "https://en.wikipedia.org/wiki/Qualitative_research",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa censitária (censo)",
+    "url": "https://en.wikipedia.org/wiki/Census",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Metodologia de survey",
+    "url": "https://en.wikipedia.org/wiki/Survey_methodology",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Pesquisa de preferência (modelagem de escolha)",
+    "url": "https://en.wikipedia.org/wiki/Choice_modelling",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Análise conjunta",
+    "url": "https://en.wikipedia.org/wiki/Conjoint_analysis",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Comparação pareada",
+    "url": "https://en.wikipedia.org/wiki/Pairwise_comparison_(psychology)",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Escolha forçada",
+    "url": "https://en.wikipedia.org/wiki/Two-alternative_forced_choice",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "MaxDiff",
+    "url": "https://en.wikipedia.org/wiki/MaxDiff",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Teste A/B",
+    "url": "https://en.wikipedia.org/wiki/A/B_testing",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Escala Likert",
+    "url": "https://en.wikipedia.org/wiki/Likert_scale",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Margem de erro",
+    "url": "https://en.wikipedia.org/wiki/Margin_of_error",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Pesquisa e medição",
+    "name": "Net Promoter Score",
+    "url": "https://en.wikipedia.org/wiki/Net_promoter_score",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "PageRank",
+    "url": "https://en.wikipedia.org/wiki/PageRank",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Sistema Elo",
+    "url": "https://en.wikipedia.org/wiki/Elo_rating_system",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Sistema de recomendação",
+    "url": "https://en.wikipedia.org/wiki/Recommender_system",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Filtragem colaborativa",
+    "url": "https://en.wikipedia.org/wiki/Collaborative_filtering",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Learning to rank",
+    "url": "https://en.wikipedia.org/wiki/Learning_to_rank",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Média bayesiana",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_average",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Classificação por estrelas",
+    "url": "https://en.wikipedia.org/wiki/Star_(classification)",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "subcategory": "Algoritmos de ranqueamento",
+    "name": "Modelo de Bradley-Terry",
+    "url": "https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Ranker",
+    "url": "https://www.ranker.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Listverse",
+    "url": "https://listverse.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "TheTopTens",
+    "url": "https://www.thetoptens.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Toptenz",
+    "url": "https://www.toptenz.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "List25",
+    "url": "https://list25.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Listal",
+    "url": "https://www.listal.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "List Challenges",
+    "url": "https://www.listchallenges.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Listly",
+    "url": "https://list.ly/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "BuzzFeed",
+    "url": "https://www.buzzfeed.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Shortlist",
+    "url": "https://www.shortlist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "TheMost10",
+    "url": "https://www.themost10.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Wonders List",
+    "url": "https://www.wonderslist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "LiveAbout (entretenimento)",
+    "url": "https://www.liveabout.com/entertainment-4687948",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Internacionais",
+    "name": "Playbuzz",
+    "url": "https://en.wikipedia.org/wiki/Playbuzz",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "As Superlistas",
+    "url": "https://assuperlistas.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Maiores e Melhores",
+    "url": "https://maioresemelhores.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Mundo Top 10",
+    "url": "https://mundotop10.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Top 10 Mais",
+    "url": "https://top10mais.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Lista 10",
+    "url": "https://lista10.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Hipercultura",
+    "url": "https://www.hipercultura.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Superlistas (Superinteressante)",
+    "url": "https://super.abril.com.br/blogs/superlistas/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Top 10 de A a Z",
+    "url": "https://top10az.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Big Listas da Net",
+    "url": "https://biglistasdanet.blogspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Adedonha Brasil",
+    "url": "https://adedonhabrasil.blogspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Brasileiros",
+    "name": "Portal EdiCase",
+    "url": "https://www.portaledicase.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Lista de listas de listas",
+    "url": "https://en.wikipedia.org/wiki/List_of_lists_of_lists",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Listas destacadas da Wikipédia",
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_lists",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Wikipédia — Categoria Listas",
+    "url": "https://pt.wikipedia.org/wiki/Categoria:Listas",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Wikipédia — Categoria Listas de pessoas",
+    "url": "https://pt.wikipedia.org/wiki/Categoria:Listas_de_pessoas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Lista de serviços estatísticos nacionais e internacionais",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_and_international_statistical_services",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Sites de listas",
+    "subcategory": "Listas da Wikipédia",
+    "name": "Artigos vitais da Wikipédia",
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Vital_articles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Listas pessoais e tier lists",
+    "name": "Listography",
+    "url": "https://listography.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Listas pessoais e tier lists",
+    "name": "TierMaker",
+    "url": "https://tiermaker.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Listas pessoais e tier lists",
+    "name": "Bracket HQ",
+    "url": "https://brackethq.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Listas pessoais e tier lists",
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Enquetes e votações",
+    "name": "StrawPoll",
+    "url": "https://strawpoll.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Enquetes e votações",
+    "name": "Mentimeter",
+    "url": "https://www.mentimeter.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Enquetes e votações",
+    "name": "All Our Ideas (comparação pareada)",
+    "url": "https://allourideas.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Enquetes e votações",
+    "name": "Doodle",
+    "url": "https://doodle.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Curadoria e coleções",
+    "name": "BiblioVerse",
+    "url": "https://biblioverse.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Curadoria e coleções",
+    "name": "Awesome Lists",
+    "url": "https://github.com/sindresorhus/awesome",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Curadoria e coleções",
+    "name": "Are.na",
+    "url": "https://www.are.na/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Curadoria e coleções",
+    "name": "Raindrop.io",
+    "url": "https://raindrop.io/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Ferramentas de listas e votação",
+    "subcategory": "Curadoria e coleções",
+    "name": "Atlas Obscura",
+    "url": "https://www.atlasobscura.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "IMDb",
+    "url": "https://www.imdb.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "IMDb Top 250",
+    "url": "https://www.imdb.com/chart/top/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Letterboxd",
+    "url": "https://letterboxd.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Rotten Tomatoes",
+    "url": "https://www.rottentomatoes.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Collider (listas)",
+    "url": "https://collider.com/tag/lists/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "CBR (Comic Book Resources)",
+    "url": "https://www.cbr.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Sight and Sound — Os maiores filmes de todos os tempos",
+    "url": "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "AFI's 100 Years...100 Movies",
+    "url": "https://www.afi.com/afis-100-years-100-movies/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "They Shoot Pictures, Don't They?",
+    "url": "https://www.theyshootpictures.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Trakt",
+    "url": "https://app.trakt.tv/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Filmow",
+    "url": "https://filmow.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Cinema e TV",
+    "name": "Listas de 10",
+    "url": "https://listasde10.blogspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Anime e mangá",
+    "name": "MyAnimeList",
+    "url": "https://myanimelist.net/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Anime e mangá",
+    "name": "AniList",
+    "url": "https://anilist.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Cinema, TV e anime",
+    "subcategory": "Anime e mangá",
+    "name": "Anime-Planet",
+    "url": "https://www.anime-planet.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Billboard Charts",
+    "url": "https://www.billboard.com/charts/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Official Charts (Reino Unido)",
+    "url": "https://www.officialcharts.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Spotify Charts",
+    "url": "https://charts.spotify.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Playlists do Spotify",
+    "url": "https://open.spotify.com/user/spotify/playlists",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "YouTube Charts",
+    "url": "https://charts.youtube.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Kworb",
+    "url": "https://kworb.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Paradas e charts",
+    "name": "Last.fm Charts",
+    "url": "https://www.last.fm/charts",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "Rate Your Music",
+    "url": "https://rateyourmusic.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "Album of the Year",
+    "url": "https://www.albumoftheyear.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "Acclaimed Music",
+    "url": "https://www.acclaimedmusic.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "Rolling Stone — 500 melhores álbuns",
+    "url": "https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "MusicVF",
+    "url": "https://www.musicvf.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Crítica e listas de álbuns",
+    "name": "Rock & Roll Hall of Fame",
+    "url": "https://rockhall.com/inductees/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Brasil",
+    "name": "Mais Tocadas",
+    "url": "https://maistocadas.mus.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Brasil",
+    "name": "Tenho Mais Discos Que Amigos (listas)",
+    "url": "https://www.tenhomaisdiscosqueamigos.com/category/listas/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Brasil",
+    "name": "Pro-Música Brasil",
+    "url": "https://pro-musicabr.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Música",
+    "subcategory": "Brasil",
+    "name": "Ecad (rankings)",
+    "url": "https://www4.ecad.org.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "Goodreads Listopia",
+    "url": "https://www.goodreads.com/list/popular_lists",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "Goodreads Choice Awards",
+    "url": "https://www.goodreads.com/choiceawards",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "The Greatest Books",
+    "url": "https://thegreatestbooks.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "Modern Library 100 Best Novels",
+    "url": "https://en.wikipedia.org/wiki/Modern_Library%27s_100_Best_Novels",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "1001 Livros para Ler Antes de Morrer",
+    "url": "https://en.wikipedia.org/wiki/1001_Books_You_Must_Read_Before_You_Die",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Listas de livros",
+    "name": "Revista Bula (listas)",
+    "url": "https://www.revistabula.com/search/listas",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Mais vendidos",
+    "name": "The New York Times Best Sellers",
+    "url": "https://www.nytimes.com/books/best-sellers/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Mais vendidos",
+    "name": "PublishNews (ranking)",
+    "url": "https://www.publishnews.com.br/ranking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Livros e literatura",
+    "subcategory": "Mais vendidos",
+    "name": "Skoob",
+    "url": "https://www.skoob.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "Metacritic (games)",
+    "url": "https://www.metacritic.com/game/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "Backloggd",
+    "url": "https://www.backloggd.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "SteamDB Charts",
+    "url": "https://steamdb.info/charts/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "Steam Charts",
+    "url": "https://steamcharts.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "VGChartz",
+    "url": "https://www.vgchartz.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Videogames",
+    "name": "Steam250",
+    "url": "https://steam250.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Jogos de tabuleiro e xadrez",
+    "name": "BoardGameGeek (ranking)",
+    "url": "https://boardgamegeek.com/browse/boardgame",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Games e jogos",
+    "subcategory": "Jogos de tabuleiro e xadrez",
+    "name": "Ranking FIDE",
+    "url": "https://ratings.fide.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "TIME 100",
+    "url": "https://en.wikipedia.org/wiki/Time_100",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "Pantheon",
+    "url": "https://pantheon.world/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "FamousFix (listas)",
+    "url": "https://www.famousfix.com/list",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "Famous Birthdays",
+    "url": "https://www.famousbirthdays.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "Who's Dated Who",
+    "url": "https://www.whosdatedwho.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pessoas e celebridades",
+    "subcategory": "Rankings de pessoas",
+    "name": "Muck Rack (rankings de jornalistas)",
+    "url": "https://muckrack.com/rankings",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Arte, design e criatividade",
+    "name": "Lürzer's Archive (ranking)",
+    "url": "https://www.luerzersarchive.com/en/ranking.html",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Arte, design e criatividade",
+    "name": "Artfacts",
+    "url": "https://artfacts.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Arte, design e criatividade",
+    "name": "ArtReview Power 100",
+    "url": "https://artreview.com/power-100/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Arte, design e criatividade",
+    "name": "Awwwards",
+    "url": "https://www.awwwards.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "The World's 50 Best Restaurants",
+    "url": "https://www.the50.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "The World's 50 Best Bars",
+    "url": "https://www.the50.com/bars/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "Guia Michelin",
+    "url": "https://guide.michelin.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "La Liste",
+    "url": "https://www.laliste.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "TasteAtlas",
+    "url": "https://www.tasteatlas.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Arte, design e gastronomia",
+    "subcategory": "Gastronomia e viagem",
+    "name": "Tripadvisor Travelers' Choice",
+    "url": "https://www.tripadvisor.com/TravelersChoice",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Consumer Reports",
+    "url": "https://www.consumerreports.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "RTINGS",
+    "url": "https://www.rtings.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Real Simple",
+    "url": "https://www.realsimple.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Product Hunt",
+    "url": "https://www.producthunt.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Trend Hunter (top lists)",
+    "url": "https://www.trendhunter.com/toplists",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Reclame Aqui (rankings)",
+    "url": "https://www.reclameaqui.com.br/ranking/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Avaliações de produtos",
+    "name": "Trustpilot",
+    "url": "https://www.trustpilot.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Interbrand Best Global Brands",
+    "url": "https://interbrand.com/best-global-brands/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Kantar BrandZ (Kantar Group)",
+    "url": "https://www.kantar.com/campaigns/brandz/global",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Brand Finance (Global 500)",
+    "url": "https://brandirectory.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Forbes — As marcas mais valiosas do mundo",
+    "url": "https://www.forbes.com/the-worlds-most-valuable-brands/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Fortune — As empresas mais admiradas do mundo",
+    "url": "https://fortune.com/ranking/worlds-most-admired-companies/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Consumo, produtos e marcas",
+    "subcategory": "Marcas",
+    "name": "Ranking the Brands (SyncForce)",
+    "url": "https://www.rankingthebrands.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Forbes Lists",
+    "url": "https://www.forbes.com/lists/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Fortune 500",
+    "url": "https://fortune.com/ranking/fortune500/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Fortune Global 500",
+    "url": "https://fortune.com/ranking/global500/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Bloomberg Billionaires Index",
+    "url": "https://www.bloomberg.com/billionaires/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Companies Market Cap",
+    "url": "https://companiesmarketcap.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Fast Company — Most Innovative Companies",
+    "url": "https://www.fastcompany.com/most-innovative-companies/list",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Inc. 5000",
+    "url": "https://www.inc.com/inc5000",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "CB Insights — Unicórnios",
+    "url": "https://www.cbinsights.com/research-unicorn-companies",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Empresas e fortunas",
+    "name": "Startup Genome (ecossistemas de startups)",
+    "url": "https://startupgenome.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Lugares para trabalhar",
+    "name": "Great Place to Work",
+    "url": "https://www.greatplacetowork.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Lugares para trabalhar",
+    "name": "Glassdoor Best Places to Work",
+    "url": "https://www.glassdoor.com/Award/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Lugares para trabalhar",
+    "name": "ILOSTAT",
+    "url": "https://ilostat.ilo.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "QS World University Rankings",
+    "url": "https://www.topuniversities.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "Times Higher Education",
+    "url": "https://www.timeshighereducation.com/world-university-rankings",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "ARWU (Ranking de Xangai)",
+    "url": "https://www.shanghairanking.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "U.S. News Best Global Universities",
+    "url": "https://www.usnews.com/education/best-global-universities",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "CWUR",
+    "url": "https://cwur.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "Ranking Universitário Folha (RUF)",
+    "url": "https://ruf.folha.uol.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "PISA",
+    "url": "https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "CWTS Leiden Ranking",
+    "url": "https://www.leidenranking.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Negócios, trabalho e educação",
+    "subcategory": "Universidades e educação",
+    "name": "SCImago Journal Rank",
+    "url": "https://www.scimagojr.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Índice de Desenvolvimento Humano (IDH)",
+    "url": "https://hdr.undp.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "World Happiness Report",
+    "url": "https://worldhappiness.report/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Global Innovation Index",
+    "url": "https://www.wipo.int/global_innovation_index/en/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Índice Big Mac",
+    "url": "https://www.economist.com/big-mac-index",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Henley Passport Index",
+    "url": "https://www.henleyglobal.com/passport-index",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Doing Business",
+    "url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Desenvolvimento e bem-estar",
+    "name": "Numbeo — Qualidade de vida por país",
+    "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Poder e influência",
+    "name": "Global Firepower (poder militar)",
+    "url": "https://www.globalfirepower.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Poder e influência",
+    "name": "Global Soft Power Index (Brand Finance)",
+    "url": "https://brandirectory.com/softpower",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Democracia, liberdade e paz",
+    "name": "Índice de Democracia (The Economist)",
+    "url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Democracia, liberdade e paz",
+    "name": "Freedom in the World",
+    "url": "https://freedomhouse.org/report/freedom-world",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Democracia, liberdade e paz",
+    "name": "Índice de Percepção da Corrupção",
+    "url": "https://www.transparency.org/en/cpi",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Democracia, liberdade e paz",
+    "name": "Ranking Mundial de Liberdade de Imprensa",
+    "url": "https://rsf.org/en/index",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Países e índices globais",
+    "subcategory": "Democracia, liberdade e paz",
+    "name": "Global Peace Index",
+    "url": "https://www.visionofhumanity.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "World Bank DataBank",
+    "url": "https://databank.worldbank.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "UNdata",
+    "url": "https://data.un.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "OECD Data",
+    "url": "https://data.oecd.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "Eurostat",
+    "url": "https://ec.europa.eu/eurostat",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "UNICEF Data",
+    "url": "https://data.unicef.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "FAOSTAT",
+    "url": "https://www.fao.org/statistics/en",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "WHO Global Health Observatory",
+    "url": "https://www.who.int/data/gho",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "IMF Data",
+    "url": "https://www.imf.org/en/Data",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Organismos internacionais",
+    "name": "Bases de dados da Biblioteca da ONU",
+    "url": "https://www.un.org/en/library/page/databases",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "IBGE",
+    "url": "https://www.ibge.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "Ipeadata",
+    "url": "https://www.ipeadata.gov.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "U.S. Census Bureau",
+    "url": "https://www.census.gov/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "ONS (Reino Unido)",
+    "url": "https://www.ons.gov.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "INSEE (França)",
+    "url": "https://www.insee.fr/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "Destatis (Alemanha)",
+    "url": "https://www.destatis.de/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "INE (Portugal)",
+    "url": "https://www.ine.pt/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "INDEC (Argentina)",
+    "url": "https://www.indec.gob.ar/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Institutos nacionais",
+    "name": "Statistics Canada",
+    "url": "https://www.statcan.gc.ca/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Our World in Data",
+    "url": "https://ourworldindata.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Statista",
+    "url": "https://www.statista.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Worldometer",
+    "url": "https://www.worldometers.info/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Gapminder",
+    "url": "https://www.gapminder.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Visual Capitalist",
+    "url": "https://www.visualcapitalist.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Information is Beautiful",
+    "url": "https://informationisbeautiful.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Data Commons",
+    "url": "https://datacommons.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Wolfram Alpha",
+    "url": "https://www.wolframalpha.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "PopulationPyramid",
+    "url": "https://www.populationpyramid.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "World Economics",
+    "url": "https://www.worldeconomics.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Wisevoter",
+    "url": "https://wisevoter.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "Kaggle Datasets",
+    "url": "https://www.kaggle.com/datasets",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Estatísticas e dados",
+    "subcategory": "Agregadores e visualização",
+    "name": "r/dataisbeautiful",
+    "url": "https://www.reddit.com/r/dataisbeautiful/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Gallup",
+    "url": "https://www.gallup.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Pew Research Center",
+    "url": "https://www.pewresearch.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Ipsos",
+    "url": "https://www.ipsos.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "YouGov",
+    "url": "https://yougov.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Nielsen",
+    "url": "https://www.nielsen.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Kantar",
+    "url": "https://www.kantar.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Datafolha",
+    "url": "https://datafolha.folha.uol.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Quaest",
+    "url": "https://quaest.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Ipec",
+    "url": "https://www.ipec-inteligencia.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "Ibope",
+    "url": "https://pt.wikipedia.org/wiki/Ibope",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Institutos de pesquisa",
+    "name": "FiveThirtyEight",
+    "url": "https://en.wikipedia.org/wiki/FiveThirtyEight",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": true
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Barômetros e surveys internacionais",
+    "name": "World Values Survey",
+    "url": "https://www.worldvaluessurvey.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Barômetros e surveys internacionais",
+    "name": "Eurobarometer",
+    "url": "https://europa.eu/eurobarometer",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Pesquisas de opinião",
+    "subcategory": "Barômetros e surveys internacionais",
+    "name": "Latinobarómetro",
+    "url": "https://www.latinobarometro.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "Social Blade",
+    "url": "https://socialblade.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "HypeAuditor (top Instagram)",
+    "url": "https://hypeauditor.com/top-instagram/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "StarNgage",
+    "url": "https://starngage.com/plus/en-us/influencer/ranking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "Tokfluence",
+    "url": "https://tokfluence.com/top?limit=100",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "Playboard",
+    "url": "https://playboard.co/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "NoxInfluencer",
+    "url": "https://www.noxinfluencer.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "Streams Charts",
+    "url": "https://streamscharts.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "TwitchTracker",
+    "url": "https://twitchtracker.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Criadores e influenciadores",
+    "name": "TwitchMetrics",
+    "url": "https://www.twitchmetrics.net/channels/follower",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Similarweb Top Websites",
+    "url": "https://www.similarweb.com/pt/top-websites/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Semrush Top Websites",
+    "url": "https://pt.semrush.com/website/top/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Sites mais visitados",
+    "url": "https://en.wikipedia.org/wiki/List_of_most-visited_websites",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Cloudflare Radar (domínios)",
+    "url": "https://radar.cloudflare.com/domains",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Tranco List",
+    "url": "https://tranco-list.eu/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Wikipedia Topviews",
+    "url": "https://pageviews.wmcloud.org/topviews/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Google Trends",
+    "url": "https://trends.google.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Exploding Topics",
+    "url": "https://explodingtopics.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "AlternativeTo",
+    "url": "https://alternativeto.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Feedly (top)",
+    "url": "https://feedly.com/i/top",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Sites, apps e tendências",
+    "name": "Influencer Marketing Hub",
+    "url": "https://influencermarketinghub.com/articles/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — listas de blogs",
+    "url": "https://blog.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — RSS",
+    "url": "https://rss.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Blogs",
+    "url": "https://bloggers.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Podcasts",
+    "url": "https://podcast.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Revistas",
+    "url": "https://magazine.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Jornalistas",
+    "url": "https://journalists.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — YouTubers",
+    "url": "https://videos.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Sites de notícias",
+    "url": "https://news.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Influenciadores do Instagram",
+    "url": "https://influencers.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Influenciadores do X (Twitter)",
+    "url": "https://x.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Bases de dados da Feedspot",
+    "name": "Feedspot — Criadores do TikTok",
+    "url": "https://creators.feedspot.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "LMArena (ranking de IAs)",
+    "url": "https://lmarena.ai/leaderboard",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "Índice TIOBE",
+    "url": "https://www.tiobe.com/tiobe-index/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "DB-Engines Ranking",
+    "url": "https://db-engines.com/en/ranking",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "TOP500 (supercomputadores)",
+    "url": "https://www.top500.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Internet e redes sociais",
+    "subcategory": "Tecnologia e IA",
+    "name": "PassMark CPU Benchmarks",
+    "url": "https://www.cpubenchmark.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Lista Vermelha da IUCN",
+    "url": "https://www.iucnredlist.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "EDGE of Existence",
+    "url": "https://www.edgeofexistence.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Faunalytics",
+    "url": "https://faunalytics.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Fishcount",
+    "url": "https://fishcount.org.uk/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Plant Based Data",
+    "url": "https://plantbaseddata.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Reducing Suffering",
+    "url": "https://reducing-suffering.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Rethink Priorities — Welfare Range Table",
+    "url": "https://rethinkpriorities.org/publications/the-welfare-range-table",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Our World in Data — Bem-estar animal",
+    "url": "https://ourworldindata.org/animal-welfare",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Fauna e bem-estar animal",
+    "name": "Animal Charity Evaluators",
+    "url": "https://animalcharityevaluators.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Meio ambiente e clima",
+    "name": "Environmental Performance Index",
+    "url": "https://epi.yale.edu/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Meio ambiente e clima",
+    "name": "Climate Change Performance Index",
+    "url": "https://ccpi.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Meio ambiente e clima",
+    "name": "IQAir (cidades mais poluídas)",
+    "url": "https://www.iqair.com/world-most-polluted-cities",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Meio ambiente e clima",
+    "name": "Climate Watch",
+    "url": "https://www.climatewatchdata.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Natureza e fauna",
+    "subcategory": "Meio ambiente e clima",
+    "name": "Global Carbon Project",
+    "url": "https://www.globalcarbonproject.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "Ranking FIFA",
+    "url": "https://inside.fifa.com/fifa-world-ranking/men",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "World Football Elo Ratings",
+    "url": "https://www.eloratings.net/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "Transfermarkt",
+    "url": "https://www.transfermarkt.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "Ranking ATP",
+    "url": "https://www.atptour.com/en/rankings/singles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "Ranking WTA",
+    "url": "https://www.wtatennis.com/rankings/singles",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Rankings esportivos",
+    "name": "World Athletics Rankings",
+    "url": "https://worldathletics.org/world-rankings",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Estatísticas e histórico",
+    "name": "Sports Reference",
+    "url": "https://www.sports-reference.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Estatísticas e histórico",
+    "name": "Olympedia",
+    "url": "https://www.olympedia.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Esportes",
+    "subcategory": "Estatísticas e histórico",
+    "name": "Bola de Ouro",
+    "url": "https://en.wikipedia.org/wiki/Ballon_d%27Or",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Recordes",
+    "name": "Guinness World Records",
+    "url": "https://www.guinnessworldrecords.com/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Recordes",
+    "name": "RankBrasil",
+    "url": "https://www.rankbrasil.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Prêmios",
+    "name": "Prêmio Nobel",
+    "url": "https://www.nobelprize.org/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Prêmios",
+    "name": "Banco de dados do Oscar",
+    "url": "https://awardsdatabase.oscars.org/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Prêmios",
+    "name": "Grammy Awards",
+    "url": "https://www.grammy.com/awards",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Patrimônios e maravilhas",
+    "name": "Lista do Patrimônio Mundial da UNESCO",
+    "url": "https://whc.unesco.org/en/list/",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Recordes, prêmios e patrimônios",
+    "subcategory": "Patrimônios e maravilhas",
+    "name": "New 7 Wonders",
+    "url": "https://world.new7wonders.com/",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre listas e curadoria",
+    "name": "Umberto Eco - A Vertigem das Listas",
+    "url": "https://www.goodreads.com/search?q=Umberto+Eco+The+Infinity+of+Lists",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre listas e curadoria",
+    "name": "Atul Gawande - Checklist",
+    "url": "https://www.goodreads.com/search?q=Atul+Gawande+The+Checklist+Manifesto",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre listas e curadoria",
+    "name": "David Wallechinsky e Irving Wallace - The Book of Lists",
+    "url": "https://www.goodreads.com/search?q=The+Book+of+Lists+Wallechinsky",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre listas e curadoria",
+    "name": "Shaun Usher - Lists of Note",
+    "url": "https://www.goodreads.com/search?q=Shaun+Usher+Lists+of+Note",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre listas e curadoria",
+    "name": "Brian Christian e Tom Griffiths - Algoritmos para Viver",
+    "url": "https://www.goodreads.com/search?q=Algorithms+to+Live+By",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre votação e escolha",
+    "name": "Kenneth Arrow - Social Choice and Individual Values",
+    "url": "https://www.goodreads.com/search?q=Kenneth+Arrow+Social+Choice+and+Individual+Values",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  },
+  {
+    "category": "Leituras",
+    "subcategory": "Livros sobre votação e escolha",
+    "name": "William Poundstone - Gaming the Vote",
+    "url": "https://www.goodreads.com/search?q=William+Poundstone+Gaming+the+Vote",
+    "description": "",
+    "tags": [],
+    "featured": false,
+    "ended": false
+  }
+]
+</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>

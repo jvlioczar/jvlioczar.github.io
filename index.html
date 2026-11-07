@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html data-theme="dark" lang="pt-br">
 <head>
 <meta charset="utf-8"/>
@@ -11,287 +10,375 @@
 <link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/>
 <link href="images/logo.svg" rel="icon" type="image/svg+xml"/>
 <link href="styles.css" rel="stylesheet"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<meta content="#4f7cff" name="theme-color"/>
+<link href="/images/apple-touch-icon.png" rel="apple-touch-icon"/>
 <script src="https://biblioverse.org/superbar.js" defer></script>
 </head>
 <body>
 <!-- BiblioVerse Superbar -->
 <nav id="bvbar" class="bvbar" data-current="" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
-<header class="site-header">
-<div class="container header-inner">
-<div class="brand-wrap">
-<h1 class="brand">
-<span class="brand-gradient" data-i18n="brand.name">BiblioVerse</span>
-<span class="beta-badge" data-i18n="brand.beta">BETA</span>
-</h1>
-<span class="byline">
-<span data-i18n="brand.byline.prefix">A biblioteca de tudo</span>
-<span> </span><span data-i18n="brand.byline.suffix"></span>
-</span>
-</div><div class="controls" role="group">
+<!-- Hero -->
+<header class="hero">
+<div class="container">
+<div class="hero-bar" role="group">
 <button aria-controls="aboutModal" aria-expanded="false" aria-haspopup="dialog" class="toggle about-toggle" data-i18n="actions.about" id="aboutToggle" type="button">Sobre</button>
 <a aria-label="BiblioVerse no LinkedIn" class="toggle li-toggle" data-i18n-attr="aria-label:links.companyLinkedin;title:links.companyLinkedin" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener" target="_blank" title="BiblioVerse no LinkedIn">in</a>
 <span aria-hidden="true" class="controls-sep"></span>
 <button aria-label="Toggle language" class="toggle" id="langToggle" title="EN/PT">🌐</button>
 <button aria-label="Alternar tema" class="toggle" id="themeToggle">☀️</button>
 </div>
+<h1 class="hero-title"><span class="brand-gradient" data-i18n="brand.name">BiblioVerse</span></h1>
+<p class="hero-tagline" data-i18n="hero.tagline">A biblioteca de tudo</p>
+<p class="hero-lead" data-i18n="hero.lead">Bibliotecas temáticas e projetos especiais com curadoria humana: os melhores sites, apps e referências de cada área, em páginas mínimas e rápidas. Gratuito e sem anúncios.</p>
+<div class="hero-chips">
+<a class="chip chip-link" href="#bibliotecas"><b data-count="libs">23</b> <span data-i18n="hero.libs">bibliotecas</span></a>
+<a class="chip chip-link" href="#projetos"><b data-count="special">17</b> <span data-i18n="hero.special">projetos especiais</span></a>
+<span class="chip" data-i18n="hero.people">Escolhido por pessoas, não por algoritmo</span>
+</div>
 </div>
 </header>
 <main class="container">
-<!-- Grid de bibliotecas -->
-<section aria-label="Acesso rápido às bibliotecas" data-i18n-attr="aria-label:section.libs.aria">
-<!-- Mesmos grupos da superbar (BV_GROUPS em superbar.js); dentro de cada grupo, ordem alfabética pelo nome curto -->
+<!-- Mesmos grupos da superbar (BV_GROUPS em superbar.js); dentro de cada grupo, ordem alfabética pelo nome curto (script.js) -->
+<section aria-labelledby="mod-libs" class="mod" id="bibliotecas">
+<h2 class="mod-title" id="mod-libs"><span data-i18n="mod.libs">Bibliotecas</span> <span class="mod-count" data-count="libs">23</span></h2>
+<p class="mod-sub" data-i18n="mod.libs.sub">Diretórios curados dos melhores sites, apps e referências de cada tema.</p>
 <div class="lib-group" data-group="tech">
 <h3 class="lib-group-title" data-i18n="groups.tech" id="group-tech">Tecnologia</h3>
 <div aria-labelledby="group-tech" class="lib-grid" role="list">
-<a class="lib-card" data-key="ai" href="https://ai.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🤖</span>
+<a class="lib-card" data-key="ai" href="https://biblioverse.org/ai/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🤖</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.ai">Biblioteca de IAs</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.ai">As principais ferramentas de inteligência artificial, organizadas por uso.</span>
+</span>
 </a>
-<a class="lib-card" data-key="coding" href="https://code.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">💻</span>
+<a class="lib-card" data-key="coding" href="https://biblioverse.org/code/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">💻</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.coding">Biblioteca de Programação</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.coding">Linguagens, cursos e ferramentas para aprender a programar.</span>
+</span>
 </a>
-<a class="lib-card" data-key="web3" href="https://web3.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🔗</span>
+<a class="lib-card" data-key="web3" href="https://biblioverse.org/web3/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🔗</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.web3">Biblioteca de Web3</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.web3">Blockchain, carteiras e o ecossistema descentralizado.</span>
+</span>
 </a>
-<a class="lib-card" data-key="social" href="https://social.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗺</span>
+<a class="lib-card" data-key="social" href="https://biblioverse.org/social/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🗺</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.social">Biblioteca de Redes Sociais</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.social">Plataformas, ferramentas e recursos para criadores de conteúdo.</span>
+</span>
 </a>
 </div>
 </div>
 <div class="lib-group" data-group="creative">
 <h3 class="lib-group-title" data-i18n="groups.creative" id="group-creative">Criatividade</h3>
 <div aria-labelledby="group-creative" class="lib-grid" role="list">
-<a class="lib-card" data-key="design" href="https://design.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎨</span>
+<a class="lib-card" data-key="design" href="https://biblioverse.org/design/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🎨</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.design">Biblioteca de Design</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.design">Sites e ferramentas úteis para designers.</span>
+</span>
 </a>
-<a class="lib-card" data-key="photography" href="https://photography.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">📷</span>
+<a class="lib-card" data-key="photography" href="https://biblioverse.org/photography/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">📷</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.photography">Biblioteca de Fotografia</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.photography">Recursos, apps e referências para fotografar melhor.</span>
+</span>
 </a>
-<a class="lib-card" data-key="print" href="https://print.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">📰</span>
+<a class="lib-card" data-key="print" href="https://biblioverse.org/print/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">📰</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.print">Biblioteca de Mídia Impressa</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.print">Revistas, jornais, gráficas e o universo do impresso.</span>
+</span>
 </a>
-<a class="lib-card" data-key="art" href="https://art.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🖼️</span>
+<a class="lib-card" data-key="art" href="https://biblioverse.org/art/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🖼️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.art">Biblioteca de Arte</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.art">Conceitos, técnicas, movimentos, artistas e museus.</span>
+</span>
 </a>
 </div>
 </div>
 <div class="lib-group" data-group="culture">
 <h3 class="lib-group-title" data-i18n="groups.culture" id="group-culture">Cultura e lazer</h3>
 <div aria-labelledby="group-culture" class="lib-grid" role="list">
-<a class="lib-card" data-key="games" href="https://games.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎮</span>
+<a class="lib-card" data-key="games" href="https://biblioverse.org/games/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🎮</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.games">Biblioteca de Games</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.games">Plataformas, jogos e o universo dos games.</span>
+</span>
 </a>
-<a class="lib-card" data-key="list" href="https://list.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">📋</span>
+<a class="lib-card" data-key="list" href="https://biblioverse.org/list/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">📋</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.list">Biblioteca de Listas</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.list">As melhores listas e rankings da internet em um só lugar.</span>
+</span>
 </a>
-<a class="lib-card" data-key="music" href="https://music.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎵</span>
+<a class="lib-card" data-key="music" href="https://biblioverse.org/music/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🎵</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.music">Biblioteca de Música</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.music">Apps, gêneros, gravadoras e conceitos fundamentais da música.</span>
+</span>
 </a>
-<a class="lib-card" data-key="truecrime" href="https://truecrime.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🔍</span>
+<a class="lib-card" data-key="truecrime" href="https://biblioverse.org/truecrime/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🔍</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.truecrime">Biblioteca de True Crime</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.truecrime">Crimes reais, acidentes e desastres, e como preveni-los e denunciá-los.</span>
+</span>
 </a>
-<a class="lib-card" data-key="esports" href="https://esports.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🕹️</span>
+<a class="lib-card" data-key="esports" href="https://biblioverse.org/esports/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🕹️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.esports">Biblioteca de eSports</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.esports">Jogos competitivos, campeonatos, equipes, lendas e transmissões.</span>
+</span>
 </a>
 </div>
 </div>
 <div class="lib-group" data-group="knowledge">
 <h3 class="lib-group-title" data-i18n="groups.knowledge" id="group-knowledge">Conhecimento</h3>
 <div aria-labelledby="group-knowledge" class="lib-grid" role="list">
-<a class="lib-card" data-key="language" href="https://language.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗣️</span>
+<a class="lib-card" data-key="language" href="https://biblioverse.org/language/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🗣️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.language">Biblioteca de Estudo de Idiomas</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.language">Apps, canais e métodos para aprender idiomas.</span>
+</span>
 </a>
-<a class="lib-card" data-key="data" href="https://data.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">📊</span>
+<a class="lib-card" data-key="data" href="https://biblioverse.org/data/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">📊</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.data">Biblioteca de Dados</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.data">Fontes de dados, visualização e análise.</span>
+</span>
 </a>
-<a class="lib-card" data-key="history" href="https://history.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">📜</span>
+<a class="lib-card" data-key="history" href="https://biblioverse.org/history/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">📜</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.history">Biblioteca de História</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.history">Períodos, civilizações, fontes e referências para estudar história.</span>
+</span>
 </a>
 </div>
 </div>
 <div class="lib-group" data-group="freethought">
 <h3 class="lib-group-title" data-i18n="groups.freethought" id="group-freethought">Pensamento Livre</h3>
 <div aria-labelledby="group-freethought" class="lib-grid" role="list">
-<a class="lib-card" data-key="philosophy" href="https://philosophy.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🦉</span>
+<a class="lib-card" data-key="philosophy" href="https://biblioverse.org/philosophy/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🦉</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.philosophy">Biblioteca de Filosofia</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.philosophy">Correntes, autores e referências da filosofia.</span>
+</span>
 </a>
-<a class="lib-card" data-key="thinking" href="https://thinking.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🧠</span>
+<a class="lib-card" data-key="thinking" href="https://biblioverse.org/thinking/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🧠</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.thinking">Biblioteca de Racionalidade</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.thinking">Livros e recursos sobre pensamento crítico e vieses cognitivos.</span>
+</span>
 </a>
-<a class="lib-card" data-key="conspiracy" href="https://conspiracy.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🕵️</span>
+<a class="lib-card" data-key="conspiracy" href="https://biblioverse.org/conspiracy/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🕵️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.conspiracy">Biblioteca de Conspirações</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.conspiracy">Teorias da conspiração, pseudociências e crenças falsas, e como desmenti-las.</span>
+</span>
 </a>
 </div>
 </div>
 <div class="lib-group" data-group="life">
 <h3 class="lib-group-title" data-i18n="groups.life" id="group-life">Vida prática</h3>
 <div aria-labelledby="group-life" class="lib-grid" role="list">
-<a class="lib-card" data-key="job" href="https://job.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">💼</span>
+<a class="lib-card" data-key="job" href="https://biblioverse.org/job/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">💼</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.job">Biblioteca de Emprego</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.job">Sites de vagas, currículo e carreira.</span>
+</span>
 </a>
-<a class="lib-card" data-key="organization" href="https://management.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🗂️</span>
+<a class="lib-card" data-key="organization" href="https://biblioverse.org/management/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🗂️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.organization">Biblioteca de Organização</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.organization">Apps e métodos de produtividade e gestão.</span>
+</span>
 </a>
-<a class="lib-card" data-key="travel" href="https://travel.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">✈️</span>
+<a class="lib-card" data-key="travel" href="https://biblioverse.org/travel/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">✈️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.travel">Biblioteca de Viagem</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.travel">Ferramentas para planejar viagens e intercâmbio.</span>
+</span>
 </a>
-<a class="lib-card" data-key="antiscam" href="https://antiscam.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🛡️</span>
+<a class="lib-card" data-key="antiscam" href="https://biblioverse.org/antiscam/" rel="noopener" role="listitem" target="_blank">
+<span aria-hidden="true" class="favicon">🛡️</span>
+<span class="lib-body">
 <span class="lib-name" data-i18n="libs.antiscam">Biblioteca Antigolpe</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.antiscam">Como identificar, verificar, denunciar e se proteger de golpes e fraudes.</span>
+</span>
 </a>
 </div>
 </div>
-<div class="lib-group lib-group-special" data-group="think">
+</section>
+<section aria-labelledby="mod-special" class="mod" id="projetos">
+<h2 class="mod-title" id="mod-special"><span data-i18n="mod.special">Projetos especiais</span> <span class="mod-count" data-count="special">17</span></h2>
+<p class="mod-sub" data-i18n="mod.special.sub">Sites autorais, cada um dedicado a um só tema, sempre com fontes.</p>
+<div class="lib-group" data-group="think">
 <h3 class="lib-group-title" data-i18n="groups.think" id="group-think">Para pensar melhor</h3>
 <div aria-labelledby="group-think" class="lib-grid" role="list">
-<a class="lib-card" data-key="cienciaparainiciantes" href="https://cienciaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🔬</span>
+<a class="lib-card has-logo" data-key="cienciaparainiciantes" href="https://cienciaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/cienciaparainiciantes.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.cienciaparainiciantes">Ciência Para Iniciantes</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.cienciaparainiciantes">Guia de ciência em três níveis: método científico, evidência e como separar ciência de pseudociência.</span>
+</span>
 </a>
-<a class="lib-card" data-key="eticaparainiciantes" href="https://eticaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">⚖️</span>
+<a class="lib-card has-logo" data-key="eticaparainiciantes" href="https://eticaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/eticaparainiciantes.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.eticaparainiciantes">Ética Para Iniciantes</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.eticaparainiciantes">Guia de ética em três níveis: teorias, círculo moral, grandes dilemas e filósofos, sempre com fontes.</span>
+</span>
 </a>
-<a class="lib-card" data-key="pelosanimais" href="https://pelosanimais.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🐾</span>
+<a class="lib-card has-logo" data-key="pelosanimais" href="https://pelosanimais.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/pelosanimais.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.pelosanimais">Guia de Argumentação Pelos Animais</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.pelosanimais">Catálogo de 151 argumentos usados para justificar a exploração animal, cada um com resposta fundamentada.</span>
+</span>
 </a>
-<a class="lib-card" data-key="politicaparainiciantes" href="https://politicaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🏛️</span>
+<a class="lib-card has-logo" data-key="politicaparainiciantes" href="https://politicaparainiciantes.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/politicaparainiciantes.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.politicaparainiciantes">Política Para Iniciantes</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.politicaparainiciantes">Guia de política em três níveis, com ferramentas interativas e dossiês dos partidos brasileiros.</span>
+</span>
 </a>
-<a class="lib-card" data-key="questaodeetica" href="https://questaodeetica.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">👁️</span>
+<a class="lib-card has-logo" data-key="questaodeetica" href="https://questaodeetica.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/questaodeetica.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.questaodeetica">Questão de Ética</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.questaodeetica">Site-livro dos 12 volumes de Uma Jornada pela Ética Animal, de Luciano Carlos Cunha, com lições e testes.</span>
+</span>
 </a>
 </div>
 </div>
-<div class="lib-group lib-group-special" data-group="ai">
+<div class="lib-group" data-group="ai">
 <h3 class="lib-group-title" data-i18n="groups.ai" id="group-ai">Inteligência Artificial</h3>
 <div aria-labelledby="group-ai" class="lib-grid" role="list">
-<a class="lib-card" data-key="curatedai" href="https://curatedai.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🏛️</span>
+<a class="lib-card has-logo" data-key="curatedai" href="https://curatedai.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/curatedai.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.curatedai">Curated AI</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.curatedai">Catálogo dos melhores projetos feitos com inteligência artificial e curados por humanos.</span>
+</span>
 </a>
-<a class="lib-card" data-key="aihistory" href="https://aihistory.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">⏳</span>
+<a class="lib-card has-logo" data-key="aihistory" href="https://aihistory.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/aihistory.png" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.aihistory">Linha do Tempo da História da IA</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.aihistory">Museu gratuito da IA, de Ada Lovelace em 1843 até hoje, com cada marco apoiado em duas reportagens.</span>
+</span>
 </a>
 </div>
 </div>
-<div class="lib-group lib-group-special" data-group="travel">
+<div class="lib-group" data-group="travel">
 <h3 class="lib-group-title" data-i18n="groups.travel" id="group-travel">Cultura e Viagem</h3>
 <div aria-labelledby="group-travel" class="lib-grid" role="list">
-<a class="lib-card" data-key="brasileirosnaaustralia" href="https://brasileirosnaaustralia.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🦘</span>
+<a class="lib-card has-logo" data-key="brasileirosnaaustralia" href="https://brasileirosnaaustralia.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/brasileirosnaaustralia.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.brasileirosnaaustralia">Brasileiros na Austrália</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.brasileirosnaaustralia">Criadores de conteúdo por cidade, comparador das capitais, agências, apps e guia de chegada.</span>
+</span>
 </a>
-<a class="lib-card" data-key="brisbaneveganguide" href="https://brisbaneveganguide.com" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🌱</span>
+<a class="lib-card has-logo" data-key="brisbaneveganguide" href="https://brisbaneveganguide.com" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/brisbaneveganguide.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.brisbaneveganguide">Brisbane Vegan Guide</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.brisbaneveganguide">Os melhores restaurantes, cafés, grupos e pessoas veganos de Brisbane, em um guia bilíngue.</span>
+</span>
 </a>
-<a class="lib-card" data-key="brissyopshops" href="https://brissyopshops.com" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🛍️</span>
+<a class="lib-card has-logo" data-key="brissyopshops" href="https://brissyopshops.com" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/brissyopshops.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.brissyopshops">Brissy Op Shops</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.brissyopshops">Guia das lojas de segunda mão de Brisbane: avaliações, horários, mapa e dicas.</span>
+</span>
 </a>
-<a class="lib-card" data-key="australianculture" href="https://australianculture.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🪃</span>
+<a class="lib-card has-logo" data-key="australianculture" href="https://australianculture.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/australianculture.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.australianculture">Cultura Australiana</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.australianculture">Geografia, 65 mil anos de história, quem é o povo e o jeito australiano de viver.</span>
+</span>
 </a>
-<a class="lib-card" data-key="brazilianculture" href="https://brazilianculture.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🦜</span>
+<a class="lib-card has-logo" data-key="brazilianculture" href="https://brazilianculture.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/brazilianculture.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.brazilianculture">Cultura Brasileira</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.brazilianculture">Geografia, 13 mil anos de história, quem é o povo e o jeito brasileiro de viver.</span>
+</span>
 </a>
 </div>
 </div>
-<div class="lib-group lib-group-special" data-group="sports">
+<div class="lib-group" data-group="sports">
 <h3 class="lib-group-title" data-i18n="groups.sports" id="group-sports">Esportes</h3>
 <div aria-labelledby="group-sports" class="lib-grid" role="list">
-<a class="lib-card" data-key="goats" href="https://goat.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🐐</span>
+<a class="lib-card has-logo" data-key="goats" href="https://goat.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/goats.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.goats">GOATs</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.goats">Os maiores atletas de todos os tempos em mais de 300 modalidades, com fontes.</span>
+</span>
 </a>
-<a class="lib-card" data-key="lfb" href="https://lendasdofutebolbrasileiro.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">⚽</span>
+<a class="lib-card has-logo" data-key="lfb" href="https://lendasdofutebolbrasileiro.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/lfb.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.lfb">Lendas do Futebol Brasileiro (LFB)</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.lfb">As seleções de todos os tempos da Seleção Brasileira e de 74 clubes do Brasil.</span>
+</span>
 </a>
-<a class="lib-card" data-key="biggestclubs" href="https://biggestclubs.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🏆</span>
+<a class="lib-card has-logo" data-key="biggestclubs" href="https://biggestclubs.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/biggestclubs.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.biggestclubs">Os Maiores Clubes do Futebol Mundial</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.biggestclubs">Ranking de 383 clubes de 16 países pelos títulos mundiais, continentais e nacionais.</span>
+</span>
 </a>
 </div>
 </div>
-<div class="lib-group lib-group-special" data-group="data">
+<div class="lib-group" data-group="data">
 <h3 class="lib-group-title" data-i18n="groups.data" id="group-data">Dados</h3>
 <div aria-labelledby="group-data" class="lib-grid" role="list">
-<a class="lib-card" data-key="ethicalfood" href="https://ethicalfood.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🥗</span>
+<a class="lib-card has-logo" data-key="ethicalfood" href="https://ethicalfood.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/ethicalfood.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.ethicalfood">Guia de Alimentos Éticos</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.ethicalfood">Diretório e mapa de quase 2.300 empresas de proteína alternativa em 71 países.</span>
+</span>
 </a>
-<a class="lib-card" data-key="typesofrock" href="https://typesofrock.biblioverse.org" rel="noopener" role="listitem" target="_blank">
-<span class="favicon">🎸</span>
+<a class="lib-card has-logo" data-key="typesofrock" href="https://typesofrock.biblioverse.org" rel="noopener" role="listitem" target="_blank">
+<img alt="" class="lib-logo" height="40" loading="lazy" src="images/projects/typesofrock.svg" width="40"/>
+<span class="lib-body">
 <span class="lib-name" data-i18n="special.typesofrock">Tipos de Rock</span>
-<span aria-hidden="true" class="lib-visit">↗</span>
+<span class="lib-desc" data-i18n="desc.typesofrock">97 gêneros de rock em uma árvore interativa, com história, som, genealogia e artistas.</span>
+</span>
 </a>
 </div>
 </div>
@@ -379,7 +466,7 @@
 <footer class="footer">
 <div class="footer-inner">
 <div class="footer-count" data-i18n="footer.count">
-        Portal central do <strong class="proj-name">BiblioVerse</strong> — última atualização: Outubro/2026
+        Portal central do <strong class="proj-name">BiblioVerse</strong> — última atualização: Novembro/2026
       </div>
 <p class="footer-lead" data-i18n="footer.lead">&lt;strong class="proj-name"&gt;BiblioVerse&lt;/strong&gt; é um projeto colaborativo para organizar e facilitar o acesso a bibliotecas úteis em diferentes temas.</p>
 <div class="footer-actions">
@@ -393,5 +480,6 @@
 <svg aria-hidden="true" height="18" viewbox="0 0 24 24" width="18"><path d="M7 14l5-5 5 5"></path></svg>
 </button>
 <script src="script.js"></script>
+<script defer="defer" src="/sw-register.js"></script>
 </body>
 </html>

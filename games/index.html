@@ -1,0 +1,5397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>BiblioVerse — A Biblioteca de Games — Catálogo pesquisável do essencial dos games por categoria</title>
+<meta content="Catálogo pesquisável do essencial dos games por categoria: lojas, consoles, jogos, gêneros, conceitos, esports, eventos, mídia e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador." name="description"/>
+<link href="https://biblioverse.org/games/" rel="canonical"/>
+<meta content="#0e1117" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- App icons -->
+<link href="images/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/icon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/icon_512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="images/icon_192.png" rel="apple-touch-icon"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="style" href="styles.css" onload="this.rel='stylesheet'" rel="preload"/><noscript><link href="styles.css" rel="stylesheet"/></noscript>
+<script src="https://biblioverse.org/superbar.js" defer></script>
+</head>
+<body>
+<!-- BiblioVerse Superbar -->
+<nav id="bvbar" class="bvbar" data-current="games" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
+<aside aria-label="Categorias" class="sidepush" id="sidepush"><div class="sidepush-top"><button aria-label="Expandir menu" class="side-toggle" id="menuToggle" title="Expandir menu" type="button">▶</button></div><nav class="sidepush-scroll" id="sideScroll"><ul class="sidepush-menu" id="sideMenu"></ul></nav></aside><div class="push-wrap" id="pushWrap"><header class="site-header">
+<div class="header-inner container">
+<div class="brand-wrap">
+<h1 class="brand">
+<!-- Link apenas no ícone -->
+<a href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">
+<img alt="Logo" class="brand-logo" fetchpriority="high" src="images/icon.svg" style="height:23px;width:23px;vertical-align:middle;margin-right:4px;"/>
+</a>
+<!-- Nome do site continua separado -->
+<a class="brand-link" href="#">
+<span class="brand-gradient i18n-brand">A Biblioteca de Games</span>
+</a>
+<span class="beta-badge">
+      BETA
+    </span>
+</h1>
+</div>
+<div class="controls">
+<input class="mono" id="search" placeholder="Buscar por nome" type="search"/>
+<select class="mono" id="categoryFilter" title="Filtrar por categoria"></select>
+<div class="control-group">
+<button aria-label="Alternar tema" class="toggle" id="themeToggle" type="button">☀️</button>
+<button aria-label="Alternar idioma" class="toggle" id="langToggle" type="button">🇦🇺</button>
+<button aria-label="Informações" class="toggle info" id="infoBtn" type="button">ℹ️</button>
+<div aria-hidden="true" class="infotooltip" id="infoTip" role="tooltip"></div>
+</div>
+</div>
+</div>
+</header><div class="container">
+<div aria-live="polite" id="root"><div class="skeleton" id="skeleton"><div class="skeleton-title"></div><div class="skeleton-grid"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div></div>
+<footer class="footer">
+<div class="footer-inner">
+<!-- Total vem primeiro -->
+<div class="footer-count">
+<span class="i18n-total">Total</span>: 
+      <span id="count">0</span>
+<span class="i18n-items">itens</span>
+<span class="sep">|</span>
+<span class="i18n-lastupdate">Última atualização: Outubro/2026</span>
+</div>
+<p class="footer-lead">
+<span class="i18n-footer-lead-pre">O projeto</span>
+<strong class="proj-name i18n-project-name">A Biblioteca de Games</strong>
+<span class="i18n-footer-lead-post">foi idealizada por Julio Cesar Prava e construída com a ajuda de IA. O projeto reúne itens selecionados e revisados por curadores humanos.</span>
+</p>
+<p class="footer-note i18n-bookmarkShare">Salve esse projeto nos seus favoritos e compartilhe!</p>
+<p class="footer-nav"><span class="i18n-footernav">Acesse as bibliotecas de outros temas úteis no <strong class="bverse-strong">BiblioVerse</strong>.</span></p>
+<div class="footer-actions">
+<a class="btn linkedin mono" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<button aria-label="Favoritar" class="btn star mono" id="favBtn" type="button">⭐</button>
+<button class="btn share mono" id="shareBtn" type="button"><span class="i18n-share">Compartilhar</span></button>
+<a class="btn bverse mono" href="https://biblioverse.org" rel="noopener noreferrer" target="_blank">BiblioVerse</a>
+</div>
+<p class="footer-thanks i18n-thanks">Obrigado pela visita!</p>
+</div>
+</footer>
+</div><script id="preloaded-data" type="application/json">[
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Amiga",
+    "url": "https://en.wikipedia.org/wiki/Amiga",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Amstrad CPC",
+    "url": "https://en.wikipedia.org/wiki/Amstrad_CPC",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Apple II",
+    "url": "https://en.wikipedia.org/wiki/Apple_II",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Atari 8-bit",
+    "url": "https://en.wikipedia.org/wiki/Atari_8-bit_computers",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Atari ST",
+    "url": "https://en.wikipedia.org/wiki/Atari_ST",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Commodore 64",
+    "url": "https://en.wikipedia.org/wiki/Commodore_64",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "CPS (Capcom)",
+    "url": "https://en.wikipedia.org/wiki/CP_System",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Fliperama (arcade)",
+    "url": "https://en.wikipedia.org/wiki/Arcade_video_game",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "MSX",
+    "url": "https://en.wikipedia.org/wiki/MSX",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "Neo Geo MVS",
+    "url": "https://en.wikipedia.org/wiki/Neo_Geo_(system)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "PC-98",
+    "url": "https://en.wikipedia.org/wiki/PC-98",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Arcades e computadores clássicos",
+    "name": "ZX Spectrum",
+    "url": "https://en.wikipedia.org/wiki/ZX_Spectrum",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Amazon Luna",
+    "url": "https://www.amazon.com/luna",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Apple Arcade",
+    "url": "https://www.apple.com/apple-arcade/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Boosteroid",
+    "url": "https://boosteroid.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "EA Play",
+    "url": "https://www.ea.com/ea-play",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Gaikai",
+    "url": "https://en.wikipedia.org/wiki/Gaikai",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "GeForce Now",
+    "url": "https://www.nvidia.com/geforce-now",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Google Play Pass",
+    "url": "https://play.google.com/about/play-pass",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Google Stadia",
+    "url": "https://en.wikipedia.org/wiki/Google_Stadia",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Humble Choice",
+    "url": "https://www.humblebundle.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Netflix Games",
+    "url": "https://www.netflix.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Nintendo Switch Online",
+    "url": "https://www.nintendo.com/switch/online/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "OnLive",
+    "url": "https://en.wikipedia.org/wiki/OnLive",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "PlayStation Now",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_Now",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "PlayStation Plus",
+    "url": "https://www.playstation.com/ps-plus/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Ubisoft+",
+    "url": "https://store.ubisoft.com/ubisoftplus",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Xbox Cloud Gaming",
+    "url": "https://www.xbox.com/play",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Assinaturas e jogos na nuvem",
+    "name": "Xbox Game Pass",
+    "url": "https://www.xbox.com/games/xbox-game-pass",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Backloggd",
+    "url": "https://www.backloggd.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "GameFAQs",
+    "url": "https://gamefaqs.gamespot.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "GG.deals",
+    "url": "https://gg.deals/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Grouvee",
+    "url": "https://www.grouvee.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "HLTV",
+    "url": "https://www.hltv.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "HowLongToBeat",
+    "url": "https://howlongtobeat.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "IGDB",
+    "url": "https://www.igdb.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "IsThereAnyDeal",
+    "url": "https://isthereanydeal.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Liquipedia",
+    "url": "https://liquipedia.net",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "MobyGames",
+    "url": "https://www.mobygames.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "OpenCritic",
+    "url": "https://opencritic.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "PCGamingWiki",
+    "url": "https://www.pcgamingwiki.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "ProtonDB",
+    "url": "https://www.protondb.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Speedrun.com",
+    "url": "https://www.speedrun.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Steam Charts",
+    "url": "https://steamcharts.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "SteamDB",
+    "url": "https://steamdb.info/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "VGChartz",
+    "url": "https://www.vgchartz.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "VLR.gg",
+    "url": "https://www.vlr.gg/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "THESPIKE.GG",
+    "url": "https://www.thespike.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Dotabuff",
+    "url": "https://www.dotabuff.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "OP.GG",
+    "url": "https://www.op.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Oracle's Elixir",
+    "url": "https://oracleselixir.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Tracker Network",
+    "url": "https://tracker.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Esports Earnings",
+    "url": "https://www.esportsearnings.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Esports Charts",
+    "url": "https://escharts.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "RAWG",
+    "url": "https://rawg.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "Steam250",
+    "url": "https://steam250.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Avaliação e bancos de dados",
+    "name": "The Cutting Room Floor",
+    "url": "https://tcrf.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Acesso antecipado",
+    "url": "https://en.wikipedia.org/wiki/Early_access",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Balanceamento",
+    "url": "https://en.wikipedia.org/wiki/Game_balance",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Boss",
+    "url": "https://en.wikipedia.org/wiki/Boss_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Checkpoint",
+    "url": "https://en.wikipedia.org/wiki/Saved_game#Checkpoints",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Conquistas e troféus",
+    "url": "https://en.wikipedia.org/wiki/Achievement_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Coop local (sofá)",
+    "url": "https://en.wikipedia.org/wiki/Cooperative_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Crash de 1983",
+    "url": "https://en.wikipedia.org/wiki/Video_game_crash_of_1983",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Crossplay",
+    "url": "https://en.wikipedia.org/wiki/Cross-platform_play",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Cutscene",
+    "url": "https://en.wikipedia.org/wiki/Cutscene",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "DLC",
+    "url": "https://en.wikipedia.org/wiki/Downloadable_content",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Easter egg",
+    "url": "https://en.wikipedia.org/wiki/Easter_egg_(media)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Emulação",
+    "url": "https://en.wikipedia.org/wiki/Video_game_console_emulator",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Free-to-play",
+    "url": "https://en.wikipedia.org/wiki/Free-to-play",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Game design",
+    "url": "https://en.wikipedia.org/wiki/Game_design",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Game jam",
+    "url": "https://en.wikipedia.org/wiki/Game_jam",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Game over",
+    "url": "https://en.wikipedia.org/wiki/Game_over",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Gamer",
+    "url": "https://en.wikipedia.org/wiki/Gamer",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Gamificação",
+    "url": "https://en.wikipedia.org/wiki/Gamification",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Geração procedural",
+    "url": "https://en.wikipedia.org/wiki/Procedural_generation",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Glitch",
+    "url": "https://en.wikipedia.org/wiki/Glitch#Video_games",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Grinding",
+    "url": "https://en.wikipedia.org/wiki/Grinding_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Guerra dos consoles",
+    "url": "https://en.wikipedia.org/wiki/Console_war",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Hitbox",
+    "url": "https://en.wikipedia.org/wiki/Hitbox",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "HUD",
+    "url": "https://en.wikipedia.org/wiki/HUD_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Jogabilidade (gameplay)",
+    "url": "https://en.wikipedia.org/wiki/Gameplay",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Jogo AAA",
+    "url": "https://en.wikipedia.org/wiki/AAA_(video_game_industry)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Jogo indie",
+    "url": "https://en.wikipedia.org/wiki/Indie_game",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Latência (lag)",
+    "url": "https://en.wikipedia.org/wiki/Lag_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Level design",
+    "url": "https://en.wikipedia.org/wiki/Level_design",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Loot box",
+    "url": "https://en.wikipedia.org/wiki/Loot_box",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Matchmaking",
+    "url": "https://en.wikipedia.org/wiki/Matchmaking_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Mecânicas de jogo",
+    "url": "https://en.wikipedia.org/wiki/Game_mechanics",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Microtransação",
+    "url": "https://en.wikipedia.org/wiki/Microtransaction",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Mods",
+    "url": "https://en.wikipedia.org/wiki/Video_game_modding",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Morte permanente",
+    "url": "https://en.wikipedia.org/wiki/Permadeath",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Multijogador",
+    "url": "https://en.wikipedia.org/wiki/Multiplayer_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Nerf e buff",
+    "url": "https://en.wikipedia.org/wiki/Nerf_(video_games)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "New Game Plus",
+    "url": "https://en.wikipedia.org/wiki/New_Game_Plus",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "NPC",
+    "url": "https://en.wikipedia.org/wiki/Non-player_character",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Névoa de guerra",
+    "url": "https://en.wikipedia.org/wiki/Fog_of_war",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Passe de batalha",
+    "url": "https://en.wikipedia.org/wiki/Battle_pass",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Pontos de experiência",
+    "url": "https://en.wikipedia.org/wiki/Experience_point",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Pontos de vida (HP)",
+    "url": "https://en.wikipedia.org/wiki/Health_(game_terminology)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Quick time event",
+    "url": "https://en.wikipedia.org/wiki/Quick_time_event",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Ray tracing",
+    "url": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Remaster e remake",
+    "url": "https://en.wikipedia.org/wiki/Video_game_remake",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Retrogaming",
+    "url": "https://en.wikipedia.org/wiki/Retrogaming",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Save game",
+    "url": "https://en.wikipedia.org/wiki/Saved_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Speedrun",
+    "url": "https://en.wikipedia.org/wiki/Speedrun",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Taxa de quadros (FPS)",
+    "url": "https://en.wikipedia.org/wiki/Frame_rate",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Trapaça (cheats)",
+    "url": "https://en.wikipedia.org/wiki/Cheating_in_video_games",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Conceitos fundamentais",
+    "name": "Tutorial",
+    "url": "https://en.wikipedia.org/wiki/Tutorial#In_video_games",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "3DO Interactive Multiplayer",
+    "url": "https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Atari 2600",
+    "url": "https://en.wikipedia.org/wiki/Atari_2600",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "ColecoVision",
+    "url": "https://en.wikipedia.org/wiki/ColecoVision",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Dreamcast",
+    "url": "https://en.wikipedia.org/wiki/Dreamcast",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "GameCube",
+    "url": "https://en.wikipedia.org/wiki/GameCube",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Intellivision",
+    "url": "https://en.wikipedia.org/wiki/Intellivision",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Magnavox Odyssey",
+    "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Master System",
+    "url": "https://en.wikipedia.org/wiki/Master_System",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Mega Drive",
+    "url": "https://en.wikipedia.org/wiki/Sega_Genesis",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Neo Geo",
+    "url": "https://en.wikipedia.org/wiki/Neo_Geo_(system)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Nintendo 64",
+    "url": "https://en.wikipedia.org/wiki/Nintendo_64",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Nintendo Entertainment System",
+    "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Nintendo Switch",
+    "url": "https://www.nintendo.com/us/gaming-systems/switch/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Nintendo Switch 2",
+    "url": "https://www.nintendo.com/us/gaming-systems/switch-2/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Ouya",
+    "url": "https://en.wikipedia.org/wiki/Ouya",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "PlayStation",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "PlayStation 2",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "PlayStation 3",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_3",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "PlayStation 4",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_4",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "PlayStation 5",
+    "url": "https://www.playstation.com/ps5/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Sega Saturn",
+    "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Super Nintendo",
+    "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Wii",
+    "url": "https://en.wikipedia.org/wiki/Wii",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Wii U",
+    "url": "https://en.wikipedia.org/wiki/Wii_U",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Xbox",
+    "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Xbox 360",
+    "url": "https://en.wikipedia.org/wiki/Xbox_360",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Xbox One",
+    "url": "https://en.wikipedia.org/wiki/Xbox_One",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Xbox Series X/S",
+    "url": "https://www.xbox.com/consoles",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Consoles de mesa",
+    "name": "Zeebo",
+    "url": "https://en.wikipedia.org/wiki/Zeebo",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Aseprite",
+    "url": "https://aseprite.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Blender",
+    "url": "https://www.blender.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Brackeys",
+    "url": "https://www.youtube.com/@Brackeys",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Epic Developer Community",
+    "url": "https://dev.epicgames.com/community/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Extra Credits",
+    "url": "https://www.youtube.com/@extracredits",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "FMOD",
+    "url": "https://www.fmod.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Game Maker's Toolkit",
+    "url": "https://www.youtube.com/@GMTK",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "GDC Vault",
+    "url": "https://gdcvault.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "GDQuest",
+    "url": "https://www.gdquest.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Global Game Jam",
+    "url": "https://www.globalgamejam.org",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "itch.io Jams",
+    "url": "https://itch.io/jams",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Kenney (assets gratuitos)",
+    "url": "https://kenney.nl/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Ludum Dare",
+    "url": "https://ldjam.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Mixamo",
+    "url": "https://www.mixamo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "OpenGameArt",
+    "url": "https://opengameart.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "SBGames",
+    "url": "https://www.sbgames.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Tiled",
+    "url": "https://www.mapeditor.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Unity Learn",
+    "url": "https://learn.unity.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Desenvolvimento de jogos",
+    "name": "Wwise",
+    "url": "https://www.audiokinetic.com/wwise/overview",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Aquiris",
+    "url": "https://en.wikipedia.org/wiki/Aquiris_Game_Studio",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Behold Studios",
+    "url": "https://www.beholdstudios.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Gazeus Games",
+    "url": "https://www.gazeus.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Hoplon Infotainment",
+    "url": "https://pt.wikipedia.org/wiki/Hoplon_Infotainment",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Hue Games",
+    "url": "https://huegames.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "JoyMasher",
+    "url": "https://www.joymasher.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Long Hat House",
+    "url": "https://www.longhathouse.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "QUByte Interactive",
+    "url": "https://www.qubyte.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Tapps Games",
+    "url": "https://tappsgames.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Tectoy",
+    "url": "https://www.tectoy.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas brasileiras de games",
+    "name": "Wildlife Studios",
+    "url": "https://wildlifestudios.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Activision",
+    "url": "https://www.activision.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Annapurna Interactive",
+    "url": "https://annapurnainteractive.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Atari",
+    "url": "https://www.atari.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Atlus",
+    "url": "https://www.atlus.co.jp/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Bandai Namco",
+    "url": "https://www.bandainamcoent.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Bethesda Softworks",
+    "url": "https://bethesda.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Blizzard Entertainment",
+    "url": "https://www.blizzard.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Bungie",
+    "url": "https://www.bungie.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Capcom",
+    "url": "https://www.capcom.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "CD Projekt",
+    "url": "https://www.cdprojekt.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Devolver Digital",
+    "url": "https://www.devolverdigital.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Electronic Arts",
+    "url": "https://www.ea.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Epic Games",
+    "url": "https://www.epicgames.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "FromSoftware",
+    "url": "https://www.fromsoftware.jp/ww/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Game Freak",
+    "url": "https://www.gamefreak.co.jp",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "HoYoverse",
+    "url": "https://www.hoyoverse.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "id Software",
+    "url": "https://www.idsoftware.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Insomniac Games",
+    "url": "https://insomniac.games",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Koei Tecmo",
+    "url": "https://www.koeitecmo.co.jp/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Kojima Productions",
+    "url": "https://www.kojimaproductions.jp/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Konami",
+    "url": "https://www.konami.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Krafton",
+    "url": "https://www.krafton.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Larian Studios",
+    "url": "https://larian.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Looking Glass Studios",
+    "url": "https://en.wikipedia.org/wiki/Looking_Glass_Studios",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "LucasArts",
+    "url": "https://en.wikipedia.org/wiki/LucasArts",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Midway Games",
+    "url": "https://en.wikipedia.org/wiki/Midway_Games",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Mojang Studios",
+    "url": "https://www.mojang.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Naughty Dog",
+    "url": "https://www.naughtydog.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "NetEase Games",
+    "url": "https://www.neteasegames.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Nintendo",
+    "url": "https://www.nintendo.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Paradox Interactive",
+    "url": "https://www.paradoxplaza.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Rare",
+    "url": "https://www.rare.co.uk/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Remedy Entertainment",
+    "url": "https://www.remedygames.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Riot Games",
+    "url": "https://www.riotgames.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Roblox Corporation",
+    "url": "https://about.roblox.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Rockstar Games",
+    "url": "https://www.rockstargames.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Sega",
+    "url": "https://www.sega.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Sierra On-Line",
+    "url": "https://en.wikipedia.org/wiki/Sierra_Entertainment",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Sony Interactive Entertainment",
+    "url": "https://sonyinteractive.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Square Enix",
+    "url": "https://www.square-enix.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Supercell",
+    "url": "https://supercell.com/en/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Take-Two Interactive",
+    "url": "https://www.take2games.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Team Cherry",
+    "url": "https://www.teamcherry.com.au/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Tencent Games",
+    "url": "https://www.tencentgames.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "The 3DO Company",
+    "url": "https://en.wikipedia.org/wiki/The_3DO_Company",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "THQ",
+    "url": "https://en.wikipedia.org/wiki/THQ",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Ubisoft",
+    "url": "https://www.ubisoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Valve",
+    "url": "https://www.valvesoftware.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Westwood Studios",
+    "url": "https://en.wikipedia.org/wiki/Westwood_Studios",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Empresas e publishers",
+    "name": "Xbox (Microsoft Gaming)",
+    "url": "https://www.xbox.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "BLAST",
+    "url": "https://blastpremier.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "CBLOL",
+    "url": "https://br.lolesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Counter-Strike Major",
+    "url": "https://www.counter-strike.net/majors",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Dreamhack",
+    "url": "https://dreamhack.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "ESL",
+    "url": "https://www.esl.eu/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Esports World Cup",
+    "url": "https://esportsworldcup.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Evolution Championship Series (EVO)",
+    "url": "https://www.evo.gg/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Free Fire World Series",
+    "url": "https://en.wikipedia.org/wiki/Free_Fire_World_Series",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Intel Extreme Masters",
+    "url": "https://intelextrememasters.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "League of Legends World Championship",
+    "url": "https://lolesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Overwatch Champions Series",
+    "url": "https://overwatch.blizzard.com/esports/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Overwatch League",
+    "url": "https://en.wikipedia.org/wiki/Overwatch_League",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "PGL",
+    "url": "https://www.pgl.co.uk/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Rocket League Championship Series",
+    "url": "https://esports.rocketleague.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "The International (Dota 2)",
+    "url": "https://www.dota2.com/international/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Valorant Champions",
+    "url": "https://valorantesports.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Esports: torneios e ligas",
+    "name": "Valorant Champions Tour",
+    "url": "https://valorantesports.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "BIG Festival",
+    "url": "https://web.archive.org/web/2023/https://bigfestival.com.br/",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "BlizzCon",
+    "url": "https://blizzcon.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Brasil Game Show",
+    "url": "https://www.brasilgameshow.com.br/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "ChinaJoy",
+    "url": "https://en.chinajoy.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "E3",
+    "url": "https://en.wikipedia.org/wiki/E3",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Game Developers Conference",
+    "url": "https://www.gdconf.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Games Done Quick",
+    "url": "https://gamesdonequick.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Gamescom",
+    "url": "https://www.gamescom-cologne.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Gamescom Latam",
+    "url": "https://gamescom-latam.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "IndieCade",
+    "url": "https://www.indiecade.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Nintendo Direct",
+    "url": "https://www.nintendo.com/nintendo-direct/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "PAX",
+    "url": "https://www.paxsite.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "QuakeCon",
+    "url": "https://quakecon.bethesda.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Spike Video Game Awards",
+    "url": "https://en.wikipedia.org/wiki/Spike_Video_Game_Awards",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "State of Play",
+    "url": "https://www.playstation.com/en-us/state-of-play/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Summer Game Fest",
+    "url": "https://www.summergamefest.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "The Game Awards",
+    "url": "https://thegameawards.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Tokyo Game Show",
+    "url": "https://tgs.cesa.or.jp/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Eventos e feiras",
+    "name": "Xbox Games Showcase",
+    "url": "https://news.xbox.com/en-us/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Alexey Pajitnov",
+    "url": "https://en.wikipedia.org/wiki/Alexey_Pajitnov",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Amy Hennig",
+    "url": "https://en.wikipedia.org/wiki/Amy_Hennig",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Brenda Romero",
+    "url": "https://en.wikipedia.org/wiki/Brenda_Romero",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Eric Barone",
+    "url": "https://en.wikipedia.org/wiki/Eric_Barone",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Gabe Newell",
+    "url": "https://en.wikipedia.org/wiki/Gabe_Newell",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Gunpei Yokoi",
+    "url": "https://en.wikipedia.org/wiki/Gunpei_Yokoi",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Hideki Kamiya",
+    "url": "https://en.wikipedia.org/wiki/Hideki_Kamiya",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Hideo Kojima",
+    "url": "https://en.wikipedia.org/wiki/Hideo_Kojima",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Hidetaka Miyazaki",
+    "url": "https://en.wikipedia.org/wiki/Hidetaka_Miyazaki",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Hironobu Sakaguchi",
+    "url": "https://en.wikipedia.org/wiki/Hironobu_Sakaguchi",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Hiroshi Yamauchi",
+    "url": "https://en.wikipedia.org/wiki/Hiroshi_Yamauchi",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Jerry Lawson",
+    "url": "https://en.wikipedia.org/wiki/Jerry_Lawson_(engineer)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "John Carmack",
+    "url": "https://en.wikipedia.org/wiki/John_Carmack",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "John Romero",
+    "url": "https://en.wikipedia.org/wiki/John_Romero",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Ken Kutaragi",
+    "url": "https://en.wikipedia.org/wiki/Ken_Kutaragi",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Ken Levine",
+    "url": "https://en.wikipedia.org/wiki/Ken_Levine_(game_developer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Koji Kondo",
+    "url": "https://en.wikipedia.org/wiki/Koji_Kondo",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Mark Cerny",
+    "url": "https://en.wikipedia.org/wiki/Mark_Cerny",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Markus Persson",
+    "url": "https://en.wikipedia.org/wiki/Markus_Persson",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Masahiro Sakurai",
+    "url": "https://en.wikipedia.org/wiki/Masahiro_Sakurai",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Neil Druckmann",
+    "url": "https://en.wikipedia.org/wiki/Neil_Druckmann",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Nobuo Uematsu",
+    "url": "https://en.wikipedia.org/wiki/Nobuo_Uematsu",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Nolan Bushnell",
+    "url": "https://en.wikipedia.org/wiki/Nolan_Bushnell",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Phil Spencer",
+    "url": "https://en.wikipedia.org/wiki/Phil_Spencer_(business_executive)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Ralph Baer",
+    "url": "https://en.wikipedia.org/wiki/Ralph_H._Baer",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Reggie Fils-Aimé",
+    "url": "https://en.wikipedia.org/wiki/Reggie_Fils-Aim%C3%A9",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Richard Garriott",
+    "url": "https://en.wikipedia.org/wiki/Richard_Garriott",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Roberta Williams",
+    "url": "https://en.wikipedia.org/wiki/Roberta_Williams",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Ron Gilbert",
+    "url": "https://en.wikipedia.org/wiki/Ron_Gilbert",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Sam Houser",
+    "url": "https://en.wikipedia.org/wiki/Sam_Houser",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Satoru Iwata",
+    "url": "https://en.wikipedia.org/wiki/Satoru_Iwata",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Shigeru Miyamoto",
+    "url": "https://en.wikipedia.org/wiki/Shigeru_Miyamoto",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Sid Meier",
+    "url": "https://en.wikipedia.org/wiki/Sid_Meier",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Tim Schafer",
+    "url": "https://en.wikipedia.org/wiki/Tim_Schafer",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Tim Sweeney",
+    "url": "https://en.wikipedia.org/wiki/Tim_Sweeney_(game_developer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Toby Fox",
+    "url": "https://en.wikipedia.org/wiki/Toby_Fox",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Todd Howard",
+    "url": "https://en.wikipedia.org/wiki/Todd_Howard",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Tomohiro Nishikado",
+    "url": "https://en.wikipedia.org/wiki/Tomohiro_Nishikado",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Toru Iwatani",
+    "url": "https://en.wikipedia.org/wiki/Toru_Iwatani",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Will Wright",
+    "url": "https://en.wikipedia.org/wiki/Will_Wright_(game_designer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Yu Suzuki",
+    "url": "https://en.wikipedia.org/wiki/Yu_Suzuki",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Figuras-chave",
+    "name": "Yuji Naka",
+    "url": "https://en.wikipedia.org/wiki/Yuji_Naka",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "4X",
+    "url": "https://en.wikipedia.org/wiki/4X",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Aponte e clique",
+    "url": "https://en.wikipedia.org/wiki/Adventure_game#Point-and-click_adventure_games",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Auto battler",
+    "url": "https://en.wikipedia.org/wiki/Auto_battler",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Aventura",
+    "url": "https://en.wikipedia.org/wiki/Adventure_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Ação",
+    "url": "https://en.wikipedia.org/wiki/Action_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Battle royale",
+    "url": "https://en.wikipedia.org/wiki/Battle_royale_game",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Beat 'em up",
+    "url": "https://en.wikipedia.org/wiki/Beat_'em_up",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Bullet hell",
+    "url": "https://en.wikipedia.org/wiki/Shoot_'em_up#Bullet_hell",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Construção de cidades",
+    "url": "https://en.wikipedia.org/wiki/City-building_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Corrida",
+    "url": "https://en.wikipedia.org/wiki/Racing_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Cozy game",
+    "url": "https://en.wikipedia.org/wiki/Cozy_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Esportes",
+    "url": "https://en.wikipedia.org/wiki/Sports_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Estratégia em tempo real (RTS)",
+    "url": "https://en.wikipedia.org/wiki/Real-time_strategy",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Estratégia por turnos",
+    "url": "https://en.wikipedia.org/wiki/Turn-based_strategy",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Extraction shooter",
+    "url": "https://en.wikipedia.org/wiki/Extraction_shooter",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Gacha",
+    "url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Hero shooter",
+    "url": "https://en.wikipedia.org/wiki/Hero_shooter",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Idle (incremental)",
+    "url": "https://en.wikipedia.org/wiki/Incremental_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Immersive sim",
+    "url": "https://en.wikipedia.org/wiki/Immersive_sim",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Jogo casual",
+    "url": "https://en.wikipedia.org/wiki/Casual_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Jogo de cartas digital",
+    "url": "https://en.wikipedia.org/wiki/Digital_collectible_card_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Jogo educativo",
+    "url": "https://en.wikipedia.org/wiki/Educational_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "JRPG",
+    "url": "https://en.wikipedia.org/wiki/Japanese_role-playing_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Luta",
+    "url": "https://en.wikipedia.org/wiki/Fighting_game",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Metroidvania",
+    "url": "https://en.wikipedia.org/wiki/Metroidvania",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "MMORPG",
+    "url": "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "MOBA",
+    "url": "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Mundo aberto",
+    "url": "https://en.wikipedia.org/wiki/Open_world",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Party game",
+    "url": "https://en.wikipedia.org/wiki/Party_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Plataforma",
+    "url": "https://en.wikipedia.org/wiki/Platformer",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Quebra-cabeça",
+    "url": "https://en.wikipedia.org/wiki/Puzzle_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Ritmo",
+    "url": "https://en.wikipedia.org/wiki/Rhythm_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Roguelike",
+    "url": "https://en.wikipedia.org/wiki/Roguelike",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "RPG",
+    "url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "RPG de ação",
+    "url": "https://en.wikipedia.org/wiki/Action_role-playing_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Sandbox",
+    "url": "https://en.wikipedia.org/wiki/Sandbox_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Shoot 'em up",
+    "url": "https://en.wikipedia.org/wiki/Shoot_'em_up",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Simulador de vida",
+    "url": "https://en.wikipedia.org/wiki/Life_simulation_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Simulação",
+    "url": "https://en.wikipedia.org/wiki/Simulation_video_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Sobrevivência",
+    "url": "https://en.wikipedia.org/wiki/Survival_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Soulslike",
+    "url": "https://en.wikipedia.org/wiki/Soulslike",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Stealth",
+    "url": "https://en.wikipedia.org/wiki/Stealth_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Survival horror",
+    "url": "https://en.wikipedia.org/wiki/Survival_horror",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Terror",
+    "url": "https://en.wikipedia.org/wiki/Horror_game",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Tiro em primeira pessoa (FPS)",
+    "url": "https://en.wikipedia.org/wiki/First-person_shooter",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Tiro em terceira pessoa",
+    "url": "https://en.wikipedia.org/wiki/Third-person_shooter",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Tiro tático",
+    "url": "https://en.wikipedia.org/wiki/Tactical_shooter",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Tower defense",
+    "url": "https://en.wikipedia.org/wiki/Tower_defense",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Visual novel",
+    "url": "https://en.wikipedia.org/wiki/Visual_novel",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Gêneros de jogos",
+    "name": "Walking simulator",
+    "url": "https://en.wikipedia.org/wiki/Walking_simulator",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Alanzoka",
+    "url": "https://en.wikipedia.org/wiki/Alanzoka",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Angry Video Game Nerd",
+    "url": "https://en.wikipedia.org/wiki/Angry_Video_Game_Nerd",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "BRKsEDU",
+    "url": "https://www.youtube.com/@BRKsEDU",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Casimiro",
+    "url": "https://en.wikipedia.org/wiki/Casimiro_(streamer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Cellbit",
+    "url": "https://en.wikipedia.org/wiki/Cellbit",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Coringa (LOUD)",
+    "url": "https://www.youtube.com/@LOUDCoringa",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Dream",
+    "url": "https://en.wikipedia.org/wiki/Dream_(YouTuber)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Felps",
+    "url": "https://www.youtube.com/@FelpsLIVE",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Game Grumps",
+    "url": "https://en.wikipedia.org/wiki/Game_Grumps",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Gaules",
+    "url": "https://en.wikipedia.org/wiki/Gaules",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Ibai Llanos",
+    "url": "https://en.wikipedia.org/wiki/Ibai_Llanos",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Jacksepticeye",
+    "url": "https://en.wikipedia.org/wiki/Jacksepticeye",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Jovem Nerd",
+    "url": "https://jovemnerd.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Markiplier",
+    "url": "https://en.wikipedia.org/wiki/Markiplier",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Ninja",
+    "url": "https://en.wikipedia.org/wiki/Ninja_(gamer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Nobru",
+    "url": "https://en.wikipedia.org/wiki/Nobru",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "PewDiePie",
+    "url": "https://en.wikipedia.org/wiki/PewDiePie",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Pokimane",
+    "url": "https://en.wikipedia.org/wiki/Pokimane",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Shroud",
+    "url": "https://en.wikipedia.org/wiki/Shroud_(gamer)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "TheGrefg",
+    "url": "https://en.wikipedia.org/wiki/TheGrefg",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "xQc",
+    "url": "https://en.wikipedia.org/wiki/XQc",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Influenciadores e criadores",
+    "name": "Zangado",
+    "url": "https://www.youtube.com/@ZangadoReview",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Blazing Chrome",
+    "url": "https://en.wikipedia.org/wiki/Blazing_Chrome",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Chroma Squad",
+    "url": "https://en.wikipedia.org/wiki/Chroma_Squad",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Dandara",
+    "url": "https://en.wikipedia.org/wiki/Dandara_(video_game)",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Dolmen",
+    "url": "https://en.wikipedia.org/wiki/Dolmen_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Enigma do Medo",
+    "url": "https://pt.wikipedia.org/wiki/Enigma_do_Medo",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Horizon Chase Turbo",
+    "url": "https://www.horizonchase.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Knights of Pen and Paper",
+    "url": "https://en.wikipedia.org/wiki/Knights_of_Pen_and_Paper",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Mullet MadJack",
+    "url": "https://en.wikipedia.org/wiki/Mullet_MadJack",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Mônica no Castelo do Dragão",
+    "url": "https://en.wikipedia.org/wiki/Wonder_Boy_in_Monster_Land",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Oniken",
+    "url": "https://en.wikipedia.org/wiki/Oniken",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Relic Hunters Zero",
+    "url": "https://store.steampowered.com/app/382490/Relic_Hunters_Zero_Remix/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Taikodom",
+    "url": "https://en.wikipedia.org/wiki/Taikodom",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Toren",
+    "url": "https://en.wikipedia.org/wiki/Toren_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos brasileiros",
+    "name": "Unsighted",
+    "url": "https://en.wikipedia.org/wiki/Unsighted",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Age of Empires II",
+    "url": "https://www.ageofempires.com/games/aoeiide/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Among Us",
+    "url": "https://www.innersloth.com/games/among-us/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Angry Birds",
+    "url": "https://www.angrybirds.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Animal Crossing: New Horizons",
+    "url": "https://animal-crossing.com/new-horizons/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Baldur's Gate 3",
+    "url": "https://baldursgate3.game/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "BioShock",
+    "url": "https://en.wikipedia.org/wiki/BioShock_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Breath of the Wild",
+    "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Call of Duty 4: Modern Warfare",
+    "url": "https://en.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Candy Crush Saga",
+    "url": "https://www.king.com/game/candycrush",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Celeste",
+    "url": "https://www.celestegame.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Chrono Trigger",
+    "url": "https://en.wikipedia.org/wiki/Chrono_Trigger",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Civilization",
+    "url": "https://civilization.2k.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Clash of Clans",
+    "url": "https://supercell.com/en/games/clashofclans/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Club Penguin",
+    "url": "https://en.wikipedia.org/wiki/Club_Penguin",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Counter-Strike",
+    "url": "https://www.counter-strike.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Dark Souls",
+    "url": "https://en.wikipedia.org/wiki/Dark_Souls_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Diablo II",
+    "url": "https://en.wikipedia.org/wiki/Diablo_II",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Donkey Kong",
+    "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Doom",
+    "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Dota 2",
+    "url": "https://www.dota2.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Elden Ring",
+    "url": "https://en.bandainamcoent.eu/elden-ring",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Final Fantasy VII",
+    "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Fortnite",
+    "url": "https://www.fortnite.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Free Fire",
+    "url": "https://ff.garena.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Genshin Impact",
+    "url": "https://genshin.hoyoverse.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "God of War",
+    "url": "https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Grand Theft Auto V",
+    "url": "https://www.rockstargames.com/gta-v",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Grand Theft Auto: San Andreas",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Habbo Hotel",
+    "url": "https://www.habbo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Hades",
+    "url": "https://www.supergiantgames.com/games/hades/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Half-Life",
+    "url": "https://en.wikipedia.org/wiki/Half-Life_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Half-Life 2",
+    "url": "https://en.wikipedia.org/wiki/Half-Life_2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Halo: Combat Evolved",
+    "url": "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Hollow Knight",
+    "url": "https://www.hollowknight.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Journey",
+    "url": "https://en.wikipedia.org/wiki/Journey_(2012_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "League of Legends",
+    "url": "https://www.leagueoflegends.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Mario Kart 8",
+    "url": "https://en.wikipedia.org/wiki/Mario_Kart_8",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Mass Effect 2",
+    "url": "https://en.wikipedia.org/wiki/Mass_Effect_2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Metal Gear Solid",
+    "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(1998_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Minecraft",
+    "url": "https://www.minecraft.net/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Mortal Kombat",
+    "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Ocarina of Time",
+    "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Outer Wilds",
+    "url": "https://www.mobiusdigitalgames.com/outer-wilds.html",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Overwatch",
+    "url": "https://overwatch.blizzard.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Pac-Man",
+    "url": "https://en.wikipedia.org/wiki/Pac-Man",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Pokémon Go",
+    "url": "https://pokemongolive.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Pokémon Red e Blue",
+    "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Pong",
+    "url": "https://en.wikipedia.org/wiki/Pong",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Portal",
+    "url": "https://en.wikipedia.org/wiki/Portal_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "PUBG: Battlegrounds",
+    "url": "https://pubg.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Red Dead Redemption 2",
+    "url": "https://www.rockstargames.com/reddeadredemption2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Resident Evil",
+    "url": "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Resident Evil 4",
+    "url": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Roblox",
+    "url": "https://www.roblox.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Shadow of the Colossus",
+    "url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Silent Hill 2",
+    "url": "https://en.wikipedia.org/wiki/Silent_Hill_2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "SimCity",
+    "url": "https://en.wikipedia.org/wiki/SimCity_(1989_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Skyrim",
+    "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Sonic the Hedgehog",
+    "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Space Invaders",
+    "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "StarCraft",
+    "url": "https://en.wikipedia.org/wiki/StarCraft_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Stardew Valley",
+    "url": "https://www.stardewvalley.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Street Fighter II",
+    "url": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Super Mario 64",
+    "url": "https://en.wikipedia.org/wiki/Super_Mario_64",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Super Mario Bros.",
+    "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Super Smash Bros. Ultimate",
+    "url": "https://www.smashbros.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Terraria",
+    "url": "https://terraria.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Tetris",
+    "url": "https://tetris.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "The Last of Us",
+    "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "The Legend of Zelda",
+    "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "The Sims",
+    "url": "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "The Witcher 3",
+    "url": "https://www.thewitcher.com/en/witcher3",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Undertale",
+    "url": "https://undertale.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Valorant",
+    "url": "https://playvalorant.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Wii Sports",
+    "url": "https://en.wikipedia.org/wiki/Wii_Sports",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "World of Warcraft",
+    "url": "https://worldofwarcraft.blizzard.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Grand Theft Auto VI (lançamento previsto para 2026)",
+    "url": "https://www.rockstargames.com/VI",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Super Mario World",
+    "url": "https://en.wikipedia.org/wiki/Super_Mario_World",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Fallout: New Vegas",
+    "url": "https://en.wikipedia.org/wiki/Fallout:_New_Vegas",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Uncharted 2: Among Thieves",
+    "url": "https://en.wikipedia.org/wiki/Uncharted_2:_Among_Thieves",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Assassin's Creed II",
+    "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_II",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Bloodborne",
+    "url": "https://en.wikipedia.org/wiki/Bloodborne",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Persona 5",
+    "url": "https://en.wikipedia.org/wiki/Persona_5",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Rocket League",
+    "url": "https://en.wikipedia.org/wiki/Rocket_League",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Cyberpunk 2077",
+    "url": "https://en.wikipedia.org/wiki/Cyberpunk_2077",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Tears of the Kingdom",
+    "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Black Myth: Wukong",
+    "url": "https://en.wikipedia.org/wiki/Black_Myth:_Wukong",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Balatro",
+    "url": "https://en.wikipedia.org/wiki/Balatro",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Clair Obscur: Expedition 33",
+    "url": "https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Jogos icônicos",
+    "name": "Hollow Knight: Silksong",
+    "url": "https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Battle.net",
+    "url": "https://battle.net",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Desura",
+    "url": "https://en.wikipedia.org/wiki/Desura",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "EA app",
+    "url": "https://www.ea.com/ea-app",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Epic Games Store",
+    "url": "https://store.epicgames.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Fanatical",
+    "url": "https://www.fanatical.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Game Jolt",
+    "url": "https://gamejolt.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Games for Windows – Live",
+    "url": "https://en.wikipedia.org/wiki/Games_for_Windows_%E2%80%93_Live",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "GOG.com",
+    "url": "https://www.gog.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Google Play Games",
+    "url": "https://play.google.com/googleplaygames",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Green Man Gaming",
+    "url": "https://www.greenmangaming.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Humble Bundle",
+    "url": "https://www.humblebundle.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "itch.io",
+    "url": "https://itch.io/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Microsoft Store",
+    "url": "https://apps.microsoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Nintendo eShop",
+    "url": "https://www.nintendo.com/store/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Nuuvem",
+    "url": "https://www.nuuvem.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Origin",
+    "url": "https://en.wikipedia.org/wiki/EA_App",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "PlayStation Store",
+    "url": "https://store.playstation.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Prime Gaming",
+    "url": "https://en.wikipedia.org/wiki/Prime_Gaming",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Rockstar Games Launcher",
+    "url": "https://www.rockstargames.com/downloads",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Steam",
+    "url": "https://store.steampowered.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Lojas e plataformas digitais",
+    "name": "Ubisoft Connect",
+    "url": "https://connect.ubisoft.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Cemu",
+    "url": "https://cemu.info/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Citra",
+    "url": "https://en.wikipedia.org/wiki/Citra_(emulator)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "CurseForge",
+    "url": "https://www.curseforge.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Dolphin",
+    "url": "https://dolphin-emu.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "DOSBox",
+    "url": "https://www.dosbox.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "DuckStation",
+    "url": "https://www.duckstation.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Internet Archive (software)",
+    "url": "https://archive.org/details/software",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "MAME",
+    "url": "https://www.mamedev.org",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Mod DB",
+    "url": "https://www.moddb.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Nexus Mods",
+    "url": "https://www.nexusmods.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "PCSX2",
+    "url": "https://pcsx2.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "PPSSPP",
+    "url": "https://www.ppsspp.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "RetroArch",
+    "url": "https://www.retroarch.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "RPCS3",
+    "url": "https://www.rpcs3.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Ryujinx",
+    "url": "https://en.wikipedia.org/wiki/Ryujinx",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "ScummVM",
+    "url": "https://www.scummvm.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Steam Workshop",
+    "url": "https://steamcommunity.com/workshop/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mods e emulação",
+    "name": "Yuzu",
+    "url": "https://en.wikipedia.org/wiki/Yuzu_(emulator)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Adobe Flash",
+    "url": "https://en.wikipedia.org/wiki/Adobe_Flash",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Bevy",
+    "url": "https://bevy.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Cocos",
+    "url": "https://cocos2d-x.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Construct",
+    "url": "https://www.construct.net/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "CryEngine",
+    "url": "https://www.cryengine.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Decima",
+    "url": "https://en.wikipedia.org/wiki/Decima_(game_engine)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Defold",
+    "url": "https://defold.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Frostbite",
+    "url": "https://www.ea.com/frostbite",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "GameMaker",
+    "url": "https://gamemaker.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Godot",
+    "url": "https://godotengine.org/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Havok",
+    "url": "https://www.havok.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "id Tech",
+    "url": "https://en.wikipedia.org/wiki/Id_Tech",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "LÖVE",
+    "url": "https://love2d.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Phaser",
+    "url": "https://phaser.io/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "RE Engine",
+    "url": "https://en.wikipedia.org/wiki/RE_Engine",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Ren'Py",
+    "url": "https://www.renpy.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Roblox Studio",
+    "url": "https://create.roblox.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "RPG Maker",
+    "url": "https://www.rpgmakerweb.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Source",
+    "url": "https://developer.valvesoftware.com/wiki/Source",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Source 2",
+    "url": "https://developer.valvesoftware.com/wiki/Source_2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Twine",
+    "url": "https://twinery.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Unity",
+    "url": "https://unity.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Motores de jogo",
+    "name": "Unreal Engine",
+    "url": "https://www.unrealengine.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Computerspielemuseum",
+    "url": "https://www.computerspielemuseum.de/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Internet Archive",
+    "url": "https://archive.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Museu do Videogame Itinerante",
+    "url": "https://www.museudovideogame.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Museum of Art and Digital Entertainment",
+    "url": "https://themade.org/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "National Videogame Museum",
+    "url": "https://nvmusa.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Nintendo Museum",
+    "url": "https://museum.nintendo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "The Strong National Museum of Play",
+    "url": "https://www.museumofplay.org/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Museus e preservação",
+    "name": "Video Game History Foundation",
+    "url": "https://gamehistory.org/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Adrenaline",
+    "url": "https://www.adrenaline.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Ação Games",
+    "url": "https://pt.wikipedia.org/wiki/A%C3%A7%C3%A3o_Games",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Critical Hits",
+    "url": "https://criticalhits.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Destructoid",
+    "url": "https://www.destructoid.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Digital Foundry",
+    "url": "https://www.digitalfoundry.net/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Edge",
+    "url": "https://www.gamesradar.com/uk/edge",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Electronic Gaming Monthly",
+    "url": "https://en.wikipedia.org/wiki/Electronic_Gaming_Monthly",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Eurogamer",
+    "url": "https://www.eurogamer.net",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Famitsu",
+    "url": "https://www.famitsu.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Game Developer",
+    "url": "https://www.gamedeveloper.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Game Informer",
+    "url": "https://www.gameinformer.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "GameSpot",
+    "url": "https://www.gamespot.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Giant Bomb",
+    "url": "https://www.giantbomb.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "IGN",
+    "url": "https://www.ign.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "IGN Brasil",
+    "url": "https://br.ign.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Jovem Nerd",
+    "url": "https://jovemnerd.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Kotaku",
+    "url": "https://kotaku.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Nintendo Blast",
+    "url": "https://www.nintendoblast.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Nintendo Life",
+    "url": "https://www.nintendolife.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Nintendo Power",
+    "url": "https://en.wikipedia.org/wiki/Nintendo_Power",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "PC Gamer",
+    "url": "https://www.pcgamer.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Polygon",
+    "url": "https://www.polygon.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Push Square",
+    "url": "https://www.pushsquare.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Rock Paper Shotgun",
+    "url": "https://www.rockpapershotgun.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "SuperGamePower",
+    "url": "https://pt.wikipedia.org/wiki/Super_GamePower",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "The Enemy",
+    "url": "https://www.theenemy.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Mídia e sites",
+    "name": "Voxel (TecMundo)",
+    "url": "https://www.estadao.com.br/tecmundo/voxel/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "8BitDo",
+    "url": "https://www.8bitdo.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Apple Vision Pro",
+    "url": "https://www.apple.com/apple-vision-pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Arcade stick",
+    "url": "https://en.wikipedia.org/wiki/Arcade_controller",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Controle (gamepad)",
+    "url": "https://en.wikipedia.org/wiki/Gamepad",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Controle de guitarra",
+    "url": "https://en.wikipedia.org/wiki/Guitar_controller",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Controle Xbox",
+    "url": "https://www.xbox.com/accessories/controllers/xbox-wireless-controller",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Corsair",
+    "url": "https://www.corsair.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "DualSense",
+    "url": "https://www.playstation.com/accessories/dualsense-wireless-controller/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "EyeToy",
+    "url": "https://en.wikipedia.org/wiki/EyeToy",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Headset",
+    "url": "https://en.wikipedia.org/wiki/Headset_(audio)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "HyperX",
+    "url": "https://hyperx.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Joy-Con",
+    "url": "https://en.wikipedia.org/wiki/Joy-Con",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Kinect",
+    "url": "https://en.wikipedia.org/wiki/Kinect",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Logitech G",
+    "url": "https://www.logitechg.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Meta Quest",
+    "url": "https://www.meta.com/quest/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Mouse gamer",
+    "url": "https://en.wikipedia.org/wiki/Gaming_mouse",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Oculus Rift",
+    "url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Pistola de luz",
+    "url": "https://en.wikipedia.org/wiki/Light_gun",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Placa de vídeo (GPU)",
+    "url": "https://en.wikipedia.org/wiki/Graphics_card",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "PlayStation VR2",
+    "url": "https://www.playstation.com/ps-vr2",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Power Glove",
+    "url": "https://en.wikipedia.org/wiki/Power_Glove",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Razer",
+    "url": "https://www.razer.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "SteelSeries",
+    "url": "https://steelseries.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Teclado mecânico",
+    "url": "https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboards",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Valve Index",
+    "url": "https://store.steampowered.com/hardware/valveindex",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Volante",
+    "url": "https://en.wikipedia.org/wiki/Racing_wheel",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Wii Remote",
+    "url": "https://en.wikipedia.org/wiki/Wii_Remote",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Periféricos e realidade virtual",
+    "name": "Zapper",
+    "url": "https://en.wikipedia.org/wiki/NES_Zapper",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "2B",
+    "url": "https://en.wikipedia.org/wiki/2B",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Aloy",
+    "url": "https://en.wikipedia.org/wiki/Aloy",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Arthur Morgan",
+    "url": "https://en.wikipedia.org/wiki/Arthur_Morgan_(Red_Dead)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Bowser",
+    "url": "https://en.wikipedia.org/wiki/Bowser_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Chun-Li",
+    "url": "https://en.wikipedia.org/wiki/Chun-Li",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Cloud Strife",
+    "url": "https://en.wikipedia.org/wiki/Cloud_Strife",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Crash Bandicoot",
+    "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Donkey Kong",
+    "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Doomguy",
+    "url": "https://en.wikipedia.org/wiki/Doomguy",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Ellie",
+    "url": "https://en.wikipedia.org/wiki/Ellie_(The_Last_of_Us)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Ezio Auditore",
+    "url": "https://en.wikipedia.org/wiki/Ezio_Auditore_da_Firenze",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Geralt de Rívia",
+    "url": "https://en.wikipedia.org/wiki/Geralt_of_Rivia",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Gordon Freeman",
+    "url": "https://en.wikipedia.org/wiki/Gordon_Freeman",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Jill Valentine",
+    "url": "https://en.wikipedia.org/wiki/Jill_Valentine",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Kirby",
+    "url": "https://en.wikipedia.org/wiki/Kirby_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Kratos",
+    "url": "https://en.wikipedia.org/wiki/Kratos_(God_of_War)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Lara Croft",
+    "url": "https://en.wikipedia.org/wiki/Lara_Croft",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Leon S. Kennedy",
+    "url": "https://en.wikipedia.org/wiki/Leon_S._Kennedy",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Link",
+    "url": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Luigi",
+    "url": "https://en.wikipedia.org/wiki/Luigi_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Mario",
+    "url": "https://en.wikipedia.org/wiki/Mario",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Master Chief",
+    "url": "https://en.wikipedia.org/wiki/Master_Chief_(Halo)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Mega Man",
+    "url": "https://en.wikipedia.org/wiki/Mega_Man_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Nathan Drake",
+    "url": "https://en.wikipedia.org/wiki/Nathan_Drake",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Pac-Man",
+    "url": "https://en.wikipedia.org/wiki/Pac-Man_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Pikachu",
+    "url": "https://en.wikipedia.org/wiki/Pikachu",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Princesa Peach",
+    "url": "https://en.wikipedia.org/wiki/Princess_Peach",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Ryu",
+    "url": "https://en.wikipedia.org/wiki/Ryu_(Street_Fighter)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Samus Aran",
+    "url": "https://en.wikipedia.org/wiki/Samus_Aran",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Scorpion",
+    "url": "https://en.wikipedia.org/wiki/Scorpion_(Mortal_Kombat)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Solid Snake",
+    "url": "https://en.wikipedia.org/wiki/Solid_Snake",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Sonic",
+    "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Spyro",
+    "url": "https://en.wikipedia.org/wiki/Spyro_(character)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Steve (Minecraft)",
+    "url": "https://en.wikipedia.org/wiki/Steve_(Minecraft)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Sub-Zero",
+    "url": "https://en.wikipedia.org/wiki/Sub-Zero_(Mortal_Kombat)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Yoshi",
+    "url": "https://en.wikipedia.org/wiki/Yoshi",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Personagens icônicos",
+    "name": "Zelda",
+    "url": "https://en.wikipedia.org/wiki/Princess_Zelda",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "Analogue Pocket",
+    "url": "https://www.analogue.co/pocket",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "Atari Lynx",
+    "url": "https://en.wikipedia.org/wiki/Atari_Lynx",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Game & Watch",
+    "url": "https://en.wikipedia.org/wiki/Game_%26_Watch",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Game Boy",
+    "url": "https://en.wikipedia.org/wiki/Game_Boy",
+    "description": "",
+    "tags": [],
+    "featured": true,
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Game Boy Advance",
+    "url": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Game Boy Color",
+    "url": "https://en.wikipedia.org/wiki/Game_Boy_Color",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Game Gear",
+    "url": "https://en.wikipedia.org/wiki/Game_Gear",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Legion Go",
+    "url": "https://www.lenovo.com/us/en/legion-go/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "N-Gage",
+    "url": "https://en.wikipedia.org/wiki/N-Gage_(device)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Neo Geo Pocket",
+    "url": "https://en.wikipedia.org/wiki/Neo_Geo_Pocket",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Nintendo 3DS",
+    "url": "https://en.wikipedia.org/wiki/Nintendo_3DS",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Nintendo DS",
+    "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Nintendo Switch Lite",
+    "url": "https://www.nintendo.com/us/gaming-systems/switch/lite/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "Playdate",
+    "url": "https://play.date/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "PlayStation Portable",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_Portable",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "PlayStation Portal",
+    "url": "https://www.playstation.com/accessories/playstation-portal-remote-player/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "PlayStation Vita",
+    "url": "https://en.wikipedia.org/wiki/PlayStation_Vita",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "ROG Ally",
+    "url": "https://en.wikipedia.org/wiki/ROG_Ally",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Portáteis",
+    "name": "Steam Deck",
+    "url": "https://store.steampowered.com/steamdeck",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "Virtual Boy",
+    "url": "https://en.wikipedia.org/wiki/Virtual_Boy",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "WonderSwan",
+    "url": "https://en.wikipedia.org/wiki/WonderSwan",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Portáteis",
+    "name": "ROG Xbox Ally",
+    "url": "https://www.xbox.com/handhelds/rog-xbox-ally",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "BAFTA Games Awards",
+    "url": "https://www.bafta.org/games",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Premiações",
+    "name": "D.I.C.E. Awards",
+    "url": "https://www.interactive.org",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "Game Developers Choice Awards",
+    "url": "https://www.gamechoiceawards.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "Golden Joystick Awards",
+    "url": "https://www.gamesradar.com/goldenjoystickawards",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "Independent Games Festival",
+    "url": "https://www.igf.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "Japan Game Awards",
+    "url": "https://awards.cesa.or.jp",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "Steam Awards",
+    "url": "https://store.steampowered.com/steamawards",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Premiações",
+    "name": "The Game Awards",
+    "url": "https://thegameawards.com",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Premiações",
+    "name": "World Video Game Hall of Fame",
+    "url": "https://www.museumofplay.org/exhibits/world-video-game-hall-of-fame",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Discord",
+    "url": "https://discord.com/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Kick",
+    "url": "https://kick.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Mixer",
+    "url": "https://en.wikipedia.org/wiki/Mixer_(service)",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Raptr",
+    "url": "https://en.wikipedia.org/wiki/Raptr",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Reddit (r/gaming)",
+    "url": "https://www.reddit.com/r/gaming/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "ResetEra",
+    "url": "https://www.resetera.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Steam Community",
+    "url": "https://steamcommunity.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Twitch",
+    "url": "https://www.twitch.tv/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "Xfire",
+    "url": "https://en.wikipedia.org/wiki/Xfire",
+    "description": "",
+    "tags": [],
+    "ended": true
+  },
+  {
+    "category": "Streaming e comunidades",
+    "name": "YouTube Gaming",
+    "url": "https://www.youtube.com/gaming",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "100 Thieves",
+    "url": "https://100thieves.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Astralis",
+    "url": "https://www.astralis.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "B4 Esports",
+    "url": "https://www.instagram.com/b4ofc/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Bilibili Gaming",
+    "url": "https://en.wikipedia.org/wiki/Bilibili_Gaming",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Cloud9",
+    "url": "https://cloud9.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Complexity Gaming",
+    "url": "https://complexity.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Corinthians Esports",
+    "url": "https://www.instagram.com/corinthiansesports/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Dplus KIA",
+    "url": "https://dwgkia.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "DRX",
+    "url": "https://www.drx.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "EDward Gaming",
+    "url": "https://en.wikipedia.org/wiki/Edward_Gaming",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Evil Geniuses",
+    "url": "https://www.evilgeniuses.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "FaZe Clan",
+    "url": "https://fazeclan.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Flamengo Esports",
+    "url": "https://www.instagram.com/flaesports/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Fluxo W7M",
+    "url": "https://lolesports.com/en-US/teams/fluxo",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Times de esports",
+    "name": "Fnatic",
+    "url": "https://fnatic.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "FURIA",
+    "url": "https://www.furia.gg/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Times de esports",
+    "name": "G2 Esports",
+    "url": "https://g2esports.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "G3X",
+    "url": "https://www.instagram.com/g3xfc/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Gen.G",
+    "url": "https://geng.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Hanwha Life Esports",
+    "url": "https://hle.kr",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Hero Base",
+    "url": "https://herobase.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Heroic",
+    "url": "https://heroic.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "INTZ",
+    "url": "https://intz.com.br/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "JD Gaming",
+    "url": "https://en.wikipedia.org/wiki/JD_Gaming",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Karmine Corp",
+    "url": "https://www.karminecorp.fr/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "KT Rolster",
+    "url": "https://en.wikipedia.org/wiki/KT_Rolster",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "LOUD",
+    "url": "https://loud.gg/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Times de esports",
+    "name": "MIBR",
+    "url": "https://www.mibr.gg",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Times de esports",
+    "name": "MOUZ",
+    "url": "https://www.mouz.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Movistar KOI",
+    "url": "https://koisquad.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Natus Vincere",
+    "url": "https://navi.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "NRG",
+    "url": "https://nrg.gg",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "OG",
+    "url": "https://ogs.gg",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "OpTic Gaming",
+    "url": "https://opticgaming.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "paiN Gaming",
+    "url": "https://www.pain.gg/",
+    "description": "",
+    "tags": [],
+    "featured": true
+  },
+  {
+    "category": "Times de esports",
+    "name": "Paper Rex",
+    "url": "https://www.pprx.team/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "RED Canids Kalunga",
+    "url": "https://x.com/REDCanids",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "RRQ",
+    "url": "https://teamrrq.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Sentinels",
+    "url": "https://www.sentinels.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "SK Gaming",
+    "url": "https://www.sk-gaming.com",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "T1",
+    "url": "https://t1.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Talon Esports",
+    "url": "https://talon.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Falcons",
+    "url": "https://www.falcons.sa",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Heretics",
+    "url": "https://teamheretics.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Liquid",
+    "url": "https://www.teamliquid.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Secret",
+    "url": "https://teamsecret.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Spirit",
+    "url": "https://teamspirit.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Team Vitality",
+    "url": "https://vitality.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Top Esports",
+    "url": "https://en.wikipedia.org/wiki/Top_Esports",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "TSM",
+    "url": "https://tsm.gg/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Virtus.pro",
+    "url": "https://virtus.pro/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Vivo Keyd Stars",
+    "url": "https://www.keydstars.com/",
+    "description": "",
+    "tags": []
+  },
+  {
+    "category": "Times de esports",
+    "name": "Weibo Gaming",
+    "url": "https://en.wikipedia.org/wiki/Weibo_Gaming",
+    "description": "",
+    "tags": []
+  }
+]</script><script>window.DEFAULT_CATEGORY="__ALL__";</script><script defer="" src="script.js"></script></div>
+<!-- PWA Install Button -->
+<button class="pwa-install" hidden="" id="btnInstall">Instalar app</button>
+<script defer="defer" src="/sw-register.js"></script>
+</body>
+</html>
