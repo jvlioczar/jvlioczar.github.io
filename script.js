@@ -481,8 +481,18 @@
     });
   }
 
+  // Logos com versão própria para o tema escuro (ex.: Questão de Ética em branco)
+  function swapThemeLogos(theme){
+    document.querySelectorAll('img[data-src-dark]').forEach(img => {
+      if(!img.hasAttribute('data-src-light')) img.setAttribute('data-src-light', img.getAttribute('src'));
+      const want = img.getAttribute(theme === 'light' ? 'data-src-light' : 'data-src-dark');
+      if(img.getAttribute('src') !== want) img.setAttribute('src', want);
+    });
+  }
+
   function applyTheme(theme){
     root.setAttribute('data-theme', theme);
+    swapThemeLogos(theme);
     setThemeIcon(theme);
     try{ localStorage.setItem('bv-theme', theme); }catch(e){}
   }
@@ -568,7 +578,11 @@
   // ===== Hero: ícones em órbita e pilhas das portas, tirados dos próprios cartões =====
   function iconOf(card){
     const img = card.querySelector('.lib-logo');
-    if(img){ const i = document.createElement('img'); i.src = img.getAttribute('src'); i.alt = ''; return i; }
+    if(img){
+      const i = document.createElement('img'); i.src = img.getAttribute('src'); i.alt = '';
+      ['data-src-dark','data-src-light'].forEach(a => { if(img.hasAttribute(a)) i.setAttribute(a, img.getAttribute(a)); });
+      return i;
+    }
     return document.createTextNode((card.querySelector('.favicon')?.textContent || '').trim());
   }
   function buildHeroIcons(){
@@ -588,13 +602,19 @@
       const rest = totals[k] - Math.min(items.length, 4);
       if(rest > 0){ const m = document.createElement('span'); m.className = 'more'; m.textContent = '+' + rest; el.appendChild(m); }
     });
-    // Órbita: bibliotecas e projetos alternados em volta do logo
+    // Órbita: logos dos projetos especiais (um de cada grupo por volta, para variar);
+    // emojis das bibliotecas só completam se faltarem logos
     const orbit = document.getElementById('heroOrbit');
     if(!orbit) return;
-    const a = pick(libs, ['ai','design','music','games','photography']);
-    const b = pick(special, ['questaodeetica','brazilianmusic','curatedai','eticaparainiciantes','typesofrock']);
+    const SLOTS = 10;
+    const byGroup = Array.from(document.querySelectorAll('#projetos > .lib-group'))
+      .map(g => Array.from(g.querySelectorAll('.lib-card')).filter(c => c.querySelector('.lib-logo')));
     const mix = [];
-    for(let i = 0; i < Math.max(a.length, b.length); i++){ if(a[i]) mix.push(a[i]); if(b[i]) mix.push(b[i]); }
+    for(let round = 0; mix.length < SLOTS && byGroup.some(g => g[round]); round++){
+      byGroup.forEach(g => { if(g[round] && mix.length < SLOTS) mix.push(g[round]); });
+    }
+    const fill = pick(libs, ['ai','design','music','games','photography','truecrime','art','travel','code','history']);
+    for(let i = 0; mix.length < SLOTS && i < fill.length; i++) mix.push(fill[i]);
     mix.forEach((c, i) => {
       const item = document.createElement('div');
       item.className = 'orbit-item';
