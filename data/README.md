@@ -4,7 +4,7 @@ Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: or
 
 **Site:** https://biblioverse.org/data/ · parte do [BiblioVerse](https://biblioverse.org)
 
-Idealizada por Julio Cesar Prava e construída com a ajuda de IA.
+Construída com a ajuda de IA.
 
 ## Estrutura
 - `index.html`: página e catálogo (gerados a partir do `catalogo.txt` local por `build.py`)
