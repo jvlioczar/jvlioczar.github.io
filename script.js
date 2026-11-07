@@ -18,6 +18,12 @@
       'hero.libs': 'bibliotecas',
       'hero.special': 'projetos especiais',
       'hero.people': 'Escolhido por pessoas, não por algoritmo',
+      'doors.label': 'Por onde você quer começar?',
+      'doors.libs.desc': 'Diretórios curados com os melhores sites, apps e referências de cada tema.',
+      'doors.libs.cta': 'Ver só as bibliotecas',
+      'doors.special.desc': 'Sites autorais, cada um mergulhando fundo em um só tema, sempre com fontes.',
+      'doors.special.cta': 'Ver só os projetos',
+      'doors.all': 'Mostrar tudo',
       'mod.libs': 'Bibliotecas',
       'mod.libs.sub': 'Diretórios curados dos melhores sites, apps e referências de cada tema.',
       'mod.special': 'Projetos especiais',
@@ -179,6 +185,12 @@
       'hero.libs': 'libraries',
       'hero.special': 'special projects',
       'hero.people': 'Picked by people, not by an algorithm',
+      'doors.label': 'Where do you want to start?',
+      'doors.libs.desc': 'Curated directories of the best websites, apps and references on each topic.',
+      'doors.libs.cta': 'Show only libraries',
+      'doors.special.desc': 'Standalone sites, each diving deep into a single topic, always with sources.',
+      'doors.special.cta': 'Show only projects',
+      'doors.all': 'Show everything',
       'mod.libs': 'Libraries',
       'mod.libs.sub': 'Curated directories of the best websites, apps and references on each topic.',
       'mod.special': 'Special projects',
@@ -356,11 +368,18 @@
   function setLangAttr(lang){ document.documentElement.lang = (lang === 'en') ? 'en' : 'pt-BR'; }
   function setLangToggleIcon(lang){
     if(!langToggle) return;
-    langToggle.textContent = (lang === 'en') ? '🇧🇷' : '🇦🇺';
+    langToggle.querySelectorAll('[data-l]').forEach(s => s.classList.toggle('on', s.getAttribute('data-l') === lang));
     langToggle.setAttribute('title', lang === 'en' ? 'Switch to Portuguese' : 'Mudar para inglês');
     langToggle.setAttribute('aria-label', lang === 'en' ? 'Switch to Portuguese' : 'Mudar para inglês');
   }
-  function setThemeIcon(theme){ if(!themeToggle) return; themeToggle.textContent = (theme === 'light') ? '🌙' : '☀️'; }
+  function setThemeIcon(theme){
+    if(!themeToggle) return;
+    const label = (curLang === 'en')
+      ? (theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme')
+      : (theme === 'light' ? 'Mudar para o tema escuro' : 'Mudar para o tema claro');
+    themeToggle.setAttribute('aria-label', label);
+    themeToggle.setAttribute('title', label);
+  }
 
   // Text getter respecting i18n keys to guarantee consistent sorting in both languages
   function getI18nText(el, lang){
@@ -440,6 +459,7 @@
     filterCurators();
     setLangAttr(lang);
     setLangToggleIcon(lang);
+    setThemeIcon(root.getAttribute('data-theme'));
     try{ localStorage.setItem('bv-lang', lang); }catch(e){}
   }
 
@@ -537,8 +557,76 @@
     document.querySelectorAll('[data-count]').forEach(el => { const k = el.getAttribute('data-count'); if(n[k] != null) el.textContent = n[k]; });
   }
 
+  // ===== Hero: ícones em órbita e pilhas das portas, tirados dos próprios cartões =====
+  function iconOf(card){
+    const img = card.querySelector('.lib-logo');
+    if(img){ const i = document.createElement('img'); i.src = img.getAttribute('src'); i.alt = ''; return i; }
+    return document.createTextNode((card.querySelector('.favicon')?.textContent || '').trim());
+  }
+  function buildHeroIcons(){
+    const libs = Array.from(document.querySelectorAll('#bibliotecas .lib-card'));
+    const special = Array.from(document.querySelectorAll('#projetos .lib-card'));
+    const pick = (list, keys) => keys.map(k => list.find(c => c.getAttribute('data-key') === k)).filter(Boolean);
+    // Pilhas das portas: alguns rostos de cada módulo + "+N"
+    const stacks = {
+      libs: pick(libs, ['ai','design','games','music','truecrime']),
+      special: pick(special, ['questaodeetica','brazilianmusic','curatedai','cienciaparainiciantes','typesofrock'])
+    };
+    const totals = { libs: libs.length, special: special.length };
+    document.querySelectorAll('[data-stack]').forEach(el => {
+      const k = el.getAttribute('data-stack'); const items = stacks[k] || [];
+      el.textContent = '';
+      items.slice(0, 4).forEach(c => { const s = document.createElement('span'); s.appendChild(iconOf(c)); el.appendChild(s); });
+      const rest = totals[k] - Math.min(items.length, 4);
+      if(rest > 0){ const m = document.createElement('span'); m.className = 'more'; m.textContent = '+' + rest; el.appendChild(m); }
+    });
+    // Órbita: bibliotecas e projetos alternados em volta do logo
+    const orbit = document.getElementById('heroOrbit');
+    if(!orbit) return;
+    const a = pick(libs, ['ai','design','music','games','photography']);
+    const b = pick(special, ['questaodeetica','brazilianmusic','curatedai','eticaparainiciantes','typesofrock']);
+    const mix = [];
+    for(let i = 0; i < Math.max(a.length, b.length); i++){ if(a[i]) mix.push(a[i]); if(b[i]) mix.push(b[i]); }
+    mix.forEach((c, i) => {
+      const item = document.createElement('div');
+      item.className = 'orbit-item';
+      item.style.setProperty('--a', (i * 360 / mix.length) + 'deg');
+      const s = document.createElement('span'); s.appendChild(iconOf(c)); item.appendChild(s);
+      orbit.appendChild(item);
+    });
+  }
+
+  // ===== Portas: filtrar entre bibliotecas e projetos especiais =====
+  const MODS = { libs: 'bibliotecas', special: 'projetos' };
+  let curShow = 'all';
+  function applyShow(show, scroll){
+    curShow = MODS[show] ? show : 'all';
+    Object.keys(MODS).forEach(k => {
+      const sec = document.getElementById(MODS[k]);
+      if(sec){ sec.hidden = (curShow !== 'all' && curShow !== k); sec.classList.toggle('mod-first', curShow === k); }
+    });
+    document.querySelectorAll('.door').forEach(d => d.setAttribute('aria-pressed', String(d.getAttribute('data-show') === curShow)));
+    try{ history.replaceState(null, '', curShow === 'all' ? location.pathname + location.search : '#' + MODS[curShow]); }catch(e){}
+    if(scroll && curShow !== 'all'){
+      const sec = document.getElementById(MODS[curShow]);
+      const doors = document.querySelector('.doors');
+      // Só rola se o módulo escolhido estiver fora da tela (no celular, as portas ocupam quase toda a altura)
+      if(sec && doors && doors.getBoundingClientRect().bottom > window.innerHeight * 0.6) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+  function setupDoors(){
+    document.querySelectorAll('.door').forEach(d => d.addEventListener('click', () => {
+      const k = d.getAttribute('data-show');
+      applyShow(curShow === k ? 'all' : k, true);
+    }));
+    const fromHash = Object.keys(MODS).find(k => '#' + MODS[k] === location.hash);
+    if(fromHash) applyShow(fromHash, false);
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     updateCounts();
+    buildHeroIcons();
+    setupDoors();
     setupShare();
     setupAbout();
     applyTheme(curTheme);
