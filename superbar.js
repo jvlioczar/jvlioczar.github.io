@@ -3,7 +3,7 @@
  * Barra universal de todos os projetos do BiblioVerse e do site principal.
  *
  * ── O QUE A BARRA MOSTRA ─────────────────────────────────────────────────────
- *   Esquerda: "Um projeto BiblioVerse" (só "BiblioVerse" em telas estreitas), link para o hub.
+ *   Esquerda: "Um projeto BiblioVerse" (só "BiblioVerse" em telas estreitas), link para o hub, sem ícone.
  *   Direita: "Outros projetos" com o total de projetos (bibliotecas + especiais) menos o site atual.
  *   O painel muda conforme o site: numa biblioteca, primeiro as outras bibliotecas; num projeto
  *   especial, primeiro os projetos do mesmo grupo; no site principal, a lista completa.
@@ -136,9 +136,9 @@
     '.bvbar,.bvbar *,.bvbar-panel,.bvbar-panel *{font-family:' + FONT + '!important;}',
     '.bvbar a,.bvbar button{color:#fff;font:inherit;margin:0;}',
     '.bvbar button{-webkit-tap-highlight-color:transparent;}',
-    '.bvbar-home{display:inline-flex;align-items:center;gap:7px;text-decoration:none;white-space:nowrap;flex:none;min-height:30px;font-weight:400;}',
+    '.bvbar-home{display:inline-flex;align-items:center;gap:0;text-decoration:none;white-space:nowrap;flex:none;min-height:30px;font-weight:400;}',
     '.bvbar-home .bvbar-brand{font-weight:700;}',
-    '.bvbar-glyph{width:14px;height:14px;flex:none;display:block;}',
+    '.bvbar-home .bvbar-tag{white-space:pre;}',
     '.bvbar-pill{display:inline-flex;align-items:center;gap:6px;border:0;background:rgba(255,255,255,.16);height:26px;padding:0 10px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:background .15s;}',
     '.bvbar-pill:hover{background:rgba(255,255,255,.28);}',
     '.bvbar-pill:focus-visible,.bvbar-home:focus-visible{outline:2px solid #fff;outline-offset:2px;}',
@@ -163,7 +163,9 @@
     '.bvbar-panel::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--accent1,#4f7cff),var(--accent2,#7a5cff),var(--accent3,#b445ff));border:2px solid var(--p-bg);background-clip:padding-box;border-radius:999px;}',
     '@supports not selector(::-webkit-scrollbar){.bvbar-panel{scrollbar-width:thin;scrollbar-color:var(--accent2,#7a5cff) transparent;}}',
     '.bvbar-top{display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:-14px;margin:-14px -14px 0;padding:14px 14px 8px;background:var(--p-bg);z-index:1;}',
-    '.bvbar-ptitle{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;margin:0;padding-left:2px;}',
+    // títulos do painel: cor própria, imunes aos estilos de h2/h3/h4 de cada site
+    '.bvbar-panel h2,.bvbar-panel h3,.bvbar-panel h4{color:var(--p-text);background:none;-webkit-text-fill-color:currentColor;letter-spacing:normal;line-height:1.25;text-transform:none;}',
+    '.bvbar-ptitle{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;margin:0;padding-left:2px;color:var(--p-text);}',
     '.bvbar-chip{background:var(--p-soft);border:1px solid var(--p-border);color:var(--p-muted);border-radius:999px;padding:1px 8px;font-size:11.5px;font-weight:700;line-height:1.4;}',
     '.bvbar-close{flex:none;height:42px;width:42px;border-radius:12px;border:1px solid var(--p-border);background:var(--p-soft);color:var(--p-text);cursor:pointer;font-size:16px;font-family:inherit;}',
     // módulos (ordem muda conforme o site) e grupos dentro deles
@@ -171,7 +173,7 @@
     '.bvbar-mod:first-child{border-top:0;padding-top:6px;}',
     '.bvbar-mtitle{font-size:13.5px;font-weight:700;margin:0 0 8px 2px;color:var(--p-text);font-family:inherit;}',
     '.bvbar-group{margin:8px 0 2px;}',
-    '.bvbar-gtitle{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted);margin:0 0 6px 2px;font-weight:700;font-family:inherit;}',
+    '.bvbar-panel h4.bvbar-gtitle{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted);margin:0 0 6px 2px;font-weight:700;font-family:inherit;}',
     '.bvbar-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:6px;}',
     '.bvbar-item{display:flex;align-items:center;gap:10px;min-height:44px;padding:8px 10px;border-radius:12px;text-decoration:none;color:var(--p-text);border:1px solid transparent;background:var(--p-soft);font-size:13.5px;}',
     '.bvbar-item:hover,.bvbar-item:focus-visible{border-color:var(--accent1,#4f7cff);outline:none;}',
@@ -208,9 +210,6 @@
   var BURGER = '<svg class="bvbar-burger" viewBox="0 0 18 14" aria-hidden="true" focusable="false">' +
     '<rect y="0" width="18" height="2" rx="1" fill="currentColor"/><rect y="6" width="18" height="2" rx="1" fill="currentColor"/>' +
     '<rect y="12" width="18" height="2" rx="1" fill="currentColor"/></svg>';
-  // triângulo do logo do BiblioVerse, em branco
-  var GLYPH = '<svg class="bvbar-glyph" viewBox="0 0 20 20" aria-hidden="true" focusable="false">' +
-    '<path d="M3.3 4.2h13.4c1.3 0 2 1.4 1.3 2.4l-6.7 10.2c-.6 1-2 1-2.6 0L2 6.6c-.7-1 .1-2.4 1.3-2.4z" fill="currentColor"/></svg>';
 
   // ── Utilitários ───────────────────────────────────────────────────────────
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -250,7 +249,6 @@
     nav.innerHTML = '';
     nav.classList.add('bvbar');
     var home = el('a', 'bvbar-home'); home.href = HOME;
-    home.innerHTML = GLYPH;
     var tagPre = el('span', 'bvbar-tag'), brand = el('span', 'bvbar-brand', 'BiblioVerse'), tagPos = el('span', 'bvbar-tag');
     home.appendChild(tagPre); home.appendChild(brand); home.appendChild(tagPos);
     nav.appendChild(home);
