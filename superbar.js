@@ -11,6 +11,8 @@
  * ── COMO ACRESCENTAR UM PROJETO NOVO ─────────────────────────────────────────
  * 1. Copie uma linha de BV_LIBS (mais abaixo) e troque key, group, icon, url e name.
  *    Em "name" só pt e en são obrigatórios; os outros idiomas caem no inglês.
+ *    Projeto com versões por idioma em domínios separados: url: { pt: ..., en: ... }
+ *    e alias: ['chave-do-outro-site'] (ex.: pelosanimais / fortheanimals).
  *    Bibliotecas usam os grupos temáticos de BV_GROUPS; projetos especiais usam um grupo
  *    marcado com projects: true (beginners, animals, ai, music, travel, sports).
  * 2. Publique este arquivo no repositório do biblioverse.org. Pronto: a barra de
@@ -92,7 +94,7 @@
     { key: 'eticaparainiciantes', group: 'beginners', icon: '⚖️', url: 'https://eticaparainiciantes.biblioverse.org', name: { pt: 'Ética Para Iniciantes', en: 'Ethics for Beginners', es: 'Ética para principiantes', fr: 'L’éthique pour débutants', de: 'Ethik für Einsteiger', it: 'Etica per principianti' } },
     { key: 'cienciaparainiciantes', group: 'beginners', icon: '🔬', url: 'https://cienciaparainiciantes.biblioverse.org', name: { pt: 'Ciência Para Iniciantes', en: 'Science for Beginners', es: 'Ciencia para principiantes', fr: 'La science pour débutants', de: 'Wissenschaft für Einsteiger', it: 'Scienza per principianti' } },
     { key: 'questaodeetica', group: 'animals', icon: '👁️', url: 'https://questaodeetica.biblioverse.org', name: { pt: 'Questão de Ética', en: 'Questão de Ética', es: 'Questão de Ética', fr: 'Questão de Ética', de: 'Questão de Ética', it: 'Questão de Ética' } },
-    { key: 'pelosanimais', group: 'animals', icon: '🐾', url: 'https://pelosanimais.biblioverse.org', name: { pt: 'Guia de Argumentação Pelos Animais', en: 'Arguing for Animals Guide', es: 'Guía de argumentación por los animales', fr: 'Guide d’argumentation pour les animaux', de: 'Argumentationsleitfaden für die Tiere', it: 'Guida all’argomentazione per gli animali' } },
+    { key: 'pelosanimais', alias: ['fortheanimals'], group: 'animals', icon: '🐾', url: { pt: 'https://pelosanimais.biblioverse.org', en: 'https://fortheanimals.biblioverse.org' }, name: { pt: 'Guia de Argumentação Pelos Animais', en: 'For the Animals: An Argument Guide', es: 'Guía de argumentación por los animales', fr: 'Guide d’argumentation pour les animaux', de: 'Argumentationsleitfaden für die Tiere', it: 'Guida all’argomentazione per gli animali' } },
     // Projetos especiais · Inteligência Artificial
     { key: 'aihistory', group: 'ai', icon: '⏳', url: 'https://aihistory.biblioverse.org', name: { pt: 'Linha do Tempo da História da IA', en: 'AI History Timeline', es: 'Cronología de la historia de la IA', fr: 'Chronologie de l’histoire de l’IA', de: 'Zeitleiste der KI-Geschichte', it: 'Cronologia della storia dell’IA' } },
     { key: 'curatedai', group: 'ai', icon: '🏛️', url: 'https://curatedai.biblioverse.org', name: { pt: 'Curated AI', en: 'Curated AI', es: 'Curated AI', fr: 'Curated AI', de: 'Curated AI', it: 'Curated AI' } },
@@ -235,7 +237,8 @@
     var projGroups = BV_GROUPS.filter(isProj);
     var currentKey = nav.getAttribute('data-current') || '';
     var current = null;
-    libs.forEach(function (l) { if (l.key === currentKey) current = l; });
+    function isCur(l) { return l.key === currentKey || (l.alias || []).indexOf(currentKey) >= 0; }
+    libs.forEach(function (l) { if (isCur(l)) current = l; });
     var currentGroup = null;
     if (current) BV_GROUPS.forEach(function (g) { if (g.key === current.group) currentGroup = g; });
     var total = libs.filter(function (l) { return !l.soon; }).length;
@@ -299,9 +302,9 @@
         var g = el('div', 'bvbar-grid');
         list.slice().sort(function (a, b) { return pick(a.name, L).localeCompare(pick(b.name, L), L, { sensitivity: 'base' }); })
           .forEach(function (l) {
-            var a = el('a', 'bvbar-item'); a.href = l.url;
+            var a = el('a', 'bvbar-item'); a.href = typeof l.url === 'string' ? l.url : pick(l.url, L);
             a.appendChild(el('span', 'ico', l.icon)); a.appendChild(el('span', 'nm', pick(l.name, L)));
-            if (l.key === currentKey) { a.classList.add('is-current'); a.setAttribute('aria-current', 'page'); a.appendChild(el('span', 'tag', t.here)); }
+            if (isCur(l)) { a.classList.add('is-current'); a.setAttribute('aria-current', 'page'); a.appendChild(el('span', 'tag', t.here)); }
             else if (l.soon) { a.classList.add('is-soon'); a.appendChild(el('span', 'tag', t.soon)); }
             g.appendChild(a); items.push(a);
           });
