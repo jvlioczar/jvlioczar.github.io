@@ -18,7 +18,10 @@
       'hero.libs': 'bibliotecas',
       'hero.special': 'projetos especiais',
       'hero.people': 'Escolhido por pessoas, não por algoritmo',
-      'doors.label': 'Por onde você quer começar?',
+      'doors.label': 'Escolha o que você quer explorar',
+      'doors.hint': 'toque em um dos blocos para filtrar',
+      'filter.all': 'Tudo',
+      'filter.special.short': 'Projetos',
       'doors.libs.desc': 'Diretórios curados com os melhores sites, apps e referências de cada tema.',
       'doors.libs.cta': 'Ver só as bibliotecas',
       'doors.special.desc': 'Sites autorais, cada um mergulhando fundo em um só tema, sempre com fontes.',
@@ -189,7 +192,10 @@
       'hero.libs': 'libraries',
       'hero.special': 'special projects',
       'hero.people': 'Picked by people, not by an algorithm',
-      'doors.label': 'Where do you want to start?',
+      'doors.label': 'Choose what you want to explore',
+      'doors.hint': 'tap a block to filter',
+      'filter.all': 'All',
+      'filter.special.short': 'Projects',
       'doors.libs.desc': 'Curated directories of the best websites, apps and references on each topic.',
       'doors.libs.cta': 'Show only libraries',
       'doors.special.desc': 'Standalone sites, each diving deep into a single topic, always with sources.',
@@ -572,6 +578,7 @@
   function updateCounts(){
     const n = { libs: document.querySelectorAll('#bibliotecas .lib-card').length,
                 special: document.querySelectorAll('#projetos .lib-card').length };
+    n.all = n.libs + n.special;
     document.querySelectorAll('[data-count]').forEach(el => { const k = el.getAttribute('data-count'); if(n[k] != null) el.textContent = n[k]; });
   }
 
@@ -633,7 +640,7 @@
       const sec = document.getElementById(MODS[k]);
       if(sec){ sec.hidden = (curShow !== 'all' && curShow !== k); sec.classList.toggle('mod-first', curShow === k); }
     });
-    document.querySelectorAll('.door').forEach(d => d.setAttribute('aria-pressed', String(d.getAttribute('data-show') === curShow)));
+    document.querySelectorAll('.door, .seg-btn').forEach(d => d.setAttribute('aria-pressed', String(d.getAttribute('data-show') === curShow)));
     try{ history.replaceState(null, '', curShow === 'all' ? location.pathname + location.search : '#' + MODS[curShow]); }catch(e){}
     if(scroll && curShow !== 'all'){
       const sec = document.getElementById(MODS[curShow]);
@@ -646,6 +653,12 @@
     document.querySelectorAll('.door').forEach(d => d.addEventListener('click', () => {
       const k = d.getAttribute('data-show');
       applyShow(curShow === k ? 'all' : k, true);
+    }));
+    // Barra fixa: troca o filtro; se já estiver grudada no topo, volta ao começo da lista
+    document.querySelectorAll('.seg-btn').forEach(b => b.addEventListener('click', () => {
+      applyShow(b.getAttribute('data-show'), false);
+      const main = document.querySelector('main');
+      if(main){ const y = main.getBoundingClientRect().top + window.scrollY; if(window.scrollY > y) window.scrollTo({ top: y, behavior: 'smooth' }); }
     }));
     const fromHash = Object.keys(MODS).find(k => '#' + MODS[k] === location.hash);
     if(fromHash) applyShow(fromHash, false);

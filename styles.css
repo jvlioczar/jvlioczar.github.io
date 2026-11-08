@@ -163,12 +163,39 @@ a{color:inherit}
 .door[aria-pressed="true"] .cta-go{display:none}
 .door[aria-pressed="true"] .cta-back{display:inline}
 .door[aria-pressed="true"] .cta-arrow{display:none}
-.door[aria-pressed="true"]::after{
-  content:"✓";position:absolute;top:12px;right:12px;width:22px;height:22px;border-radius:50%;
+.door-radio{
+  position:absolute!important;top:14px;right:14px;width:22px;height:22px;border-radius:50%;
+  border:2px solid color-mix(in srgb,var(--c1) 55%,var(--border));background:var(--bg);
   display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff;
-  background:linear-gradient(135deg,var(--c1),var(--c2));
+  transition:background .15s ease,border-color .15s ease;
 }
-.door[aria-pressed="true"] .door-stack{margin-right:24px}
+.door:hover .door-radio{border-color:var(--c1)}
+.door[aria-pressed="true"] .door-radio{border-color:transparent;background:linear-gradient(135deg,var(--c1),var(--c2))}
+.door[aria-pressed="true"] .door-radio::after{content:"✓"}
+.door .door-stack{margin-right:30px}
+.doors-hint{font-weight:700;letter-spacing:0;text-transform:none;opacity:.8}
+.doors-hint::before{content:"· "}
+
+/* ===== Barra de filtro fixa (Tudo / Bibliotecas / Projetos especiais) ===== */
+.filterbar{
+  position:sticky;top:0;z-index:40;margin:0 -22px;padding:10px 22px;
+  background:color-mix(in srgb,var(--bg) 86%,transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+}
+.seg{display:flex;gap:4px;padding:4px;border-radius:999px;background:var(--soft);border:1px solid var(--border);width:max-content;max-width:100%}
+.seg-btn{
+  display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 14px;border-radius:999px;border:0;cursor:pointer;
+  background:transparent;color:var(--muted);font:inherit;font-size:13.5px;font-weight:700;white-space:nowrap;
+  transition:background-color .15s ease,color .15s ease;
+}
+.seg-btn:hover{color:var(--text);background:var(--bg)}
+.seg-btn:focus-visible{outline:none;box-shadow:0 0 0 2px var(--accent1)}
+.seg-btn[aria-pressed="true"]{background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#fff}
+.seg-btn[data-show="special"][aria-pressed="true"]{background:linear-gradient(90deg,var(--accent2),var(--accent3))}
+.seg-count{display:inline-flex;align-items:center;height:20px;padding:0 7px;border-radius:999px;font-size:11.5px;background:var(--bg);color:var(--muted)}
+.seg-btn[aria-pressed="true"] .seg-count{background:rgba(255,255,255,.22);color:#fff}
+.seg-short{display:none}
 .mod[hidden]{display:none}
 .mod-first{border-top:0!important}
 
@@ -181,11 +208,20 @@ a{color:inherit}
 }
 @media (max-width:600px){
   .container{padding:0 16px}
+  .filterbar{margin:0 -16px;padding:8px 16px}
+  .seg{width:100%}
+  .seg-btn{flex:1 1 auto;justify-content:center;padding:0 10px;gap:6px}
   .doors{grid-template-columns:1fr;gap:10px}
   .door{padding:16px 16px 14px}
   .door-num{font-size:38px}
   .door-desc{font-size:13px}
   .hero{padding-bottom:30px}
+}
+@media (max-width:480px){
+  .seg-long{display:none}
+  .seg-short{display:inline}
+  .doors-hint{display:block;margin-top:2px}
+  .doors-hint::before{content:""}
 }
 @media (max-width:350px){
   .tool{padding:0 9px}
@@ -193,7 +229,7 @@ a{color:inherit}
 }
 
 /* ===== Módulos (Bibliotecas, Projetos especiais) ===== */
-.mod{padding:34px 0 6px;scroll-margin-top:var(--bvbar-h,36px)}
+.mod{padding:34px 0 6px;scroll-margin-top:64px}
 .mod + .mod{border-top:1px solid var(--border)}
 .mod-title{margin:0;font-size:22px;font-weight:700;display:inline-flex;align-items:center;gap:10px}
 .mod-count{
@@ -260,8 +296,8 @@ a{color:inherit}
 
 /* ===== Sobre (painel aberto pelo botão "Sobre"), com a identidade do hero e dos cartões ===== */
 .about-modal{
-  position:fixed;top:var(--bvbar-h,36px);left:0;right:0;bottom:0;
-  z-index:8000; /* abaixo da superbar (9000) e do painel dela */
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  z-index:8000;
   display:flex;align-items:flex-start;justify-content:center;
   padding:24px 16px;background:rgba(5,8,15,.55);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
 }

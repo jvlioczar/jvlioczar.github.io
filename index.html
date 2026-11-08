@@ -13,11 +13,8 @@
 <link href="/manifest.webmanifest" rel="manifest"/>
 <meta content="#4f7cff" name="theme-color"/>
 <link href="/images/apple-touch-icon.png" rel="apple-touch-icon"/>
-<script src="https://biblioverse.org/superbar.js" defer></script>
 </head>
 <body>
-<!-- BiblioVerse Superbar -->
-<nav id="bvbar" class="bvbar" data-current="" aria-label="BiblioVerse" style="position:fixed;top:0;left:0;right:0;height:36px;z-index:9000;background:linear-gradient(90deg,#4f7cff,#7a5cff)"><a href="https://biblioverse.org" style="color:#fff;line-height:36px;padding:0 14px;font-weight:700;text-decoration:none;font-family:sans-serif">BiblioVerse</a></nav>
 <!-- Hero -->
 <header class="hero">
 <div aria-hidden="true" class="hero-bg"></div>
@@ -25,7 +22,6 @@
 <!-- Barra do topo: logo (celular) ou selo (desktop) à esquerda; uma única caixa de controles à direita -->
 <div class="topbar">
 <a class="top-brand" href="/" aria-label="BiblioVerse"><img alt="" height="36" src="images/logo.png" width="36"/></a>
-<span class="eyebrow top-eyebrow"><span aria-hidden="true" class="eyebrow-dot"></span><span data-i18n="hero.people">Escolhido por pessoas, não por algoritmo</span></span>
 <div class="toolbar" role="group" aria-label="Opções">
 <button aria-controls="aboutModal" aria-expanded="false" aria-haspopup="dialog" class="tool tool-text" data-i18n="actions.about" id="aboutToggle" type="button">Sobre</button>
 <a aria-label="BiblioVerse no LinkedIn" class="tool tool-icon" data-i18n-attr="aria-label:links.companyLinkedin;title:links.companyLinkedin" href="https://www.linkedin.com/company/biblioverse.org" rel="noopener" target="_blank" title="BiblioVerse no LinkedIn"><svg aria-hidden="true" height="16" viewBox="0 0 24 24" width="16"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z" fill="currentColor"/></svg></a>
@@ -53,15 +49,17 @@
 </div>
 </div>
 <!-- Escolha: cada porta filtra a página para um dos módulos; clicar de novo mostra tudo -->
-<p class="doors-label" data-i18n="doors.label">Por onde você quer começar?</p>
+<p class="doors-label"><span data-i18n="doors.label">Escolha o que você quer explorar</span> <span class="doors-hint" data-i18n="doors.hint">toque em um dos blocos para filtrar</span></p>
 <div class="doors" role="group" aria-label="Filtrar">
 <button aria-controls="bibliotecas" aria-pressed="false" class="door door-libs" data-show="libs" type="button">
+<span aria-hidden="true" class="door-radio"></span>
 <span class="door-head"><span class="door-num" data-count="libs">23</span><span aria-hidden="true" class="door-stack" data-stack="libs"></span></span>
 <span class="door-title" data-i18n="mod.libs">Bibliotecas</span>
 <span class="door-desc" data-i18n="doors.libs.desc">Diretórios curados com os melhores sites, apps e referências de cada tema.</span>
 <span class="door-cta"><span class="cta-go" data-i18n="doors.libs.cta">Ver só as bibliotecas</span><span class="cta-back" data-i18n="doors.all">Mostrar tudo</span><span aria-hidden="true" class="cta-arrow">→</span></span>
 </button>
 <button aria-controls="projetos" aria-pressed="false" class="door door-special" data-show="special" type="button">
+<span aria-hidden="true" class="door-radio"></span>
 <span class="door-head"><span class="door-num" data-count="special">18</span><span aria-hidden="true" class="door-stack" data-stack="special"></span></span>
 <span class="door-title" data-i18n="mod.special">Projetos especiais</span>
 <span class="door-desc" data-i18n="doors.special.desc">Sites autorais, cada um mergulhando fundo em um só tema, sempre com fontes.</span>
@@ -71,6 +69,14 @@
 </div>
 </header>
 <main class="container">
+<!-- Filtro fixo: mesmo estado das portas do hero (script.js, applyShow) -->
+<div class="filterbar" id="filterbar">
+<div aria-label="Mostrar" class="seg" role="group">
+<button aria-pressed="true" class="seg-btn" data-show="all" type="button"><span data-i18n="filter.all">Tudo</span><span class="seg-count" data-count="all">41</span></button>
+<button aria-controls="bibliotecas" aria-pressed="false" class="seg-btn" data-show="libs" type="button"><span data-i18n="mod.libs">Bibliotecas</span><span class="seg-count" data-count="libs">23</span></button>
+<button aria-controls="projetos" aria-pressed="false" class="seg-btn" data-show="special" type="button"><span class="seg-long" data-i18n="mod.special">Projetos especiais</span><span class="seg-short" data-i18n="filter.special.short">Projetos</span><span class="seg-count" data-count="special">18</span></button>
+</div>
+</div>
 <!-- Mesmos grupos da superbar (BV_GROUPS em superbar.js); dentro de cada grupo, ordem alfabética pelo nome curto (script.js) -->
 <section aria-labelledby="mod-libs" class="mod" id="bibliotecas">
 <h2 class="mod-title" id="mod-libs"><span data-i18n="mod.libs">Bibliotecas</span> <span class="mod-count" data-count="libs">23</span></h2>
