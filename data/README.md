@@ -4,8 +4,6 @@ Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: or
 
 **Site:** https://biblioverse.org/data/ · parte do [BiblioVerse](https://biblioverse.org)
 
-Construída com a ajuda de IA.
-
 ## Estrutura
 - `index.html`: página e catálogo (gerados a partir do `catalogo.txt` local por `build.py`)
 - `script.js` / `styles.css`: interface (busca, filtros, menu lateral, tema, PT/EN)
