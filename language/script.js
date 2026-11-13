@@ -674,12 +674,12 @@ const I18N = {
     bookmarkShare:"Salve esse projeto nos seus favoritos e compartilhe!",
     thanks:"Obrigado pela visita!",
     lastUpdate:"Última atualização: Outubro/2026",
-    footernav:"Acesse as bibliotecas de outros temas úteis no <strong class=\"bverse-strong\">BiblioVerse</strong>.",
+    footernav:"Acesse as bibliotecas de outros temas úteis na <strong class=\"bverse-strong\">BiblioVerse</strong>.",
     share:"Compartilhar",
     copied:"Link copiado!",
     favHelp:"Use Ctrl+D (Windows) ou Cmd+D (Mac) para favoritar esta página.",
     kbdTitle:
-"Atalhos de teclado\n/ – Ativa a barra de busca\nT – Alterna cor do tema\nL – Alterna idioma\nB – Abre o menu do BiblioVerse\n\n★ – Destaque"
+"Atalhos de teclado\n/ – Ativa a barra de busca\nT – Alterna cor do tema\nL – Alterna idioma\nB – Abre o menu da BiblioVerse\n\n★ – Destaque"
   },
   en: {
     brand:"The Language Learning Library",

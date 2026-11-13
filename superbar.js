@@ -1,6 +1,6 @@
 /*!
  * BiblioVerse Superbar v11 · https://biblioverse.org/superbar.js
- * Barra universal de todos os projetos do BiblioVerse e do site principal.
+ * Barra universal de todos os projetos da BiblioVerse e do site principal.
  *
  * ── O QUE A BARRA MOSTRA ─────────────────────────────────────────────────────
  *   Esquerda: "Um projeto BiblioVerse" (só "BiblioVerse" em telas estreitas), link para o hub, sem ícone.
@@ -117,7 +117,7 @@
   // ── Textos da interface ───────────────────────────────────────────────────
   // tagline: {b} é substituído pela marca "BiblioVerse" em negrito. moreIn: {g} é o nome do grupo.
   var BV_TEXT = {
-    pt: { tagline: 'Um projeto {b}', others: 'Outros projetos', panel: 'Projetos BiblioVerse', libs: 'Bibliotecas', moreLibs: 'Mais bibliotecas', special: 'Projetos especiais', moreSpecial: 'Outros projetos especiais', moreIn: 'Mais em {g}', close: 'Fechar', home: 'Página inicial do BiblioVerse', here: 'você está aqui', all: 'Conhecer o BiblioVerse', soon: 'em breve', open: 'Abrir a lista de projetos', by: 'Criado por' },
+    pt: { tagline: 'Um projeto {b}', others: 'Outros projetos', panel: 'Projetos BiblioVerse', libs: 'Bibliotecas', moreLibs: 'Mais bibliotecas', special: 'Projetos especiais', moreSpecial: 'Outros projetos especiais', moreIn: 'Mais em {g}', close: 'Fechar', home: 'Página inicial da BiblioVerse', here: 'você está aqui', all: 'Conhecer a BiblioVerse', soon: 'em breve', open: 'Abrir a lista de projetos', by: 'Criado por' },
     en: { tagline: 'A {b} project', others: 'Other projects', panel: 'BiblioVerse projects', libs: 'Libraries', moreLibs: 'More libraries', special: 'Special projects', moreSpecial: 'Other special projects', moreIn: 'More in {g}', close: 'Close', home: 'BiblioVerse home page', here: 'you are here', all: 'Visit BiblioVerse', soon: 'soon', open: 'Open the project list', by: 'Created by' },
     es: { tagline: 'Un proyecto {b}', others: 'Otros proyectos', panel: 'Proyectos BiblioVerse', libs: 'Bibliotecas', moreLibs: 'Más bibliotecas', special: 'Proyectos especiales', moreSpecial: 'Otros proyectos especiales', moreIn: 'Más en {g}', close: 'Cerrar', home: 'Página de inicio de BiblioVerse', here: 'estás aquí', all: 'Conocer BiblioVerse', soon: 'pronto', open: 'Abrir la lista de proyectos', by: 'Creado por' },
     fr: { tagline: 'Un projet {b}', others: 'Autres projets', panel: 'Projets BiblioVerse', libs: 'Bibliothèques', moreLibs: 'Plus de bibliothèques', special: 'Projets spéciaux', moreSpecial: 'Autres projets spéciaux', moreIn: 'Plus dans {g}', close: 'Fermer', home: "Page d'accueil de BiblioVerse", here: 'vous êtes ici', all: 'Découvrir BiblioVerse', soon: 'bientôt', open: 'Ouvrir la liste des projets', by: 'Créé par' },

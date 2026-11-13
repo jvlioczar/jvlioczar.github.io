@@ -151,7 +151,7 @@ const I18N = {
     bookmarkShare:"Salve esse projeto nos seus favoritos e compartilhe!",
     thanks:"Obrigado pela visita!",
     lastUpdate:"Última atualização: Outubro/2026",
-    footernav:"Acesse as bibliotecas de outros temas úteis no <strong class=\"bverse-strong\">BiblioVerse</strong>.",
+    footernav:"Acesse as bibliotecas de outros temas úteis na <strong class=\"bverse-strong\">BiblioVerse</strong>.",
     share:"Compartilhar",
     copied:"Link copiado!",
     favHelp:"Use Ctrl+D (Windows) ou Cmd+D (Mac) para favoritar esta página.",

@@ -3,7 +3,7 @@
    https://biblioverse.org/assets/libbar.js
 
    Compartilhada pelas 23 bibliotecas. Primeira linha do cabeçalho:
-   logo do BiblioVerse · nome da biblioteca · [Bibliotecas ▾] · tema/idioma/info.
+   logo da BiblioVerse · nome da biblioteca · [Bibliotecas ▾] · tema/idioma/info.
    Segunda linha: busca e categorias (layout na seção 4b de library.css).
 
    A lista vem da superbar (window.BiblioVerseBar: libs, groups, text), só com os
