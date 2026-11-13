@@ -51,7 +51,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 ## Projetos especiais: Cultura e Viagem
 
-- [Brasileiros na Austrália](https://brasileirosnaaustralia.biblioverse.org): Criadores de conteúdo por cidade, comparador das capitais, agências, apps e guia de chegada.
+- [Brasileiros na Austrália](https://brasileirosnaaustralia.biblioverse.org/llms.txt): Criadores de conteúdo por cidade, comparador das capitais, agências, apps e guia de chegada.
 - [Brisbane Vegan Guide](https://brisbaneveganguide.com): Os melhores restaurantes, cafés, grupos e pessoas veganos de Brisbane, em um guia bilíngue.
 - [Brissy Op Shops](https://brissyopshops.com): Guia das lojas de segunda mão de Brisbane: avaliações, horários, mapa e dicas.
 - [Cultura Australiana](https://australianculture.biblioverse.org/llms.txt): Geografia, 65 mil anos de história, quem é o povo e o jeito australiano de viver.

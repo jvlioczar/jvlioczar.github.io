@@ -128,7 +128,7 @@ special_groups = [(t, c) for t, c in groups if not any(x['url'] in lib_urls for 
 about_p = [strip(m.group(1)) for m in re.finditer(r'data-i18n="section\.about\.p\d"[^>]*>(.*?)</p>', hub, re.S)]
 
 PROJECT_LLMS = {
-    'australianculture.biblioverse.org', 'brazilianmusic.biblioverse.org', 'cienciaparainiciantes.biblioverse.org', 'curatedai.biblioverse.org',
+    'australianculture.biblioverse.org', 'brasileirosnaaustralia.biblioverse.org', 'brazilianmusic.biblioverse.org', 'cienciaparainiciantes.biblioverse.org', 'curatedai.biblioverse.org',
     'eticaparainiciantes.biblioverse.org', 'fortheanimals.biblioverse.org', 'pelosanimais.biblioverse.org',
     'politicaparainiciantes.biblioverse.org', 'questaodeetica.biblioverse.org',
 }
