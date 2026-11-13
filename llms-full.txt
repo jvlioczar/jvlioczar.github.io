@@ -82,7 +82,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 ## Projetos especiais: Música
 
-- [Música Brasileira](https://brazilianmusic.biblioverse.org): O catálogo bilíngue da música do Brasil: 20 famílias de gêneros, 961 artistas, instrumentistas, músicas, discos, prêmios e realities.
+- [Música Brasileira](https://brazilianmusic.biblioverse.org/llms.txt): O catálogo bilíngue da música do Brasil: 21 famílias de gêneros, +1.700 artistas, instrumentistas, músicas, discos, prêmios e realities.
 - [Tipos de Rock](https://typesofrock.biblioverse.org): 97 gêneros de rock em uma árvore interativa, com história, som, genealogia e artistas.
 
 ## Optional
