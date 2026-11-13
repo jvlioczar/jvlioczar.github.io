@@ -7,7 +7,8 @@ Rodar da raiz do repositório depois de mudar o conteúdo de qualquer biblioteca
 
 O script é idempotente: os blocos que ele injeta no <head> ficam entre
 <!-- seo:start --> e <!-- seo:end --> e são substituídos a cada execução.
-A pasta começa com "_" para o Jekyll do GitHub Pages não publicá-la.
+O workflow do GitHub Pages publica o repositório inteiro, então este arquivo também fica
+público; ele não guarda nenhum segredo.
 """
 import html as H
 import json
