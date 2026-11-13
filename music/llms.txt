@@ -1,0 +1,1183 @@
+# A Biblioteca de Música
+
+> Catálogo pesquisável do essencial da música por categoria: streaming, gêneros, gravadoras, instrumentos, conceitos, produção, festivais e artistas. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The Music Library), com curadoria humana. Página: https://biblioverse.org/music/ · 1072 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Aparelhos e equipamentos
+
+- [Amplificador](https://en.wikipedia.org/wiki/Instrument_amplifier)
+- [Boombox](https://en.wikipedia.org/wiki/Boombox)
+- [Caixa de som](https://en.wikipedia.org/wiki/Loudspeaker)
+- [CDJ](https://en.wikipedia.org/wiki/CDJ)
+- [Controlador MIDI](https://en.wikipedia.org/wiki/MIDI_controller)
+- [Controladora de DJ](https://en.wikipedia.org/wiki/DJ_controller)
+- [Discman](https://en.wikipedia.org/wiki/Discman) 🪦
+- [Drum machine](https://en.wikipedia.org/wiki/Drum_machine)
+- [Fones de ouvido](https://en.wikipedia.org/wiki/Headphones) ★
+- [Gramofone](https://en.wikipedia.org/wiki/Phonograph)
+- [Interface de áudio](https://en.wikipedia.org/wiki/Audio_interface)
+- [iPod](https://en.wikipedia.org/wiki/IPod) 🪦
+- [Jukebox](https://en.wikipedia.org/wiki/Jukebox)
+- [Mesa de som](https://en.wikipedia.org/wiki/Mixing_console)
+- [Microfone](https://en.wikipedia.org/wiki/Microphone) ★
+- [Mixer de DJ](https://en.wikipedia.org/wiki/DJ_mixer)
+- [Monitores de estúdio](https://en.wikipedia.org/wiki/Studio_monitor)
+- [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer)
+- [Pedal de efeito](https://en.wikipedia.org/wiki/Effects_unit)
+- [Pedal de loop](https://en.wikipedia.org/wiki/Loop_pedal)
+- [Pickup de DJ (Technics SL-1200)](https://en.wikipedia.org/wiki/Technics_SL-1200) ★
+- [Roland TR-808](https://en.wikipedia.org/wiki/Roland_TR-808) ★
+- [Sampler](https://en.wikipedia.org/wiki/Sampler_(musical_instrument))
+- [Talk box](https://en.wikipedia.org/wiki/Talk_box)
+- [Toca-discos](https://en.wikipedia.org/wiki/Phonograph)
+- [Vocoder](https://en.wikipedia.org/wiki/Vocoder) ★
+- [Walkman](https://en.wikipedia.org/wiki/Walkman)
+- [Zune](https://en.wikipedia.org/wiki/Zune) 🪦
+
+## Aplicativos de ensino
+
+- [Chord ai](https://chordai.net/)
+- [Duolingo Music](https://www.duolingo.com/)
+- [Fender Play](https://www.fender.com/play)
+- [Flowkey](https://www.flowkey.com/)
+- [GarageBand (iOS)](https://www.apple.com/ios/garageband/)
+- [GuitarTuna](https://guitartuna.com/)
+- [Justin Guitar](https://www.justinguitar.com/)
+- [Melodics](https://melodics.com/)
+- [Moises](https://moises.ai/) ★
+- [Perfect Ear](https://www.perfectear.app/)
+- [Pro Metronome](https://www.eumlab.com/pro-metronome)
+- [Simply Piano](https://www.hellosimply.com/) ★
+- [Skoove](https://www.skoove.com/)
+- [Smule](https://smule.com)
+- [Tenuto](https://www.musictheory.net/products/tenuto)
+- [Yousician](https://yousician.com/) ★
+
+## Aprendizado musical
+
+- [Ableton Learning Music](https://learningmusic.ableton.com/)
+- [Ableton Learning Synths](https://learningsynths.ableton.com/)
+- [Berklee Online](https://online.berklee.edu/)
+- [Chrome Music Lab](https://musiclab.chromeexperiments.com/) ★
+- [Coursera (música)](https://www.coursera.org/browse/arts-and-humanities/music-and-art)
+- [Hooktheory](https://www.hooktheory.com/)
+- [Khan Academy (música)](https://www.khanacademy.org/humanities/music)
+- [musictheory.net](https://www.musictheory.net/) ★
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/)
+- [Teoria](https://www.teoria.com/)
+
+## Artistas brasileiros
+
+- [Adoniran Barbosa](https://en.wikipedia.org/wiki/Adoniran_Barbosa) ★ 🪦
+- [Adriana Calcanhotto](https://en.wikipedia.org/wiki/Adriana_Calcanhotto)
+- [Alceu Valença](https://en.wikipedia.org/wiki/Alceu_Valen%C3%A7a)
+- [Alcione](https://en.wikipedia.org/wiki/Alcione_Nazareth)
+- [Almir Sater](https://en.wikipedia.org/wiki/Almir_Sater)
+- [Angra](https://en.wikipedia.org/wiki/Angra_(band))
+- [Anitta](https://en.wikipedia.org/wiki/Anitta_(singer)) ★
+- [Arlindo Cruz](https://en.wikipedia.org/wiki/Arlindo_Cruz) 🪦
+- [Arnaldo Antunes](https://en.wikipedia.org/wiki/Arnaldo_Antunes)
+- [Ary Barroso](https://en.wikipedia.org/wiki/Ary_Barroso) ★ 🪦
+- [Baco Exu do Blues](https://en.wikipedia.org/wiki/Baco_Exu_do_Blues)
+- [Baden Powell](https://en.wikipedia.org/wiki/Baden_Powell) 🪦
+- [Barão Vermelho](https://en.wikipedia.org/wiki/Bar%C3%A3o_Vermelho) ★
+- [Belchior](https://en.wikipedia.org/wiki/Belchior_(singer)) ★ 🪦
+- [Beth Carvalho](https://en.wikipedia.org/wiki/Beth_Carvalho) ★ 🪦
+- [Caetano Veloso](https://en.wikipedia.org/wiki/Caetano_Veloso) ★
+- [Capital Inicial](https://en.wikipedia.org/wiki/Capital_Inicial)
+- [Carlinhos Brown](https://en.wikipedia.org/wiki/Carlinhos_Brown)
+- [Carlos Lyra](https://en.wikipedia.org/wiki/Carlos_Lyra) 🪦
+- [Carmen Miranda](https://en.wikipedia.org/wiki/Carmen_Miranda) 🪦
+- [Cartola](https://en.wikipedia.org/wiki/Cartola) 🪦
+- [Cassiano](https://en.wikipedia.org/wiki/Cassiano_(singer)) 🪦
+- [Cazuza](https://en.wikipedia.org/wiki/Cazuza) 🪦
+- [Charlie Brown Jr.](https://en.wikipedia.org/wiki/Charlie_Brown_Jr._(band)) 🪦
+- [Chico Buarque](https://en.wikipedia.org/wiki/Chico_Buarque) ★
+- [Chico Science](https://en.wikipedia.org/wiki/Chico_Science) 🪦
+- [Chico Science & Nação Zumbi](https://en.wikipedia.org/wiki/Chico_Science_%26_Na%C3%A7%C3%A3o_Zumbi)
+- [Chitãozinho & Xororó](https://en.wikipedia.org/wiki/Chit%C3%A3ozinho_%26_Xoror%C3%B3) ★
+- [Chorão](https://en.wikipedia.org/wiki/Chor%C3%A3o) 🪦
+- [Clara Nunes](https://en.wikipedia.org/wiki/Clara_Nunes) 🪦
+- [Claudinho & Buchecha](https://en.wikipedia.org/wiki/Claudinho_%26_Buchecha) 🪦
+- [Clementina de Jesus](https://en.wikipedia.org/wiki/Clementina_de_Jesus) 🪦
+- [Criolo](https://en.wikipedia.org/wiki/Criolo)
+- [Cássia Eller](https://en.wikipedia.org/wiki/C%C3%A1ssia_Eller) ★ 🪦
+- [Daniela Mercury](https://en.wikipedia.org/wiki/Daniela_Mercury)
+- [DJ Marlboro](https://en.wikipedia.org/wiki/DJ_Marlboro)
+- [Djavan](https://en.wikipedia.org/wiki/Djavan)
+- [Djonga](https://en.wikipedia.org/wiki/Djonga)
+- [Dolores Duran](https://en.wikipedia.org/wiki/Dolores_Duran) 🪦
+- [Dominguinhos](https://en.wikipedia.org/wiki/Dominguinhos) 🪦
+- [Dona Ivone Lara](https://en.wikipedia.org/wiki/Dona_Ivone_Lara) 🪦
+- [Dorival Caymmi](https://en.wikipedia.org/wiki/Dorival_Caymmi) 🪦
+- [Ed Motta](https://en.wikipedia.org/wiki/Ed_Motta)
+- [Edu Lobo](https://en.wikipedia.org/wiki/Edu_Lobo)
+- [Egberto Gismonti](https://en.wikipedia.org/wiki/Egberto_Gismonti)
+- [Elba Ramalho](https://en.wikipedia.org/wiki/Elba_Ramalho)
+- [Elis Regina](https://en.wikipedia.org/wiki/Elis_Regina) ★ 🪦
+- [Elizeth Cardoso](https://en.wikipedia.org/wiki/Elizeth_Cardoso) 🪦
+- [Elza Soares](https://en.wikipedia.org/wiki/Elza_Soares) ★ 🪦
+- [Emicida](https://en.wikipedia.org/wiki/Emicida) ★
+- [Engenheiros do Hawaii](https://en.wikipedia.org/wiki/Engenheiros_do_Hawaii) 🪦
+- [Erasmo Carlos](https://en.wikipedia.org/wiki/Erasmo_Carlos) ★ 🪦
+- [Eumir Deodato](https://en.wikipedia.org/wiki/Eumir_Deodato)
+- [Fagner](https://en.wikipedia.org/wiki/Raimundo_Fagner)
+- [Francisco Alves](https://en.wikipedia.org/wiki/Francisco_Alves_(singer)) 🪦
+- [Fundo de Quintal](https://en.wikipedia.org/wiki/Fundo_de_Quintal)
+- [Gabriel o Pensador](https://en.wikipedia.org/wiki/Gabriel_o_Pensador)
+- [Gaby Amarantos](https://en.wikipedia.org/wiki/Gaby_Amarantos)
+- [Gal Costa](https://en.wikipedia.org/wiki/Gal_Costa) 🪦
+- [Geraldo Vandré](https://en.wikipedia.org/wiki/Geraldo_Vandr%C3%A9)
+- [Gilberto Gil](https://en.wikipedia.org/wiki/Gilberto_Gil) ★
+- [Gloria Groove](https://en.wikipedia.org/wiki/Gloria_Groove)
+- [Gonzaguinha](https://en.wikipedia.org/wiki/Gonzaguinha) 🪦
+- [Gusttavo Lima](https://en.wikipedia.org/wiki/Gusttavo_Lima)
+- [Hamilton de Holanda](https://en.wikipedia.org/wiki/Hamilton_de_Holanda)
+- [Henrique & Juliano](https://en.wikipedia.org/wiki/Henrique_%26_Juliano)
+- [Herbert Vianna](https://en.wikipedia.org/wiki/Herbert_Vianna)
+- [Hermeto Pascoal](https://en.wikipedia.org/wiki/Hermeto_Pascoal) ★ 🪦
+- [Hyldon](https://pt.wikipedia.org/wiki/Hyldon)
+- [Inezita Barroso](https://en.wikipedia.org/wiki/Inezita_Barroso) 🪦
+- [Ira!](https://en.wikipedia.org/wiki/Ira!)
+- [Ivan Lins](https://en.wikipedia.org/wiki/Ivan_Lins)
+- [Ivete Sangalo](https://en.wikipedia.org/wiki/Ivete_Sangalo)
+- [IZA](https://en.wikipedia.org/wiki/Iza_(singer))
+- [Jackson do Pandeiro](https://en.wikipedia.org/wiki/Jackson_do_Pandeiro) 🪦
+- [Jacob do Bandolim](https://en.wikipedia.org/wiki/Jacob_do_Bandolim) 🪦
+- [Johnny Alf](https://en.wikipedia.org/wiki/Johnny_Alf) 🪦
+- [Jorge & Mateus](https://en.wikipedia.org/wiki/Jorge_%26_Mateus)
+- [Jorge Aragão](https://en.wikipedia.org/wiki/Jorge_Arag%C3%A3o)
+- [Jorge Ben Jor](https://en.wikipedia.org/wiki/Jorge_Ben_Jor)
+- [João Bosco](https://en.wikipedia.org/wiki/Jo%C3%A3o_Bosco)
+- [João Gilberto](https://en.wikipedia.org/wiki/Jo%C3%A3o_Gilberto) ★ 🪦
+- [Karol Conká](https://en.wikipedia.org/wiki/Karol_Conk%C3%A1)
+- [Kid Abelha](https://en.wikipedia.org/wiki/Kid_Abelha) 🪦
+- [Leandro & Leonardo](https://en.wikipedia.org/wiki/Leandro_e_Leonardo) 🪦
+- [Legião Urbana](https://en.wikipedia.org/wiki/Legi%C3%A3o_Urbana) 🪦
+- [Lenine](https://en.wikipedia.org/wiki/Lenine_(musician))
+- [Lobão](https://en.wikipedia.org/wiki/Lob%C3%A3o_(musician))
+- [Los Hermanos](https://en.wikipedia.org/wiki/Los_Hermanos)
+- [Ludmilla](https://en.wikipedia.org/wiki/Ludmilla_(singer))
+- [Luiz Caldas](https://en.wikipedia.org/wiki/Luiz_Caldas)
+- [Luiz Gonzaga](https://en.wikipedia.org/wiki/Luiz_Gonzaga) 🪦
+- [Luiz Melodia](https://en.wikipedia.org/wiki/Luiz_Melodia) 🪦
+- [Lulu Santos](https://en.wikipedia.org/wiki/Lulu_Santos)
+- [Lupicínio Rodrigues](https://en.wikipedia.org/wiki/Lupic%C3%ADnio_Rodrigues) 🪦
+- [Luísa Sonza](https://en.wikipedia.org/wiki/Lu%C3%ADsa_Sonza)
+- [Maiara & Maraisa](https://en.wikipedia.org/wiki/Maiara_%26_Maraisa)
+- [Mamonas Assassinas](https://en.wikipedia.org/wiki/Mamonas_Assassinas) 🪦
+- [Mano Brown](https://en.wikipedia.org/wiki/Mano_Brown)
+- [Marcelo D2](https://en.wikipedia.org/wiki/Marcelo_D2)
+- [Marcos Valle](https://en.wikipedia.org/wiki/Marcos_Valle)
+- [Maria Bethânia](https://en.wikipedia.org/wiki/Maria_Beth%C3%A2nia)
+- [Marina Lima](https://en.wikipedia.org/wiki/Marina_Lima)
+- [Marisa Monte](https://en.wikipedia.org/wiki/Marisa_Monte)
+- [Martinho da Vila](https://en.wikipedia.org/wiki/Martinho_da_Vila)
+- [Marília Mendonça](https://en.wikipedia.org/wiki/Mar%C3%ADlia_Mendon%C3%A7a) 🪦
+- [Max Cavalera](https://en.wikipedia.org/wiki/Max_Cavalera)
+- [Maysa](https://en.wikipedia.org/wiki/Maysa_Matarazzo) 🪦
+- [Milionário & José Rico](https://en.wikipedia.org/wiki/Milion%C3%A1rio_%26_Jos%C3%A9_Rico) 🪦
+- [Milton Nascimento](https://en.wikipedia.org/wiki/Milton_Nascimento)
+- [Moraes Moreira](https://en.wikipedia.org/wiki/Moraes_Moreira) 🪦
+- [Naná Vasconcelos](https://en.wikipedia.org/wiki/Nan%C3%A1_Vasconcelos) 🪦
+- [Nara Leão](https://en.wikipedia.org/wiki/Nara_Le%C3%A3o) 🪦
+- [Nelson Cavaquinho](https://en.wikipedia.org/wiki/Nelson_Cavaquinho) 🪦
+- [Nelson Gonçalves](https://en.wikipedia.org/wiki/Nelson_Gon%C3%A7alves) 🪦
+- [Ney Matogrosso](https://en.wikipedia.org/wiki/Ney_Matogrosso) ★
+- [Noel Rosa](https://en.wikipedia.org/wiki/Noel_Rosa) 🪦
+- [Novos Baianos](https://en.wikipedia.org/wiki/Novos_Baianos)
+- [O Rappa](https://en.wikipedia.org/wiki/O_Rappa) 🪦
+- [Odair José](https://en.wikipedia.org/wiki/Odair_Jos%C3%A9)
+- [Olodum](https://en.wikipedia.org/wiki/Olodum)
+- [Orlando Silva](https://pt.wikipedia.org/wiki/Orlando_Silva) 🪦
+- [Os Mutantes](https://en.wikipedia.org/wiki/Os_Mutantes)
+- [Pabllo Vittar](https://en.wikipedia.org/wiki/Pabllo_Vittar)
+- [Paralamas do Sucesso](https://en.wikipedia.org/wiki/Os_Paralamas_do_Sucesso)
+- [Pato Fu](https://en.wikipedia.org/wiki/Pato_Fu)
+- [Paula Fernandes](https://en.wikipedia.org/wiki/Paula_Fernandes)
+- [Paulinho da Viola](https://en.wikipedia.org/wiki/Paulinho_da_Viola) ★
+- [Pepeu Gomes](https://en.wikipedia.org/wiki/Pepeu_Gomes)
+- [Pitty](https://en.wikipedia.org/wiki/Pitty)
+- [Pixinguinha](https://en.wikipedia.org/wiki/Pixinguinha) 🪦
+- [Planet Hemp](https://en.wikipedia.org/wiki/Planet_Hemp) 🪦
+- [Racionais MC's](https://en.wikipedia.org/wiki/Racionais_MC's)
+- [Raimundos](https://en.wikipedia.org/wiki/Raimundos)
+- [Raul Seixas](https://en.wikipedia.org/wiki/Raul_Seixas) 🪦
+- [Reginaldo Rossi](https://en.wikipedia.org/wiki/Reginaldo_Rossi) 🪦
+- [Renato Russo](https://en.wikipedia.org/wiki/Renato_Russo) ★ 🪦
+- [Renato Teixeira](https://en.wikipedia.org/wiki/Renato_Teixeira)
+- [Rita Lee](https://en.wikipedia.org/wiki/Rita_Lee) 🪦
+- [Roberta Miranda](https://en.wikipedia.org/wiki/Roberta_Miranda)
+- [Roberto Carlos](https://en.wikipedia.org/wiki/Roberto_Carlos_(singer))
+- [Roberto Menescal](https://en.wikipedia.org/wiki/Roberto_Menescal)
+- [Sabotage](https://en.wikipedia.org/wiki/Sabotage) 🪦
+- [Sandra de Sá](https://en.wikipedia.org/wiki/Sandra_de_S%C3%A1)
+- [Sandy](https://en.wikipedia.org/wiki/Sandy_(Brazilian_singer))
+- [Secos & Molhados](https://en.wikipedia.org/wiki/Secos_%26_Molhados) 🪦
+- [Sepultura](https://en.wikipedia.org/wiki/Sepultura)
+- [Seu Jorge](https://en.wikipedia.org/wiki/Seu_Jorge)
+- [Sidney Magal](https://en.wikipedia.org/wiki/Sidney_Magal)
+- [Sivuca](https://en.wikipedia.org/wiki/Sivuca) 🪦
+- [Skank](https://en.wikipedia.org/wiki/Skank_(band)) 🪦
+- [Sérgio Mendes](https://en.wikipedia.org/wiki/S%C3%A9rgio_Mendes) 🪦
+- [Tati Quebra Barraco](https://en.wikipedia.org/wiki/Tati_Quebra_Barraco)
+- [Tim Maia](https://en.wikipedia.org/wiki/Tim_Maia) 🪦
+- [Titãs](https://en.wikipedia.org/wiki/Tit%C3%A3s)
+- [Tião Carreiro & Pardinho](https://en.wikipedia.org/wiki/Ti%C3%A3o_Carreiro_%26_Pardinho) 🪦
+- [Tom Jobim](https://en.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Jobim) ★ 🪦
+- [Tom Zé](https://en.wikipedia.org/wiki/Tom_Z%C3%A9)
+- [Tonico & Tinoco](https://en.wikipedia.org/wiki/Tonico_%26_Tinoco) 🪦
+- [Tribalistas](https://en.wikipedia.org/wiki/Tribalistas)
+- [Ultraje a Rigor](https://en.wikipedia.org/wiki/Ultraje_a_Rigor)
+- [Vinícius de Moraes](https://en.wikipedia.org/wiki/Vin%C3%ADcius_de_Moraes) 🪦
+- [Waldick Soriano](https://en.wikipedia.org/wiki/Waldick_Soriano) 🪦
+- [Waldir Azevedo](https://en.wikipedia.org/wiki/Valdir_Azevedo) 🪦
+- [Wilson Simonal](https://en.wikipedia.org/wiki/Wilson_Simonal) 🪦
+- [Yamandu Costa](https://en.wikipedia.org/wiki/Yamandu_Costa)
+- [Zeca Pagodinho](https://en.wikipedia.org/wiki/Zeca_Pagodinho) ★
+- [Zezé Di Camargo & Luciano](https://en.wikipedia.org/wiki/Zez%C3%A9_Di_Camargo_%26_Luciano)
+- [Zé Ramalho](https://en.wikipedia.org/wiki/Z%C3%A9_Ramalho)
+- [Ângela Maria](https://en.wikipedia.org/wiki/Angela_Maria) 🪦
+
+## Artistas icônicos
+
+- [ABBA](https://en.wikipedia.org/wiki/ABBA)
+- [Amy Winehouse](https://en.wikipedia.org/wiki/Amy_Winehouse) 🪦
+- [Aretha Franklin](https://en.wikipedia.org/wiki/Aretha_Franklin) 🪦
+- [Bad Bunny](https://en.wikipedia.org/wiki/Bad_Bunny)
+- [Beyoncé](https://en.wikipedia.org/wiki/Beyonc%C3%A9) ★
+- [Billie Holiday](https://en.wikipedia.org/wiki/Billie_Holiday) 🪦
+- [Björk](https://en.wikipedia.org/wiki/Bj%C3%B6rk)
+- [Bob Dylan](https://en.wikipedia.org/wiki/Bob_Dylan)
+- [Bob Marley](https://en.wikipedia.org/wiki/Bob_Marley) 🪦
+- [BTS](https://en.wikipedia.org/wiki/BTS)
+- [Daft Punk](https://en.wikipedia.org/wiki/Daft_Punk) 🪦
+- [David Bowie](https://en.wikipedia.org/wiki/David_Bowie) 🪦
+- [Ella Fitzgerald](https://en.wikipedia.org/wiki/Ella_Fitzgerald) 🪦
+- [Elvis Presley](https://en.wikipedia.org/wiki/Elvis_Presley) ★ 🪦
+- [Eminem](https://en.wikipedia.org/wiki/Eminem)
+- [Frank Sinatra](https://en.wikipedia.org/wiki/Frank_Sinatra) 🪦
+- [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury) 🪦
+- [James Brown](https://en.wikipedia.org/wiki/James_Brown) 🪦
+- [Jimi Hendrix](https://en.wikipedia.org/wiki/Jimi_Hendrix) 🪦
+- [John Lennon](https://en.wikipedia.org/wiki/John_Lennon) 🪦
+- [Johnny Cash](https://en.wikipedia.org/wiki/Johnny_Cash) 🪦
+- [Kendrick Lamar](https://en.wikipedia.org/wiki/Kendrick_Lamar)
+- [Kraftwerk](https://en.wikipedia.org/wiki/Kraftwerk)
+- [Led Zeppelin](https://en.wikipedia.org/wiki/Led_Zeppelin) 🪦
+- [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) 🪦
+- [Madonna](https://en.wikipedia.org/wiki/Madonna) ★
+- [Michael Jackson](https://en.wikipedia.org/wiki/Michael_Jackson) ★ 🪦
+- [Miles Davis](https://en.wikipedia.org/wiki/Miles_Davis) 🪦
+- [Nina Simone](https://en.wikipedia.org/wiki/Nina_Simone) 🪦
+- [Nirvana](https://en.wikipedia.org/wiki/Nirvana_(band)) 🪦
+- [Paul McCartney](https://en.wikipedia.org/wiki/Paul_McCartney)
+- [Pink Floyd](https://en.wikipedia.org/wiki/Pink_Floyd)
+- [Prince](https://en.wikipedia.org/wiki/Prince_(musician)) 🪦
+- [Queen](https://en.wikipedia.org/wiki/Queen_(band))
+- [Radiohead](https://en.wikipedia.org/wiki/Radiohead)
+- [Ramones](https://en.wikipedia.org/wiki/Ramones) 🪦
+- [Ray Charles](https://en.wikipedia.org/wiki/Ray_Charles) 🪦
+- [Rihanna](https://en.wikipedia.org/wiki/Rihanna)
+- [Stevie Wonder](https://en.wikipedia.org/wiki/Stevie_Wonder)
+- [Taylor Swift](https://en.wikipedia.org/wiki/Taylor_Swift) ★
+- [The Beatles](https://en.wikipedia.org/wiki/The_Beatles) ★ 🪦
+- [The Doors](https://en.wikipedia.org/wiki/The_Doors) 🪦
+- [The Notorious B.I.G.](https://en.wikipedia.org/wiki/The_Notorious_B.I.G.) 🪦
+- [The Rolling Stones](https://en.wikipedia.org/wiki/The_Rolling_Stones)
+- [Tupac Shakur](https://en.wikipedia.org/wiki/Tupac_Shakur) 🪦
+- [Whitney Houston](https://en.wikipedia.org/wiki/Whitney_Houston) 🪦
+
+## Avaliação e bancos de dados
+
+- [Acclaimed Music](https://www.acclaimedmusic.net/)
+- [Album of the Year](https://www.albumoftheyear.org/)
+- [AllMusic](https://www.allmusic.com/) ★
+- [Dicionário Cravo Albin](https://dicionariompb.com.br/)
+- [Discogs](https://www.discogs.com) ★
+- [Metacritic Music](https://www.metacritic.com/music/)
+- [Musicboard](https://musicboard.app/)
+- [MusicBrainz](https://musicbrainz.org/)
+- [Rate Your Music](https://rateyourmusic.com) ★
+- [Setlist.fm](https://www.setlist.fm/)
+
+## Cifras, letras e partituras
+
+- [8notes](https://www.8notes.com/)
+- [AZLyrics](https://www.azlyrics.com/)
+- [Chordify](https://chordify.net/)
+- [Cifra Club](https://www.cifraclub.com.br/) ★
+- [Cifras](https://www.cifras.com.br/)
+- [Genius](https://genius.com)
+- [IMSLP](https://imslp.org) ★
+- [Letras](https://www.letras.mus.br/)
+- [MuseScore.com](https://musescore.org) ★
+- [Musicnotes](https://www.musicnotes.com/)
+- [Musixmatch](https://www.musixmatch.com/)
+- [Mutopia Project](https://www.mutopiaproject.org/)
+- [Songsterr](https://www.songsterr.com/)
+- [Ultimate Guitar](https://www.ultimate-guitar.com/) ★
+- [Vagalume](https://www.vagalume.com.br/)
+
+## Compositores clássicos
+
+- [Antonio Vivaldi](https://en.wikipedia.org/wiki/Antonio_Vivaldi) 🪦
+- [Carlos Gomes](https://en.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Gomes) 🪦
+- [Chiquinha Gonzaga](https://en.wikipedia.org/wiki/Chiquinha_Gonzaga) 🪦
+- [Clara Schumann](https://en.wikipedia.org/wiki/Clara_Schumann) 🪦
+- [Claude Debussy](https://en.wikipedia.org/wiki/Claude_Debussy) 🪦
+- [Erik Satie](https://en.wikipedia.org/wiki/Erik_Satie) 🪦
+- [Franz Liszt](https://en.wikipedia.org/wiki/Franz_Liszt) 🪦
+- [Franz Schubert](https://en.wikipedia.org/wiki/Franz_Schubert) 🪦
+- [Frédéric Chopin](https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin) ★ 🪦
+- [George Frideric Handel](https://en.wikipedia.org/wiki/George_Frideric_Handel) 🪦
+- [Giuseppe Verdi](https://en.wikipedia.org/wiki/Giuseppe_Verdi) 🪦
+- [Gustav Mahler](https://en.wikipedia.org/wiki/Gustav_Mahler) 🪦
+- [Heitor Villa-Lobos](https://en.wikipedia.org/wiki/Heitor_Villa-Lobos) ★ 🪦
+- [Hildegard von Bingen](https://en.wikipedia.org/wiki/Hildegard_of_Bingen) 🪦
+- [Igor Stravinsky](https://en.wikipedia.org/wiki/Igor_Stravinsky) 🪦
+- [Johann Sebastian Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach) ★ 🪦
+- [Johannes Brahms](https://en.wikipedia.org/wiki/Johannes_Brahms) 🪦
+- [Joseph Haydn](https://en.wikipedia.org/wiki/Joseph_Haydn) 🪦
+- [Ludwig van Beethoven](https://en.wikipedia.org/wiki/Ludwig_van_Beethoven) ★ 🪦
+- [Maurice Ravel](https://en.wikipedia.org/wiki/Maurice_Ravel) 🪦
+- [Philip Glass](https://en.wikipedia.org/wiki/Philip_Glass)
+- [Pyotr Ilyich Tchaikovsky](https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky) 🪦
+- [Richard Wagner](https://en.wikipedia.org/wiki/Richard_Wagner) 🪦
+- [Sergei Rachmaninoff](https://en.wikipedia.org/wiki/Sergei_Rachmaninoff) 🪦
+- [Wolfgang Amadeus Mozart](https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart) ★ 🪦
+
+## Conceitos fundamentais
+
+- [Acorde](https://en.wikipedia.org/wiki/Chord_(music)) ★
+- [Afinação](https://en.wikipedia.org/wiki/Musical_tuning)
+- [Altura](https://en.wikipedia.org/wiki/Pitch_(music))
+- [Arranjo](https://en.wikipedia.org/wiki/Arrangement)
+- [Cadência](https://en.wikipedia.org/wiki/Cadence)
+- [Cifra](https://en.wikipedia.org/wiki/Chord_chart)
+- [Clave](https://en.wikipedia.org/wiki/Clef)
+- [Compasso](https://en.wikipedia.org/wiki/Time_signature)
+- [Contraponto](https://en.wikipedia.org/wiki/Counterpoint)
+- [Círculo das quintas](https://en.wikipedia.org/wiki/Circle_of_fifths)
+- [Dinâmica](https://en.wikipedia.org/wiki/Dynamics_(music))
+- [Escala](https://en.wikipedia.org/wiki/Scale_(music))
+- [Escala maior](https://en.wikipedia.org/wiki/Major_scale)
+- [Escala menor](https://en.wikipedia.org/wiki/Minor_scale)
+- [Escala pentatônica](https://en.wikipedia.org/wiki/Pentatonic_scale)
+- [Forma musical](https://en.wikipedia.org/wiki/Musical_form)
+- [Groove](https://en.wikipedia.org/wiki/Groove_(music))
+- [Harmonia](https://en.wikipedia.org/wiki/Harmony) ★
+- [Improvisação](https://en.wikipedia.org/wiki/Musical_improvisation)
+- [Intervalo](https://en.wikipedia.org/wiki/Interval_(music))
+- [Lá 440 Hz](https://en.wikipedia.org/wiki/A440_(pitch_standard))
+- [Melodia](https://en.wikipedia.org/wiki/Melody) ★
+- [Modos gregos](https://en.wikipedia.org/wiki/Mode_(music))
+- [Nota musical](https://en.wikipedia.org/wiki/Musical_note) ★
+- [Oitava](https://en.wikipedia.org/wiki/Octave)
+- [Ouvido absoluto](https://en.wikipedia.org/wiki/Absolute_pitch)
+- [Partitura](https://en.wikipedia.org/wiki/Sheet_music)
+- [Pauta](https://en.wikipedia.org/wiki/Staff_(music))
+- [Polifonia](https://en.wikipedia.org/wiki/Polyphony)
+- [Progressão de acordes](https://en.wikipedia.org/wiki/Chord_progression)
+- [Refrão](https://en.wikipedia.org/wiki/Refrain)
+- [Ritmo](https://en.wikipedia.org/wiki/Rhythm) ★
+- [Solfejo](https://en.wikipedia.org/wiki/Solf%C3%A8ge)
+- [Série harmônica](https://en.wikipedia.org/wiki/Harmonic_series_(music))
+- [Síncope](https://en.wikipedia.org/wiki/Syncopation)
+- [Temperamento igual](https://en.wikipedia.org/wiki/Equal_temperament)
+- [Tempo (BPM)](https://en.wikipedia.org/wiki/Tempo)
+- [Timbre](https://en.wikipedia.org/wiki/Timbre)
+- [Tonalidade](https://en.wikipedia.org/wiki/Key_(music))
+
+## Descoberta e identificação
+
+- [Chosic](https://www.chosic.com/)
+- [Every Noise at Once](https://everynoise.com/)
+- [Genius](https://genius.com) ★
+- [Last.fm](https://www.last.fm) ★
+- [Letras](https://www.letras.mus.br/)
+- [Music-Map](https://www.music-map.com/)
+- [Musixmatch](https://www.musixmatch.com/)
+- [Radio Garden](https://radio.garden/) ★
+- [Radiooooo](https://radiooooo.com/)
+- [Receiptify](https://receiptify.herokuapp.com/)
+- [Shazam](https://www.shazam.com/) ★
+- [SoundHound](https://www.soundhound.com)
+- [Stats.fm](https://stats.fm/)
+- [WhoSampled](https://www.whosampled.com)
+
+## Direitos autorais e associações
+
+- [APRA AMCOS](https://www.apraamcos.com.au/)
+- [ASCAP](https://www.ascap.com/) ★
+- [BMI](https://www.bmi.com)
+- [Creative Commons](https://creativecommons.org/)
+- [Direito autoral](https://en.wikipedia.org/wiki/Copyright)
+- [Domínio público](https://en.wikipedia.org/wiki/Public_domain_music)
+- [ECAD](https://www4.ecad.org.br/) ★
+- [GEMA](https://www.gema.de/)
+- [JASRAC](https://www.jasrac.or.jp/)
+- [PRS for Music](https://www.prsformusic.com/)
+- [Royalties](https://en.wikipedia.org/wiki/Royalty_payment)
+- [SACEM](https://www.sacem.fr/)
+- [SESAC](https://www.sesac.com)
+- [SOCAN](https://www.socan.com/)
+- [SoundExchange](https://www.soundexchange.com/)
+- [UBC](https://www.ubc.org.br/)
+
+## Distribuição e ferramentas para artistas
+
+- [Amuse](https://www.amuse.io/)
+- [Apple Music for Artists](https://artists.apple.com/)
+- [AWAL](https://www.awal.com/)
+- [Bandsintown](https://www.bandsintown.com)
+- [CD Baby](https://cdbaby.com)
+- [DistroKid](https://distrokid.com) ★
+- [Ditto Music](https://dittomusic.com)
+- [Feature.fm](https://www.feature.fm/)
+- [Groover](https://groover.co/)
+- [Linktree](https://linktr.ee)
+- [ONErpm](https://onerpm.com) ★
+- [Splice](https://splice.com/) ★
+- [Spotify for Artists](https://artists.spotify.com/)
+- [SubmitHub](https://www.submithub.com/)
+- [TuneCore](https://www.tunecore.com)
+- [UnitedMasters](https://unitedmasters.com/)
+- [YouTube for Artists](https://artists.youtube/)
+
+## Festivais
+
+- [Big Day Out](https://en.wikipedia.org/wiki/Big_Day_Out) 🪦
+- [Coachella](https://www.coachella.com/) ★
+- [Download Festival](https://www.downloadfestival.co.uk)
+- [Eurovision](https://eurovision.com) ★
+- [Festival de Verão Salvador](https://www.instagram.com/festivalverao/)
+- [Free Jazz Festival](https://pt.wikipedia.org/wiki/Free_Jazz_Festival) 🪦
+- [Fuji Rock Festival](https://en.fujirockfestival.com/)
+- [Glastonbury](https://www.glastonburyfestivals.co.uk) ★
+- [Hollywood Rock](https://en.wikipedia.org/wiki/Hollywood_Rock) 🪦
+- [Isle of Wight Festival](https://isleofwightfestival.com/)
+- [Lollapalooza](https://www.lollapalooza.com) ★
+- [Monterey Pop Festival](https://en.wikipedia.org/wiki/Monterey_International_Pop_Festival) 🪦
+- [Montreux Jazz Festival](https://www.montreuxjazzfestival.com)
+- [Primavera Sound](https://www.primaverasound.com/)
+- [Reading e Leeds](https://www.readingfestival.com/)
+- [Rock in Rio](https://rockinrio.com/) ★
+- [Roskilde](https://roskilde-festival.dk/)
+- [Splendour in the Grass](https://www.splendourinthegrass.com/)
+- [Sziget](https://szigetfestival.com/)
+- [Sónar](https://sonar.es/)
+- [The Town](https://thetown.com.br)
+- [Tomorrowland](https://www.tomorrowland.com)
+- [Ultra Music Festival](https://ultramusicfestival.com/)
+- [Wacken Open Air](https://www.wacken.com/)
+- [Woodstock](https://en.wikipedia.org/wiki/Woodstock) 🪦
+
+## Figuras-chave
+
+- [Ahmet Ertegun](https://en.wikipedia.org/wiki/Ahmet_Ertegun) 🪦
+- [André Midani](https://pt.wikipedia.org/wiki/Andr%C3%A9_Midani) 🪦
+- [Berry Gordy](https://en.wikipedia.org/wiki/Berry_Gordy)
+- [Brian Eno](https://en.wikipedia.org/wiki/Brian_Eno)
+- [Chacrinha](https://en.wikipedia.org/wiki/Chacrinha) 🪦
+- [Clive Davis](https://en.wikipedia.org/wiki/Clive_Davis) 🪦
+- [Daniel Ek](https://en.wikipedia.org/wiki/Daniel_Ek) ★
+- [Dave Smith](https://en.wikipedia.org/wiki/Dave_Smith_(engineer)) 🪦
+- [Delia Derbyshire](https://en.wikipedia.org/wiki/Delia_Derbyshire) 🪦
+- [Dr. Dre](https://en.wikipedia.org/wiki/Dr._Dre)
+- [Emile Berliner](https://en.wikipedia.org/wiki/Emile_Berliner) 🪦
+- [George Martin](https://en.wikipedia.org/wiki/George_Martin) ★ 🪦
+- [Ikutaro Kakehashi](https://en.wikipedia.org/wiki/Ikutaro_Kakehashi) 🪦
+- [Jimmy Iovine](https://en.wikipedia.org/wiki/Jimmy_Iovine)
+- [Karlheinz Brandenburg](https://en.wikipedia.org/wiki/Karlheinz_Brandenburg)
+- [Kondzilla](https://en.wikipedia.org/wiki/KondZilla)
+- [Leo Fender](https://en.wikipedia.org/wiki/Leo_Fender) 🪦
+- [Leon Theremin](https://en.wikipedia.org/wiki/Leon_Theremin) 🪦
+- [Les Paul](https://en.wikipedia.org/wiki/Les_Paul) ★ 🪦
+- [Max Martin](https://en.wikipedia.org/wiki/Max_Martin)
+- [Nelson Motta](https://en.wikipedia.org/wiki/Nelson_Motta)
+- [Nile Rodgers](https://en.wikipedia.org/wiki/Nile_Rodgers)
+- [Phil Spector](https://en.wikipedia.org/wiki/Phil_Spector) 🪦
+- [Pierre Schaeffer](https://en.wikipedia.org/wiki/Pierre_Schaeffer) 🪦
+- [Quincy Jones](https://en.wikipedia.org/wiki/Quincy_Jones) ★ 🪦
+- [Rick Rubin](https://en.wikipedia.org/wiki/Rick_Rubin)
+- [Robert Moog](https://en.wikipedia.org/wiki/Robert_Moog) ★ 🪦
+- [Sam Phillips](https://en.wikipedia.org/wiki/Sam_Phillips_(record_producer)) 🪦
+- [Shawn Fanning](https://en.wikipedia.org/wiki/Shawn_Fanning)
+- [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) 🪦
+- [Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison) ★ 🪦
+- [Wendy Carlos](https://en.wikipedia.org/wiki/Wendy_Carlos)
+
+## Formatos de áudio
+
+- [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding) ★
+- [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format)
+- [ALAC](https://en.wikipedia.org/wiki/Apple_Lossless_Audio_Codec)
+- [Dolby Atmos](https://www.dolby.com/technologies/dolby-atmos/)
+- [DSD](https://en.wikipedia.org/wiki/Direct_Stream_Digital)
+- [FLAC](https://en.wikipedia.org/wiki/FLAC) ★
+- [M4A](https://en.wikipedia.org/wiki/MP4_file_format)
+- [MIDI (.mid)](https://en.wikipedia.org/wiki/MIDI#Standard_MIDI_files)
+- [MOD (tracker)](https://en.wikipedia.org/wiki/MOD_(file_format))
+- [MP3](https://en.wikipedia.org/wiki/MP3) ★
+- [MQA](https://en.wikipedia.org/wiki/Master_Quality_Authenticated) 🪦
+- [Ogg Vorbis](https://en.wikipedia.org/wiki/Vorbis)
+- [Opus](https://en.wikipedia.org/wiki/Opus_(audio_format))
+- [RealAudio](https://en.wikipedia.org/wiki/RealAudio) 🪦
+- [WAV](https://en.wikipedia.org/wiki/WAV) ★
+- [WMA](https://en.wikipedia.org/wiki/Windows_Media_Audio)
+- [Áudio espacial](https://en.wikipedia.org/wiki/3D_audio_effect)
+
+## Gravadoras
+
+- [4AD](https://www.4ad.com/)
+- [Atlantic Records](https://www.atlanticrecords.com)
+- [Big Machine Records](https://www.bigmachinelabelgroup.com/)
+- [Biscoito Fino](https://www.biscoitofino.com.br/)
+- [Blue Note Records](https://www.bluenote.com/)
+- [Capitol Records](https://www.capitolrecords.com/)
+- [Chess Records](https://en.wikipedia.org/wiki/Chess_Records) 🪦
+- [Columbia Records](https://www.columbiarecords.com)
+- [Creation Records](https://en.wikipedia.org/wiki/Creation_Records) 🪦
+- [Deckdisc](https://www.deckdisc.com.br/)
+- [Def Jam Recordings](https://www.defjam.com/)
+- [Deutsche Grammophon](https://www.deutschegrammophon.com/en/)
+- [Domino Recording Company](https://www.dominomusic.com)
+- [Elektra Records](https://www.elektra.com)
+- [EMI](https://en.wikipedia.org/wiki/EMI) 🪦
+- [Epic Records](https://www.epicrecords.com)
+- [Factory Records](https://en.wikipedia.org/wiki/Factory_Records) 🪦
+- [Hybe](https://hybecorp.com/eng/main/)
+- [Interscope Records](https://interscope.com)
+- [Island Records](https://www.islandrecords.com/)
+- [Matador Records](https://www.matadorrecords.com/)
+- [Motown](https://www.motownrecords.com) ★
+- [Parlophone](https://www.parlophonerecords.com/)
+- [RCA Records](https://www.rcarecords.com)
+- [Republic Records](https://www.republicrecords.com/)
+- [Roc Nation](https://www.rocnation.com/)
+- [Rough Trade Records](https://www.roughtraderecords.com)
+- [SM Entertainment](https://www.smentertainment.com/)
+- [Som Livre](https://www.somlivre.com)
+- [Sony Music](https://www.sonymusic.com/) ★
+- [Stax Records](https://www.staxrecords.com/)
+- [Sub Pop](https://www.subpop.com/)
+- [Sun Records](https://www.sunrecords.com)
+- [Trama](https://pt.wikipedia.org/wiki/Trama_(gravadora)) 🪦
+- [Universal Music Group](https://www.universalmusic.com/) ★
+- [Virgin Records](https://www.virginmusic.com)
+- [Warner Music Group](https://www.wmg.com/) ★
+- [Warp Records](https://warp.net/)
+- [XL Recordings](https://www.xlrecordings.com/)
+
+## Gêneros brasileiros
+
+- [Arrocha](https://en.wikipedia.org/wiki/Arrocha)
+- [Axé](https://en.wikipedia.org/wiki/Ax%C3%A9_music)
+- [Baião](https://en.wikipedia.org/wiki/Bai%C3%A3o_(music))
+- [Bossa nova](https://en.wikipedia.org/wiki/Bossa_nova) ★
+- [Brega](https://en.wikipedia.org/wiki/Brega_(music))
+- [Carimbó](https://en.wikipedia.org/wiki/Carimb%C3%B3)
+- [Choro](https://en.wikipedia.org/wiki/Choro)
+- [Clube da Esquina](https://en.wikipedia.org/wiki/Clube_da_Esquina)
+- [Forró](https://en.wikipedia.org/wiki/Forr%C3%B3)
+- [Frevo](https://en.wikipedia.org/wiki/Frevo)
+- [Funk carioca](https://en.wikipedia.org/wiki/Funk_carioca) ★
+- [Jovem Guarda](https://en.wikipedia.org/wiki/Jovem_Guarda)
+- [Lambada](https://en.wikipedia.org/wiki/Lambada_(dance))
+- [Manguebeat](https://en.wikipedia.org/wiki/Mangue_bit)
+- [Maracatu](https://en.wikipedia.org/wiki/Maracatu)
+- [MPB](https://en.wikipedia.org/wiki/M%C3%BAsica_popular_brasileira) ★
+- [Música caipira](https://en.wikipedia.org/wiki/M%C3%BAsica_caipira)
+- [Música gaúcha](https://pt.wikipedia.org/wiki/M%C3%BAsica_nativista)
+- [Pagode](https://en.wikipedia.org/wiki/Pagode)
+- [Piseiro](https://en.wikipedia.org/wiki/Piseiro)
+- [Rap nacional](https://en.wikipedia.org/wiki/Brazilian_hip-hop)
+- [Rock brasileiro](https://en.wikipedia.org/wiki/Brazilian_rock)
+- [Samba](https://en.wikipedia.org/wiki/Samba) ★
+- [Samba-enredo](https://en.wikipedia.org/wiki/Samba-enredo)
+- [Samba-reggae](https://en.wikipedia.org/wiki/Samba-reggae)
+- [Samba-rock](https://en.wikipedia.org/wiki/Samba_rock)
+- [Sertanejo](https://en.wikipedia.org/wiki/Sertanejo_music)
+- [Tecnobrega](https://en.wikipedia.org/wiki/Tecnobrega)
+- [Tropicália](https://en.wikipedia.org/wiki/Tropic%C3%A1lia) ★
+- [Xote](https://en.wikipedia.org/wiki/Xote)
+
+## Gêneros musicais
+
+- [Afrobeat](https://en.wikipedia.org/wiki/Afrobeat)
+- [Afrobeats](https://en.wikipedia.org/wiki/Afrobeats)
+- [Ambient](https://en.wikipedia.org/wiki/Ambient_music)
+- [Bebop](https://en.wikipedia.org/wiki/Bebop)
+- [Blues](https://en.wikipedia.org/wiki/Blues) ★
+- [Country](https://en.wikipedia.org/wiki/Country_music)
+- [Cumbia](https://en.wikipedia.org/wiki/Cumbia)
+- [Disco](https://en.wikipedia.org/wiki/Disco)
+- [Drum and bass](https://en.wikipedia.org/wiki/Drum_and_bass)
+- [Dub](https://en.wikipedia.org/wiki/Dub_music)
+- [Dubstep](https://en.wikipedia.org/wiki/Dubstep)
+- [Emo](https://en.wikipedia.org/wiki/Emo)
+- [Flamenco](https://en.wikipedia.org/wiki/Flamenco)
+- [Folk](https://en.wikipedia.org/wiki/Folk_music)
+- [Funk](https://en.wikipedia.org/wiki/Funk)
+- [Gospel](https://en.wikipedia.org/wiki/Gospel_music)
+- [Grunge](https://en.wikipedia.org/wiki/Grunge)
+- [Hard rock](https://en.wikipedia.org/wiki/Hard_rock)
+- [Heavy metal](https://en.wikipedia.org/wiki/Heavy_metal_music)
+- [Hip-hop](https://en.wikipedia.org/wiki/Hip-hop) ★
+- [House](https://en.wikipedia.org/wiki/House_music)
+- [Hyperpop](https://en.wikipedia.org/wiki/Hyperpop)
+- [Indie rock](https://en.wikipedia.org/wiki/Indie_rock)
+- [J-pop](https://en.wikipedia.org/wiki/J-pop)
+- [Jazz](https://en.wikipedia.org/wiki/Jazz) ★
+- [K-pop](https://en.wikipedia.org/wiki/K-pop)
+- [Lo-fi](https://en.wikipedia.org/wiki/Lo-fi_music)
+- [Música clássica](https://en.wikipedia.org/wiki/Classical_music) ★
+- [Música eletrônica](https://en.wikipedia.org/wiki/Electronic_music) ★
+- [Música experimental](https://en.wikipedia.org/wiki/Experimental_music)
+- [New wave](https://en.wikipedia.org/wiki/New_wave_music)
+- [Pop](https://en.wikipedia.org/wiki/Pop_music) ★
+- [Punk rock](https://en.wikipedia.org/wiki/Punk_rock)
+- [Reggae](https://en.wikipedia.org/wiki/Reggae)
+- [Reggaeton](https://en.wikipedia.org/wiki/Reggaeton)
+- [Rhythm and blues (R&B)](https://en.wikipedia.org/wiki/Rhythm_and_blues)
+- [Rock](https://en.wikipedia.org/wiki/Rock_music) ★
+- [Rock alternativo](https://en.wikipedia.org/wiki/Alternative_rock)
+- [Rock progressivo](https://en.wikipedia.org/wiki/Progressive_rock)
+- [Rock psicodélico](https://en.wikipedia.org/wiki/Psychedelic_rock)
+- [Salsa](https://en.wikipedia.org/wiki/Salsa_music)
+- [Shoegaze](https://en.wikipedia.org/wiki/Shoegaze)
+- [Ska](https://en.wikipedia.org/wiki/Ska)
+- [Soul](https://en.wikipedia.org/wiki/Soul_music)
+- [Swing](https://en.wikipedia.org/wiki/Swing_music)
+- [Synth-pop](https://en.wikipedia.org/wiki/Synth-pop)
+- [Tango](https://en.wikipedia.org/wiki/Tango_music)
+- [Techno](https://en.wikipedia.org/wiki/Techno)
+- [Trance](https://en.wikipedia.org/wiki/Trance_music)
+- [Trap](https://en.wikipedia.org/wiki/Trap_music)
+- [Trilha sonora](https://en.wikipedia.org/wiki/Soundtrack)
+- [Ópera](https://en.wikipedia.org/wiki/Opera)
+
+## Influenciadores da música
+
+- [Adam Neely](https://en.wikipedia.org/wiki/Adam_Neely) ★
+- [Andrew Huang](https://en.wikipedia.org/wiki/Andrew_Huang_(musician))
+- [André Garcia](https://www.instagram.com/ocamaradagarcia/)
+- [Anthony Fantano](https://en.wikipedia.org/wiki/Anthony_Fantano) ★
+- [Anthony Vincent](https://en.wikipedia.org/wiki/Anthony_Vincent_(musician))
+- [Blustre](https://www.instagram.com/blustreblustre/)
+- [Bruna Parrado](https://www.instagram.com/brunaparrado/)
+- [Daiany Dezembro](https://www.instagram.com/possotocar_dd/)
+- [Daniel Bertamini](https://www.instagram.com/danielbertamini/)
+- [Davie504](https://en.wikipedia.org/wiki/Davie504)
+- [Eduardo Ascenço](https://www.instagram.com/thatsperalta/)
+- [Elize Fleury](https://www.instagram.com/elizefleury/)
+- [Eric Assarsson](https://www.instagram.com/eric_assarsson/)
+- [Flows React](https://www.instagram.com/flowsreact/)
+- [Gabrielle Neves](https://www.instagram.com/gabrielle.jpgg/)
+- [Gabrilhoes](https://www.instagram.com/gabrilhoes/)
+- [Giulianna Iannaco](https://www.instagram.com/pokegiu/)
+- [Gustavo Vaz](https://www.instagram.com/eugustavovaz/)
+- [Henrique Guedes](https://www.instagram.com/omagodamusica/)
+- [Ingrid Natalie Leão](https://www.instagram.com/femalerocksquad/)
+- [Isabela Barros](https://www.instagram.com/bellsbarros/)
+- [Isis Correa](https://www.instagram.com/isiscorreia/)
+- [İlkay Alpgiray](https://www.instagram.com/ilkayalpgiray/)
+- [Jacob Collier](https://en.wikipedia.org/wiki/Jacob_Collier) ★
+- [Jessica Valentim](https://www.instagram.com/jessvlntm/)
+- [Jessica Waltrick](https://www.instagram.com/jessvocalcoach/)
+- [Joel Valentin](https://www.instagram.com/valentinbeatz/)
+- [José Norberto Flesch](https://www.instagram.com/jnflesch/)
+- [Julie Wein](https://www.instagram.com/juliewein/)
+- [Júlia Rezende](https://www.instagram.com/julia.rznd/)
+- [Leo David](https://www.instagram.com/euleodavid/)
+- [Leo Ronki](https://www.instagram.com/leoronki/)
+- [Mac Glocky](https://www.instagram.com/macglocky/)
+- [Marcella Lasneaux](https://www.instagram.com/amagricella/)
+- [Marcio Guerra](https://www.instagram.com/marcioguerracan/)
+- [Mari Stefani](https://www.instagram.com/maristefani/)
+- [Mary Spender](https://en.wikipedia.org/wiki/Mary_Spender)
+- [Matheus Emekatê](https://www.instagram.com/matheus.emekate/)
+- [Merrily James](https://www.instagram.com/merrilyjames/)
+- [Miles Bonham](https://www.instagram.com/milesmusickid)
+- [Milo Andreo](https://www.instagram.com/miloandreo/)
+- [Nardwuar](https://en.wikipedia.org/wiki/Nardwuar) ★
+- [Paolla Raven](https://www.instagram.com/paollaraven/)
+- [Patricia Palumbo](https://www.instagram.com/patriciapalumbo/)
+- [Rafael Bittencourt](https://www.instagram.com/rbittencourton/)
+- [Raphaella Santucci](https://www.instagram.com/raphaellasantucci/)
+- [Rick Beato](https://en.wikipedia.org/wiki/Rick_Beato) ★
+- [Rick Bonadio](https://en.wikipedia.org/wiki/Rick_Bonadio)
+- [Silvia Tancredi](https://www.instagram.com/silviavtancredi/)
+- [So Wylie](https://www.instagram.com/so.wylie/)
+- [Sylvia Süssekind](https://www.instagram.com/sussekind/)
+- [Tarso Oliveira](https://www.instagram.com/tarsooliveira/)
+- [Thiago de Souza](https://www.instagram.com/canaldothiagson/)
+- [Thiago Vitório](https://www.instagram.com/thivitorio/)
+- [Tico Fahur](https://www.instagram.com/ticofahur/)
+- [Zane Lowe](https://en.wikipedia.org/wiki/Zane_Lowe) ★
+
+## Instrumentos musicais
+
+- [Acordeão (sanfona)](https://en.wikipedia.org/wiki/Accordion)
+- [Agogô](https://en.wikipedia.org/wiki/Agog%C3%B4)
+- [Alaúde](https://en.wikipedia.org/wiki/Lute)
+- [Atabaque](https://en.wikipedia.org/wiki/Atabaque)
+- [Balalaica](https://en.wikipedia.org/wiki/Balalaika)
+- [Bandolim](https://en.wikipedia.org/wiki/Mandolin)
+- [Bandoneón](https://en.wikipedia.org/wiki/Bandoneon)
+- [Banjo](https://en.wikipedia.org/wiki/Banjo)
+- [Bateria](https://en.wikipedia.org/wiki/Drum_kit) ★
+- [Berimbau](https://en.wikipedia.org/wiki/Berimbau)
+- [Bongô](https://en.wikipedia.org/wiki/Bongo_drum)
+- [Bouzouki](https://en.wikipedia.org/wiki/Bouzouki)
+- [Bumbo](https://en.wikipedia.org/wiki/Bass_drum)
+- [Caixa clara](https://en.wikipedia.org/wiki/Snare_drum)
+- [Cajón](https://en.wikipedia.org/wiki/Caj%C3%B3n)
+- [Castanholas](https://en.wikipedia.org/wiki/Castanets)
+- [Cavaquinho](https://en.wikipedia.org/wiki/Cavaquinho)
+- [Caxixi](https://en.wikipedia.org/wiki/Caxixi)
+- [Celesta](https://en.wikipedia.org/wiki/Celesta)
+- [Charango](https://en.wikipedia.org/wiki/Charango)
+- [Clarinete](https://en.wikipedia.org/wiki/Clarinet)
+- [Concertina](https://en.wikipedia.org/wiki/Concertina)
+- [Conga](https://en.wikipedia.org/wiki/Conga)
+- [Contrabaixo acústico](https://en.wikipedia.org/wiki/Double_bass)
+- [Contrabaixo elétrico](https://en.wikipedia.org/wiki/Bass_guitar)
+- [Corneta](https://en.wikipedia.org/wiki/Cornet)
+- [Cravo](https://en.wikipedia.org/wiki/Harpsichord)
+- [Cuíca](https://en.wikipedia.org/wiki/Cu%C3%ADca)
+- [Cítara](https://en.wikipedia.org/wiki/Zither)
+- [Didgeridoo](https://en.wikipedia.org/wiki/Didgeridoo)
+- [Djembê](https://en.wikipedia.org/wiki/Djembe)
+- [Erhu](https://en.wikipedia.org/wiki/Erhu)
+- [Eufônio](https://en.wikipedia.org/wiki/Euphonium)
+- [Fagote](https://en.wikipedia.org/wiki/Bassoon)
+- [Flauta de pã](https://en.wikipedia.org/wiki/Pan_flute)
+- [Flauta doce](https://en.wikipedia.org/wiki/Recorder_(musical_instrument))
+- [Flauta transversal](https://en.wikipedia.org/wiki/Western_concert_flute)
+- [Flautim](https://en.wikipedia.org/wiki/Piccolo)
+- [Gaita](https://en.wikipedia.org/wiki/Harmonica)
+- [Gaita de foles](https://en.wikipedia.org/wiki/Bagpipes)
+- [Ganzá](https://en.wikipedia.org/wiki/Ganz%C3%A1)
+- [Glockenspiel](https://en.wikipedia.org/wiki/Glockenspiel)
+- [Gongo](https://en.wikipedia.org/wiki/Gong)
+- [Guitarra elétrica](https://en.wikipedia.org/wiki/Electric_guitar) ★
+- [Guitarra havaiana (lap steel)](https://en.wikipedia.org/wiki/Lap_steel_guitar)
+- [Guitarra ressonadora](https://en.wikipedia.org/wiki/Resonator_guitar)
+- [Guzheng](https://en.wikipedia.org/wiki/Guzheng)
+- [Handpan](https://en.wikipedia.org/wiki/Handpan)
+- [Harpa](https://en.wikipedia.org/wiki/Harp)
+- [Kalimba (mbira)](https://en.wikipedia.org/wiki/Mbira)
+- [Kazoo](https://en.wikipedia.org/wiki/Kazoo)
+- [Keytar](https://en.wikipedia.org/wiki/Keytar)
+- [Koto](https://en.wikipedia.org/wiki/Koto_(instrument))
+- [Maracas](https://en.wikipedia.org/wiki/Maracas)
+- [Marimba](https://en.wikipedia.org/wiki/Marimba)
+- [Mellotron](https://en.wikipedia.org/wiki/Mellotron)
+- [Melódica](https://en.wikipedia.org/wiki/Melodica)
+- [Oboé](https://en.wikipedia.org/wiki/Oboe)
+- [Ocarina](https://en.wikipedia.org/wiki/Ocarina)
+- [Ondas Martenot](https://en.wikipedia.org/wiki/Ondes_Martenot)
+- [Oud](https://en.wikipedia.org/wiki/Oud)
+- [Pandeireta](https://en.wikipedia.org/wiki/Tambourine)
+- [Pandeiro](https://en.wikipedia.org/wiki/Pandeiro)
+- [Piano](https://en.wikipedia.org/wiki/Piano) ★
+- [Piano elétrico (Rhodes)](https://en.wikipedia.org/wiki/Rhodes_piano)
+- [Pratos](https://en.wikipedia.org/wiki/Cymbal)
+- [Rabeca](https://en.wikipedia.org/wiki/Rabeca)
+- [Reco-reco](https://en.wikipedia.org/wiki/Reco-reco)
+- [Repique](https://en.wikipedia.org/wiki/Repinique)
+- [Saltério](https://en.wikipedia.org/wiki/Hammered_dulcimer)
+- [Sanfona de roda](https://en.wikipedia.org/wiki/Hurdy-gurdy)
+- [Saxofone](https://en.wikipedia.org/wiki/Saxophone)
+- [Shamisen](https://en.wikipedia.org/wiki/Shamisen)
+- [Sintetizador](https://en.wikipedia.org/wiki/Synthesizer) ★
+- [Sitar](https://en.wikipedia.org/wiki/Sitar)
+- [Steelpan](https://en.wikipedia.org/wiki/Steelpan)
+- [Surdo](https://en.wikipedia.org/wiki/Surdo)
+- [Tabla](https://en.wikipedia.org/wiki/Tabla)
+- [Talking drum](https://en.wikipedia.org/wiki/Talking_drum)
+- [Tamborim](https://en.wikipedia.org/wiki/Tamborim)
+- [Teclado](https://en.wikipedia.org/wiki/Electronic_keyboard)
+- [Theremin](https://en.wikipedia.org/wiki/Theremin)
+- [Timbau](https://en.wikipedia.org/wiki/Timbau)
+- [Toca-discos](https://en.wikipedia.org/wiki/Phonograph)
+- [Triângulo](https://en.wikipedia.org/wiki/Triangle_(musical_instrument))
+- [Trombone](https://en.wikipedia.org/wiki/Trombone)
+- [Trompa](https://en.wikipedia.org/wiki/French_horn)
+- [Trompete](https://en.wikipedia.org/wiki/Trumpet)
+- [Tuba](https://en.wikipedia.org/wiki/Tuba)
+- [Tímpano](https://en.wikipedia.org/wiki/Timpani)
+- [Ukulele](https://en.wikipedia.org/wiki/Ukulele)
+- [Vibrafone](https://en.wikipedia.org/wiki/Vibraphone)
+- [Viola](https://en.wikipedia.org/wiki/Viola)
+- [Viola caipira](https://en.wikipedia.org/wiki/Viola_caipira)
+- [Viola de cocho](https://en.wikipedia.org/wiki/Viola_de_cocho)
+- [Violino](https://en.wikipedia.org/wiki/Violin) ★
+- [Violoncelo](https://en.wikipedia.org/wiki/Cello)
+- [Violão](https://en.wikipedia.org/wiki/Acoustic_guitar) ★
+- [Violão de 12 cordas](https://en.wikipedia.org/wiki/Twelve-string_guitar)
+- [Voz](https://en.wikipedia.org/wiki/Human_voice)
+- [Xilofone](https://en.wikipedia.org/wiki/Xylophone)
+- [Zabumba](https://en.wikipedia.org/wiki/Zabumba)
+- [Órgão](https://en.wikipedia.org/wiki/Organ_(music))
+- [Órgão Hammond](https://en.wikipedia.org/wiki/Hammond_organ)
+
+## Mídias físicas
+
+- [Blu-ray Audio](https://en.wikipedia.org/wiki/Blu-ray#Audio)
+- [CD](https://en.wikipedia.org/wiki/Compact_disc) ★
+- [Cilindro fonográfico](https://en.wikipedia.org/wiki/Phonograph_cylinder) 🪦
+- [DAT](https://en.wikipedia.org/wiki/Digital_Audio_Tape) 🪦
+- [DCC](https://en.wikipedia.org/wiki/Digital_Compact_Cassette) 🪦
+- [Disco de 78 rotações](https://en.wikipedia.org/wiki/Phonograph_record#78_rpm_disc_developments)
+- [Disco de vinil](https://en.wikipedia.org/wiki/Phonograph_record) ★
+- [DVD-Audio](https://en.wikipedia.org/wiki/DVD-Audio) 🪦
+- [Fita 8-track](https://en.wikipedia.org/wiki/8-track_cartridge) 🪦
+- [Fita cassete](https://en.wikipedia.org/wiki/Cassette_tape) ★
+- [Fita de rolo](https://en.wikipedia.org/wiki/Reel-to-reel_audio_tape_recording)
+- [MiniDisc](https://en.wikipedia.org/wiki/MiniDisc) 🪦
+- [Pendrive (MP3)](https://en.wikipedia.org/wiki/USB_flash_drive)
+- [SACD](https://en.wikipedia.org/wiki/Super_Audio_CD)
+
+## Música e IA
+
+- [AIVA](https://www.aiva.ai/)
+- [Boomy](https://boomy.com/)
+- [ElevenLabs Music](https://elevenlabs.io/)
+- [Google Magenta](https://magenta.tensorflow.org/)
+- [Jukebox (OpenAI)](https://openai.com/index/jukebox/) 🪦
+- [LALAL.AI](https://www.lalal.ai/)
+- [Lyria](https://deepmind.google/models/lyria/)
+- [Moises](https://moises.ai/)
+- [Mubert](https://mubert.com/)
+- [MusicLM](https://en.wikipedia.org/wiki/MusicLM)
+- [Soundraw](https://soundraw.io/)
+- [Stable Audio](https://stableaudio.com/)
+- [Suno](https://suno.com) ★
+- [Udio](https://www.udio.com) ★
+
+## Notação musical
+
+- [Dorico](https://www.steinberg.net/dorico/)
+- [Encore](https://en.wikipedia.org/wiki/Encore_(software)) 🪦
+- [Finale](https://en.wikipedia.org/wiki/Finale_(scorewriter)) 🪦
+- [Flat.io](https://flat.io/)
+- [Guitar Pro](https://www.guitar-pro.com/)
+- [LilyPond](https://lilypond.org)
+- [MuseScore](https://musescore.org) ★
+- [Noteflight](https://www.noteflight.com/)
+- [Sibelius](https://www.avid.com/sibelius) ★
+- [TuxGuitar](https://www.tuxguitar.app/)
+
+## Paradas e rankings
+
+- [1001 Albums You Must Hear Before You Die](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
+- [ARIA Charts](https://www.aria.com.au/charts)
+- [Billboard 200](https://www.billboard.com/charts/billboard-200) ★
+- [Billboard Global 200](https://www.billboard.com/charts/billboard-global-200)
+- [Billboard Hot 100](https://www.billboard.com/charts/hot-100) ★
+- [Certificação RIAA](https://www.riaa.com/gold-platinum/)
+- [Circle Chart](https://circlechart.kr/)
+- [IFPI](https://www.ifpi.org)
+- [Kworb](https://kworb.net/)
+- [Music Metrics Vault](https://www.musicmetricsvault.com/)
+- [Oricon](https://www.oricon.co.jp)
+- [Os 500 melhores álbuns (Rolling Stone)](https://en.wikipedia.org/wiki/Rolling_Stone's_500_Greatest_Albums_of_All_Time)
+- [Pro-Música Brasil](https://pro-musicabr.org.br/)
+- [Spotify Charts](https://charts.spotify.com/) ★
+- [UK Albums Chart](https://www.officialcharts.com/charts/albums-chart/)
+- [UK Singles Chart](https://www.officialcharts.com/charts/singles-chart/)
+
+## Períodos da música clássica
+
+- [Impressionismo](https://en.wikipedia.org/wiki/Impressionism_in_music)
+- [Minimalismo](https://en.wikipedia.org/wiki/Minimal_music)
+- [Música barroca](https://en.wikipedia.org/wiki/Baroque_music) ★
+- [Música contemporânea](https://en.wikipedia.org/wiki/Contemporary_classical_music)
+- [Música do século XX](https://en.wikipedia.org/wiki/20th-century_classical_music)
+- [Música medieval](https://en.wikipedia.org/wiki/Medieval_music)
+- [Música renascentista](https://en.wikipedia.org/wiki/Renaissance_music)
+- [Nacionalismo musical](https://en.wikipedia.org/wiki/Musical_nationalism)
+- [Período clássico](https://en.wikipedia.org/wiki/Classical_period_(music)) ★
+- [Romantismo](https://en.wikipedia.org/wiki/Romantic_music) ★
+
+## Plugins e instrumentos virtuais
+
+- [AAX](https://en.wikipedia.org/wiki/Avid_Audio_eXtension)
+- [Arturia V Collection](https://www.arturia.com)
+- [Audio Units](https://en.wikipedia.org/wiki/Audio_Units)
+- [Auto-Tune](https://www.antarestech.com/) ★
+- [FabFilter](https://www.fabfilter.com/)
+- [iZotope Ozone](https://izotope.com)
+- [Kontakt](https://www.native-instruments.com/products/kontakt)
+- [Melodyne](https://www.celemony.com/)
+- [Native Instruments](https://www.native-instruments.com)
+- [Omnisphere](https://www.spectrasonics.net/products/omnisphere/)
+- [Roland Cloud](https://www.roland.com/cloud/)
+- [Serum](https://xferrecords.com/products/serum-2)
+- [Spitfire LABS](https://splice.com/instrument/labs-instrument)
+- [Vital](https://vital.audio/)
+- [VST](https://en.wikipedia.org/wiki/Virtual_Studio_Technology) ★
+- [Waves](https://www.waves.com/)
+
+## Premiações
+
+- [American Music Awards](https://www.theamas.com)
+- [ARIA Music Awards](https://www.aria.com.au/awards/)
+- [Billboard Music Awards](https://www.billboardmusicawards.com/)
+- [Brit Awards](https://www.brits.co.uk/)
+- [Grammy](https://www.grammy.com) ★
+- [Juno Awards](https://www.junoawards.ca/)
+- [Latin Grammy](https://www.latingrammy.com/) ★
+- [Mercury Prize](https://www.mercuryprize.com)
+- [MTV Video Music Awards](https://www.mtv.com/vma)
+- [MTV Video Music Brasil](https://en.wikipedia.org/wiki/MTV_Video_Music_Brazil) 🪦
+- [Oscar de Melhor Canção Original](https://www.oscars.org/)
+- [Polar Music Prize](https://www.polarmusicprize.org/) ★
+- [Prêmio da Música Brasileira](https://www.premiodamusica.com.br/)
+- [Prêmio Multishow](https://gshow.globo.com/multishow/premio-multishow/)
+- [Pulitzer de Música](https://www.pulitzer.org/)
+- [Rock and Roll Hall of Fame](https://rockhall.com) ★
+
+## Produção e áudio
+
+- [Beat](https://en.wikipedia.org/wiki/Beat_(music))
+- [Compressão](https://en.wikipedia.org/wiki/Dynamic_range_compression)
+- [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation)
+- [Delay](https://en.wikipedia.org/wiki/Delay_(audio_effect))
+- [Discotecagem (DJing)](https://en.wikipedia.org/wiki/Disc_jockey)
+- [Distorção](https://en.wikipedia.org/wiki/Distortion_(music))
+- [Engenheiro de áudio](https://en.wikipedia.org/wiki/Audio_engineer)
+- [Equalização (EQ)](https://en.wikipedia.org/wiki/Equalization_(audio))
+- [Estúdio de gravação](https://en.wikipedia.org/wiki/Recording_studio)
+- [Gravação multipista](https://en.wikipedia.org/wiki/Multitrack_recording) ★
+- [Loop](https://en.wikipedia.org/wiki/Loop_(music))
+- [Loudness war](https://en.wikipedia.org/wiki/Loudness_war)
+- [Mashup](https://en.wikipedia.org/wiki/Mashup_(music))
+- [Masterização](https://en.wikipedia.org/wiki/Mastering_(audio)) ★
+- [Metrônomo](https://en.wikipedia.org/wiki/Metronome)
+- [MIDI](https://en.wikipedia.org/wiki/MIDI) ★
+- [Mixagem](https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music)) ★
+- [Produtor musical](https://en.wikipedia.org/wiki/Record_producer)
+- [Profundidade de bits](https://en.wikipedia.org/wiki/Audio_bit_depth)
+- [Quantização](https://en.wikipedia.org/wiki/Quantization_(music))
+- [Remix](https://en.wikipedia.org/wiki/Remix)
+- [Reverb](https://en.wikipedia.org/wiki/Reverberation)
+- [Sampling](https://en.wikipedia.org/wiki/Sampling_(music)) ★
+- [Scratch](https://en.wikipedia.org/wiki/Scratching)
+- [Sidechain](https://en.wikipedia.org/wiki/Dynamic_range_compression#Side-chaining)
+- [Stems](https://en.wikipedia.org/wiki/Stem_(audio))
+- [Síntese sonora](https://en.wikipedia.org/wiki/Synthesizer#Sound_synthesis)
+- [Taxa de amostragem](https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Audio_sampling)
+- [Turntablism](https://en.wikipedia.org/wiki/Turntablism)
+- [Wall of Sound](https://en.wikipedia.org/wiki/Wall_of_Sound)
+
+## Produção musical (DAWs)
+
+- [Ableton Live](https://www.ableton.com/live) ★
+- [Acid Pro](https://www.vegascreativesoftware.com/acid-pro/)
+- [Adobe Audition](https://www.adobe.com/products/audition.html)
+- [Ardour](https://ardour.org/)
+- [Audacity](https://www.audacityteam.org/) ★
+- [BandLab](https://www.bandlab.com/)
+- [Bitwig Studio](https://www.bitwig.com)
+- [Cakewalk](https://cakewalk.com/)
+- [Cubase](https://www.steinberg.net/cubase/)
+- [FL Studio](https://www.image-line.com/flstudio) ★
+- [GarageBand](https://www.apple.com/mac/garageband/)
+- [LMMS](https://lmms.io/)
+- [Logic Pro](https://www.apple.com/logic-pro/) ★
+- [Pro Tools](https://www.avid.com/pro-tools) ★
+- [Reaper](https://www.reaper.fm/)
+- [Reason](https://www.reasonstudios.com/en/reason)
+- [Renoise](https://www.renoise.com/)
+- [Soundtrap](https://www.soundtrap.com/)
+- [Studio One (Fender Studio Pro)](https://www.fender.com/pages/fender-studio-pro)
+
+## Revistas e crítica
+
+- [Bandcamp Daily](https://daily.bandcamp.com/)
+- [BBC Music](https://www.bbc.co.uk/music)
+- [Billboard](https://billboard.com) ★
+- [Bizz](https://pt.wikipedia.org/wiki/Bizz) 🪦
+- [BrooklynVegan](https://brooklynvegan.com)
+- [Clash](https://clashmusic.com)
+- [Complex](https://www.complex.com/)
+- [Consequence](https://www.consequence.net)
+- [Kerrang!](https://www.kerrang.com)
+- [Melody Maker](https://en.wikipedia.org/wiki/Melody_Maker) 🪦
+- [Metal Injection](https://www.metalinjection.net/)
+- [Mojo](https://www.mojo4music.com/)
+- [NME](https://www.nme.com)
+- [Noisey (VICE)](https://www.vice.com/en/section/music/)
+- [Pitchfork](https://pitchfork.com) ★
+- [PopMatters](https://www.popmatters.com/)
+- [Q](https://en.wikipedia.org/wiki/Q_(magazine)) 🪦
+- [Rolling Stone](https://www.rollingstone.com/) ★
+- [Rolling Stone Brasil](https://rollingstone.com.br/)
+- [Spin](https://www.spin.com/)
+- [Stereogum](https://www.stereogum.com/)
+- [The Fader](https://www.thefader.com/)
+- [The Quietus](https://thequietus.com/)
+- [The Wire](https://www.thewire.co.uk/)
+- [XXL](https://xxlmag.com)
+
+## Rádios
+
+- [89 FM A Rádio Rock](https://www.radiorock.com.br/)
+- [BBC Radio 1](https://www.bbc.co.uk/radio1)
+- [dublab](https://www.dublab.com/)
+- [FIP](https://www.radiofrance.fr/fip)
+- [iHeartRadio](https://www.iheart.com/)
+- [KEXP](https://www.kexp.org/)
+- [NTS Radio](https://www.nts.live)
+- [Radio Caroline](https://www.radiocaroline.co.uk/)
+- [Radio Paradise](https://www.radioparadise.com/)
+- [Rádio Cultura FM](https://cultura.uol.com.br/radio/)
+- [Rádio Nacional](https://radios.ebc.com.br/)
+- [SiriusXM](https://www.siriusxm.com/)
+- [SomaFM](https://somafm.com/)
+- [Triple J](https://www.abc.net.au/triplej/) ★
+- [TuneIn](https://tunein.com) ★
+
+## Sessions e música ao vivo
+
+- [Acústico MTV](https://pt.wikipedia.org/wiki/Ac%C3%BAstico_MTV)
+- [Audiotree Live](https://audiotree.tv/)
+- [Austin City Limits](https://acltv.com/) ★
+- [Boiler Room](https://boilerroom.tv)
+- [Brasil Grime Show](https://www.youtube.com/@BrasilGrimeShow)
+- [Cassino do Chacrinha](https://pt.wikipedia.org/wiki/Cassino_do_Chacrinha) 🪦
+- [Cercle](https://www.cercle.io/) ★
+- [Coke Studio Pakistan](https://www.youtube.com/@cokestudio)
+- [COLORS](https://colorsxstudios.com/)
+- [Cultura Livre](https://www.youtube.com/@culturalivre)
+- [Ensaio (TV Cultura)](https://cultura.uol.com.br/programas/ensaio/)
+- [Estúdio Showlivre](https://www.youtube.com/@showlivre) ★
+- [Fazendinha Sessions](https://www.youtube.com/@fazendinhasessions)
+- [Filtr Brasil](https://www.youtube.com/@FiltrMusicBR)
+- [Fire in the Booth](https://www.youtube.com/channel/UCsYgHu-1sZaUqIAhzWzygLA)
+- [From the Basement](https://en.wikipedia.org/wiki/From_the_Basement) 🪦
+- [Genius Verified](https://www.youtube.com/@genius)
+- [Globo de Ouro](https://pt.wikipedia.org/wiki/Globo_de_Ouro_(programa_de_televis%C3%A3o)) 🪦
+- [HÖR Berlin](https://hoer.live/)
+- [Jam in the Van](https://www.jaminthevan.com/)
+- [KEXP](https://www.kexp.org/)
+- [La Blogothèque](https://blogotheque.net/) ★
+- [Later... with Jools Holland](https://www.bbc.co.uk/programmes/b006ml0l)
+- [Like A Version](https://www.abc.net.au/triplej/programs/like-a-version) ★
+- [Live from Abbey Road](https://en.wikipedia.org/wiki/Live_from_Abbey_Road) 🪦
+- [Live from Daryl's House](https://www.youtube.com/@realdarylhall)
+- [Live Lounge](https://en.wikipedia.org/wiki/Live_Lounge)
+- [Mahogany Sessions](https://www.youtube.com/channel/UCG36u-k09zdIPQh5EEdVgTA)
+- [MTV](https://mtv.com) ★
+- [MTV Brasil](https://en.wikipedia.org/wiki/MTV_Brasil) 🪦
+- [MTV Unplugged](https://en.wikipedia.org/wiki/MTV_Unplugged) ★
+- [Música Boa Ao Vivo](https://pt.wikipedia.org/wiki/M%C3%BAsica_Boa_Ao_Vivo)
+- [Música Multishow](https://www.youtube.com/@MusicaMultishow) ★
+- [Nossa Toca](https://www.youtube.com/@nossatoca) ★
+- [Poesia Acústica](https://www.youtube.com/@PineappleStormTV) ★
+- [Rap Box](https://www.youtube.com/@RapBox) ★
+- [Rockpalast](https://www1.wdr.de/fernsehen/rockpalast/)
+- [Samba na Gamboa](https://tvbrasil.ebc.com.br/sambanagamboa)
+- [Sessions at West 54th](https://en.wikipedia.org/wiki/Sessions_at_West_54th) 🪦
+- [Sofar Sounds](https://www.sofarsounds.com)
+- [Som Brasil](https://pt.wikipedia.org/wiki/Som_Brasil) 🪦
+- [Soundstage](https://en.wikipedia.org/wiki/Soundstage_(TV_series)) 🪦
+- [Sr. Brasil](https://pt.wikipedia.org/wiki/Sr._Brasil) 🪦
+- [The Old Grey Whistle Test](https://en.wikipedia.org/wiki/The_Old_Grey_Whistle_Test) 🪦
+- [Tiny Desk Brasil](https://www.youtube.com/@TinyDeskBrasil) ★
+- [Tiny Desk Concerts](https://www.npr.org/series/tiny-desk-concerts/) ★
+- [Top of the Pops](https://en.wikipedia.org/wiki/Top_of_the_Pops) 🪦
+- [Vevo](https://www.vevo.com/)
+- [Viola, Minha Viola](https://pt.wikipedia.org/wiki/Viola,_Minha_Viola) 🪦
+
+## Shows e ingressos
+
+- [AXS](https://www.axs.com)
+- [DICE](https://dice.fm)
+- [Eventbrite](https://www.eventbrite.com)
+- [Eventim](https://www.eventim.de/)
+- [Ingresso Rápido](https://www.ingressorapido.com.br/)
+- [Live Nation](https://www.livenationentertainment.com/) ★
+- [Resident Advisor](https://ra.co/)
+- [Sofar Sounds](https://www.sofarsounds.com)
+- [Songkick](https://www.songkick.com/)
+- [StubHub](https://www.stubhub.com)
+- [Sympla](https://www.sympla.com.br/)
+- [Ticketmaster](https://www.ticketmaster.com) ★
+
+## Sites e blogs brasileiros
+
+- [A Pista](https://apistajornal.com/)
+- [AltPop](https://altpop.net/)
+- [Artescétera](https://artescetera.com.br/)
+- [Atitude Rock'n'Roll](https://atituderocknroll.com.br/)
+- [Billboard Brasil](https://billboard.com.br/)
+- [Cifra Club News](https://cifraclubnews.com.br/)
+- [Downstage](https://downstage.com.br/)
+- [Female Rock Squad](https://femalerocksquad.com/)
+- [Fita Bruta](https://fitabruta.com.br/)
+- [Gramofone Ativo](https://gramofoneativo.com/)
+- [Guitarload](https://guitarload.com.br/)
+- [Hits Perdidos](https://hitsperdidos.com/)
+- [La Cumbuca](https://lacumbuca.com/)
+- [Monkeybuzz](https://monkeybuzz.com.br/) ★
+- [MTV Brasil (site)](https://mtv.com.br/)
+- [Mundo de Músicas](https://mundodemusicas.com/)
+- [Mundo Metal](https://mundometalbr.com/)
+- [Music Cult](https://musicult.com.br/)
+- [Música Boa](https://blogmusicaboa.com/)
+- [Música Instantânea](https://musicainstantanea.com.br/)
+- [Música Pavê](https://musicapave.com/)
+- [Nação da Música](https://nacaodamusica.com/)
+- [O Subsolo](https://osubsolo.com/)
+- [Pequenos Clássicos Perdidos](https://pequenosclassicosperdidos.com.br/)
+- [POPline](https://portalpopline.com.br/)
+- [Popload](https://popload.com.br/) ★
+- [Rifferama](https://rifferama.com/)
+- [Road To Cydonia](https://roadtocydonia.com.br/)
+- [Roadie Metal](https://roadie-metal.com/)
+- [RockBizz](https://rockbizz.com.br/)
+- [Rolling Stone Brasil (site)](https://rollingstone.com.br/)
+- [Scream & Yell](https://screamyell.com.br/) ★
+- [Tenho Mais Discos Que Amigos!](https://tenhomaisdiscosqueamigos.com/) ★
+- [Tracklist](https://tracklist.com.br/)
+- [Um Outro Lado da Música](https://umoutroladodamusicaa.com/)
+- [Venenos do Rock](https://www.venenosdorock.com.br/)
+- [Whiplash](https://whiplash.net/) ★
+- [Wikimetal](https://wikimetal.com.br/)
+
+## Streaming de música
+
+- [Amazon Music](https://music.amazon.com)
+- [Anghami](https://www.anghami.com/)
+- [Apple Music](https://music.apple.com/) ★
+- [Audiomack](https://audiomack.com)
+- [Audius](https://audius.co/)
+- [Bandcamp](https://bandcamp.com) ★
+- [Boomplay](https://www.boomplay.com/)
+- [Deezer](https://www.deezer.com) ★
+- [Google Play Music](https://en.wikipedia.org/wiki/Google_Play_Music) 🪦
+- [Groove Music](https://en.wikipedia.org/wiki/Groove_Music) 🪦
+- [Grooveshark](https://en.wikipedia.org/wiki/Grooveshark) 🪦
+- [iTunes Ping](https://en.wikipedia.org/wiki/Ping_(social_network)) 🪦
+- [JioSaavn](https://www.jiosaavn.com)
+- [Mixcloud](https://www.mixcloud.com)
+- [Myspace Music](https://myspace.com)
+- [Napster](https://en.wikipedia.org/wiki/Napster) 🪦
+- [NetEase Cloud Music](https://music.163.com)
+- [Palco MP3](https://www.palcomp3.com.br/)
+- [Pandora](https://pandora.com)
+- [Qobuz](https://www.qobuz.com/)
+- [QQ Music](https://y.qq.com/)
+- [Rdio](https://en.wikipedia.org/wiki/Rdio) 🪦
+- [SoundCloud](https://soundcloud.com) ★
+- [Spotify](https://www.spotify.com) ★
+- [Sua Música](https://www.suamusica.com.br/)
+- [Tidal](https://www.tidal.com)
+- [YouTube Music](https://music.youtube.com) ★

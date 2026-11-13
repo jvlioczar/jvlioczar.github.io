@@ -1,0 +1,814 @@
+# A Biblioteca da Racionalidade
+
+> Catálogo pesquisável de pensamento crítico, racionalidade e práticas baseadas em evidências: livros, guias de falácias e vieses, organizações, pessoas, divulgação científica e filosófica.
+
+Biblioteca temática da BiblioVerse (The Rationality Library), com curadoria humana. Página: https://biblioverse.org/thinking/ · 619 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Referências e guias
+
+### Enciclopédias e referências
+
+- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) ★
+- [Internet Encyclopedia of Philosophy](https://iep.utm.edu/) ★
+- [RationalWiki](https://rationalwiki.org/)
+- [Quackwatch](https://quackwatch.org/)
+- [The Skeptic's Dictionary](https://www.skepdic.com/)
+- [Scholarpedia](https://www.scholarpedia.org/)
+- [PhilPapers](https://philpapers.org/)
+- [Encyclopedia of Philosophy (Routledge)](https://www.rep.routledge.com/)
+- [LessWrong Wiki](https://www.lesswrong.com/wikitags)
+- [Wikipédia](https://www.wikipedia.org/)
+
+### Guias de falácias
+
+- [Fallacy Guide](https://www.fallacyguide.com/)
+- [Your Logical Fallacy Is](https://yourlogicalfallacyis.com/) ★
+- [Stephen's Guide to the Logical Fallacies](https://www.fallacies.ca/)
+- [List of Fallacies (Wikipedia)](https://en.wikipedia.org/wiki/List_of_fallacies) ★
+- [The Fallacy Files](https://www.fallacyfiles.org/)
+- [Logically Fallacious](https://www.logicallyfallacious.com/)
+- [An Illustrated Book of Bad Arguments](https://bookofbadarguments.com/)
+- [Fallacies (IEP)](https://iep.utm.edu/fallacy/)
+
+### Guias de vieses
+
+- [List of Cognitive Biases (The Decision Lab)](https://thedecisionlab.com/biases) ★
+- [List of Cognitive Biases (Wikipedia)](https://en.wikipedia.org/wiki/List_of_cognitive_biases) ★
+- [Cognitive Bias Lab](https://www.cognitivebiaslab.com/)
+- [Cognitive Bias Codex](https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg)
+- [Your Bias Is](https://yourbias.is/)
+- [Effectiviology](https://effectiviology.com/)
+- [You Are Not So Smart](https://youarenotsosmart.com/)
+
+## Pensamento crítico
+
+### Organizações
+
+- [The Decision Lab](https://thedecisionlab.com/) ★
+- [Clearer Thinking](https://www.clearerthinking.org/) ★
+- [School of Thought](https://www.schoolofthought.org/)
+- [Emergent Thinkers](https://emergentthinkers.com/)
+- [Foundation for Critical Thinking](https://www.criticalthinking.org/)
+- [LessWrong](https://www.lesswrong.com/) ★
+- [Center for Applied Rationality](https://rationality.org/)
+- [Astral Codex Ten](https://www.astralcodexten.com/)
+- [Farnam Street](https://fs.blog/)
+- [Good Judgment](https://goodjudgment.com/)
+- [Metaculus](https://www.metaculus.com/)
+- [Manifold](https://manifold.markets/)
+- [Polymarket](https://polymarket.com/)
+- [Kalshi](https://kalshi.com/)
+- [Overcoming Bias](https://www.overcomingbias.com/)
+
+### Pessoas
+
+- [Julia Galef](https://en.wikipedia.org/wiki/Julia_Galef) ★
+- [Daniel Kahneman](https://en.wikipedia.org/wiki/Daniel_Kahneman) ★ 🪦
+- [Amos Tversky](https://en.wikipedia.org/wiki/Amos_Tversky) 🪦
+- [Gerd Gigerenzer](https://en.wikipedia.org/wiki/Gerd_Gigerenzer)
+- [Keith Stanovich](https://en.wikipedia.org/wiki/Keith_Stanovich)
+- [Philip Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock)
+- [Hugo Mercier](https://scholar.google.com/scholar?q=%22Hugo+Mercier%22)
+- [Dan Sperber](https://en.wikipedia.org/wiki/Dan_Sperber)
+- [Richard Paul](https://scholar.google.com/scholar?q=%22Richard+Paul%22) 🪦
+- [Linda Elder](https://en.wikipedia.org/wiki/Linda_Elder)
+- [Michael Shermer](https://en.wikipedia.org/wiki/Michael_Shermer)
+- [Steven Novella](https://en.wikipedia.org/wiki/Steven_Novella)
+- [Annie Duke](https://en.wikipedia.org/wiki/Annie_Duke)
+- [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky)
+- [Scott Alexander](https://en.wikipedia.org/wiki/Slate_Star_Codex)
+- [Hans Rosling](https://en.wikipedia.org/wiki/Hans_Rosling) 🪦
+- [Robin Hanson](https://en.wikipedia.org/wiki/Robin_Hanson)
+- [Nate Silver](https://en.wikipedia.org/wiki/Nate_Silver)
+
+## Livros
+
+### Cognição e racionalidade
+
+- [John Dewey - How We Think](https://en.wikipedia.org/wiki/How_We_Think)
+- [Carol Tavris & Elliot Aronson - Mistakes Were Made (But Not by Me)](https://en.wikipedia.org/wiki/Mistakes_Were_Made_(But_Not_by_Me))
+- [Steven Pinker - Rationality](https://en.wikipedia.org/wiki/Rationality:_What_It_Is,_Why_It_Seems_Scarce,_Why_It_Matters) ★
+- [Holyoak & Morrison - The Cambridge Handbook of Thinking and Reasoning](https://www.goodreads.com/search?q=The%20Cambridge%20Handbook%20of%20Thinking%20and%20Reasoning%20Holyoak%20)
+- [Markus Knauff & Wolfgang Spohn - The Handbook of Rationality](https://www.goodreads.com/search?q=The%20Handbook%20of%20Rationality%20Markus%20Knauff%20)
+- [Julia Galef - The Scout Mindset](https://en.wikipedia.org/wiki/The_Scout_Mindset) ★
+- [Daniel Kahneman - Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) ★
+- [Kahneman, Sibony & Sunstein - Noise](https://en.wikipedia.org/wiki/Noise:_A_Flaw_in_Human_Judgment)
+- [Thaler & Sunstein - Nudge](https://en.wikipedia.org/wiki/Nudge_(book))
+- [Dan Ariely - Predictably Irrational](https://en.wikipedia.org/wiki/Predictably_Irrational)
+- [Michael Lewis - The Undoing Project](https://en.wikipedia.org/wiki/The_Undoing_Project)
+- [Hugo Mercier & Dan Sperber - The Enigma of Reason](https://www.goodreads.com/search?q=The%20Enigma%20of%20Reason%20Hugo%20Mercier%20)
+- [Sloman & Fernbach - The Knowledge Illusion](https://www.goodreads.com/search?q=The%20Knowledge%20Illusion%20Sloman%20)
+- [Stuart Sutherland - Irrationality](https://www.goodreads.com/search?q=Irrationality%20Stuart%20Sutherland)
+- [Robert Cialdini - Influence](https://en.wikipedia.org/wiki/Influence:_Science_and_Practice)
+- [Annie Duke - Thinking in Bets](https://www.goodreads.com/search?q=Thinking%20in%20Bets%20Annie%20Duke)
+- [Michael Shermer - Why People Believe Weird Things](https://en.wikipedia.org/wiki/Why_People_Believe_Weird_Things)
+- [Eliezer Yudkowsky - Rationality: From AI to Zombies](https://www.goodreads.com/search?q=Rationality%3A%20From%20AI%20to%20Zombies%20Eliezer%20Yudkowsky)
+- [Keith Stanovich - What Intelligence Tests Miss](https://www.goodreads.com/search?q=What%20Intelligence%20Tests%20Miss%20Keith%20Stanovich)
+
+### Epistemologia e ciência
+
+- [David Hume - An Enquiry Concerning Human Understanding](https://en.wikipedia.org/wiki/An_Enquiry_Concerning_Human_Understanding) ★
+- [Ben Goldacre - Bad Science](https://en.wikipedia.org/wiki/Bad_Science_(Goldacre_book))
+- [Naomi Oreskes & Erik Conway - Merchants of Doubt](https://en.wikipedia.org/wiki/Merchants_of_Doubt) ★
+- [Mario Bunge - Pseudociência e Ideologia](https://www.goodreads.com/search?q=Pseudoci%C3%AAncia%20e%20Ideologia%20Mario%20Bunge)
+- [Bertrand Russell - Sceptical Essays](https://www.goodreads.com/search?q=Sceptical%20Essays%20Bertrand%20Russell)
+- [Carl Sagan - The Demon-Haunted World](https://en.wikipedia.org/wiki/The_Demon-Haunted_World) ★
+- [Karl Popper - The Logic of Scientific Discovery](https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery) ★
+- [Paul K. Moser - The Oxford Handbook of Epistemology](https://www.goodreads.com/search?q=The%20Oxford%20Handbook%20of%20Epistemology%20Paul%20K.%20Moser)
+- [Thomas Kuhn - The Structure of Scientific Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions) ★
+- [Karl Popper - Conjectures and Refutations](https://www.goodreads.com/search?q=Conjectures%20and%20Refutations%20Karl%20Popper)
+- [David Deutsch - The Beginning of Infinity](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)
+- [Alan Chalmers - What Is This Thing Called Science?](https://en.wikipedia.org/wiki/What_Is_This_Thing_Called_Science%3F)
+- [Paul Feyerabend - Against Method](https://en.wikipedia.org/wiki/Against_Method)
+- [Bergstrom & West - Calling Bullshit](https://www.goodreads.com/search?q=Calling%20Bullshit%20Bergstrom%20)
+- [Ben Goldacre - Bad Pharma](https://en.wikipedia.org/wiki/Bad_Pharma)
+- [Stuart Ritchie - Science Fictions](https://www.goodreads.com/search?q=Science%20Fictions%20Stuart%20Ritchie)
+- [Richard Feynman - The Meaning of It All](https://www.goodreads.com/search?q=The%20Meaning%20of%20It%20All%20Richard%20Feynman)
+
+### Ética
+
+- [James Rachels - Created from Animals](https://www.goodreads.com/search?q=Created%20from%20Animals%20James%20Rachels)
+- [John Stuart Mill - On Liberty](https://en.wikipedia.org/wiki/On_Liberty)
+- [Peter Singer - Practical Ethics](https://en.wikipedia.org/wiki/Practical_Ethics) ★
+- [Derek Parfit - Reasons and Persons](https://en.wikipedia.org/wiki/Reasons_and_Persons) ★
+- [Peter Singer - The Expanding Circle](https://en.wikipedia.org/wiki/The_Expanding_Circle)
+- [Peter Singer - Animal Liberation](https://en.wikipedia.org/wiki/Animal_Liberation_(book)) ★
+- [John Stuart Mill - Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism_(book))
+- [Henry Sidgwick - The Methods of Ethics](https://en.wikipedia.org/wiki/The_Methods_of_Ethics)
+- [Joshua Greene - Moral Tribes](https://www.goodreads.com/search?q=Moral%20Tribes%20Joshua%20Greene)
+- [William MacAskill - Doing Good Better](https://en.wikipedia.org/wiki/Doing_Good_Better)
+- [William MacAskill - What We Owe the Future](https://en.wikipedia.org/wiki/What_We_Owe_the_Future)
+- [Toby Ord - The Precipice](https://en.wikipedia.org/wiki/The_Precipice:_Existential_Risk_and_the_Future_of_Humanity)
+- [Lazari-Radek & Singer - The Point of View of the Universe](https://www.goodreads.com/search?q=The%20Point%20of%20View%20of%20the%20Universe%20Lazari-Radek%20)
+- [Jonathan Birch - The Edge of Sentience](https://www.goodreads.com/search?q=The%20Edge%20of%20Sentience%20Jonathan%20Birch)
+- [James Rachels - The Elements of Moral Philosophy](https://en.wikipedia.org/wiki/The_Elements_of_Moral_Philosophy)
+
+### Lógica e argumentação
+
+- [Browne & Keeley - Asking the Right Questions](https://www.goodreads.com/search?q=Asking%20the%20Right%20Questions%20Browne%20)
+- [D.Q. McInerny - Being Logical](https://www.goodreads.com/search?q=Being%20Logical%20D.Q.%20McInerny)
+- [Robert Thouless - Straight and Crooked Thinking](https://en.wikipedia.org/wiki/Straight_and_Crooked_Thinking)
+- [Ludwig Wittgenstein - Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus)
+- [Anthony Weston - A Rulebook for Arguments](https://www.goodreads.com/search?q=A%20Rulebook%20for%20Arguments%20Anthony%20Weston) ★
+- [Irving Copi - Introduction to Logic](https://www.goodreads.com/search?q=Introduction%20to%20Logic%20Irving%20Copi)
+- [Graham Priest - Logic, A Very Short Introduction](https://www.goodreads.com/search?q=Logic%2C%20A%20Very%20Short%20Introduction%20Graham%20Priest)
+- [Nigel Warburton - Thinking from A to Z](https://www.goodreads.com/search?q=Thinking%20from%20A%20to%20Z%20Nigel%20Warburton)
+- [Ali Almossawi - An Illustrated Book of Bad Arguments](https://bookofbadarguments.com/)
+- [Desidério Murcho - Pensar Outra Vez](https://www.goodreads.com/search?q=Pensar%20Outra%20Vez%20Desid%C3%A9rio%20Murcho)
+
+### Números, estatística e incerteza
+
+- [Hans Rosling - Factfulness](https://en.wikipedia.org/wiki/Factfulness) ★
+- [Nassim Nicholas Taleb - Fooled by Randomness](https://en.wikipedia.org/wiki/Fooled_by_Randomness)
+- [Darrell Huff - How to Lie with Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics) ★
+- [Trisha Greenhalgh - How to Read a Paper](https://www.goodreads.com/search?q=How%20to%20Read%20a%20Paper%20Trisha%20Greenhalgh)
+- [Tetlock & Gardner - Superforecasting](https://www.goodreads.com/search?q=Superforecasting%20Tetlock%20)
+- [Nate Silver - The Signal and the Noise](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise) ★
+- [David Spiegelhalter - The Art of Statistics](https://www.goodreads.com/search?q=The%20Art%20of%20Statistics%20David%20Spiegelhalter)
+- [Gerd Gigerenzer - Risk Savvy](https://www.goodreads.com/search?q=Risk%20Savvy%20Gerd%20Gigerenzer)
+- [Gerd Gigerenzer - Calculated Risks](https://www.goodreads.com/search?q=Calculated%20Risks%20Gerd%20Gigerenzer)
+- [John Allen Paulos - Innumeracy](https://en.wikipedia.org/wiki/Innumeracy_(book))
+- [Nassim Nicholas Taleb - The Black Swan](https://en.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable)
+- [Leonard Mlodinow - The Drunkard's Walk](https://en.wikipedia.org/wiki/The_Drunkard's_Walk)
+- [Judea Pearl - The Book of Why](https://en.wikipedia.org/wiki/The_Book_of_Why)
+- [Charles Wheelan - Naked Statistics](https://www.goodreads.com/search?q=Naked%20Statistics%20Charles%20Wheelan)
+- [Tim Harford - The Data Detective](https://www.goodreads.com/search?q=The%20Data%20Detective%20Tim%20Harford)
+
+### Política e sociedade
+
+- [John Rawls - A Theory of Justice](https://en.wikipedia.org/wiki/A_Theory_of_Justice) ★
+- [Jason Brennan - Against Democracy](https://en.wikipedia.org/wiki/Against_Democracy)
+- [Achen & Bartels - Democracy for Realists](https://www.goodreads.com/search?q=Democracy%20for%20Realists%20Achen%20)
+- [Deborah Stone - Policy Paradox](https://www.goodreads.com/search?q=Policy%20Paradox%20Deborah%20Stone)
+- [Magnus Vinding - Reasoned Politics](https://www.goodreads.com/search?q=Reasoned%20Politics%20Magnus%20Vinding)
+- [Hannah Arendt - The Human Condition](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book))
+- [Bryan Caplan - The Myth of the Rational Voter](https://en.wikipedia.org/wiki/The_Myth_of_the_Rational_Voter) ★
+- [John E. Roemer - Theories of Distributive Justice](https://www.goodreads.com/search?q=Theories%20of%20Distributive%20Justice%20John%20E.%20Roemer)
+- [Robert E. Goodin - The Oxford Handbook of Political Science](https://www.goodreads.com/search?q=The%20Oxford%20Handbook%20of%20Political%20Science%20Robert%20E.%20Goodin)
+- [Jonathan Haidt - The Righteous Mind](https://en.wikipedia.org/wiki/The_Righteous_Mind) ★
+- [Karl Popper - The Open Society and Its Enemies](https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies)
+- [Steven Pinker - Enlightenment Now](https://en.wikipedia.org/wiki/Enlightenment_Now)
+- [Steven Pinker - The Better Angels of Our Nature](https://en.wikipedia.org/wiki/The_Better_Angels_of_Our_Nature)
+- [Hélène Landemore - Democratic Reason](https://www.goodreads.com/search?q=Democratic%20Reason%20H%C3%A9l%C3%A8ne%20Landemore)
+
+## Prática Baseada em Evidências
+
+### Organizações
+
+- [Instituto de Prática Baseada em Evidências](https://institutodepbe.com.br/)
+- [UK Research and Innovation](https://www.ukri.org/)
+- [Nesta](https://www.nesta.org.uk/)
+- [Centre for Reviews and Dissemination](https://www.york.ac.uk/crd/)
+- [Instituto Questão de Ciência](https://iqc.org.br/) ★
+- [PBECast](https://institutodepbe.com.br/pbecast/)
+- [EPPI-Centre](https://eppi.ioe.ac.uk/)
+- [Sense about Science](https://senseaboutscience.org/)
+
+### Pessoas
+
+- [Trisha Greenhalgh](https://en.wikipedia.org/wiki/Trisha_Greenhalgh) ★
+- [Iain Chalmers](https://en.wikipedia.org/wiki/Iain_Chalmers)
+- [Paul Glasziou](https://en.wikipedia.org/wiki/Paul_Glasziou)
+- [Ben Goldacre](https://en.wikipedia.org/wiki/Ben_Goldacre) ★
+
+## Educação Baseada em Evidências
+
+### Organizações
+
+- [Luna Educação](https://lunaeducacao.com.br/)
+- [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) ★
+- [Education Endowment Foundation](https://educationendowmentfoundation.org.uk/) ★
+- [Instituto Alfa e Beto](https://www.alfaebeto.org.br/)
+- [Evidence for ESSA](https://www.evidenceforessa.org/)
+- [The Learning Scientists](https://www.learningscientists.org/)
+- [researchED](https://researched.org.uk/)
+- [Deans for Impact](https://deansforimpact.org/)
+- [Retrieval Practice](https://www.retrievalpractice.org/)
+
+### Pessoas
+
+- [John Hattie](https://en.wikipedia.org/wiki/John_Hattie) ★
+- [Robert Slavin](https://en.wikipedia.org/wiki/Robert_Slavin) 🪦
+- [Lucelmo Lacerda](https://pt.wikipedia.org/wiki/Lucelmo_Lacerda)
+- [Dylan Wiliam](https://en.wikipedia.org/wiki/Dylan_Wiliam)
+- [Daniel Willingham](https://en.wikipedia.org/wiki/Daniel_T._Willingham)
+- [John Sweller](https://en.wikipedia.org/wiki/John_Sweller)
+- [Paul A. Kirschner](https://scholar.google.com/scholar?q=%22Paul+A.+Kirschner%22)
+- [Daisy Christodoulou](https://en.wikipedia.org/wiki/Daisy_Christodoulou)
+- [Pooja Agarwal](https://scholar.google.com/scholar?q=%22Pooja+Agarwal%22)
+- [Barak Rosenshine](https://en.wikipedia.org/wiki/Barak_Rosenshine) 🪦
+
+## Política Baseada em Evidências
+
+### Organizações
+
+- [Campbell Collaboration](https://www.campbellcollaboration.org/) ★
+- [What Works Network](https://www.gov.uk/guidance/what-works-network)
+- [EVIPNet](https://www.who.int/initiatives/evidence-informed-policy-network)
+- [FGV Clear](https://fgvclear.org/)
+- [Coalizão Brasileira pelas Evidências](https://coalizaopelasevidencias.org.br/)
+- [Sociedade Brasileira de Econometria](https://www.sbe.org.br/)
+- [Coalition for Evidence-Based Policy](https://coalition4evidence.org/) 🪦
+- [J-PAL](https://www.povertyactionlab.org/) ★
+- [Innovations for Poverty Action](https://poverty-action.org/)
+- [The Pew Charitable Trusts](https://www.pew.org/en/)
+- [Observatório de Políticas Científicas](https://serrapilheira.org/en/projetos/observatorio-de-politicas-cientificas/)
+- [William T. Grant Foundation](https://wtgrantfoundation.org/)
+- [Behavioural Insights Team](https://www.bi.team/) ★
+- [Our World in Data](https://ourworldindata.org/) ★
+- [Gapminder](https://www.gapminder.org/)
+- [IPEA](https://www.ipea.gov.br/)
+- [3ie](https://www.3ieimpact.org/)
+- [Arnold Ventures](https://www.arnoldventures.org/)
+
+### Pessoas
+
+- [Justin Parkhurst](https://scholar.google.com/scholar?q=%22Justin+Parkhurst%22)
+- [Donald T. Campbell](https://en.wikipedia.org/wiki/Donald_T._Campbell) 🪦
+- [Sandra M. Nutley](https://scholar.google.com/scholar?q=%22Sandra+M.+Nutley%22)
+- [Huw Davies](https://scholar.google.com/scholar?q=%22Huw+Davies%22)
+- [Kai Spiekermann](https://scholar.google.com/scholar?q=%22Kai+Spiekermann%22)
+- [David Estlund](https://en.wikipedia.org/wiki/David_Estlund)
+- [Hélène Landemore](https://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Landemore)
+- [Joshua Cohen](https://en.wikipedia.org/wiki/Joshua_Cohen_(philosopher))
+- [Ricardo Paes de Barros](https://pt.wikipedia.org/wiki/Ricardo_Paes_de_Barros)
+- [Naercio Menezes Filho](https://scholar.google.com/scholar?q=%22Naercio+Menezes+Filho%22)
+- [Thomas Conti](https://scholar.google.com/scholar?q=%22Thomas+Conti%22)
+- [Victor Rangel](https://scholar.google.com/scholar?q=%22Victor+Rangel%22)
+- [Ana Luiza Pessanha](https://scholar.google.com/scholar?q=%22Ana+Luiza+Pessanha%22)
+- [Brian Head](https://scholar.google.com/scholar?q=%22Brian+Head%22)
+- [Gary Banks](https://scholar.google.com/scholar?q=%22Gary+Banks%22)
+- [Jason Brennan](https://en.wikipedia.org/wiki/Jason_Brennan)
+- [Larry Temkin](https://en.wikipedia.org/wiki/Larry_Temkin)
+- [Tony Atkinson](https://en.wikipedia.org/wiki/Anthony_Barnes_Atkinson) 🪦
+- [Esther Duflo](https://en.wikipedia.org/wiki/Esther_Duflo) ★
+- [Abhijit Banerjee](https://en.wikipedia.org/wiki/Abhijit_Banerjee)
+- [Michael Kremer](https://en.wikipedia.org/wiki/Michael_Kremer)
+
+## Psicologia Baseada em Evidências
+
+### Organizações
+
+- [Associação Brasileira de Psicologia Baseada em Evidências](https://abpbe.org/)
+- [Instituto de Psicologia Baseada em Evidências](https://inpbe.com/)
+- [Sínteses](https://sinteses.org/)
+- [Garagem PSI](https://www.garagempsi.com.br/)
+- [Verywell Mind](https://www.verywellmind.com/)
+- [Society of Clinical Psychology](https://div12.org/)
+- [The Depression Project](https://thedepressionproject.com/)
+- [Psicometria Online](https://psicometriaonline.com.br/)
+- [Center for Open Science](https://cos.io/) ★
+- [Association for Psychological Science](https://www.psychologicalscience.org/)
+
+### Pessoas
+
+- [David H. Barlow](https://en.wikipedia.org/wiki/David_H._Barlow)
+- [Scott O. Lilienfeld](https://en.wikipedia.org/wiki/Scott_Lilienfeld) 🪦
+- [Aaron T. Beck](https://en.wikipedia.org/wiki/Aaron_T._Beck) ★ 🪦
+- [Paul Meehl](https://en.wikipedia.org/wiki/Paul_E._Meehl) 🪦
+- [Jan Leonardi](https://scholar.google.com/scholar?q=%22Jan+Leonardi%22)
+- [Ramiro Figueiredo Catelan](https://scholar.google.com/scholar?q=%22Ramiro+Figueiredo+Catelan%22)
+- [Anelisa Vaz de Carvalho](https://scholar.google.com/scholar?q=%22Anelisa+Vaz+de+Carvalho%22)
+- [Bruno Figueiredo Damásio](https://scholar.google.com/scholar?q=%22Bruno+Figueiredo+Dam%C3%A1sio%22)
+- [Carmem Beatriz Neufeld](https://scholar.google.com/scholar?q=%22Carmem+Beatriz+Neufeld%22)
+- [Tobias de Medeiros Chaves Ferreira](https://scholar.google.com/scholar?q=%22Tobias+de+Medeiros+Chaves+Ferreira%22)
+- [Fernanda Brunkow](https://scholar.google.com/scholar?q=%22Fernanda+Brunkow%22)
+- [Fernanda Landeiro](https://scholar.google.com/scholar?q=%22Fernanda+Landeiro%22)
+- [Filipe Luis Souza](https://scholar.google.com/scholar?q=%22Filipe+Luis+Souza%22)
+- [Igor Eckert](https://scholar.google.com/scholar?q=%22Igor+Eckert%22)
+- [Loren Beiram](https://scholar.google.com/scholar?q=%22Loren+Beiram%22)
+- [Roberta Ekuni](https://scholar.google.com/scholar?q=%22Roberta+Ekuni%22)
+- [Tammy Marchiori](https://scholar.google.com/scholar?q=%22Tammy+Marchiori%22)
+- [Anna Keila Hecke Polak](https://scholar.google.com/scholar?q=%22Anna+Keila+Hecke+Polak%22)
+- [Bernardo Mattos](https://scholar.google.com/scholar?q=%22Bernardo+Mattos%22)
+- [Júlia Amaral](https://scholar.google.com/scholar?q=%22J%C3%BAlia+Amaral%22)
+- [Iane Almeida](https://scholar.google.com/scholar?q=%22Iane+Almeida%22)
+- [Henrique Freire](https://scholar.google.com/scholar?q=%22Henrique+Freire%22)
+- [Thiago Mácimo](https://scholar.google.com/scholar?q=%22Thiago+M%C3%A1cimo%22)
+- [Jennifer Craco](https://www.instagram.com/psi.jennifercraco/)
+- [Letícia Duarte](https://scholar.google.com/scholar?q=%22Let%C3%ADcia+Duarte%22)
+- [Tanise Chites da Costa](https://scholar.google.com/scholar?q=%22Tanise+Chites+da+Costa%22)
+- [Freya Bizarro](https://scholar.google.com/scholar?q=%22Freya+Bizarro%22)
+- [Markus Knauff](https://scholar.google.com/scholar?q=%22Markus+Knauff%22)
+- [Joelma Poiqui](https://www.instagram.com/joelmapoiqui/)
+
+## Medicina Baseada em Evidências
+
+### Organizações
+
+- [Cochrane](https://www.cochrane.org/) ★
+- [Centre for Evidence-Based Medicine](https://www.cebm.ox.ac.uk/) ★
+- [Medicina Baseada em Evidências](https://medicinabaseadaemevidencias.blogspot.com/)
+- [Sociedade Brasileira de Imunizações](https://sbim.org.br/)
+- [NICE](https://www.nice.org.uk/) ★
+- [GRADE Working Group](https://www.gradeworkinggroup.org/)
+- [Science-Based Medicine](https://sciencebasedmedicine.org/)
+- [Cochrane Brasil](https://brazil.cochrane.org/)
+- [Epistemonikos](https://www.epistemonikos.org/)
+- [Journal of Evidence-Based Healthcare](https://www5.bahiana.edu.br/index.php/evidence)
+
+### Pessoas
+
+- [Gordon Guyatt](https://en.wikipedia.org/wiki/Gordon_Guyatt) ★
+- [David Sackett](https://en.wikipedia.org/wiki/David_Sackett) ★ 🪦
+- [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane) ★ 🪦
+- [Alvan Feinstein](https://en.wikipedia.org/wiki/Alvan_Feinstein) 🪦
+- [John Wennberg](https://en.wikipedia.org/wiki/John_Wennberg) 🪦
+- [David M. Eddy](https://en.wikipedia.org/wiki/David_M._Eddy)
+- [Trisha Greenhalgh](https://en.wikipedia.org/wiki/Trisha_Greenhalgh)
+- [Álvaro Nagib Atallah](https://scholar.google.com/scholar?q=%22%C3%81lvaro+Nagib+Atallah%22)
+- [Luis Claudio Correia](https://scholar.google.com/scholar?q=%22Luis+Claudio+Correia%22)
+- [Andrea Furlan](https://en.wikipedia.org/wiki/Andrea_Furlan)
+- [José Neto](https://scholar.google.com/scholar?q=%22Jos%C3%A9+Neto%22)
+- [Gregory Lewis](https://scholar.google.com/scholar?q=%22Gregory+Lewis%22)
+- [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis)
+
+## Enfermagem Baseada em Evidências
+
+### Organizações
+
+- [JBI](https://jbi.global/) ★
+- [Fuld National Institute for EBP](https://fuld.nursing.osu.edu/)
+- [Centro de Excelência do JBI (Brasil)](https://www.ee.usp.br/jbibrasil/)
+- [Evidence-Based Nursing (periódico)](https://ebn.bmj.com/)
+
+### Pessoas
+
+- [Bernadette Mazurek Melnyk](https://scholar.google.com/scholar?q=%22Bernadette+Mazurek+Melnyk%22)
+- [Ellen Fineout-Overholt](https://scholar.google.com/scholar?q=%22Ellen+Fineout-Overholt%22)
+- [Nicky Cullum](https://en.wikipedia.org/wiki/Nicky_Cullum)
+- [Cristina Maria Galvão](https://scholar.google.com/scholar?q=%22Cristina+Maria+Galv%C3%A3o%22)
+
+## Odontologia Baseada em Evidências
+
+### Organizações
+
+- [American Dental Education Association](https://www.adea.org/)
+- [Evidence-Based Dentistry (periódico)](https://www.nature.com/ebd/)
+- [Cochrane Oral Health](https://oralhealth.cochrane.org/)
+- [Associação Brasileira de Ensino Odontológico](https://abeno.org.br/)
+- [Centre for Evidence-based Dentistry](https://www.cebd.org/)
+- [American Dental Association](https://www.ada.org/)
+
+### Pessoas
+
+- [Ian Needleman](https://scholar.google.com/scholar?q=%22Ian+Needleman%22)
+- [Derek Richards](https://scholar.google.com/scholar?q=%22Derek+Richards%22)
+- [Alan Lawrence](https://scholar.google.com/scholar?q=%22Alan+Lawrence%22)
+- [Michael Glick](https://en.wikipedia.org/wiki/Michael_Glick)
+- [Jaime Aparecido Cury](https://scholar.google.com/scholar?q=%22Jaime+Aparecido+Cury%22)
+- [Asbjørn Jokstad](https://scholar.google.com/scholar?q=%22Asbj%C3%B8rn+Jokstad%22)
+- [Luiz Rodolfo](https://scholar.google.com/scholar?q=%22Luiz+Rodolfo%22)
+
+## Fisioterapia Baseada em Evidências
+
+### Organizações
+
+- [PEDro](https://pedro.org.au/) ★
+- [Female Physio Co.](https://femalephysioco.com/)
+
+### Pessoas
+
+- [Chris Maher](https://scholar.google.com/scholar?q=%22Chris+Maher%22)
+- [Rob Herbert](https://scholar.google.com/scholar?q=%22Rob+Herbert%22)
+- [Bruno Tirotti Saragiotto](https://scholar.google.com/scholar?q=%22Bruno+Tirotti+Saragiotto%22)
+- [Lucíola da Cunha Menezes Costa](https://scholar.google.com/scholar?q=%22Luc%C3%ADola+da+Cunha+Menezes+Costa%22)
+- [Leonardo Oliveira Pena Costa](https://scholar.google.com/scholar?q=%22Leonardo+Oliveira+Pena+Costa%22)
+- [Tiê Parma Yamato](https://scholar.google.com/scholar?q=%22Ti%C3%AA+Parma+Yamato%22)
+
+## Veterinária Baseada em Evidências
+
+### Organizações
+
+- [Centre for Evidence-based Veterinary Medicine](https://www.nottingham.ac.uk/cevm/)
+- [RCVS Knowledge](https://rcvsknowledge.org/)
+- [Veterinary Evidence (periódico)](https://veterinaryevidence.org/)
+
+### Pessoas
+
+- [Peter Cockcroft](https://scholar.google.com/scholar?q=%22Peter+Cockcroft%22)
+- [Mark Holmes](https://scholar.google.com/scholar?q=%22Mark+Holmes%22)
+- [Rachel Dean](https://scholar.google.com/scholar?q=%22Rachel+Dean%22)
+- [Alexandre Daniel](https://scholar.google.com/scholar?q=%22Alexandre+Daniel%22)
+- [Renato Silvano Pulz](https://scholar.google.com/scholar?q=%22Renato+Silvano+Pulz%22)
+- [Siobhan Mullan](https://scholar.google.com/scholar?q=%22Siobhan+Mullan%22)
+- [Anne Fawcett](https://scholar.google.com/scholar?q=%22Anne+Fawcett%22)
+- [Barry Kipperman](https://scholar.google.com/scholar?q=%22Barry+Kipperman%22)
+- [Maira Rezende Formenton](https://scholar.google.com/scholar?q=%22Maira+Rezende+Formenton%22)
+- [Isabelle Tancioni](https://scholar.google.com/scholar?q=%22Isabelle+Tancioni%22)
+
+## Nutrição Baseada em Evidências
+
+### Organizações
+
+- [Evidence-Based Nutrition](https://www.evidencebasednutrition.org/)
+- [Eat Right (Academy of Nutrition and Dietetics)](https://www.eatright.org/)
+- [NutritionFacts](https://nutritionfacts.org/)
+- [Physicians Committee for Responsible Medicine](https://www.pcrm.org/)
+- [Associação Brasileira de Nutrição Esportiva](https://abne.org.br/)
+- [NutriRECS](https://www.nutrirecs.com/)
+- [Nupens USP](https://www.fsp.usp.br/nupens/)
+- [Examine](https://examine.com/) ★
+- [The Nutrition Source (Harvard)](https://nutritionsource.hsph.harvard.edu/)
+
+### Pessoas
+
+- [Walter Willett](https://en.wikipedia.org/wiki/Walter_Willett) ★
+- [Michael Greger](https://en.wikipedia.org/wiki/Michael_Greger)
+- [Neal D. Barnard](https://en.wikipedia.org/wiki/Neal_D._Barnard)
+- [Eric Slywitch](https://scholar.google.com/scholar?q=%22Eric+Slywitch%22)
+- [Carlos Monteiro](https://en.wikipedia.org/wiki/Carlos_Augusto_Monteiro)
+
+## Ética Baseada em Evidências
+
+### Organizações
+
+- [Sentience Institute](https://www.sentienceinstitute.org/) ★
+- [Senciencia](https://senciencia.org/)
+- [Center for Reducing Suffering](https://centerforreducingsuffering.org/)
+- [Faunalytics](https://faunalytics.org/)
+- [Animal Ethics](https://www.animal-ethics.org/) ★
+- [Ethox Centre](https://www.ethox.ox.ac.uk/)
+- [Cushman Lab](https://cushmanlab.fas.harvard.edu/)
+- [Institute for Futures Studies](https://www.iffs.se/)
+- [Mimir Center](https://mimircenter.org/)
+- [Center for Policy and Animal Welfare](https://www.c-paw.org/)
+- [Jeremy Coller Centre for Animal Sentience](https://www.lse.ac.uk/sentience)
+- [NYU Center for Mind, Ethics, and Policy](https://sites.google.com/nyu.edu/mindethicspolicy/home)
+- [Wild Animal Initiative](https://www.wildanimalinitiative.org/)
+
+### Pessoas
+
+- [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer) ★
+- [Derek Parfit](https://en.wikipedia.org/wiki/Derek_Parfit) ★ 🪦
+- [James Rachels](https://en.wikipedia.org/wiki/James_Rachels) 🪦
+- [Ronald Anthony Hope](https://scholar.google.com/scholar?q=%22Ronald+Anthony+Hope%22)
+- [John McMillan](https://scholar.google.com/scholar?q=%22John+McMillan%22)
+- [Alasdair Cochrane](https://en.wikipedia.org/wiki/Alasdair_Cochrane)
+- [Vitor Douglas de Andrade](https://scholar.google.com/scholar?q=%22Vitor+Douglas+de+Andrade%22)
+- [Peter Railton](https://en.wikipedia.org/wiki/Peter_Railton)
+- [Owen Flanagan](https://en.wikipedia.org/wiki/Owen_Flanagan)
+- [Patricia Churchland](https://en.wikipedia.org/wiki/Patricia_Churchland)
+- [Joshua Greene](https://en.wikipedia.org/wiki/Joshua_Greene_(psychologist))
+- [Jonathan Haidt](https://en.wikipedia.org/wiki/Jonathan_Haidt)
+- [Walter Sinnott-Armstrong](https://en.wikipedia.org/wiki/Walter_Sinnott-Armstrong)
+- [Joshua Knobe](https://en.wikipedia.org/wiki/Joshua_Knobe)
+- [Sam Harris](https://en.wikipedia.org/wiki/Sam_Harris)
+- [Luciano Carlos Cunha](https://pt.wikipedia.org/wiki/Luciano_Carlos_Cunha)
+- [Jesse Prinz](https://en.wikipedia.org/wiki/Jesse_Prinz)
+- [Fiery Cushman](https://en.wikipedia.org/wiki/Fiery_Cushman)
+- [Molly Crockett](https://en.wikipedia.org/wiki/Molly_Crockett)
+- [John Broome](https://en.wikipedia.org/wiki/John_Broome_(philosopher))
+- [Krister Bykvist](https://scholar.google.com/scholar?q=%22Krister+Bykvist%22)
+- [Kyle Johannsen](https://en.wikipedia.org/wiki/Kyle_Johannsen)
+- [Jonathan Birch](https://en.wikipedia.org/wiki/Jonathan_Birch_(philosopher))
+- [Jeff Sebo](https://en.wikipedia.org/wiki/Jeff_Sebo)
+- [Persis Eskander](https://scholar.google.com/scholar?q=%22Persis+Eskander%22)
+- [Martha Nussbaum](https://en.wikipedia.org/wiki/Martha_Nussbaum)
+- [Jacob Barrett](https://scholar.google.com/scholar?q=%22Jacob+Barrett%22)
+- [Karri Heikkinen](https://scholar.google.com/scholar?q=%22Karri+Heikkinen%22)
+- [Toby Newberry](https://scholar.google.com/scholar?q=%22Toby+Newberry%22)
+- [Oscar Horta](https://en.wikipedia.org/wiki/Oscar_Horta)
+
+## Altruísmo eficaz
+
+### Organizações
+
+- [Centre for Effective Altruism](https://www.centreforeffectivealtruism.org/) ★
+- [GiveWell](https://www.givewell.org/) ★
+- [Evidence Action](https://www.evidenceaction.org/)
+- [Coefficient Giving](https://coefficientgiving.org/)
+- [Rethink Priorities](https://rethinkpriorities.org/)
+- [Center on Long-Term Risk](https://longtermrisk.org/)
+- [80,000 Hours](https://80000hours.org/)
+- [Giving What We Can](https://www.givingwhatwecan.org/)
+- [Animal Charity Evaluators](https://animalcharityevaluators.org/)
+- [The Life You Can Save](https://www.thelifeyoucansave.org/)
+- [Founders Pledge](https://founderspledge.com/)
+- [Global Priorities Institute](https://www.globalprioritiesinstitute.org/) 🪦
+- [Future of Humanity Institute](https://en.wikipedia.org/wiki/Future_of_Humanity_Institute) 🪦
+- [EA Forum](https://forum.effectivealtruism.org/)
+
+### Pessoas
+
+- [William MacAskill](https://en.wikipedia.org/wiki/William_MacAskill) ★
+- [Toby Ord](https://en.wikipedia.org/wiki/Toby_Ord) ★
+- [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer) ★
+- [Holden Karnofsky](https://en.wikipedia.org/wiki/Holden_Karnofsky)
+- [Nick Beckstead](https://scholar.google.com/scholar?q=%22Nick+Beckstead%22)
+- [Hilary Greaves](https://en.wikipedia.org/wiki/Hilary_Greaves)
+- [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom)
+- [Brian Tomasik](https://en.wikipedia.org/wiki/Brian_Tomasik)
+- [Magnus Vinding](https://scholar.google.com/scholar?q=%22Magnus+Vinding%22)
+- [Tobias Baumann](https://scholar.google.com/scholar?q=%22Tobias+Baumann%22)
+- [David Pearce](https://en.wikipedia.org/wiki/David_Pearce_(philosopher))
+- [Jacy Reese Anthis](https://en.wikipedia.org/wiki/Jacy_Reese_Anthis)
+
+## Filosofia analítica
+
+### Organizações
+
+- [Núcleo de Estudos em Lógica e Filosofia Analítica (NULFA)](https://nulfa.weebly.com/)
+- [Aristotelian Society](https://www.aristoteliansociety.org.uk/)
+- [Círculo de Viena (Institut Wiener Kreis)](https://en.wikipedia.org/wiki/Vienna_Circle) 🪦
+
+### Pessoas
+
+- [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell) ★ 🪦
+- [G. E. Moore](https://en.wikipedia.org/wiki/G._E._Moore) 🪦
+- [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) ★ 🪦
+- [Franz Brentano](https://en.wikipedia.org/wiki/Franz_Brentano) 🪦
+- [Rudolf Carnap](https://en.wikipedia.org/wiki/Rudolf_Carnap) 🪦
+- [A. J. Ayer](https://en.wikipedia.org/wiki/A._J._Ayer) 🪦
+- [W. V. O. Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) 🪦
+- [Hans Hahn](https://en.wikipedia.org/wiki/Hans_Hahn_(mathematician)) 🪦
+- [Philipp Frank](https://en.wikipedia.org/wiki/Philipp_Frank) 🪦
+- [Otto Neurath](https://en.wikipedia.org/wiki/Otto_Neurath) 🪦
+- [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege) ★ 🪦
+- [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) ★ 🪦
+- [Moritz Schlick](https://en.wikipedia.org/wiki/Moritz_Schlick) 🪦
+- [Sven Ove Hansson](https://en.wikipedia.org/wiki/Sven_Ove_Hansson)
+- [Massimo Pigliucci](https://en.wikipedia.org/wiki/Massimo_Pigliucci)
+- [Maarten Boudry](https://en.wikipedia.org/wiki/Maarten_Boudry)
+- [Paul Thagard](https://en.wikipedia.org/wiki/Paul_Thagard)
+- [Ian Hacking](https://en.wikipedia.org/wiki/Ian_Hacking) 🪦
+- [Damian Fernandez-Beanato](https://scholar.google.com/scholar?q=%22Damian+Fernandez-Beanato%22)
+- [Daniel Dennett](https://en.wikipedia.org/wiki/Daniel_Dennett) 🪦
+- [Susan Haack](https://en.wikipedia.org/wiki/Susan_Haack) 🪦
+- [Saul Kripke](https://en.wikipedia.org/wiki/Saul_Kripke) 🪦
+- [Newton da Costa](https://en.wikipedia.org/wiki/Newton_da_Costa) 🪦
+
+## Divulgação científica
+
+### Projetos
+
+- [Instituto Ponto Azul](https://www.institutopontoazul.com.br/)
+- [Universo Racionalista](https://universoracionalista.org/)
+- [Revista Questão de Ciência](https://revistaquestaodeciencia.com.br/) ★
+- [Sapienship](https://www.sapienship.co/)
+- [Instituto Serrapilheira](https://serrapilheira.org/)
+- [Ciência Todo Dia](https://www.youtube.com/@CienciaTodoDia)
+- [Manual do Mundo](https://www.manualdomundo.com.br/)
+- [Nerdologia](https://www.youtube.com/@nerdologia)
+- [Kurzgesagt](https://kurzgesagt.org/)
+- [Veritasium](https://www.youtube.com/@veritasium)
+
+### Pessoas (mundo)
+
+- [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan) ★ 🪦
+- [David Attenborough](https://en.wikipedia.org/wiki/David_Attenborough) ★
+- [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman) ★ 🪦
+- [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov) 🪦
+- [Arthur C. Clarke](https://en.wikipedia.org/wiki/Arthur_C._Clarke) 🪦
+- [Neil deGrasse Tyson](https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson)
+- [Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking) 🪦
+- [Bill Nye](https://en.wikipedia.org/wiki/Bill_Nye)
+- [Richard Dawkins](https://en.wikipedia.org/wiki/Richard_Dawkins)
+- [Brian Cox](https://en.wikipedia.org/wiki/Brian_Cox_(physicist))
+- [Brian Greene](https://en.wikipedia.org/wiki/Brian_Greene)
+- [Jane Goodall](https://en.wikipedia.org/wiki/Jane_Goodall) 🪦
+- [Steven Pinker](https://en.wikipedia.org/wiki/Steven_Pinker)
+- [Siddhartha Mukherjee](https://en.wikipedia.org/wiki/Siddhartha_Mukherjee)
+- [Atul Gawande](https://en.wikipedia.org/wiki/Atul_Gawande)
+- [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari)
+- [Michio Kaku](https://en.wikipedia.org/wiki/Michio_Kaku)
+- [Steven Weinberg](https://en.wikipedia.org/wiki/Steven_Weinberg) 🪦
+- [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) 🪦
+- [Stephen Jay Gould](https://en.wikipedia.org/wiki/Stephen_Jay_Gould) 🪦
+- [Oliver Sacks](https://en.wikipedia.org/wiki/Oliver_Sacks) 🪦
+- [Sam Harris](https://en.wikipedia.org/wiki/Sam_Harris)
+- [James Randi](https://en.wikipedia.org/wiki/James_Randi) 🪦
+- [Lisa Randall](https://en.wikipedia.org/wiki/Lisa_Randall)
+- [Frans de Waal](https://en.wikipedia.org/wiki/Frans_de_Waal) 🪦
+- [Desmond Morris](https://en.wikipedia.org/wiki/Desmond_Morris) 🪦
+- [Mario Bunge](https://en.wikipedia.org/wiki/Mario_Bunge) 🪦
+- [Derek Muller](https://en.wikipedia.org/wiki/Derek_Muller)
+- [Hank Green](https://en.wikipedia.org/wiki/Hank_Green)
+- [John Green](https://en.wikipedia.org/wiki/John_Green)
+- [Andrew Huberman](https://en.wikipedia.org/wiki/Andrew_Huberman)
+- [Michael Stevens](https://www.youtube.com/@Vsauce)
+- [Massimo Pigliucci](https://en.wikipedia.org/wiki/Massimo_Pigliucci)
+- [Sabine Hossenfelder](https://en.wikipedia.org/wiki/Sabine_Hossenfelder)
+
+### Pessoas (Brasil)
+
+- [Natalia Pasternak](https://en.wikipedia.org/wiki/Natalia_Pasternak) ★
+- [Carlos Orsi](https://pt.wikipedia.org/wiki/Carlos_Orsi)
+- [Reinaldo José Lopes](https://www1.folha.uol.com.br/colunas/reinaldojoselopes)
+- [Salvador Nogueira](https://mensageirosideral.blogfolha.uol.com.br)
+- [Herton Escobar](https://hertonescobar.com.br)
+- [Luisa Massarani](https://pt.wikipedia.org/wiki/Luisa_Massarani)
+- [Carlos Vogt](https://pt.wikipedia.org/wiki/Carlos_Vogt)
+- [Drauzio Varella](https://en.wikipedia.org/wiki/Drauzio_Varella) ★
+- [Julio Abramczyk](https://www1.folha.uol.com.br/colunas/julioabramczyk)
+- [Douglas Rodrigues](https://www.instagram.com/douglasrodrigues42)
+- [Marcelo Gleiser](https://en.wikipedia.org/wiki/Marcelo_Gleiser) ★
+- [Pedro Loos](https://pt.wikipedia.org/wiki/Pedro_Loos)
+- [Atila Iamarino](https://en.wikipedia.org/wiki/Atila_Iamarino) ★
+- [Pirula](https://en.wikipedia.org/wiki/Pirula_(YouTuber))
+- [Bernardo Esteves](https://en.wikipedia.org/wiki/Bernardo_Esteves)
+- [Iberê Thenório](https://pt.wikipedia.org/wiki/Iber%C3%AA_Then%C3%B3rio)
+- [André Bacchi](https://www.instagram.com/bacchi.andre)
+- [Luana Araújo](https://www.instagram.com/drluanaaraujo)
+- [Daniel Gontijo](https://x.com/profgontijo)
+- [Ruth Helena Bellinghini](https://scholar.google.com/scholar?q=%22Ruth+Helena+Bellinghini%22)
+- [Marcelo Takeshi Yamashita](https://scholar.google.com/scholar?q=%22Marcelo+Takeshi+Yamashita%22)
+- [Daniel Dahis](https://scholar.google.com/scholar?q=%22Daniel+Dahis%22)
+
+## Divulgação filosófica
+
+### Projetos
+
+- [1000-Word Philosophy](https://1000wordphilosophy.com/) ★
+- [Philosophy Now](https://philosophynow.org/)
+- [Philosophy Ideas](https://www.philosophyideas.com/)
+- [Closer To Truth](https://closertotruth.com/)
+- [Big Think](https://bigthink.com/)
+- [Senciência](https://senciencia.org/)
+- [Isto Não É Filosofia](https://www.istonaoefilosofia.com.br/)
+- [Philosophy Bites](https://philosophybites.com/)
+- [Wireless Philosophy](https://www.wi-phi.com)
+- [Daily Nous](https://dailynous.com/)
+- [Aeon](https://aeon.co/)
+- [Crítica na Rede](https://criticanarede.com/)
+
+### Pessoas
+
+- [Michael Sandel](https://en.wikipedia.org/wiki/Michael_Sandel) ★
+- [Alain de Botton](https://en.wikipedia.org/wiki/Alain_de_Botton)
+- [Byung-Chul Han](https://en.wikipedia.org/wiki/Byung-Chul_Han)
+- [George Orwell](https://en.wikipedia.org/wiki/George_Orwell) 🪦
+- [Julian Baggini](https://en.wikipedia.org/wiki/Julian_Baggini)
+- [Jeremy Stangroom](https://en.wikipedia.org/wiki/Jeremy_Stangroom)
+- [Nigel Warburton](https://en.wikipedia.org/wiki/Nigel_Warburton)
+- [Simon Blackburn](https://en.wikipedia.org/wiki/Simon_Blackburn)
+- [Desidério Murcho](https://en.wikipedia.org/wiki/Desid%C3%A9rio_Murcho)
+- [Thomas Nagel](https://en.wikipedia.org/wiki/Thomas_Nagel)
+- [Stephen Law](https://en.wikipedia.org/wiki/Stephen_Law)
+- [Vitor Lima](https://www.istonaoefilosofia.com.br/)
+- [Stephen Downes](https://en.wikipedia.org/wiki/Stephen_Downes)
+- [Peter Gibson](https://www.philosophyideas.com/)
+- [Mario Sergio Cortella](https://en.wikipedia.org/wiki/Mario_Sergio_Cortella)
+- [Clóvis de Barros Filho](https://pt.wikipedia.org/wiki/Cl%C3%B3vis_de_Barros_Filho)
+- [Marilena Chaui](https://en.wikipedia.org/wiki/Marilena_Chaui)
+- [Robert Todd Carroll](https://en.wikipedia.org/wiki/Robert_Todd_Carroll) 🪦
+- [David Chalmers](https://en.wikipedia.org/wiki/David_Chalmers)
+- [David Bourget](https://scholar.google.com/scholar?q=%22David+Bourget%22)
+
+## Divulgação linguística
+
+### Projetos
+
+- [Língua Ciência](https://open.spotify.com/show/7dC5BqjXhOnIJewrDcNfOD)
+- [Etimosofia](https://www.youtube.com/@etimosofia)
+- [Ethnologue](https://www.ethnologue.com/)
+- [Glottolog](https://glottolog.org/)
+- [WALS (World Atlas of Language Structures)](https://wals.info/)
+
+### Pessoas
+
+- [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky) ★
+- [David Crystal](https://en.wikipedia.org/wiki/David_Crystal)
+- [Lila Gleitman](https://en.wikipedia.org/wiki/Lila_Gleitman) 🪦
+- [William Labov](https://en.wikipedia.org/wiki/William_Labov) 🪦
+- [William Stokoe](https://en.wikipedia.org/wiki/William_Stokoe) 🪦
+- [Joan Bybee](https://en.wikipedia.org/wiki/Joan_Bybee)
+- [Con Slobodchikoff](https://en.wikipedia.org/wiki/Con_Slobodchikoff)
+- [Michael Halliday](https://en.wikipedia.org/wiki/Michael_Halliday) 🪦
+- [Daniel Everett](https://en.wikipedia.org/wiki/Daniel_Everett)
+- [Martin Haspelmath](https://en.wikipedia.org/wiki/Martin_Haspelmath)
+- [Edward Sapir](https://en.wikipedia.org/wiki/Edward_Sapir) 🪦
+- [Benjamin Lee Whorf](https://en.wikipedia.org/wiki/Benjamin_Lee_Whorf) 🪦
+- [Roman Jakobson](https://en.wikipedia.org/wiki/Roman_Jakobson) 🪦
+- [Joseph Greenberg](https://en.wikipedia.org/wiki/Joseph_Greenberg) 🪦
+- [George Lakoff](https://en.wikipedia.org/wiki/George_Lakoff)
+- [Anna Wierzbicka](https://en.wikipedia.org/wiki/Anna_Wierzbicka)
+- [Nicholas Evans](https://en.wikipedia.org/wiki/Nicholas_Evans_(linguist))
+- [Joaquim Mattoso Câmara Jr.](https://pt.wikipedia.org/wiki/Mattoso_C%C3%A2mara) 🪦
+- [Ferdinand de Saussure](https://en.wikipedia.org/wiki/Ferdinand_de_Saussure) ★ 🪦
+- [John McWhorter](https://en.wikipedia.org/wiki/John_McWhorter)
+- [Marcos Bagno](https://pt.wikipedia.org/wiki/Marcos_Bagno)
+
+## Ciência e ceticismo
+
+### Ceticismo científico
+
+- [Committee for Skeptical Inquiry](https://skepticalinquirer.org/) ★
+- [Skeptical Inquirer](https://skepticalinquirer.org/) ★
+- [Center for Inquiry](https://centerforinquiry.org/)
+- [The Skeptics Society](https://www.skeptic.com/)
+- [Skeptic (revista)](https://www.skeptic.com/magazine/)
+- [James Randi Educational Foundation](https://web.randi.org/)
+- [Instituto Questão de Ciência](https://iqc.org.br/)
+- [Retraction Watch](https://retractionwatch.com/)
+- [The Skeptics' Guide to the Universe](https://www.theskepticsguide.org/)
+
+### Pesquisa e dados científicos
+
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) ★
+- [Google Scholar](https://scholar.google.com/) ★
+- [SciELO](https://scielo.org/) ★
+- [Cochrane Library](https://www.cochranelibrary.com/)
+- [Semantic Scholar](https://www.semanticscholar.org/)
+- [arXiv](https://arxiv.org/)
+- [Open Science Framework](https://osf.io/)
+- [PubPeer](https://pubpeer.com/)
+- [Connected Papers](https://www.connectedpapers.com/)
+- [Elicit](https://elicit.com/)
+- [Consensus](https://consensus.app/)
+- [Our World in Data](https://ourworldindata.org/)
+- [Gapminder](https://www.gapminder.org/)
+
+### Checagem de fatos
+
+- [Snopes](https://www.snopes.com/)
+- [Full Fact](https://fullfact.org/)
+- [Agência Lupa](https://www.agencialupa.org/)
+- [Aos Fatos](https://www.aosfatos.org/)
+- [FactCheck.org](https://www.factcheck.org/)
+- [PolitiFact](https://www.politifact.com/)
+- [Google Fact Check Explorer](https://toolbox.google.com/factcheck/explorer)
+- [Boatos.org](https://www.boatos.org/)
+- [E-farsas](https://www.e-farsas.com/)
+- [Projeto Comprova](https://projetocomprova.com.br/)
+- [AFP Fact Check](https://factcheck.afp.com/)
+- [Reuters Fact Check](https://www.reuters.com/fact-check/)
+- [Maldita.es (Espanha)](https://maldita.es/)
+- [Chequeado (Argentina)](https://chequeado.com/)
+- [Correctiv (Alemanha)](https://correctiv.org/faktencheck/)
+- [Africa Check](https://africacheck.org/)
+- [BOOM (Índia)](https://www.boomlive.in/)
+- [Roundcheck (Nigéria)](https://roundcheck.com.ng/)
+- [FactCheckHub (Nigéria)](https://factcheckhub.com/)
+- [ABC News Fact Check (Austrália)](https://www.abc.net.au/news/factcheck)
+- [AAP FactCheck (Austrália)](https://www.aap.com.au/factcheck/)
+- [Annie Lab (Hong Kong)](https://annielab.org/)
+- [China Fact Check / 有据 (China)](https://chinafactcheck.com/)
+- [Factcheck Lab (Hong Kong)](https://www.factchecklab.org/)
+- [Media Bias/Fact Check](https://mediabiasfactcheck.com/)
+
+## Podcasts
+
+### Internacionais
+
+- [Rationally Speaking](https://rationallyspeakingpodcast.org/)
+- [Very Bad Wizards](https://www.verybadwizards.com/)
+- [Philosophy Bites](https://philosophybites.com/)
+- [The Skeptics' Guide to the Universe](https://www.theskepticsguide.org/)
+- [Making Sense](https://www.samharris.org/podcasts)
+- [80,000 Hours Podcast](https://80000hours.org/podcast/)
+- [Hidden Brain](https://hiddenbrain.org/)
+- [Freakonomics Radio](https://freakonomics.com/)
+- [More or Less](https://www.bbc.co.uk/programmes/b006qshd)
+- [EconTalk](https://www.econtalk.org/)
+- [Conversations with Tyler](https://conversationswithtyler.com/)
+- [Dwarkesh Podcast](https://www.dwarkesh.com/)
+
+### Brasil
+
+- [Naruhodo!](https://www.b9.com.br/shows/naruhodo/) ★
+- [Ciência Suja](https://www.cienciasuja.com.br/) ★
+- [Dragões de Garagem](https://dragoesdegaragem.com/)
+- [PBECast](https://institutodepbe.com.br/pbecast/)
+- [Fronteiras da Ciência](https://www.ufrgs.br/luminapodcasts/site/index/fronteiras-da-ciencia)

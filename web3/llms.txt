@@ -1,0 +1,707 @@
+# A Biblioteca de Web3
+
+> Catálogo pesquisável de Web3: conceitos de blockchain, criptomoedas, DeFi, corretoras, carteiras, NFTs, ferramentas, regulação, pessoas e história.
+
+Biblioteca temática da BiblioVerse (The Web3 Library), com curadoria humana. Página: https://biblioverse.org/web3/ · 472 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Blockchain e consenso
+
+- [Blockchain](https://en.wikipedia.org/wiki/Blockchain) ★
+- [Livro-razão distribuído](https://en.wikipedia.org/wiki/Distributed_ledger)
+- [Consenso distribuído](https://en.wikipedia.org/wiki/Consensus_(computer_science))
+- [Prova de trabalho](https://en.wikipedia.org/wiki/Proof_of_work) ★
+- [Prova de participação](https://en.wikipedia.org/wiki/Proof_of_stake) ★
+- [Falha bizantina](https://en.wikipedia.org/wiki/Byzantine_fault)
+- [Gasto duplo](https://en.wikipedia.org/wiki/Double-spending)
+- [Mineração](https://en.wikipedia.org/wiki/Cryptocurrency_mining)
+- [Fork](https://en.wikipedia.org/wiki/Fork_(blockchain))
+- [Contrato inteligente](https://en.wikipedia.org/wiki/Smart_contract) ★
+- [Aplicação descentralizada (dApp)](https://en.wikipedia.org/wiki/Decentralized_application)
+- [Oráculo](https://en.wikipedia.org/wiki/Blockchain_oracle)
+
+### Criptografia e segurança
+
+- [Função hash criptográfica](https://en.wikipedia.org/wiki/Cryptographic_hash_function) ★
+- [Criptografia de chave pública](https://en.wikipedia.org/wiki/Public-key_cryptography) ★
+- [Assinatura digital](https://en.wikipedia.org/wiki/Digital_signature)
+- [Criptografia de curvas elípticas](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
+- [Árvore de Merkle](https://en.wikipedia.org/wiki/Merkle_tree)
+- [Prova de conhecimento zero](https://en.wikipedia.org/wiki/Zero-knowledge_proof) ★
+- [Carteira de criptomoedas](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)
+
+### Tokens e ativos digitais
+
+- [Criptomoeda](https://en.wikipedia.org/wiki/Cryptocurrency) ★
+- [Token ERC-20](https://en.wikipedia.org/wiki/ERC-20)
+- [Token ERC-721](https://en.wikipedia.org/wiki/ERC-721)
+- [Token não fungível (NFT)](https://en.wikipedia.org/wiki/Non-fungible_token) ★
+- [Stablecoin](https://en.wikipedia.org/wiki/Stablecoin) ★
+- [Oferta de security tokens (STO)](https://en.wikipedia.org/wiki/Security_token_offering)
+- [Tokenomics](https://en.wikipedia.org/wiki/Tokenomics)
+- [Airdrop](https://en.wikipedia.org/wiki/Airdrop_(cryptocurrency))
+- [Oferta inicial de moedas (ICO)](https://en.wikipedia.org/wiki/Initial_coin_offering)
+
+### Mercado e cultura cripto
+
+- [Web3](https://en.wikipedia.org/wiki/Web3) ★
+- [Cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) ★
+- [Criptoanarquismo](https://en.wikipedia.org/wiki/Crypto-anarchism)
+- [Organização autônoma descentralizada (DAO)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) ★
+- [Metaverso](https://en.wikipedia.org/wiki/Metaverse)
+- [Bolha das criptomoedas](https://en.wikipedia.org/wiki/Cryptocurrency_bubble)
+- [Capitalização de mercado](https://en.wikipedia.org/wiki/Market_capitalization)
+- [Halving do Bitcoin](https://en.wikipedia.org/wiki/Bitcoin_halving)
+- [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out)
+
+### Golpes e ataques
+
+- [Rug pull](https://en.wikipedia.org/wiki/Rug_pull) ★
+- [Pump and dump](https://en.wikipedia.org/wiki/Pump_and_dump)
+- [Esquema Ponzi](https://en.wikipedia.org/wiki/Ponzi_scheme)
+- [Phishing](https://en.wikipedia.org/wiki/Phishing)
+- [Ataque de 51%](https://en.wikipedia.org/wiki/51%25_attack)
+- [Ataque Sybil](https://en.wikipedia.org/wiki/Sybil_attack)
+- [Golpe do abate de porcos](https://en.wikipedia.org/wiki/Pig_butchering_scam)
+- [Cryptojacking](https://en.wikipedia.org/wiki/Cryptojacking)
+- [Front running](https://en.wikipedia.org/wiki/Front_running)
+- [Wash trading](https://en.wikipedia.org/wiki/Wash_trade)
+
+## Criptomoedas
+
+### Principais
+
+- [Bitcoin](https://bitcoin.org/) ★
+- [Ethereum](https://ethereum.org/) ★
+- [XRP](https://xrpl.org/)
+- [BNB](https://www.bnbchain.org/)
+- [Solana](https://solana.com/) ★
+- [Cardano](https://cardano.org/)
+- [TRON](https://tron.network/)
+- [Litecoin](https://litecoin.org/)
+- [Bitcoin Cash](https://bitcoincash.org/)
+- [Stellar](https://stellar.org/)
+- [Toncoin](https://ton.org/)
+
+### Stablecoins
+
+- [Tether (USDT)](https://tether.to/) ★
+- [USD Coin (USDC)](https://www.circle.com/usdc) ★
+- [USDS (antiga DAI)](https://sky.money/)
+- [Ethena USDe](https://ethena.fi/)
+- [PayPal USD (PYUSD)](https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd)
+- [Euro Coin (EURC)](https://www.circle.com/eurc)
+- [Frax](https://frax.com/)
+- [TerraUSD (UST)](https://en.wikipedia.org/wiki/Terra_(blockchain)) 🪦
+- [Diem (Libra)](https://en.wikipedia.org/wiki/Diem_(digital_currency)) 🪦
+
+### Privacidade
+
+- [Monero](https://www.getmonero.org/) ★
+- [Zcash](https://z.cash/)
+- [Tornado Cash](https://en.wikipedia.org/wiki/Tornado_Cash)
+- [Railgun](https://railgun.org/)
+- [Aztec](https://aztec.network/)
+
+### Memecoins
+
+- [Dogecoin](https://dogecoin.com/) ★
+- [Shiba Inu](https://shib.io/)
+- [Pepe](https://www.pepe.vip/)
+- [Bonk](https://bonkcoin.com/)
+- [pump.fun](https://pump.fun/)
+
+## Blockchains
+
+### Layer 1
+
+- [Avalanche](https://www.avalanche.com/)
+- [Sui](https://sui.io/)
+- [Aptos](https://aptosfoundation.org/)
+- [NEAR](https://near.org/)
+- [Algorand](https://algorand.co/)
+- [Tezos](https://tezos.com/)
+- [Hedera](https://hedera.com/)
+- [Ethereum Classic](https://ethereumclassic.org/)
+- [Internet Computer](https://internetcomputer.org/)
+- [Kaspa](https://kaspa.org/)
+
+### Layer 2 e rollups
+
+- [Arbitrum](https://arbitrum.io/) ★
+- [Optimism](https://www.optimism.io/)
+- [Base](https://www.base.org/) ★
+- [zkSync](https://www.zksync.io/)
+- [Starknet](https://www.starknet.io/)
+- [Polygon](https://polygon.technology/)
+- [Scroll](https://scroll.io/)
+- [Linea](https://linea.build/)
+- [Lightning Network](https://lightning.network/) ★
+- [Stacks](https://www.stacks.co/)
+
+### Interoperabilidade e oráculos
+
+- [Polkadot](https://polkadot.com/)
+- [Cosmos](https://cosmos.network/)
+- [Chainlink](https://chain.link/) ★
+- [Pyth Network](https://www.pyth.network/)
+- [Wormhole](https://wormhole.com/)
+- [LayerZero](https://layerzero.network/)
+- [Axelar](https://www.axelar.network/)
+- [Celestia](https://celestia.org/)
+
+## DeFi
+
+### Conceitos DeFi
+
+- [Finanças descentralizadas (DeFi)](https://en.wikipedia.org/wiki/Decentralized_finance) ★
+- [Exchange descentralizada (DEX)](https://en.wikipedia.org/wiki/Decentralized_exchange)
+- [Formador de mercado automatizado (AMM)](https://en.wikipedia.org/wiki/Constant_function_market_maker)
+- [Contratos perpétuos](https://en.wikipedia.org/wiki/Perpetual_futures)
+
+### Exchanges descentralizadas (DEX)
+
+- [Uniswap](https://uniswap.org/) ★
+- [Curve](https://www.curve.finance/)
+- [PancakeSwap](https://pancakeswap.finance/)
+- [Balancer](https://balancer.fi/)
+- [SushiSwap](https://www.sushi.com/)
+- [Jupiter](https://jup.ag/)
+- [Raydium](https://raydium.io/)
+- [Orca](https://www.orca.so/)
+- [Aerodrome](https://aerodrome.finance/)
+- [THORChain](https://thorchain.org/)
+- [CoW Swap](https://cow.fi/)
+
+### Empréstimos
+
+- [Aave](https://aave.com/) ★
+- [Compound](https://compound.finance/)
+- [Morpho](https://morpho.org/)
+- [Spark](https://spark.finance/)
+- [Kamino](https://kamino.com/)
+- [Euler](https://www.euler.finance/)
+- [Liquity](https://www.liquity.org/)
+- [Sky (antiga MakerDAO)](https://sky.money/)
+
+### Staking e restaking
+
+- [Lido](https://lido.fi/) ★
+- [Rocket Pool](https://rocketpool.net/)
+- [EigenLayer (EigenCloud)](https://www.eigencloud.xyz/)
+- [ether.fi](https://www.ether.fi/)
+- [Jito](https://www.jito.network/)
+- [Marinade](https://marinade.finance/)
+
+### Derivativos e mercados de previsão
+
+- [Hyperliquid](https://hyperliquid.xyz/) ★
+- [dYdX](https://www.dydx.xyz/)
+- [GMX](https://gmx.io/)
+- [Synthetix](https://synthetix.io/)
+- [Drift](https://www.drift.trade/)
+- [Polymarket](https://polymarket.com/) ★
+- [Augur](https://en.wikipedia.org/wiki/Augur_(software)) 🪦
+
+### Agregadores e rendimento
+
+- [1inch](https://1inch.com/)
+- [Matcha](https://matcha.xyz/)
+- [LI.FI](https://li.fi/)
+- [Jumper](https://jumper.xyz/)
+- [Yearn](https://yearn.fi/)
+- [Pendle](https://www.pendle.finance/)
+- [Convex](https://www.convexfinance.com/)
+- [Beefy](https://beefy.com/)
+
+## Corretoras
+
+### Internacionais
+
+- [Binance](https://www.binance.com/) ★
+- [Coinbase](https://www.coinbase.com/) ★
+- [Kraken](https://www.kraken.com/) ★
+- [OKX](https://www.okx.com/)
+- [Bybit](https://www.bybit.com/)
+- [Bitget](https://www.bitget.com/)
+- [KuCoin](https://www.kucoin.com/)
+- [Gemini](https://www.gemini.com/)
+- [Bitstamp](https://www.bitstamp.net/)
+- [Crypto.com](https://crypto.com/)
+- [Bitfinex](https://www.bitfinex.com/)
+- [Upbit](https://upbit.com/)
+
+### Brasil e América Latina
+
+- [Mercado Bitcoin](https://www.mercadobitcoin.com.br/) ★
+- [Foxbit](https://foxbit.com.br/)
+- [NovaDAX](https://www.novadax.com.br/)
+- [Bitypreço](https://bitypreco.com/)
+- [Mynt (BTG Pactual)](https://www.mynt.com.br/)
+- [Nubank Cripto](https://nubank.com.br/sobre-cripto)
+- [Ripio](https://www.ripio.com/)
+- [Bitso](https://bitso.com/)
+
+### Encerradas
+
+- [FTX](https://en.wikipedia.org/wiki/FTX) 🪦
+- [Mt. Gox](https://en.wikipedia.org/wiki/Mt._Gox) 🪦
+- [QuadrigaCX](https://en.wikipedia.org/wiki/QuadrigaCX) 🪦
+- [BlockFi](https://en.wikipedia.org/wiki/BlockFi) 🪦
+- [Voyager Digital](https://en.wikipedia.org/wiki/Voyager_Digital) 🪦
+- [BTC-e](https://en.wikipedia.org/wiki/BTC-e) 🪦
+- [Cryptopia](https://en.wikipedia.org/wiki/Cryptopia) 🪦
+
+## Carteiras
+
+### Autocustódia
+
+- [MetaMask](https://metamask.io/) ★
+- [Phantom](https://phantom.com/) ★
+- [Rabby](https://rabby.io/)
+- [Trust Wallet](https://trustwallet.com/)
+- [Rainbow](https://rainbow.me/)
+- [Exodus](https://www.exodus.com/)
+- [Zerion](https://zerion.io/)
+- [Safe (multisig)](https://safe.global/) ★
+- [Keplr](https://www.keplr.app/)
+- [Backpack](https://backpack.app/)
+
+### Hardware
+
+- [Ledger](https://www.ledger.com/) ★
+- [Trezor](https://trezor.io/) ★
+- [Keystone](https://keyst.one/)
+- [BitBox](https://bitbox.swiss/)
+- [Coldcard](https://coldcard.com/)
+- [Tangem](https://tangem.com/)
+- [GridPlus Lattice1](https://gridplus.io/)
+- [Foundation Passport](https://foundation.xyz/)
+- [Blockstream Jade](https://blockstream.com/jade/)
+
+### Bitcoin
+
+- [Bitcoin Core](https://bitcoincore.org/) ★
+- [Sparrow](https://sparrowwallet.com/) ★
+- [Electrum](https://electrum.org/)
+- [BlueWallet](https://bluewallet.io/)
+- [Wasabi Wallet](https://wasabiwallet.io/)
+- [Nunchuk](https://nunchuk.io/)
+- [Phoenix](https://phoenix.acinq.co/)
+- [Muun](https://muun.com/)
+- [Breez](https://breez.technology/)
+- [Wallet of Satoshi](https://www.walletofsatoshi.com/)
+- [Samourai Wallet](https://en.wikipedia.org/wiki/Samourai_Wallet) 🪦
+
+## NFTs e metaverso
+
+### Marketplaces
+
+- [OpenSea](https://opensea.io/) ★
+- [Blur](https://blur.io/)
+- [Magic Eden](https://magiceden.io/)
+- [Rarible](https://rarible.com/)
+- [SuperRare](https://superrare.com/)
+- [Zora](https://zora.co/)
+- [Tensor](https://www.tensor.trade/)
+- [objkt](https://objkt.com/)
+
+### Coleções icônicas
+
+- [CryptoPunks](https://cryptopunks.app/) ★
+- [Bored Ape Yacht Club](https://boredapeyachtclub.com/)
+- [Art Blocks](https://www.artblocks.io/) ★
+- [Azuki](https://www.azuki.com/)
+- [Pudgy Penguins](https://pudgypenguins.com/)
+- [Nouns](https://nouns.wtf/)
+- [CryptoKitties](https://www.cryptokitties.co/)
+
+### Games Web3 e metaverso
+
+- [Axie Infinity](https://axieinfinity.com/)
+- [The Sandbox](https://www.sandbox.game/)
+- [Decentraland](https://decentraland.org/)
+- [Gods Unchained](https://godsunchained.com/)
+- [Sorare](https://sorare.com/)
+- [Immutable](https://www.immutable.com/)
+
+## Dados e análise
+
+### Exploradores de blocos
+
+- [Etherscan](https://etherscan.io/) ★
+- [mempool.space](https://mempool.space/) ★
+- [Solscan](https://solscan.io/)
+- [Blockchair](https://blockchair.com/)
+- [Blockchain.com Explorer](https://www.blockchain.com/explorer)
+- [Mintscan](https://www.mintscan.io/)
+- [Subscan](https://www.subscan.io/)
+- [Cardanoscan](https://cardanoscan.io/)
+
+### Preços e mercado
+
+- [CoinGecko](https://www.coingecko.com/) ★
+- [CoinMarketCap](https://coinmarketcap.com/) ★
+- [TradingView](https://www.tradingview.com/)
+- [Messari](https://messari.io/)
+
+### Análise on-chain e DeFi
+
+- [DefiLlama](https://defillama.com/) ★
+- [Dune](https://dune.com/) ★
+- [L2BEAT](https://l2beat.com/) ★
+- [Nansen](https://www.nansen.ai/)
+- [Glassnode](https://glassnode.com/)
+- [Token Terminal](https://tokenterminal.com/)
+- [Artemis](https://www.artemis.xyz/)
+- [Arkham](https://arkm.com/)
+- [ultrasound.money](https://ultrasound.money/)
+- [growthepie](https://www.growthepie.com/)
+
+## Desenvolvimento
+
+### Linguagens e frameworks
+
+- [Solidity](https://soliditylang.org/) ★
+- [Vyper](https://vyperlang.org/)
+- [Hardhat](https://hardhat.org/) ★
+- [Foundry](https://getfoundry.sh/) ★
+- [Remix IDE](https://remix.ethereum.org/)
+- [Anchor (Solana)](https://www.anchor-lang.com/)
+- [Scaffold-ETH](https://scaffoldeth.io/)
+
+### Bibliotecas e SDKs
+
+- [OpenZeppelin](https://www.openzeppelin.com/) ★
+- [ethers.js](https://docs.ethers.org/)
+- [viem](https://viem.sh/)
+- [wagmi](https://wagmi.sh/)
+- [thirdweb](https://thirdweb.com/)
+
+### Infraestrutura e nós
+
+- [Alchemy](https://www.alchemy.com/)
+- [Infura](https://www.infura.io/)
+- [QuickNode](https://www.quicknode.com/)
+- [The Graph](https://thegraph.com/)
+- [Tenderly](https://tenderly.co/)
+- [Geth](https://geth.ethereum.org/)
+
+### Armazenamento descentralizado
+
+- [IPFS](https://ipfs.tech/) ★
+- [Filecoin](https://filecoin.io/)
+- [Arweave](https://arweave.org/)
+- [Storj](https://www.storj.io/)
+- [Sia](https://sia.tech/)
+- [Swarm](https://www.ethswarm.org/)
+
+## Identidade e social
+
+### Nomes e identidade
+
+- [ENS (Ethereum Name Service)](https://ens.domains/) ★
+- [Unstoppable Domains](https://unstoppabledomains.com/)
+- [Sign-In with Ethereum](https://login.xyz/)
+- [World (Worldcoin)](https://world.org/)
+- [Identidade autossoberana](https://en.wikipedia.org/wiki/Self-sovereign_identity)
+
+### Redes sociais descentralizadas
+
+- [Farcaster](https://farcaster.xyz/) ★
+- [Lens](https://lens.xyz/)
+- [Nostr](https://nostr.com/) ★
+- [Damus](https://damus.io/)
+
+## Segurança e auditoria
+
+### Auditorias e pesquisa
+
+- [Trail of Bits](https://www.trailofbits.com/) ★
+- [CertiK](https://www.certik.com/)
+- [Consensys Diligence](https://diligence.security/)
+- [Cantina (Spearbit)](https://www.cantina.security/)
+- [Code4rena](https://code4rena.com/)
+- [Sherlock](https://www.sherlock.xyz/)
+- [Immunefi](https://immunefi.com/)
+- [SlowMist](https://www.slowmist.com/)
+
+### Rastreamento e investigação
+
+- [Chainalysis](https://www.chainalysis.com/) ★
+- [Elliptic](https://www.elliptic.co/)
+- [TRM Labs](https://www.trmlabs.com/)
+- [rekt.news](https://rekt.news/)
+- [Web3 Is Going Just Great](https://www.web3isgoinggreat.com/) ★
+
+### Ferramentas de proteção
+
+- [Revoke.cash](https://revoke.cash/) ★
+- [Scam Sniffer](https://www.scamsniffer.io/)
+- [Chainabuse](https://www.chainabuse.com/)
+
+## Investimento institucional
+
+### ETFs e gestoras
+
+- [iShares Bitcoin Trust (IBIT)](https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf) ★
+- [Grayscale](https://www.grayscale.com/)
+- [Fidelity Digital Assets](https://www.fidelitydigitalassets.com/)
+- [Hashdex](https://www.hashdex.com/)
+
+### Fundos de venture
+
+- [a16z crypto](https://a16zcrypto.com/) ★
+- [Paradigm](https://www.paradigm.xyz/)
+- [Pantera Capital](https://panteracapital.com/)
+- [Multicoin Capital](https://multicoin.capital/)
+
+### Empresas
+
+- [Circle](https://www.circle.com/)
+- [Tether](https://tether.io/)
+- [Strategy (MicroStrategy)](https://www.strategy.com/)
+- [Galaxy Digital](https://www.galaxy.com/)
+- [Consensys](https://consensys.com/)
+- [Ripple](https://ripple.com/)
+- [Blockstream](https://blockstream.com/)
+- [Three Arrows Capital](https://en.wikipedia.org/wiki/Three_Arrows_Capital) 🪦
+
+## Regulação e CBDCs
+
+### Moedas digitais de bancos centrais
+
+- [Moeda digital de banco central (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) ★
+- [CBDCs por país](https://en.wikipedia.org/wiki/Central_bank_digital_currencies_by_country)
+- [Drex (Brasil)](https://www.bcb.gov.br/estabilidadefinanceira/drex)
+- [Yuan digital (e-CNY)](https://en.wikipedia.org/wiki/Digital_renminbi)
+- [Euro digital](https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html)
+- [eNaira](https://en.wikipedia.org/wiki/ENaira)
+
+### Leis e regulação
+
+- [MiCA (União Europeia)](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) ★
+- [GENIUS Act (EUA)](https://en.wikipedia.org/wiki/GENIUS_Act)
+- [Bitcoin em El Salvador](https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+- [Criptomoedas no Brasil](https://pt.wikipedia.org/wiki/Criptomoedas_no_Brasil)
+- [Teste de Howey](https://en.wikipedia.org/wiki/SEC_v._W._J._Howey_Co.)
+
+### Órgãos e associações
+
+- [SEC](https://www.sec.gov/)
+- [CFTC](https://www.cftc.gov/)
+- [CVM](https://www.gov.br/cvm/)
+- [Banco Central do Brasil](https://www.bcb.gov.br/)
+- [GAFI/FATF](https://www.fatf-gafi.org/)
+- [ABCripto](https://www.abcripto.com.br/)
+- [Coin Center](https://www.coincenter.org/)
+- [Blockchain Association](https://theblockchainassociation.org/)
+
+## Organizações e fundações
+
+### Fundações
+
+- [Ethereum Foundation](https://ethereum.foundation/) ★
+- [Solana Foundation](https://solana.org/)
+- [Web3 Foundation](https://web3.foundation/)
+- [Cardano Foundation](https://cardanofoundation.org/)
+- [Zcash Foundation](https://zfnd.org/)
+- [Uniswap Foundation](https://www.uniswapfoundation.org/)
+- [Linux Foundation Decentralized Trust](https://www.lfdecentralizedtrust.org/)
+- [Enterprise Ethereum Alliance](https://entethalliance.org/)
+
+### Financiamento de código aberto
+
+- [Gitcoin](https://www.gitcoin.co/) ★
+- [OpenSats](https://opensats.org/)
+- [Brink](https://brink.dev/)
+- [Protocol Labs](https://pl.xyz/)
+
+## Notícias e mídia
+
+### Internacionais
+
+- [CoinDesk](https://www.coindesk.com/) ★
+- [The Block](https://www.theblock.co/) ★
+- [Decrypt](https://decrypt.co/)
+- [Cointelegraph](https://cointelegraph.com/)
+- [Blockworks](https://blockworks.com/)
+- [The Defiant](https://thedefiant.io/)
+- [Bitcoin Magazine](https://bitcoinmagazine.com/)
+- [Protos](https://protos.com/)
+- [DL News](https://www.dlnews.com/)
+- [Citation Needed (Molly White)](https://www.citationneeded.news/)
+
+### Brasil
+
+- [Livecoins](https://livecoins.com.br/) ★
+- [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/) ★
+- [Cointelegraph Brasil](https://cointelegraph.com.br/)
+- [CriptoFácil](https://www.criptofacil.com/)
+- [BlockTrends](https://blocktrends.com.br/)
+- [Exame Future of Money](https://exame.com/future-of-money/)
+
+## Podcasts e canais
+
+### Podcasts
+
+- [Bankless](https://www.bankless.com/) ★
+- [Unchained](https://unchainedcrypto.com/) ★
+- [What Bitcoin Did](https://www.whatbitcoindid.com/)
+- [Empire](https://blockworks.com/podcast/empire)
+- [Epicenter](https://epicenter.tv/)
+- [Zero Knowledge Podcast](https://zeroknowledge.fm/)
+- [Stephan Livera Podcast](https://stephanlivera.com/)
+
+### Canais de vídeo
+
+- [Coin Bureau](https://www.youtube.com/@CoinBureau)
+- [Finematics](https://www.youtube.com/@Finematics) ★
+- [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto)
+- [aantonop](https://www.youtube.com/@aantonop)
+- [Patrick Collins](https://www.youtube.com/@PatrickAlphaC)
+- [Smart Contract Programmer](https://www.youtube.com/@smartcontractprogrammer)
+- [Dapp University](https://www.youtube.com/@DappUniversity)
+- [3Blue1Brown - Como o Bitcoin funciona?](https://www.youtube.com/watch?v=bBC-nXj3Ng4) ★
+- [Augusto Backes](https://www.youtube.com/@augustobackes)
+- [Investidor 4.20](https://www.youtube.com/@investidor4.20)
+
+## Educação
+
+### Cursos e guias
+
+- [ethereum.org (Aprenda)](https://ethereum.org/en/learn/) ★
+- [Learn Me A Bitcoin](https://learnmeabitcoin.com/) ★
+- [CryptoZombies](https://cryptozombies.io/)
+- [Cyfrin Updraft](https://updraft.cyfrin.io/)
+- [Alchemy University](https://www.alchemy.com/university)
+- [Speedrun Ethereum](https://speedrunethereum.com/)
+- [Solidity by Example](https://solidity-by-example.org/)
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+- [Binance Academy](https://academy.binance.com/)
+- [Coinbase Learn](https://www.coinbase.com/learn)
+- [MIT - Blockchain and Money](https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/)
+- [Princeton - Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency)
+
+### Whitepapers e documentos fundamentais
+
+- [Satoshi Nakamoto - Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) ★
+- [Vitalik Buterin - Ethereum Whitepaper](https://ethereum.org/en/whitepaper/) ★
+- [Gavin Wood - Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [Wei Dai - b-money](https://www.weidai.com/bmoney.txt)
+- [Nick Szabo - Bit Gold](https://unenumerated.blogspot.com/2005/12/bit-gold.html)
+- [Poon & Dryja - The Bitcoin Lightning Network](https://lightning.network/lightning-network-paper.pdf)
+- [Anatoly Yakovenko - Solana Whitepaper](https://solana.com/solana-whitepaper.pdf)
+- [Timothy C. May - The Crypto Anarchist Manifesto](https://en.wikipedia.org/wiki/Crypto-anarchism)
+- [Eric Hughes - A Cypherpunk's Manifesto](https://en.wikipedia.org/wiki/Cypherpunk)
+
+## Livros
+
+### Bitcoin
+
+- [Andreas Antonopoulos - Mastering Bitcoin](https://www.goodreads.com/search?q=Andreas+Antonopoulos+Mastering+Bitcoin) ★
+- [Saifedean Ammous - The Bitcoin Standard](https://en.wikipedia.org/wiki/The_Bitcoin_Standard)
+- [Nathaniel Popper - Digital Gold](https://www.goodreads.com/search?q=Nathaniel+Popper+Digital+Gold)
+- [Jonathan Bier - The Blocksize War](https://www.goodreads.com/search?q=Jonathan+Bier+The+Blocksize+War)
+- [Fernando Ulrich - Bitcoin: A Moeda na Era Digital](https://www.goodreads.com/search?q=Fernando+Ulrich+Bitcoin+a+moeda+na+era+digital)
+- [Narayanan et al. - Bitcoin and Cryptocurrency Technologies](https://www.goodreads.com/search?q=Bitcoin+and+Cryptocurrency+Technologies+Narayanan)
+
+### Ethereum e Web3
+
+- [Antonopoulos & Wood - Mastering Ethereum](https://www.goodreads.com/search?q=Mastering+Ethereum+Antonopoulos+Wood) ★
+- [Camila Russo - The Infinite Machine](https://www.goodreads.com/search?q=Camila+Russo+The+Infinite+Machine)
+- [Chris Dixon - Read Write Own](https://www.goodreads.com/search?q=Chris+Dixon+Read+Write+Own)
+- [Don & Alex Tapscott - Blockchain Revolution](https://www.goodreads.com/search?q=Tapscott+Blockchain+Revolution)
+- [Vigna & Casey - The Age of Cryptocurrency](https://www.goodreads.com/search?q=The+Age+of+Cryptocurrency+Vigna+Casey)
+
+### História e escândalos
+
+- [Laura Shin - The Cryptopians](https://www.goodreads.com/search?q=Laura+Shin+The+Cryptopians) ★
+- [Zeke Faux - Number Go Up](https://en.wikipedia.org/wiki/Number_Go_Up)
+- [Michael Lewis - Going Infinite](https://en.wikipedia.org/wiki/Going_Infinite)
+- [Ben Mezrich - Bitcoin Billionaires](https://en.wikipedia.org/wiki/Bitcoin_Billionaires)
+- [Andy Greenberg - Tracers in the Dark](https://www.goodreads.com/search?q=Andy+Greenberg+Tracers+in+the+Dark)
+- [Finn Brunton - Digital Cash](https://www.goodreads.com/search?q=Finn+Brunton+Digital+Cash)
+- [David Gerard - Attack of the 50 Foot Blockchain](https://www.goodreads.com/search?q=David+Gerard+Attack+of+the+50+Foot+Blockchain)
+
+## Pessoas
+
+### Pioneiros e cypherpunks
+
+- [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) ★
+- [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)) 🪦
+- [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo)
+- [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai)
+- [David Chaum](https://en.wikipedia.org/wiki/David_Chaum)
+- [Adam Back](https://en.wikipedia.org/wiki/Adam_Back)
+- [Timothy C. May](https://en.wikipedia.org/wiki/Timothy_C._May) 🪦
+- [Eric Hughes](https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk))
+- [Ralph Merkle](https://en.wikipedia.org/wiki/Ralph_Merkle)
+- [Gavin Andresen](https://en.wikipedia.org/wiki/Gavin_Andresen)
+
+### Fundadores e criadores
+
+- [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) ★
+- [Gavin Wood](https://en.wikipedia.org/wiki/Gavin_Wood)
+- [Joseph Lubin](https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur))
+- [Charles Hoskinson](https://en.wikipedia.org/wiki/Charles_Hoskinson)
+- [Anatoly Yakovenko](https://en.wikipedia.org/wiki/Anatoly_Yakovenko)
+- [Changpeng Zhao](https://en.wikipedia.org/wiki/Changpeng_Zhao)
+- [Brian Armstrong](https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman))
+- [Jed McCaleb](https://en.wikipedia.org/wiki/Jed_McCaleb)
+- [Silvio Micali](https://en.wikipedia.org/wiki/Silvio_Micali)
+- [Emin Gün Sirer](https://en.wikipedia.org/wiki/Emin_G%C3%BCn_Sirer)
+- [Winklevoss twins](https://en.wikipedia.org/wiki/Winklevoss_twins)
+- [Jack Dorsey](https://en.wikipedia.org/wiki/Jack_Dorsey)
+- [Michael Saylor](https://en.wikipedia.org/wiki/Michael_J._Saylor)
+
+### Pesquisadores e educadores
+
+- [Andreas Antonopoulos](https://en.wikipedia.org/wiki/Andreas_Antonopoulos) ★
+- [Laura Shin](https://laurashin.com/)
+- [Balaji Srinivasan](https://en.wikipedia.org/wiki/Balaji_Srinivasan)
+- [Chris Dixon](https://en.wikipedia.org/wiki/Chris_Dixon)
+- [Arvind Narayanan](https://en.wikipedia.org/wiki/Arvind_Narayanan)
+- [Molly White](https://en.wikipedia.org/wiki/Molly_White_(writer))
+- [Dan Boneh](https://en.wikipedia.org/wiki/Dan_Boneh)
+- [Shafi Goldwasser](https://en.wikipedia.org/wiki/Shafi_Goldwasser)
+- [Jameson Lopp](https://www.lopp.net/)
+
+### Brasil e América Latina
+
+- [Fernando Ulrich](https://www.youtube.com/@FernandoUlrichCanal)
+- [Jorge Stolfi](https://en.wikipedia.org/wiki/Jorge_Stolfi)
+- [Wences Casares](https://en.wikipedia.org/wiki/Wences_Casares)
+- [Gustavo Chamati](https://pt.wikipedia.org/wiki/Gustavo_Chamati)
+- [Tasso Lago](https://pt.wikipedia.org/wiki/Tasso_Lago)
+
+## História e casos
+
+### Marcos históricos
+
+- [História do Bitcoin](https://en.wikipedia.org/wiki/History_of_bitcoin) ★
+- [Divisão Ethereum Classic](https://en.wikipedia.org/wiki/Ethereum_Classic)
+- [Guerra do tamanho de bloco](https://en.wikipedia.org/wiki/Bitcoin_scalability_problem)
+- [CryptoKitties](https://en.wikipedia.org/wiki/CryptoKitties)
+- [Everydays: The First 5000 Days](https://en.wikipedia.org/wiki/Everydays:_the_First_5000_Days)
+
+### Colapsos e escândalos
+
+- [The DAO](https://en.wikipedia.org/wiki/The_DAO) 🪦
+- [Terra/Luna](https://en.wikipedia.org/wiki/Terra_(blockchain)) 🪦
+- [Falência da FTX](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX) 🪦
+- [Celsius Network](https://en.wikipedia.org/wiki/Celsius_Network) 🪦
+- [BitConnect](https://en.wikipedia.org/wiki/BitConnect) 🪦
+- [OneCoin](https://en.wikipedia.org/wiki/OneCoin) 🪦
+- [Silk Road](https://en.wikipedia.org/wiki/Silk_Road_(marketplace)) 🪦
+
+### Ataques e hacks
+
+- [Hack da Bitfinex (2016)](https://en.wikipedia.org/wiki/2016_Bitfinex_hack)
+- [Hack da Coincheck (2018)](https://en.wikipedia.org/wiki/Coincheck)
+- [Hack da Ronin Network (2022)](https://en.wikipedia.org/wiki/Ronin_Network)
+- [Poly Network (2021)](https://en.wikipedia.org/wiki/Poly_Network_exploit)
+- [Hack da Bybit (2025)](https://en.wikipedia.org/wiki/Bybit)

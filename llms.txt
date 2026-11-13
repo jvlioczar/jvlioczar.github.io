@@ -1,0 +1,92 @@
+# BiblioVerse
+
+> A biblioteca de tudo. Bibliotecas temáticas com curadoria humana, com os melhores sites, apps e referências de cada área, e projetos especiais que exploram um só tema em profundidade. Gratuito, sem anúncios e de código aberto.
+
+A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites, apps e referências de cada área, em páginas mínimas e rápidas. A missão é simples: acesso rápido, claro e verificado ao melhor conteúdo. Foco em três pilares: utilidade, transparência e performance. Se um link não ajuda, ele não entra. Tudo gratuito, sem anúncios e de código aberto.
+
+Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
+
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.431 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+
+## Bibliotecas: Tecnologia
+
+- [Biblioteca de IAs](https://biblioverse.org/ai/llms.txt): As principais ferramentas de inteligência artificial, organizadas por uso. (696 itens)
+- [Biblioteca de Programação](https://biblioverse.org/code/llms.txt): Linguagens, cursos e ferramentas para aprender a programar. (1013 itens)
+- [Biblioteca de Web3](https://biblioverse.org/web3/llms.txt): Blockchain, carteiras e o ecossistema descentralizado. (472 itens)
+- [Biblioteca de Redes Sociais](https://biblioverse.org/social/llms.txt): Plataformas, ferramentas e recursos para criadores de conteúdo. (547 itens)
+
+## Bibliotecas: Criatividade
+
+- [Biblioteca de Design](https://biblioverse.org/design/llms.txt): Sites e ferramentas úteis para designers. (1277 itens)
+- [Biblioteca de Fotografia](https://biblioverse.org/photography/llms.txt): Recursos, apps e referências para fotografar melhor. (1065 itens)
+- [Biblioteca de Mídia Impressa](https://biblioverse.org/print/llms.txt): Revistas, jornais, gráficas e o universo do impresso. (915 itens)
+- [Biblioteca de Arte](https://biblioverse.org/art/llms.txt): Conceitos, técnicas, movimentos, artistas e museus. (395 itens)
+
+## Bibliotecas: Cultura e lazer
+
+- [Biblioteca de Games](https://biblioverse.org/games/llms.txt): Plataformas, jogos e o universo dos games. (730 itens)
+- [Biblioteca de Listas](https://biblioverse.org/list/llms.txt): As melhores listas e rankings da internet em um só lugar. (343 itens)
+- [Biblioteca de Música](https://biblioverse.org/music/llms.txt): Apps, gêneros, gravadoras e conceitos fundamentais da música. (1072 itens)
+- [Biblioteca de True Crime](https://biblioverse.org/truecrime/llms.txt): Crimes reais, acidentes e desastres, e como preveni-los e denunciá-los. (712 itens)
+- [Biblioteca de eSports](https://biblioverse.org/esports/llms.txt): Jogos competitivos, campeonatos, equipes, lendas e transmissões. (341 itens)
+
+## Bibliotecas: Conhecimento
+
+- [Biblioteca de Estudo de Idiomas](https://biblioverse.org/language/llms.txt): Apps, canais e métodos para aprender idiomas. (269 itens)
+- [Biblioteca de Dados](https://biblioverse.org/data/llms.txt): Fontes de dados, visualização e análise. (793 itens)
+- [Biblioteca de História](https://biblioverse.org/history/llms.txt): Períodos, civilizações, fontes e referências para estudar história. (779 itens)
+
+## Bibliotecas: Pensamento Livre
+
+- [Biblioteca de Filosofia](https://biblioverse.org/philosophy/llms.txt): Correntes, autores e referências da filosofia. (616 itens)
+- [Biblioteca de Racionalidade](https://biblioverse.org/thinking/llms.txt): Livros e recursos sobre pensamento crítico e vieses cognitivos. (619 itens)
+- [Biblioteca de Conspirações](https://biblioverse.org/conspiracy/llms.txt): Teorias da conspiração, pseudociências e crenças falsas, e como desmenti-las. (447 itens)
+
+## Bibliotecas: Vida prática
+
+- [Biblioteca de Emprego](https://biblioverse.org/job/llms.txt): Sites de vagas, currículo e carreira. (320 itens)
+- [Biblioteca de Organização](https://biblioverse.org/management/llms.txt): Apps e métodos de produtividade e gestão. (281 itens)
+- [Biblioteca de Viagem](https://biblioverse.org/travel/llms.txt): Ferramentas para planejar viagens e intercâmbio. (395 itens)
+- [Biblioteca Antigolpe](https://biblioverse.org/antiscam/llms.txt): Como identificar, verificar, denunciar e se proteger de golpes e fraudes. (334 itens)
+
+## Projetos especiais: Cultura e Viagem
+
+- [Brasileiros na Austrália](https://brasileirosnaaustralia.biblioverse.org): Criadores de conteúdo por cidade, comparador das capitais, agências, apps e guia de chegada.
+- [Brisbane Vegan Guide](https://brisbaneveganguide.com): Os melhores restaurantes, cafés, grupos e pessoas veganos de Brisbane, em um guia bilíngue.
+- [Brissy Op Shops](https://brissyopshops.com): Guia das lojas de segunda mão de Brisbane: avaliações, horários, mapa e dicas.
+- [Cultura Australiana](https://australianculture.biblioverse.org/llms.txt): Geografia, 65 mil anos de história, quem é o povo e o jeito australiano de viver.
+- [Cultura Brasileira](https://brazilianculture.biblioverse.org): Geografia, 13 mil anos de história, quem é o povo e o jeito brasileiro de viver.
+
+## Projetos especiais: Para iniciantes
+
+- [Ciência Para Iniciantes](https://cienciaparainiciantes.biblioverse.org/llms.txt): Guia de ciência em três níveis: método científico, evidência e como separar ciência de pseudociência.
+- [Ética Para Iniciantes](https://eticaparainiciantes.biblioverse.org/llms.txt): Guia de ética em três níveis: teorias, círculo moral, grandes dilemas e filósofos, sempre com fontes.
+- [Política Para Iniciantes](https://politicaparainiciantes.biblioverse.org/llms.txt): Guia de política em três níveis, com ferramentas interativas e dossiês dos partidos brasileiros.
+
+## Projetos especiais: Ética animal
+
+- [Guia de Argumentação Pelos Animais](https://pelosanimais.biblioverse.org/llms.txt): Catálogo de 213 argumentos usados para justificar a exploração animal, cada um com resposta fundamentada.
+- [Questão de Ética](https://questaodeetica.biblioverse.org/llms.txt): Site-livro dos 12 volumes de Uma Jornada pela Ética Animal, de Luciano Carlos Cunha, com lições e testes.
+- [Guia de Alimentos Éticos](https://ethicalfood.biblioverse.org): Diretório e mapa de quase 2.300 empresas de proteína alternativa em 71 países.
+
+## Projetos especiais: Esportes
+
+- [GOATs](https://goat.biblioverse.org): Os maiores atletas de todos os tempos em mais de 300 modalidades, com fontes.
+- [Lendas do Futebol Brasileiro (LFB)](https://lendasdofutebolbrasileiro.biblioverse.org): As seleções de todos os tempos da Seleção Brasileira e de 74 clubes do Brasil.
+- [Os Maiores Clubes do Futebol Mundial](https://biggestclubs.biblioverse.org): Ranking de 383 clubes de 16 países pelos títulos mundiais, continentais e nacionais.
+
+## Projetos especiais: Inteligência Artificial
+
+- [Curated AI](https://curatedai.biblioverse.org/llms.txt): Catálogo dos melhores projetos feitos com inteligência artificial e curados por humanos.
+- [Linha do Tempo da História da IA](https://aihistory.biblioverse.org): Museu gratuito da IA, de Ada Lovelace em 1843 até hoje, com cada marco apoiado em duas reportagens.
+
+## Projetos especiais: Música
+
+- [Música Brasileira](https://brazilianmusic.biblioverse.org): O catálogo bilíngue da música do Brasil: 20 famílias de gêneros, 961 artistas, instrumentistas, músicas, discos, prêmios e realities.
+- [Tipos de Rock](https://typesofrock.biblioverse.org): 97 gêneros de rock em uma árvore interativa, com história, som, genealogia e artistas.
+
+## Optional
+
+- [Catálogo completo de todas as bibliotecas](https://biblioverse.org/llms-full.txt): os 23 catálogos em um arquivo
+- [Página inicial](https://biblioverse.org/): portal com todas as bibliotecas e projetos, e o painel Sobre
+- [BiblioVerse no LinkedIn](https://www.linkedin.com/company/biblioverse.org)

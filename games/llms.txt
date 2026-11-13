@@ -1,0 +1,814 @@
+# A Biblioteca de Games
+
+> Catálogo pesquisável do essencial dos games por categoria: lojas, consoles, jogos, gêneros, conceitos, esports, eventos, mídia e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The Games Library), com curadoria humana. Página: https://biblioverse.org/games/ · 730 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Arcades e computadores clássicos
+
+- [Amiga](https://en.wikipedia.org/wiki/Amiga) 🪦
+- [Amstrad CPC](https://en.wikipedia.org/wiki/Amstrad_CPC) 🪦
+- [Apple II](https://en.wikipedia.org/wiki/Apple_II) 🪦
+- [Atari 8-bit](https://en.wikipedia.org/wiki/Atari_8-bit_computers) 🪦
+- [Atari ST](https://en.wikipedia.org/wiki/Atari_ST) 🪦
+- [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) 🪦
+- [CPS (Capcom)](https://en.wikipedia.org/wiki/CP_System) 🪦
+- [Fliperama (arcade)](https://en.wikipedia.org/wiki/Arcade_video_game) ★
+- [MSX](https://en.wikipedia.org/wiki/MSX) 🪦
+- [Neo Geo MVS](https://en.wikipedia.org/wiki/Neo_Geo_(system)) 🪦
+- [PC-98](https://en.wikipedia.org/wiki/PC-98) 🪦
+- [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) 🪦
+
+## Assinaturas e jogos na nuvem
+
+- [Amazon Luna](https://www.amazon.com/luna)
+- [Apple Arcade](https://www.apple.com/apple-arcade/)
+- [Boosteroid](https://boosteroid.com/)
+- [EA Play](https://www.ea.com/ea-play)
+- [Gaikai](https://en.wikipedia.org/wiki/Gaikai) 🪦
+- [GeForce Now](https://www.nvidia.com/geforce-now) ★
+- [Google Play Pass](https://play.google.com/about/play-pass)
+- [Google Stadia](https://en.wikipedia.org/wiki/Google_Stadia) 🪦
+- [Humble Choice](https://www.humblebundle.com)
+- [Netflix Games](https://www.netflix.com/)
+- [Nintendo Switch Online](https://www.nintendo.com/switch/online/) ★
+- [OnLive](https://en.wikipedia.org/wiki/OnLive) 🪦
+- [PlayStation Now](https://en.wikipedia.org/wiki/PlayStation_Now) 🪦
+- [PlayStation Plus](https://www.playstation.com/ps-plus/) ★
+- [Ubisoft+](https://store.ubisoft.com/ubisoftplus)
+- [Xbox Cloud Gaming](https://www.xbox.com/play)
+- [Xbox Game Pass](https://www.xbox.com/games/xbox-game-pass) ★
+
+## Avaliação e bancos de dados
+
+- [Backloggd](https://www.backloggd.com/)
+- [GameFAQs](https://gamefaqs.gamespot.com)
+- [GG.deals](https://gg.deals/)
+- [Grouvee](https://www.grouvee.com/)
+- [HLTV](https://www.hltv.org/)
+- [HowLongToBeat](https://howlongtobeat.com/) ★
+- [IGDB](https://www.igdb.com/)
+- [IsThereAnyDeal](https://isthereanydeal.com/)
+- [Liquipedia](https://liquipedia.net) ★
+- [Metacritic](https://www.metacritic.com/game/) ★
+- [MobyGames](https://www.mobygames.com) ★
+- [OpenCritic](https://opencritic.com) ★
+- [PCGamingWiki](https://www.pcgamingwiki.com/)
+- [ProtonDB](https://www.protondb.com/)
+- [Speedrun.com](https://www.speedrun.com/) ★
+- [Steam Charts](https://steamcharts.com/)
+- [SteamDB](https://steamdb.info/)
+- [VGChartz](https://www.vgchartz.com)
+- [VLR.gg](https://www.vlr.gg/) ★
+- [THESPIKE.GG](https://www.thespike.gg/)
+- [Dotabuff](https://www.dotabuff.com/)
+- [OP.GG](https://www.op.gg/)
+- [Oracle's Elixir](https://oracleselixir.com/)
+- [Tracker Network](https://tracker.gg/)
+- [Esports Earnings](https://www.esportsearnings.com/)
+- [Esports Charts](https://escharts.com/)
+- [RAWG](https://rawg.io/)
+- [Steam250](https://steam250.com/)
+- [The Cutting Room Floor](https://tcrf.net/)
+
+## Conceitos fundamentais
+
+- [Acesso antecipado](https://en.wikipedia.org/wiki/Early_access)
+- [Balanceamento](https://en.wikipedia.org/wiki/Game_balance)
+- [Boss](https://en.wikipedia.org/wiki/Boss_(video_games))
+- [Checkpoint](https://en.wikipedia.org/wiki/Saved_game#Checkpoints)
+- [Conquistas e troféus](https://en.wikipedia.org/wiki/Achievement_(video_games))
+- [Coop local (sofá)](https://en.wikipedia.org/wiki/Cooperative_video_game)
+- [Crash de 1983](https://en.wikipedia.org/wiki/Video_game_crash_of_1983)
+- [Crossplay](https://en.wikipedia.org/wiki/Cross-platform_play)
+- [Cutscene](https://en.wikipedia.org/wiki/Cutscene)
+- [DLC](https://en.wikipedia.org/wiki/Downloadable_content) ★
+- [Easter egg](https://en.wikipedia.org/wiki/Easter_egg_(media))
+- [Emulação](https://en.wikipedia.org/wiki/Video_game_console_emulator)
+- [Free-to-play](https://en.wikipedia.org/wiki/Free-to-play) ★
+- [Game design](https://en.wikipedia.org/wiki/Game_design) ★
+- [Game jam](https://en.wikipedia.org/wiki/Game_jam)
+- [Game over](https://en.wikipedia.org/wiki/Game_over)
+- [Gamer](https://en.wikipedia.org/wiki/Gamer)
+- [Gamificação](https://en.wikipedia.org/wiki/Gamification)
+- [Geração procedural](https://en.wikipedia.org/wiki/Procedural_generation)
+- [Glitch](https://en.wikipedia.org/wiki/Glitch#Video_games)
+- [Grinding](https://en.wikipedia.org/wiki/Grinding_(video_games))
+- [Guerra dos consoles](https://en.wikipedia.org/wiki/Console_war)
+- [Hitbox](https://en.wikipedia.org/wiki/Hitbox)
+- [HUD](https://en.wikipedia.org/wiki/HUD_(video_games))
+- [Jogabilidade (gameplay)](https://en.wikipedia.org/wiki/Gameplay) ★
+- [Jogo AAA](https://en.wikipedia.org/wiki/AAA_(video_game_industry))
+- [Jogo indie](https://en.wikipedia.org/wiki/Indie_game) ★
+- [Latência (lag)](https://en.wikipedia.org/wiki/Lag_(video_games))
+- [Level design](https://en.wikipedia.org/wiki/Level_design)
+- [Loot box](https://en.wikipedia.org/wiki/Loot_box)
+- [Matchmaking](https://en.wikipedia.org/wiki/Matchmaking_(video_games))
+- [Mecânicas de jogo](https://en.wikipedia.org/wiki/Game_mechanics)
+- [Microtransação](https://en.wikipedia.org/wiki/Microtransaction)
+- [Mods](https://en.wikipedia.org/wiki/Video_game_modding) ★
+- [Morte permanente](https://en.wikipedia.org/wiki/Permadeath)
+- [Multijogador](https://en.wikipedia.org/wiki/Multiplayer_video_game)
+- [Nerf e buff](https://en.wikipedia.org/wiki/Nerf_(video_games))
+- [New Game Plus](https://en.wikipedia.org/wiki/New_Game_Plus)
+- [NPC](https://en.wikipedia.org/wiki/Non-player_character)
+- [Névoa de guerra](https://en.wikipedia.org/wiki/Fog_of_war)
+- [Passe de batalha](https://en.wikipedia.org/wiki/Battle_pass) ★
+- [Pontos de experiência](https://en.wikipedia.org/wiki/Experience_point)
+- [Pontos de vida (HP)](https://en.wikipedia.org/wiki/Health_(game_terminology))
+- [Quick time event](https://en.wikipedia.org/wiki/Quick_time_event)
+- [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
+- [Remaster e remake](https://en.wikipedia.org/wiki/Video_game_remake)
+- [Retrogaming](https://en.wikipedia.org/wiki/Retrogaming)
+- [Save game](https://en.wikipedia.org/wiki/Saved_game)
+- [Speedrun](https://en.wikipedia.org/wiki/Speedrun) ★
+- [Taxa de quadros (FPS)](https://en.wikipedia.org/wiki/Frame_rate)
+- [Trapaça (cheats)](https://en.wikipedia.org/wiki/Cheating_in_video_games)
+- [Tutorial](https://en.wikipedia.org/wiki/Tutorial#In_video_games)
+
+## Consoles de mesa
+
+- [3DO Interactive Multiplayer](https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer) 🪦
+- [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) 🪦
+- [ColecoVision](https://en.wikipedia.org/wiki/ColecoVision) 🪦
+- [Dreamcast](https://en.wikipedia.org/wiki/Dreamcast) 🪦
+- [GameCube](https://en.wikipedia.org/wiki/GameCube) 🪦
+- [Intellivision](https://en.wikipedia.org/wiki/Intellivision) 🪦
+- [Magnavox Odyssey](https://en.wikipedia.org/wiki/Magnavox_Odyssey) 🪦
+- [Master System](https://en.wikipedia.org/wiki/Master_System) 🪦
+- [Mega Drive](https://en.wikipedia.org/wiki/Sega_Genesis) 🪦
+- [Neo Geo](https://en.wikipedia.org/wiki/Neo_Geo_(system)) 🪦
+- [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) 🪦
+- [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) 🪦
+- [Nintendo Switch](https://www.nintendo.com/us/gaming-systems/switch/) ★
+- [Nintendo Switch 2](https://www.nintendo.com/us/gaming-systems/switch-2/) ★
+- [Ouya](https://en.wikipedia.org/wiki/Ouya) 🪦
+- [PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) 🪦
+- [PlayStation 2](https://en.wikipedia.org/wiki/PlayStation_2) 🪦
+- [PlayStation 3](https://en.wikipedia.org/wiki/PlayStation_3) 🪦
+- [PlayStation 4](https://en.wikipedia.org/wiki/PlayStation_4)
+- [PlayStation 5](https://www.playstation.com/ps5/) ★
+- [Sega Saturn](https://en.wikipedia.org/wiki/Sega_Saturn) 🪦
+- [Super Nintendo](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) 🪦
+- [Wii](https://en.wikipedia.org/wiki/Wii) 🪦
+- [Wii U](https://en.wikipedia.org/wiki/Wii_U) 🪦
+- [Xbox](https://en.wikipedia.org/wiki/Xbox_(console)) 🪦
+- [Xbox 360](https://en.wikipedia.org/wiki/Xbox_360) 🪦
+- [Xbox One](https://en.wikipedia.org/wiki/Xbox_One) 🪦
+- [Xbox Series X/S](https://www.xbox.com/consoles) ★
+- [Zeebo](https://en.wikipedia.org/wiki/Zeebo) 🪦
+
+## Desenvolvimento de jogos
+
+- [Aseprite](https://aseprite.org)
+- [Blender](https://www.blender.org)
+- [Brackeys](https://www.youtube.com/@Brackeys)
+- [Epic Developer Community](https://dev.epicgames.com/community/)
+- [Extra Credits](https://www.youtube.com/@extracredits)
+- [FMOD](https://www.fmod.com/)
+- [Game Maker's Toolkit](https://www.youtube.com/@GMTK) ★
+- [GDC Vault](https://gdcvault.com/)
+- [GDQuest](https://www.gdquest.com/)
+- [Global Game Jam](https://www.globalgamejam.org) ★
+- [itch.io Jams](https://itch.io/jams)
+- [Kenney (assets gratuitos)](https://kenney.nl/)
+- [Ludum Dare](https://ldjam.com) ★
+- [Mixamo](https://www.mixamo.com/)
+- [OpenGameArt](https://opengameart.org/)
+- [SBGames](https://www.sbgames.org/)
+- [Tiled](https://www.mapeditor.org/)
+- [Unity Learn](https://learn.unity.com/)
+- [Wwise](https://www.audiokinetic.com/wwise/overview)
+
+## Empresas brasileiras de games
+
+- [Aquiris](https://en.wikipedia.org/wiki/Aquiris_Game_Studio) 🪦
+- [Behold Studios](https://www.beholdstudios.com.br/)
+- [Gazeus Games](https://www.gazeus.com/)
+- [Hoplon Infotainment](https://pt.wikipedia.org/wiki/Hoplon_Infotainment) 🪦
+- [Hue Games](https://huegames.com.br/)
+- [JoyMasher](https://www.joymasher.com/)
+- [Long Hat House](https://www.longhathouse.com/)
+- [QUByte Interactive](https://www.qubyte.com.br/)
+- [Tapps Games](https://tappsgames.com/)
+- [Tectoy](https://www.tectoy.com.br/) ★
+- [Wildlife Studios](https://wildlifestudios.com/) ★
+
+## Empresas e publishers
+
+- [Activision](https://www.activision.com)
+- [Annapurna Interactive](https://annapurnainteractive.com/)
+- [Atari](https://www.atari.com/)
+- [Atlus](https://www.atlus.co.jp/)
+- [Bandai Namco](https://www.bandainamcoent.com)
+- [Bethesda Softworks](https://bethesda.net/)
+- [Blizzard Entertainment](https://www.blizzard.com/)
+- [Bungie](https://www.bungie.net/)
+- [Capcom](https://www.capcom.com/)
+- [CD Projekt](https://www.cdprojekt.com/)
+- [Devolver Digital](https://www.devolverdigital.com)
+- [Electronic Arts](https://www.ea.com)
+- [Epic Games](https://www.epicgames.com/)
+- [FromSoftware](https://www.fromsoftware.jp/ww/) ★
+- [Game Freak](https://www.gamefreak.co.jp)
+- [HoYoverse](https://www.hoyoverse.com/)
+- [id Software](https://www.idsoftware.com/)
+- [Insomniac Games](https://insomniac.games)
+- [Koei Tecmo](https://www.koeitecmo.co.jp/)
+- [Kojima Productions](https://www.kojimaproductions.jp/)
+- [Konami](https://www.konami.com/)
+- [Krafton](https://www.krafton.com/)
+- [Larian Studios](https://larian.com/)
+- [Looking Glass Studios](https://en.wikipedia.org/wiki/Looking_Glass_Studios) 🪦
+- [LucasArts](https://en.wikipedia.org/wiki/LucasArts) 🪦
+- [Midway Games](https://en.wikipedia.org/wiki/Midway_Games) 🪦
+- [Mojang Studios](https://www.mojang.com/)
+- [Naughty Dog](https://www.naughtydog.com)
+- [NetEase Games](https://www.neteasegames.com/)
+- [Nintendo](https://www.nintendo.com/) ★
+- [Paradox Interactive](https://www.paradoxplaza.com/)
+- [Rare](https://www.rare.co.uk/)
+- [Remedy Entertainment](https://www.remedygames.com/)
+- [Riot Games](https://www.riotgames.com)
+- [Roblox Corporation](https://about.roblox.com/)
+- [Rockstar Games](https://www.rockstargames.com/) ★
+- [Sega](https://www.sega.com)
+- [Sierra On-Line](https://en.wikipedia.org/wiki/Sierra_Entertainment) 🪦
+- [Sony Interactive Entertainment](https://sonyinteractive.com/) ★
+- [Square Enix](https://www.square-enix.com/)
+- [Supercell](https://supercell.com/en/)
+- [Take-Two Interactive](https://www.take2games.com)
+- [Team Cherry](https://www.teamcherry.com.au/)
+- [Tencent Games](https://www.tencentgames.com/)
+- [The 3DO Company](https://en.wikipedia.org/wiki/The_3DO_Company) 🪦
+- [THQ](https://en.wikipedia.org/wiki/THQ) 🪦
+- [Ubisoft](https://www.ubisoft.com/)
+- [Valve](https://www.valvesoftware.com) ★
+- [Westwood Studios](https://en.wikipedia.org/wiki/Westwood_Studios) 🪦
+- [Xbox (Microsoft Gaming)](https://www.xbox.com/) ★
+
+## Esports: torneios e ligas
+
+- [BLAST](https://blastpremier.com)
+- [CBLOL](https://br.lolesports.com/) ★
+- [Counter-Strike Major](https://www.counter-strike.net/majors) ★
+- [Dreamhack](https://dreamhack.com/)
+- [ESL](https://www.esl.eu/)
+- [Esports World Cup](https://esportsworldcup.com/)
+- [Evolution Championship Series (EVO)](https://www.evo.gg/) ★
+- [Free Fire World Series](https://en.wikipedia.org/wiki/Free_Fire_World_Series)
+- [Intel Extreme Masters](https://intelextrememasters.com/)
+- [League of Legends World Championship](https://lolesports.com/) ★
+- [Overwatch Champions Series](https://overwatch.blizzard.com/esports/)
+- [Overwatch League](https://en.wikipedia.org/wiki/Overwatch_League) 🪦
+- [PGL](https://www.pgl.co.uk/)
+- [Rocket League Championship Series](https://esports.rocketleague.com/)
+- [The International (Dota 2)](https://www.dota2.com/international/)
+- [Valorant Champions](https://valorantesports.com/) ★
+- [Valorant Champions Tour](https://valorantesports.com/)
+
+## Eventos e feiras
+
+- [BIG Festival](https://web.archive.org/web/2023/https://bigfestival.com.br/) 🪦
+- [BlizzCon](https://blizzcon.com)
+- [Brasil Game Show](https://www.brasilgameshow.com.br/) ★
+- [ChinaJoy](https://en.chinajoy.net/)
+- [E3](https://en.wikipedia.org/wiki/E3) 🪦
+- [Game Developers Conference](https://www.gdconf.com)
+- [Games Done Quick](https://gamesdonequick.com/)
+- [Gamescom](https://www.gamescom-cologne.com) ★
+- [Gamescom Latam](https://gamescom-latam.com/)
+- [IndieCade](https://www.indiecade.com/)
+- [Nintendo Direct](https://www.nintendo.com/nintendo-direct/)
+- [PAX](https://www.paxsite.com/)
+- [QuakeCon](https://quakecon.bethesda.net/)
+- [Spike Video Game Awards](https://en.wikipedia.org/wiki/Spike_Video_Game_Awards) 🪦
+- [State of Play](https://www.playstation.com/en-us/state-of-play/)
+- [Summer Game Fest](https://www.summergamefest.com)
+- [The Game Awards](https://thegameawards.com) ★
+- [Tokyo Game Show](https://tgs.cesa.or.jp/)
+- [Xbox Games Showcase](https://news.xbox.com/en-us/)
+
+## Figuras-chave
+
+- [Alexey Pajitnov](https://en.wikipedia.org/wiki/Alexey_Pajitnov)
+- [Amy Hennig](https://en.wikipedia.org/wiki/Amy_Hennig)
+- [Brenda Romero](https://en.wikipedia.org/wiki/Brenda_Romero)
+- [Eric Barone](https://en.wikipedia.org/wiki/Eric_Barone)
+- [Gabe Newell](https://en.wikipedia.org/wiki/Gabe_Newell)
+- [Gunpei Yokoi](https://en.wikipedia.org/wiki/Gunpei_Yokoi) 🪦
+- [Hideki Kamiya](https://en.wikipedia.org/wiki/Hideki_Kamiya)
+- [Hideo Kojima](https://en.wikipedia.org/wiki/Hideo_Kojima) ★
+- [Hidetaka Miyazaki](https://en.wikipedia.org/wiki/Hidetaka_Miyazaki) ★
+- [Hironobu Sakaguchi](https://en.wikipedia.org/wiki/Hironobu_Sakaguchi)
+- [Hiroshi Yamauchi](https://en.wikipedia.org/wiki/Hiroshi_Yamauchi) 🪦
+- [Jerry Lawson](https://en.wikipedia.org/wiki/Jerry_Lawson_(engineer)) 🪦
+- [John Carmack](https://en.wikipedia.org/wiki/John_Carmack)
+- [John Romero](https://en.wikipedia.org/wiki/John_Romero)
+- [Ken Kutaragi](https://en.wikipedia.org/wiki/Ken_Kutaragi)
+- [Ken Levine](https://en.wikipedia.org/wiki/Ken_Levine_(game_developer))
+- [Koji Kondo](https://en.wikipedia.org/wiki/Koji_Kondo)
+- [Mark Cerny](https://en.wikipedia.org/wiki/Mark_Cerny)
+- [Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson)
+- [Masahiro Sakurai](https://en.wikipedia.org/wiki/Masahiro_Sakurai)
+- [Neil Druckmann](https://en.wikipedia.org/wiki/Neil_Druckmann)
+- [Nobuo Uematsu](https://en.wikipedia.org/wiki/Nobuo_Uematsu)
+- [Nolan Bushnell](https://en.wikipedia.org/wiki/Nolan_Bushnell)
+- [Phil Spencer](https://en.wikipedia.org/wiki/Phil_Spencer_(business_executive))
+- [Ralph Baer](https://en.wikipedia.org/wiki/Ralph_H._Baer) ★ 🪦
+- [Reggie Fils-Aimé](https://en.wikipedia.org/wiki/Reggie_Fils-Aim%C3%A9)
+- [Richard Garriott](https://en.wikipedia.org/wiki/Richard_Garriott)
+- [Roberta Williams](https://en.wikipedia.org/wiki/Roberta_Williams)
+- [Ron Gilbert](https://en.wikipedia.org/wiki/Ron_Gilbert)
+- [Sam Houser](https://en.wikipedia.org/wiki/Sam_Houser)
+- [Satoru Iwata](https://en.wikipedia.org/wiki/Satoru_Iwata) ★ 🪦
+- [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto) ★
+- [Sid Meier](https://en.wikipedia.org/wiki/Sid_Meier)
+- [Tim Schafer](https://en.wikipedia.org/wiki/Tim_Schafer)
+- [Tim Sweeney](https://en.wikipedia.org/wiki/Tim_Sweeney_(game_developer))
+- [Toby Fox](https://en.wikipedia.org/wiki/Toby_Fox)
+- [Todd Howard](https://en.wikipedia.org/wiki/Todd_Howard)
+- [Tomohiro Nishikado](https://en.wikipedia.org/wiki/Tomohiro_Nishikado)
+- [Toru Iwatani](https://en.wikipedia.org/wiki/Toru_Iwatani)
+- [Will Wright](https://en.wikipedia.org/wiki/Will_Wright_(game_designer))
+- [Yu Suzuki](https://en.wikipedia.org/wiki/Yu_Suzuki)
+- [Yuji Naka](https://en.wikipedia.org/wiki/Yuji_Naka)
+
+## Gêneros de jogos
+
+- [4X](https://en.wikipedia.org/wiki/4X)
+- [Aponte e clique](https://en.wikipedia.org/wiki/Adventure_game#Point-and-click_adventure_games)
+- [Auto battler](https://en.wikipedia.org/wiki/Auto_battler)
+- [Aventura](https://en.wikipedia.org/wiki/Adventure_game)
+- [Ação](https://en.wikipedia.org/wiki/Action_game)
+- [Battle royale](https://en.wikipedia.org/wiki/Battle_royale_game) ★
+- [Beat 'em up](https://en.wikipedia.org/wiki/Beat_'em_up)
+- [Bullet hell](https://en.wikipedia.org/wiki/Shoot_'em_up#Bullet_hell)
+- [Construção de cidades](https://en.wikipedia.org/wiki/City-building_game)
+- [Corrida](https://en.wikipedia.org/wiki/Racing_video_game)
+- [Cozy game](https://en.wikipedia.org/wiki/Cozy_game)
+- [Esportes](https://en.wikipedia.org/wiki/Sports_video_game)
+- [Estratégia em tempo real (RTS)](https://en.wikipedia.org/wiki/Real-time_strategy)
+- [Estratégia por turnos](https://en.wikipedia.org/wiki/Turn-based_strategy)
+- [Extraction shooter](https://en.wikipedia.org/wiki/Extraction_shooter)
+- [Gacha](https://en.wikipedia.org/wiki/Gacha_game)
+- [Hero shooter](https://en.wikipedia.org/wiki/Hero_shooter)
+- [Idle (incremental)](https://en.wikipedia.org/wiki/Incremental_game)
+- [Immersive sim](https://en.wikipedia.org/wiki/Immersive_sim)
+- [Jogo casual](https://en.wikipedia.org/wiki/Casual_game)
+- [Jogo de cartas digital](https://en.wikipedia.org/wiki/Digital_collectible_card_game)
+- [Jogo educativo](https://en.wikipedia.org/wiki/Educational_video_game)
+- [JRPG](https://en.wikipedia.org/wiki/Japanese_role-playing_game)
+- [Luta](https://en.wikipedia.org/wiki/Fighting_game) ★
+- [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania)
+- [MMORPG](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game)
+- [MOBA](https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena) ★
+- [Mundo aberto](https://en.wikipedia.org/wiki/Open_world)
+- [Party game](https://en.wikipedia.org/wiki/Party_game)
+- [Plataforma](https://en.wikipedia.org/wiki/Platformer) ★
+- [Quebra-cabeça](https://en.wikipedia.org/wiki/Puzzle_video_game)
+- [Ritmo](https://en.wikipedia.org/wiki/Rhythm_game)
+- [Roguelike](https://en.wikipedia.org/wiki/Roguelike)
+- [RPG](https://en.wikipedia.org/wiki/Role-playing_video_game) ★
+- [RPG de ação](https://en.wikipedia.org/wiki/Action_role-playing_game)
+- [Sandbox](https://en.wikipedia.org/wiki/Sandbox_game)
+- [Shoot 'em up](https://en.wikipedia.org/wiki/Shoot_'em_up)
+- [Simulador de vida](https://en.wikipedia.org/wiki/Life_simulation_game)
+- [Simulação](https://en.wikipedia.org/wiki/Simulation_video_game)
+- [Sobrevivência](https://en.wikipedia.org/wiki/Survival_game)
+- [Soulslike](https://en.wikipedia.org/wiki/Soulslike)
+- [Stealth](https://en.wikipedia.org/wiki/Stealth_game)
+- [Survival horror](https://en.wikipedia.org/wiki/Survival_horror)
+- [Terror](https://en.wikipedia.org/wiki/Horror_game)
+- [Tiro em primeira pessoa (FPS)](https://en.wikipedia.org/wiki/First-person_shooter) ★
+- [Tiro em terceira pessoa](https://en.wikipedia.org/wiki/Third-person_shooter)
+- [Tiro tático](https://en.wikipedia.org/wiki/Tactical_shooter)
+- [Tower defense](https://en.wikipedia.org/wiki/Tower_defense)
+- [Visual novel](https://en.wikipedia.org/wiki/Visual_novel)
+- [Walking simulator](https://en.wikipedia.org/wiki/Walking_simulator)
+
+## Influenciadores e criadores
+
+- [Alanzoka](https://en.wikipedia.org/wiki/Alanzoka)
+- [Angry Video Game Nerd](https://en.wikipedia.org/wiki/Angry_Video_Game_Nerd) ★
+- [BRKsEDU](https://www.youtube.com/@BRKsEDU)
+- [Casimiro](https://en.wikipedia.org/wiki/Casimiro_(streamer))
+- [Cellbit](https://en.wikipedia.org/wiki/Cellbit)
+- [Coringa (LOUD)](https://www.youtube.com/@LOUDCoringa)
+- [Dream](https://en.wikipedia.org/wiki/Dream_(YouTuber))
+- [Felps](https://www.youtube.com/@FelpsLIVE)
+- [Game Grumps](https://en.wikipedia.org/wiki/Game_Grumps)
+- [Gaules](https://en.wikipedia.org/wiki/Gaules) ★
+- [Ibai Llanos](https://en.wikipedia.org/wiki/Ibai_Llanos)
+- [Jacksepticeye](https://en.wikipedia.org/wiki/Jacksepticeye)
+- [Jovem Nerd](https://jovemnerd.com.br/)
+- [Markiplier](https://en.wikipedia.org/wiki/Markiplier)
+- [Ninja](https://en.wikipedia.org/wiki/Ninja_(gamer))
+- [Nobru](https://en.wikipedia.org/wiki/Nobru)
+- [PewDiePie](https://en.wikipedia.org/wiki/PewDiePie) ★
+- [Pokimane](https://en.wikipedia.org/wiki/Pokimane)
+- [Shroud](https://en.wikipedia.org/wiki/Shroud_(gamer))
+- [TheGrefg](https://en.wikipedia.org/wiki/TheGrefg)
+- [xQc](https://en.wikipedia.org/wiki/XQc)
+- [Zangado](https://www.youtube.com/@ZangadoReview)
+
+## Jogos brasileiros
+
+- [Blazing Chrome](https://en.wikipedia.org/wiki/Blazing_Chrome)
+- [Chroma Squad](https://en.wikipedia.org/wiki/Chroma_Squad)
+- [Dandara](https://en.wikipedia.org/wiki/Dandara_(video_game)) ★
+- [Dolmen](https://en.wikipedia.org/wiki/Dolmen_(video_game))
+- [Enigma do Medo](https://pt.wikipedia.org/wiki/Enigma_do_Medo)
+- [Horizon Chase Turbo](https://www.horizonchase.com/) ★
+- [Knights of Pen and Paper](https://en.wikipedia.org/wiki/Knights_of_Pen_and_Paper)
+- [Mullet MadJack](https://en.wikipedia.org/wiki/Mullet_MadJack)
+- [Mônica no Castelo do Dragão](https://en.wikipedia.org/wiki/Wonder_Boy_in_Monster_Land)
+- [Oniken](https://en.wikipedia.org/wiki/Oniken)
+- [Relic Hunters Zero](https://store.steampowered.com/app/382490/Relic_Hunters_Zero_Remix/)
+- [Taikodom](https://en.wikipedia.org/wiki/Taikodom) 🪦
+- [Toren](https://en.wikipedia.org/wiki/Toren_(video_game))
+- [Unsighted](https://en.wikipedia.org/wiki/Unsighted)
+
+## Jogos icônicos
+
+- [Age of Empires II](https://www.ageofempires.com/games/aoeiide/)
+- [Among Us](https://www.innersloth.com/games/among-us/)
+- [Angry Birds](https://www.angrybirds.com/)
+- [Animal Crossing: New Horizons](https://animal-crossing.com/new-horizons/)
+- [Baldur's Gate 3](https://baldursgate3.game/)
+- [BioShock](https://en.wikipedia.org/wiki/BioShock_(video_game))
+- [Breath of the Wild](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild)
+- [Call of Duty 4: Modern Warfare](https://en.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare)
+- [Candy Crush Saga](https://www.king.com/game/candycrush)
+- [Celeste](https://www.celestegame.com/)
+- [Chrono Trigger](https://en.wikipedia.org/wiki/Chrono_Trigger)
+- [Civilization](https://civilization.2k.com/)
+- [Clash of Clans](https://supercell.com/en/games/clashofclans/)
+- [Club Penguin](https://en.wikipedia.org/wiki/Club_Penguin) 🪦
+- [Counter-Strike](https://www.counter-strike.net/)
+- [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls_(video_game))
+- [Diablo II](https://en.wikipedia.org/wiki/Diablo_II)
+- [Donkey Kong](https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game))
+- [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) ★
+- [Dota 2](https://www.dota2.com/)
+- [Elden Ring](https://en.bandainamcoent.eu/elden-ring) ★
+- [Final Fantasy VII](https://en.wikipedia.org/wiki/Final_Fantasy_VII)
+- [Fortnite](https://www.fortnite.com/)
+- [Free Fire](https://ff.garena.com/) ★
+- [Genshin Impact](https://genshin.hoyoverse.com/)
+- [God of War](https://en.wikipedia.org/wiki/God_of_War_(2018_video_game))
+- [Grand Theft Auto V](https://www.rockstargames.com/gta-v) ★
+- [Grand Theft Auto: San Andreas](https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas)
+- [Habbo Hotel](https://www.habbo.com/)
+- [Hades](https://www.supergiantgames.com/games/hades/)
+- [Half-Life](https://en.wikipedia.org/wiki/Half-Life_(video_game))
+- [Half-Life 2](https://en.wikipedia.org/wiki/Half-Life_2)
+- [Halo: Combat Evolved](https://en.wikipedia.org/wiki/Halo:_Combat_Evolved)
+- [Hollow Knight](https://www.hollowknight.com/)
+- [Journey](https://en.wikipedia.org/wiki/Journey_(2012_video_game))
+- [League of Legends](https://www.leagueoflegends.com/) ★
+- [Mario Kart 8](https://en.wikipedia.org/wiki/Mario_Kart_8)
+- [Mass Effect 2](https://en.wikipedia.org/wiki/Mass_Effect_2)
+- [Metal Gear Solid](https://en.wikipedia.org/wiki/Metal_Gear_Solid_(1998_video_game))
+- [Minecraft](https://www.minecraft.net/) ★
+- [Mortal Kombat](https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game))
+- [Ocarina of Time](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time) ★
+- [Outer Wilds](https://www.mobiusdigitalgames.com/outer-wilds.html)
+- [Overwatch](https://overwatch.blizzard.com/)
+- [Pac-Man](https://en.wikipedia.org/wiki/Pac-Man) ★
+- [Pokémon Go](https://pokemongolive.com/)
+- [Pokémon Red e Blue](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow)
+- [Pong](https://en.wikipedia.org/wiki/Pong)
+- [Portal](https://en.wikipedia.org/wiki/Portal_(video_game))
+- [PUBG: Battlegrounds](https://pubg.com/)
+- [Red Dead Redemption 2](https://www.rockstargames.com/reddeadredemption2)
+- [Resident Evil](https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game))
+- [Resident Evil 4](https://en.wikipedia.org/wiki/Resident_Evil_4)
+- [Roblox](https://www.roblox.com/)
+- [Shadow of the Colossus](https://en.wikipedia.org/wiki/Shadow_of_the_Colossus)
+- [Silent Hill 2](https://en.wikipedia.org/wiki/Silent_Hill_2)
+- [SimCity](https://en.wikipedia.org/wiki/SimCity_(1989_video_game))
+- [Skyrim](https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim)
+- [Sonic the Hedgehog](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game))
+- [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders)
+- [StarCraft](https://en.wikipedia.org/wiki/StarCraft_(video_game))
+- [Stardew Valley](https://www.stardewvalley.net/)
+- [Street Fighter II](https://en.wikipedia.org/wiki/Street_Fighter_II)
+- [Super Mario 64](https://en.wikipedia.org/wiki/Super_Mario_64) ★
+- [Super Mario Bros.](https://en.wikipedia.org/wiki/Super_Mario_Bros.) ★
+- [Super Smash Bros. Ultimate](https://www.smashbros.com/)
+- [Terraria](https://terraria.org/)
+- [Tetris](https://tetris.com/) ★
+- [The Last of Us](https://en.wikipedia.org/wiki/The_Last_of_Us)
+- [The Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game))
+- [The Sims](https://en.wikipedia.org/wiki/The_Sims_(video_game))
+- [The Witcher 3](https://www.thewitcher.com/en/witcher3)
+- [Undertale](https://undertale.com/)
+- [Valorant](https://playvalorant.com/) ★
+- [Wii Sports](https://en.wikipedia.org/wiki/Wii_Sports)
+- [World of Warcraft](https://worldofwarcraft.blizzard.com/)
+- [Grand Theft Auto VI (lançamento previsto para 2026)](https://www.rockstargames.com/VI) ★
+- [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World)
+- [Fallout: New Vegas](https://en.wikipedia.org/wiki/Fallout:_New_Vegas)
+- [Uncharted 2: Among Thieves](https://en.wikipedia.org/wiki/Uncharted_2:_Among_Thieves)
+- [Assassin's Creed II](https://en.wikipedia.org/wiki/Assassin%27s_Creed_II)
+- [Bloodborne](https://en.wikipedia.org/wiki/Bloodborne)
+- [Persona 5](https://en.wikipedia.org/wiki/Persona_5)
+- [Rocket League](https://en.wikipedia.org/wiki/Rocket_League)
+- [Cyberpunk 2077](https://en.wikipedia.org/wiki/Cyberpunk_2077)
+- [Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom)
+- [Black Myth: Wukong](https://en.wikipedia.org/wiki/Black_Myth:_Wukong)
+- [Balatro](https://en.wikipedia.org/wiki/Balatro)
+- [Clair Obscur: Expedition 33](https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33)
+- [Hollow Knight: Silksong](https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong)
+
+## Lojas e plataformas digitais
+
+- [Battle.net](https://battle.net)
+- [Desura](https://en.wikipedia.org/wiki/Desura) 🪦
+- [EA app](https://www.ea.com/ea-app)
+- [Epic Games Store](https://store.epicgames.com/) ★
+- [Fanatical](https://www.fanatical.com/)
+- [Game Jolt](https://gamejolt.com)
+- [Games for Windows – Live](https://en.wikipedia.org/wiki/Games_for_Windows_%E2%80%93_Live) 🪦
+- [GOG.com](https://www.gog.com/) ★
+- [Google Play Games](https://play.google.com/googleplaygames)
+- [Green Man Gaming](https://www.greenmangaming.com)
+- [Humble Bundle](https://www.humblebundle.com)
+- [itch.io](https://itch.io/) ★
+- [Microsoft Store](https://apps.microsoft.com/)
+- [Nintendo eShop](https://www.nintendo.com/store/)
+- [Nuuvem](https://www.nuuvem.com/)
+- [Origin](https://en.wikipedia.org/wiki/EA_App) 🪦
+- [PlayStation Store](https://store.playstation.com)
+- [Prime Gaming](https://en.wikipedia.org/wiki/Prime_Gaming) 🪦
+- [Rockstar Games Launcher](https://www.rockstargames.com/downloads)
+- [Steam](https://store.steampowered.com/) ★
+- [Ubisoft Connect](https://connect.ubisoft.com/)
+
+## Mods e emulação
+
+- [Cemu](https://cemu.info/)
+- [Citra](https://en.wikipedia.org/wiki/Citra_(emulator)) 🪦
+- [CurseForge](https://www.curseforge.com/)
+- [Dolphin](https://dolphin-emu.org/)
+- [DOSBox](https://www.dosbox.com/)
+- [DuckStation](https://www.duckstation.org/)
+- [Internet Archive (software)](https://archive.org/details/software)
+- [MAME](https://www.mamedev.org) ★
+- [Mod DB](https://www.moddb.com/)
+- [Nexus Mods](https://www.nexusmods.com/) ★
+- [PCSX2](https://pcsx2.net/)
+- [PPSSPP](https://www.ppsspp.org)
+- [RetroArch](https://www.retroarch.com/) ★
+- [RPCS3](https://www.rpcs3.net/)
+- [Ryujinx](https://en.wikipedia.org/wiki/Ryujinx) 🪦
+- [ScummVM](https://www.scummvm.org/)
+- [Steam Workshop](https://steamcommunity.com/workshop/)
+- [Yuzu](https://en.wikipedia.org/wiki/Yuzu_(emulator)) 🪦
+
+## Motores de jogo
+
+- [Adobe Flash](https://en.wikipedia.org/wiki/Adobe_Flash) 🪦
+- [Bevy](https://bevy.org/)
+- [Cocos](https://cocos2d-x.org/)
+- [Construct](https://www.construct.net/)
+- [CryEngine](https://www.cryengine.com/)
+- [Decima](https://en.wikipedia.org/wiki/Decima_(game_engine))
+- [Defold](https://defold.com/)
+- [Frostbite](https://www.ea.com/frostbite)
+- [GameMaker](https://gamemaker.io/)
+- [Godot](https://godotengine.org/) ★
+- [Havok](https://www.havok.com/)
+- [id Tech](https://en.wikipedia.org/wiki/Id_Tech)
+- [LÖVE](https://love2d.org/)
+- [Phaser](https://phaser.io/)
+- [RE Engine](https://en.wikipedia.org/wiki/RE_Engine)
+- [Ren'Py](https://www.renpy.org/)
+- [Roblox Studio](https://create.roblox.com/)
+- [RPG Maker](https://www.rpgmakerweb.com/)
+- [Source](https://developer.valvesoftware.com/wiki/Source)
+- [Source 2](https://developer.valvesoftware.com/wiki/Source_2)
+- [Twine](https://twinery.org)
+- [Unity](https://unity.com) ★
+- [Unreal Engine](https://www.unrealengine.com) ★
+
+## Museus e preservação
+
+- [Computerspielemuseum](https://www.computerspielemuseum.de/)
+- [Internet Archive](https://archive.org/)
+- [Museu do Videogame Itinerante](https://www.museudovideogame.org/)
+- [Museum of Art and Digital Entertainment](https://themade.org/)
+- [National Videogame Museum](https://nvmusa.org)
+- [Nintendo Museum](https://museum.nintendo.com/)
+- [The Strong National Museum of Play](https://www.museumofplay.org/) ★
+- [Video Game History Foundation](https://gamehistory.org/) ★
+
+## Mídia e sites
+
+- [Adrenaline](https://www.adrenaline.com.br/)
+- [Ação Games](https://pt.wikipedia.org/wiki/A%C3%A7%C3%A3o_Games) 🪦
+- [Critical Hits](https://criticalhits.com.br/)
+- [Destructoid](https://www.destructoid.com)
+- [Digital Foundry](https://www.digitalfoundry.net/) ★
+- [Edge](https://www.gamesradar.com/uk/edge)
+- [Electronic Gaming Monthly](https://en.wikipedia.org/wiki/Electronic_Gaming_Monthly) 🪦
+- [Eurogamer](https://www.eurogamer.net)
+- [Famitsu](https://www.famitsu.com/)
+- [Game Developer](https://www.gamedeveloper.com)
+- [Game Informer](https://www.gameinformer.com)
+- [GameSpot](https://www.gamespot.com)
+- [Giant Bomb](https://www.giantbomb.com/)
+- [IGN](https://www.ign.com) ★
+- [IGN Brasil](https://br.ign.com/)
+- [Jovem Nerd](https://jovemnerd.com.br/)
+- [Kotaku](https://kotaku.com/)
+- [Nintendo Blast](https://www.nintendoblast.com.br/)
+- [Nintendo Life](https://www.nintendolife.com/)
+- [Nintendo Power](https://en.wikipedia.org/wiki/Nintendo_Power) 🪦
+- [PC Gamer](https://www.pcgamer.com)
+- [Polygon](https://www.polygon.com)
+- [Push Square](https://www.pushsquare.com/)
+- [Rock Paper Shotgun](https://www.rockpapershotgun.com)
+- [SuperGamePower](https://pt.wikipedia.org/wiki/Super_GamePower) 🪦
+- [The Enemy](https://www.theenemy.com.br/)
+- [Video Games Chronicle](https://www.videogameschronicle.com)
+- [Voxel (TecMundo)](https://www.estadao.com.br/tecmundo/voxel/)
+
+## Periféricos e realidade virtual
+
+- [8BitDo](https://www.8bitdo.com/)
+- [Apple Vision Pro](https://www.apple.com/apple-vision-pro/)
+- [Arcade stick](https://en.wikipedia.org/wiki/Arcade_controller)
+- [Controle (gamepad)](https://en.wikipedia.org/wiki/Gamepad) ★
+- [Controle de guitarra](https://en.wikipedia.org/wiki/Guitar_controller)
+- [Controle Xbox](https://www.xbox.com/accessories/controllers/xbox-wireless-controller)
+- [Corsair](https://www.corsair.com/)
+- [DualSense](https://www.playstation.com/accessories/dualsense-wireless-controller/)
+- [EyeToy](https://en.wikipedia.org/wiki/EyeToy) 🪦
+- [Headset](https://en.wikipedia.org/wiki/Headset_(audio))
+- [HyperX](https://hyperx.com/)
+- [Joy-Con](https://en.wikipedia.org/wiki/Joy-Con)
+- [Kinect](https://en.wikipedia.org/wiki/Kinect) 🪦
+- [Logitech G](https://www.logitechg.com/)
+- [Meta Quest](https://www.meta.com/quest/) ★
+- [Mouse gamer](https://en.wikipedia.org/wiki/Gaming_mouse)
+- [Oculus Rift](https://en.wikipedia.org/wiki/Oculus_Rift) 🪦
+- [Pistola de luz](https://en.wikipedia.org/wiki/Light_gun)
+- [Placa de vídeo (GPU)](https://en.wikipedia.org/wiki/Graphics_card) ★
+- [PlayStation VR2](https://www.playstation.com/ps-vr2)
+- [Power Glove](https://en.wikipedia.org/wiki/Power_Glove) 🪦
+- [Razer](https://www.razer.com/)
+- [SteelSeries](https://steelseries.com/)
+- [Teclado mecânico](https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboards)
+- [Valve Index](https://store.steampowered.com/hardware/valveindex)
+- [Volante](https://en.wikipedia.org/wiki/Racing_wheel)
+- [Wii Remote](https://en.wikipedia.org/wiki/Wii_Remote)
+- [Zapper](https://en.wikipedia.org/wiki/NES_Zapper) 🪦
+
+## Personagens icônicos
+
+- [2B](https://en.wikipedia.org/wiki/2B)
+- [Aloy](https://en.wikipedia.org/wiki/Aloy)
+- [Arthur Morgan](https://en.wikipedia.org/wiki/Arthur_Morgan_(Red_Dead))
+- [Bowser](https://en.wikipedia.org/wiki/Bowser_(character))
+- [Chun-Li](https://en.wikipedia.org/wiki/Chun-Li)
+- [Cloud Strife](https://en.wikipedia.org/wiki/Cloud_Strife)
+- [Crash Bandicoot](https://en.wikipedia.org/wiki/Crash_Bandicoot_(character))
+- [Donkey Kong](https://en.wikipedia.org/wiki/Donkey_Kong_(character))
+- [Doomguy](https://en.wikipedia.org/wiki/Doomguy)
+- [Ellie](https://en.wikipedia.org/wiki/Ellie_(The_Last_of_Us))
+- [Ezio Auditore](https://en.wikipedia.org/wiki/Ezio_Auditore_da_Firenze)
+- [Geralt de Rívia](https://en.wikipedia.org/wiki/Geralt_of_Rivia)
+- [Gordon Freeman](https://en.wikipedia.org/wiki/Gordon_Freeman)
+- [Jill Valentine](https://en.wikipedia.org/wiki/Jill_Valentine)
+- [Kirby](https://en.wikipedia.org/wiki/Kirby_(character))
+- [Kratos](https://en.wikipedia.org/wiki/Kratos_(God_of_War))
+- [Lara Croft](https://en.wikipedia.org/wiki/Lara_Croft) ★
+- [Leon S. Kennedy](https://en.wikipedia.org/wiki/Leon_S._Kennedy)
+- [Link](https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)) ★
+- [Luigi](https://en.wikipedia.org/wiki/Luigi_(character))
+- [Mario](https://en.wikipedia.org/wiki/Mario) ★
+- [Master Chief](https://en.wikipedia.org/wiki/Master_Chief_(Halo))
+- [Mega Man](https://en.wikipedia.org/wiki/Mega_Man_(character))
+- [Nathan Drake](https://en.wikipedia.org/wiki/Nathan_Drake)
+- [Pac-Man](https://en.wikipedia.org/wiki/Pac-Man_(character))
+- [Pikachu](https://en.wikipedia.org/wiki/Pikachu) ★
+- [Princesa Peach](https://en.wikipedia.org/wiki/Princess_Peach)
+- [Ryu](https://en.wikipedia.org/wiki/Ryu_(Street_Fighter))
+- [Samus Aran](https://en.wikipedia.org/wiki/Samus_Aran)
+- [Scorpion](https://en.wikipedia.org/wiki/Scorpion_(Mortal_Kombat))
+- [Solid Snake](https://en.wikipedia.org/wiki/Solid_Snake)
+- [Sonic](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)) ★
+- [Spyro](https://en.wikipedia.org/wiki/Spyro_(character))
+- [Steve (Minecraft)](https://en.wikipedia.org/wiki/Steve_(Minecraft))
+- [Sub-Zero](https://en.wikipedia.org/wiki/Sub-Zero_(Mortal_Kombat))
+- [Yoshi](https://en.wikipedia.org/wiki/Yoshi)
+- [Zelda](https://en.wikipedia.org/wiki/Princess_Zelda)
+
+## Portáteis
+
+- [Analogue Pocket](https://www.analogue.co/pocket)
+- [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) 🪦
+- [Game & Watch](https://en.wikipedia.org/wiki/Game_%26_Watch) 🪦
+- [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) ★ 🪦
+- [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) 🪦
+- [Game Boy Color](https://en.wikipedia.org/wiki/Game_Boy_Color) 🪦
+- [Game Gear](https://en.wikipedia.org/wiki/Game_Gear) 🪦
+- [Legion Go](https://www.lenovo.com/us/en/legion-go/)
+- [N-Gage](https://en.wikipedia.org/wiki/N-Gage_(device)) 🪦
+- [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) 🪦
+- [Nintendo 3DS](https://en.wikipedia.org/wiki/Nintendo_3DS) 🪦
+- [Nintendo DS](https://en.wikipedia.org/wiki/Nintendo_DS) 🪦
+- [Nintendo Switch Lite](https://www.nintendo.com/us/gaming-systems/switch/lite/)
+- [Playdate](https://play.date/)
+- [PlayStation Portable](https://en.wikipedia.org/wiki/PlayStation_Portable) 🪦
+- [PlayStation Portal](https://www.playstation.com/accessories/playstation-portal-remote-player/)
+- [PlayStation Vita](https://en.wikipedia.org/wiki/PlayStation_Vita) 🪦
+- [ROG Ally](https://en.wikipedia.org/wiki/ROG_Ally)
+- [Steam Deck](https://store.steampowered.com/steamdeck) ★
+- [Virtual Boy](https://en.wikipedia.org/wiki/Virtual_Boy) 🪦
+- [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) 🪦
+- [ROG Xbox Ally](https://www.xbox.com/handhelds/rog-xbox-ally)
+
+## Premiações
+
+- [BAFTA Games Awards](https://www.bafta.org/games) ★
+- [D.I.C.E. Awards](https://www.interactive.org)
+- [Game Developers Choice Awards](https://www.gamechoiceawards.com/)
+- [Golden Joystick Awards](https://www.gamesradar.com/goldenjoystickawards)
+- [Independent Games Festival](https://www.igf.com/)
+- [Japan Game Awards](https://awards.cesa.or.jp)
+- [Steam Awards](https://store.steampowered.com/steamawards)
+- [The Game Awards](https://thegameawards.com) ★
+- [World Video Game Hall of Fame](https://www.museumofplay.org/exhibits/world-video-game-hall-of-fame)
+
+## Streaming e comunidades
+
+- [Discord](https://discord.com/) ★
+- [Kick](https://kick.com)
+- [Mixer](https://en.wikipedia.org/wiki/Mixer_(service)) 🪦
+- [Raptr](https://en.wikipedia.org/wiki/Raptr) 🪦
+- [Reddit (r/gaming)](https://www.reddit.com/r/gaming/)
+- [ResetEra](https://www.resetera.com/)
+- [Steam Community](https://steamcommunity.com/)
+- [Twitch](https://www.twitch.tv/) ★
+- [Xfire](https://en.wikipedia.org/wiki/Xfire) 🪦
+- [YouTube Gaming](https://www.youtube.com/gaming)
+
+## Times de esports
+
+- [100 Thieves](https://100thieves.com/)
+- [Astralis](https://www.astralis.gg/)
+- [B4 Esports](https://www.instagram.com/b4ofc/)
+- [Bilibili Gaming](https://en.wikipedia.org/wiki/Bilibili_Gaming)
+- [Cloud9](https://cloud9.gg/)
+- [Complexity Gaming](https://complexity.gg/)
+- [Corinthians Esports](https://www.instagram.com/corinthiansesports/)
+- [Dplus KIA](https://dwgkia.gg/)
+- [DRX](https://www.drx.gg/)
+- [EDward Gaming](https://en.wikipedia.org/wiki/Edward_Gaming)
+- [Evil Geniuses](https://www.evilgeniuses.gg/)
+- [FaZe Clan](https://fazeclan.com/)
+- [Flamengo Esports](https://www.instagram.com/flaesports/)
+- [Fluxo W7M](https://lolesports.com/en-US/teams/fluxo) ★
+- [Fnatic](https://fnatic.com)
+- [FURIA](https://www.furia.gg/) ★
+- [G2 Esports](https://g2esports.com)
+- [G3X](https://www.instagram.com/g3xfc/)
+- [Gen.G](https://geng.gg/)
+- [Hanwha Life Esports](https://hle.kr)
+- [Hero Base](https://herobase.com.br/)
+- [Heroic](https://heroic.gg/)
+- [INTZ](https://intz.com.br/)
+- [JD Gaming](https://en.wikipedia.org/wiki/JD_Gaming)
+- [Karmine Corp](https://www.karminecorp.fr/)
+- [KT Rolster](https://en.wikipedia.org/wiki/KT_Rolster)
+- [LOUD](https://loud.gg/) ★
+- [MIBR](https://www.mibr.gg) ★
+- [MOUZ](https://www.mouz.gg/)
+- [Movistar KOI](https://koisquad.com)
+- [Natus Vincere](https://navi.gg/)
+- [NRG](https://nrg.gg)
+- [OG](https://ogs.gg)
+- [OpTic Gaming](https://opticgaming.com/)
+- [paiN Gaming](https://www.pain.gg/) ★
+- [Paper Rex](https://www.pprx.team/)
+- [RED Canids Kalunga](https://x.com/REDCanids)
+- [RRQ](https://teamrrq.com/)
+- [Sentinels](https://www.sentinels.gg/)
+- [SK Gaming](https://www.sk-gaming.com)
+- [T1](https://t1.gg/)
+- [Talon Esports](https://talon.gg/)
+- [Team Falcons](https://www.falcons.sa)
+- [Team Heretics](https://teamheretics.com/)
+- [Team Liquid](https://www.teamliquid.com/)
+- [Team Secret](https://teamsecret.gg/)
+- [Team Spirit](https://teamspirit.gg/)
+- [Team Vitality](https://vitality.gg/)
+- [Top Esports](https://en.wikipedia.org/wiki/Top_Esports)
+- [TSM](https://tsm.gg/)
+- [Virtus.pro](https://virtus.pro/)
+- [Vivo Keyd Stars](https://www.keydstars.com/)
+- [Weibo Gaming](https://en.wikipedia.org/wiki/Weibo_Gaming)

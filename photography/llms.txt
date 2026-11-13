@@ -1,0 +1,1400 @@
+# A Biblioteca de Fotografia
+
+> Catálogo pesquisável de fotografia: conceitos, técnicas, estilos, aplicativos de fotos e de edição, softwares, redes sociais e sites de portfólio para fotógrafos, equipamentos, premiações, pessoas e história.
+
+Biblioteca temática da BiblioVerse (The Photography Library), com curadoria humana. Página: https://biblioverse.org/photography/ · 1065 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Exposição
+
+- [Exposição](https://en.wikipedia.org/wiki/Exposure_(photography)) ★
+- [Abertura](https://en.wikipedia.org/wiki/Aperture) ★
+- [Número f](https://en.wikipedia.org/wiki/F-number)
+- [Velocidade do obturador](https://en.wikipedia.org/wiki/Shutter_speed) ★
+- [ISO (sensibilidade)](https://en.wikipedia.org/wiki/Film_speed) ★
+- [Valor de exposição (EV)](https://en.wikipedia.org/wiki/Exposure_value)
+- [Compensação de exposição](https://en.wikipedia.org/wiki/Exposure_compensation)
+- [Modos de fotometria](https://en.wikipedia.org/wiki/Metering_mode)
+- [Histograma](https://en.wikipedia.org/wiki/Image_histogram)
+- [Faixa dinâmica](https://en.wikipedia.org/wiki/Dynamic_range)
+- [Profundidade de campo](https://en.wikipedia.org/wiki/Depth_of_field) ★
+- [Distância hiperfocal](https://en.wikipedia.org/wiki/Hyperfocal_distance)
+- [Sistema de zonas](https://en.wikipedia.org/wiki/Zone_System)
+- [Regra do Sunny 16](https://en.wikipedia.org/wiki/Sunny_16_rule)
+
+### Composição
+
+- [Composição](https://en.wikipedia.org/wiki/Composition_(visual_arts)) ★
+- [Regra dos terços](https://en.wikipedia.org/wiki/Rule_of_thirds) ★
+- [Proporção áurea](https://en.wikipedia.org/wiki/Golden_ratio)
+- [Linhas guia](https://en.wikipedia.org/wiki/Leading_lines)
+- [Espaço negativo](https://en.wikipedia.org/wiki/Negative_space)
+- [Perspectiva](https://en.wikipedia.org/wiki/Perspective_(graphical))
+- [Proporção da imagem](https://en.wikipedia.org/wiki/Aspect_ratio_(image))
+- [Figura e fundo](https://en.wikipedia.org/wiki/Figure%E2%80%93ground_(perception))
+
+### Luz e cor
+
+- [Hora dourada](https://en.wikipedia.org/wiki/Golden_hour_(photography)) ★
+- [Hora azul](https://en.wikipedia.org/wiki/Blue_hour)
+- [Temperatura de cor](https://en.wikipedia.org/wiki/Color_temperature)
+- [Balanço de branco](https://en.wikipedia.org/wiki/Color_balance) ★
+- [Iluminação de três pontos](https://en.wikipedia.org/wiki/Three-point_lighting) ★
+- [Luz Rembrandt](https://en.wikipedia.org/wiki/Rembrandt_lighting)
+- [Contraluz](https://en.wikipedia.org/wiki/Backlighting_(lighting_design))
+- [Flash](https://en.wikipedia.org/wiki/Flash_(photography))
+- [Clave alta (high-key)](https://en.wikipedia.org/wiki/High-key_lighting)
+- [Clave baixa (low-key)](https://en.wikipedia.org/wiki/Low-key_lighting)
+- [Chiaroscuro](https://en.wikipedia.org/wiki/Chiaroscuro)
+- [Espaço de cor](https://en.wikipedia.org/wiki/Color_space)
+- [Gerenciamento de cores](https://en.wikipedia.org/wiki/Color_management)
+
+### Lentes e óptica
+
+- [Distância focal](https://en.wikipedia.org/wiki/Focal_length) ★
+- [Lente fixa (prime)](https://en.wikipedia.org/wiki/Prime_lens)
+- [Lente zoom](https://en.wikipedia.org/wiki/Zoom_lens)
+- [Grande angular](https://en.wikipedia.org/wiki/Wide-angle_lens)
+- [Teleobjetiva](https://en.wikipedia.org/wiki/Telephoto_lens)
+- [Olho de peixe](https://en.wikipedia.org/wiki/Fisheye_lens)
+- [Autofoco](https://en.wikipedia.org/wiki/Autofocus)
+- [Estabilização de imagem](https://en.wikipedia.org/wiki/Image_stabilization)
+- [Aberração cromática](https://en.wikipedia.org/wiki/Chromatic_aberration)
+- [Vinheta](https://en.wikipedia.org/wiki/Vignetting)
+
+### Câmeras, sensores e formatos
+
+- [Câmera mirrorless](https://en.wikipedia.org/wiki/Mirrorless_camera) ★
+- [DSLR](https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera)
+- [Full frame](https://en.wikipedia.org/wiki/Full-frame_digital_SLR)
+- [APS-C](https://en.wikipedia.org/wiki/APS-C)
+- [Micro Four Thirds](https://en.wikipedia.org/wiki/Micro_Four_Thirds_system)
+- [Médio formato](https://en.wikipedia.org/wiki/Medium_format)
+- [Fator de corte (crop)](https://en.wikipedia.org/wiki/Crop_factor)
+- [Fotografia computacional](https://en.wikipedia.org/wiki/Computational_photography)
+- [RAW](https://en.wikipedia.org/wiki/Raw_image_format) ★
+- [DNG](https://en.wikipedia.org/wiki/Digital_Negative)
+- [JPEG](https://en.wikipedia.org/wiki/JPEG)
+- [HEIF](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format)
+- [TIFF](https://en.wikipedia.org/wiki/TIFF)
+- [EXIF](https://en.wikipedia.org/wiki/Exif)
+
+### Analógica e digital
+
+- [Fotografia analógica](https://en.wikipedia.org/wiki/Analog_photography) ★
+- [Fotografia digital](https://en.wikipedia.org/wiki/Digital_photography) ★
+- [Filme fotográfico](https://en.wikipedia.org/wiki/Photographic_film)
+- [Negativo](https://en.wikipedia.org/wiki/Negative_(photography))
+- [Filme reversível (slide)](https://en.wikipedia.org/wiki/Reversal_film)
+- [Filme 120 (médio formato)](https://en.wikipedia.org/wiki/120_film)
+- [Revelação](https://en.wikipedia.org/wiki/Photographic_processing)
+- [Laboratório (câmara escura)](https://en.wikipedia.org/wiki/Darkroom)
+- [Grão](https://en.wikipedia.org/wiki/Film_grain)
+- [Sensor de imagem](https://en.wikipedia.org/wiki/Image_sensor)
+- [Ruído digital](https://en.wikipedia.org/wiki/Image_noise)
+
+## Estilos de fotografia
+
+### Pessoas
+
+- [Retrato](https://en.wikipedia.org/wiki/Portrait_photography) ★
+- [Fotografia de moda](https://en.wikipedia.org/wiki/Fashion_photography) ★
+- [Fotografia de casamento](https://en.wikipedia.org/wiki/Wedding_photography)
+- [Fotografia de eventos](https://en.wikipedia.org/wiki/Event_photography)
+- [Fotografia de shows](https://en.wikipedia.org/wiki/Concert_photography)
+- [Fotografia glamour](https://en.wikipedia.org/wiki/Glamour_photography)
+- [Selfie](https://en.wikipedia.org/wiki/Selfie)
+
+### Natureza
+
+- [Fotografia de paisagem](https://en.wikipedia.org/wiki/Landscape_photography) ★
+- [Fotografia de natureza](https://en.wikipedia.org/wiki/Nature_photography)
+- [Vida selvagem](https://en.wikipedia.org/wiki/Wildlife_photography) ★
+- [Macrofotografia](https://en.wikipedia.org/wiki/Macro_photography)
+- [Astrofotografia](https://en.wikipedia.org/wiki/Astrophotography) ★
+- [Fotografia subaquática](https://en.wikipedia.org/wiki/Underwater_photography)
+- [Fotografia aérea](https://en.wikipedia.org/wiki/Aerial_photography)
+
+### Documental e rua
+
+- [Fotografia de rua](https://en.wikipedia.org/wiki/Street_photography) ★
+- [Fotojornalismo](https://en.wikipedia.org/wiki/Photojournalism) ★
+- [Fotografia documental](https://en.wikipedia.org/wiki/Documentary_photography)
+- [Fotografia de guerra](https://en.wikipedia.org/wiki/War_photography)
+- [Fotografia esportiva](https://en.wikipedia.org/wiki/Sports_photography)
+- [Fotografia de viagem](https://en.wikipedia.org/wiki/Travel_photography)
+- [Fotografia cândida](https://en.wikipedia.org/wiki/Candid_photography)
+- [Exploração urbana](https://en.wikipedia.org/wiki/Urban_exploration)
+
+### Comercial
+
+- [Fotografia comercial](https://en.wikipedia.org/wiki/Commercial_photography) ★
+- [Fotografia gastronômica](https://en.wikipedia.org/wiki/Food_photography) ★
+- [Fotografia de arquitetura](https://en.wikipedia.org/wiki/Architectural_photography)
+- [Natureza-morta](https://en.wikipedia.org/wiki/Still_life_photography)
+- [Fotografia de banco de imagens](https://en.wikipedia.org/wiki/Stock_photography)
+
+### Artística e experimental
+
+- [Fotografia fine art](https://en.wikipedia.org/wiki/Fine-art_photography) ★
+- [Preto e branco](https://en.wikipedia.org/wiki/Monochrome_photography) ★
+- [Fotografia abstrata](https://en.wikipedia.org/wiki/Abstract_photography)
+- [Fotografia conceitual](https://en.wikipedia.org/wiki/Conceptual_photography)
+- [Lomografia](https://en.wikipedia.org/wiki/Lomography)
+- [Fotografia com celular](https://en.wikipedia.org/wiki/Camera_phone)
+
+## Técnicas de fotografia
+
+### Movimento e tempo
+
+- [Longa exposição](https://en.wikipedia.org/wiki/Long-exposure_photography) ★
+- [Panning](https://en.wikipedia.org/wiki/Panning_(camera))
+- [Time-lapse](https://en.wikipedia.org/wiki/Time-lapse_photography) ★
+- [Fotografia de alta velocidade](https://en.wikipedia.org/wiki/High-speed_photography)
+- [Rastros de estrelas (star trails)](https://en.wikipedia.org/wiki/Star_trail)
+- [Light painting](https://en.wikipedia.org/wiki/Light_painting)
+
+### Foco e profundidade
+
+- [Bokeh](https://en.wikipedia.org/wiki/Bokeh) ★
+- [Empilhamento de foco (focus stacking)](https://en.wikipedia.org/wiki/Focus_stacking)
+- [Tilt-shift](https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography)
+- [Estereoscopia](https://en.wikipedia.org/wiki/Stereoscopy)
+
+### Imagens combinadas
+
+- [Bracketing](https://en.wikipedia.org/wiki/Bracketing)
+- [HDR](https://en.wikipedia.org/wiki/High-dynamic-range_imaging) ★
+- [Fotografia panorâmica](https://en.wikipedia.org/wiki/Panoramic_photography)
+- [Exposição múltipla](https://en.wikipedia.org/wiki/Multiple_exposure)
+- [Fotomontagem](https://en.wikipedia.org/wiki/Photomontage)
+- [Lucky imaging](https://en.wikipedia.org/wiki/Lucky_imaging)
+
+### Flash e iluminação
+
+- [Flash de preenchimento](https://en.wikipedia.org/wiki/Fill_flash)
+- [Rebatedor (refletor)](https://en.wikipedia.org/wiki/Reflector_(photography))
+- [Sincronização do flash](https://en.wikipedia.org/wiki/Flash_synchronization)
+- [Silhueta](https://en.wikipedia.org/wiki/Silhouette)
+
+### Técnicas especiais e laboratório
+
+- [Fotografia infravermelha](https://en.wikipedia.org/wiki/Infrared_photography)
+- [Pinhole](https://en.wikipedia.org/wiki/Pinhole_camera)
+- [Fotograma](https://en.wikipedia.org/wiki/Photogram)
+- [Máscara e superexposição (dodging & burning)](https://en.wikipedia.org/wiki/Dodging_and_burning)
+- [Processamento cruzado](https://en.wikipedia.org/wiki/Cross_processing)
+- [Push processing](https://en.wikipedia.org/wiki/Push_processing)
+- [Color grading](https://en.wikipedia.org/wiki/Color_grading)
+- [Manipulação de fotos](https://en.wikipedia.org/wiki/Photo_manipulation)
+
+## Premiações de fotografia
+
+### Jornalismo e documental
+
+- [World Press Photo](https://www.worldpressphoto.org/) ★
+- [Prêmio Pulitzer de Fotografia de Notícias](https://en.wikipedia.org/wiki/Pulitzer_Prize_for_Breaking_News_Photography) ★
+- [Prêmio Pulitzer de Fotografia de Reportagem](https://en.wikipedia.org/wiki/Pulitzer_Prize_for_Feature_Photography)
+- [Robert Capa Gold Medal](https://en.wikipedia.org/wiki/Robert_Capa_Gold_Medal)
+- [Pictures of the Year International (POY)](https://www.poy.org/)
+- [W. Eugene Smith Grant](https://smithfund.org/)
+- [Prêmio Vladimir Herzog](https://premiovladimirherzog.org/)
+
+### Arte e carreira
+
+- [Hasselblad Award](https://en.wikipedia.org/wiki/Hasselblad_Award) ★
+- [Prix Pictet](https://prixpictet.com/)
+- [Deutsche Börse Photography Foundation Prize](https://en.wikipedia.org/wiki/Deutsche_B%C3%B6rse_Photography_Foundation_Prize)
+- [Leica Oskar Barnack Award](https://en.wikipedia.org/wiki/Leica_Oskar_Barnack_Award)
+- [Infinity Awards (ICP)](https://en.wikipedia.org/wiki/Infinity_Awards)
+
+### Concursos abertos
+
+- [Sony World Photography Awards](https://www.worldphoto.org/) ★
+- [International Photography Awards](https://www.photoawards.com/)
+- [iPhone Photography Awards](https://www.ippawards.com/)
+- [Siena International Photo Awards](https://sipacontest.com/)
+- [35AWARDS](https://35awards.com/)
+- [Nikon Photo Contest](https://www.nikon-photocontest.com/)
+
+### Natureza e ciência
+
+- [Wildlife Photographer of the Year](https://www.nhm.ac.uk/wpy) ★
+- [Astronomy Photographer of the Year](https://www.rmg.co.uk/whats-on/astronomy-photographer-year)
+- [Close-up Photographer of the Year](https://www.cupoty.com/)
+- [Bird Photographer of the Year](https://www.birdpoty.com/)
+- [Underwater Photographer of the Year](https://underwaterphotographeroftheyear.com/)
+- [Comedy Wildlife Photography Awards](https://www.comedywildlifephoto.com/)
+- [Nikon Small World](https://www.nikonsmallworld.com/)
+
+## Aplicativos de fotos
+
+### Câmera manual e RAW
+
+- [Halide](https://halide.cam/) ★
+- [ProCamera](https://www.procamera-app.com/)
+- [Obscura](https://obscura.camera/)
+- [Blackmagic Camera](https://www.blackmagicdesign.com/products/blackmagiccamera) ★
+- [Open Camera](https://opencamera.org.uk/)
+- [Google Pixel Câmera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera)
+
+### Câmeras com estilo analógico
+
+- [VSCO](https://www.vsco.co/) ★
+- [Hipstamatic](https://hipstamatic.com/)
+- [Lapse](https://www.lapse.com/)
+- [RNI Films](https://reallyniceimages.com/)
+
+### Galeria e backup
+
+- [Google Fotos](https://photos.google.com/) ★
+- [Fotos do iCloud](https://www.icloud.com/photos/)
+- [Amazon Photos](https://www.amazon.com/photos)
+- [Ente Photos](https://ente.io/)
+- [Immich](https://immich.app/)
+- [PhotoPrism](https://www.photoprism.app/)
+- [Mylio Photos](https://mylio.com/)
+- [Google PhotoScan](https://www.google.com/photos/scan/)
+
+## Aplicativos de edição
+
+### Edição no celular
+
+- [Adobe Lightroom (mobile)](https://lightroom.adobe.com/) ★
+- [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) ★
+- [VSCO](https://www.vsco.co/)
+- [Darkroom](https://darkroom.co/)
+- [Photomator](https://www.pixelmator.com/photomator/)
+- [Adobe Photoshop Express](https://www.adobe.com/products/photoshop-express.html)
+- [Picsart](https://picsart.com/)
+- [Polarr](https://www.polarr.com/)
+- [Facetune](https://www.facetuneapp.com/)
+- [Lens Distortions](https://www.lensdistortions.com/)
+
+### Editores online
+
+- [Photopea](https://www.photopea.com/) ★
+- [Pixlr](https://pixlr.com/) ★
+- [Adobe Photoshop na web](https://photoshop.adobe.com/)
+- [Adobe Express](https://www.adobe.com/express/)
+- [Canva](https://www.canva.com/)
+- [Fotor](https://www.fotor.com/)
+- [BeFunky](https://www.befunky.com/)
+- [iLoveIMG](https://www.iloveimg.com/)
+
+### Edição com IA
+
+- [Adobe Firefly](https://firefly.adobe.com/) ★
+- [remove.bg](https://www.remove.bg/) ★
+- [Photoroom](https://www.photoroom.com/)
+- [Clipdrop](https://clipdrop.co/)
+- [Cleanup.pictures](https://cleanup.pictures/)
+- [Let's Enhance](https://letsenhance.io/)
+- [Magnific](https://magnific.ai/)
+- [Remini](https://remini.ai/)
+- [Krea](https://www.krea.ai/)
+- [Upscayl](https://upscayl.org/)
+- [Imagen AI](https://imagen-ai.com/)
+- [Aftershoot](https://aftershoot.com/)
+- [Evoto](https://www.evoto.ai/)
+- [Retouch4me](https://retouch4me.com/)
+
+## Softwares
+
+### Editores profissionais
+
+- [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) ★
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) ★
+- [Capture One](https://www.captureone.com/) ★
+- [DxO PhotoLab](https://www.dxo.com/dxo-photolab/)
+- [Affinity](https://www.affinity.studio/)
+- [Luminar Neo](https://skylum.com/luminar)
+- [ON1 Photo RAW](https://www.on1.com/products/photo-raw/)
+- [Exposure X](https://exposure.software/)
+- [ACDSee Photo Studio](https://www.acdsee.com/)
+- [Corel PaintShop Pro](https://www.paintshoppro.com/)
+- [Pixelmator Pro](https://www.pixelmator.com/pro/)
+- [Plano de Fotografia da Adobe](https://www.adobe.com/creativecloud/photography.html)
+- [Apple Aperture](https://en.wikipedia.org/wiki/Aperture_(software)) 🪦
+- [Picasa](https://en.wikipedia.org/wiki/Picasa) 🪦
+
+### Gratuitos e open source
+
+- [GIMP](https://www.gimp.org/) ★
+- [darktable](https://www.darktable.org/) ★
+- [RawTherapee](https://rawtherapee.com/)
+- [ART (Another RawTherapee)](https://artraweditor.github.io/)
+- [digiKam](https://www.digikam.org/)
+- [Paint.NET](https://www.getpaint.net/)
+- [Krita](https://krita.org/)
+- [LightZone](https://en.wikipedia.org/wiki/LightZone)
+
+### HDR, panorama e empilhamento
+
+- [PTGui](https://ptgui.com/) ★
+- [Hugin](https://hugin.sourceforge.io/)
+- [Photomatix Pro](https://www.hdrsoft.com/)
+- [Helicon Focus](https://www.heliconsoft.com/heliconsoft-products/helicon-focus/)
+- [Zerene Stacker](https://zerenesystems.com/cms/stacker)
+
+### Astrofotografia
+
+- [Siril](https://siril.org/) ★
+- [PixInsight](https://pixinsight.com/)
+- [DeepSkyStacker](http://deepskystacker.free.fr/)
+- [Sequator](https://sites.google.com/view/sequator/)
+- [N.I.N.A.](https://nighttime-imaging.eu/)
+- [PHD2 Guiding](https://openphdguiding.org/)
+
+### Plugins e simulação de filme
+
+- [Nik Collection](https://nikcollection.dxo.com/) ★
+- [Topaz Labs](https://www.topazlabs.com/) ★
+- [DxO FilmPack](https://www.dxo.com/dxo-filmpack/)
+- [Dehancer](https://www.dehancer.com/)
+- [FilmConvert](https://www.filmconvert.com/)
+- [Mastin Labs](https://mastinlabs.com/)
+- [Negative Lab Pro](https://www.negativelabpro.com/)
+
+### Organização e visualização
+
+- [Photo Mechanic](https://home.camerabits.com/) ★
+- [Adobe Bridge](https://www.adobe.com/products/bridge.html)
+- [Narrative Select](https://narrative.so/)
+- [Excire Foto](https://excire.com/)
+- [XnView MP](https://www.xnview.com/en/xnviewmp/)
+- [FastRawViewer](https://www.fastrawviewer.com/)
+- [IrfanView](https://www.irfanview.com/)
+- [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm)
+- [ImageGlass](https://imageglass.org/)
+
+### Utilitários e metadados
+
+- [ExifTool](https://exiftool.org/) ★
+- [Jeffrey's Image Metadata Viewer](https://exif.regex.info/)
+- [Adobe DNG Converter](https://helpx.adobe.com/camera-raw/using/adobe-dng-converter.html)
+- [Squoosh](https://squoosh.app/)
+- [TinyPNG](https://tinypng.com/)
+- [ImageOptim](https://imageoptim.com/)
+
+## Redes sociais para fotógrafos
+
+### Comunidades de fotografia
+
+- [Flickr](https://www.flickr.com/) ★
+- [500px](https://500px.com/) ★
+- [Glass](https://glass.photo/) ★
+- [VSCO](https://www.vsco.co/)
+- [YouPic](https://youpic.com/)
+- [1x](https://1x.com/)
+- [Photocrowd](https://www.photocrowd.com/)
+- [EyeEm](https://www.eyeem.com/)
+- [Pixelfed](https://pixelfed.org/)
+- [Vero](https://vero.co/)
+- [Cara](https://cara.app/)
+- [AstroBin](https://www.astrobin.com/)
+- [iNaturalist](https://www.inaturalist.org/)
+- [Fotolog](https://en.wikipedia.org/wiki/Fotolog) 🪦
+
+### Redes visuais gerais
+
+- [Instagram](https://www.instagram.com/) ★
+- [Pinterest](https://www.pinterest.com/)
+- [Behance](https://www.behance.net/)
+- [Tumblr](https://www.tumblr.com/)
+- [TikTok](https://www.tiktok.com/)
+- [Lemon8](https://www.lemon8-app.com/)
+
+### Fóruns
+
+- [r/photography](https://www.reddit.com/r/photography/) ★
+- [r/analog](https://www.reddit.com/r/analog/)
+- [r/itookapicture](https://www.reddit.com/r/itookapicture/)
+- [Fóruns do DPReview](https://www.dpreview.com/forums)
+- [FM Forums (Fred Miranda)](https://www.fredmiranda.com/forum/)
+- [Photrio](https://www.photrio.com/forum/)
+- [PIXLS.US](https://discuss.pixls.us/)
+- [Cloudy Nights](https://www.cloudynights.com/)
+
+## Sites de portfólio
+
+### Construtores de portfólio
+
+- [Adobe Portfolio](https://portfolio.adobe.com/) ★
+- [Format](https://www.format.com/) ★
+- [SmugMug](https://www.smugmug.com/)
+- [Zenfolio](https://zenfolio.com/)
+- [PhotoShelter](https://www.photoshelter.com/)
+- [Pixpa](https://www.pixpa.com/)
+- [Showit](https://showit.com/)
+- [Squarespace](https://www.squarespace.com/)
+- [Cargo](https://cargo.site/)
+- [Wix](https://www.wix.com/)
+- [Alboom](https://www.alboompro.com/)
+
+### Galerias para clientes
+
+- [Pixieset](https://pixieset.com/) ★
+- [Pic-Time](https://pic-time.com/) ★
+- [ShootProof](https://www.shootproof.com/)
+- [CloudSpot](https://www.cloudspot.io/)
+- [Picdrop](https://www.picdrop.com/)
+
+### Gestão do negócio
+
+- [HoneyBook](https://www.honeybook.com/) ★
+- [Studio Ninja](https://www.studioninja.co/)
+- [Dubsado](https://www.dubsado.com/)
+- [Sprout Studio](https://getsproutstudio.com/)
+- [17hats](https://www.17hats.com/)
+
+## Bancos de imagens
+
+### Gratuitos
+
+- [Unsplash](https://unsplash.com/) ★
+- [Pexels](https://www.pexels.com/) ★
+- [Pixabay](https://pixabay.com/) ★
+- [Burst](https://burst.shopify.com/)
+- [StockSnap](https://stocksnap.io/)
+- [Kaboompics](https://kaboompics.com/)
+- [Gratisography](https://gratisography.com/)
+- [Life of Pix](https://www.lifeofpix.com/)
+- [Picjumbo](https://picjumbo.com/)
+- [Foodiesfeed](https://www.foodiesfeed.com/)
+- [Reshot](https://www.reshot.com/)
+- [Wikimedia Commons](https://commons.wikimedia.org/)
+- [Openverse](https://openverse.org/)
+- [NASA Image Library](https://images.nasa.gov/)
+- [Brasil com S](https://www.brasilcoms.com.br/)
+- [Foca Stock](https://focastock.com/)
+- [Free Nature Stock](https://freenaturestock.com/)
+- [Freerange](https://freerangestock.com/)
+- [ISO Republic](https://isorepublic.com/)
+- [Jay Mantri](https://jaymantri.com/)
+- [LibreShot](https://libreshot.com/)
+- [Magdeleine](https://magdeleine.co/)
+- [Morguefile](https://morguefile.com/)
+- [Negative Space](https://negativespace.co/)
+- [New Old Stock](https://nos.twnsnd.co/)
+- [Startup Stock Photos](https://startupstockphotos.com/)
+- [Stockvault](https://www.stockvault.net/)
+- [Textures](https://www.textures.com/)
+
+### Pagos
+
+- [Adobe Stock](https://stock.adobe.com/) ★
+- [Shutterstock](https://www.shutterstock.com/) ★
+- [Getty Images](https://www.gettyimages.com/)
+- [iStock](https://www.istockphoto.com/)
+- [Alamy](https://www.alamy.com/)
+- [Stocksy](https://www.stocksy.com/)
+- [Dreamstime](https://www.dreamstime.com/)
+- [123RF](https://www.123rf.com/)
+- [Depositphotos](https://depositphotos.com/)
+- [Pond5](https://www.pond5.com/)
+- [Foap](https://www.foap.com/)
+- [Fine Art America](https://fineartamerica.com/)
+- [Saatchi Art](https://www.saatchiart.com/)
+- [Death to Stock](https://www.deathtothestockphoto.com/)
+- [Truestock](https://truestock.com.au/)
+- [Visual China Group](https://www.vcg.com/)
+
+## Equipamentos
+
+### Câmeras
+
+- [Canon](https://global.canon/) ★
+- [Nikon](https://www.nikon.com/) ★
+- [Sony Alpha](https://alphauniverse.com/) ★
+- [Fujifilm X](https://fujifilm-x.com/) ★
+- [Panasonic Lumix](https://en.wikipedia.org/wiki/Lumix)
+- [OM System](https://en.wikipedia.org/wiki/OM_Digital_Solutions)
+- [Leica](https://leica-camera.com/)
+- [Hasselblad](https://www.hasselblad.com/)
+- [Ricoh / Pentax](https://www.ricoh-imaging.co.jp/english/)
+- [Phase One](https://www.phaseone.com/)
+- [DJI](https://www.dji.com/)
+- [GoPro](https://gopro.com/)
+- [Insta360](https://www.insta360.com/)
+
+### Lentes
+
+- [Sigma](https://www.sigma-global.com/) ★
+- [Tamron](https://www.tamron.com/)
+- [Zeiss](https://www.zeiss.com/)
+- [Samyang](https://en.wikipedia.org/wiki/Samyang_Optics)
+- [Laowa](https://www.venuslens.net/)
+- [Viltrox](https://viltrox.com/)
+- [Voigtländer](https://en.wikipedia.org/wiki/Voigtl%C3%A4nder)
+- [Lensbaby](https://lensbaby.com/)
+- [Moment (lentes para celular)](https://www.shopmoment.com/)
+
+### Iluminação
+
+- [Godox](https://www.godox.com/) ★
+- [Profoto](https://profoto.com/) ★
+- [Elinchrom](https://www.elinchrom.com/)
+- [Broncolor](https://www.broncolor.swiss/)
+- [Aputure](https://www.aputure.com/)
+- [Nanlite](https://www.nanlite.com/)
+- [Westcott](https://www.fjwestcott.com/)
+- [Neewer](https://neewer.com/)
+- [Sekonic (fotômetros)](https://www.sekonic.com/)
+
+### Acessórios e suportes
+
+- [Peak Design](https://www.peakdesign.com/) ★
+- [Manfrotto](https://www.manfrotto.com/)
+- [Gitzo](https://www.gitzo.com/)
+- [Really Right Stuff](https://www.reallyrightstuff.com/)
+- [Joby](https://joby.com/)
+- [SmallRig](https://www.smallrig.com/)
+- [Lowepro](https://www.lowepro.com/)
+- [Think Tank Photo](https://www.thinktankphoto.com/)
+- [Shimoda](https://shimodadesigns.com/)
+- [WANDRD](https://www.wandrd.com/)
+- [PolarPro](https://www.polarpro.com/)
+- [Lee Filters](https://www.leefilters.com/)
+- [ProGrade Digital](https://progradedigital.com/)
+- [Calibrite](https://calibrite.com/)
+- [Datacolor Spyder](https://www.datacolor.com/spyder/)
+
+### Filme e analógico
+
+- [Kodak Professional](https://imaging.kodakalaris.com/) ★
+- [Ilford Photo](https://www.ilfordphoto.com/) ★
+- [Lomography](https://www.lomography.com/)
+- [CineStill](https://cinestillfilm.com/)
+- [Polaroid](https://www.polaroid.com/)
+- [Instax](https://instax.com/)
+- [Foma](https://www.foma.cz/)
+- [Japan Camera Hunter](https://www.japancamerahunter.com/)
+- [Analogue Wonderland](https://analoguewonderland.co.uk/)
+- [Film Photography Project](https://filmphotographyproject.com/)
+
+## Reviews e notícias
+
+### Reviews e comparativos
+
+- [DPReview](https://www.dpreview.com/) ★
+- [DXOMARK](https://www.dxomark.com/) ★
+- [Photography Life](https://photographylife.com/) ★
+- [Imaging Resource](https://www.imaging-resource.com/)
+- [Camera Labs](https://www.cameralabs.com/)
+- [Photography Blog](https://www.photographyblog.com/)
+- [Digital Camera World](https://www.digitalcameraworld.com/)
+- [The-Digital-Picture](https://www.the-digital-picture.com/)
+- [Ken Rockwell](https://www.kenrockwell.com/)
+- [Lensrentals Blog](https://www.lensrentals.com/blog/)
+- [OpticalLimits](https://www.opticallimits.com/)
+- [LensTip](https://www.lenstip.com/)
+- [Photons to Photos](https://www.photonstophotos.net/)
+- [Camera Decision](https://cameradecision.com/)
+- [Camera Size](https://camerasize.com/)
+
+### Notícias e rumores
+
+- [PetaPixel](https://petapixel.com/) ★
+- [Fstoppers](https://fstoppers.com/) ★
+- [DIY Photography](https://www.diyphotography.net/)
+- [Amateur Photographer](https://amateurphotographer.com/)
+- [Photo Rumors](https://photorumors.com/)
+- [Canon Rumors](https://www.canonrumors.com/)
+- [Nikon Rumors](https://nikonrumors.com/)
+- [Sony Alpha Rumors](https://www.sonyalpharumors.com/)
+- [Fuji Rumors](https://www.fujirumors.com/)
+- [43 Rumors](https://www.43rumors.com/)
+- [Leica Rumors](https://leicarumors.com/)
+
+### Compra, venda e aluguel
+
+- [B&H Photo](https://www.bhphotovideo.com/) ★
+- [MPB](https://www.mpb.com/) ★
+- [Adorama](https://www.adorama.com/)
+- [KEH Camera](https://www.keh.com/)
+- [Lensrentals](https://www.lensrentals.com/)
+
+## Planejamento e ferramentas
+
+### Sol, lua e estrelas
+
+- [PhotoPills](https://www.photopills.com/) ★
+- [The Photographer's Ephemeris](https://www.photoephemeris.com/) ★
+- [Sun Surveyor](https://www.sunsurveyor.com/)
+- [PlanIt Pro](https://www.planitphoto.com/)
+- [SunCalc](https://www.suncalc.org/)
+- [Stellarium](https://stellarium.org/)
+
+### Clima e céu
+
+- [Light Pollution Map](https://www.lightpollutionmap.info/) ★
+- [Clear Outside](https://clearoutside.com/)
+- [Windy](https://www.windy.com/)
+- [meteoblue](https://www.meteoblue.com/)
+- [Sunsethue](https://sunsethue.com/)
+- [SpaceWeatherLive (auroras)](https://www.spaceweatherlive.com/)
+
+### Locais e simuladores
+
+- [Locationscout](https://www.locationscout.net/) ★
+- [Google Earth](https://earth.google.com/)
+- [CameraSim](https://camerasim.com/) ★
+- [DOFMaster](https://www.dofmaster.com/)
+
+## Aprendizado
+
+### Tutoriais e guias
+
+- [Cambridge in Colour](https://www.cambridgeincolour.com/) ★
+- [Digital Photography School](https://digital-photography-school.com/) ★
+- [Expert Photography](https://expertphotography.com/)
+- [Strobist](https://strobist.blogspot.com/)
+- [B&H Explora](https://www.bhphotovideo.com/explora)
+- [The Lightroom Queen](https://www.lightroomqueen.com/)
+- [Fotografia DG](https://www.fotografia-dg.com/)
+
+### Cursos
+
+- [Domestika](https://www.domestika.org/) ★
+- [CreativeLive](https://www.creativelive.com/)
+- [MasterClass](https://www.masterclass.com/)
+- [KelbyOne](https://kelbyone.com/)
+- [PHLEARN](https://phlearn.com/)
+- [Magnum Learn](https://learn.magnumphotos.com/)
+- [Skillshare](https://www.skillshare.com/)
+- [Coursera](https://www.coursera.org/)
+- [Udemy](https://www.udemy.com/)
+
+### Canais internacionais no YouTube
+
+- [Peter McKinnon](https://www.youtube.com/@PeterMcKinnon) ★
+- [PiXimperfect](https://www.youtube.com/@piximperfect) ★
+- [Mango Street](https://www.youtube.com/@MangoStreet)
+- [Jamie Windsor](https://www.youtube.com/@JamieWindsor)
+- [Sean Tucker](https://www.youtube.com/@seantucker)
+- [Nigel Danson](https://www.youtube.com/@NigelDanson)
+- [Thomas Heaton](https://www.youtube.com/results?search_query=Thomas+Heaton+photography)
+- [Mads Peter Iversen](https://www.youtube.com/results?search_query=Mads+Peter+Iversen)
+- [The Art of Photography (Ted Forbes)](https://www.youtube.com/results?search_query=The+Art+of+Photography+Ted+Forbes)
+- [Tony & Chelsea Northrup](https://www.youtube.com/results?search_query=Tony+and+Chelsea+Northrup)
+- [Willem Verbeeck](https://www.youtube.com/results?search_query=Willem+Verbeeck)
+- [Simon d'Entremont](https://www.youtube.com/results?search_query=Simon+d%27Entremont)
+- [Matti Haapoja](https://www.youtube.com/results?search_query=Matti+Haapoja)
+
+### Canais brasileiros no YouTube
+
+- [Zona da Fotografia](https://www.youtube.com/user/ZonaDaFotografia) ★
+- [Bruno Camargo](https://www.youtube.com/user/BeginnersFotografia) ★
+- [Cara da Foto](https://www.youtube.com/user/CaraDaFotoOficial)
+- [Cezar Augusto Fotografia](https://www.youtube.com/channel/UCnevSGxAIzNkjll397ftPDg)
+- [Dupla Exposição](https://www.youtube.com/channel/UCSk13GoqDV85vNbdWhWB50g)
+- [Escola de Fotógrafos](https://www.youtube.com/user/EscoladeFotografos)
+- [Karly Marques](https://www.youtube.com/user/KarlybethMarques)
+- [Canal da Foto](https://www.youtube.com/user/canaldafotoonline)
+- [Sangue Suor e Foto](https://www.youtube.com/user/sanguesuorefoto)
+
+### Revistas e publicações
+
+- [LensCulture](https://www.lensculture.com/) ★
+- [British Journal of Photography](https://www.1854.photography/) ★
+- [Aperture](https://aperture.org/)
+- [National Geographic Fotografia](https://www.nationalgeographic.com/photography)
+- [Feature Shoot](https://www.featureshoot.com/)
+- [Revista ZUM](https://revistazum.com.br/)
+- [Life](https://en.wikipedia.org/wiki/Life_(magazine)) 🪦
+- [Popular Photography](https://en.wikipedia.org/wiki/Popular_Photography) 🪦
+
+## Instituições e eventos
+
+### Agências e coletivos
+
+- [Magnum Photos](https://www.magnumphotos.com/) ★
+- [VII Photo](https://en.wikipedia.org/wiki/VII_Photo_Agency)
+- [Agence VU'](https://en.wikipedia.org/wiki/Agence_Vu)
+- [Contact Press Images](https://en.wikipedia.org/wiki/Contact_Press_Images)
+- [Panos Pictures](https://www.panos.co.uk/)
+- [Sygma](https://en.wikipedia.org/wiki/Sygma) 🪦
+- [Artworld (agência de fotógrafos)](https://artworld.agency/)
+
+### Museus e instituições
+
+- [International Center of Photography](https://www.icp.org/) ★
+- [Instituto Moreira Salles](https://ims.com.br/) ★
+- [Fotografiska](https://www.fotografiska.com/)
+- [Foam Amsterdam](https://www.foam.org/)
+- [George Eastman Museum](https://www.eastman.org/)
+- [Maison Européenne de la Photographie](https://www.mep-fr.org/)
+- [Fotomuseum Winterthur](https://www.fotomuseum.ch/)
+- [C/O Berlin](https://co-berlin.org/)
+- [Jeu de Paume](https://jeudepaume.org/)
+- [MIS — Museu da Imagem e do Som (SP)](https://www.mis-sp.org.br/)
+- [Royal Photographic Society](https://rps.org/)
+
+### Festivais e feiras
+
+- [Rencontres d'Arles](https://www.rencontres-arles.com/) ★
+- [Paris Photo](https://www.parisphoto.com/) ★
+- [Visa pour l'Image](https://www.visapourlimage.com/)
+- [Photo London](https://photolondon.org/)
+- [The Photography Show](https://www.photographyshow.com/)
+- [PhotoPlus Expo](https://www.photoplusexpo.com/)
+- [Photokina](https://en.wikipedia.org/wiki/Photokina) 🪦
+
+## Fotógrafos
+
+### Pioneiros
+
+- [Nicéphore Niépce](https://en.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce) ★ 🪦
+- [Louis Daguerre](https://en.wikipedia.org/wiki/Louis_Daguerre) ★ 🪦
+- [Henry Fox Talbot](https://en.wikipedia.org/wiki/Henry_Fox_Talbot) 🪦
+- [Hércules Florence](https://en.wikipedia.org/wiki/Hercules_Florence) 🪦
+- [Anna Atkins](https://en.wikipedia.org/wiki/Anna_Atkins) 🪦
+- [Julia Margaret Cameron](https://en.wikipedia.org/wiki/Julia_Margaret_Cameron) 🪦
+- [Nadar](https://en.wikipedia.org/wiki/Nadar) 🪦
+- [Mathew Brady](https://en.wikipedia.org/wiki/Mathew_Brady) 🪦
+- [Eadweard Muybridge](https://en.wikipedia.org/wiki/Eadweard_Muybridge) 🪦
+- [George Eastman](https://en.wikipedia.org/wiki/George_Eastman) 🪦
+- [Sergey Prokudin-Gorsky](https://en.wikipedia.org/wiki/Sergey_Prokudin-Gorsky) 🪦
+- [Alfred Stieglitz](https://en.wikipedia.org/wiki/Alfred_Stieglitz) 🪦
+- [Eugène Atget](https://en.wikipedia.org/wiki/Eug%C3%A8ne_Atget) 🪦
+- [Oskar Barnack](https://en.wikipedia.org/wiki/Oskar_Barnack) 🪦
+
+### Fotojornalismo e guerra
+
+- [Robert Capa](https://en.wikipedia.org/wiki/Robert_Capa) ★ 🪦
+- [James Nachtwey](https://en.wikipedia.org/wiki/James_Nachtwey) ★
+- [Don McCullin](https://en.wikipedia.org/wiki/Don_McCullin)
+- [Lynsey Addario](https://en.wikipedia.org/wiki/Lynsey_Addario)
+- [Steve McCurry](https://en.wikipedia.org/wiki/Steve_McCurry) ★
+- [Gerda Taro](https://en.wikipedia.org/wiki/Gerda_Taro) 🪦
+- [Margaret Bourke-White](https://en.wikipedia.org/wiki/Margaret_Bourke-White) 🪦
+- [W. Eugene Smith](https://en.wikipedia.org/wiki/W._Eugene_Smith) 🪦
+- [Alfred Eisenstaedt](https://en.wikipedia.org/wiki/Alfred_Eisenstaedt) 🪦
+- [Joe Rosenthal](https://en.wikipedia.org/wiki/Joe_Rosenthal) 🪦
+- [Larry Burrows](https://en.wikipedia.org/wiki/Larry_Burrows) 🪦
+- [Eddie Adams](https://en.wikipedia.org/wiki/Eddie_Adams_(photographer)) 🪦
+- [Nick Ut](https://en.wikipedia.org/wiki/Nick_Ut)
+- [Kevin Carter](https://en.wikipedia.org/wiki/Kevin_Carter) 🪦
+- [Weegee](https://en.wikipedia.org/wiki/Weegee) 🪦
+- [Pete Souza](https://en.wikipedia.org/wiki/Pete_Souza)
+
+### Documental e social
+
+- [Dorothea Lange](https://en.wikipedia.org/wiki/Dorothea_Lange) ★ 🪦
+- [Walker Evans](https://en.wikipedia.org/wiki/Walker_Evans) 🪦
+- [Lewis Hine](https://en.wikipedia.org/wiki/Lewis_Hine) 🪦
+- [Jacob Riis](https://en.wikipedia.org/wiki/Jacob_Riis) 🪦
+- [Gordon Parks](https://en.wikipedia.org/wiki/Gordon_Parks) 🪦
+- [Robert Frank](https://en.wikipedia.org/wiki/Robert_Frank) 🪦
+- [Diane Arbus](https://en.wikipedia.org/wiki/Diane_Arbus) ★ 🪦
+- [Mary Ellen Mark](https://en.wikipedia.org/wiki/Mary_Ellen_Mark) 🪦
+- [Nan Goldin](https://en.wikipedia.org/wiki/Nan_Goldin)
+- [Martin Parr](https://en.wikipedia.org/wiki/Martin_Parr) 🪦
+- [Alec Soth](https://en.wikipedia.org/wiki/Alec_Soth)
+- [Natalia Makarova](https://35awards.com/author/nmhappy/)
+- [Antonio Flores Garcia](https://35awards.com/author/antonioflores/)
+- [Sergei Tatarskikh](https://35awards.com/author/tatarskikh/)
+- [Eric Tkindt](https://35awards.com/author/erictkindt/)
+- [Dinar Fatykhov](https://35awards.com/author/fdrphoto/)
+- [Sergey Lashnev](https://35awards.com/author/lashnevserg/)
+- [Katja Sen](https://35awards.com/author/katjasen/)
+- [Natalia Gorshkova](https://35awards.com/author/gorshkovaphoto/)
+
+### Retrato
+
+- [Annie Leibovitz](https://en.wikipedia.org/wiki/Annie_Leibovitz) ★
+- [Richard Avedon](https://en.wikipedia.org/wiki/Richard_Avedon) ★ 🪦
+- [Irving Penn](https://en.wikipedia.org/wiki/Irving_Penn) 🪦
+- [Yousuf Karsh](https://en.wikipedia.org/wiki/Yousuf_Karsh) 🪦
+- [Arnold Newman](https://en.wikipedia.org/wiki/Arnold_Newman) 🪦
+- [Philippe Halsman](https://en.wikipedia.org/wiki/Philippe_Halsman) 🪦
+- [August Sander](https://en.wikipedia.org/wiki/August_Sander) 🪦
+- [Rineke Dijkstra](https://en.wikipedia.org/wiki/Rineke_Dijkstra)
+- [Martin Schoeller](https://en.wikipedia.org/wiki/Martin_Schoeller)
+- [Platon](https://en.wikipedia.org/wiki/Platon_(photographer))
+- [Jordan Matter](https://en.wikipedia.org/wiki/Jordan_Matter)
+- [Francesco Nappo](https://www.instagram.com/francesconappoph/)
+- [Elina Garipova](https://35awards.com/author/hlebmaster/)
+- [Marina Sheglova](https://35awards.com/author/lyashenkomarina/)
+- [Irina Garsh](https://35awards.com/author/irinagarsh/)
+- [Rustam Rakhimov](https://35awards.com/author/id94807240/)
+- [Ahmad El Hanjoul](https://35awards.com/author/ahmedfotograph/)
+- [Lera Vasilcheva](https://35awards.com/author/leravasilcheva/)
+- [Aleksandr Kurennoi](https://35awards.com/author/gofrozen/)
+- [Anton Plotnikov](https://35awards.com/author/plotnikoff/)
+
+### Moda
+
+- [Helmut Newton](https://en.wikipedia.org/wiki/Helmut_Newton) ★ 🪦
+- [Peter Lindbergh](https://en.wikipedia.org/wiki/Peter_Lindbergh) ★ 🪦
+- [Cecil Beaton](https://en.wikipedia.org/wiki/Cecil_Beaton) 🪦
+- [Horst P. Horst](https://en.wikipedia.org/wiki/Horst_P._Horst) 🪦
+- [Guy Bourdin](https://en.wikipedia.org/wiki/Guy_Bourdin) 🪦
+- [Herb Ritts](https://en.wikipedia.org/wiki/Herb_Ritts) 🪦
+- [Patrick Demarchelier](https://en.wikipedia.org/wiki/Patrick_Demarchelier) 🪦
+- [Steven Meisel](https://en.wikipedia.org/wiki/Steven_Meisel)
+- [Paolo Roversi](https://en.wikipedia.org/wiki/Paolo_Roversi)
+- [Ellen von Unwerth](https://en.wikipedia.org/wiki/Ellen_von_Unwerth)
+- [Inez & Vinoodh](https://en.wikipedia.org/wiki/Inez_and_Vinoodh)
+- [Tim Walker](https://en.wikipedia.org/wiki/Tim_Walker)
+- [Nick Knight](https://en.wikipedia.org/wiki/Nick_Knight_(photographer))
+- [Juergen Teller](https://en.wikipedia.org/wiki/Juergen_Teller)
+- [Mario Sorrenti](https://en.wikipedia.org/wiki/Mario_Sorrenti)
+- [Guy Aroch](https://en.wikipedia.org/wiki/Guy_Aroch)
+- [Evgenii Kirillov](https://35awards.com/author/evgeniykir/)
+- [Tatya Lushchyk](https://35awards.com/author/tatyaby2016/)
+- [Giandomenico Veneziani](https://35awards.com/author/gveneziani/)
+- [Anastasiya Barmina](https://35awards.com/author/anastasia100/)
+- [Valentina Suvorova](https://35awards.com/author/valentina795/)
+- [Artemii Smetanin](https://35awards.com/author/smetaninartemiy/)
+- [Sergey Kuzichev](https://35awards.com/author/stgw57/)
+- [Elina Larchenkova](https://35awards.com/author/larchenkova/)
+
+### Boudoir e nudez
+
+- [Ruth Bernhard](https://en.wikipedia.org/wiki/Ruth_Bernhard) 🪦
+- [Bill Brandt](https://en.wikipedia.org/wiki/Bill_Brandt) 🪦
+- [Lucien Clergue](https://en.wikipedia.org/wiki/Lucien_Clergue) 🪦
+- [Jeanloup Sieff](https://en.wikipedia.org/wiki/Jeanloup_Sieff) 🪦
+- [Bettina Rheims](https://en.wikipedia.org/wiki/Bettina_Rheims) ★
+- [Spencer Tunick](https://en.wikipedia.org/wiki/Spencer_Tunick) ★
+- [Ren Hang](https://en.wikipedia.org/wiki/Ren_Hang_(photographer)) 🪦
+- [Henrik Purienne](https://en.wikipedia.org/wiki/Henrik_Purienne)
+- [Corwin Prescott](https://www.instagram.com/corwinprescott/)
+- [Denis Goncharov](https://www.behance.net/denisgoncharov)
+- [Jen Rozenbaum](https://www.instagram.com/jenrozenbaum/)
+- [Igor Makovsky](https://35awards.com/author/makovsky/)
+- [Georgy Chernyadyev](https://35awards.com/author/imwarrior/)
+- [Ellis](https://35awards.com/author/mcellistrum/)
+- [Anton Montbrillant](https://35awards.com/author/lovchenko/)
+- [Gene Oryx](https://35awards.com/author/geneoryx/)
+- [Vladimir Nikitin](https://35awards.com/author/vovan37/)
+- [Dmitry Romanoff](https://35awards.com/author/dmitry5/)
+- [Oxana Gromova](https://35awards.com/author/gromovaok/)
+- [Ivan Kovalev](https://35awards.com/author/ivandnua/)
+- [Alexey Kudryashov](https://35awards.com/author/alkud1981/)
+- [Sergey Gokk](https://35awards.com/author/gokk/)
+
+### Paisagem
+
+- [Ansel Adams](https://en.wikipedia.org/wiki/Ansel_Adams) ★ 🪦
+- [Edward Weston](https://en.wikipedia.org/wiki/Edward_Weston) 🪦
+- [Carleton Watkins](https://en.wikipedia.org/wiki/Carleton_Watkins) 🪦
+- [Eliot Porter](https://en.wikipedia.org/wiki/Eliot_Porter) 🪦
+- [Galen Rowell](https://en.wikipedia.org/wiki/Galen_Rowell) 🪦
+- [Michael Kenna](https://en.wikipedia.org/wiki/Michael_Kenna_(photographer))
+- [Edward Burtynsky](https://en.wikipedia.org/wiki/Edward_Burtynsky)
+- [Peter Lik](https://en.wikipedia.org/wiki/Peter_Lik)
+- [Chris Burkard](https://en.wikipedia.org/wiki/Chris_Burkard)
+- [George Steinmetz](https://en.wikipedia.org/wiki/George_Steinmetz)
+- [Elia Locardi](https://en.wikipedia.org/wiki/Elia_Locardi)
+- [Alex Strohl](https://en.wikipedia.org/wiki/Alex_Strohl)
+- [Max Rive](https://www.instagram.com/maxrivephotography/) ★
+- [Daniel Kordan](https://www.instagram.com/danielkordan/)
+- [Marc Adamus](https://www.instagram.com/marcadamus/)
+- [Albert Dros](https://www.instagram.com/albertdros/)
+- [Kilian Schönberger](https://www.instagram.com/kilianschoenberger/)
+- [Isabella Tabacchi](https://isabellatabacchi.com/)
+- [Hannes Becker](https://www.instagram.com/hannes_becker/)
+- [Dylan Furst](https://www.instagram.com/fursty/)
+- [Hengki Koentjoro](https://www.instagram.com/hengkikoentjoro/)
+- [Dmitry Medyancev](https://35awards.com/author/mclock/)
+- [Daniel Vine Garcia](https://35awards.com/author/sowhat0/)
+- [Alexander Dudarev](https://35awards.com/author/alexdudarev/)
+- [Anna Politova](https://35awards.com/author/annapolitova92/)
+- [Elena Ermolina](https://35awards.com/author/ermolinaelena/)
+- [Andrey Grachev](https://35awards.com/author/andigo/)
+- [Vasily Iakovlev](https://35awards.com/author/iakovlev/)
+- [Jose David Riquelme Penalver](https://35awards.com/author/davidholon/)
+
+### Natureza e vida selvagem
+
+- [Paul Nicklen](https://en.wikipedia.org/wiki/Paul_Nicklen) ★
+- [Frans Lanting](https://en.wikipedia.org/wiki/Frans_Lanting) ★
+- [Cristina Mittermeier](https://en.wikipedia.org/wiki/Cristina_Mittermeier)
+- [Art Wolfe](https://en.wikipedia.org/wiki/Art_Wolfe)
+- [Michael Nichols](https://en.wikipedia.org/wiki/Michael_Nichols_(photographer))
+- [Nick Brandt](https://en.wikipedia.org/wiki/Nick_Brandt)
+- [Joel Sartore](https://en.wikipedia.org/wiki/Joel_Sartore)
+- [Ami Vitale](https://en.wikipedia.org/wiki/Ami_Vitale)
+- [Tim Laman](https://en.wikipedia.org/wiki/Tim_Laman)
+- [David Doubilet](https://en.wikipedia.org/wiki/David_Doubilet)
+- [Jimmy Chin](https://en.wikipedia.org/wiki/Jimmy_Chin)
+- [Thomas Vijayan](https://en.wikipedia.org/wiki/Thomas_Vijayan)
+- [Thomas P. Peschak](https://www.instagram.com/thomaspeschak/)
+- [Keith Ladzinski](https://www.instagram.com/ladzinski/)
+- [Clark Little](https://www.instagram.com/clarklittle/)
+- [Jorn Vangoidtsenhoven](https://35awards.com/author/jornvango/)
+- [Alexander Perov](https://35awards.com/author/aperov/)
+- [David Manusevih](https://35awards.com/author/davidman/)
+- [Jaroslaw Kowalski](https://35awards.com/author/jaroslaw909/)
+- [Ahmed Sobhi](https://35awards.com/author/abubasel1972/)
+- [Timea Ambrus](https://35awards.com/author/ambrustimi20/)
+- [Karthik Subramaniam](https://35awards.com/author/karthz/)
+- [Ernestas Balcikonis](https://35awards.com/author/balikonis/)
+
+### Viagem e aventura
+
+- [Murad Osmann (#FollowMeTo)](https://en.wikipedia.org/wiki/Murad_Osmann) ★
+- [Michael Yamashita](https://en.wikipedia.org/wiki/Michael_Yamashita)
+- [Renan Ozturk](https://en.wikipedia.org/wiki/Renan_%C3%96zt%C3%BCrk)
+- [Trey Ratcliff](https://en.wikipedia.org/wiki/Trey_Ratcliff)
+- [Christoffer Collin](https://www.instagram.com/wisslaren/)
+- [Theron Humphrey](https://www.instagram.com/thiswildidea/)
+
+### Arte e conceitual
+
+- [Man Ray](https://en.wikipedia.org/wiki/Man_Ray) ★ 🪦
+- [Cindy Sherman](https://en.wikipedia.org/wiki/Cindy_Sherman) ★
+- [Edward Steichen](https://en.wikipedia.org/wiki/Edward_Steichen) 🪦
+- [Imogen Cunningham](https://en.wikipedia.org/wiki/Imogen_Cunningham) 🪦
+- [Lee Miller](https://en.wikipedia.org/wiki/Lee_Miller) 🪦
+- [Robert Mapplethorpe](https://en.wikipedia.org/wiki/Robert_Mapplethorpe) 🪦
+- [Francesca Woodman](https://en.wikipedia.org/wiki/Francesca_Woodman) 🪦
+- [William Eggleston](https://en.wikipedia.org/wiki/William_Eggleston)
+- [Stephen Shore](https://en.wikipedia.org/wiki/Stephen_Shore)
+- [Andreas Gursky](https://en.wikipedia.org/wiki/Andreas_Gursky)
+- [Jeff Wall](https://en.wikipedia.org/wiki/Jeff_Wall)
+- [Gregory Crewdson](https://en.wikipedia.org/wiki/Gregory_Crewdson)
+- [Wolfgang Tillmans](https://en.wikipedia.org/wiki/Wolfgang_Tillmans)
+- [Hiroshi Sugimoto](https://en.wikipedia.org/wiki/Hiroshi_Sugimoto)
+- [Rinko Kawauchi](https://en.wikipedia.org/wiki/Rinko_Kawauchi)
+- [David LaChapelle](https://en.wikipedia.org/wiki/David_LaChapelle)
+- [Erik Johansson](https://en.wikipedia.org/wiki/Erik_Johansson_(artist)) ★
+- [Brooke Shaden](https://en.wikipedia.org/wiki/Brooke_Shaden)
+- [Kirsty Mitchell (Wonderland)](https://www.kirstymitchell.art/)
+- [Kyle Thompson](https://en.wikipedia.org/wiki/Kyle_Thompson_(photographer))
+- [Tania Franco Klein](https://en.wikipedia.org/wiki/Tania_Franco_Klein)
+- [Reuben Wu](https://en.wikipedia.org/wiki/Reuben_Wu)
+- [Jordi Koalitic](https://www.instagram.com/jordi.koalitic/) ★
+- [Oleg Oprisco](https://www.instagram.com/oprisco/)
+- [Rosie Hardy](https://www.instagram.com/rosie_hardy/)
+- [Alex Stoddard](https://www.instagram.com/alex_stoddard/)
+- [Benoit Paillé](https://www.instagram.com/benoitpaille/)
+- [Brandon Woelfel](https://www.instagram.com/brandonwoelfel/)
+- [Alexander Sviridov](https://35awards.com/author/alexander1969/)
+- [Alexandr Nikitin](https://35awards.com/author/kiborg/)
+- [Sergey Spirin](https://35awards.com/author/spirins/)
+- [Galina Voroshilova](https://35awards.com/author/galia2381/)
+- [Marina Shipova](https://35awards.com/author/shipovamarina/)
+- [Ali Zolghadri](https://35awards.com/author/raspintkd72/)
+- [Christina Parmak-Fischer](https://35awards.com/author/cmparmak/)
+- [Evgeniya Fedorova](https://35awards.com/author/fedorova16/)
+
+### Fotografia analógica
+
+- [Ian Howorth](https://www.instagram.com/ihoworth/)
+- [Ryan Muirhead](https://www.instagram.com/ryanmuirhead/)
+- [Hollie Fernando](https://www.instagram.com/holliefernando/)
+- [Elsa Bleda](https://www.instagram.com/elsableda/)
+
+### Fotografia de rua clássica
+
+- [Henri Cartier-Bresson](https://en.wikipedia.org/wiki/Henri_Cartier-Bresson) ★ 🪦
+- [Vivian Maier](https://en.wikipedia.org/wiki/Vivian_Maier) ★ 🪦
+- [Garry Winogrand](https://en.wikipedia.org/wiki/Garry_Winogrand) 🪦
+- [Helen Levitt](https://en.wikipedia.org/wiki/Helen_Levitt) 🪦
+- [Saul Leiter](https://en.wikipedia.org/wiki/Saul_Leiter) 🪦
+- [Fan Ho](https://en.wikipedia.org/wiki/Fan_Ho) 🪦
+- [Robert Doisneau](https://en.wikipedia.org/wiki/Robert_Doisneau) 🪦
+- [Brassaï](https://en.wikipedia.org/wiki/Brassa%C3%AF) 🪦
+- [Elliott Erwitt](https://en.wikipedia.org/wiki/Elliott_Erwitt) 🪦
+- [Lee Friedlander](https://en.wikipedia.org/wiki/Lee_Friedlander)
+- [Bruce Davidson](https://en.wikipedia.org/wiki/Bruce_Davidson_(photographer))
+- [Joel Meyerowitz](https://en.wikipedia.org/wiki/Joel_Meyerowitz)
+- [Daidō Moriyama](https://en.wikipedia.org/wiki/Daid%C5%8D_Moriyama)
+
+### Fotografia de rua contemporânea
+
+- [Alex Webb](https://en.wikipedia.org/wiki/Alex_Webb_(photographer)) ★
+- [Bruce Gilden](https://en.wikipedia.org/wiki/Bruce_Gilden) ★
+- [Matt Stuart](https://en.wikipedia.org/wiki/Matt_Stuart_(photographer))
+- [Saurabh Sirohiya](https://35awards.com/author/sirohiya/)
+- [Emir Bozkurt](https://35awards.com/author/bozkurtemir/)
+- [Fedor Gorbatov](https://35awards.com/author/fedro17/)
+- [Mattia Ferrari](https://35awards.com/author/ferrarimattia/)
+- [Pablo Abreu](https://35awards.com/author/abreupablo/)
+- [A. Nugroho Irianto](https://35awards.com/author/irianto/)
+- [Ananway Ganguly](https://35awards.com/author/ananway/)
+- [Henri Fitriadi](https://35awards.com/author/henrifitriadi/)
+
+### Retratos e abordagens de rua
+
+- [Brian Baldrati](https://www.google.com/search?q=Brian+Baldrati+photographer) ★
+- [Brandon Stanton (Humans of New York)](https://en.wikipedia.org/wiki/Brandon_Stanton) ★
+- [Andreas Kindblom](https://www.google.com/search?q=Andreas+Kindblom+photographer)
+- [Ty Cullen](https://www.google.com/search?q=Ty+Cullen+photographer)
+
+### Street style
+
+- [Scott Schuman (The Sartorialist)](https://en.wikipedia.org/wiki/Scott_Schuman) ★
+- [Bill Cunningham](https://en.wikipedia.org/wiki/Bill_Cunningham_(American_photographer)) ★ 🪦
+- [Hans Eijkelboom](https://www.booooooom.com/2014/12/23/anti-sartorialist-photographer-hans-eijkelboom)
+- [Tommy Ton](https://en.wikipedia.org/wiki/Tommy_Ton)
+- [Garance Doré](https://en.wikipedia.org/wiki/Garance_Dor%C3%A9)
+- [Ari Seth Cohen (Advanced Style)](https://en.wikipedia.org/wiki/Ari_Seth_Cohen)
+
+### Macro
+
+- [Tran The Ngoc](https://35awards.com/author/ngocphotograph/)
+- [Javier Ruperez](https://35awards.com/author/ruprez/)
+- [Tsvetan Ganev](https://35awards.com/author/ceclii/)
+- [Dmitry Kuznetsov](https://35awards.com/author/dmitriy1977/)
+- [Yuriy Yurevich](https://35awards.com/author/yuyurevich/)
+- [Aleksandr Chornyi](https://35awards.com/author/blacksasha/)
+- [Pedro Luis Ajuriaguerra Saiz](https://35awards.com/author/ajuriaguerra30/)
+- [Marcus Kam](https://35awards.com/author/sanwakamss/)
+
+### Subaquática
+
+- [Andrei Savin](https://35awards.com/author/andreysavin/)
+- [Andrey Narchuk](https://35awards.com/author/torchuck/)
+- [Kadu Pinheiro](https://35awards.com/author/kadupinheiro/)
+- [Alexander Plakida](https://35awards.com/author/alexvplakida/)
+- [Daisuke Kurashima](https://35awards.com/author/inusukekun/)
+- [Yury Perevoznikov](https://35awards.com/author/yperevoznikov/)
+- [Antonio Ruver Bandeira](https://35awards.com/author/ruver/)
+- [Dimitriy Yevtushyk](https://35awards.com/author/dimitriy953/)
+
+### Aérea e drone
+
+- [Oleg Rest](https://35awards.com/author/olegrest/)
+- [Anastasia Saul](https://35awards.com/author/anastasiasaul/)
+- [Nguyen Tan Tuan](https://35awards.com/author/tun257/)
+- [Le Huy Anh](https://35awards.com/author/huyanhmobile75/)
+- [Alina Yantsen](https://35awards.com/author/yantsenalina/)
+- [Michael Kharitonychev](https://35awards.com/author/khmy2006/)
+- [Evgeny Krasnov](https://35awards.com/author/colonelfss/)
+- [Ilya Garbuzov](https://35awards.com/author/pelotlin/)
+
+### Arquitetura e paisagem urbana
+
+- [Liu Shuchuan](https://35awards.com/author/liustyle/)
+- [Evgeni Fabis](https://35awards.com/author/fabis/)
+- [Robert Fulop](https://35awards.com/author/rbby/)
+- [Anastasiia Mazureva](https://35awards.com/author/mazurevanasta/)
+- [Ilya Yufa](https://35awards.com/author/ilyayufa/)
+- [Alexey Golubev](https://35awards.com/author/golubevaleksey/)
+- [Denis Poltoradnev](https://35awards.com/author/poltoradnev/)
+- [Eduard Gordeev](https://35awards.com/author/nau/)
+
+### Preto e branco
+
+- [Svetlin Yosifov](https://35awards.com/author/picsvet/)
+- [Thomas de Franzoni](https://35awards.com/author/defranzoni/)
+- [Samer Husseini](https://35awards.com/author/samerhussani/)
+- [Zhenhuan Zhou](https://35awards.com/author/zhenhuan/)
+- [Mohammad Alipour](https://35awards.com/author/mohammadalipour/)
+- [Boris Bekelman](https://35awards.com/author/bbekelman/)
+- [Zaw Zaw Kaung San](https://35awards.com/author/kaungsan/)
+- [Tom Pavlasek](https://35awards.com/author/padyx/)
+
+### Natureza-morta
+
+- [Irina Shipunova](https://35awards.com/author/fotoiren/)
+- [Elena Rubinskaya](https://35awards.com/author/oliskroul/)
+- [Tatyana Fedenkova](https://35awards.com/author/tatyana876/)
+- [Olga Yar](https://35awards.com/author/razoolga/)
+- [Natali Kalimbekova](https://35awards.com/author/kalimbekova/)
+- [Alina Lankina](https://35awards.com/author/alinal/)
+- [Irina Toloknovskaya](https://35awards.com/author/02irina/)
+- [Anna Petina](https://35awards.com/author/petinaanna/)
+
+### Pets
+
+- [Liudmila Bogush](https://35awards.com/author/honeypaws/)
+- [Elke Braet](https://35awards.com/author/braet/)
+- [Svetlana Pisareva](https://35awards.com/author/svetlana648/)
+- [Yong Lei van Barlingen](https://35awards.com/author/leisraw/)
+- [Izabela Lyson](https://35awards.com/author/izalyson4/)
+- [Karin Bruhin](https://35awards.com/author/karinemmenegger/)
+- [Denisa Albaniova](https://35awards.com/author/denisaalbaniova/)
+- [Leticia Hernandez Gavira](https://35awards.com/author/leticiahernndez/)
+
+### Infantil e newborn
+
+- [Natalya Vodovozova](https://35awards.com/author/vodnat/)
+- [Liudmila Babrouskaya](https://35awards.com/author/lyudmila967/)
+- [Olga Kazakova](https://35awards.com/author/helga21s/)
+- [Maria del Valle Presser](https://35awards.com/author/vallebaires/)
+- [Elina Gamanova](https://35awards.com/author/gamanova/)
+- [Elena Chernigina](https://35awards.com/author/valkiriya/)
+- [Dace Jansone](https://35awards.com/author/djdj/)
+- [Carmen Gabaldon](https://35awards.com/author/gabaldon/)
+
+### Casamento
+
+- [Zhanna Duminskaya](https://35awards.com/author/kunickaya89/)
+- [Diana Semenova](https://35awards.com/author/angellove09/)
+- [Vladimir Vasilev](https://35awards.com/author/vladimir933/)
+- [Bojan Migac](https://35awards.com/author/bojanmigac/)
+- [Evgeny Pivkin](https://35awards.com/author/pivkin/)
+- [Ekaterina Khirdina](https://35awards.com/author/ekaterina210714/)
+
+## Fotógrafos brasileiros
+
+### Pioneiros e clássicos brasileiros
+
+- [Marc Ferrez](https://pt.wikipedia.org/wiki/Marc_Ferrez) 🪦
+- [Militão Augusto de Azevedo](https://pt.wikipedia.org/wiki/Milit%C3%A3o_Augusto_de_Azevedo) 🪦
+- [Pierre Verger](https://pt.wikipedia.org/wiki/Pierre_Verger) 🪦
+- [Thomaz Farkas](https://pt.wikipedia.org/wiki/Thomaz_Farkas) 🪦
+- [German Lorca](https://pt.wikipedia.org/wiki/German_Lorca) 🪦
+
+### Documental e fotojornalismo no Brasil
+
+- [Sebastião Salgado](https://pt.wikipedia.org/wiki/Sebasti%C3%A3o_Salgado) ★ 🪦
+- [Claudia Andujar](https://pt.wikipedia.org/wiki/Claudia_Andujar) ★
+- [Maureen Bisilliat](https://pt.wikipedia.org/wiki/Maureen_Bisilliat)
+- [Walter Firmo](https://pt.wikipedia.org/wiki/Walter_Firmo)
+- [Evandro Teixeira](https://pt.wikipedia.org/wiki/Evandro_Teixeira) ★
+- [Orlando Brito](https://pt.wikipedia.org/wiki/Orlando_Brito) 🪦
+- [Cristiano Mascaro](https://pt.wikipedia.org/wiki/Cristiano_Mascaro)
+- [Luiz Braga](https://pt.wikipedia.org/wiki/Luiz_Braga)
+- [Luisa Dörr](https://www.worldpressphoto.org/luisa-dorr-bio)
+- [Maurício Lima](https://pulitzercenter.org/node/2661)
+- [Ricardo Stuckert](https://pt.wikipedia.org/wiki/Ricardo_Stuckert)
+
+### Retrato e moda no Brasil
+
+- [Bob Wolfenson](https://pt.wikipedia.org/wiki/Bob_Wolfenson) ★
+- [Klaus Mitteldorf](https://pt.wikipedia.org/wiki/Klaus_Mitteldorf)
+- [Luiz Tripolli](https://pt.wikipedia.org/wiki/Luiz_Tripolli)
+- [Marcio Scavone](https://pt.wikipedia.org/wiki/Marcio_Scavone)
+- [Mauricio Nahas](https://www.instagram.com/mauricionahas2/)
+- [Paulo Vainer](https://www.instagram.com/paulovainer/)
+- [Everton Rosa](https://www.instagram.com/rosaeverton/)
+- [João Menna](https://www.google.com/search?q=Jo%C3%A3o+Menna+fot%C3%B3grafo)
+- [Jairo Goldflus](https://www.instagram.com/jairogoldflusestudio/)
+- [Romulo Vidal](https://www.instagram.com/romulovidalrj/)
+- [Rafael Moura](https://www.instagram.com/rafael_moura/)
+
+### Nu e boudoir no Brasil
+
+- [J.R. Duran](https://pt.wikipedia.org/wiki/J.R._Duran) ★
+- [Gabriel Wickbold (Antes Nua do que Sua)](https://www.instagram.com/gabrielwickbold/) ★
+- [Gabrielle Lindner](https://www.instagram.com/lindnerfoto/)
+- [Fernando Schlaepfer](https://www.instagram.com/anendfor/)
+- [Heloisa Campos Hilu](https://www.instagram.com/hilu_hilu/)
+- [Fabs Grassi](https://www.instagram.com/fabsgrassi/)
+- [Fabricio Garcia](https://www.instagram.com/nuaporfabriciogarcia/)
+- [Autumn Sonnichsen](https://pt.wikipedia.org/wiki/Autumn_Sonnichsen)
+- [Priscila Maboni](https://www.instagram.com/priscilamaboni/)
+- [Glauco Meneghelli](https://www.instagram.com/glauco_meneghelli/)
+- [João Guilger](https://www.instagram.com/guilgerjoao/)
+- [Lucas Cavalheiro](https://www.instagram.com/cavalheirolucas/)
+- [Henrique Cesar](https://www.instagram.com/henriquecesar/)
+- [Jo Tavares](https://www.instagram.com/jotavaresfotografia/)
+- [Maicon Silveira](https://www.instagram.com/msilveiraph/)
+- [Débora Agualuza](https://www.instagram.com/lovelybee.fotografia/)
+- [Primo Tacca Neto](https://www.instagram.com/primotaccaneto/)
+- [Thiago Bomfim](https://www.instagram.com/thiagobomfim1/)
+- [Ale Ruaro](https://www.instagram.com/aleruaro/)
+- [André Michels](https://www.instagram.com/andremichelss/)
+- [Fernando De Santis](https://www.instagram.com/desantisph/)
+- [Flora Negri](https://www.instagram.com/floravnegri/)
+- [João Guedes](https://www.instagram.com/joaohguedes/)
+- [Angelo Pastorello](https://www.instagram.com/angelopastorello/)
+- [Vanessa Deleu e Vivian Pupin](https://www.instagram.com/pupindeleu/)
+- [Bárbara Mousinho](https://www.instagram.com/shotbybabu/)
+- [Gui Paganini](https://www.instagram.com/guipaganini/)
+- [Mariana Beltrame](https://www.instagram.com/marianabeltrame/)
+- [Nando Jordão](https://www.instagram.com/nandojordao/)
+- [Ana Vohs](https://www.instagram.com/ana.vohs/)
+- [Eduardo Lima](https://www.instagram.com/eduardool_/)
+- [Filipe Nevares](https://www.instagram.com/filipenevares/)
+- [Hilo](https://www.instagram.com/hilofotografia/)
+- [Manoella Mello](https://www.instagram.com/manoellamello/)
+- [Olivia Nachle](https://www.instagram.com/olivianachle/)
+- [Thais Marin](https://www.instagram.com/thaismarinphoto/)
+- [Vida Torres](https://www.instagram.com/vidatorresfoto/)
+- [Débora Nisenbaum](https://www.instagram.com/deboranis/)
+- [Ana Harff](https://www.instagram.com/anaharff/)
+- [André Cruz](https://www.instagram.com/oandrecruz/)
+- [Bernardo Moreira](https://www.instagram.com/bernardomoreiraa/)
+- [Bruno Cruz](https://www.instagram.com/_brunocruz_/)
+- [Cadu Batista (Projeto Descubra)](https://www.instagram.com/projeto_descubra/)
+- [Felipe Watanabe](https://www.instagram.com/felipe.watanabe/)
+- [Felippe Khan](https://www.instagram.com/shotbykhan/)
+- [Flavius Rhade](https://www.instagram.com/sickexistenz/)
+- [Fred Othero](https://www.instagram.com/fredothero/)
+- [Juliana Gouveia](https://www.instagram.com/jugouveiafotografia/)
+- [Lud Lower](https://www.instagram.com/ludlower/)
+- [Manu Machado](https://www.instagram.com/manumachadoph/)
+- [Marina Blanguer](https://www.instagram.com/marinablanguer/)
+- [Mayara Rios](https://www.instagram.com/_mayararios/)
+- [Michelle Moll](https://www.instagram.com/michellemoll__/)
+- [Nyckollas Marcell](https://www.instagram.com/prazernyck/)
+- [Rafael Beck Lenz](https://www.instagram.com/2beck_/)
+- [Raquel Pellicano](https://www.instagram.com/raquelpellicano/)
+- [Renata Candido](https://www.instagram.com/renatacandido.foto/)
+- [Ricardo Zanetta](https://www.instagram.com/ricardozanetta/)
+- [Tallyton Alves](https://www.instagram.com/tallyton/)
+- [Gustavo Paixão](https://www.instagram.com/gustavohpaixao/)
+- [Mia Morais](https://www.instagram.com/miamorais/)
+- [Morgade](https://www.instagram.com/morgadephotographer/)
+- [Ivan Guimarães](https://www.instagram.com/ivanfilho_/)
+- [Roger Lima](https://www.instagram.com/byrogerlima/)
+- [Julia Assis](https://www.instagram.com/juliaassisphoto/)
+- [Leonardo Mazo](https://www.instagram.com/leonarrdomazo/)
+- [Pablo Saborido](https://www.instagram.com/pablo_saborido/)
+- [Anderson Wadenphul](https://www.instagram.com/andersonwadenphul/)
+- [Bruno Massao Matrubashi](https://www.instagram.com/brunomassao/)
+- [Dani Antunes (Fotógrafa de Mulheres Reais)](https://www.instagram.com/fotografademulheresreais/)
+- [Daniel Aratangy](https://www.instagram.com/danielaratangy/)
+- [Renan Viana](https://www.instagram.com/renanviana/)
+- [Rúzzia Padilha (Intimité)](https://www.instagram.com/intimitefoto/)
+- [Marco Menezes](https://www.instagram.com/marcomnzz/)
+- [Yasmin Menezes](https://www.instagram.com/yasfmf/)
+- [Cleuri Junior](https://www.instagram.com/photocleuri/)
+- [Amanda Monteiro](https://www.instagram.com/amandamonteirofotografia/)
+- [Dalmo Fernandes](https://www.instagram.com/dalmo.foto/)
+- [Luis Crispino](https://www.instagram.com/lcrispin0/)
+- [Wall Araujo](https://www.instagram.com/itswallaraujo/)
+- [Caio Santana (Âncora Studio)](https://www.instagram.com/ancorastudio.com.br/)
+- [Darly Rocha](https://www.instagram.com/darlyrochafotografia/)
+- [Fernando Palim (Vitalogy Analog)](https://www.instagram.com/vitalogyanalog/)
+- [Alexandre Canina](https://www.instagram.com/acanina/)
+- [Cauê Edison](https://www.instagram.com/caueedison/)
+- [Felipe Hueb](https://www.instagram.com/huebarts/)
+- [Gustavo Afonso](https://www.instagram.com/gustavoafonso15/)
+- [Valmir Dacil](https://www.instagram.com/valm.iirr/)
+- [Yogue Alencar](https://www.instagram.com/yogue_alencar/)
+- [Renan Pascon (Zinpix)](https://www.instagram.com/zinpix/)
+
+### Natureza e paisagem no Brasil
+
+- [Araquém Alcântara](https://pt.wikipedia.org/wiki/Araqu%C3%A9m_Alc%C3%A2ntara)
+- [Haroldo Palo Jr.](https://pt.wikipedia.org/wiki/Haroldo_Palo_Jr.) 🪦
+- [Luciano Candisani](https://pt.wikipedia.org/wiki/Luciano_Candisani)
+
+### Eventos e shows no Brasil
+
+- [Eveel](https://www.instagram.com/shotbyeveel/)
+
+### Arte e conceitual no Brasil
+
+- [Geraldo de Barros](https://pt.wikipedia.org/wiki/Geraldo_de_Barros) 🪦
+- [Mario Cravo Neto](https://pt.wikipedia.org/wiki/Mario_Cravo_Neto) 🪦
+- [Miguel Rio Branco](https://pt.wikipedia.org/wiki/Miguel_Rio_Branco)
+- [Vik Muniz](https://pt.wikipedia.org/wiki/Vik_Muniz)
+- [Rosângela Rennó](https://pt.wikipedia.org/wiki/Ros%C3%A2ngela_Renn%C3%B3)
+
+## História da fotografia
+
+### Processos e marcos
+
+- [História da fotografia](https://en.wikipedia.org/wiki/History_of_photography) ★
+- [História da câmera](https://en.wikipedia.org/wiki/History_of_the_camera)
+- [Câmara escura](https://en.wikipedia.org/wiki/Camera_obscura) ★
+- [Heliografia](https://en.wikipedia.org/wiki/Heliography)
+- [Daguerreótipo](https://en.wikipedia.org/wiki/Daguerreotype) ★
+- [Calótipo](https://en.wikipedia.org/wiki/Calotype)
+- [Colódio úmido](https://en.wikipedia.org/wiki/Collodion_process)
+- [Ambrótipo](https://en.wikipedia.org/wiki/Ambrotype)
+- [Ferrótipo](https://en.wikipedia.org/wiki/Tintype)
+- [Cianotipia](https://en.wikipedia.org/wiki/Cyanotype)
+- [Impressão em albumina](https://en.wikipedia.org/wiki/Albumen_print)
+- [Platinotipia](https://en.wikipedia.org/wiki/Platinum_print)
+- [Gelatina e prata](https://en.wikipedia.org/wiki/Gelatin_silver_print)
+- [Autochrome Lumière](https://en.wikipedia.org/wiki/Autochrome_Lumi%C3%A8re)
+- [Kodak Brownie](https://en.wikipedia.org/wiki/Brownie_(camera))
+- [Leica (primeira câmera 35 mm)](https://en.wikipedia.org/wiki/Leica_Camera)
+- [Filme 35 mm](https://en.wikipedia.org/wiki/135_film)
+- [Kodachrome](https://en.wikipedia.org/wiki/Kodachrome) 🪦
+- [Câmera instantânea](https://en.wikipedia.org/wiki/Instant_camera)
+- [Câmera digital](https://en.wikipedia.org/wiki/Digital_camera)
+
+### Fotografias icônicas
+
+- [Vista da Janela em Le Gras](https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras) ★
+- [Boulevard du Temple](https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph))
+- [Autorretrato como um Homem Afogado](https://en.wikipedia.org/wiki/Hippolyte_Bayard)
+- [Vale da Sombra da Morte](https://en.wikipedia.org/wiki/Valley_of_the_Shadow_of_Death_(Roger_Fenton))
+- [Peter Açoitado (As Costas Açoitadas)](https://en.wikipedia.org/wiki/Peter_(enslaved_man))
+- [O Cavalo em Movimento](https://en.wikipedia.org/wiki/The_Horse_in_Motion)
+- [A Lagoa — Luar](https://en.wikipedia.org/wiki/The_Pond%E2%80%94Moonlight)
+- [O Violino de Ingres](https://en.wikipedia.org/wiki/Le_Violon_d%27Ingres)
+- [Sábado Sangrento](https://en.wikipedia.org/wiki/Bloody_Saturday_(photograph))
+- [Mãe Migrante](https://en.wikipedia.org/wiki/Migrant_Mother) ★
+- [O Soldado Caído](https://en.wikipedia.org/wiki/The_Falling_Soldier)
+- [Almoço no Topo de um Arranha-Céu](https://en.wikipedia.org/wiki/Lunch_atop_a_Skyscraper)
+- [Nas Garras da Morte](https://en.wikipedia.org/wiki/Into_the_Jaws_of_Death)
+- [Hasteamento da Bandeira em Iwo Jima](https://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima)
+- [Dalí Atomicus](https://en.wikipedia.org/wiki/Dal%C3%AD_Atomicus)
+- [O Vestido Branco de Marilyn Monroe](https://en.wikipedia.org/wiki/White_dress_of_Marilyn_Monroe)
+- [V-J Day in Times Square](https://en.wikipedia.org/wiki/V-J_Day_in_Times_Square)
+- [Guerrillero Heroico](https://en.wikipedia.org/wiki/Guerrillero_Heroico)
+- [O Monge em Chamas](https://en.wikipedia.org/wiki/Th%C3%ADch_Qu%E1%BA%A3ng_%C4%90%E1%BB%A9c)
+- [Execução em Saigon](https://en.wikipedia.org/wiki/Saigon_Execution) ★
+- [Saudação Black Power (Olimpíadas de 1968)](https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute)
+- [Nascer da Terra (Earthrise)](https://en.wikipedia.org/wiki/Earthrise) ★
+- [A Bolinha Azul (The Blue Marble)](https://en.wikipedia.org/wiki/The_Blue_Marble)
+- [O Terror da Guerra](https://en.wikipedia.org/wiki/The_Terror_of_War) ★
+- [Colapso da Escada de Incêndio](https://en.wikipedia.org/wiki/Fire_Escape_Collapse)
+- [Pálido Ponto Azul](https://en.wikipedia.org/wiki/Pale_Blue_Dot)
+- [Garota Afegã](https://en.wikipedia.org/wiki/Afghan_Girl)
+- [O Rebelde Desconhecido (Tank Man)](https://en.wikipedia.org/wiki/Tank_Man)
+- [O Abutre e a Menina](https://en.wikipedia.org/wiki/The_Vulture_and_the_Little_Girl)
+- [O Homem em Queda](https://en.wikipedia.org/wiki/The_Falling_Man)
+- [Pilares da Criação](https://en.wikipedia.org/wiki/Pillars_of_Creation)
+- [Rhein II](https://en.wikipedia.org/wiki/Rhein_II)
+- [Bliss (papel de parede do Windows XP)](https://en.wikipedia.org/wiki/Bliss_(image))
+
+### Movimentos e escolas
+
+- [Pictorialismo](https://en.wikipedia.org/wiki/Pictorialism)
+- [Photo-Secession](https://en.wikipedia.org/wiki/Photo-Secession)
+- [Fotografia direta (straight photography)](https://en.wikipedia.org/wiki/Straight_photography)
+- [Grupo f/64](https://en.wikipedia.org/wiki/Group_f/64) ★
+- [Nova Objetividade](https://en.wikipedia.org/wiki/New_Objectivity)
+- [Fotografia humanista](https://en.wikipedia.org/wiki/Humanist_photography)
+- [Fotografias da Farm Security Administration](https://en.wikipedia.org/wiki/Farm_Security_Administration)
+- [New Topographics](https://en.wikipedia.org/wiki/New_Topographics)
+- [Escola de Düsseldorf](https://en.wikipedia.org/wiki/D%C3%BCsseldorf_School_of_Photography)
+- [Foto Cine Clube Bandeirante](https://pt.wikipedia.org/wiki/Foto_Cine_Clube_Bandeirante) ★
+
+## Livros
+
+### Técnica
+
+- [Bryan Peterson - Understanding Exposure](https://www.goodreads.com/search?q=Bryan+Peterson+Understanding+Exposure) ★
+- [Michael Freeman - The Photographer's Eye](https://www.goodreads.com/search?q=Michael+Freeman+The+Photographer%27s+Eye) ★
+- [Hunter, Biver & Fuqua - Light Science & Magic](https://www.goodreads.com/search?q=Light+Science+and+Magic)
+- [Ansel Adams - The Camera / The Negative / The Print](https://www.goodreads.com/search?q=Ansel+Adams+The+Negative)
+- [Michael Langford - Basic Photography](https://www.goodreads.com/search?q=Michael+Langford+Basic+Photography)
+- [Scott Kelby - The Digital Photography Book](https://www.goodreads.com/search?q=Scott+Kelby+The+Digital+Photography+Book)
+- [Henry Carroll - Read This If You Want to Take Great Photographs](https://www.goodreads.com/search?q=Henry+Carroll+Read+This+If+You+Want+to+Take+Great+Photographs)
+- [Joe McNally - The Moment It Clicks](https://www.goodreads.com/search?q=Joe+McNally+The+Moment+It+Clicks)
+- [Bruce Barnbaum - The Art of Photography](https://www.goodreads.com/search?q=Bruce+Barnbaum+The+Art+of+Photography)
+
+### Teoria e crítica
+
+- [Susan Sontag - Sobre Fotografia](https://en.wikipedia.org/wiki/On_Photography) ★
+- [Roland Barthes - A Câmara Clara](https://en.wikipedia.org/wiki/Camera_Lucida_(book)) ★
+- [Walter Benjamin - A Obra de Arte na Era de sua Reprodutibilidade Técnica](https://en.wikipedia.org/wiki/The_Work_of_Art_in_the_Age_of_Mechanical_Reproduction)
+- [John Berger - Modos de Ver](https://en.wikipedia.org/wiki/Ways_of_Seeing)
+- [Susan Sontag - Diante da Dor dos Outros](https://en.wikipedia.org/wiki/Regarding_the_Pain_of_Others)
+- [Vilém Flusser - Filosofia da Caixa Preta](https://www.goodreads.com/search?q=Vil%C3%A9m+Flusser+Filosofia+da+Caixa+Preta)
+- [Philippe Dubois - O Ato Fotográfico](https://www.goodreads.com/search?q=Philippe+Dubois+O+Ato+Fotogr%C3%A1fico)
+- [Boris Kossoy - Fotografia & História](https://www.goodreads.com/search?q=Boris+Kossoy+Fotografia+e+Hist%C3%B3ria)
+- [John Szarkowski - The Photographer's Eye](https://www.goodreads.com/search?q=John+Szarkowski+The+Photographer%27s+Eye)
+- [Stephen Shore - The Nature of Photographs](https://www.goodreads.com/search?q=Stephen+Shore+The+Nature+of+Photographs)
+
+### Fotolivros clássicos
+
+- [Robert Frank - The Americans](https://en.wikipedia.org/wiki/The_Americans_(photography)) ★
+- [Henri Cartier-Bresson - The Decisive Moment](https://www.goodreads.com/search?q=Henri+Cartier-Bresson+The+Decisive+Moment) ★
+- [Walker Evans - American Photographs](https://www.goodreads.com/search?q=Walker+Evans+American+Photographs)
+- [Edward Steichen - The Family of Man](https://en.wikipedia.org/wiki/The_Family_of_Man)
+- [William Eggleston - William Eggleston's Guide](https://www.goodreads.com/search?q=William+Eggleston%27s+Guide)
+- [Stephen Shore - Uncommon Places](https://www.goodreads.com/search?q=Stephen+Shore+Uncommon+Places)
+- [Nan Goldin - The Ballad of Sexual Dependency](https://en.wikipedia.org/wiki/The_Ballad_of_Sexual_Dependency)
+- [Martin Parr - The Last Resort](https://www.goodreads.com/search?q=Martin+Parr+The+Last+Resort)
+- [Sebastião Salgado - Trabalhadores](https://www.goodreads.com/search?q=Sebasti%C3%A3o+Salgado+Workers)
+- [Sebastião Salgado - Gênesis](https://www.goodreads.com/search?q=Sebasti%C3%A3o+Salgado+Genesis)
+- [Claudia Andujar - A Luta Yanomami](https://www.goodreads.com/search?q=Claudia+Andujar+A+Luta+Yanomami)
+- [Vivian Maier - Street Photographer](https://www.goodreads.com/search?q=Vivian+Maier+Street+Photographer)

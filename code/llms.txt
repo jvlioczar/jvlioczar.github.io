@@ -1,0 +1,1160 @@
+# A Biblioteca de Programação
+
+> Catálogo pesquisável do essencial da programação por categoria: linguagens, formatos, protocolos, conceitos, ferramentas e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The Coding Library), com curadoria humana. Página: https://biblioverse.org/code/ · 1013 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Algoritmos
+
+- [Algoritmo](https://en.wikipedia.org/wiki/Algorithm) ★
+- [Algoritmo A*](https://en.wikipedia.org/wiki/A*_search_algorithm)
+- [Algoritmo de Dijkstra](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) ★
+- [Algoritmo de Euclides](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+- [Algoritmo guloso](https://en.wikipedia.org/wiki/Greedy_algorithm)
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+- [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Busca binária](https://en.wikipedia.org/wiki/Binary_search) ★
+- [Busca em largura (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search)
+- [Busca em profundidade (DFS)](https://en.wikipedia.org/wiki/Depth-first_search)
+- [Busca linear](https://en.wikipedia.org/wiki/Linear_search)
+- [Crivo de Eratóstenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+- [Dividir e conquistar](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
+- [Função hash](https://en.wikipedia.org/wiki/Hash_function)
+- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
+- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [Notação Big O](https://en.wikipedia.org/wiki/Big_O_notation) ★
+- [PageRank](https://en.wikipedia.org/wiki/PageRank)
+- [Programação dinâmica](https://en.wikipedia.org/wiki/Dynamic_programming)
+- [Quicksort](https://en.wikipedia.org/wiki/Quicksort) ★
+- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+
+## Aplicativos de ensino
+
+- [Brilliant](https://brilliant.org/)
+- [Coddy](https://coddy.tech/)
+- [CodeCombat](https://codecombat.com/)
+- [Encode](https://learnencode.com/)
+- [Enki](https://www.enki.com/)
+- [Grasshopper](https://en.wikipedia.org/wiki/Grasshopper_(mobile_app)) 🪦
+- [Lightbot](https://lightbot.com/)
+- [Mimo](https://mimo.org/) ★
+- [Programming Hero](https://www.programming-hero.com/)
+- [Py](https://apps.apple.com/us/app/py-learn-to-code/id1111105894)
+- [Sololearn](https://www.sololearn.com/) ★
+- [Swift Playgrounds](https://www.apple.com/swift/playgrounds/)
+
+## Arquitetura e APIs
+
+- [Apache Kafka](https://kafka.apache.org/)
+- [Arquitetura hexagonal](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+- [Arquitetura orientada a eventos](https://en.wikipedia.org/wiki/Event-driven_architecture)
+- [Arquitetura orientada a serviços (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture)
+- [CORBA](https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture)
+- [Fila de mensagens](https://en.wikipedia.org/wiki/Message_queue)
+- [GraphQL](https://graphql.org/)
+- [gRPC](https://grpc.io/)
+- [JSON-RPC](https://www.jsonrpc.org/)
+- [Microsserviços](https://en.wikipedia.org/wiki/Microservices) ★
+- [Monólito](https://en.wikipedia.org/wiki/Monolithic_application)
+- [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) ★
+- [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+- [OpenAPI](https://www.openapis.org/)
+- [RabbitMQ](https://www.rabbitmq.com/)
+- [REST](https://en.wikipedia.org/wiki/REST) ★
+- [Serverless](https://en.wikipedia.org/wiki/Serverless_computing)
+- [SOAP](https://en.wikipedia.org/wiki/SOAP)
+- [Webhook](https://en.wikipedia.org/wiki/Webhook)
+
+## Bancos de dados
+
+- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+- [Apache Cassandra](https://cassandra.apache.org/)
+- [CouchDB](https://couchdb.apache.org/)
+- [dBase](https://en.wikipedia.org/wiki/DBase)
+- [DuckDB](https://duckdb.org/)
+- [Elasticsearch](https://www.elastic.co/elasticsearch)
+- [Firebase](https://firebase.google.com/)
+- [Firebird](https://firebirdsql.org/)
+- [IBM Db2](https://www.ibm.com/db2)
+- [MariaDB](https://mariadb.org/)
+- [Microsoft Access](https://www.microsoft.com/microsoft-365/access)
+- [Microsoft SQL Server](https://www.microsoft.com/sql-server)
+- [MongoDB](https://www.mongodb.com/) ★
+- [MySQL](https://www.mysql.com/) ★
+- [Neo4j](https://neo4j.com/)
+- [Oracle Database](https://www.oracle.com/database/)
+- [PostgreSQL](https://www.postgresql.org/) ★
+- [Redis](https://redis.io/)
+- [SQLite](https://sqlite.org/) ★
+- [Supabase](https://supabase.com/)
+
+## Ciência de dados e IA
+
+- [Apache Spark](https://spark.apache.org/)
+- [Caffe](https://en.wikipedia.org/wiki/Caffe_(software)) 🪦
+- [Hugging Face](https://huggingface.co/)
+- [Jupyter](https://jupyter.org/)
+- [Keras](https://keras.io/)
+- [LangChain](https://www.langchain.com/)
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/) ★
+- [OpenCV](https://opencv.org/)
+- [pandas](https://pandas.pydata.org/) ★
+- [Plotly](https://plotly.com/)
+- [Polars](https://pola.rs/)
+- [PyTorch](https://pytorch.org/) ★
+- [scikit-learn](https://scikit-learn.org/)
+- [SciPy](https://scipy.org/)
+- [TensorFlow](https://www.tensorflow.org/) ★
+- [Theano](https://en.wikipedia.org/wiki/Theano_(software)) 🪦
+
+## Codificação de caracteres
+
+- [ASCII](https://en.wikipedia.org/wiki/ASCII) ★
+- [Base64](https://en.wikipedia.org/wiki/Base64)
+- [Codificação por porcentagem (URL)](https://en.wikipedia.org/wiki/Percent-encoding)
+- [EBCDIC](https://en.wikipedia.org/wiki/EBCDIC)
+- [Emoji](https://en.wikipedia.org/wiki/Emoji)
+- [Entidades HTML](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
+- [ISO 8859-1 (Latin-1)](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
+- [Punycode](https://en.wikipedia.org/wiki/Punycode)
+- [Shift JIS](https://en.wikipedia.org/wiki/Shift_JIS)
+- [Unicode](https://en.wikipedia.org/wiki/Unicode) ★
+- [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
+- [UTF-32](https://en.wikipedia.org/wiki/UTF-32)
+- [UTF-8](https://en.wikipedia.org/wiki/UTF-8) ★
+- [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252)
+
+## Comunidades e fóruns
+
+- [DEV Community](https://dev.to/)
+- [Experts Exchange](https://www.experts-exchange.com/)
+- [Hacker News](https://news.ycombinator.com/) ★
+- [Hashnode](https://hashnode.com/)
+- [Lobsters](https://lobste.rs/)
+- [Reddit r/programming](https://www.reddit.com/r/programming/)
+- [Slashdot](https://slashdot.org/)
+- [Stack Exchange](https://stackexchange.com/)
+- [Stack Overflow](https://stackoverflow.com/) ★
+- [TabNews](https://www.tabnews.com.br/)
+
+## Conceitos fundamentais
+
+- [API](https://en.wikipedia.org/wiki/API) ★
+- [Banco de dados](https://en.wikipedia.org/wiki/Database)
+- [Biblioteca](https://en.wikipedia.org/wiki/Library_(computing))
+- [Booleano](https://en.wikipedia.org/wiki/Boolean_data_type)
+- [Bug](https://en.wikipedia.org/wiki/Software_bug)
+- [Cache](https://en.wikipedia.org/wiki/Cache_(computing))
+- [Classe](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Cliente-servidor](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+- [Coleta de lixo](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+- [Compilador](https://en.wikipedia.org/wiki/Compiler) ★
+- [Concorrência](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
+- [Constante](https://en.wikipedia.org/wiki/Constant_(computer_programming))
+- [Controle de versão](https://en.wikipedia.org/wiki/Version_control)
+- [Código aberto](https://en.wikipedia.org/wiki/Open_source)
+- [Depuração](https://en.wikipedia.org/wiki/Debugging)
+- [Encapsulamento](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+- [Estrutura condicional](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+- [Expressão regular](https://en.wikipedia.org/wiki/Regular_expression)
+- [Framework](https://en.wikipedia.org/wiki/Software_framework)
+- [Função](https://en.wikipedia.org/wiki/Function_(computer_programming)) ★
+- [Gerenciamento de memória](https://en.wikipedia.org/wiki/Memory_management)
+- [Hello, World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+- [Herança](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+- [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)
+- [Interpretador](https://en.wikipedia.org/wiki/Interpreter_(computing))
+- [Laço de repetição](https://en.wikipedia.org/wiki/Control_flow#Loops)
+- [Máquina de Turing](https://en.wikipedia.org/wiki/Turing_machine)
+- [Objeto](https://en.wikipedia.org/wiki/Object_(computer_science))
+- [Parâmetro](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
+- [Polimorfismo](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+- [Ponteiro](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
+- [Recursão](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+- [Refatoração](https://en.wikipedia.org/wiki/Code_refactoring)
+- [SDK](https://en.wikipedia.org/wiki/Software_development_kit)
+- [Sintaxe](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+- [Teste de software](https://en.wikipedia.org/wiki/Software_testing)
+- [Thread](https://en.wikipedia.org/wiki/Thread_(computing))
+- [Tipo de dado](https://en.wikipedia.org/wiki/Data_type) ★
+- [Tratamento de exceções](https://en.wikipedia.org/wiki/Exception_handling)
+- [Variável](https://en.wikipedia.org/wiki/Variable_(computer_science)) ★
+
+## Controle de versão e hospedagem de código
+
+- [Azure DevOps](https://azure.microsoft.com/products/devops)
+- [Bitbucket](https://bitbucket.org/)
+- [Codeberg](https://codeberg.org/)
+- [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System) 🪦
+- [Fossil](https://fossil-scm.org/)
+- [Git](https://git-scm.com/) ★
+- [Gitea](https://about.gitea.com/)
+- [GitHub](https://github.com/) ★
+- [GitLab](https://about.gitlab.com/) ★
+- [Google Code](https://en.wikipedia.org/wiki/Google_Developers#Google_Code) 🪦
+- [Launchpad](https://launchpad.net/)
+- [Mercurial](https://www.mercurial-scm.org/)
+- [Perforce](https://www.perforce.com/)
+- [SourceForge](https://sourceforge.net/)
+- [Subversion (SVN)](https://subversion.apache.org/)
+
+## Cursos e plataformas de ensino
+
+- [Alura](https://www.alura.com.br/)
+- [Boot.dev](https://www.boot.dev/)
+- [Code.org](https://code.org/)
+- [Codecademy](https://www.codecademy.com/) ★
+- [Coursera](https://www.coursera.org/)
+- [CS50 (Harvard)](https://cs50.harvard.edu/) ★
+- [Curso em Vídeo](https://www.cursoemvideo.com/)
+- [DataCamp](https://www.datacamp.com/)
+- [DIO](https://www.dio.me/)
+- [edX](https://www.edx.org/)
+- [freeCodeCamp](https://www.freecodecamp.org/) ★
+- [Frontend Masters](https://frontendmasters.com/)
+- [Khan Academy](https://www.khanacademy.org/computing)
+- [MIT OpenCourseWare](https://ocw.mit.edu/)
+- [Pluralsight](https://www.pluralsight.com/)
+- [Rocketseat](https://www.rocketseat.com.br/)
+- [Scrimba](https://scrimba.com/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [Treehouse](https://teamtreehouse.com/)
+- [Udacity](https://www.udacity.com/)
+- [Udemy](https://www.udemy.com/)
+- [W3Schools](https://www.w3schools.com/)
+
+## DevOps e contêineres
+
+- [Ansible](https://www.ansible.com/)
+- [Apache HTTP Server](https://httpd.apache.org/)
+- [Chef](https://www.chef.io/)
+- [CircleCI](https://circleci.com/)
+- [Docker](https://www.docker.com/) ★
+- [Docker Swarm](https://docs.docker.com/engine/swarm/)
+- [GitHub Actions](https://github.com/features/actions)
+- [GitLab CI/CD](https://docs.gitlab.com/ci/)
+- [Grafana](https://grafana.com/)
+- [Jenkins](https://www.jenkins.io/)
+- [Kubernetes](https://kubernetes.io/) ★
+- [Nginx](https://nginx.org/) ★
+- [Podman](https://podman.io/)
+- [Prometheus](https://prometheus.io/)
+- [Puppet](https://www.puppet.com/)
+- [Terraform](https://www.terraform.io/)
+- [Travis CI](https://www.travis-ci.com/)
+- [Vagrant](https://www.vagrantup.com/)
+
+## Documentação e referência
+
+- [Awesome Lists](https://github.com/sindresorhus/awesome)
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [Can I use](https://caniuse.com/)
+- [cheat.sh](https://cheat.sh/)
+- [DevDocs](https://devdocs.io/)
+- [Explain Shell](https://explainshell.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [MDN Web Docs](https://developer.mozilla.org/) ★
+- [Microsoft Learn](https://learn.microsoft.com/)
+- [Python Docs](https://docs.python.org/)
+- [Refactoring.Guru](https://refactoring.guru/)
+- [Roadmap.sh](https://roadmap.sh/) ★
+- [Rosetta Code](https://rosettacode.org/)
+- [The Missing Semester (MIT)](https://missing.csail.mit.edu/)
+
+## Editores e IDEs
+
+- [Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)
+- [Android Studio](https://developer.android.com/studio)
+- [Atom](https://en.wikipedia.org/wiki/Atom_(text_editor)) 🪦
+- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) 🪦
+- [Brackets](https://en.wikipedia.org/wiki/Brackets_(text_editor)) 🪦
+- [Code::Blocks](https://en.wikipedia.org/wiki/Code::Blocks)
+- [Cursor](https://cursor.com/)
+- [Eclipse](https://eclipseide.org/)
+- [Emacs](https://www.gnu.org/software/emacs/)
+- [GNU nano](https://www.nano-editor.org/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [JupyterLab](https://jupyter.org/)
+- [Neovim](https://neovim.io/)
+- [NetBeans](https://netbeans.apache.org/)
+- [Notepad++](https://notepad-plus-plus.org/)
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- [RStudio](https://posit.co/products/open-source/rstudio/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Vim](https://www.vim.org/) ★
+- [Visual Studio](https://visualstudio.microsoft.com/) ★
+- [Visual Studio Code](https://code.visualstudio.com/) ★
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- [Xcode](https://developer.apple.com/xcode/)
+- [Zed](https://zed.dev/)
+- [Windsurf](https://windsurf.com/)
+
+## Editores online e playgrounds
+
+- [CodePen](https://codepen.io/) ★
+- [CodeSandbox](https://codesandbox.io/)
+- [GitHub Codespaces](https://github.com/features/codespaces)
+- [Glitch](https://en.wikipedia.org/wiki/Glitch.com) 🪦
+- [Google Colab](https://colab.research.google.com/)
+- [JSFiddle](https://jsfiddle.net/)
+- [Kaggle Notebooks](https://www.kaggle.com/code)
+- [OneCompiler](https://onecompiler.com/)
+- [Python Tutor](https://pythontutor.com/)
+- [Regex101](https://regex101.com/)
+- [Replit](https://replit.com/) ★
+- [StackBlitz](https://stackblitz.com/)
+
+## Empresas fundamentais
+
+- [Adobe](https://www.adobe.com/)
+- [Amazon](https://www.aboutamazon.com/)
+- [AMD](https://www.amd.com/)
+- [Anthropic](https://www.anthropic.com/)
+- [Apple](https://www.apple.com/) ★
+- [Bell Labs](https://www.bell-labs.com/) ★
+- [Borland](https://en.wikipedia.org/wiki/Borland) 🪦
+- [Canonical](https://canonical.com/)
+- [Commodore](https://en.wikipedia.org/wiki/Commodore_International) 🪦
+- [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation) 🪦
+- [GitHub](https://github.com/)
+- [Google](https://about.google/) ★
+- [IBM](https://www.ibm.com/) ★
+- [Intel](https://www.intel.com/)
+- [JetBrains](https://www.jetbrains.com/)
+- [Meta](https://www.meta.com/about/)
+- [Microsoft](https://www.microsoft.com/) ★
+- [Netscape](https://en.wikipedia.org/wiki/Netscape) 🪦
+- [Nvidia](https://www.nvidia.com/)
+- [OpenAI](https://openai.com/)
+- [Oracle](https://www.oracle.com/)
+- [Red Hat](https://www.redhat.com/)
+- [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) 🪦
+- [Xerox PARC](https://en.wikipedia.org/wiki/PARC_(company))
+
+## Estruturas de dados
+
+- [Array (vetor)](https://en.wikipedia.org/wiki/Array_(data_structure)) ★
+- [Conjunto](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
+- [Deque](https://en.wikipedia.org/wiki/Double-ended_queue)
+- [Dicionário (array associativo)](https://en.wikipedia.org/wiki/Associative_array)
+- [Fila](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) ★
+- [Fila de prioridade](https://en.wikipedia.org/wiki/Priority_queue)
+- [Filtro de Bloom](https://en.wikipedia.org/wiki/Bloom_filter)
+- [Grafo](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+- [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+- [Lista ligada](https://en.wikipedia.org/wiki/Linked_list)
+- [Matriz](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+- [Pilha](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) ★
+- [String](https://en.wikipedia.org/wiki/String_(computer_science))
+- [Tabela hash](https://en.wikipedia.org/wiki/Hash_table) ★
+- [Trie](https://en.wikipedia.org/wiki/Trie)
+- [Tupla](https://en.wikipedia.org/wiki/Tuple)
+- [Árvore](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
+- [Árvore B](https://en.wikipedia.org/wiki/B-tree)
+- [Árvore binária](https://en.wikipedia.org/wiki/Binary_tree)
+- [Árvore binária de busca](https://en.wikipedia.org/wiki/Binary_search_tree)
+
+## Figuras-chave
+
+- [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) 🪦
+- [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) ★ 🪦
+- [Adele Goldberg](https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist))
+- [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay)
+- [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) ★ 🪦
+- [Anders Hejlsberg](https://en.wikipedia.org/wiki/Anders_Hejlsberg)
+- [Andrew S. Tanenbaum](https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum)
+- [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov)
+- [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates)
+- [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup)
+- [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich)
+- [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)
+- [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) 🪦
+- [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner)
+- [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) 🪦
+- [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) ★ 🪦
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) ★
+- [Douglas Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart) 🪦
+- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) 🪦
+- [Frances Allen](https://en.wikipedia.org/wiki/Frances_Allen) 🪦
+- [George Boole](https://en.wikipedia.org/wiki/George_Boole) 🪦
+- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) ★ 🪦
+- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) ★
+- [James Gosling](https://en.wikipedia.org/wiki/James_Gosling)
+- [Jean Sammet](https://en.wikipedia.org/wiki/Jean_E._Sammet) 🪦
+- [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)) 🪦
+- [John Backus](https://en.wikipedia.org/wiki/John_Backus) 🪦
+- [John McCarthy](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)) 🪦
+- [John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann) 🪦
+- [José Valim](https://en.wikipedia.org/wiki/Jos%C3%A9_Valim)
+- [Kathleen Booth](https://en.wikipedia.org/wiki/Kathleen_Booth) 🪦
+- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) ★
+- [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
+- [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse) 🪦
+- [Kristen Nygaard](https://en.wikipedia.org/wiki/Kristen_Nygaard) 🪦
+- [Larry Tesler](https://en.wikipedia.org/wiki/Larry_Tesler) 🪦
+- [Larry Wall](https://en.wikipedia.org/wiki/Larry_Wall)
+- [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) ★
+- [Margaret Hamilton](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)) ★
+- [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
+- [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) 🪦
+- [Ole-Johan Dahl](https://en.wikipedia.org/wiki/Ole-Johan_Dahl) 🪦
+- [Paul Allen](https://en.wikipedia.org/wiki/Paul_Allen) 🪦
+- [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf)
+- [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman)
+- [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
+- [Roberto Ierusalimschy](https://en.wikipedia.org/wiki/Roberto_Ierusalimschy)
+- [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl)
+- [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) 🪦
+- [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak)
+- [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) ★
+- [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) 🪦
+- [Vint Cerf](https://en.wikipedia.org/wiki/Vint_Cerf)
+- [Yukihiro Matsumoto](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)
+
+## Formatos de compactação
+
+- [7z](https://en.wikipedia.org/wiki/7z)
+- [ARJ](https://en.wikipedia.org/wiki/ARJ) 🪦
+- [Brotli](https://en.wikipedia.org/wiki/Brotli)
+- [bzip2](https://en.wikipedia.org/wiki/Bzip2)
+- [DEFLATE](https://en.wikipedia.org/wiki/Deflate)
+- [gzip](https://en.wikipedia.org/wiki/Gzip) ★
+- [ISO](https://en.wikipedia.org/wiki/Optical_disc_image)
+- [RAR](https://en.wikipedia.org/wiki/RAR_(file_format))
+- [tar](https://en.wikipedia.org/wiki/Tar_(computing))
+- [xz](https://en.wikipedia.org/wiki/XZ_Utils)
+- [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) ★
+- [Zstandard](https://en.wikipedia.org/wiki/Zstd)
+
+## Formatos de dados
+
+- [Apache Avro](https://avro.apache.org/)
+- [Apache Parquet](https://parquet.apache.org/)
+- [Apache Thrift](https://thrift.apache.org/)
+- [Atom](https://en.wikipedia.org/wiki/Atom_(web_standard))
+- [BSON](https://en.wikipedia.org/wiki/BSON)
+- [CBOR](https://en.wikipedia.org/wiki/CBOR)
+- [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) ★
+- [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
+- [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
+- [iCalendar](https://en.wikipedia.org/wiki/ICalendar)
+- [INI](https://en.wikipedia.org/wiki/INI_file)
+- [JSON](https://www.json.org/) ★
+- [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)
+- [MessagePack](https://msgpack.org/)
+- [NDJSON](https://en.wikipedia.org/wiki/JSON_streaming)
+- [Protocol Buffers](https://protobuf.dev/)
+- [RSS](https://en.wikipedia.org/wiki/RSS)
+- [S-expression](https://en.wikipedia.org/wiki/S-expression)
+- [SQLite (arquivo)](https://en.wikipedia.org/wiki/SQLite)
+- [TOML](https://toml.io/)
+- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values)
+- [vCard](https://en.wikipedia.org/wiki/VCard)
+- [XML](https://en.wikipedia.org/wiki/XML) ★
+- [YAML](https://yaml.org/) ★
+
+## Formatos de documento
+
+- [DjVu](https://en.wikipedia.org/wiki/DjVu)
+- [DOC](https://en.wikipedia.org/wiki/Doc_(computing))
+- [DOCX](https://en.wikipedia.org/wiki/Office_Open_XML) ★
+- [EPUB](https://en.wikipedia.org/wiki/EPUB) ★
+- [LIT (Microsoft Reader)](https://en.wikipedia.org/wiki/Microsoft_Reader) 🪦
+- [MOBI](https://en.wikipedia.org/wiki/Mobipocket) 🪦
+- [ODF (OpenDocument)](https://en.wikipedia.org/wiki/OpenDocument) ★
+- [Pages](https://en.wikipedia.org/wiki/Pages_(word_processor))
+- [PDF](https://en.wikipedia.org/wiki/PDF) ★
+- [PostScript](https://en.wikipedia.org/wiki/PostScript)
+- [PPTX](https://en.wikipedia.org/wiki/Office_Open_XML)
+- [RTF](https://en.wikipedia.org/wiki/Rich_Text_Format)
+- [TXT](https://en.wikipedia.org/wiki/Plain_text)
+- [WordPerfect](https://en.wikipedia.org/wiki/WordPerfect)
+- [XLSX](https://en.wikipedia.org/wiki/Office_Open_XML)
+- [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
+
+## Formatos de fonte
+
+- [EOT](https://en.wikipedia.org/wiki/Embedded_OpenType) 🪦
+- [Font Awesome](https://fontawesome.com/)
+- [Fontes variáveis](https://en.wikipedia.org/wiki/Variable_font)
+- [OTF (OpenType)](https://en.wikipedia.org/wiki/OpenType) ★
+- [PostScript Type 1](https://en.wikipedia.org/wiki/PostScript_fonts#Type_1) 🪦
+- [TTF (TrueType)](https://en.wikipedia.org/wiki/TrueType) ★
+- [WOFF](https://en.wikipedia.org/wiki/Web_Open_Font_Format) ★
+- [WOFF2](https://en.wikipedia.org/wiki/Web_Open_Font_Format)
+
+## Formatos de imagem
+
+- [APNG](https://en.wikipedia.org/wiki/APNG)
+- [AVIF](https://en.wikipedia.org/wiki/AVIF)
+- [BMP](https://en.wikipedia.org/wiki/BMP_file_format)
+- [EPS](https://en.wikipedia.org/wiki/Encapsulated_PostScript)
+- [GIF](https://en.wikipedia.org/wiki/GIF) ★
+- [HEIF e HEIC](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format)
+- [ICO](https://en.wikipedia.org/wiki/ICO_(file_format))
+- [JPEG](https://en.wikipedia.org/wiki/JPEG) ★
+- [JPEG 2000](https://en.wikipedia.org/wiki/JPEG_2000)
+- [JPEG XL](https://en.wikipedia.org/wiki/JPEG_XL)
+- [OpenEXR](https://en.wikipedia.org/wiki/OpenEXR)
+- [PCX](https://en.wikipedia.org/wiki/PCX) 🪦
+- [PNG](https://en.wikipedia.org/wiki/PNG) ★
+- [PSD](https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format)
+- [QOI](https://en.wikipedia.org/wiki/QOI_(image_format))
+- [RAW](https://en.wikipedia.org/wiki/Raw_image_format)
+- [SVG](https://en.wikipedia.org/wiki/SVG) ★
+- [TGA](https://en.wikipedia.org/wiki/Truevision_TGA)
+- [TIFF](https://en.wikipedia.org/wiki/TIFF)
+- [WBMP](https://en.wikipedia.org/wiki/Wireless_Application_Protocol_Bitmap_Format) 🪦
+- [WebP](https://en.wikipedia.org/wiki/WebP) ★
+
+## Formatos de áudio e vídeo
+
+- [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)
+- [AV1](https://en.wikipedia.org/wiki/AV1)
+- [AVI](https://en.wikipedia.org/wiki/Audio_Video_Interleave)
+- [FLAC](https://en.wikipedia.org/wiki/FLAC)
+- [FLV (Flash Video)](https://en.wikipedia.org/wiki/Flash_Video) 🪦
+- [H.264](https://en.wikipedia.org/wiki/Advanced_Video_Coding)
+- [H.265 (HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)
+- [MIDI](https://en.wikipedia.org/wiki/MIDI)
+- [MKV (Matroska)](https://en.wikipedia.org/wiki/Matroska)
+- [MOV (QuickTime)](https://en.wikipedia.org/wiki/QuickTime_File_Format)
+- [MP3](https://en.wikipedia.org/wiki/MP3) ★
+- [MP4](https://en.wikipedia.org/wiki/MP4_file_format) ★
+- [Ogg](https://en.wikipedia.org/wiki/Ogg)
+- [Opus](https://en.wikipedia.org/wiki/Opus_(audio_format))
+- [RealMedia](https://en.wikipedia.org/wiki/RealMedia) 🪦
+- [SWF (Flash)](https://en.wikipedia.org/wiki/SWF) 🪦
+- [VP9](https://en.wikipedia.org/wiki/VP9)
+- [WAV](https://en.wikipedia.org/wiki/WAV)
+- [WebM](https://en.wikipedia.org/wiki/WebM)
+
+## Frameworks e bibliotecas
+
+- [.NET](https://dotnet.microsoft.com/)
+- [Adobe Flex](https://en.wikipedia.org/wiki/Apache_Flex) 🪦
+- [Angular](https://angular.dev/)
+- [AngularJS](https://en.wikipedia.org/wiki/AngularJS) 🪦
+- [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
+- [Astro](https://astro.build/)
+- [Backbone.js](https://backbonejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Bun](https://bun.sh/)
+- [D3.js](https://d3js.org/)
+- [Deno](https://deno.com/)
+- [Django](https://www.djangoproject.com/) ★
+- [Electron](https://www.electronjs.org/)
+- [Express.js](https://expressjs.com/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Flutter](https://flutter.dev/)
+- [jQuery](https://jquery.com/)
+- [Laravel](https://laravel.com/)
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/) ★
+- [Nuxt](https://nuxt.com/)
+- [Qt](https://www.qt.io/)
+- [React](https://react.dev/) ★
+- [React Native](https://reactnative.dev/)
+- [Ruby on Rails](https://rubyonrails.org/)
+- [Spring](https://spring.io/)
+- [Svelte](https://svelte.dev/)
+- [Symfony](https://symfony.com/)
+- [Tailwind CSS](https://tailwindcss.com/) ★
+- [Three.js](https://threejs.org/)
+- [Vue.js](https://vuejs.org/) ★
+- [Vite](https://vite.dev/)
+
+## Gerenciadores de pacotes
+
+- [APT](https://wiki.debian.org/Apt)
+- [Bower](https://bower.io/) 🪦
+- [Cargo](https://doc.rust-lang.org/cargo/)
+- [Chocolatey](https://chocolatey.org/)
+- [CocoaPods](https://cocoapods.org/)
+- [Composer](https://getcomposer.org/)
+- [Conda](https://docs.conda.io/)
+- [CPAN](https://www.cpan.org/)
+- [Flatpak](https://flatpak.org/)
+- [Gradle](https://gradle.org/)
+- [Homebrew](https://brew.sh/) ★
+- [Maven](https://maven.apache.org/)
+- [npm](https://www.npmjs.com/) ★
+- [NuGet](https://www.nuget.org/)
+- [pip](https://pip.pypa.io/) ★
+- [pnpm](https://pnpm.io/)
+- [PyPI](https://pypi.org/)
+- [RubyGems](https://rubygems.org/)
+- [Snap](https://snapcraft.io/)
+- [winget](https://learn.microsoft.com/windows/package-manager/)
+- [Yarn](https://yarnpkg.com/)
+- [uv](https://docs.astral.sh/uv/)
+
+## Licenças de software
+
+- [AGPL](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)
+- [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License) ★
+- [BSD](https://en.wikipedia.org/wiki/BSD_licenses)
+- [CC0](https://en.wikipedia.org/wiki/CC0)
+- [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons_license)
+- [Código aberto](https://en.wikipedia.org/wiki/Open-source_software)
+- [Domínio público](https://en.wikipedia.org/wiki/Public-domain_software)
+- [EULA](https://en.wikipedia.org/wiki/End-user_license_agreement)
+- [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ★
+- [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+- [MIT](https://en.wikipedia.org/wiki/MIT_License) ★
+- [MPL](https://en.wikipedia.org/wiki/Mozilla_Public_License)
+- [Software livre](https://en.wikipedia.org/wiki/Free_software)
+- [Software proprietário](https://en.wikipedia.org/wiki/Proprietary_software)
+- [Unlicense](https://en.wikipedia.org/wiki/Unlicense)
+
+## Linguagens de consulta
+
+- [Cypher](https://en.wikipedia.org/wiki/Cypher_(query_language))
+- [Datalog](https://en.wikipedia.org/wiki/Datalog)
+- [GraphQL](https://graphql.org/) ★
+- [jq](https://jqlang.org/)
+- [LINQ](https://en.wikipedia.org/wiki/Language_Integrated_Query)
+- [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+- [QUEL](https://en.wikipedia.org/wiki/QUEL_query_languages) 🪦
+- [SPARQL](https://en.wikipedia.org/wiki/SPARQL)
+- [SQL](https://en.wikipedia.org/wiki/SQL) ★
+- [XPath](https://en.wikipedia.org/wiki/XPath)
+- [XQuery](https://en.wikipedia.org/wiki/XQuery)
+
+## Linguagens de estilo
+
+- [CSS](https://en.wikipedia.org/wiki/CSS) ★
+- [DSSSL](https://en.wikipedia.org/wiki/Document_Style_Semantics_and_Specification_Language) 🪦
+- [JSSS](https://en.wikipedia.org/wiki/JavaScript_Style_Sheets) 🪦
+- [Less](https://lesscss.org/)
+- [PostCSS](https://postcss.org/)
+- [Sass](https://sass-lang.com/) ★
+- [Stylus](https://stylus-lang.com/)
+- [XSL-FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects)
+- [XSLT](https://en.wikipedia.org/wiki/XSLT)
+
+## Linguagens de marcação
+
+- [AsciiDoc](https://asciidoc.org/)
+- [BBCode](https://en.wikipedia.org/wiki/BBCode)
+- [DocBook](https://en.wikipedia.org/wiki/DocBook)
+- [HTML](https://en.wikipedia.org/wiki/HTML) ★
+- [JSX](https://en.wikipedia.org/wiki/JSX_(JavaScript))
+- [LaTeX](https://www.latex-project.org/) ★
+- [Markdown](https://daringfireball.net/projects/markdown/) ★
+- [MathML](https://en.wikipedia.org/wiki/MathML)
+- [MDX](https://mdxjs.com/)
+- [Org-mode](https://orgmode.org/)
+- [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText)
+- [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)
+- [SVG](https://en.wikipedia.org/wiki/SVG)
+- [TeX](https://en.wikipedia.org/wiki/TeX)
+- [Typst](https://typst.app/)
+- [VRML](https://en.wikipedia.org/wiki/VRML) 🪦
+- [Wikitexto](https://en.wikipedia.org/wiki/Help:Wikitext)
+- [WML](https://en.wikipedia.org/wiki/Wireless_Markup_Language) 🪦
+- [XHTML](https://en.wikipedia.org/wiki/XHTML)
+- [XML](https://en.wikipedia.org/wiki/XML) ★
+- [YAML](https://yaml.org/)
+
+## Linguagens de programação
+
+- [ABAP](https://en.wikipedia.org/wiki/ABAP)
+- [ActionScript](https://en.wikipedia.org/wiki/ActionScript) 🪦
+- [Ada](https://ada-lang.io/)
+- [ALGOL](https://en.wikipedia.org/wiki/ALGOL) 🪦
+- [APL](https://en.wikipedia.org/wiki/APL_(programming_language))
+- [Assembly](https://en.wikipedia.org/wiki/Assembly_language)
+- [AWK](https://en.wikipedia.org/wiki/AWK)
+- [B](https://en.wikipedia.org/wiki/B_(programming_language)) 🪦
+- [Bash](https://www.gnu.org/software/bash/)
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [BCPL](https://en.wikipedia.org/wiki/BCPL) 🪦
+- [C](https://en.wikipedia.org/wiki/C_(programming_language)) ★
+- [C#](https://learn.microsoft.com/dotnet/csharp/)
+- [C++](https://isocpp.org/)
+- [Clojure](https://clojure.org/)
+- [COBOL](https://en.wikipedia.org/wiki/COBOL)
+- [CoffeeScript](https://coffeescript.org/)
+- [Common Lisp](https://lisp-lang.org/)
+- [Crystal](https://crystal-lang.org/)
+- [D](https://dlang.org/)
+- [Dart](https://dart.dev/)
+- [Delphi](https://www.embarcadero.com/products/delphi)
+- [Eiffel](https://www.eiffel.org/)
+- [Elixir](https://elixir-lang.org/)
+- [Elm](https://elm-lang.org/)
+- [Erlang](https://www.erlang.org/)
+- [F#](https://fsharp.org/)
+- [FLOW-MATIC](https://en.wikipedia.org/wiki/FLOW-MATIC) 🪦
+- [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
+- [Fortran](https://fortran-lang.org/)
+- [Gleam](https://gleam.run/)
+- [Go](https://go.dev/)
+- [Groovy](https://groovy-lang.org/)
+- [Hack](https://hacklang.org/)
+- [Haskell](https://www.haskell.org/)
+- [Haxe](https://haxe.org/)
+- [Java](https://dev.java/) ★
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) ★
+- [Julia](https://julialang.org/)
+- [Kotlin](https://kotlinlang.org/)
+- [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Lua](https://www.lua.org/) ★
+- [MATLAB](https://www.mathworks.com/products/matlab.html)
+- [Modula-2](https://en.wikipedia.org/wiki/Modula-2)
+- [Mojo](https://www.modular.com/mojo)
+- [Nim](https://nim-lang.org/)
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+- [OCaml](https://ocaml.org/)
+- [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [Perl](https://www.perl.org/)
+- [PHP](https://www.php.net/)
+- [PL/I](https://en.wikipedia.org/wiki/PL/I)
+- [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) 🪦
+- [PowerShell](https://learn.microsoft.com/powershell/)
+- [Prolog](https://en.wikipedia.org/wiki/Prolog)
+- [Python](https://www.python.org/) ★
+- [R](https://www.r-project.org/)
+- [Racket](https://racket-lang.org/)
+- [Raku](https://raku.org/)
+- [Ruby](https://www.ruby-lang.org/)
+- [Rust](https://www.rust-lang.org/) ★
+- [Scala](https://www.scala-lang.org/)
+- [Scheme](https://www.scheme.org/)
+- [Shell](https://en.wikipedia.org/wiki/Shell_script)
+- [Simula](https://en.wikipedia.org/wiki/Simula) 🪦
+- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
+- [Solidity](https://soliditylang.org/)
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- [Swift](https://www.swift.org/)
+- [Tcl](https://www.tcl-lang.org/)
+- [TypeScript](https://www.typescriptlang.org/) ★
+- [VBA](https://en.wikipedia.org/wiki/Visual_Basic_for_Applications)
+- [VBScript](https://en.wikipedia.org/wiki/VBScript) 🪦
+- [Visual Basic (clássico)](https://en.wikipedia.org/wiki/Visual_Basic_(classic)) 🪦
+- [Visual Basic .NET](https://learn.microsoft.com/dotnet/visual-basic/)
+- [WebAssembly](https://webassembly.org/)
+- [Zig](https://ziglang.org/)
+
+## Livros essenciais
+
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+- [Clean Code](https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Code)
+- [Code](https://en.wikipedia.org/wiki/Code:_The_Hidden_Language_of_Computer_Hardware_and_Software)
+- [Code Complete](https://en.wikipedia.org/wiki/Code_Complete)
+- [Compilers (Dragon Book)](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)
+- [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview)
+- [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [Gödel, Escher, Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+- [Hackers](https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution)
+- [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+- [Refactoring](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#Publications)
+- [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) ★
+- [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) ★
+- [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language) ★
+- [The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
+- [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
+- [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+## Nuvem e hospedagem
+
+- [Amazon Web Services](https://aws.amazon.com/) ★
+- [Cloudflare](https://www.cloudflare.com/)
+- [DigitalOcean](https://www.digitalocean.com/)
+- [Fly.io](https://fly.io/)
+- [GeoCities](https://en.wikipedia.org/wiki/GeoCities) 🪦
+- [GitHub Pages](https://pages.github.com/)
+- [Google Cloud](https://cloud.google.com/) ★
+- [Heroku](https://www.heroku.com/)
+- [Hostinger](https://www.hostinger.com/)
+- [IBM Cloud](https://www.ibm.com/cloud)
+- [Linode (Akamai)](https://www.linode.com/)
+- [Microsoft Azure](https://azure.microsoft.com/) ★
+- [Netlify](https://www.netlify.com/)
+- [Oracle Cloud](https://www.oracle.com/cloud/)
+- [Parse](https://en.wikipedia.org/wiki/Parse,_Inc.) 🪦
+- [Render](https://render.com/)
+- [Vercel](https://vercel.com/)
+
+## Organizações e padrões
+
+- [ACM](https://www.acm.org/)
+- [Apache Software Foundation](https://www.apache.org/)
+- [ECMA International](https://ecma-international.org/)
+- [Free Software Foundation](https://www.fsf.org/)
+- [ICANN](https://www.icann.org/)
+- [IEEE](https://www.ieee.org/)
+- [IETF](https://www.ietf.org/) ★
+- [Internet Archive](https://archive.org/)
+- [ISO](https://www.iso.org/)
+- [Linux Foundation](https://www.linuxfoundation.org/)
+- [Mozilla Foundation](https://foundation.mozilla.org/) ★
+- [Open Source Initiative](https://opensource.org/)
+- [OpenJS Foundation](https://openjsf.org/)
+- [Python Software Foundation](https://www.python.org/psf-landing/)
+- [Unicode Consortium](https://home.unicode.org/)
+- [W3C](https://www.w3.org/) ★
+- [WHATWG](https://whatwg.org/)
+
+## Paradigmas de programação
+
+- [Metaprogramação](https://en.wikipedia.org/wiki/Metaprogramming)
+- [Programação assíncrona](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming))
+- [Programação baseada em protótipos](https://en.wikipedia.org/wiki/Prototype-based_programming)
+- [Programação concorrente](https://en.wikipedia.org/wiki/Concurrent_computing)
+- [Programação declarativa](https://en.wikipedia.org/wiki/Declarative_programming)
+- [Programação estruturada](https://en.wikipedia.org/wiki/Structured_programming)
+- [Programação funcional](https://en.wikipedia.org/wiki/Functional_programming) ★
+- [Programação genérica](https://en.wikipedia.org/wiki/Generic_programming)
+- [Programação imperativa](https://en.wikipedia.org/wiki/Imperative_programming) ★
+- [Programação lógica](https://en.wikipedia.org/wiki/Logic_programming)
+- [Programação orientada a aspectos](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+- [Programação orientada a dados](https://en.wikipedia.org/wiki/Data-oriented_design)
+- [Programação orientada a eventos](https://en.wikipedia.org/wiki/Event-driven_programming)
+- [Programação orientada a objetos](https://en.wikipedia.org/wiki/Object-oriented_programming) ★
+- [Programação paralela](https://en.wikipedia.org/wiki/Parallel_computing)
+- [Programação procedural](https://en.wikipedia.org/wiki/Procedural_programming)
+- [Programação reativa](https://en.wikipedia.org/wiki/Reactive_programming)
+
+## Princípios e boas práticas
+
+- [Code smell](https://en.wikipedia.org/wiki/Code_smell)
+- [Código limpo](https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Code)
+- [Desenvolvimento guiado por testes (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Desenvolvimento ágil](https://en.wikipedia.org/wiki/Agile_software_development)
+- [Documentação de software](https://en.wikipedia.org/wiki/Software_documentation)
+- [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself) ★
+- [Débito técnico](https://en.wikipedia.org/wiki/Technical_debt)
+- [Entrega contínua (CD)](https://en.wikipedia.org/wiki/Continuous_delivery)
+- [Guia de estilo de código](https://en.wikipedia.org/wiki/Coding_conventions)
+- [Integração contínua (CI)](https://en.wikipedia.org/wiki/Continuous_integration)
+- [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle) ★
+- [Padrões de projeto](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [Programação em par](https://en.wikipedia.org/wiki/Pair_programming)
+- [Revisão de código](https://en.wikipedia.org/wiki/Code_review)
+- [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
+- [Separação de responsabilidades](https://en.wikipedia.org/wiki/Separation_of_concerns)
+- [SOLID](https://en.wikipedia.org/wiki/SOLID) ★
+- [Versionamento semântico](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning)
+- [YAGNI](https://en.wikipedia.org/wiki/You_aren't_gonna_need_it)
+
+## Programação visual e educativa
+
+- [Alice](https://en.wikipedia.org/wiki/Alice_(software))
+- [Blockly](https://developers.google.com/blockly)
+- [Kodu Game Lab](https://en.wikipedia.org/wiki/Kodu_Game_Lab)
+- [LabVIEW](https://www.ni.com/labview)
+- [Lego Mindstorms](https://en.wikipedia.org/wiki/Lego_Mindstorms) 🪦
+- [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)) ★
+- [Max/MSP](https://cycling74.com/products/max)
+- [MIT App Inventor](https://appinventor.mit.edu/)
+- [Node-RED](https://nodered.org/)
+- [Pure Data](https://puredata.info/)
+- [Scratch](https://scratch.mit.edu/) ★
+- [Snap!](https://snap.berkeley.edu/)
+- [Unreal Blueprints](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine)
+
+## Protocolos de transmissão
+
+- [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
+- [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+- [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)
+- [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) ★
+- [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+- [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) 🪦
+- [HTTP](https://en.wikipedia.org/wiki/HTTP) ★
+- [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)
+- [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)
+- [HTTPS](https://en.wikipedia.org/wiki/HTTPS) ★
+- [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+- [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
+- [IP](https://en.wikipedia.org/wiki/Internet_Protocol) ★
+- [IPv4](https://en.wikipedia.org/wiki/IPv4)
+- [IPv6](https://en.wikipedia.org/wiki/IPv6)
+- [IRC](https://en.wikipedia.org/wiki/IRC)
+- [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+- [Modelo OSI](https://en.wikipedia.org/wiki/OSI_model)
+- [MQTT](https://en.wikipedia.org/wiki/MQTT)
+- [NNTP](https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol)
+- [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
+- [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)
+- [QUIC](https://en.wikipedia.org/wiki/QUIC)
+- [RTMP](https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol)
+- [RTP](https://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
+- [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
+- [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+- [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)
+- [SSH](https://en.wikipedia.org/wiki/Secure_Shell) ★
+- [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) ★
+- [Telnet](https://en.wikipedia.org/wiki/Telnet)
+- [TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+- [WebRTC](https://en.wikipedia.org/wiki/WebRTC)
+- [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+- [XMPP](https://en.wikipedia.org/wiki/XMPP)
+
+## Prática e desafios
+
+- [Advent of Code](https://adventofcode.com/) ★
+- [AtCoder](https://atcoder.jp/)
+- [Beecrowd](https://judge.beecrowd.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codewars](https://www.codewars.com/) ★
+- [CodinGame](https://www.codingame.com/)
+- [CSSBattle](https://cssbattle.dev/)
+- [Exercism](https://exercism.org/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [Google Code Jam](https://en.wikipedia.org/wiki/Google_Code_Jam) 🪦
+- [HackerRank](https://www.hackerrank.com/)
+- [ICPC](https://icpc.global/)
+- [International Olympiad in Informatics](https://ioinformatics.org/)
+- [Kaggle](https://www.kaggle.com/)
+- [LeetCode](https://leetcode.com/) ★
+- [Project Euler](https://projecteuler.net/)
+- [Rosalind](https://rosalind.info/)
+- [TopCoder](https://www.topcoder.com/)
+
+## Segurança
+
+- [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+- [Autenticação de dois fatores](https://en.wikipedia.org/wiki/Multi-factor_authentication) ★
+- [bcrypt](https://en.wikipedia.org/wiki/Bcrypt)
+- [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+- [Criptografia](https://en.wikipedia.org/wiki/Cryptography) ★
+- [Criptografia de chave pública](https://en.wikipedia.org/wiki/Public-key_cryptography)
+- [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)
+- [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+- [CVE](https://www.cve.org/)
+- [Firewall](https://en.wikipedia.org/wiki/Firewall_(computing))
+- [Injeção de SQL](https://en.wikipedia.org/wiki/SQL_injection)
+- [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token)
+- [MD5](https://en.wikipedia.org/wiki/MD5)
+- [OAuth](https://en.wikipedia.org/wiki/OAuth) ★
+- [OWASP](https://owasp.org/)
+- [Passkeys](https://en.wikipedia.org/wiki/WebAuthn)
+- [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+- [SHA-2](https://en.wikipedia.org/wiki/SHA-2)
+- [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
+- [Let's Encrypt](https://letsencrypt.org/)
+
+## Shells e terminais
+
+- [Bash](https://www.gnu.org/software/bash/) ★
+- [Bourne shell (sh)](https://en.wikipedia.org/wiki/Bourne_shell)
+- [C shell](https://en.wikipedia.org/wiki/C_shell)
+- [Fish](https://fishshell.com/)
+- [GNOME Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
+- [iTerm2](https://iterm2.com/)
+- [Konsole](https://konsole.kde.org/)
+- [KornShell](https://en.wikipedia.org/wiki/KornShell)
+- [Nushell](https://www.nushell.sh/)
+- [PowerShell](https://learn.microsoft.com/powershell/) ★
+- [Prompt de Comando (cmd)](https://en.wikipedia.org/wiki/Cmd.exe)
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+- [Terminal (macOS)](https://support.apple.com/guide/terminal/welcome/mac)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [Warp](https://www.warp.dev/)
+- [Windows Terminal](https://learn.microsoft.com/windows/terminal/)
+- [Zsh](https://www.zsh.org/) ★
+
+## Sistemas de automação
+
+- [Activepieces](https://www.activepieces.com/)
+- [Apache Airflow](https://airflow.apache.org/)
+- [Atalhos (Apple Shortcuts)](https://support.apple.com/guide/shortcuts/welcome/ios)
+- [Automation Anywhere](https://www.automationanywhere.com/)
+- [Cron](https://en.wikipedia.org/wiki/Cron)
+- [GNU Make](https://www.gnu.org/software/make/)
+- [Home Assistant](https://www.home-assistant.io/)
+- [Huginn](https://github.com/huginn/huginn)
+- [IFTTT](https://ifttt.com/) ★
+- [Make](https://www.make.com/)
+- [Microsoft Power Automate](https://www.microsoft.com/power-platform/products/power-automate)
+- [n8n](https://n8n.io/) ★
+- [Node-RED](https://nodered.org/)
+- [Pipedream](https://pipedream.com/)
+- [Playwright](https://playwright.dev/)
+- [Selenium](https://www.selenium.dev/)
+- [Tasker](https://tasker.joaoapps.com/)
+- [UiPath](https://www.uipath.com/)
+- [Workato](https://www.workato.com/)
+- [Zapier](https://zapier.com/) ★
+
+## Sistemas de cores
+
+- [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space)
+- [Canal alfa](https://en.wikipedia.org/wiki/Alpha_compositing)
+- [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space)
+- [CMYK](https://en.wikipedia.org/wiki/CMYK_color_model) ★
+- [Display P3](https://en.wikipedia.org/wiki/DCI-P3)
+- [Escala de cinza](https://en.wikipedia.org/wiki/Grayscale)
+- [HEX (cores web)](https://en.wikipedia.org/wiki/Web_colors) ★
+- [HSL e HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) ★
+- [Oklab e OKLCH](https://en.wikipedia.org/wiki/Oklab_color_space)
+- [Pantone](https://en.wikipedia.org/wiki/Pantone)
+- [RGB](https://en.wikipedia.org/wiki/RGB_color_model) ★
+- [RGBA](https://en.wikipedia.org/wiki/RGBA_color_model)
+- [RYB](https://en.wikipedia.org/wiki/RYB_color_model)
+- [sRGB](https://en.wikipedia.org/wiki/SRGB)
+- [YCbCr](https://en.wikipedia.org/wiki/YCbCr)
+
+## Sistemas numéricos
+
+- [Binário](https://en.wikipedia.org/wiki/Binary_number) ★
+- [Bit](https://en.wikipedia.org/wiki/Bit) ★
+- [Byte](https://en.wikipedia.org/wiki/Byte)
+- [Complemento de dois](https://en.wikipedia.org/wiki/Two's_complement)
+- [Código Gray](https://en.wikipedia.org/wiki/Gray_code)
+- [Decimal](https://en.wikipedia.org/wiki/Decimal)
+- [Decimal codificado em binário (BCD)](https://en.wikipedia.org/wiki/Binary-coded_decimal)
+- [Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) ★
+- [Lógica booleana](https://en.wikipedia.org/wiki/Boolean_algebra)
+- [Nibble](https://en.wikipedia.org/wiki/Nibble)
+- [Octal](https://en.wikipedia.org/wiki/Octal)
+- [Ponto flutuante (IEEE 754)](https://en.wikipedia.org/wiki/IEEE_754)
+- [Prefixos binários (KiB, MiB)](https://en.wikipedia.org/wiki/Binary_prefix)
+
+## Sistemas operacionais
+
+- [AmigaOS](https://en.wikipedia.org/wiki/AmigaOS)
+- [Android](https://www.android.com/) ★
+- [Arch Linux](https://archlinux.org/)
+- [BeOS](https://en.wikipedia.org/wiki/BeOS) 🪦
+- [BlackBerry OS](https://en.wikipedia.org/wiki/BlackBerry_OS) 🪦
+- [CentOS](https://en.wikipedia.org/wiki/CentOS) 🪦
+- [ChromeOS](https://chromeos.google/)
+- [CP/M](https://en.wikipedia.org/wiki/CP/M) 🪦
+- [Debian](https://www.debian.org/)
+- [Fedora](https://fedoraproject.org/)
+- [Firefox OS](https://en.wikipedia.org/wiki/Firefox_OS) 🪦
+- [FreeBSD](https://www.freebsd.org/)
+- [FreeDOS](https://www.freedos.org/)
+- [Haiku](https://www.haiku-os.org/)
+- [HarmonyOS](https://www.harmonyos.com/)
+- [iOS](https://www.apple.com/ios/) ★
+- [iPadOS](https://www.apple.com/ipados/)
+- [Kali Linux](https://www.kali.org/)
+- [Linux](https://www.kernel.org/) ★
+- [Linux Mint](https://linuxmint.com/)
+- [macOS](https://www.apple.com/macos/) ★
+- [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) 🪦
+- [OpenBSD](https://www.openbsd.org/)
+- [OS/2](https://en.wikipedia.org/wiki/OS/2) 🪦
+- [Palm OS](https://en.wikipedia.org/wiki/Palm_OS) 🪦
+- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+- [Solaris](https://www.oracle.com/solaris/)
+- [Symbian](https://en.wikipedia.org/wiki/Symbian) 🪦
+- [Tizen](https://www.tizen.org/)
+- [Ubuntu](https://ubuntu.com/)
+- [Unix](https://en.wikipedia.org/wiki/Unix) ★
+- [webOS](https://en.wikipedia.org/wiki/WebOS)
+- [Windows](https://www.microsoft.com/windows) ★
+- [Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone) 🪦
+
+## Tecnologias web
+
+- [Acessibilidade web (WCAG)](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines)
+- [Adobe Flash](https://en.wikipedia.org/wiki/Adobe_Flash) 🪦
+- [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming))
+- [Blink](https://www.chromium.org/blink/)
+- [Canvas](https://en.wikipedia.org/wiki/Canvas_element)
+- [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
+- [Cookie](https://en.wikipedia.org/wiki/HTTP_cookie)
+- [Design responsivo](https://en.wikipedia.org/wiki/Responsive_web_design) ★
+- [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) ★
+- [Gecko](https://en.wikipedia.org/wiki/Gecko_(software))
+- [Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer) 🪦
+- [Java Applet](https://en.wikipedia.org/wiki/Java_applet) 🪦
+- [Microsoft Silverlight](https://en.wikipedia.org/wiki/Microsoft_Silverlight) 🪦
+- [Motor de navegador](https://en.wikipedia.org/wiki/Browser_engine)
+- [PWA (aplicativo web progressivo)](https://en.wikipedia.org/wiki/Progressive_web_app)
+- [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)
+- [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+- [SPA (aplicação de página única)](https://en.wikipedia.org/wiki/Single-page_application)
+- [Trident](https://en.wikipedia.org/wiki/Trident_(software)) 🪦
+- [URL](https://en.wikipedia.org/wiki/URL)
+- [Web Components](https://en.wikipedia.org/wiki/Web_Components)
+- [WebGL](https://en.wikipedia.org/wiki/WebGL)
+- [WebGPU](https://en.wikipedia.org/wiki/WebGPU)
+- [WebKit](https://webkit.org/)
+- [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) ★
+
+## Tipos de linguagem computacional
+
+- [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
+- [Código-fonte](https://en.wikipedia.org/wiki/Source_code)
+- [Código-objeto](https://en.wikipedia.org/wiki/Object_code)
+- [Linguagem compilada](https://en.wikipedia.org/wiki/Compiled_language)
+- [Linguagem de alto nível](https://en.wikipedia.org/wiki/High-level_programming_language) ★
+- [Linguagem de baixo nível](https://en.wikipedia.org/wiki/Low-level_programming_language)
+- [Linguagem de consulta](https://en.wikipedia.org/wiki/Query_language)
+- [Linguagem de domínio específico](https://en.wikipedia.org/wiki/Domain-specific_language)
+- [Linguagem de marcação](https://en.wikipedia.org/wiki/Markup_language)
+- [Linguagem de montagem (Assembly)](https://en.wikipedia.org/wiki/Assembly_language) ★
+- [Linguagem de máquina](https://en.wikipedia.org/wiki/Machine_code) ★
+- [Linguagem de primeira geração](https://en.wikipedia.org/wiki/First-generation_programming_language)
+- [Linguagem de programação visual](https://en.wikipedia.org/wiki/Visual_programming_language)
+- [Linguagem de propósito geral](https://en.wikipedia.org/wiki/General-purpose_programming_language)
+- [Linguagem de quarta geração](https://en.wikipedia.org/wiki/Fourth-generation_programming_language)
+- [Linguagem de quinta geração](https://en.wikipedia.org/wiki/Fifth-generation_programming_language)
+- [Linguagem de script](https://en.wikipedia.org/wiki/Scripting_language)
+- [Linguagem de segunda geração](https://en.wikipedia.org/wiki/Second-generation_programming_language)
+- [Linguagem de terceira geração](https://en.wikipedia.org/wiki/Third-generation_programming_language)
+- [Linguagem esotérica](https://en.wikipedia.org/wiki/Esoteric_programming_language)
+- [Linguagem interpretada](https://en.wikipedia.org/wiki/Interpreted_language)
+- [Pseudocódigo](https://en.wikipedia.org/wiki/Pseudocode)
+- [Representação intermediária](https://en.wikipedia.org/wiki/Intermediate_representation)
+- [Tipagem dinâmica](https://en.wikipedia.org/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information)
+- [Tipagem estática](https://en.wikipedia.org/wiki/Type_system#Static_type_checking)
+
+## IA para programação
+
+- [Devin](https://devin.ai/) ★
+- [Claude Code](https://claude.com/product/claude-code) ★
+- [GitHub Copilot](https://github.com/features/copilot) ★
+- [OpenAI Codex](https://openai.com/codex/) ★
+- [Base44](https://base44.com/)
+- [Bolt](https://bolt.new/)
+- [Cerebras](https://cerebras.ai/)
+- [Cline](https://cline.bot/)
+- [Durable](https://durable.com/)
+- [Firebase Studio](https://firebase.studio/)
+- [Framer](https://framer.com/)
+- [Google AI Code Generation](https://cloud.google.com/use-cases/ai-code-generation)
+- [HeroUI](https://heroui.chat/)
+- [Graphite](https://graphite.com/)
+- [Jules](https://jules.google.com/)
+- [Kiro](https://kiro.dev/)
+- [Lovable](https://lovable.dev/) ★
+- [Magic Patterns](https://magicpatterns.com/)
+- [Mendable](https://mendable.ai/)
+- [New Relic](https://newrelic.com/)
+- [Q Developer](https://aws.amazon.com/q/developer/)
+- [Rork](https://rork.com/)
+- [Screenshot to Code](https://screenshottocode.com/)
+- [Stitch](https://stitch.withgoogle.com/)
+- [Tiptap](https://tiptap.dev/)
+- [UIBrainX](https://softlite.io/uibrainx/)
+- [Unicorn Platform](https://unicornplatform.com/)
+- [Wegic](https://wegic.ai/)
+- [v0](https://v0.app/)
+- [Gemini Code Assist](https://codeassist.google/)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+- [Google Antigravity](https://antigravity.google/)
+- [JetBrains AI](https://www.jetbrains.com/ai/)
+- [Aider](https://aider.chat/)
+- [Amp](https://ampcode.com/)
+- [OpenHands](https://www.openhands.dev/)
+- [Continue](https://www.continue.dev/)
+- [Qodo](https://www.qodo.ai/)
+- [CodeRabbit](https://www.coderabbit.ai/)
+- [Cursor](https://cursor.com/) ★
+- [Windsurf](https://windsurf.com/) ★
+- [WebMCP](https://webmcp.com/)

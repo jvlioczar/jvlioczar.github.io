@@ -1,0 +1,455 @@
+# A Biblioteca Antigolpe
+
+> Catálogo pesquisável para evitar golpes, fraudes e scams: tipos de golpe, apostas e jogos de azar, ferramentas para verificar sites, perfis e investimentos, onde denunciar, guias oficiais, proteção digital, livros, documentários e quem desmascara golpes.
+
+Biblioteca temática da BiblioVerse (The Anti-Scam Library), com curadoria humana. Página: https://biblioverse.org/antiscam/ · 334 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Tipos de golpe
+
+- [Golpe (conto do vigário)](https://en.wikipedia.org/wiki/Confidence_trick) ★
+- [Phishing](https://en.wikipedia.org/wiki/Phishing) ★
+- [Smishing (golpe por SMS)](https://en.wikipedia.org/wiki/SMS_phishing)
+- [Vishing (golpe por ligação)](https://en.wikipedia.org/wiki/Voice_phishing)
+- [Spear phishing](https://en.wikipedia.org/wiki/Spear_phishing)
+- [Golpe do amor (romance scam)](https://en.wikipedia.org/wiki/Romance_scam) ★
+- [Pig butchering](https://en.wikipedia.org/wiki/Pig_butchering_scam)
+- [Catfishing](https://en.wikipedia.org/wiki/Catfishing)
+- [Sextorsão](https://en.wikipedia.org/wiki/Sextortion)
+- [Golpe do falso suporte técnico](https://en.wikipedia.org/wiki/Technical_support_scam)
+- [Golpe do adiantamento (419)](https://en.wikipedia.org/wiki/Advance-fee_scam)
+- [Golpe do falso emprego](https://en.wikipedia.org/wiki/Employment_scam)
+- [Golpe do falso sequestro](https://en.wikipedia.org/wiki/Virtual_kidnapping)
+- [Golpe da loteria](https://en.wikipedia.org/wiki/Lottery_scam)
+- [Falsa caridade](https://en.wikipedia.org/wiki/Charity_fraud)
+- [Fraude de cartão de crédito](https://en.wikipedia.org/wiki/Credit_card_fraud)
+- [Troca de SIM (SIM swap)](https://en.wikipedia.org/wiki/SIM_swap_scam)
+- [Roubo de identidade](https://en.wikipedia.org/wiki/Identity_theft) ★
+- [Deepfake](https://en.wikipedia.org/wiki/Deepfake)
+- [Clonagem de voz (deepfake de áudio)](https://en.wikipedia.org/wiki/Audio_deepfake)
+- [Ransomware](https://en.wikipedia.org/wiki/Ransomware)
+- [Scareware](https://en.wikipedia.org/wiki/Scareware)
+- [Golpe de entrega fantasma (brushing)](https://en.wikipedia.org/wiki/Brushing_(e-commerce))
+- [Golpe do pagamento em excesso](https://en.wikipedia.org/wiki/Overpayment_scam)
+- [Fraude de seguro](https://en.wikipedia.org/wiki/Insurance_fraud)
+- [Falso antivírus (rogue security software)](https://en.wikipedia.org/wiki/Rogue_security_software)
+- [Lista de golpes (Wikipédia)](https://en.wikipedia.org/wiki/List_of_scams) ★
+
+### Golpes financeiros e de investimento
+
+- [Pirâmide financeira](https://en.wikipedia.org/wiki/Pyramid_scheme) ★
+- [Esquema Ponzi](https://en.wikipedia.org/wiki/Ponzi_scheme) ★
+- [Marketing multinível](https://en.wikipedia.org/wiki/Multi-level_marketing)
+- [Pump and dump](https://en.wikipedia.org/wiki/Pump_and_dump)
+- [Rug pull (golpe de saída)](https://en.wikipedia.org/wiki/Exit_scam)
+- [Golpes com criptomoedas](https://en.wikipedia.org/wiki/Cryptocurrency_and_crime)
+- [Fraude de investimento](https://en.wikipedia.org/wiki/Securities_fraud)
+
+### Técnicas dos golpistas
+
+- [Engenharia social](https://en.wikipedia.org/wiki/Social_engineering_(security)) ★
+- [Pretexting](https://en.wikipedia.org/wiki/Pretexting)
+- [Falsificação de identificador de chamada](https://en.wikipedia.org/wiki/Caller_ID_spoofing)
+- [Falsificação de e-mail (spoofing)](https://en.wikipedia.org/wiki/Email_spoofing)
+- [Typosquatting](https://en.wikipedia.org/wiki/Typosquatting)
+- [Ataque homográfico](https://en.wikipedia.org/wiki/IDN_homograph_attack)
+- [Pharming](https://en.wikipedia.org/wiki/Pharming)
+- [Conta laranja (money mule)](https://en.wikipedia.org/wiki/Money_mule)
+
+### Proteção e prevenção
+
+- [Autenticação multifator](https://en.wikipedia.org/wiki/Multi-factor_authentication) ★
+- [Gerenciador de senhas](https://en.wikipedia.org/wiki/Password_manager)
+- [Força de senha](https://en.wikipedia.org/wiki/Password_strength)
+- [Antivírus](https://en.wikipedia.org/wiki/Antivirus_software)
+- [Chargeback (contestação)](https://en.wikipedia.org/wiki/Chargeback)
+- [Congelamento de crédito](https://en.wikipedia.org/wiki/Credit_freeze)
+- [Conheça seu cliente (KYC)](https://en.wikipedia.org/wiki/Know_your_customer)
+- [Pagamento com garantia (escrow)](https://en.wikipedia.org/wiki/Escrow)
+
+### Golpes famosos
+
+- [Esquema de Bernie Madoff](https://en.wikipedia.org/wiki/Madoff_investment_scandal) ★
+- [Charles Ponzi](https://en.wikipedia.org/wiki/Charles_Ponzi) 🪦
+- [Colapso da FTX](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX)
+- [OneCoin](https://en.wikipedia.org/wiki/OneCoin)
+- [Theranos](https://en.wikipedia.org/wiki/Theranos)
+- [Escândalo da Enron](https://en.wikipedia.org/wiki/Enron_scandal)
+- [Escândalo da Wirecard](https://en.wikipedia.org/wiki/Wirecard_scandal)
+- [Fyre Festival](https://en.wikipedia.org/wiki/Fyre_Festival)
+- [Victor Lustig (vendeu a Torre Eiffel)](https://en.wikipedia.org/wiki/Victor_Lustig) 🪦
+- [Frank Abagnale](https://en.wikipedia.org/wiki/Frank_Abagnale)
+- [Anna Sorokin](https://en.wikipedia.org/wiki/Anna_Sorokin)
+- [Simon Leviev (O Golpista do Tinder)](https://en.wikipedia.org/wiki/Simon_Leviev)
+- [TelexFree](https://pt.wikipedia.org/wiki/TelexFree)
+- [Avestruz Master](https://pt.wikipedia.org/wiki/Avestruz_Master)
+- [Jordan Belfort e a Stratton Oakmont (O Lobo de Wall Street)](https://en.wikipedia.org/wiki/Stratton_Oakmont) ★
+- [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried)
+- [Elizabeth Holmes](https://en.wikipedia.org/wiki/Elizabeth_Holmes)
+- [Ruja Ignatova (a Rainha das Criptomoedas)](https://en.wikipedia.org/wiki/Ruja_Ignatova)
+- [Terra e Luna (Do Kwon)](https://en.wikipedia.org/wiki/Terra_(blockchain))
+- [Celsius Network](https://en.wikipedia.org/wiki/Celsius_Network)
+- [Mt. Gox](https://en.wikipedia.org/wiki/Mt._Gox)
+- [Bitconnect](https://en.wikipedia.org/wiki/Bitconnect)
+- [Stanford Financial Group (Allen Stanford)](https://en.wikipedia.org/wiki/Stanford_Financial_Group)
+- [Lou Pearlman](https://en.wikipedia.org/wiki/Lou_Pearlman) 🪦
+- [Bre-X](https://en.wikipedia.org/wiki/Bre-X)
+- [Nick Leeson e a quebra do Barings](https://en.wikipedia.org/wiki/Nick_Leeson)
+- [Jérôme Kerviel](https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Kerviel)
+- [Escândalo das emissões da Volkswagen](https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal)
+- [Contas falsas do Wells Fargo](https://en.wikipedia.org/wiki/Wells_Fargo_cross-selling_scandal)
+- [Gregor MacGregor e o país inventado de Poyais](https://en.wikipedia.org/wiki/Gregor_MacGregor) 🪦
+- [Bolha dos Mares do Sul](https://en.wikipedia.org/wiki/South_Sea_Company)
+- [Sheik dos Bitcoins (Francisley Valdevino da Silva)](https://www1.folha.uol.com.br/mercado/2022/11/sheik-dos-bitcoins-e-preso-pela-pf-por-suspeita-de-continuar-operando.shtml)
+- [Golpe da WLJC (Willian Bigode, Scarpa e Mayke)](https://bpmoney.com.br/negocios/scarpa-e-mayke-acusam-willian-bigode-de-golpe/)
+
+### Golpes comuns no Brasil
+
+- [Golpe da falsa central (falso gerente de banco)](https://blog.pagbank.com.br/golpe-da-falsa-central) ★
+- [Golpe do falso advogado](https://www.serasa.com.br/premium/blog/golpe-do-falso-advogado-como-se-proteger-dessa-fraude/) ★
+- [Golpe da falsa dívida (falsa renegociação / Limpa Nome)](https://www.serasa.com.br/premium/blog/golpe-limpa-nome/)
+- [Golpe da maquininha (visor quebrado ou adulterada)](https://www.serasa.com.br/premium/blog/golpe-da-maquininha-saiba-como-funciona-e-proteja-se/) ★
+- [Golpe do presente de aniversário (falsa entrega com taxa)](https://blog.pagbank.com.br/golpe-do-presente)
+- [Golpe do bolo de aniversário](https://www.serasa.com.br/premium/blog/golpe-do-bolo-aniversario/)
+- [Golpe do WhatsApp (novo número, falso parente e clonagem)](https://www.serasa.com.br/premium/blog/golpes-de-whatsapp-saiba-e-previna-se/) ★
+- [Golpes do Pix (tipos mais comuns)](https://www.serasa.com.br/premium/blog/golpe-do-pix-conheca-os-tipos/) ★
+- [Golpe do Pix errado (falsa devolução)](https://meutudo.com.br/blog/golpe-do-pix-errado/)
+- [Golpe do Pix multiplicador](https://www.serasa.com.br/premium/blog/golpe-pix-multiplicador/)
+- [Golpe do falso comprador (comprovante de Pix falso)](https://olhardigital.com.br/2026/02/26/seguranca/golpe-do-falso-comprador-o-que-e-o-esquema-que-fez-viih-tube-perder-quase-r-7-mil/)
+- [Golpe da mão fantasma (acesso remoto ao celular)](https://blog.nubank.com.br/golpe-mao-fantasma-acesso-remoto/)
+- [Golpe do falso motoboy (recolhimento do cartão)](https://blog.nubank.com.br/golpe-motoboy/)
+- [Golpe da troca de cartão](https://www.promobit.com.br/blog/golpe-da-troca-de-cartao-saiba-como-acontece-e-como-se-proteger/)
+- [Golpe do boleto falso](https://blog.nubank.com.br/como-saber-se-um-boleto-e-falso/)
+- [Golpe do falso empréstimo (depósito antecipado)](https://www.serasa.com.br/credito/blog/golpe-do-emprestimo-tipos-mais-comuns-e-como-se-prevenir/)
+- [Golpe do bilhete premiado](https://www.serasa.com.br/premium/blog/saiba-como-identificar-o-golpe-do-bilhete-premiado/)
+- [Golpe do falso leilão](https://www.serasa.com.br/premium/blog/golpe-leilao-falso-como-identificar-para-nao-cair/)
+- [Golpe do falso aluguel](https://www.sindiconet.com.br/informese/como-funciona-o-golpe-do-aluguel-noticias-mercado)
+- [Golpe da loja falsa (site ou perfil falso)](https://www.serasa.com.br/imprensa/golpistas-nao-poupam-nem-instagram-para-praticar-fraudes/)
+- [Black Fraude (falsas promoções)](https://www.serasa.com.br/premium/blog/black-fraude-conheca-os-golpes-mais-comuns/)
+- [Golpe dos Correios (falsa taxa de entrega ou alfândega)](https://www.serasa.com.br/premium/blog/golpe-da-entrega-falsa/)
+- [Golpe da CNH suspensa / falsa multa (Detran)](https://www.serasa.com.br/blog/golpe-suspensao-cnh/)
+- [Golpe do INSS (falsa revisão de benefício e prova de vida)](https://diariodonordeste.verdesmares.com.br/negocios/veja-golpes-mais-comuns-contra-aposentados-e-pensionistas-do-inss-1.3147104)
+- [Golpe do FGTS (falso saque)](https://www.serasa.com.br/imprensa/serasa-faz-alerta-contra-o-golpe-do-fgts/)
+- [Golpe dos valores a receber (Banco Central)](https://www.bcb.gov.br/meubc/valores-a-receber)
+- [Golpe da antena falsa (SMS em massa)](https://www.serasa.com.br/blog/golpe-da-atena-falsa-como-se-proteger/)
+- [Glossário de fraudes bancárias digitais (Ministério da Justiça)](https://www.gov.br/mj/pt-br/assuntos/alianca-nacional-de-combate-a-fraudes-bancarias-digitais/glossario_final_iniciativa_1-8_v10.pdf) ★
+
+## Apostas e jogos de azar
+
+### Conceitos de apostas
+
+- [Jogo de azar](https://en.wikipedia.org/wiki/Gambling) ★
+- [Cassino online](https://en.wikipedia.org/wiki/Online_gambling) ★
+- [Apostas esportivas (bets)](https://en.wikipedia.org/wiki/Sports_betting) ★
+- [Casa de apostas](https://en.wikipedia.org/wiki/Bookmaker)
+- [Loteria](https://en.wikipedia.org/wiki/Lottery)
+- [Opções binárias](https://en.wikipedia.org/wiki/Binary_option) ★
+- [Fortune Tiger (jogo do tigrinho)](https://pt.wikipedia.org/wiki/Fortune_Tiger) ★
+- [Loot box (caixa de recompensa)](https://en.wikipedia.org/wiki/Loot_box)
+- [Manipulação de resultados](https://en.wikipedia.org/wiki/Match_fixing)
+- [Vantagem da casa](https://en.wikipedia.org/wiki/Casino_game)
+- [Falácia do apostador](https://en.wikipedia.org/wiki/Gambler%27s_fallacy)
+- [Valor esperado](https://en.wikipedia.org/wiki/Expected_value)
+- [Jogo patológico (vício em apostas)](https://en.wikipedia.org/wiki/Problem_gambling) ★
+- [Polymarket (mercado de previsões)](https://en.wikipedia.org/wiki/Polymarket)
+
+### Regulação e sites autorizados
+
+- [Lei das Bets](https://pt.wikipedia.org/wiki/Lei_das_Bets) ★
+- [Secretaria de Prêmios e Apostas (bets autorizadas)](https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas) ★
+- [Loterias Caixa](https://loterias.caixa.gov.br/)
+- [UK Gambling Commission](https://www.gamblingcommission.gov.uk/)
+
+### Ajuda e bloqueio de apostas
+
+- [Gamblers Anonymous](https://www.gamblersanonymous.org/) ★
+- [Jogadores Anônimos](https://pt.wikipedia.org/wiki/Jogadores_An%C3%B4nimos)
+- [GambleAware](https://www.gambleaware.org/)
+- [GamCare](https://www.gamcare.org.uk/)
+- [Gambling Therapy](https://www.gamblingtherapy.org/)
+- [Gamban](https://gamban.com/) ★
+- [BetBlocker](https://betblocker.org/)
+
+## Verificar antes de confiar
+
+### Sites, links e lojas
+
+- [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search) ★
+- [VirusTotal](https://www.virustotal.com/) ★
+- [Scamadviser](https://www.scamadviser.com/) ★
+- [urlscan.io](https://urlscan.io/)
+- [URLVoid](https://www.urlvoid.com/)
+- [Norton Safe Web](https://safeweb.norton.com/)
+- [ICANN Lookup (dono do domínio)](https://lookup.icann.org/)
+- [Registro.br (WHOIS)](https://registro.br/tecnologia/ferramentas/whois/)
+- [Wayback Machine](https://web.archive.org/)
+- [Get Safe Online — Check a Website](https://www.getsafeonline.org/checkawebsite/)
+- [Scam Detector](https://www.scam-detector.com/)
+- [Bitdefender Scamio](https://www.bitdefender.com/en-us/consumer/scamio)
+
+### Reputação de empresas
+
+- [Reclame Aqui](https://www.reclameaqui.com.br/) ★
+- [Consumidor.gov.br](https://www.consumidor.gov.br/) ★
+- [Trustpilot](https://www.trustpilot.com/)
+- [Better Business Bureau](https://www.bbb.org/)
+- [OpenCorporates](https://opencorporates.com/)
+- [Companies House (Reino Unido)](https://find-and-update.company-information.service.gov.uk/)
+- [SEC EDGAR (EUA)](https://www.sec.gov/edgar/search/)
+- [VIES — validar empresa na União Europeia](https://ec.europa.eu/taxation_customs/vies/)
+
+### E-mails, telefones e vazamentos
+
+- [Have I Been Pwned](https://haveibeenpwned.com/) ★
+- [Mozilla Monitor](https://monitor.mozilla.org/)
+- [Truecaller](https://www.truecaller.com/) ★
+- [Hiya](https://www.hiya.com/)
+- [MxToolbox (analisar cabeçalho de e-mail)](https://mxtoolbox.com/EmailHeaders.aspx)
+
+### Imagens, perfis e deepfakes
+
+- [TinEye](https://tineye.com/) ★
+- [Google Lens](https://search.google/ways-to-search/lens/) ★
+- [Yandex Imagens](https://yandex.com/images/)
+- [Social Catfish](https://socialcatfish.com/)
+- [Forensically](https://29a.ch/photo-forensics/)
+- [InVID-WeVerify](https://www.invid-project.eu/)
+
+### Investimentos e instituições financeiras
+
+- [CVM](https://www.gov.br/cvm/pt-br) ★
+- [Banco Central — Encontre uma instituição](https://www.bcb.gov.br/estabilidadefinanceira/encontreinstituicao) ★
+- [Investor.gov (SEC)](https://www.investor.gov/)
+- [FINRA BrokerCheck](https://brokercheck.finra.org/)
+- [FCA ScamSmart](https://www.fca.org.uk/scamsmart)
+- [FCA Financial Services Register](https://register.fca.org.uk/)
+- [IOSCO I-SCAN](https://www.iosco.org/i-scan/)
+
+### Cripto
+
+- [Chainabuse](https://www.chainabuse.com/) ★
+- [Revoke.cash](https://revoke.cash/)
+- [Scam Sniffer](https://www.scamsniffer.io/)
+- [Web3 Is Going Just Great](https://www.web3isgoinggreat.com/)
+
+### Checagem de fatos e boatos
+
+- [Snopes](https://www.snopes.com/) ★
+- [FactCheck.org](https://www.factcheck.org/)
+- [PolitiFact](https://www.politifact.com/)
+- [Full Fact](https://fullfact.org/)
+- [Google Fact Check Explorer](https://toolbox.google.com/factcheck/explorer)
+- [Aos Fatos](https://www.aosfatos.org/) ★
+- [Agência Lupa](https://www.agencialupa.org/)
+- [Boatos.org](https://www.boatos.org/)
+- [E-farsas](https://www.e-farsas.com/)
+- [Projeto Comprova](https://projetocomprova.com.br/)
+- [AFP Fact Check](https://factcheck.afp.com/) ★
+- [Reuters Fact Check](https://www.reuters.com/fact-check/)
+- [Maldita.es (Espanha)](https://maldita.es/)
+- [Chequeado (Argentina)](https://chequeado.com/)
+- [Correctiv (Alemanha)](https://correctiv.org/faktencheck/)
+- [Africa Check](https://africacheck.org/)
+- [BOOM (Índia)](https://www.boomlive.in/)
+- [Roundcheck (Nigéria)](https://roundcheck.com.ng/)
+- [FactCheckHub (Nigéria)](https://factcheckhub.com/)
+- [ABC News Fact Check (Austrália)](https://www.abc.net.au/news/factcheck)
+- [AAP FactCheck (Austrália)](https://www.aap.com.au/factcheck/)
+- [Annie Lab (Hong Kong)](https://annielab.org/)
+- [China Fact Check / 有据 (China)](https://chinafactcheck.com/)
+- [Factcheck Lab (Hong Kong)](https://www.factchecklab.org/)
+
+## Denunciar golpes
+
+### Brasil
+
+- [SaferNet — Denuncie](https://new.safernet.org.br/denuncie) ★
+- [Registrato (Banco Central)](https://www.bcb.gov.br/cidadaniafinanceira/registrato) ★
+- [Reclamação ao Banco Central](https://www.bcb.gov.br/meubc/registrar_reclamacao)
+- [CERT.br (incidentes de segurança)](https://www.cert.br/)
+- [Consumidor.gov.br](https://www.consumidor.gov.br/)
+
+### Internacional
+
+- [FBI IC3](https://www.ic3.gov/) ★
+- [FTC ReportFraud](https://reportfraud.ftc.gov/) ★
+- [Action Fraud (Reino Unido)](https://www.actionfraud.police.uk/)
+- [Scamwatch (Austrália)](https://www.scamwatch.gov.au/) ★
+- [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/)
+- [econsumer.gov](https://www.econsumer.gov/)
+- [Europol — Denuncie um crime](https://www.europol.europa.eu/report-a-crime)
+- [Interpol](https://www.interpol.int/)
+- [NCSC — Denunciar phishing (Reino Unido)](https://www.ncsc.gov.uk/collection/phishing-scams)
+- [Cybermalveillance.gouv.fr (França)](https://www.cybermalveillance.gouv.fr/)
+- [Pharos (França)](https://www.internet-signalement.gouv.fr/)
+- [INCIBE — Linha 017 (Espanha)](https://www.incibe.es/linea-de-ayuda-en-ciberseguridad)
+- [National Cyber Crime Reporting Portal (Índia)](https://cybercrime.gov.in/)
+- [ScamShield (Singapura)](https://www.scamshield.gov.sg/)
+- [Netsafe (Nova Zelândia)](https://netsafe.org.nz/)
+
+### Denunciar phishing
+
+- [Google — Denunciar phishing](https://safebrowsing.google.com/safebrowsing/report_phish/) ★
+- [Microsoft — Denunciar golpe](https://reportfraud.microsoft.com/)
+- [APWG — Report Phishing](https://apwg.org/reportphishing/)
+
+## Aprender a se proteger
+
+### Guias oficiais
+
+- [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br/) ★
+- [Internet Segura](https://internetsegura.br/)
+- [SaferNet Brasil](https://new.safernet.org.br/)
+- [FTC — Consumer Advice](https://consumer.ftc.gov/) ★
+- [Scamwatch — Tipos de golpe](https://www.scamwatch.gov.au/types-of-scams)
+- [Get Safe Online](https://www.getsafeonline.org/)
+- [Which? (golpes)](https://www.which.co.uk/consumer-rights/scams)
+- [AARP Fraud Watch Network](https://www.aarp.org/money/scams-fraud/)
+- [Google Safety Center](https://safety.google/)
+- [Stop. Think. Connect.](https://www.stopthinkconnect.org/)
+- [Global Anti-Scam Alliance (GASA)](https://www.gasa.org/)
+- [NCSC (Reino Unido)](https://www.ncsc.gov.uk/)
+- [CISA (EUA)](https://www.cisa.gov/)
+- [ENISA (União Europeia)](https://www.enisa.europa.eu/)
+- [Australian Cyber Security Centre](https://www.cyber.gov.au/)
+- [Consumer Financial Protection Bureau (EUA)](https://www.consumerfinance.gov/)
+- [Take Five to Stop Fraud (Reino Unido)](https://www.takefive-stopfraud.org.uk/)
+- [Stop Scams UK](https://stopscamsuk.org.uk/)
+
+### Organizações antifraude
+
+- [ACFE (Association of Certified Fraud Examiners)](https://www.acfe.com/) ★
+- [Cifas (Reino Unido)](https://www.cifas.org.uk/)
+- [ICPEN (rede internacional de proteção ao consumidor)](https://www.icpen.org/)
+- [Anti-Phishing Working Group (APWG)](https://apwg.org/)
+
+### Testes e treinos
+
+- [Google Phishing Quiz](https://phishingquiz.withgoogle.com/) ★
+
+### Comunidades
+
+- [r/Scams](https://www.reddit.com/r/Scams/) ★
+- [r/phishing](https://www.reddit.com/r/phishing/)
+
+### Blogs e notícias de segurança
+
+- [KrebsOnSecurity](https://krebsonsecurity.com/) ★
+- [Schneier on Security](https://www.schneier.com/)
+- [BleepingComputer](https://www.bleepingcomputer.com/)
+- [Troy Hunt](https://www.troyhunt.com/)
+
+## Proteção digital
+
+### Senhas e autenticação
+
+- [Bitwarden](https://bitwarden.com/) ★
+- [1Password](https://1password.com/)
+- [Proton Pass](https://proton.me/pass)
+- [Ente Auth](https://ente.com/auth/)
+- [Aegis Authenticator](https://getaegis.app/)
+- [YubiKey](https://www.yubico.com/)
+- [2FA Directory](https://2fa.directory/)
+
+### Navegação e bloqueio
+
+- [Malwarebytes](https://www.malwarebytes.com/) ★
+- [uBlock Origin](https://ublockorigin.com/) ★
+- [Bitdefender](https://www.bitdefender.com/)
+- [NextDNS](https://nextdns.io/)
+- [Quad9](https://www.quad9.net/)
+- [Cloudflare 1.1.1.1 for Families](https://one.one.one.one/family/)
+
+### Bloqueio de ligações e spam
+
+- [Não Me Perturbe](https://www.naomeperturbe.com.br/) ★
+- [National Do Not Call Registry (EUA)](https://www.donotcall.gov/)
+- [Telephone Preference Service (Reino Unido)](https://www.tpsonline.org.uk/)
+- [Nomorobo](https://www.nomorobo.com/)
+- [RoboKiller](https://www.robokiller.com/)
+
+### Dados pessoais e crédito
+
+- [Serasa](https://www.serasa.com.br/) ★
+- [ANPD (proteção de dados)](https://www.gov.br/anpd/)
+- [IdentityTheft.gov (EUA)](https://www.identitytheft.gov/) ★
+- [Experian](https://www.experian.com/)
+- [Equifax](https://www.equifax.com/)
+- [TransUnion](https://www.transunion.com/)
+
+## Livros e filmes
+
+### Livros
+
+- [Robert Cialdini - As Armas da Persuasão](https://www.goodreads.com/search?q=Robert+Cialdini+Influence) ★
+- [Kevin Mitnick - A Arte de Enganar](https://www.goodreads.com/search?q=Kevin+Mitnick+The+Art+of+Deception) ★
+- [Maria Konnikova - The Confidence Game](https://www.goodreads.com/search?q=Maria+Konnikova+The+Confidence+Game) ★
+- [Frank Abagnale - Prenda-me Se For Capaz](https://www.goodreads.com/search?q=Frank+Abagnale+Catch+Me+If+You+Can)
+- [John Carreyrou - Bad Blood](https://www.goodreads.com/search?q=John+Carreyrou+Bad+Blood)
+- [Bethany McLean - The Smartest Guys in the Room](https://www.goodreads.com/search?q=Bethany+McLean+The+Smartest+Guys+in+the+Room)
+- [Zeke Faux - Number Go Up](https://www.goodreads.com/search?q=Zeke+Faux+Number+Go+Up)
+- [Dan Davies - Lying for Money](https://www.goodreads.com/search?q=Dan+Davies+Lying+for+Money)
+- [Brian Krebs - Spam Nation](https://www.goodreads.com/search?q=Brian+Krebs+Spam+Nation)
+- [Jordan Belfort - O Lobo de Wall Street](https://www.goodreads.com/search?q=Jordan+Belfort+The+Wolf+of+Wall+Street) ★
+- [Diana B. Henriques - The Wizard of Lies](https://www.goodreads.com/search?q=Diana+Henriques+The+Wizard+of+Lies)
+- [Harry Markopolos - No One Would Listen](https://www.goodreads.com/search?q=Harry+Markopolos+No+One+Would+Listen)
+- [Michael Lewis - Going Infinite](https://en.wikipedia.org/wiki/Going_Infinite)
+- [David W. Maurer - The Big Con](https://www.goodreads.com/search?q=David+Maurer+The+Big+Con)
+
+### Filmes e documentários
+
+- [O Golpista do Tinder](https://en.wikipedia.org/wiki/The_Tinder_Swindler) ★
+- [Fyre: The Greatest Party That Never Happened](https://en.wikipedia.org/wiki/Fyre_(film))
+- [Inventing Anna](https://en.wikipedia.org/wiki/Inventing_Anna)
+- [The Inventor: Out for Blood in Silicon Valley](https://en.wikipedia.org/wiki/The_Inventor:_Out_for_Blood_in_Silicon_Valley)
+- [Bad Vegan](https://en.wikipedia.org/wiki/Bad_Vegan)
+- [Prenda-me Se For Capaz](https://en.wikipedia.org/wiki/Catch_Me_If_You_Can)
+- [O Mago das Mentiras](https://en.wikipedia.org/wiki/The_Wizard_of_Lies)
+- [O Lobo de Wall Street](https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)) ★
+- [Golpe de Mestre (The Sting)](https://en.wikipedia.org/wiki/The_Sting)
+- [Nove Rainhas](https://en.wikipedia.org/wiki/Nine_Queens)
+- [Os Vigaristas (Matchstick Men)](https://en.wikipedia.org/wiki/Matchstick_Men)
+- [O Primeiro Milhão (Boiler Room)](https://en.wikipedia.org/wiki/Boiler_Room_(film))
+- [A Grande Aposta](https://en.wikipedia.org/wiki/The_Big_Short_(film))
+- [Enron: Os Mais Espertos da Sala](https://en.wikipedia.org/wiki/Enron:_The_Smartest_Guys_in_the_Room)
+- [Madoff: O Monstro de Wall Street](https://en.wikipedia.org/wiki/Madoff:_The_Monster_of_Wall_Street)
+- [The Dropout](https://en.wikipedia.org/wiki/The_Dropout)
+- [Trust No One: The Hunt for the Crypto King](https://en.wikipedia.org/wiki/Trust_No_One:_The_Hunt_for_the_Crypto_King)
+- [Dinheiro Sujo (Dirty Money)](https://en.wikipedia.org/wiki/Dirty_Money_(2018_TV_series))
+- [American Greed](https://en.wikipedia.org/wiki/American_Greed)
+
+## Pessoas
+
+### Caçadores de golpes
+
+- [Wesley Teixeira](https://www.instagram.com/wesleystx) ★
+- [Cabelo](https://www.instagram.com/thecabelo) ★
+- [Coffeezilla](https://www.youtube.com/@Coffeezilla) ★
+- [Jim Browning](https://www.youtube.com/@JimBrowning)
+- [Kitboga](https://www.youtube.com/results?search_query=Kitboga)
+- [Scammer Payback](https://www.youtube.com/@ScammerPayback)
+- [Mark Rober](https://www.youtube.com/@MarkRober)
+- [Folding Ideas (Dan Olson)](https://www.youtube.com/@FoldingIdeas)
+- [Molly White](https://www.mollywhite.net/)
+- [James Veitch](https://en.wikipedia.org/wiki/James_Veitch_(comedian))
+- [Guga Fígueiredo](https://www.instagram.com/gugafigu)
+- [Rogério Betin](https://www.instagram.com/rogeriobetin/)
+
+### Jornalistas e denunciantes
+
+- [Harry Markopolos](https://en.wikipedia.org/wiki/Harry_Markopolos) ★
+- [John Carreyrou](https://en.wikipedia.org/wiki/John_Carreyrou)
+- [Tyler Shultz](https://en.wikipedia.org/wiki/Tyler_Shultz)
+- [Carson Block](https://en.wikipedia.org/wiki/Carson_Block)
+- [Hindenburg Research](https://en.wikipedia.org/wiki/Hindenburg_Research) 🪦
+- [Brian Krebs](https://en.wikipedia.org/wiki/Brian_Krebs)
+- [Troy Hunt](https://en.wikipedia.org/wiki/Troy_Hunt)
+
+### Especialistas
+
+- [Kevin Mitnick](https://en.wikipedia.org/wiki/Kevin_Mitnick) ★ 🪦
+- [Bruce Schneier](https://en.wikipedia.org/wiki/Bruce_Schneier)
+- [Robert Cialdini](https://en.wikipedia.org/wiki/Robert_Cialdini)
+- [Maria Konnikova](https://en.wikipedia.org/wiki/Maria_Konnikova)

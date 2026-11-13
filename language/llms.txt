@@ -1,0 +1,350 @@
+# A Biblioteca de Aprendizado de Idiomas
+
+> Catálogo pesquisável dos melhores recursos para aprender idiomas por categoria. Uma biblioteca essencial para estudantes de línguas, professores e curiosos.
+
+Biblioteca temática da BiblioVerse (The Language Learning Library), com curadoria humana. Página: https://biblioverse.org/language/ · 269 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria.
+
+## 📚 Aplicativos de Idiomas
+
+- [Babbel](https://www.babbel.com/)
+- [Beelinguapp](https://beelinguapp.com/)
+- [Busuu](https://www.busuu.com/)
+- [Drops](https://languagedrops.com/)
+- [Duolingo](https://www.duolingo.com/)
+- [Speak](https://speak.com/)
+- [HelloTalk](https://www.hellotalk.com/)
+- [italki](https://www.italki.com/)
+- [LingQ](https://www.lingq.com/)
+- [Speaking](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)
+- [Tandem](https://www.tandem.net/)
+- [Pimsleur](https://www.pimsleur.com/)
+- [Mondly](https://www.mondly.com/)
+- [LingoDeer](https://www.lingodeer.com/)
+- [Rosetta Stone](https://www.rosettastone.com/)
+
+## 🔁 Aprendizado com Repetição Espaçada
+
+- [Anki](https://apps.ankiweb.net/)
+- [Brainscape](https://www.brainscape.com/)
+- [Clozemaster](https://www.clozemaster.com/)
+- [Memrise](https://www.memrise.com/)
+- [Mochi](https://mochi.cards/)
+- [Quizlet](https://quizlet.com/)
+- [RemNote](https://www.remnote.com/)
+- [SuperMemo](https://www.supermemo.com/)
+
+## 🎓 Plataformas de cursos online
+
+- [BBC Languages](https://www.bbc.co.uk/languages/)
+- [Coursera](https://www.coursera.org/browse/language-learning)
+- [edX Language Learning](https://www.edx.org/learn/language)
+- [EF English Live](https://englishlive.ef.com/)
+- [FutureLearn Languages](https://www.futurelearn.com/subjects/languages-courses)
+- [MIT OpenCourseWare](https://ocw.mit.edu/courses/find-by-topic/#cat=globalStudies&subcat=languages)
+- [Open Culture Language Courses](https://www.openculture.com/freelanguagelessons)
+- [Rosetta Stone Online](https://www.rosettastone.com/)
+- [Udemy](https://www.udemy.com/courses/teaching-and-academics/language/)
+
+## 📝 Gramática & Vocabulário
+
+- [Collins Multilingual](https://www.collinsdictionary.com/us/translator)
+- [Glosbe](https://glosbe.com/)
+- [Grammarly](https://www.grammarly.com/)
+- [Green’s Dictionary of Slang](https://greensdictofslang.com/)
+- [LanguageTool](https://languagetool.org/)
+- [Slang.net](https://slang.net/)
+- [Urban Dictionary](https://www.urbandictionary.com/)
+- [Wiktionary](https://www.wiktionary.org/)
+- [WordReference](https://www.wordreference.com/)
+- [Cambridge Dictionary](https://dictionary.cambridge.org/)
+
+## 🎧 Escuta (Listening)
+
+- [BBC Learning English Podcasts](https://www.bbc.co.uk/learningenglish)
+- [Coffee Break Languages](https://radiolingua.com/)
+- [Duolingo Podcasts](https://podcast.duolingo.com/)
+- [ESLPod](https://www.eslpod.com/)
+- [LingQ Listening](https://www.lingq.com/)
+- [News in Slow](https://www.newsinslow.com/)
+- [Podcasts in English](https://www.podcastsinenglish.com/)
+- [Slow English](https://slowenglish.info/)
+- [Speaking](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)
+- [TED Talks](https://www.ted.com/talks)
+- [VOA Learning English](https://learningenglish.voanews.com/)
+- [Language Reactor](https://www.languagereactor.com/)
+- [Dreaming Spanish](https://www.dreaming.com/)
+- [Easy Languages](https://www.youtube.com/results?search_query=Easy+Languages)
+
+## 🗣️ Fala (Speaking)
+
+- [Cambly](https://www.cambly.com/)
+- [ConversationExchange](https://www.conversationexchange.com/)
+- [HelloTalk](https://www.hellotalk.com/)
+- [italki](https://www.italki.com/)
+- [Preply Speaking Practice](https://preply.com/)
+- [Speaking](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)
+- [Speaky](https://www.speaky.com/)
+- [SpeakyPlanet](https://www.speakyplanet.com/)
+- [Tandem](https://www.tandem.net/)
+- [Verbling](https://www.verbling.com/)
+
+## 📖 Leitura (Reading)
+
+- [LingQ](https://www.lingq.com/)
+- [Literacy Works](https://literacyworks.org/)
+- [ManyBooks](https://manybooks.net/)
+- [News in Levels](https://www.newsinlevels.com/)
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [Readlang](https://readlang.com/)
+- [ReadTheory](https://readtheory.org/)
+- [Standard Ebooks](https://standardebooks.org/)
+
+## ✍️ Escrita (Writing)
+
+- [750 Words](https://750words.com/)
+- [Grammarly](https://www.grammarly.com/)
+- [Hemingway Editor](https://hemingwayapp.com/)
+- [HiNative](https://hinative.com/)
+- [Journaly](https://journaly.com/)
+- [LangCorrect](https://langcorrect.com/)
+- [ProWritingAid](https://prowritingaid.com/)
+- [Scribens](https://www.scribens.com/)
+- [Write & Improve](https://writeandimprove.com/)
+
+## 🔊 Pronúncia & Fonética
+
+- [Cambridge Pronunciation](https://dictionary.cambridge.org/pronunciation/)
+- [Elsa Speak](https://elsaspeak.com/)
+- [Forvo](https://forvo.com/)
+- [HowJSay](https://howjsay.com/)
+- [IPA Chart](https://www.internationalphoneticassociation.org/content/ipa-chart)
+- [Pronuncian](https://pronuncian.com/)
+- [Rachel’s English](https://rachelsenglish.com/)
+- [Sounds of Speech](https://soundsofspeech.uiowa.edu/)
+- [YouGlish](https://youglish.com/)
+- [BoldVoice](https://www.boldvoice.com/)
+
+## 💡 Conceitos Fundamentais
+
+- [Aquisição de linguagem](https://pt.wikipedia.org/wiki/Aquisi%C3%A7%C3%A3o_da_linguagem)
+- [Aquisição de segunda língua](https://en.wikipedia.org/wiki/Second_language_acquisition)
+- [Fonética](https://pt.wikipedia.org/wiki/Fon%C3%A9tica)
+- [Functional linguistics](https://en.wikipedia.org/wiki/Functional_linguistics)
+- [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
+- [Linguística](https://pt.wikipedia.org/wiki/Lingu%C3%ADstica)
+- [Morfologia linguística](https://pt.wikipedia.org/wiki/Morfologia_(lingu%C3%ADstica))
+- [Pragmática](https://pt.wikipedia.org/wiki/Pragm%C3%A1tica)
+- [Psicolinguística](https://pt.wikipedia.org/wiki/Psicolingu%C3%ADstica)
+- [Semântica](https://pt.wikipedia.org/wiki/Sem%C3%A2ntica)
+- [Sociolinguística](https://pt.wikipedia.org/wiki/Sociolingu%C3%ADstica)
+- [subject–verb–object](https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object_word_order)
+- [Tense–aspect–mood](https://en.wikipedia.org/wiki/Tense%E2%80%93aspect%E2%80%93mood)
+- [Universal grammar](https://en.wikipedia.org/wiki/Universal_grammar)
+
+## 🤝 Conversação & Troca Linguística
+
+- [ConversationExchange](https://www.conversationexchange.com/)
+- [Discord Language Exchange](https://discord.me/language)
+- [HelloTalk](https://www.hellotalk.com/)
+- [Italki Community](https://www.italki.com/community)
+- [MyLanguageExchange](https://www.mylanguageexchange.com/)
+- [Polyglot Club](https://polyglotclub.com/)
+- [Reddit Language Exchange](https://www.reddit.com/r/Language_Exchange/)
+- [Speaky](https://www.gospeaky.com/)
+- [Tandem](https://www.tandem.net/)
+
+## 🧠 Técnicas e métodos de estudo
+
+- [Active Recall](https://en.wikipedia.org/wiki/Active_recall)
+- [Comprehensible Input](https://en.wikipedia.org/wiki/Comprehensible_input)
+- [Fluent Forever Method](https://fluent-forever.com/method/)
+- [Graded Readers](https://en.wikipedia.org/wiki/Graded_reader)
+- [Guided Reading](https://en.wikipedia.org/wiki/Guided_reading)
+- [Listening-Reading Method](https://en.wikipedia.org/wiki/Listening%E2%80%93reading)
+- [Mass Immersion Approach](https://www.mattvsjapan.com/)
+- [Shadowing Technique](https://en.wikipedia.org/wiki/Language_shadowing)
+- [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
+
+## 🌍 Tradutores
+
+- [DeepL](https://www.deepl.com/)
+- [Google Translate](https://translate.google.com/)
+- [iTranslate](https://www.itranslate.com/)
+- [Linguee](https://www.linguee.com/)
+- [Microsoft Translator](https://www.microsoft.com/translator)
+- [Papago](https://papago.naver.com/)
+- [PROMT One](https://www.online-translator.com/)
+- [Reverso Context](https://context.reverso.net/)
+- [Systran](https://www.systransoft.com/)
+
+## 📋 Testes & Certificações
+
+- [Cambridge English Exams](https://www.cambridgeenglish.org/exams-and-tests/)
+- [DALF/DELF](https://www.france-education-international.fr/)
+- [DELE](https://cervantes.org/es/examenes/dele)
+- [Duolingo Certificate](https://englishtest.duolingo.com/)
+- [EF SET](https://www.efset.org/)
+- [HSK](https://www.chinesetest.cn/)
+- [CertTESOL](https://www.trinitycollege.com/qualifications/teaching-english/CertTESOL)
+- [IELTS](https://www.ielts.org/)
+- [JLPT](https://www.jlpt.jp/e/)
+- [TestDaF](https://www.testdaf.de/)
+- [TOEFL](https://www.ets.org/toefl)
+- [TOPIK](https://www.topik.go.kr/)
+- [PTE Academic](https://www.pearsonpte.com/)
+- [Celpe-Bras](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/celpe-bras)
+
+## 🏫 Grandes escolas
+
+- [Alliance Française](https://www.alliancefr.org/)
+- [Berlitz](https://www.berlitz.com/)
+- [EF Education First](https://www.ef.com/)
+- [Goethe-Institut](https://www.goethe.de/)
+- [Inlingua](https://www.inlingua.com/)
+- [Instituto Cervantes](https://cervantes.org/es)
+- [International House](https://www.ihworld.com/)
+- [Kaplan International](https://www.kaplaninternational.com/)
+- [Wall Street English](https://www.wallstreetenglish.com/)
+
+## 👨‍🏫 Professores privados
+
+- [AmazingTalker](https://en.amazingtalker.com/)
+- [AmazingTalker Kids](https://en.amazingtalker.com/kids)
+- [Cambly](https://www.cambly.com/)
+- [Fluentify](https://www.fluentify.com/)
+- [italki Teachers](https://www.italki.com/)
+- [Preply](https://preply.com/)
+- [Rype](https://www.rypeapp.com/)
+- [VerbaLearn Tutors](https://verbalearn.com/)
+- [Verbling](https://www.verbling.com/)
+
+## 📗 Clubes de leitura online
+
+- [BookCrossing](https://www.bookcrossing.com/)
+- [Discord Book Club Servers](https://disboard.org/servers/tag/book-club)
+- [Goodreads Groups](https://www.goodreads.com/group)
+- [LibraryThing Groups](https://www.librarything.com/groups)
+- [Online Book Club](https://onlinebookclub.org/)
+- [Polyglot Book Club](https://polyglotclub.com/)
+- [Read With Me Club](https://readwithme.club/)
+- [Reddit Book Club](https://www.reddit.com/r/bookclub/)
+- [Silent Book Club](https://silentbook.club/)
+
+## 🔬 Aprendizado Avançado / Linguística
+
+- [Applied Linguistics](https://en.wikipedia.org/wiki/Applied_linguistics)
+- [Ethnologue](https://www.ethnologue.com)
+- [Computational Linguistics](https://en.wikipedia.org/wiki/Computational_linguistics)
+- [Historical Linguistics](https://en.wikipedia.org/wiki/Historical_linguistics)
+- [Neurolinguistics](https://en.wikipedia.org/wiki/Neurolinguistics)
+- [Phonetics](https://en.wikipedia.org/wiki/Phonetics)
+- [Polyglot Conference](https://polyglotconference.com/)
+- [Psycholinguistics](https://en.wikipedia.org/wiki/Psycholinguistics)
+- [Second Language Acquisition](https://en.wikipedia.org/wiki/Second_language_acquisition)
+- [Sociolinguistics](https://en.wikipedia.org/wiki/Sociolinguistics)
+
+## 🌐 Comunidade
+
+- [Discord Language Learning](https://discord.me/language)
+- [Fluent in 3 Months Community](https://www.fluentin3months.com/)
+- [HelloTalk Community](https://www.hellotalk.com/)
+- [Language Learners Forum](https://forum.language-learners.org/)
+- [MyLanguageExchange](https://www.mylanguageexchange.com/)
+- [Polyglot Club](https://polyglotclub.com/)
+- [Reddit r/languagelearning](https://www.reddit.com/r/languagelearning/)
+- [Tandem Community](https://www.tandem.net/)
+
+## 🤖 Ferramentas com IA para idiomas
+
+- [ChatGPT](https://chatgpt.com/)
+- [Elsa Speak](https://elsaspeak.com/)
+- [LangAI](https://apps.apple.com/app/id1671639505)
+- [Lingostar AI](https://www.lingostar.ai/)
+- [Replika Chat Practice](https://replika.com/)
+- [Speak](https://www.speak.com/)
+- [TalkPal](https://www.talkpal.ai/)
+- [Trancy AI](https://trancy.org)
+- [Praktika](https://praktika.ai/)
+
+## ⌚ Gadgets / Wearables
+
+- [Anfier Voice Translator](https://anfier.com/)
+- [Google Pixel Buds Translate](https://support.google.com/googlepixelbuds/answer/7573100)
+- [Jarvisen Translator](https://jarvisen.com/)
+- [Langogo Translator](https://www.langogo.ai/)
+- [Pocketalk Translator](https://www.pocketalk.com/)
+- [Timekettle WT2 Plus](https://www.timekettle.co/)
+- [Travis Touch Go](https://www.travistranslator.com/)
+- [Vasco Translator](https://vasco-translator.com/)
+
+## ✈️ Agências de imersão e intercâmbio
+
+- [AIESEC Exchange](https://aiesec.org/)
+- [CI Experience](https://www.ci.com.br/)
+- [CIEE Intercâmbio](https://ciee.org.br/intercambio)
+- [Cultural Care Au Pair](https://www.culturalcare.world/)
+- [EF Intercâmbio](https://www.ef.com.br/)
+- [Sol Edu](https://www.soledu.net/)
+- [Intercultural Exchange Programs – YFU](https://yfu.org/)
+- [ISIC Travel & Exchange](https://www.isic.org/)
+- [Rotary Youth Exchange](https://www.rotary.org/en/our-programs/youth-exchanges)
+- [STB Student Travel Bureau](https://www.stb.com.br/)
+
+## Blogs de idiomas
+
+- [5 Minute Language Blog](https://5minutelanguage.com/blog/)
+- [Babel Magazine](https://babelzine.co.uk/)
+- [Mosalingua Blog](https://www.mosalingua.com/pt/blog/)
+- [All Things Linguistic](https://allthingslinguistic.com/)
+- [BBC Languages](https://www.bbc.co.uk/languages/)
+- [Anywhere Immersion Blog](https://www.anywhereimmersion.com/blog)
+- [Esperanto Magazine](https://lernu.net/)
+- [Babbel Magazine](https://www.babbel.com/en/magazine)
+- [BBC Learning English](https://www.bbc.co.uk/learningenglish/)
+- [Language Magazine](https://www.languagemagazine.com/)
+- [Duolingo Blog](https://blog.duolingo.com/)
+- [Fluent in 3 Months Blog](https://www.fluentin3months.com/articles/)
+- [FluentU Blog](https://www.fluentu.com/blog/learn/)
+- [Grammar Girl](https://www.quickanddirtytips.com/grammar-girl/)
+- [The Linguist Blog](https://blog.thelinguist.com/)
+- [Itchy Feet Comics](https://www.itchyfeetcomic.com/)
+- [Lindsay Does Languages Blog](https://lindsaydoeslanguages.com/blog/)
+- [LingQ Blog](https://www.lingq.com/blog/)
+- [Luca Lampariello Blog](https://www.lucalampariello.com/blog/)
+- [Omniglot Blog](https://www.omniglot.com/bloggle/)
+- [Preply Blog](https://preply.com/en/blog/)
+- [Slow English](https://slowenglish.info/)
+- [Speaking Fluently Blog](https://speakingfluently.com/blog/)
+- [StoryLearning Blog](https://storylearning.com/blog)
+- [The Mezzofanti Guild Blog](https://www.mezzoguild.com/blog/)
+
+## 🌎 Principais Idiomas
+
+- [English](https://en.wikipedia.org/wiki/English_language)
+- [Mandarin Chinese](https://en.wikipedia.org/wiki/Mandarin_Chinese)
+- [Hindi](https://en.wikipedia.org/wiki/Hindi)
+- [Spanish](https://en.wikipedia.org/wiki/Spanish_language)
+- [French](https://en.wikipedia.org/wiki/French_language)
+- [Standard Arabic](https://en.wikipedia.org/wiki/Modern_Standard_Arabic)
+- [Bengali](https://en.wikipedia.org/wiki/Bengali_language)
+- [Russian](https://en.wikipedia.org/wiki/Russian_language)
+- [Portuguese](https://en.wikipedia.org/wiki/Portuguese_language)
+- [Urdu](https://en.wikipedia.org/wiki/Urdu)
+- [Indonesian](https://en.wikipedia.org/wiki/Indonesian_language)
+- [German](https://en.wikipedia.org/wiki/German_language)
+- [Japanese](https://en.wikipedia.org/wiki/Japanese_language)
+- [Swahili](https://en.wikipedia.org/wiki/Swahili_language)
+- [Marathi](https://en.wikipedia.org/wiki/Marathi_language)
+
+## 🎯 Foco nos Estudos
+
+- [Cold Turkey Blocker](https://getcoldturkey.com/)
+- [Focus To-Do](https://www.focustodo.cn/)
+- [Forest App](https://www.forestapp.cc/)
+- [Freedom](https://freedom.to/)
+- [Mindful Browsing](https://mindfulbrowsing.org/)
+- [Pomofocus](https://pomofocus.io/)
+- [RescueTime](https://www.rescuetime.com/)
+- [Todoist](https://todoist.com/)
+- [Zotero](https://www.zotero.org/)

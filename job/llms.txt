@@ -1,0 +1,487 @@
+# A Biblioteca de Emprego
+
+> Catálogo pesquisável sobre a vida profissional: sites de vagas e freelance, trabalho remoto, currículo e portfólio, entrevistas, salários, recrutamento, qualificação, direitos trabalhistas e conceitos de carreira.
+
+Biblioteca temática da BiblioVerse (The Job Library), com curadoria humana. Página: https://biblioverse.org/job/ · 320 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Carreira e trabalho
+
+- [Emprego](https://en.wikipedia.org/wiki/Employment) ★
+- [Carreira](https://en.wikipedia.org/wiki/Career) ★
+- [Desenvolvimento de carreira](https://en.wikipedia.org/wiki/Career_development)
+- [Mercado de trabalho](https://en.wikipedia.org/wiki/Labour_economics)
+- [Desemprego](https://en.wikipedia.org/wiki/Unemployment)
+- [Freelancer](https://en.wikipedia.org/wiki/Freelancer) ★
+- [Gig economy](https://en.wikipedia.org/wiki/Gig_worker)
+- [Trabalho remoto](https://en.wikipedia.org/wiki/Remote_work) ★
+- [Nômade digital](https://en.wikipedia.org/wiki/Digital_nomad)
+- [Estágio](https://en.wikipedia.org/wiki/Internship)
+- [Programa de aprendizagem](https://en.wikipedia.org/wiki/Apprenticeship)
+- [Networking](https://en.wikipedia.org/wiki/Business_networking)
+- [Marca pessoal](https://en.wikipedia.org/wiki/Personal_branding)
+- [Mentoria](https://en.wikipedia.org/wiki/Mentorship)
+- [Coaching](https://en.wikipedia.org/wiki/Coaching)
+
+### Processo seletivo
+
+- [Currículo](https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9) ★
+- [Carta de apresentação](https://en.wikipedia.org/wiki/Cover_letter)
+- [Portfólio profissional](https://en.wikipedia.org/wiki/Career_portfolio)
+- [Recrutamento](https://en.wikipedia.org/wiki/Recruitment) ★
+- [Headhunter (executive search)](https://en.wikipedia.org/wiki/Executive_search)
+- [Sistema de rastreamento de candidatos (ATS)](https://en.wikipedia.org/wiki/Applicant_tracking_system) ★
+- [Entrevista de emprego](https://en.wikipedia.org/wiki/Job_interview) ★
+- [Método STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
+- [Elevator pitch](https://en.wikipedia.org/wiki/Elevator_pitch)
+- [Verificação de antecedentes](https://en.wikipedia.org/wiki/Background_check)
+- [Período de experiência](https://en.wikipedia.org/wiki/Probation_(workplace))
+- [Onboarding](https://en.wikipedia.org/wiki/Onboarding)
+
+### Remuneração e benefícios
+
+- [Salário](https://en.wikipedia.org/wiki/Salary) ★
+- [Salário mínimo](https://en.wikipedia.org/wiki/Minimum_wage)
+- [Benefícios](https://en.wikipedia.org/wiki/Employee_benefits)
+- [Participação nos lucros](https://en.wikipedia.org/wiki/Profit_sharing)
+- [Stock options](https://en.wikipedia.org/wiki/Employee_stock_option)
+- [Transparência salarial](https://en.wikipedia.org/wiki/Pay_transparency)
+- [Férias](https://en.wikipedia.org/wiki/Annual_leave)
+- [Contrato de trabalho](https://en.wikipedia.org/wiki/Employment_contract)
+- [Sindicato](https://en.wikipedia.org/wiki/Trade_union)
+- [Demissão em massa (layoff)](https://en.wikipedia.org/wiki/Layoff)
+- [Seguro-desemprego](https://en.wikipedia.org/wiki/Unemployment_benefits)
+- [Aposentadoria](https://en.wikipedia.org/wiki/Retirement)
+
+### Habilidades
+
+- [Soft skills](https://en.wikipedia.org/wiki/Soft_skills) ★
+- [Liderança](https://en.wikipedia.org/wiki/Leadership)
+- [Inteligência emocional](https://en.wikipedia.org/wiki/Emotional_intelligence)
+- [Gestão do tempo](https://en.wikipedia.org/wiki/Time_management)
+- [Pensamento crítico](https://en.wikipedia.org/wiki/Critical_thinking)
+- [Trabalho em equipe](https://en.wikipedia.org/wiki/Teamwork)
+- [Resolução de problemas](https://en.wikipedia.org/wiki/Problem_solving)
+- [Educação ao longo da vida](https://en.wikipedia.org/wiki/Lifelong_learning)
+- [Requalificação profissional](https://en.wikipedia.org/wiki/Retraining)
+
+### Cultura e bem-estar no trabalho
+
+- [Cultura organizacional](https://en.wikipedia.org/wiki/Organizational_culture)
+- [Recursos humanos](https://en.wikipedia.org/wiki/Human_resources)
+- [Avaliação de desempenho](https://en.wikipedia.org/wiki/Performance_appraisal)
+- [OKR](https://en.wikipedia.org/wiki/OKR)
+- [Feedback 360°](https://en.wikipedia.org/wiki/360-degree_feedback)
+- [Employer branding](https://en.wikipedia.org/wiki/Employer_branding)
+- [Diversidade, equidade e inclusão](https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion)
+- [Equilíbrio entre vida e trabalho](https://en.wikipedia.org/wiki/Work%E2%80%93life_balance) ★
+- [Burnout](https://en.wikipedia.org/wiki/Occupational_burnout)
+- [Síndrome do impostor](https://en.wikipedia.org/wiki/Impostor_syndrome)
+- [Assédio moral no trabalho](https://en.wikipedia.org/wiki/Workplace_bullying)
+- [Saúde e segurança ocupacional](https://en.wikipedia.org/wiki/Occupational_safety_and_health)
+- [Grande Renúncia](https://en.wikipedia.org/wiki/Great_Resignation)
+- [Quiet quitting](https://en.wikipedia.org/wiki/Quiet_quitting)
+
+## Vagas de emprego
+
+### Plataformas globais
+
+- [LinkedIn Vagas](https://www.linkedin.com/jobs/) ★
+- [Indeed](https://www.indeed.com/) ★
+- [Glassdoor](https://www.glassdoor.com/) ★
+- [ZipRecruiter](https://www.ziprecruiter.com/)
+- [Monster](https://www.monster.com/)
+- [CareerBuilder](https://www.careerbuilder.com/)
+- [SimplyHired](https://www.simplyhired.com/)
+- [Jooble](https://jooble.org/)
+- [Adzuna](https://www.adzuna.com/)
+- [Talent.com](https://www.talent.com/)
+
+### Europa, Ásia e Oceania
+
+- [StepStone](https://www.stepstone.de/)
+- [Xing](https://www.xing.com/)
+- [Reed](https://www.reed.co.uk/)
+- [Welcome to the Jungle](https://www.welcometothejungle.com/) ★
+- [EURES](https://eures.europa.eu/)
+- [Seek](https://www.seek.com.au/)
+- [Naukri](https://www.naukri.com/)
+
+### Brasil
+
+- [Catho](https://www.catho.com.br/) ★
+- [Vagas.com](https://www.vagas.com.br/) ★
+- [Gupy (portal de vagas)](https://portal.gupy.io/) ★
+- [InfoJobs](https://www.infojobs.com.br/)
+- [Indeed Brasil](https://br.indeed.com/)
+- [BNE](https://www.bne.com.br/)
+- [Empregos.com.br](https://www.empregos.com.br/)
+- [Trampos](https://trampos.co/)
+- [Revelo](https://www.revelo.com/)
+- [Emprega Brasil (Sine)](https://empregabrasil.mte.gov.br/)
+
+### Portugal e América Latina
+
+- [Net-Empregos](https://www.net-empregos.com/)
+- [Computrabajo](https://www.computrabajo.com/) ★
+- [Bumeran](https://www.bumeran.com.ar/)
+- [OCC Mundial](https://www.occ.com.mx/)
+
+### Estágios e primeiro emprego
+
+- [Handshake](https://joinhandshake.com/) ★
+- [CIEE](https://portal.ciee.org.br/) ★
+- [Nube](https://www.nube.com.br/)
+- [Cia de Talentos](https://www.ciadetalentos.com.br/)
+- [AIESEC](https://aiesec.org/)
+
+### Startups
+
+- [Wellfound](https://wellfound.com/) ★
+- [Work at a Startup (Y Combinator)](https://www.workatastartup.com/)
+- [Startup.jobs](https://startup.jobs/)
+- [Built In](https://builtin.com/jobs)
+
+### Setor público e organismos internacionais
+
+- [Carreiras na ONU](https://careers.un.org/) ★
+- [EU Careers (EPSO)](https://eu-careers.europa.eu/)
+- [USAJOBS](https://www.usajobs.gov/)
+- [Devex](https://www.devex.com/jobs)
+- [Impactpool](https://www.impactpool.org/)
+- [ReliefWeb Jobs](https://reliefweb.int/jobs)
+- [PCI Concursos](https://www.pciconcursos.com.br/) ★
+- [JC Concursos](https://jcconcursos.com.br/)
+
+### Impacto social e ONGs
+
+- [Idealist](https://www.idealist.org/) ★
+- [80,000 Hours (vagas)](https://jobs.80000hours.org/)
+
+## Vagas por área
+
+### Tecnologia
+
+- [Dice](https://www.dice.com/) ★
+- [Hacker News: Who is hiring?](https://hnhiring.com/)
+- [GeekHunter](https://www.geekhunter.com/)
+- [Programathor](https://programathor.com.br/)
+
+### Design e criatividade
+
+- [Dribbble Jobs](https://dribbble.com/jobs) ★
+- [Authentic Jobs](https://authenticjobs.com/)
+- [Krop](https://www.krop.com/)
+- [Working Not Working](https://workingnotworking.com/)
+- [Coroflot](https://www.coroflot.com/)
+
+### Comunicação, mídia e audiovisual
+
+- [Mediabistro](https://www.mediabistro.com/)
+- [JournalismJobs.com](https://www.journalismjobs.com/)
+- [Mandy](https://www.mandy.com/)
+- [Backstage](https://www.backstage.com/)
+
+### Saúde e educação
+
+- [Health eCareers](https://www.healthecareers.com/)
+- [HigherEdJobs](https://www.higheredjobs.com/)
+- [Teach Away](https://www.teachaway.com/)
+
+## Trabalho remoto
+
+### Vagas remotas
+
+- [We Work Remotely](https://weworkremotely.com/) ★
+- [Remote OK](https://remoteok.com/) ★
+- [Remotive](https://remotive.com/)
+- [FlexJobs](https://www.flexjobs.com/)
+- [Remote.co](https://remote.co/)
+- [Working Nomads](https://www.workingnomads.com/)
+- [Himalayas](https://himalayas.app/)
+- [JustRemote](https://justremote.co/)
+- [DailyRemote](https://dailyremote.com/)
+- [Jobspresso](https://jobspresso.co/)
+- [Arc](https://arc.dev/)
+- [Turing](https://www.turing.com/)
+
+### Receber do exterior
+
+- [Wise](https://wise.com/) ★
+- [Payoneer](https://www.payoneer.com/)
+- [Husky](https://husky.io/)
+- [Remessa Online](https://www.remessaonline.com.br/)
+
+### Nomadismo e coworking
+
+- [Nomads.com (Nomad List)](https://nomads.com/) ★
+- [Coworker](https://www.coworker.com/)
+- [WeWork](https://www.wework.com/)
+- [Numbeo (custo de vida)](https://www.numbeo.com/cost-of-living/)
+
+## Freelance
+
+### Plataformas gerais
+
+- [Upwork](https://www.upwork.com/) ★
+- [Fiverr](https://www.fiverr.com/) ★
+- [Workana](https://www.workana.com/) ★
+- [Freelancer.com](https://www.freelancer.com/)
+- [Guru](https://www.guru.com/)
+- [PeoplePerHour](https://www.peopleperhour.com/)
+- [Malt](https://www.malt.com/)
+- [Contra](https://contra.com/)
+- [99Freelas](https://www.99freelas.com.br/)
+- [GetNinjas](https://www.getninjas.com.br/)
+
+### Talentos de elite e tecnologia
+
+- [Toptal](https://www.toptal.com/) ★
+- [Braintrust](https://www.usebraintrust.com/)
+- [A.Team](https://www.a.team/)
+- [Lemon.io](https://lemon.io/)
+- [Gun.io](https://gun.io/)
+- [Codeable](https://www.codeable.io/)
+
+### Criativos
+
+- [99designs](https://99designs.com/) ★
+- [Behance (vagas e freelas)](https://www.behance.net/joblist)
+
+### Escrita, tradução e conteúdo
+
+- [ProZ.com](https://www.proz.com/) ★
+- [ProBlogger Jobs](https://problogger.com/jobs/)
+- [Contently](https://contently.com/)
+- [Textbroker](https://www.textbroker.com/)
+
+### Microtarefas e serviços locais
+
+- [TaskRabbit](https://www.taskrabbit.com/) ★
+- [Thumbtack](https://www.thumbtack.com/)
+- [Bark](https://www.bark.com/)
+- [Amazon Mechanical Turk](https://www.mturk.com/)
+- [Prolific](https://www.prolific.com/)
+
+### Ferramentas do freelancer
+
+- [Bonsai](https://www.hellobonsai.com/) ★
+- [Toggl Track](https://toggl.com/track/)
+- [Clockify](https://clockify.me/)
+- [Calendly](https://calendly.com/)
+- [Wave](https://www.waveapps.com/)
+- [Stripe](https://stripe.com/)
+
+## Currículo, portfólio e networking
+
+### Criadores de currículo
+
+- [Canva (currículos)](https://www.canva.com/resumes/) ★
+- [Europass](https://europass.europa.eu/) ★
+- [Resume.io](https://resume.io/)
+- [Zety](https://zety.com/)
+- [Novorésumé](https://novoresume.com/)
+- [Kickresume](https://www.kickresume.com/)
+- [Enhancv](https://enhancv.com/)
+- [Reactive Resume](https://rxresu.me/)
+- [Overleaf (modelos de CV)](https://www.overleaf.com/gallery/tagged/cv)
+
+### Otimização e busca de vagas
+
+- [Jobscan](https://www.jobscan.co/) ★
+- [Teal](https://www.tealhq.com/)
+- [Rezi](https://www.rezi.ai/)
+- [Huntr](https://huntr.co/)
+- [Simplify](https://simplify.jobs/)
+
+### Portfólio
+
+- [Behance](https://www.behance.net/) ★
+- [Dribbble](https://dribbble.com/)
+- [GitHub](https://github.com/) ★
+- [Adobe Portfolio](https://portfolio.adobe.com/)
+- [Carrd](https://carrd.com/)
+
+### Redes profissionais
+
+- [LinkedIn](https://www.linkedin.com/) ★
+- [Blind](https://www.teamblind.com/)
+- [Meetup](https://www.meetup.com/)
+
+## Entrevistas e testes
+
+### Preparação para entrevistas
+
+- [Glassdoor (entrevistas)](https://www.glassdoor.com/Interview/) ★
+- [Google Interview Warmup](https://grow.google/certificates/interview-warmup/) ★
+- [Big Interview](https://www.biginterview.com/)
+- [Yoodli](https://yoodli.ai/)
+- [interviewing.io](https://interviewing.io/)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+- [LeetCode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/)
+
+### Testes de perfil e vocação
+
+- [16Personalities](https://www.16personalities.com/) ★
+- [Big Five (Truity)](https://www.truity.com/test/big-five-personality-test)
+- [CliftonStrengths](https://www.gallup.com/cliftonstrengths/)
+- [VIA Character Strengths](https://www.viacharacter.org/)
+- [O*NET Interest Profiler](https://onetinterestprofiler.org/)
+- [DISC](https://en.wikipedia.org/wiki/DISC_assessment)
+
+## Salários e empresas
+
+### Pesquisa salarial
+
+- [Levels.fyi](https://www.levels.fyi/) ★
+- [Glassdoor (salários)](https://www.glassdoor.com/Salaries/index.htm) ★
+- [Payscale](https://www.payscale.com/)
+- [Salary.com](https://www.salary.com/)
+- [Indeed (salários)](https://www.indeed.com/career/salaries)
+- [Guia Salarial Robert Half](https://www.roberthalf.com/us/en/insights/salary-guide)
+- [Salario.com.br](https://www.salario.com.br/)
+
+### Avaliação de empresas
+
+- [Glassdoor (avaliações)](https://www.glassdoor.com/Reviews/index.htm) ★
+- [Indeed (empresas)](https://www.indeed.com/companies)
+- [Comparably](https://www.comparably.com/)
+- [Kununu](https://www.kununu.com/)
+- [Great Place to Work](https://www.greatplacetowork.com/)
+
+## Recrutamento e RH
+
+### Sistemas de recrutamento (ATS)
+
+- [Greenhouse](https://www.greenhouse.com/) ★
+- [Lever](https://www.lever.co/)
+- [Ashby](https://www.ashbyhq.com/)
+- [Workday](https://www.workday.com/)
+- [SmartRecruiters](https://www.smartrecruiters.com/)
+- [Workable](https://www.workable.com/)
+- [Teamtailor](https://www.teamtailor.com/)
+- [BambooHR](https://www.bamboohr.com/)
+- [Gupy](https://www.gupy.io/) ★
+
+### Agências e headhunters
+
+- [Robert Half](https://www.roberthalf.com/) ★
+- [Michael Page](https://www.michaelpage.com/)
+- [Hays](https://www.hays.com/)
+- [Randstad](https://www.randstad.com/)
+- [Adecco](https://www.adecco.com/)
+- [ManpowerGroup](https://www.manpowergroup.com/)
+- [Korn Ferry](https://www.kornferry.com/)
+- [Spencer Stuart](https://www.spencerstuart.com/)
+- [Heidrick & Struggles](https://www.heidrick.com/)
+- [Egon Zehnder](https://www.egonzehnder.com/)
+
+### Contratação internacional e folha
+
+- [Deel](https://www.deel.com/) ★
+- [Remote.com](https://remote.com/)
+- [Oyster](https://www.oysterhr.com/)
+- [Rippling](https://www.rippling.com/)
+- [Gusto](https://gusto.com/)
+
+## Qualificação e orientação
+
+### Cursos e certificados
+
+- [Coursera](https://www.coursera.org/) ★
+- [LinkedIn Learning](https://www.linkedin.com/learning/) ★
+- [Google Career Certificates](https://grow.google/certificates/)
+- [edX](https://www.edx.org/)
+- [Udemy](https://www.udemy.com/)
+- [Microsoft Learn](https://learn.microsoft.com/)
+- [AWS Skill Builder](https://skillbuilder.aws/)
+- [HubSpot Academy](https://academy.hubspot.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [Khan Academy](https://www.khanacademy.org/)
+- [Duolingo](https://www.duolingo.com/)
+- [Alura](https://www.alura.com.br/)
+- [Fundação Bradesco — Escola Virtual](https://www.ev.org.br/)
+- [Escola Virtual de Governo (EV.G)](https://www.escolavirtual.gov.br/)
+
+### Orientação de carreira
+
+- [O*NET OnLine](https://www.onetonline.org/) ★
+- [Occupational Outlook Handbook](https://www.bls.gov/ooh/)
+- [80,000 Hours](https://80000hours.org/) ★
+- [CareerExplorer](https://www.careerexplorer.com/)
+- [Guia do Estudante — Profissões](https://guiadoestudante.abril.com.br/profissoes/)
+
+## Empreendedorismo e autônomos
+
+### Abrir e formalizar um negócio
+
+- [Sebrae](https://sebrae.com.br/) ★
+- [Portal do Empreendedor (MEI)](https://www.gov.br/empresas-e-negocios/pt-br/empreendedor) ★
+- [NFS-e Nacional](https://www.gov.br/nfse/)
+- [Contabilizei](https://www.contabilizei.com.br/)
+- [U.S. Small Business Administration](https://www.sba.gov/)
+- [Stripe Atlas](https://stripe.com/atlas)
+
+## Direitos e legislação
+
+### Brasil
+
+- [Consolidação das Leis do Trabalho (CLT)](https://pt.wikipedia.org/wiki/Consolida%C3%A7%C3%A3o_das_Leis_do_Trabalho) ★
+- [Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/)
+- [FGTS](https://www.fgts.gov.br/)
+- [Meu INSS](https://meu.inss.gov.br/)
+- [Tribunal Superior do Trabalho (TST)](https://www.tst.jus.br/)
+- [Décimo terceiro salário](https://pt.wikipedia.org/wiki/D%C3%A9cimo_terceiro_sal%C3%A1rio)
+- [Microempreendedor individual (MEI)](https://pt.wikipedia.org/wiki/Microempreendedor_individual)
+
+### Internacional
+
+- [Organização Internacional do Trabalho (OIT)](https://www.ilo.org/) ★
+- [ILOSTAT](https://ilostat.ilo.org/)
+- [U.S. Department of Labor](https://www.dol.gov/)
+- [U.S. Bureau of Labor Statistics](https://www.bls.gov/)
+- [EU-OSHA](https://osha.europa.eu/)
+- [Eurofound](https://www.eurofound.europa.eu/)
+
+## Conteúdo e inspiração
+
+### Blogs e mídia
+
+- [Ask a Manager](https://www.askamanager.org/) ★
+- [The Muse](https://www.themuse.com/) ★
+- [Harvard Business Review](https://hbr.org/)
+- [Fast Company — Work Life](https://www.fastcompany.com/work-life)
+- [WorkLife com Adam Grant (podcast)](https://www.ted.com/podcasts/worklife)
+- [Você S/A](https://vocesa.abril.com.br/)
+- [Exame — Carreira](https://exame.com/carreira/)
+- [InfoMoney — Carreira](https://www.infomoney.com.br/carreira/)
+
+### Livros
+
+- [Richard N. Bolles - What Color Is Your Parachute?](https://www.goodreads.com/search?q=What+Color+Is+Your+Parachute) ★
+- [Bill Burnett e Dave Evans - O Design da Sua Vida](https://www.goodreads.com/search?q=Designing+Your+Life+Burnett+Evans) ★
+- [Cal Newport - So Good They Can't Ignore You](https://www.goodreads.com/search?q=Cal+Newport+So+Good+They+Can%27t+Ignore+You)
+- [Reid Hoffman - Comece por Você](https://www.goodreads.com/search?q=Reid+Hoffman+The+Start-up+of+You)
+- [Herminia Ibarra - Working Identity](https://www.goodreads.com/search?q=Herminia+Ibarra+Working+Identity)
+- [Stephen Covey - Os 7 Hábitos das Pessoas Altamente Eficazes](https://www.goodreads.com/search?q=Covey+7+Habits+of+Highly+Effective+People)
+- [Dale Carnegie - Como Fazer Amigos e Influenciar Pessoas](https://www.goodreads.com/search?q=Dale+Carnegie+How+to+Win+Friends)
+- [Daniel Pink - Motivação 3.0](https://www.goodreads.com/search?q=Daniel+Pink+Drive)
+- [Chris Voss - Negocie Como Se Sua Vida Dependesse Disso](https://www.goodreads.com/search?q=Chris+Voss+Never+Split+the+Difference)
+- [Keith Ferrazzi - Never Eat Alone](https://www.goodreads.com/search?q=Keith+Ferrazzi+Never+Eat+Alone)
+
+### Pessoas
+
+- [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker) ★ 🪦
+- [Adam Grant](https://en.wikipedia.org/wiki/Adam_Grant) ★
+- [Simon Sinek](https://en.wikipedia.org/wiki/Simon_Sinek)
+- [Brené Brown](https://en.wikipedia.org/wiki/Bren%C3%A9_Brown)
+- [Daniel H. Pink](https://en.wikipedia.org/wiki/Daniel_H._Pink)
+- [Cal Newport](https://en.wikipedia.org/wiki/Cal_Newport)
+- [Herminia Ibarra](https://en.wikipedia.org/wiki/Herminia_Ibarra)
+- [Richard N. Bolles](https://en.wikipedia.org/wiki/Richard_Nelson_Bolles) 🪦
+- [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) 🪦
+- [Dale Carnegie](https://en.wikipedia.org/wiki/Dale_Carnegie) 🪦
+- [Max Gehringer](https://pt.wikipedia.org/wiki/Max_Gehringer)

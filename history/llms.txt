@@ -1,0 +1,987 @@
+# A Biblioteca de História
+
+> Catálogo pesquisável de história: da Pré-história ao século XXI, história do Brasil, guerras, patrimônio, obras fundamentais, historiadores, museus, acervos, podcasts e cursos.
+
+Biblioteca temática da BiblioVerse (The History Library), com curadoria humana. Página: https://biblioverse.org/history/ · 779 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Enciclopédias e referências
+
+### Enciclopédias
+
+- [World History Encyclopedia](https://www.worldhistory.org/) ★
+- [Britannica (História)](https://www.britannica.com/topic/history) ★: EN: Britannica (History)
+- [Wikipédia: Portal História](https://pt.wikipedia.org/wiki/Portal:Hist%C3%B3ria)
+- [Encyclopedia.com (História)](https://www.encyclopedia.com/history)
+- [HistoryWorld](http://www.historyworld.net/)
+- [Atlas Histórico do Brasil (FGV)](https://atlas.fgv.br/)
+- [Dicionário Histórico-Biográfico Brasileiro (CPDOC)](https://cpdoc.fgv.br/acervo/dhbb)
+
+### Acervos e arquivos digitais
+
+- [Internet History Sourcebooks Project](https://sourcebooks.fordham.edu/) ★
+- [The Avalon Project (Yale)](https://avalon.law.yale.edu/) ★
+- [Biblioteca Digital Mundial (Library of Congress)](https://www.loc.gov/collections/world-digital-library/)
+- [Library of Congress: Digital Collections](https://www.loc.gov/collections/)
+- [Europeana](https://www.europeana.eu/) ★
+- [Internet Archive](https://archive.org/)
+- [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/)
+- [Project Gutenberg (História)](https://www.gutenberg.org/ebooks/bookshelf/429)
+- [Gallica (BnF)](https://gallica.bnf.fr/)
+- [The National Archives (Reino Unido)](https://www.nationalarchives.gov.uk/)
+- [National Archives (EUA)](https://www.archives.gov/)
+- [Arquivo Nacional](https://www.gov.br/arquivonacional/) ★: EN: National Archives of Brazil
+- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) ★: EN: Brazilian Digital Newspaper Library
+- [BNDigital (Biblioteca Nacional)](https://bndigital.bn.gov.br/)
+- [Brasiliana Guita e José Mindlin (USP)](https://www.bbm.usp.br/)
+- [Acervo do CPDOC (FGV)](https://cpdoc.fgv.br/)
+- [Memórias Reveladas](https://www.memoriasreveladas.gov.br/)
+- [Arquivo do Estado de São Paulo](https://www.arquivoestado.sp.gov.br/)
+- [USC Shoah Foundation (Arquivo de Histórias Visuais)](https://sfi.usc.edu/)
+
+### Linhas do tempo e mapas
+
+- [Timeline da IA](https://aihistory.biblioverse.org/) ★: EN: AI Timeline
+- [Our World in Data](https://ourworldindata.org/) ★
+- [Heilbrunn Timeline of Art History (The Met)](https://www.metmuseum.org/toah/)
+- [Histography](https://histography.io/)
+- [OldMapsOnline](https://www.oldmapsonline.org/) ★
+- [David Rumsey Map Collection](https://www.davidrumsey.com/)
+- [GeaCron](http://geacron.com/)
+- [Running Reality](https://www.runningreality.org/)
+- [Chronas](https://chronas.org/)
+- [TimeMaps](https://timemaps.com/)
+- [Digital Atlas of Roman and Medieval Civilizations (Harvard)](https://darmc.harvard.edu/)
+- [Pleiades](https://pleiades.stoa.org/)
+- [Seshat: Global History Databank](https://seshat-db.com/)
+
+## Museus
+
+### Museus internacionais
+
+- [Museu Britânico](https://www.britishmuseum.org/) ★: EN: British Museum
+- [Museu do Louvre](https://www.louvre.fr/) ★: EN: Louvre Museum
+- [Metropolitan Museum of Art](https://www.metmuseum.org/) ★
+- [Museu Egípcio do Cairo](https://pt.wikipedia.org/wiki/Museu_Eg%C3%ADpcio_(Cairo)): EN: Egyptian Museum
+- [Grande Museu Egípcio](https://visit-gem.com/)
+- [Museus Vaticanos](https://www.museivaticani.va/)
+- [Museu Hermitage](https://www.hermitagemuseum.org/)
+- [Museu Nacional de Antropologia (México)](https://www.mna.inah.gob.mx/)
+- [Museu do Palácio (Cidade Proibida)](https://en.wikipedia.org/wiki/Palace_Museum): EN: Palace Museum
+- [Museu Nacional de Arqueologia de Atenas](https://www.namuseum.gr/en/)
+- [Museu da Acrópole](https://www.theacropolismuseum.gr/en)
+- [Smithsonian: Museu Nacional de História Americana](https://americanhistory.si.edu/)
+- [Imperial War Museums](https://www.iwm.org.uk/)
+- [Yad Vashem](https://www.yadvashem.org/) ★
+- [Museu Memorial do Holocausto dos EUA](https://www.ushmm.org/)
+- [Memorial e Museu de Auschwitz-Birkenau](https://www.auschwitz.org/)
+- [Casa de Anne Frank](https://www.annefrank.org/)
+- [Museu Nacional da Segunda Guerra Mundial (EUA)](https://www.nationalww2museum.org/)
+- [Museu Memorial da Paz de Hiroshima](https://hpmmuseum.jp/?lang=eng)
+- [Museu do Apartheid](https://www.apartheidmuseum.org/)
+- [Museu Nacional de História Afro-Americana](https://nmaahc.si.edu/)
+- [Deutsches Historisches Museum](https://www.dhm.de/)
+
+### Museus brasileiros
+
+- [Museu Nacional (UFRJ)](https://www.museunacional.ufrj.br/) ★: EN: National Museum of Brazil (UFRJ)
+- [Museu Histórico Nacional](https://mhn.museus.gov.br/) ★: EN: National Historical Museum
+- [Museu Paulista (Museu do Ipiranga)](https://museudoipiranga.org.br/) ★: EN: Museu Paulista (Ipiranga Museum)
+- [Museu Imperial](https://museuimperial.museus.gov.br/)
+- [Museu da República](https://museudarepublica.museus.gov.br/)
+- [Museu Afro Brasil](https://www.museuafrobrasil.org.br/)
+- [Museu da Língua Portuguesa](https://www.museudalinguaportuguesa.org.br/)
+- [Museu da Imigração](https://museudaimigracao.org.br/)
+- [Memorial da Resistência de São Paulo](https://memorialdaresistenciasp.org.br/)
+- [Museu das Missões](https://museudasmissoes.museus.gov.br/)
+- [Museu do Amanhã](https://museudoamanha.org.br/)
+- [Museu Goeldi](https://www.gov.br/museugoeldi/)
+- [Museu Nacional de Belas Artes](https://pt.wikipedia.org/wiki/Museu_Nacional_de_Belas_Artes): EN: National Museum of Fine Arts
+- [Instituto Ricardo Brennand](https://www.institutoricardobrennand.org.br/)
+- [Museu do Índio](https://www.gov.br/museudoindio/)
+- [Museu da Inconfidência](https://museudainconfidencia.museus.gov.br/)
+
+## Periódicos e revistas
+
+### Periódicos acadêmicos
+
+- [The American Historical Review](https://academic.oup.com/ahr) ★
+- [Past & Present](https://academic.oup.com/past) ★
+- [Annales. Histoire, Sciences Sociales](https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales)
+- [Journal of World History](https://muse.jhu.edu/journal/112)
+- [History and Theory](https://onlinelibrary.wiley.com/journal/14682303)
+- [The English Historical Review](https://academic.oup.com/ehr)
+- [Journal of Global History](https://www.cambridge.org/core/journals/journal-of-global-history)
+- [Revista Brasileira de História (ANPUH)](https://www.scielo.br/j/rbh/) ★: EN: Brazilian Journal of History (ANPUH)
+- [Revista de História (USP)](https://www.revistas.usp.br/revhistoria)
+- [Tempo (UFF)](https://www.scielo.br/j/tem/)
+- [Varia Historia (UFMG)](https://www.scielo.br/j/vh/)
+- [Topoi (UFRJ)](https://www.scielo.br/j/topoi/)
+- [Estudos Históricos (FGV)](https://www.scielo.br/j/eh/)
+- [História (Unesp)](https://www.scielo.br/j/his/)
+
+### Revistas e sites de divulgação
+
+- [History Today](https://www.historytoday.com/) ★
+- [Smithsonian Magazine (História)](https://www.smithsonianmag.com/history/)
+- [BBC History Magazine](https://www.historyextra.com/) ★
+- [National Geographic História](https://www.nationalgeographic.com/history)
+- [History.com](https://www.history.com/)
+- [JSTOR Daily](https://daily.jstor.org/)
+- [The Public Domain Review](https://publicdomainreview.org/)
+- [Aventuras na História](https://aventurasnahistoria.com.br/) ★: EN: Aventuras na História (Brazil)
+- [Café História](https://www.cafehistoria.com.br/) ★
+- [Nexo Jornal (História)](https://www.nexojornal.com.br/)
+
+## Podcasts e vídeos
+
+### Podcasts
+
+- [Hardcore History (Dan Carlin)](https://www.dancarlin.com/hardcore-history-series/) ★
+- [The Rest Is History](https://therestishistory.com/) ★
+- [In Our Time (BBC)](https://www.bbc.co.uk/programmes/b006qykl)
+- [Revolutions (Mike Duncan)](https://revolutionspodcast.com/) ★
+- [The History of Rome](https://thehistoryofrome.typepad.com/)
+- [Fall of Civilizations](https://fallofcivilizationspodcast.com/)
+- [The History of Byzantium](https://thehistoryofbyzantium.com/)
+- [Tides of History](https://wondery.com/shows/tides-of-history/)
+- [Our Fake History](https://ourfakehistory.com/)
+- [You're Dead to Me (BBC)](https://www.bbc.co.uk/programmes/p07mdbhg)
+- [Revolushow](https://revolushow.com/) ★
+- [Escriba Café](https://www.escribacafe.com/)
+- [Fronteiras no Tempo](https://www.deviante.com.br/podcasts/fronteiras-no-tempo/)
+- [Podcast Café História](https://www.cafehistoria.com.br/)
+
+### Canais de vídeo
+
+- [Kings and Generals](https://www.youtube.com/@KingsandGenerals) ★
+- [Historia Civilis](https://www.youtube.com/@HistoriaCivilis) ★
+- [Oversimplified](https://www.youtube.com/@OverSimplified) ★
+- [Extra History](https://www.youtube.com/@extrahistory)
+- [Epic History TV](https://www.youtube.com/@EpicHistoryTV)
+- [Crash Course World History](https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9)
+- [The Great War](https://www.youtube.com/@TheGreatWar)
+- [World War Two (TimeGhost)](https://www.youtube.com/@WorldWarTwo)
+- [Fall of Civilizations (vídeos)](https://www.youtube.com/@FallofCivilizations)
+- [Invicta](https://www.youtube.com/@InvictaHistory)
+- [Toldinstone](https://www.youtube.com/@toldinstone)
+- [Buenas Ideias (Eduardo Bueno)](https://www.youtube.com/@BuenasIdeias) ★
+- [Débora Aladim](https://www.youtube.com/@deboraaladim)
+- [Nerdologia](https://www.youtube.com/@nerdologia)
+- [Leitura ObrigaHISTÓRIA](https://www.youtube.com/@icles.rodrigues) ★
+- [Se Liga Nessa História](https://www.youtube.com/@seliganessahistoriaa)
+
+## Cursos e aulas
+
+### Cursos online
+
+- [Open Yale Courses (História)](https://oyc.yale.edu/history) ★: EN: Open Yale Courses (History)
+- [MIT OpenCourseWare (História)](https://ocw.mit.edu/search/?d=History)
+- [Coursera (História)](https://www.coursera.org/browse/arts-and-humanities/history)
+- [edX (História)](https://www.edx.org/learn/history)
+- [Khan Academy: História do Mundo](https://www.khanacademy.org/humanities/world-history) ★: EN: Khan Academy: World History
+- [Big History Project](https://www.oerproject.com/big-history)
+- [World History Project (OER)](https://www.oerproject.com/world-history)
+- [The Great Courses / Wondrium (História)](https://www.wondrium.com/)
+- [Univesp TV (História)](https://www.youtube.com/@univesptv)
+
+### Recursos para ensino
+
+- [Digital Inquiry Group (antigo Stanford History Education Group)](https://inquirygroup.org/)
+- [Facing History & Ourselves](https://www.facinghistory.org/)
+- [Gilder Lehrman Institute](https://www.gilderlehrman.org/)
+- [Brasil Escola (História)](https://brasilescola.uol.com.br/historiag)
+- [Toda Matéria (História)](https://www.todamateria.com.br/historia/)
+- [Mundo Educação (História)](https://mundoeducacao.uol.com.br/historiageral)
+
+## Organizações e sociedades
+
+### Internacionais
+
+- [UNESCO: Patrimônio Mundial](https://whc.unesco.org/) ★: EN: UNESCO World Heritage
+- [American Historical Association](https://www.historians.org/) ★
+- [Royal Historical Society](https://royalhistsoc.org/)
+- [International Committee of Historical Sciences (CISH)](https://www.cish.org/)
+- [World History Association](https://www.thewha.org/)
+- [Organization of American Historians](https://www.oah.org/)
+- [Historical Association (Reino Unido)](https://www.history.org.uk/)
+
+### Brasileiras
+
+- [ANPUH (Associação Nacional de História)](https://anpuh.org.br/) ★: EN: ANPUH (Brazilian National History Association)
+- [IHGB (Instituto Histórico e Geográfico Brasileiro)](https://ihgb.org.br/) ★: EN: IHGB (Brazilian Historical and Geographical Institute)
+- [IPHAN](https://www.gov.br/iphan/) ★: EN: IPHAN (National Historic and Artistic Heritage Institute)
+- [Ibram (Instituto Brasileiro de Museus)](https://www.gov.br/museus/)
+- [Sociedade Brasileira de Estudos Clássicos](https://www.classica.org.br/)
+
+## Pré-história
+
+### Períodos
+
+- [Pré-história](https://pt.wikipedia.org/wiki/Pr%C3%A9-hist%C3%B3ria) ★: EN: Prehistory
+- [Idade da Pedra](https://pt.wikipedia.org/wiki/Idade_da_Pedra): EN: Stone Age
+- [Paleolítico](https://pt.wikipedia.org/wiki/Paleol%C3%ADtico) ★: EN: Paleolithic
+- [Mesolítico](https://pt.wikipedia.org/wiki/Mesol%C3%ADtico): EN: Mesolithic
+- [Neolítico](https://pt.wikipedia.org/wiki/Neol%C3%ADtico) ★: EN: Neolithic
+- [Revolução Neolítica](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_neol%C3%ADtica) ★: EN: Neolithic Revolution
+- [Idade do Cobre](https://pt.wikipedia.org/wiki/Idade_do_Cobre): EN: Chalcolithic
+- [Idade do Bronze](https://pt.wikipedia.org/wiki/Idade_do_Bronze) ★: EN: Bronze Age
+- [Colapso da Idade do Bronze](https://pt.wikipedia.org/wiki/Colapso_da_Idade_do_Bronze): EN: Late Bronze Age collapse
+- [Idade do Ferro](https://pt.wikipedia.org/wiki/Idade_do_Ferro): EN: Iron Age
+
+### Evolução humana
+
+- [Evolução humana](https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o_humana) ★: EN: Human evolution
+- [Australopithecus](https://pt.wikipedia.org/wiki/Australopithecus)
+- [Homo erectus](https://pt.wikipedia.org/wiki/Homo_erectus)
+- [Neandertal](https://pt.wikipedia.org/wiki/Homem_de_Neandertal) ★: EN: Neanderthal
+- [Homo sapiens](https://pt.wikipedia.org/wiki/Humano) ★: EN: Human
+- [Migrações humanas pré-históricas](https://pt.wikipedia.org/wiki/Primeiras_migra%C3%A7%C3%B5es_humanas) ★: EN: Early human migrations
+- [Luzia](https://pt.wikipedia.org/wiki/Luzia_(f%C3%B3ssil)): EN: Luzia Woman
+
+### Sítios e descobertas
+
+- [Caverna de Lascaux](https://pt.wikipedia.org/wiki/Lascaux) ★: EN: Lascaux
+- [Caverna de Chauvet](https://pt.wikipedia.org/wiki/Caverna_de_Chauvet): EN: Chauvet Cave
+- [Altamira](https://pt.wikipedia.org/wiki/Caverna_de_Altamira): EN: Cave of Altamira
+- [Göbekli Tepe](https://pt.wikipedia.org/wiki/G%C3%B6bekli_Tepe) ★
+- [Çatalhöyük](https://pt.wikipedia.org/wiki/%C3%87atalh%C3%BCy%C3%BCk)
+- [Stonehenge](https://pt.wikipedia.org/wiki/Stonehenge) ★
+- [Jericó](https://pt.wikipedia.org/wiki/Jeric%C3%B3): EN: Jericho
+- [Ötzi](https://pt.wikipedia.org/wiki/%C3%96tzi)
+- [Skara Brae](https://pt.wikipedia.org/wiki/Skara_Brae)
+- [Serra da Capivara](https://pt.wikipedia.org/wiki/Parque_Nacional_Serra_da_Capivara) ★: EN: Serra da Capivara National Park
+- [Lapa do Santo](https://pt.wikipedia.org/wiki/Lapa_do_Santo)
+
+## Antiguidade
+
+### Civilizações e impérios
+
+- [Mesopotâmia](https://pt.wikipedia.org/wiki/Mesopot%C3%A2mia) ★: EN: Mesopotamia
+- [Suméria](https://pt.wikipedia.org/wiki/Sum%C3%A9ria) ★: EN: Sumer
+- [Império Acádio](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Ac%C3%A1dio): EN: Akkadian Empire
+- [Babilônia](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_babil%C3%B4nica): EN: Babylonia
+- [Império Assírio](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Neoass%C3%ADrio): EN: Neo-Assyrian Empire
+- [Antigo Egito](https://pt.wikipedia.org/wiki/Antigo_Egito) ★: EN: Ancient Egypt
+- [Civilização do Vale do Indo](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_do_Vale_do_Indo): EN: Indus Valley Civilisation
+- [Hititas](https://pt.wikipedia.org/wiki/Hititas): EN: Hittites
+- [Fenícia](https://pt.wikipedia.org/wiki/Fen%C3%ADcia): EN: Phoenicia
+- [Antigo Israel](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Israel_e_Jud%C3%A1_antigos): EN: Ancient Israel and Judah
+- [Império Aquemênida](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Aquem%C3%AAnida) ★: EN: Achaemenid Empire
+- [Grécia Antiga](https://pt.wikipedia.org/wiki/Gr%C3%A9cia_Antiga) ★: EN: Ancient Greece
+- [Civilização minoica](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_Minoica): EN: Minoan civilization
+- [Civilização micênica](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_mic%C3%AAnica): EN: Mycenaean Greece
+- [Atenas Antiga](https://pt.wikipedia.org/wiki/Atenas_Antiga): EN: Classical Athens
+- [Esparta](https://pt.wikipedia.org/wiki/Esparta): EN: Sparta
+- [Império de Alexandre](https://pt.wikipedia.org/wiki/Maced%C3%B3nia_Antiga): EN: Macedonia
+- [Período helenístico](https://pt.wikipedia.org/wiki/Per%C3%ADodo_helen%C3%ADstico): EN: Hellenistic period
+- [Cartago](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_cartaginesa): EN: Ancient Carthage
+- [Roma Antiga](https://pt.wikipedia.org/wiki/Roma_Antiga) ★: EN: Ancient Rome
+- [República Romana](https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Romana) ★: EN: Roman Republic
+- [Império Romano](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Romano) ★: EN: Roman Empire
+- [Celtas](https://pt.wikipedia.org/wiki/Celtas): EN: Celts
+- [China Antiga](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_China): EN: History of China
+- [Dinastia Qin](https://pt.wikipedia.org/wiki/Dinastia_Chin): EN: Qin dynasty
+- [Dinastia Han](https://pt.wikipedia.org/wiki/Dinastia_Han) ★: EN: Han dynasty
+- [Império Máuria](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_M%C3%A1uria): EN: Maurya Empire
+- [Império Gupta](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Gupta): EN: Gupta Empire
+- [Reino de Cuxe](https://pt.wikipedia.org/wiki/Reino_de_Cuxe): EN: Kingdom of Kush
+- [Reino de Axum](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_de_Axum): EN: Kingdom of Aksum
+- [Império Parta](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Parta): EN: Parthian Empire
+- [Império Sassânida](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Sass%C3%A2nida): EN: Sasanian Empire
+- [Olmecas](https://pt.wikipedia.org/wiki/Olmecas): EN: Olmecs
+- [Civilização maia](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_maia) ★: EN: Maya civilization
+
+### Eventos e marcos
+
+- [Invenção da escrita](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_escrita) ★: EN: Invention of writing
+- [Código de Hamurabi](https://pt.wikipedia.org/wiki/C%C3%B3digo_de_Hamurabi) ★: EN: Code of Hammurabi
+- [Pirâmides de Gizé](https://pt.wikipedia.org/wiki/Necr%C3%B3pole_de_Giz%C3%A9) ★: EN: Giza pyramid complex
+- [Guerra de Troia](https://pt.wikipedia.org/wiki/Guerra_de_Troia): EN: Trojan War
+- [Jogos Olímpicos da Antiguidade](https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_da_Antiguidade): EN: Ancient Olympic Games
+- [Democracia ateniense](https://pt.wikipedia.org/wiki/Democracia_ateniense) ★: EN: Athenian democracy
+- [Guerras Médicas](https://pt.wikipedia.org/wiki/Guerras_M%C3%A9dicas): EN: Greco-Persian Wars
+- [Batalha das Termópilas](https://pt.wikipedia.org/wiki/Batalha_das_Term%C3%B3pilas): EN: Battle of Thermopylae
+- [Guerra do Peloponeso](https://pt.wikipedia.org/wiki/Guerra_do_Peloponeso): EN: Peloponnesian War
+- [Guerras Púnicas](https://pt.wikipedia.org/wiki/Guerras_P%C3%BAnicas) ★: EN: Punic Wars
+- [Grande Muralha da China](https://pt.wikipedia.org/wiki/Grande_Muralha_da_China) ★: EN: Great Wall of China
+- [Assassinato de Júlio César](https://pt.wikipedia.org/wiki/Assassinato_de_J%C3%BAlio_C%C3%A9sar): EN: Assassination of Julius Caesar
+- [Pax Romana](https://pt.wikipedia.org/wiki/Pax_Romana)
+- [Erupção do Vesúvio (79 d.C.)](https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%A3o_do_Ves%C3%BAvio_em_79): EN: Eruption of Mount Vesuvius in 79 AD
+- [Rota da Seda](https://pt.wikipedia.org/wiki/Rota_da_Seda) ★: EN: Silk Road
+- [Biblioteca de Alexandria](https://pt.wikipedia.org/wiki/Biblioteca_de_Alexandria): EN: Library of Alexandria
+- [Édito de Milão](https://pt.wikipedia.org/wiki/%C3%89dito_de_Mil%C3%A3o): EN: Edict of Milan
+- [Queda do Império Romano do Ocidente](https://pt.wikipedia.org/wiki/Queda_do_Imp%C3%A9rio_Romano_do_Ocidente) ★: EN: Fall of the Western Roman Empire
+
+## Idade Média
+
+### Reinos, impérios e povos
+
+- [Idade Média](https://pt.wikipedia.org/wiki/Idade_M%C3%A9dia) ★: EN: Middle Ages
+- [Império Bizantino](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Bizantino) ★: EN: Byzantine Empire
+- [Reino Franco](https://pt.wikipedia.org/wiki/Reino_Franco): EN: Francia
+- [Império Carolíngio](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Carol%C3%ADngio): EN: Carolingian Empire
+- [Sacro Império Romano-Germânico](https://pt.wikipedia.org/wiki/Sacro_Imp%C3%A9rio_Romano-Germ%C3%A2nico) ★: EN: Holy Roman Empire
+- [Vikings](https://pt.wikipedia.org/wiki/Vikings) ★
+- [Califado Rashidun](https://pt.wikipedia.org/wiki/Califado_Ortodoxo): EN: Rashidun Caliphate
+- [Califado Omíada](https://pt.wikipedia.org/wiki/Califado_Om%C3%ADada): EN: Umayyad Caliphate
+- [Califado Abássida](https://pt.wikipedia.org/wiki/Califado_Ab%C3%A1ssida) ★: EN: Abbasid Caliphate
+- [Al-Andalus](https://pt.wikipedia.org/wiki/Alandalus)
+- [Império Mongol](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Mongol) ★: EN: Mongol Empire
+- [Dinastia Tang](https://pt.wikipedia.org/wiki/Dinastia_Tang): EN: Tang dynasty
+- [Dinastia Song](https://pt.wikipedia.org/wiki/Dinastia_Sung): EN: Song dynasty
+- [Japão feudal](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Jap%C3%A3o): EN: History of Japan
+- [Império Khmer](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Quemer): EN: Khmer Empire
+- [Império do Mali](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_do_Mali) ★: EN: Mali Empire
+- [Grande Zimbábue](https://pt.wikipedia.org/wiki/Grande_Zimb%C3%A1bue): EN: Great Zimbabwe
+- [Império Otomano (origens)](https://pt.wikipedia.org/wiki/Ascens%C3%A3o_do_Imp%C3%A9rio_Otomano): EN: Rise of the Ottoman Empire
+- [Rus de Kiev](https://pt.wikipedia.org/wiki/R%C3%BAssia_de_Kiev): EN: Kievan Rus'
+- [Astecas](https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_asteca) ★: EN: Aztecs
+- [Império Inca](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Inca) ★: EN: Inca Empire
+
+### Eventos e processos
+
+- [Feudalismo](https://pt.wikipedia.org/wiki/Feudalismo) ★: EN: Feudalism
+- [Ascensão do Islã](https://pt.wikipedia.org/wiki/Expans%C3%A3o_isl%C3%A2mica): EN: Spread of Islam
+- [Era de Ouro Islâmica](https://pt.wikipedia.org/wiki/Idade_de_ouro_isl%C3%A2mica): EN: Islamic Golden Age
+- [Cisma do Oriente](https://pt.wikipedia.org/wiki/Grande_Cisma): EN: East–West Schism
+- [Cruzadas](https://pt.wikipedia.org/wiki/Cruzadas) ★: EN: Crusades
+- [Reconquista](https://pt.wikipedia.org/wiki/Reconquista)
+- [Magna Carta](https://pt.wikipedia.org/wiki/Magna_Carta) ★
+- [Peste Negra](https://pt.wikipedia.org/wiki/Peste_Negra) ★: EN: Black Death
+- [Guerra dos Cem Anos](https://pt.wikipedia.org/wiki/Guerra_dos_Cem_Anos): EN: Hundred Years' War
+- [Viagens de Marco Polo](https://pt.wikipedia.org/wiki/Marco_Polo): EN: Marco Polo
+- [Queda de Constantinopla](https://pt.wikipedia.org/wiki/Queda_de_Constantinopla) ★: EN: Fall of Constantinople
+- [Inquisição](https://pt.wikipedia.org/wiki/Inquisi%C3%A7%C3%A3o): EN: Inquisition
+
+## Idade Moderna
+
+### Eventos e processos
+
+- [Idade Moderna](https://pt.wikipedia.org/wiki/Idade_Moderna) ★: EN: Early modern period
+- [Renascimento](https://pt.wikipedia.org/wiki/Renascimento) ★: EN: Renaissance
+- [Imprensa de Gutenberg](https://pt.wikipedia.org/wiki/Prensa_m%C3%B3vel) ★: EN: Printing press
+- [Era dos Descobrimentos](https://pt.wikipedia.org/wiki/Era_dos_Descobrimentos) ★: EN: Age of Discovery
+- [Viagens de Colombo](https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus): EN: Voyages of Christopher Columbus
+- [Tratado de Tordesilhas](https://pt.wikipedia.org/wiki/Tratado_de_Tordesilhas): EN: Treaty of Tordesillas
+- [Reforma Protestante](https://pt.wikipedia.org/wiki/Reforma_Protestante) ★: EN: Reformation
+- [Contrarreforma](https://pt.wikipedia.org/wiki/Contrarreforma): EN: Counter-Reformation
+- [Conquista do Império Asteca](https://pt.wikipedia.org/wiki/Conquista_do_Imp%C3%A9rio_Asteca): EN: Spanish conquest of the Aztec Empire
+- [Conquista do Império Inca](https://pt.wikipedia.org/wiki/Queda_do_Imp%C3%A9rio_Inca): EN: Spanish conquest of the Inca Empire
+- [Intercâmbio colombiano](https://pt.wikipedia.org/wiki/Interc%C3%A2mbio_colombiano): EN: Columbian exchange
+- [Comércio atlântico de escravos](https://pt.wikipedia.org/wiki/Com%C3%A9rcio_de_escravos_no_Atl%C3%A2ntico) ★: EN: Atlantic slave trade
+- [Revolução Científica](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cient%C3%ADfica) ★: EN: Scientific Revolution
+- [Guerra dos Trinta Anos](https://pt.wikipedia.org/wiki/Guerra_dos_Trinta_Anos): EN: Thirty Years' War
+- [Paz de Vestfália](https://pt.wikipedia.org/wiki/Paz_de_Vestf%C3%A1lia): EN: Peace of Westphalia
+- [Absolutismo](https://pt.wikipedia.org/wiki/Monarquia_absoluta): EN: Absolute monarchy
+- [Mercantilismo](https://pt.wikipedia.org/wiki/Mercantilismo): EN: Mercantilism
+- [Revolução Gloriosa](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Gloriosa): EN: Glorious Revolution
+- [Iluminismo](https://pt.wikipedia.org/wiki/Iluminismo) ★: EN: Age of Enlightenment
+- [Xogunato Tokugawa](https://pt.wikipedia.org/wiki/Xogunato_Tokugawa): EN: Tokugawa shogunate
+- [Dinastia Ming](https://pt.wikipedia.org/wiki/Dinastia_Ming): EN: Ming dynasty
+- [Dinastia Qing](https://pt.wikipedia.org/wiki/Dinastia_Qing): EN: Qing dynasty
+- [Império Mogol](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Mogol): EN: Mughal Empire
+- [Império Otomano](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Otomano) ★: EN: Ottoman Empire
+- [Império Safávida](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Saf%C3%A1vida): EN: Safavid Iran
+
+## Idade Contemporânea
+
+### Revoluções e independências
+
+- [Revolução Industrial](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Industrial) ★: EN: Industrial Revolution
+- [Revolução Americana](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Americana) ★: EN: American Revolution
+- [Revolução Francesa](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa) ★: EN: French Revolution
+- [Revolução Haitiana](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Haitiana): EN: Haitian Revolution
+- [Era Napoleônica](https://pt.wikipedia.org/wiki/Primeiro_Imp%C3%A9rio_Franc%C3%AAs): EN: Napoleonic era
+- [Independências na América Latina](https://pt.wikipedia.org/wiki/Guerras_de_independ%C3%AAncia_na_Am%C3%A9rica_espanhola): EN: Spanish American wars of independence
+- [Revoluções de 1848](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%B5es_de_1848): EN: Revolutions of 1848
+- [Unificação italiana](https://pt.wikipedia.org/wiki/Risorgimento): EN: Unification of Italy
+- [Unificação alemã](https://pt.wikipedia.org/wiki/Unifica%C3%A7%C3%A3o_da_Alemanha): EN: Unification of Germany
+- [Restauração Meiji](https://pt.wikipedia.org/wiki/Restaura%C3%A7%C3%A3o_Meiji): EN: Meiji Restoration
+- [Revolução Mexicana](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Mexicana): EN: Mexican Revolution
+- [Revolução Russa](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Russa_de_1917) ★: EN: Russian Revolution
+- [Revolução Chinesa (1949)](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Comunista_Chinesa): EN: Chinese Communist Revolution
+- [Revolução Cubana](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cubana): EN: Cuban Revolution
+- [Revolução Iraniana](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Iraniana): EN: Iranian Revolution
+- [Descolonização da África](https://pt.wikipedia.org/wiki/Descoloniza%C3%A7%C3%A3o_de_%C3%81frica) ★: EN: Decolonisation of Africa
+- [Independência da Índia](https://pt.wikipedia.org/wiki/Movimento_de_independ%C3%AAncia_da_%C3%8Dndia): EN: Indian independence movement
+
+### Século XIX
+
+- [Imperialismo](https://pt.wikipedia.org/wiki/Imperialismo) ★: EN: Imperialism
+- [Partilha da África](https://pt.wikipedia.org/wiki/Partilha_de_%C3%81frica) ★: EN: Scramble for Africa
+- [Conferência de Berlim](https://pt.wikipedia.org/wiki/Confer%C3%AAncia_de_Berlim): EN: Berlin Conference
+- [Abolicionismo](https://pt.wikipedia.org/wiki/Abolicionismo): EN: Abolitionism
+- [Guerra Civil Americana](https://pt.wikipedia.org/wiki/Guerra_Civil_Americana) ★: EN: American Civil War
+- [Guerras do Ópio](https://pt.wikipedia.org/wiki/Guerras_do_%C3%B3pio): EN: Opium Wars
+- [Era Vitoriana](https://pt.wikipedia.org/wiki/Era_vitoriana): EN: Victorian era
+- [Corrida do ouro](https://pt.wikipedia.org/wiki/Febre_do_ouro): EN: Gold rush
+- [Belle Époque](https://pt.wikipedia.org/wiki/Belle_%C3%89poque)
+
+### Guerras mundiais e entreguerras
+
+- [Primeira Guerra Mundial](https://pt.wikipedia.org/wiki/Primeira_Guerra_Mundial) ★: EN: World War I
+- [Assassinato de Francisco Ferdinando](https://pt.wikipedia.org/wiki/Atentado_de_Sarajevo): EN: Assassination of Archduke Franz Ferdinand
+- [Tratado de Versalhes](https://pt.wikipedia.org/wiki/Tratado_de_Versalhes_(1919)): EN: Treaty of Versailles
+- [Gripe espanhola](https://pt.wikipedia.org/wiki/Gripe_espanhola): EN: Spanish flu
+- [Crise de 1929](https://pt.wikipedia.org/wiki/Grande_Depress%C3%A3o) ★: EN: Great Depression
+- [Fascismo](https://pt.wikipedia.org/wiki/Fascismo): EN: Fascism
+- [Nazismo](https://pt.wikipedia.org/wiki/Nazismo) ★: EN: Nazism
+- [Guerra Civil Espanhola](https://pt.wikipedia.org/wiki/Guerra_Civil_Espanhola): EN: Spanish Civil War
+- [Segunda Guerra Mundial](https://pt.wikipedia.org/wiki/Segunda_Guerra_Mundial) ★: EN: World War II
+- [Holocausto](https://pt.wikipedia.org/wiki/Holocausto) ★: EN: The Holocaust
+- [Dia D](https://pt.wikipedia.org/wiki/Desembarques_na_Normandia) ★: EN: D-Day
+- [Bombardeios de Hiroshima e Nagasaki](https://pt.wikipedia.org/wiki/Bombardeamentos_at%C3%B4micos_de_Hiroshima_e_Nagasaki) ★: EN: Atomic bombings of Hiroshima and Nagasaki
+- [Julgamentos de Nuremberg](https://pt.wikipedia.org/wiki/Julgamentos_de_Nuremberga): EN: Nuremberg trials
+
+### Guerra Fria
+
+- [Guerra Fria](https://pt.wikipedia.org/wiki/Guerra_Fria) ★: EN: Cold War
+- [Criação da ONU](https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas): EN: United Nations
+- [Plano Marshall](https://pt.wikipedia.org/wiki/Plano_Marshall): EN: Marshall Plan
+- [Partição da Índia](https://pt.wikipedia.org/wiki/Parti%C3%A7%C3%A3o_da_%C3%8Dndia): EN: Partition of India
+- [Criação do Estado de Israel](https://pt.wikipedia.org/wiki/Declara%C3%A7%C3%A3o_de_Independ%C3%AAncia_do_Estado_de_Israel): EN: Israeli Declaration of Independence
+- [Guerra da Coreia](https://pt.wikipedia.org/wiki/Guerra_da_Coreia): EN: Korean War
+- [Corrida espacial](https://pt.wikipedia.org/wiki/Corrida_espacial) ★: EN: Space Race
+- [Crise dos Mísseis de Cuba](https://pt.wikipedia.org/wiki/Crise_dos_m%C3%ADsseis_de_Cuba) ★: EN: Cuban Missile Crisis
+- [Movimento pelos direitos civis](https://pt.wikipedia.org/wiki/Movimento_dos_direitos_civis_dos_negros_nos_Estados_Unidos): EN: Civil rights movement
+- [Guerra do Vietnã](https://pt.wikipedia.org/wiki/Guerra_do_Vietn%C3%A3) ★: EN: Vietnam War
+- [Maio de 1968](https://pt.wikipedia.org/wiki/Maio_de_1968): EN: May 68
+- [Apartheid](https://pt.wikipedia.org/wiki/Apartheid)
+- [Revolução Cultural](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cultural_Chinesa): EN: Cultural Revolution
+- [Queda do Muro de Berlim](https://pt.wikipedia.org/wiki/Queda_do_Muro_de_Berlim) ★: EN: Fall of the Berlin Wall
+- [Dissolução da União Soviética](https://pt.wikipedia.org/wiki/Dissolu%C3%A7%C3%A3o_da_Uni%C3%A3o_Sovi%C3%A9tica) ★: EN: Dissolution of the Soviet Union
+
+### Mundo pós-1991
+
+- [Globalização](https://pt.wikipedia.org/wiki/Globaliza%C3%A7%C3%A3o): EN: Globalization
+- [União Europeia](https://pt.wikipedia.org/wiki/Uni%C3%A3o_Europeia): EN: European Union
+- [Genocídio de Ruanda](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_em_Ruanda): EN: Rwandan genocide
+- [Guerras Iugoslavas](https://pt.wikipedia.org/wiki/Guerra_Civil_Iugoslava): EN: Yugoslav Wars
+- [Ataques de 11 de setembro](https://pt.wikipedia.org/wiki/Ataques_de_11_de_setembro_de_2001) ★: EN: September 11 attacks
+- [Guerra do Iraque](https://pt.wikipedia.org/wiki/Guerra_do_Iraque): EN: Iraq War
+- [Crise financeira de 2008](https://pt.wikipedia.org/wiki/Crise_financeira_de_2007%E2%80%932008): EN: 2008 financial crisis
+- [Primavera Árabe](https://pt.wikipedia.org/wiki/Primavera_%C3%81rabe): EN: Arab Spring
+- [Pandemia de COVID-19](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19) ★: EN: COVID-19 pandemic
+- [Invasão russa da Ucrânia](https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_(2022%E2%80%93presente)): EN: Russo-Ukrainian war
+
+## História do Brasil
+
+### Povos originários e Colônia
+
+- [Povos indígenas do Brasil](https://pt.wikipedia.org/wiki/Povos_ind%C3%ADgenas_do_Brasil) ★: EN: Indigenous peoples in Brazil
+- [Tupis](https://pt.wikipedia.org/wiki/Tupis): EN: Tupi people
+- [Marajoara](https://pt.wikipedia.org/wiki/Marajoaras): EN: Marajoara culture
+- [Chegada dos portugueses (1500)](https://pt.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral): EN: Pedro Álvares Cabral
+- [Brasil Colônia](https://pt.wikipedia.org/wiki/Brasil_Col%C3%B4nia) ★: EN: Colonial Brazil
+- [Capitanias hereditárias](https://pt.wikipedia.org/wiki/Capitanias_do_Brasil): EN: Captaincies of Brazil
+- [Ciclo do pau-brasil](https://pt.wikipedia.org/wiki/Paubrasilia_echinata): EN: Paubrasilia
+- [Ciclo do açúcar](https://pt.wikipedia.org/wiki/Ciclo_do_a%C3%A7%C3%BAcar): EN: Brazilian sugar cycle
+- [Escravidão no Brasil](https://pt.wikipedia.org/wiki/Escravid%C3%A3o_no_Brasil) ★: EN: Slavery in Brazil
+- [Quilombo dos Palmares](https://pt.wikipedia.org/wiki/Quilombo_dos_Palmares) ★: EN: Palmares
+- [Bandeirantes](https://pt.wikipedia.org/wiki/Bandeirantes)
+- [Missões jesuíticas](https://pt.wikipedia.org/wiki/Miss%C3%B5es_jesu%C3%ADticas_na_Am%C3%A9rica): EN: Jesuit reduction
+- [Invasões holandesas](https://pt.wikipedia.org/wiki/Nova_Holanda): EN: Dutch Brazil
+- [Ciclo do ouro](https://pt.wikipedia.org/wiki/Ciclo_do_ouro): EN: Brazilian gold rush
+- [Inconfidência Mineira](https://pt.wikipedia.org/wiki/Inconfid%C3%AAncia_Mineira) ★
+- [Conjuração Baiana](https://pt.wikipedia.org/wiki/Conjura%C3%A7%C3%A3o_Baiana): EN: 1798 Revolt of the Alfaiates
+- [Chegada da família real (1808)](https://pt.wikipedia.org/wiki/Transfer%C3%AAncia_da_corte_portuguesa_para_o_Brasil) ★: EN: Transfer of the Portuguese court to Brazil
+
+### Império
+
+- [Independência do Brasil](https://pt.wikipedia.org/wiki/Independ%C3%AAncia_do_Brasil) ★: EN: Independence of Brazil
+- [Império do Brasil](https://pt.wikipedia.org/wiki/Imp%C3%A9rio_do_Brasil) ★: EN: Empire of Brazil
+- [Primeiro Reinado](https://pt.wikipedia.org/wiki/Primeiro_reinado): EN: First reign
+- [Período regencial](https://pt.wikipedia.org/wiki/Per%C3%ADodo_regencial_(Brasil)): EN: Regency period
+- [Confederação do Equador](https://pt.wikipedia.org/wiki/Confedera%C3%A7%C3%A3o_do_Equador): EN: Confederation of the Equator
+- [Cabanagem](https://pt.wikipedia.org/wiki/Cabanagem)
+- [Revolta dos Malês](https://pt.wikipedia.org/wiki/Revolta_dos_Mal%C3%AAs): EN: Malê revolt
+- [Sabinada](https://pt.wikipedia.org/wiki/Sabinada)
+- [Balaiada](https://pt.wikipedia.org/wiki/Balaiada)
+- [Revolução Farroupilha](https://pt.wikipedia.org/wiki/Guerra_dos_Farrapos): EN: Ragamuffin War
+- [Segundo Reinado](https://pt.wikipedia.org/wiki/Segundo_reinado): EN: Second reign
+- [Guerra do Paraguai](https://pt.wikipedia.org/wiki/Guerra_do_Paraguai) ★: EN: Paraguayan War
+- [Lei do Ventre Livre](https://pt.wikipedia.org/wiki/Abolicionismo_no_Brasil%23Lei_do_Ventre_Livre): EN: Rio Branco Law
+- [Lei Áurea](https://pt.wikipedia.org/wiki/Lei_%C3%81urea) ★
+- [Imigração no Brasil](https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil): EN: Immigration to Brazil
+- [Proclamação da República](https://pt.wikipedia.org/wiki/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_do_Brasil) ★: EN: Proclamation of the Republic
+
+### República
+
+- [República Velha](https://pt.wikipedia.org/wiki/Primeira_Rep%C3%BAblica_Brasileira) ★: EN: First Brazilian Republic
+- [Guerra de Canudos](https://pt.wikipedia.org/wiki/Guerra_de_Canudos) ★: EN: War of Canudos
+- [Revolta da Vacina](https://pt.wikipedia.org/wiki/Revolta_da_Vacina): EN: Vaccine Revolt
+- [Revolta da Chibata](https://pt.wikipedia.org/wiki/Revolta_da_Chibata): EN: Revolt of the Lash
+- [Guerra do Contestado](https://pt.wikipedia.org/wiki/Guerra_do_Contestado): EN: Contestado War
+- [Semana de Arte Moderna](https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna): EN: Modern Art Week
+- [Tenentismo](https://pt.wikipedia.org/wiki/Tenentismo): EN: Tenentism
+- [Coluna Prestes](https://pt.wikipedia.org/wiki/Coluna_Prestes)
+- [Revolução de 1930](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_1930) ★: EN: Revolution of 1930
+- [Era Vargas](https://pt.wikipedia.org/wiki/Era_Vargas) ★: EN: Vargas era
+- [Revolução Constitucionalista de 1932](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Constitucionalista_de_1932): EN: Constitutionalist Revolution
+- [Estado Novo](https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)) ★
+- [Força Expedicionária Brasileira](https://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira): EN: Brazilian Expeditionary Force
+- [República Populista](https://pt.wikipedia.org/wiki/Per%C3%ADodo_Populista): EN: Fourth Brazilian Republic
+- [Construção de Brasília](https://pt.wikipedia.org/wiki/Bras%C3%ADlia): EN: Brasília
+- [Golpe de 1964](https://pt.wikipedia.org/wiki/Golpe_de_Estado_no_Brasil_em_1964) ★: EN: 1964 Brazilian coup d'état
+- [Ditadura militar](https://pt.wikipedia.org/wiki/Ditadura_militar_brasileira) ★: EN: Military dictatorship in Brazil
+- [AI-5](https://pt.wikipedia.org/wiki/Ato_Institucional_n.%C2%BA_5): EN: Institutional Act Number Five
+- [Guerrilha do Araguaia](https://pt.wikipedia.org/wiki/Guerrilha_do_Araguaia): EN: Araguaia Guerrilla War
+- [Lei da Anistia](https://pt.wikipedia.org/wiki/Lei_da_Anistia)
+- [Diretas Já](https://pt.wikipedia.org/wiki/Diretas_J%C3%A1) ★
+- [Nova República](https://pt.wikipedia.org/wiki/Nova_Rep%C3%BAblica) ★: EN: History of Brazil
+- [Constituição de 1988](https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1988) ★: EN: Constitution of 1988
+- [Impeachment de Collor](https://pt.wikipedia.org/wiki/Impeachment_de_Fernando_Collor): EN: Impeachment of Fernando Collor de Mello
+- [Plano Real](https://pt.wikipedia.org/wiki/Plano_Real)
+- [Comissão Nacional da Verdade](https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade): EN: National Truth Commission
+
+## Guerras e batalhas
+
+### Batalhas decisivas
+
+- [Batalha de Maratona](https://pt.wikipedia.org/wiki/Batalha_de_Maratona): EN: Battle of Marathon
+- [Batalha de Salamina](https://pt.wikipedia.org/wiki/Batalha_de_Salamina): EN: Battle of Salamis
+- [Batalha de Gaugamela](https://pt.wikipedia.org/wiki/Batalha_de_Gaugamela): EN: Battle of Gaugamela
+- [Batalha de Canas](https://pt.wikipedia.org/wiki/Batalha_de_Canas) ★: EN: Battle of Cannae
+- [Batalha de Ácio](https://pt.wikipedia.org/wiki/Batalha_de_%C3%81ccio): EN: Battle of Actium
+- [Batalha da Floresta de Teutoburgo](https://pt.wikipedia.org/wiki/Batalha_da_Floresta_de_Teutoburgo): EN: Battle of the Teutoburg Forest
+- [Batalha de Adrianópolis](https://pt.wikipedia.org/wiki/Batalha_de_Adrian%C3%B3polis_(378)): EN: Battle of Adrianople
+- [Batalha de Tours](https://pt.wikipedia.org/wiki/Batalha_de_Poitiers_(732)): EN: Battle of Tours
+- [Batalha de Hastings](https://pt.wikipedia.org/wiki/Batalha_de_Hastings) ★: EN: Battle of Hastings
+- [Batalha de Hattin](https://pt.wikipedia.org/wiki/Batalha_de_Hatim): EN: Battle of Hattin
+- [Batalha de Agincourt](https://pt.wikipedia.org/wiki/Batalha_de_Azincourt): EN: Battle of Agincourt
+- [Batalha de Lepanto](https://pt.wikipedia.org/wiki/Batalha_de_Lepanto): EN: Battle of Lepanto
+- [Invencível Armada](https://pt.wikipedia.org/wiki/Invenc%C3%ADvel_Armada): EN: Spanish Armada
+- [Cerco de Viena (1683)](https://pt.wikipedia.org/wiki/Batalha_de_Viena): EN: Battle of Vienna
+- [Batalha de Trafalgar](https://pt.wikipedia.org/wiki/Batalha_de_Trafalgar): EN: Battle of Trafalgar
+- [Batalha de Waterloo](https://pt.wikipedia.org/wiki/Batalha_de_Waterloo) ★: EN: Battle of Waterloo
+- [Batalha de Gettysburg](https://pt.wikipedia.org/wiki/Batalha_de_Gettysburg): EN: Battle of Gettysburg
+- [Batalha do Somme](https://pt.wikipedia.org/wiki/Batalha_do_Somme): EN: Battle of the Somme
+- [Batalha de Verdun](https://pt.wikipedia.org/wiki/Batalha_de_Verdun): EN: Battle of Verdun
+- [Batalha da Inglaterra](https://pt.wikipedia.org/wiki/Batalha_da_Gr%C3%A3-Bretanha): EN: Battle of Britain
+- [Batalha de Stalingrado](https://pt.wikipedia.org/wiki/Batalha_de_Stalingrado) ★: EN: Battle of Stalingrad
+- [Batalha de Midway](https://pt.wikipedia.org/wiki/Batalha_de_Midway): EN: Battle of Midway
+- [Batalha de Monte Castello](https://pt.wikipedia.org/wiki/Batalha_de_Monte_Castello): EN: Battle of Monte Castello
+- [Batalha do Riachuelo](https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo): EN: Battle of Riachuelo
+- [Batalha de Dien Bien Phu](https://pt.wikipedia.org/wiki/Batalha_de_Dien_Bien_Phu): EN: Battle of Dien Bien Phu
+
+### Conceitos militares
+
+- [História militar](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_militar) ★: EN: Military history
+- [A Arte da Guerra](https://pt.wikipedia.org/wiki/A_Arte_da_Guerra): EN: The Art of War
+- [Falange](https://pt.wikipedia.org/wiki/Falange_(infantaria)): EN: Phalanx
+- [Legião romana](https://pt.wikipedia.org/wiki/Legi%C3%A3o_romana): EN: Roman legion
+- [Cavalaria medieval](https://pt.wikipedia.org/wiki/Cavaleiro): EN: Knight
+- [Pólvora](https://pt.wikipedia.org/wiki/P%C3%B3lvora): EN: Gunpowder
+- [Guerra de trincheiras](https://pt.wikipedia.org/wiki/Guerra_de_trincheiras): EN: Trench warfare
+- [Blitzkrieg](https://pt.wikipedia.org/wiki/Blitzkrieg)
+- [Guerra de guerrilha](https://pt.wikipedia.org/wiki/Guerrilha): EN: Guerrilla warfare
+- [Armas nucleares](https://pt.wikipedia.org/wiki/Bomba_nuclear): EN: Nuclear weapon
+
+## Áreas e conceitos da história
+
+### Áreas da história
+
+- [Historiografia](https://pt.wikipedia.org/wiki/Historiografia) ★: EN: Historiography
+- [Arqueologia](https://pt.wikipedia.org/wiki/Arqueologia) ★: EN: Archaeology
+- [História social](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_social): EN: Social history
+- [História econômica](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_economia): EN: Economic history
+- [História cultural](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_cultural): EN: Cultural history
+- [História política](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_pol%C3%ADtica): EN: Political history
+- [História das mentalidades](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_das_mentalidades): EN: History of mentalities
+- [Micro-história](https://pt.wikipedia.org/wiki/Micro-hist%C3%B3ria): EN: Microhistory
+- [História global](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_humanidade) ★: EN: Human history
+- [Big History](https://pt.wikipedia.org/wiki/Grande_Hist%C3%B3ria)
+- [História oral](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_oral): EN: Oral history
+- [História pública](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_p%C3%BAblica): EN: Public history
+- [História das mulheres](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_das_mulheres): EN: Women's history
+- [História ambiental](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_ambiental): EN: Environmental history
+- [História da ciência](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_ci%C3%AAncia): EN: History of science
+- [História da arte](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_arte_(disciplina)): EN: Art history
+- [História das religiões](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_das_religi%C3%B5es): EN: History of religion
+- [História do tempo presente](https://en.wikipedia.org/wiki/Contemporary_history): EN: Contemporary history
+- [História contrafactual](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_contrafactual): EN: Counterfactual history
+
+### Métodos e conceitos
+
+- [Fonte primária](https://pt.wikipedia.org/wiki/Fonte_prim%C3%A1ria) ★: EN: Primary source
+- [Fonte secundária](https://pt.wikipedia.org/wiki/Fonte_secund%C3%A1ria): EN: Secondary source
+- [Crítica histórica](https://pt.wikipedia.org/wiki/M%C3%A9todo_hist%C3%B3rico) ★: EN: Historical method
+- [Periodização](https://pt.wikipedia.org/wiki/Periodiza%C3%A7%C3%A3o_da_hist%C3%B3ria): EN: Periodization
+- [Anacronismo](https://pt.wikipedia.org/wiki/Anacronismo): EN: Anachronism
+- [Longa duração](https://pt.wikipedia.org/wiki/Longa_dura%C3%A7%C3%A3o): EN: Longue durée
+- [Escola dos Annales](https://pt.wikipedia.org/wiki/Escola_dos_Annales) ★: EN: Annales school
+- [Materialismo histórico](https://pt.wikipedia.org/wiki/Materialismo_hist%C3%B3rico): EN: Historical materialism
+- [Revisionismo histórico](https://pt.wikipedia.org/wiki/Revisionismo_hist%C3%B3rico): EN: Historical revisionism
+- [Negacionismo histórico](https://pt.wikipedia.org/wiki/Negacionismo_hist%C3%B3rico) ★: EN: Historical negationism
+- [Paleografia](https://pt.wikipedia.org/wiki/Paleografia): EN: Palaeography
+- [Epigrafia](https://pt.wikipedia.org/wiki/Epigrafia): EN: Epigraphy
+- [Numismática](https://pt.wikipedia.org/wiki/Numism%C3%A1tica): EN: Numismatics
+- [Datação por radiocarbono](https://pt.wikipedia.org/wiki/Data%C3%A7%C3%A3o_por_radiocarbono): EN: Radiocarbon dating
+- [Dendrocronologia](https://pt.wikipedia.org/wiki/Dendrocronologia): EN: Dendrochronology
+- [Calendário](https://pt.wikipedia.org/wiki/Calend%C3%A1rio): EN: Calendar
+- [Antes de Cristo e Depois de Cristo](https://pt.wikipedia.org/wiki/Anno_Domini): EN: Anno Domini
+- [Patrimônio cultural](https://pt.wikipedia.org/wiki/Patrim%C3%B3nio_cultural): EN: Cultural heritage
+
+## Patrimônio da Humanidade
+
+### Sítios no mundo
+
+- [Acrópole de Atenas](https://pt.wikipedia.org/wiki/Acr%C3%B3pole_de_Atenas) ★: EN: Acropolis of Athens
+- [Coliseu](https://pt.wikipedia.org/wiki/Coliseu) ★: EN: Colosseum
+- [Pompeia](https://pt.wikipedia.org/wiki/Pompeia) ★: EN: Pompeii
+- [Machu Picchu](https://pt.wikipedia.org/wiki/Machu_Picchu) ★
+- [Petra](https://pt.wikipedia.org/wiki/Petra) ★
+- [Angkor](https://pt.wikipedia.org/wiki/Angkor) ★
+- [Chichén Itzá](https://pt.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1): EN: Chichen Itza
+- [Teotihuacan](https://pt.wikipedia.org/wiki/Teotihuacan)
+- [Taj Mahal](https://pt.wikipedia.org/wiki/Taj_Mahal)
+- [Persépolis](https://pt.wikipedia.org/wiki/Pers%C3%A9polis): EN: Persepolis
+- [Exército de Terracota](https://pt.wikipedia.org/wiki/Ex%C3%A9rcito_de_terracota) ★: EN: Terracotta Army
+- [Cidade Proibida](https://pt.wikipedia.org/wiki/Cidade_Proibida): EN: Forbidden City
+- [Vale dos Reis](https://pt.wikipedia.org/wiki/Vale_dos_Reis): EN: Valley of the Kings
+- [Abu Simbel](https://pt.wikipedia.org/wiki/Abul-Simbel)
+- [Hagia Sophia](https://pt.wikipedia.org/wiki/Santa_Sofia)
+- [Ilha de Páscoa](https://pt.wikipedia.org/wiki/Ilha_de_P%C3%A1scoa): EN: Easter Island
+- [Cartago (sítio arqueológico)](https://pt.wikipedia.org/wiki/Cartago): EN: Carthage
+- [Troia](https://pt.wikipedia.org/wiki/Troia): EN: Troy
+- [Babilônia (sítio)](https://pt.wikipedia.org/wiki/Babil%C3%B3nia): EN: Babylon
+
+### Sítios no Brasil
+
+- [Centro Histórico de Ouro Preto](https://pt.wikipedia.org/wiki/Ouro_Preto) ★: EN: Historic Town of Ouro Preto
+- [Centro Histórico de Salvador](https://pt.wikipedia.org/wiki/Centro_Hist%C3%B3rico_de_Salvador) ★: EN: Historic Centre of Salvador (Pelourinho)
+- [Centro Histórico de Olinda](https://pt.wikipedia.org/wiki/Olinda): EN: Olinda
+- [Missões Jesuíticas dos Guaranis (São Miguel das Missões)](https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_das_Miss%C3%B5es): EN: São Miguel das Missões
+- [Santuário do Bom Jesus de Congonhas](https://pt.wikipedia.org/wiki/Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos): EN: Sanctuary of Bom Jesus de Matosinhos
+- [Centro Histórico de São Luís](https://pt.wikipedia.org/wiki/S%C3%A3o_Lu%C3%ADs_(Maranh%C3%A3o)): EN: São Luís, Maranhão
+- [Diamantina](https://pt.wikipedia.org/wiki/Diamantina): EN: Diamantina, Minas Gerais
+- [Cais do Valongo](https://pt.wikipedia.org/wiki/Cais_do_Valongo) ★: EN: Valongo Wharf
+- [Plano Piloto de Brasília](https://pt.wikipedia.org/wiki/Bras%C3%ADlia): EN: Brasília
+- [Parque Nacional da Serra da Capivara](https://pt.wikipedia.org/wiki/Parque_Nacional_Serra_da_Capivara): EN: Serra da Capivara National Park
+
+## Obras fundamentais
+
+### Clássicos antigos e medievais
+
+- [Histórias (Heródoto)](https://pt.wikipedia.org/wiki/Hist%C3%B3rias_(Her%C3%B3doto)) ★: EN: The Histories (Herodotus)
+- [História da Guerra do Peloponeso (Tucídides)](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_Guerra_do_Peloponeso) ★: EN: History of the Peloponnesian War (Thucydides)
+- [Anábase (Xenofonte)](https://pt.wikipedia.org/wiki/An%C3%A1base): EN: Anabasis
+- [Histórias (Políbio)](https://pt.wikipedia.org/wiki/Hist%C3%B3rias_(Pol%C3%ADbio)): EN: Histories
+- [Ab Urbe Condita (Tito Lívio)](https://pt.wikipedia.org/wiki/Ab_Urbe_condita_libri): EN: History of Rome
+- [Comentários sobre a Guerra Gálica (César)](https://pt.wikipedia.org/wiki/De_Bello_Gallico): EN: Commentarii de Bello Gallico
+- [Anais (Tácito)](https://pt.wikipedia.org/wiki/Anais_(T%C3%A1cito)): EN: Annals
+- [Vidas Paralelas (Plutarco)](https://pt.wikipedia.org/wiki/Vidas_Paralelas): EN: Parallel Lives
+- [A Vida dos Doze Césares (Suetônio)](https://pt.wikipedia.org/wiki/Vidas_dos_Doze_C%C3%A9sares): EN: The Twelve Caesars
+- [Registros do Historiador (Sima Qian)](https://pt.wikipedia.org/wiki/Registros_do_Historiador): EN: Shiji
+- [História Eclesiástica do Povo Inglês (Beda)](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_Eclesi%C3%A1stica_do_Povo_Ingl%C3%AAs): EN: Ecclesiastical History of the English People
+- [Muqaddimah (Ibn Khaldun)](https://pt.wikipedia.org/wiki/Muqaddimah) ★
+- [Crônicas (Froissart)](https://pt.wikipedia.org/wiki/Cr%C3%B4nicas_de_Froissart): EN: Froissart's Chronicles
+- [Crônica de D. João I (Fernão Lopes)](https://pt.wikipedia.org/wiki/Fern%C3%A3o_Lopes): EN: Fernão Lopes
+
+### Historiografia moderna
+
+- [Declínio e Queda do Império Romano (Gibbon)](https://pt.wikipedia.org/wiki/A_Hist%C3%B3ria_do_Decl%C3%ADnio_e_Queda_do_Imp%C3%A9rio_Romano) ★: EN: The Decline and Fall of the Roman Empire (Gibbon)
+- [A Cultura do Renascimento na Itália (Burckhardt)](https://en.wikipedia.org/wiki/The_Civilization_of_the_Renaissance_in_Italy): EN: The Civilization of the Renaissance in Italy
+- [O Antigo Regime e a Revolução (Tocqueville)](https://pt.wikipedia.org/wiki/L'Ancien_R%C3%A9gime_et_la_R%C3%A9volution): EN: The Old Regime and the Revolution
+- [O 18 de Brumário de Luís Bonaparte (Marx)](https://pt.wikipedia.org/wiki/O_18_de_Brum%C3%A1rio_de_Lu%C3%ADs_Bonaparte): EN: The Eighteenth Brumaire of Louis Bonaparte
+- [O Mediterrâneo (Braudel)](https://pt.wikipedia.org/wiki/Fernand_Braudel) ★: EN: The Mediterranean (Braudel)
+- [Apologia da História (Marc Bloch)](https://pt.wikipedia.org/wiki/Apologia_da_hist%C3%B3ria): EN: The Historian's Craft
+- [O Outono da Idade Média (Huizinga)](https://pt.wikipedia.org/wiki/O_Outono_da_Idade_M%C3%A9dia): EN: The Autumn of the Middle Ages
+- [A Formação da Classe Operária Inglesa (E. P. Thompson)](https://pt.wikipedia.org/wiki/A_Forma%C3%A7%C3%A3o_da_Classe_Oper%C3%A1ria_Inglesa): EN: The Making of the English Working Class
+- [A Era das Revoluções (Hobsbawm)](https://pt.wikipedia.org/wiki/A_Era_das_Revolu%C3%A7%C3%B5es) ★: EN: The Age of Revolution (Hobsbawm)
+- [Era dos Extremos (Hobsbawm)](https://pt.wikipedia.org/wiki/Era_dos_Extremos) ★: EN: The Age of Extremes (Hobsbawm)
+- [O Queijo e os Vermes (Ginzburg)](https://pt.wikipedia.org/wiki/O_Queijo_e_os_Vermes): EN: The Cheese and the Worms
+- [O que é História? (E. H. Carr)](https://pt.wikipedia.org/wiki/What_is_History%3F): EN: What Is History?
+- [Orientalismo (Edward Said)](https://en.wikipedia.org/wiki/Orientalism_(book)): EN: Orientalism
+- [Comunidades Imaginadas (Benedict Anderson)](https://en.wikipedia.org/wiki/Imagined_Communities): EN: Imagined Communities
+- [Ascensão e Queda do Terceiro Reich (Shirer)](https://pt.wikipedia.org/wiki/Ascens%C3%A3o_e_Queda_do_Terceiro_Reich): EN: The Rise and Fall of the Third Reich
+- [Os Canhões de Agosto (Barbara Tuchman)](https://en.wikipedia.org/wiki/The_Guns_of_August): EN: The Guns of August
+- [Ascensão e Queda das Grandes Potências (Paul Kennedy)](https://en.wikipedia.org/wiki/The_Rise_and_Fall_of_the_Great_Powers): EN: The Rise and Fall of the Great Powers
+
+### Divulgação e história global
+
+- [Armas, Germes e Aço (Jared Diamond)](https://pt.wikipedia.org/wiki/Armas,_Germes_e_A%C3%A7o_-_Os_Destinos_das_Sociedades_Humanas) ★: EN: Guns, Germs, and Steel (Jared Diamond)
+- [Colapso (Jared Diamond)](https://en.wikipedia.org/wiki/Collapse:_How_Societies_Choose_to_Fail_or_Succeed): EN: Collapse: How Societies Choose to Fail or Succeed
+- [Sapiens (Yuval Noah Harari)](https://pt.wikipedia.org/wiki/Sapiens:_Uma_Breve_Hist%C3%B3ria_da_Humanidade) ★
+- [O Despertar de Tudo (Graeber e Wengrow)](https://en.wikipedia.org/wiki/The_Dawn_of_Everything): EN: The Dawn of Everything
+- [Uma História do Povo dos Estados Unidos (Howard Zinn)](https://en.wikipedia.org/wiki/A_People's_History_of_the_United_States): EN: A People's History of the United States
+- [SPQR (Mary Beard)](https://en.wikipedia.org/wiki/SPQR:_A_History_of_Ancient_Rome): EN: SPQR: A History of Ancient Rome
+- [As Rotas da Seda (Peter Frankopan)](https://en.wikipedia.org/wiki/The_Silk_Roads): EN: The Silk Roads
+- [Por que as Nações Fracassam (Acemoglu e Robinson)](https://pt.wikipedia.org/wiki/Por_que_as_na%C3%A7%C3%B5es_fracassam): EN: Why Nations Fail
+- [Uma Breve História do Mundo (Gombrich)](https://en.wikipedia.org/wiki/A_Little_History_of_the_World): EN: A Little History of the World
+- [Os Anjos Bons da Nossa Natureza (Steven Pinker)](https://pt.wikipedia.org/wiki/The_Better_Angels_of_Our_Nature): EN: The Better Angels of Our Nature
+
+### Clássicos sobre o Brasil
+
+- [Casa-Grande & Senzala (Gilberto Freyre)](https://pt.wikipedia.org/wiki/Casa-Grande_%26_Senzala) ★: EN: The Masters and the Slaves (Gilberto Freyre)
+- [Raízes do Brasil (Sérgio Buarque de Holanda)](https://pt.wikipedia.org/wiki/Ra%C3%ADzes_do_Brasil) ★: EN: Roots of Brazil (Sérgio Buarque de Holanda)
+- [Formação do Brasil Contemporâneo (Caio Prado Jr.)](https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_do_Brasil_Contempor%C3%A2neo)
+- [Os Donos do Poder (Raymundo Faoro)](https://pt.wikipedia.org/wiki/Os_Donos_do_Poder)
+- [Os Sertões (Euclides da Cunha)](https://pt.wikipedia.org/wiki/Os_Sert%C3%B5es) ★: EN: Rebellion in the Backlands (Euclides da Cunha)
+- [O Povo Brasileiro (Darcy Ribeiro)](https://pt.wikipedia.org/wiki/O_Povo_Brasileiro)
+- [Capítulos de História Colonial (Capistrano de Abreu)](https://pt.wikipedia.org/wiki/Capistrano_de_Abreu): EN: Capistrano de Abreu
+- [Brasil: Uma Biografia (Schwarcz e Starling)](https://www.companhiadasletras.com.br/livro/9788535925661/brasil-uma-biografia)
+- [1808 (Laurentino Gomes)](https://pt.wikipedia.org/wiki/1808_(livro)): EN: 1808: The Flight of the Emperor
+- [A Ditadura Envergonhada (Elio Gaspari)](https://pt.wikipedia.org/wiki/A_Ditadura_Envergonhada)
+- [Brasil: Nunca Mais](https://pt.wikipedia.org/wiki/Brasil:_Nunca_Mais)
+
+## Historiadores
+
+### Antiguidade e Idade Média
+
+- [Heródoto](https://pt.wikipedia.org/wiki/Her%C3%B3doto) ★: EN: Herodotus
+- [Tucídides](https://pt.wikipedia.org/wiki/Tuc%C3%ADdides) ★: EN: Thucydides
+- [Xenofonte](https://pt.wikipedia.org/wiki/Xenofonte): EN: Xenophon
+- [Políbio](https://pt.wikipedia.org/wiki/Pol%C3%ADbio): EN: Polybius
+- [Tito Lívio](https://pt.wikipedia.org/wiki/Tito_L%C3%ADvio): EN: Livy
+- [Tácito](https://pt.wikipedia.org/wiki/T%C3%A1cito): EN: Tacitus
+- [Plutarco](https://pt.wikipedia.org/wiki/Plutarco): EN: Plutarch
+- [Suetônio](https://pt.wikipedia.org/wiki/Suet%C3%B3nio): EN: Suetonius
+- [Flávio Josefo](https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Josefo): EN: Josephus
+- [Sima Qian](https://pt.wikipedia.org/wiki/Sima_Qian)
+- [Procópio de Cesareia](https://pt.wikipedia.org/wiki/Proc%C3%B3pio_de_Cesareia): EN: Procopius
+- [Beda](https://pt.wikipedia.org/wiki/Beda): EN: Bede
+- [Ibn Khaldun](https://pt.wikipedia.org/wiki/Ibne_Caldune) ★
+- [Ana Comnena](https://pt.wikipedia.org/wiki/Ana_Comnena): EN: Anna Komnene
+- [Fernão Lopes](https://pt.wikipedia.org/wiki/Fern%C3%A3o_Lopes)
+
+### Modernos
+
+- [Edward Gibbon](https://pt.wikipedia.org/wiki/Edward_Gibbon) ★
+- [Leopold von Ranke](https://pt.wikipedia.org/wiki/Leopold_von_Ranke) ★
+- [Jules Michelet](https://pt.wikipedia.org/wiki/Jules_Michelet)
+- [Theodor Mommsen](https://pt.wikipedia.org/wiki/Theodor_Mommsen)
+- [Jacob Burckhardt](https://pt.wikipedia.org/wiki/Jacob_Burckhardt)
+- [Thomas Carlyle](https://pt.wikipedia.org/wiki/Thomas_Carlyle)
+- [Alexis de Tocqueville](https://pt.wikipedia.org/wiki/Alexis_de_Tocqueville)
+- [Johan Huizinga](https://pt.wikipedia.org/wiki/Johan_Huizinga)
+
+### Século XX
+
+- [Marc Bloch](https://pt.wikipedia.org/wiki/Marc_Bloch) ★ 🪦
+- [Lucien Febvre](https://pt.wikipedia.org/wiki/Lucien_Febvre) 🪦
+- [Fernand Braudel](https://pt.wikipedia.org/wiki/Fernand_Braudel) ★ 🪦
+- [Jacques Le Goff](https://pt.wikipedia.org/wiki/Jacques_Le_Goff) 🪦
+- [Georges Duby](https://pt.wikipedia.org/wiki/Georges_Duby) 🪦
+- [Arnold J. Toynbee](https://pt.wikipedia.org/wiki/Arnold_J._Toynbee) 🪦
+- [E. H. Carr](https://pt.wikipedia.org/wiki/E._H._Carr) 🪦
+- [Eric Hobsbawm](https://pt.wikipedia.org/wiki/Eric_Hobsbawm) ★ 🪦
+- [E. P. Thompson](https://pt.wikipedia.org/wiki/E._P._Thompson) 🪦
+- [Barbara Tuchman](https://pt.wikipedia.org/wiki/Barbara_W._Tuchman) 🪦: EN: Barbara W. Tuchman
+- [Howard Zinn](https://pt.wikipedia.org/wiki/Howard_Zinn) 🪦
+- [Michel Foucault](https://pt.wikipedia.org/wiki/Michel_Foucault) 🪦
+- [Philippe Ariès](https://pt.wikipedia.org/wiki/Philippe_Ari%C3%A8s) 🪦
+- [Peter Brown](https://pt.wikipedia.org/wiki/Peter_Brown)
+- [Natalie Zemon Davis](https://pt.wikipedia.org/wiki/Natalie_Zemon_Davis) 🪦
+- [Carlo Ginzburg](https://pt.wikipedia.org/wiki/Carlo_Ginzburg)
+- [Robert Darnton](https://pt.wikipedia.org/wiki/Robert_Darnton)
+
+### Contemporâneos
+
+- [Mary Beard](https://pt.wikipedia.org/wiki/Mary_Beard_(antiquista)) ★
+- [Peter Frankopan](https://en.wikipedia.org/wiki/Peter_Frankopan)
+- [Timothy Snyder](https://pt.wikipedia.org/wiki/Timothy_Snyder)
+- [Niall Ferguson](https://pt.wikipedia.org/wiki/Niall_Ferguson)
+- [Simon Schama](https://pt.wikipedia.org/wiki/Simon_Schama)
+- [Antony Beevor](https://pt.wikipedia.org/wiki/Antony_Beevor)
+- [Margaret MacMillan](https://pt.wikipedia.org/wiki/Margaret_Olwen_MacMillan)
+- [Tom Holland](https://en.wikipedia.org/wiki/Tom_Holland_(author))
+- [Yuval Noah Harari](https://pt.wikipedia.org/wiki/Yuval_Harari) ★
+- [Jared Diamond](https://pt.wikipedia.org/wiki/Jared_Diamond)
+- [David Graeber](https://pt.wikipedia.org/wiki/David_Graeber) 🪦
+- [Ian Kershaw](https://pt.wikipedia.org/wiki/Ian_Kershaw)
+- [Christopher Clark](https://en.wikipedia.org/wiki/Christopher_Clark)
+- [Anne Applebaum](https://pt.wikipedia.org/wiki/Anne_Applebaum)
+- [Orlando Figes](https://pt.wikipedia.org/wiki/Orlando_Figes)
+
+### Brasil
+
+- [Capistrano de Abreu](https://pt.wikipedia.org/wiki/Capistrano_de_Abreu)
+- [Francisco Adolfo de Varnhagen](https://pt.wikipedia.org/wiki/Francisco_Adolfo_de_Varnhagen): EN: Francisco Adolfo de Varnhagen, Viscount of Porto Seguro
+- [Gilberto Freyre](https://pt.wikipedia.org/wiki/Gilberto_Freire) ★ 🪦
+- [Sérgio Buarque de Holanda](https://pt.wikipedia.org/wiki/S%C3%A9rgio_Buarque_de_Holanda) ★ 🪦
+- [Caio Prado Júnior](https://pt.wikipedia.org/wiki/Caio_Prado_J%C3%BAnior) 🪦
+- [Raymundo Faoro](https://pt.wikipedia.org/wiki/Raymundo_Faoro) 🪦
+- [Boris Fausto](https://pt.wikipedia.org/wiki/Boris_Fausto) ★ 🪦
+- [José Murilo de Carvalho](https://pt.wikipedia.org/wiki/Jos%C3%A9_Murilo_de_Carvalho) 🪦
+- [Emília Viotti da Costa](https://pt.wikipedia.org/wiki/Em%C3%ADlia_Viotti_da_Costa) 🪦
+- [Fernando Novais](https://pt.wikipedia.org/wiki/Fernando_Novais)
+- [Laura de Mello e Souza](https://pt.wikipedia.org/wiki/Laura_de_Mello_e_Souza)
+- [Lilia Moritz Schwarcz](https://pt.wikipedia.org/wiki/Lilia_Schwarcz) ★
+- [Heloisa Starling](https://pt.wikipedia.org/wiki/Helo%C3%ADsa_Starling)
+- [Mary del Priore](https://pt.wikipedia.org/wiki/Mary_Del_Priore)
+- [João José Reis](https://pt.wikipedia.org/wiki/Jo%C3%A3o_Jos%C3%A9_Reis)
+- [Luiz Felipe de Alencastro](https://pt.wikipedia.org/wiki/Luiz_Felipe_de_Alencastro)
+- [Ronaldo Vainfas](https://pt.wikipedia.org/wiki/Ronaldo_Vainfas)
+- [Daniel Aarão Reis](https://pt.wikipedia.org/wiki/Daniel_Aar%C3%A3o_Reis)
+
+## Personalidades históricas
+
+### Antiguidade
+
+- [Hamurabi](https://pt.wikipedia.org/wiki/Hamurabi): EN: Hammurabi
+- [Ramsés II](https://pt.wikipedia.org/wiki/Ramess%C3%A9s_II) ★: EN: Ramesses II
+- [Cleópatra](https://pt.wikipedia.org/wiki/Cle%C3%B3patra) ★: EN: Cleopatra
+- [Ciro, o Grande](https://pt.wikipedia.org/wiki/Ciro_II): EN: Cyrus the Great
+- [Alexandre, o Grande](https://pt.wikipedia.org/wiki/Alexandre,_o_Grande) ★: EN: Alexander the Great
+- [Péricles](https://pt.wikipedia.org/wiki/P%C3%A9ricles): EN: Pericles
+- [Aníbal](https://pt.wikipedia.org/wiki/An%C3%ADbal): EN: Hannibal
+- [Júlio César](https://pt.wikipedia.org/wiki/J%C3%BAlio_C%C3%A9sar) ★: EN: Julius Caesar
+- [Augusto](https://pt.wikipedia.org/wiki/Augusto): EN: Augustus
+- [Constantino](https://pt.wikipedia.org/wiki/Constantino): EN: Constantine the Great
+- [Qin Shi Huang](https://pt.wikipedia.org/wiki/Qin_Shihuang)
+- [Asoka](https://pt.wikipedia.org/wiki/A%C3%A7oca): EN: Ashoka
+- [Spartacus](https://pt.wikipedia.org/wiki/Esp%C3%A1rtaco)
+
+### Idade Média
+
+- [Justiniano](https://pt.wikipedia.org/wiki/Justiniano_I): EN: Justinian I
+- [Maomé](https://pt.wikipedia.org/wiki/Maom%C3%A9): EN: Muhammad
+- [Carlos Magno](https://pt.wikipedia.org/wiki/Carlos_Magno) ★: EN: Charlemagne
+- [Gengis Khan](https://pt.wikipedia.org/wiki/Gengis_Khan) ★: EN: Genghis Khan
+- [Saladino](https://pt.wikipedia.org/wiki/Saladino): EN: Saladin
+- [Joana d'Arc](https://pt.wikipedia.org/wiki/Joana_d'Arc) ★: EN: Joan of Arc
+- [Mansa Musa](https://pt.wikipedia.org/wiki/Mansa_Mu%C3%A7a)
+- [Marco Polo](https://pt.wikipedia.org/wiki/Marco_Polo)
+- [Leonor da Aquitânia](https://pt.wikipedia.org/wiki/Leonor_da_Aquit%C3%A2nia): EN: Eleanor of Aquitaine
+- [Ricardo Coração de Leão](https://pt.wikipedia.org/wiki/Ricardo_I_de_Inglaterra): EN: Richard I of England
+
+### Idade Moderna
+
+- [Leonardo da Vinci](https://pt.wikipedia.org/wiki/Leonardo_da_Vinci)
+- [Cristóvão Colombo](https://pt.wikipedia.org/wiki/Crist%C3%B3v%C3%A3o_Colombo) ★: EN: Christopher Columbus
+- [Vasco da Gama](https://pt.wikipedia.org/wiki/Vasco_da_Gama)
+- [Pedro Álvares Cabral](https://pt.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral) ★
+- [Fernão de Magalhães](https://pt.wikipedia.org/wiki/Fern%C3%A3o_de_Magalh%C3%A3es): EN: Ferdinand Magellan
+- [Martinho Lutero](https://pt.wikipedia.org/wiki/Martinho_Lutero) ★: EN: Martin Luther
+- [Hernán Cortés](https://pt.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s)
+- [Moctezuma II](https://pt.wikipedia.org/wiki/Moctezuma_II)
+- [Atahualpa](https://pt.wikipedia.org/wiki/Atahualpa)
+- [Elizabeth I](https://pt.wikipedia.org/wiki/Isabel_I_de_Inglaterra)
+- [Solimão, o Magnífico](https://pt.wikipedia.org/wiki/Solim%C3%A3o,_o_Magn%C3%ADfico): EN: Suleiman the Magnificent
+- [Luís XIV](https://pt.wikipedia.org/wiki/Lu%C3%ADs_XIV_de_Fran%C3%A7a): EN: Louis XIV
+- [Galileu Galilei](https://pt.wikipedia.org/wiki/Galileu_Galilei): EN: Galileo Galilei
+- [Pedro, o Grande](https://pt.wikipedia.org/wiki/Pedro_I_da_R%C3%BAssia): EN: Peter the Great
+- [Rainha Nzinga](https://pt.wikipedia.org/wiki/Mwene_Nzinga_Mbandi): EN: Nzinga of Ndongo and Matamba
+
+### Idade Contemporânea
+
+- [George Washington](https://pt.wikipedia.org/wiki/George_Washington)
+- [Napoleão Bonaparte](https://pt.wikipedia.org/wiki/Napole%C3%A3o_Bonaparte) ★: EN: Napoleon
+- [Simón Bolívar](https://pt.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar)
+- [Toussaint Louverture](https://pt.wikipedia.org/wiki/Toussaint_Louverture)
+- [Abraham Lincoln](https://pt.wikipedia.org/wiki/Abraham_Lincoln) ★
+- [Rainha Vitória](https://pt.wikipedia.org/wiki/Vit%C3%B3ria_do_Reino_Unido): EN: Queen Victoria
+- [Otto von Bismarck](https://pt.wikipedia.org/wiki/Otto_von_Bismarck)
+- [Lênin](https://pt.wikipedia.org/wiki/Lenin): EN: Vladimir Lenin
+- [Winston Churchill](https://pt.wikipedia.org/wiki/Winston_Churchill) ★
+- [Franklin D. Roosevelt](https://pt.wikipedia.org/wiki/Franklin_D._Roosevelt)
+- [Adolf Hitler](https://pt.wikipedia.org/wiki/Adolf_Hitler)
+- [Josef Stalin](https://pt.wikipedia.org/wiki/Josef_Stalin): EN: Joseph Stalin
+- [Mao Tsé-Tung](https://pt.wikipedia.org/wiki/Mao_Ts%C3%A9-Tung): EN: Mao Zedong
+- [Mahatma Gandhi](https://pt.wikipedia.org/wiki/Mahatma_Gandhi) ★
+- [Martin Luther King Jr.](https://pt.wikipedia.org/wiki/Martin_Luther_King_Jr.)
+- [Nelson Mandela](https://pt.wikipedia.org/wiki/Nelson_Mandela) ★
+- [Mikhail Gorbachev](https://pt.wikipedia.org/wiki/Mikhail_Gorbatchov)
+
+### Brasil
+
+- [Zumbi dos Palmares](https://pt.wikipedia.org/wiki/Zumbi_dos_Palmares) ★: EN: Zumbi
+- [Dandara](https://pt.wikipedia.org/wiki/Dandara_dos_Palmares): EN: Dandara dos Palmares
+- [Tiradentes](https://pt.wikipedia.org/wiki/Tiradentes) ★
+- [Dom João VI](https://pt.wikipedia.org/wiki/Jo%C3%A3o_VI_de_Portugal): EN: John VI of Portugal
+- [Dom Pedro I](https://pt.wikipedia.org/wiki/Pedro_I_do_Brasil) ★: EN: Pedro I of Brazil
+- [Maria Leopoldina](https://pt.wikipedia.org/wiki/Maria_Leopoldina_da_%C3%81ustria): EN: Maria Leopoldina of Austria
+- [José Bonifácio](https://pt.wikipedia.org/wiki/Jos%C3%A9_Bonif%C3%A1cio_de_Andrada_e_Silva): EN: José Bonifácio de Andrada e Silva
+- [Dom Pedro II](https://pt.wikipedia.org/wiki/Pedro_II_do_Brasil) ★: EN: Pedro II of Brazil
+- [Princesa Isabel](https://pt.wikipedia.org/wiki/Isabel,_Princesa_Imperial_do_Brasil): EN: Isabel, Princess Imperial of Brazil
+- [Duque de Caxias](https://pt.wikipedia.org/wiki/Lu%C3%ADs_Alves_de_Lima_e_Silva): EN: Luís Alves de Lima e Silva, Duke of Caxias
+- [Anita Garibaldi](https://pt.wikipedia.org/wiki/Anita_Garibaldi)
+- [Luís Gama](https://pt.wikipedia.org/wiki/Luiz_Gama)
+- [André Rebouças](https://pt.wikipedia.org/wiki/Andr%C3%A9_Rebou%C3%A7as)
+- [Joaquim Nabuco](https://pt.wikipedia.org/wiki/Joaquim_Nabuco)
+- [Marechal Deodoro da Fonseca](https://pt.wikipedia.org/wiki/Deodoro_da_Fonseca): EN: Deodoro da Fonseca
+- [Antônio Conselheiro](https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Conselheiro)
+- [Marechal Rondon](https://pt.wikipedia.org/wiki/C%C3%A2ndido_Rondon): EN: Cândido Rondon
+- [Getúlio Vargas](https://pt.wikipedia.org/wiki/Get%C3%BAlio_Vargas) ★
+- [Luís Carlos Prestes](https://pt.wikipedia.org/wiki/Lu%C3%ADs_Carlos_Prestes)
+- [Juscelino Kubitschek](https://pt.wikipedia.org/wiki/Juscelino_Kubitschek)
+- [Ulysses Guimarães](https://pt.wikipedia.org/wiki/Ulysses_Guimar%C3%A3es)
+
+## Filmes, séries e documentários
+
+### Documentários e séries documentais
+
+- [The World at War (1973)](https://pt.wikipedia.org/wiki/The_World_at_War) ★: EN: The World at War
+- [The Civil War (Ken Burns)](https://en.wikipedia.org/wiki/The_Civil_War_(miniseries)): EN: The Civil War
+- [The Vietnam War (Ken Burns)](https://en.wikipedia.org/wiki/The_Vietnam_War_(TV_series)): EN: The Vietnam War
+- [Shoah (Claude Lanzmann)](https://en.wikipedia.org/wiki/Shoah_(film)) ★: EN: Shoah
+- [Noite e Neblina](https://pt.wikipedia.org/wiki/Nuit_et_brouillard): EN: Night and Fog
+- [Apocalypse: A Segunda Guerra Mundial](https://pt.wikipedia.org/wiki/Apocalypse,_la_2e_Guerre_mondiale): EN: Apocalypse: The Second World War
+- [They Shall Not Grow Old](https://pt.wikipedia.org/wiki/They_Shall_Not_Grow_Old)
+- [Civilisation (Kenneth Clark)](https://pt.wikipedia.org/wiki/Civilisation_(s%C3%A9rie_de_document%C3%A1rio)): EN: Civilisation
+- [Cosmos (Carl Sagan)](https://pt.wikipedia.org/wiki/Cosmos): EN: Cosmos: A Personal Voyage
+- [Cabra Marcado para Morrer](https://pt.wikipedia.org/wiki/Cabra_Marcado_para_Morrer) ★: EN: Twenty Years Later (Cabra Marcado para Morrer)
+- [Jango (Silvio Tendler)](https://pt.wikipedia.org/wiki/Jango_(desambigua%C3%A7%C3%A3o)): EN: Jango
+- [O Dia que Durou 21 Anos](https://pt.wikipedia.org/wiki/O_Dia_Que_Durou_21_Anos)
+- [Democracia em Vertigem](https://pt.wikipedia.org/wiki/Democracia_em_Vertigem): EN: The Edge of Democracy
+
+### Filmes históricos
+
+- [A Lista de Schindler](https://pt.wikipedia.org/wiki/A_Lista_de_Schindler) ★: EN: Schindler's List
+- [O Resgate do Soldado Ryan](https://pt.wikipedia.org/wiki/O_Resgate_do_Soldado_Ryan): EN: Saving Private Ryan
+- [O Pianista](https://pt.wikipedia.org/wiki/O_Pianista): EN: The Pianist
+- [Lawrence da Arábia](https://pt.wikipedia.org/wiki/Lawrence_da_Ar%C3%A1bia_(filme)): EN: Lawrence of Arabia
+- [Spartacus (1960)](https://pt.wikipedia.org/wiki/Spartacus_(filme)): EN: Spartacus
+- [Gandhi (1982)](https://pt.wikipedia.org/wiki/Gandhi_(filme)): EN: Gandhi
+- [12 Anos de Escravidão](https://pt.wikipedia.org/wiki/12_Years_a_Slave): EN: 12 Years a Slave
+- [Nada de Novo no Front](https://pt.wikipedia.org/wiki/Im_Westen_nichts_Neues_(filme)): EN: All Quiet on the Western Front
+- [1917](https://pt.wikipedia.org/wiki/1917_(filme))
+- [Oppenheimer](https://pt.wikipedia.org/wiki/Oppenheimer_(filme)) ★
+- [A Queda: As Últimas Horas de Hitler](https://pt.wikipedia.org/wiki/Der_Untergang): EN: Downfall
+- [Apocalypto](https://pt.wikipedia.org/wiki/Apocalypto)
+- [Carlota Joaquina, Princesa do Brazil](https://pt.wikipedia.org/wiki/Carlota_Joaquina,_Princesa_do_Brazil): EN: Carlota Joaquina, Princess of Brazil
+- [Guerra de Canudos (1997)](https://pt.wikipedia.org/wiki/Guerra_de_Canudos_(filme))
+- [O Que É Isso, Companheiro?](https://pt.wikipedia.org/wiki/O_Que_%C3%89_Isso,_Companheiro%3F_(filme)): EN: Four Days in September
+- [Zuzu Angel](https://pt.wikipedia.org/wiki/Zuzu_Angel_(filme))
+- [Ainda Estou Aqui](https://pt.wikipedia.org/wiki/Ainda_Estou_Aqui_(filme_de_2024)) ★: EN: I'm Still Here
+- [Marighella](https://pt.wikipedia.org/wiki/Marighella_(2019))
+- [Independência ou Morte](https://pt.wikipedia.org/wiki/Independ%C3%AAncia_ou_Morte_(Pedro_Am%C3%A9rico)): EN: Independence or Death
+
+### Séries de ficção histórica
+
+- [Roma (HBO)](https://pt.wikipedia.org/wiki/Roma_(s%C3%A9rie)): EN: Rome
+- [The Crown](https://pt.wikipedia.org/wiki/The_Crown)
+- [Chernobyl](https://pt.wikipedia.org/wiki/Chernobyl_(miniss%C3%A9rie)) ★
+- [Band of Brothers](https://pt.wikipedia.org/wiki/Band_of_Brothers)
+- [Xógum](https://pt.wikipedia.org/wiki/Sh%C5%8Dgun_(s%C3%A9rie_de_televis%C3%A3o)): EN: Shōgun
+- [Vikings (série)](https://pt.wikipedia.org/wiki/Vikings_(s%C3%A9rie_de_televis%C3%A3o)): EN: Vikings
+- [Os Bórgias](https://pt.wikipedia.org/wiki/The_Borgias): EN: The Borgias
+- [Hilda Furacão](https://pt.wikipedia.org/wiki/Hilda_Furac%C3%A3o_(miniss%C3%A9rie))
+- [Anos Rebeldes](https://pt.wikipedia.org/wiki/Anos_Rebeldes)
+- [Os Maias](https://pt.wikipedia.org/wiki/Os_Maias_(miniss%C3%A9rie))
+
+## Divulgadores
+
+### Internacionais
+
+- [Dan Carlin](https://en.wikipedia.org/wiki/Dan_Carlin) ★
+- [Mike Duncan](https://en.wikipedia.org/wiki/Mike_Duncan_(podcaster))
+- [Dominic Sandbrook](https://en.wikipedia.org/wiki/Dominic_Sandbrook)
+- [Bettany Hughes](https://pt.wikipedia.org/wiki/Bettany_Hughes)
+- [Lucy Worsley](https://en.wikipedia.org/wiki/Lucy_Worsley)
+- [Dan Snow](https://en.wikipedia.org/wiki/Dan_Snow)
+- [Ken Burns](https://en.wikipedia.org/wiki/Ken_Burns) ★
+- [David Attenborough (história natural)](https://pt.wikipedia.org/wiki/David_Attenborough): EN: David Attenborough
+- [Greg Jenner](https://en.wikipedia.org/wiki/Greg_Jenner)
+
+### Brasil
+
+- [Eduardo Bueno](https://pt.wikipedia.org/wiki/Eduardo_Bueno) ★
+- [Laurentino Gomes](https://pt.wikipedia.org/wiki/Laurentino_Gomes) ★
+- [Leandro Karnal](https://pt.wikipedia.org/wiki/Leandro_Karnal) ★
+- [Icles Rodrigues (Leitura ObrigaHISTÓRIA)](https://www.youtube.com/@icles.rodrigues)
+- [Débora Aladim](https://www.youtube.com/@deboraaladim)
+- [Elio Gaspari](https://pt.wikipedia.org/wiki/Elio_Gaspari)
+- [Jorge Caldeira](https://pt.wikipedia.org/wiki/Jorge_Caldeira)

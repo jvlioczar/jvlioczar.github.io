@@ -1,0 +1,1146 @@
+# A Biblioteca de Mídia Impressa
+
+> Catálogo pesquisável de mídia impressa: conceitos de editoração, tipos de impressos, formatos de arquivo, softwares, produção gráfica, editoras, revistas, jornais, designers, pessoas e história.
+
+Biblioteca temática da BiblioVerse (The Print Media Library), com curadoria humana. Página: https://biblioverse.org/print/ · 915 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Layout e página
+
+- [Diagramação (layout de página)](https://en.wikipedia.org/wiki/Page_layout) ★
+- [Editoração eletrônica](https://en.wikipedia.org/wiki/Desktop_publishing) ★
+- [Hierarquia visual](https://en.wikipedia.org/wiki/Visual_hierarchy) ★
+- [Grid](https://en.wikipedia.org/wiki/Grid_(graphic_design)) ★
+- [Página mestre (página-pai)](https://helpx.adobe.com/indesign/using/parent-pages.html)
+- [Página dupla (spread)](https://en.wikipedia.org/wiki/Centerfold)
+- [Margem](https://en.wikipedia.org/wiki/Margin_(typography))
+- [Coluna](https://en.wikipedia.org/wiki/Column_(typography))
+- [Sangria](https://en.wikipedia.org/wiki/Bleed_(printing)) ★
+- [Marcas de corte](https://en.wikipedia.org/wiki/Crop_marks)
+- [Espaço em branco](https://en.wikipedia.org/wiki/White_space_(visual_arts))
+- [Fólio (número de página)](https://en.wikipedia.org/wiki/Page_numbering)
+- [Cabeçalho e rodapé](https://en.wikipedia.org/wiki/Page_header)
+- [Design editorial](https://en.wikipedia.org/wiki/Editorial_design)
+
+### Texto e tipografia
+
+- [Tipografia](https://en.wikipedia.org/wiki/Typography) ★
+- [Fonte tipográfica](https://en.wikipedia.org/wiki/Font)
+- [Serifa](https://en.wikipedia.org/wiki/Serif)
+- [Ponto tipográfico (corpo)](https://en.wikipedia.org/wiki/Point_(typography))
+- [Entrelinha](https://en.wikipedia.org/wiki/Leading) ★
+- [Kerning](https://en.wikipedia.org/wiki/Kerning) ★
+- [Tracking (espaçamento entre letras)](https://en.wikipedia.org/wiki/Letter_spacing)
+- [Alinhamento e justificação](https://en.wikipedia.org/wiki/Typographic_alignment)
+- [Hifenização](https://en.wikipedia.org/wiki/Syllabification)
+- [Parágrafo](https://en.wikipedia.org/wiki/Paragraph)
+- [Quebra de linha](https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap)
+- [Quebra de página](https://en.wikipedia.org/wiki/Page_break)
+- [Viúvas e órfãs](https://en.wikipedia.org/wiki/Widows_and_orphans) ★
+- [Caminho de rato (rios)](https://en.wikipedia.org/wiki/River_(typography))
+- [Capitular](https://en.wikipedia.org/wiki/Initial)
+- [Versalete](https://en.wikipedia.org/wiki/Small_caps)
+- [Legibilidade](https://en.wikipedia.org/wiki/Legibility)
+- [Leiturabilidade](https://en.wikipedia.org/wiki/Readability)
+
+### Elementos editoriais
+
+- [Título e manchete](https://en.wikipedia.org/wiki/Headline) ★
+- [Subtítulo e linha fina](https://en.wikipedia.org/wiki/Subtitle)
+- [Olho de matéria (pull quote)](https://en.wikipedia.org/wiki/Pull_quote) ★
+- [Lide](https://en.wikipedia.org/wiki/Lead_paragraph)
+- [Bloco de texto (corpo)](https://en.wikipedia.org/wiki/Body_text)
+- [Intertítulo](https://en.wikipedia.org/wiki/Subheading)
+- [Legenda](https://en.wikipedia.org/wiki/Caption_(text))
+- [Crédito (byline)](https://en.wikipedia.org/wiki/Byline)
+- [Box (sidebar)](https://en.wikipedia.org/wiki/Sidebar_(publishing))
+- [Imagem e ilustração](https://en.wikipedia.org/wiki/Illustration)
+- [Infográfico](https://en.wikipedia.org/wiki/Infographic)
+- [Capa](https://en.wikipedia.org/wiki/Book_cover)
+- [Lombada](https://en.wikipedia.org/wiki/Spine_(bookbinding)) ★
+- [Orelha (sobrecapa)](https://en.wikipedia.org/wiki/Dust_jacket)
+- [Folha de rosto](https://en.wikipedia.org/wiki/Title_page)
+- [Sumário](https://en.wikipedia.org/wiki/Table_of_contents)
+- [Expediente (masthead)](https://en.wikipedia.org/wiki/Masthead_(publishing))
+- [Colofão](https://en.wikipedia.org/wiki/Colophon_(publishing))
+- [Editorial](https://en.wikipedia.org/wiki/Editorial)
+- [Anúncio](https://en.wikipedia.org/wiki/Advertising)
+
+### Cor e imagem
+
+- [Cor](https://en.wikipedia.org/wiki/Color)
+- [Paleta de cores](https://en.wikipedia.org/wiki/Palette_(computing))
+- [RGB](https://en.wikipedia.org/wiki/RGB_color_model) ★
+- [CMYK](https://en.wikipedia.org/wiki/CMYK_color_model) ★
+- [Pantone](https://en.wikipedia.org/wiki/Pantone)
+- [Cor especial (spot color)](https://en.wikipedia.org/wiki/Spot_color)
+- [Perfil de cor (ICC)](https://en.wikipedia.org/wiki/ICC_profile)
+- [DPI](https://en.wikipedia.org/wiki/Dots_per_inch) ★
+- [PPI](https://en.wikipedia.org/wiki/Pixel_density)
+- [Lineatura (LPI)](https://en.wikipedia.org/wiki/Lines_per_inch)
+- [Retícula (meio-tom)](https://en.wikipedia.org/wiki/Halftone)
+- [Imagem vetorial](https://en.wikipedia.org/wiki/Vector_graphics)
+- [Imagem bitmap](https://en.wikipedia.org/wiki/Raster_graphics)
+- [Sobreimpressão](https://en.wikipedia.org/wiki/Overprinting)
+- [Trapping](https://en.wikipedia.org/wiki/Trap_(printing))
+
+### Papel e acabamento
+
+- [Tamanho de papel](https://en.wikipedia.org/wiki/Paper_size) ★
+- [Série A (ISO 216)](https://en.wikipedia.org/wiki/ISO_216)
+- [Formato carta](https://en.wikipedia.org/wiki/Letter_(paper_size))
+- [Gramatura](https://en.wikipedia.org/wiki/Grammage)
+- [Papel couché](https://en.wikipedia.org/wiki/Coated_paper)
+- [Papel jornal](https://en.wikipedia.org/wiki/Newsprint)
+- [Encadernação](https://en.wikipedia.org/wiki/Bookbinding) ★
+- [Capa dura](https://en.wikipedia.org/wiki/Hardcover)
+- [Brochura (capa mole)](https://en.wikipedia.org/wiki/Paperback)
+- [Grampo canoa](https://en.wikipedia.org/wiki/Saddle_stitch)
+- [Imposição](https://en.wikipedia.org/wiki/Imposition)
+- [Faca especial](https://en.wikipedia.org/wiki/Die_cutting_(web))
+- [Hot stamping](https://en.wikipedia.org/wiki/Hot_stamping)
+- [Relevo](https://en.wikipedia.org/wiki/Embossing_(paper))
+- [Laminação](https://en.wikipedia.org/wiki/Lamination)
+
+### Impressão e produção
+
+- [Impressão](https://en.wikipedia.org/wiki/Printing) ★
+- [Gráfica (indústria gráfica)](https://en.wikipedia.org/wiki/Printing_industry)
+- [Impressão offset](https://en.wikipedia.org/wiki/Offset_printing) ★
+- [Impressão digital](https://en.wikipedia.org/wiki/Digital_printing)
+- [Rotogravura](https://en.wikipedia.org/wiki/Rotogravure)
+- [Flexografia](https://en.wikipedia.org/wiki/Flexography)
+- [Serigrafia](https://en.wikipedia.org/wiki/Screen_printing)
+- [Tipografia (letterpress)](https://en.wikipedia.org/wiki/Letterpress_printing)
+- [Risografia](https://en.wikipedia.org/wiki/Risograph)
+- [Pré-impressão](https://en.wikipedia.org/wiki/Prepress)
+- [Computer-to-plate (CTP)](https://en.wikipedia.org/wiki/Computer-to-plate)
+- [Prova de cor](https://en.wikipedia.org/wiki/Prepress_proofing)
+- [Tiragem](https://en.wikipedia.org/wiki/Print_run)
+- [Impressão sob demanda](https://en.wikipedia.org/wiki/Print_on_demand)
+- [Impressora](https://en.wikipedia.org/wiki/Printer_(computing))
+
+## Tipos de impressos
+
+### Periódicos
+
+- [Jornal](https://en.wikipedia.org/wiki/Newspaper) ★
+- [Revista](https://en.wikipedia.org/wiki/Magazine) ★
+- [Formato standard (broadsheet)](https://en.wikipedia.org/wiki/Broadsheet)
+- [Formato tabloide](https://en.wikipedia.org/wiki/Tabloid_(newspaper_format))
+- [Formato berliner](https://en.wikipedia.org/wiki/Berliner_(format))
+- [Fanzine](https://en.wikipedia.org/wiki/Fanzine)
+- [Zine](https://en.wikipedia.org/wiki/Zine)
+- [Newsletter](https://en.wikipedia.org/wiki/Newsletter)
+- [Almanaque](https://en.wikipedia.org/wiki/Almanac)
+- [Revista em quadrinhos](https://en.wikipedia.org/wiki/Comic_book)
+
+### Livros
+
+- [Livro](https://en.wikipedia.org/wiki/Book) ★
+- [Livro de bolso](https://en.wikipedia.org/wiki/Pocket_book)
+- [Livro ilustrado](https://en.wikipedia.org/wiki/Picture_book)
+- [Livro de arte (coffee table book)](https://en.wikipedia.org/wiki/Coffee_table_book)
+- [Fotolivro](https://en.wikipedia.org/wiki/Photo-book)
+- [Romance gráfico](https://en.wikipedia.org/wiki/Graphic_novel)
+- [Mangá](https://en.wikipedia.org/wiki/Manga)
+- [Enciclopédia](https://en.wikipedia.org/wiki/Encyclopedia)
+- [Dicionário](https://en.wikipedia.org/wiki/Dictionary)
+- [Livro de artista](https://en.wikipedia.org/wiki/Artist%27s_book)
+
+### Peças promocionais
+
+- [Pôster (cartaz)](https://en.wikipedia.org/wiki/Poster) ★
+- [Flyer (panfleto)](https://en.wikipedia.org/wiki/Flyer_(pamphlet)) ★
+- [Folder](https://en.wikipedia.org/wiki/Pamphlet)
+- [Brochura](https://en.wikipedia.org/wiki/Brochure)
+- [Catálogo](https://en.wikipedia.org/wiki/Catalog)
+- [Cartão de visita](https://en.wikipedia.org/wiki/Business_card)
+- [Cartão-postal](https://en.wikipedia.org/wiki/Postcard)
+- [Mala direta](https://en.wikipedia.org/wiki/Advertising_mail)
+- [Calendário](https://en.wikipedia.org/wiki/Calendar)
+- [Rótulo](https://en.wikipedia.org/wiki/Label)
+- [Papelaria (estacionário)](https://en.wikipedia.org/wiki/Stationery)
+
+## Formatos de arquivo
+
+### Publicados
+
+- [PDF](https://en.wikipedia.org/wiki/PDF) ★
+- [PDF/X](https://en.wikipedia.org/wiki/PDF/X) ★
+- [PDF/A](https://en.wikipedia.org/wiki/PDF/A)
+- [EPUB](https://en.wikipedia.org/wiki/EPUB) ★
+- [MOBI](https://en.wikipedia.org/wiki/Mobipocket) 🪦
+- [KF8 / AZW3 (Kindle)](https://en.wikipedia.org/wiki/Kindle_File_Format)
+- [CBZ / CBR (quadrinhos)](https://en.wikipedia.org/wiki/Comic_book_archive)
+- [DjVu](https://en.wikipedia.org/wiki/DjVu)
+- [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
+- [PostScript](https://en.wikipedia.org/wiki/PostScript)
+- [EPS](https://en.wikipedia.org/wiki/Encapsulated_PostScript)
+- [TIFF](https://en.wikipedia.org/wiki/TIFF)
+- [FictionBook (FB2)](https://en.wikipedia.org/wiki/FictionBook)
+
+### Editáveis
+
+- [INDD (InDesign)](https://fileinfo.com/extension/indd) ★
+- [INDB (livro do InDesign)](https://fileinfo.com/extension/indb)
+- [INDT (modelo do InDesign)](https://fileinfo.com/extension/indt)
+- [IDML (InDesign Markup)](https://fileinfo.com/extension/idml) ★
+- [ICML (InCopy)](https://fileinfo.com/extension/icml)
+- [QXP (QuarkXPress)](https://fileinfo.com/extension/qxp)
+- [AFPUB (Affinity Publisher)](https://fileinfo.com/extension/afpub)
+- [SLA (Scribus)](https://fileinfo.com/extension/sla)
+- [PUB (Microsoft Publisher)](https://fileinfo.com/extension/pub)
+- [PMD (PageMaker)](https://fileinfo.com/extension/pmd)
+- [AI (Illustrator)](https://fileinfo.com/extension/ai)
+- [PSD (Photoshop)](https://fileinfo.com/extension/psd)
+- [DOCX (Word)](https://fileinfo.com/extension/docx)
+- [ODT (OpenDocument)](https://fileinfo.com/extension/odt)
+- [TEX (LaTeX)](https://fileinfo.com/extension/tex)
+
+## Softwares de editoração
+
+### Diagramação
+
+- [Adobe InDesign](https://www.adobe.com/products/indesign.html) ★
+- [QuarkXPress](https://www.quark.com/products/quarkxpress) ★
+- [Affinity](https://www.affinity.studio/) ★
+- [Scribus](https://www.scribus.net/)
+- [Adobe InCopy](https://www.adobe.com/products/incopy.html)
+- [Adobe FrameMaker](https://www.adobe.com/products/framemaker.html)
+- [Canva](https://www.canva.com/)
+- [Adobe Express](https://www.adobe.com/express/)
+- [Apple Pages](https://support.apple.com/pages)
+- [RagTime](https://www.ragtime.de/)
+- [Microsoft Publisher](https://en.wikipedia.org/wiki/Microsoft_Publisher) 🪦
+- [Aldus PageMaker](https://en.wikipedia.org/wiki/Adobe_PageMaker) 🪦
+- [Ventura Publisher](https://en.wikipedia.org/wiki/Ventura_Publisher) 🪦
+
+### Composição tipográfica por código
+
+- [LaTeX](https://www.latex-project.org/) ★
+- [Overleaf](https://www.overleaf.com/)
+- [Typst](https://typst.app/)
+- [Pandoc](https://pandoc.org/)
+
+### Livros digitais
+
+- [Sigil](https://sigil-ebook.com/) ★
+- [Calibre](https://calibre-ebook.com/) ★
+- [Vellum](https://vellum.pub/)
+- [Atticus](https://www.atticus.io/)
+- [Kindle Create](https://www.amazon.com/Kindle-Create/b?node=18292298011)
+- [Reedsy Book Editor](https://reedsy.com/write-a-book)
+- [Kotobee](https://www.kotobee.com/)
+
+### Publicação digital e fluxo editorial
+
+- [Issuu](https://issuu.com/) ★
+- [WoodWing Studio](https://www.woodwing.com/products/woodwing-studio)
+- [Joomag](https://www.joomag.com/)
+- [FlippingBook](https://flippingbook.com/)
+- [PageSuite](https://www.pagesuite.com/)
+- [Ceros](https://www.ceros.com/)
+- [Madmagz](https://madmagz.com/)
+- [Jilster](https://jilster.app/)
+
+### Autopublicação e impressão sob demanda
+
+- [Amazon KDP](https://kdp.amazon.com/) ★
+- [IngramSpark](https://www.ingramspark.com/)
+- [Lulu](https://www.lulu.com/)
+- [Blurb](https://www.blurb.com/)
+- [BookBaby](https://www.bookbaby.com/)
+- [Draft2Digital](https://www.draft2digital.com/)
+- [Mixam](https://mixam.com/)
+- [Clube de Autores](https://clubedeautores.com.br/)
+- [UICLAP](https://uiclap.com/)
+
+## Produção gráfica
+
+### Gráficas online
+
+- [Printi](https://www.printi.com.br/) ★
+- [Vistaprint](https://www.vistaprint.com/)
+- [MOO](https://www.moo.com/)
+- [Newspaper Club](https://www.newspaperclub.co.uk/)
+- [PrintNinja](https://printninja.com/)
+- [Risotto Studio](https://www.risottostudio.com/)
+
+### Cor e papel
+
+- [Pantone](https://www.pantone.com/) ★
+- [Fedrigoni](https://fedrigoni.com/)
+- [Paper Sizes](https://www.papersizes.org/)
+- [GMUND](https://www.gmund.com/)
+- [Mohawk](https://www.mohawkconnects.com/)
+- [Favini](https://www.favini.com/)
+
+### Fontes
+
+- [Google Fonts](https://fonts.google.com/) ★
+- [Adobe Fonts](https://fonts.adobe.com/)
+- [Fontshare](https://www.fontshare.com/)
+- [MyFonts](https://www.myfonts.com/)
+- [Monotype](https://www.monotype.com/)
+- [Hoefler&Co.](https://www.typography.com/)
+- [Commercial Type](https://commercialtype.com/)
+- [Klim Type Foundry](https://klim.co.nz/)
+- [Grilli Type](https://www.grillitype.com/)
+
+## Editoras
+
+### Gigantes mundiais de livros
+
+- [Penguin Random House](https://www.penguinrandomhouse.com/) ★
+- [Hachette Livre](https://www.hachette.com/) ★
+- [HarperCollins](https://www.harpercollins.com/) ★
+- [Simon & Schuster](https://www.simonandschuster.com/)
+- [Macmillan Publishers](https://us.macmillan.com/)
+- [Bertelsmann](https://www.bertelsmann.com/)
+- [Holtzbrinck](https://en.wikipedia.org/wiki/Holtzbrinck_Publishing_Group)
+- [Scholastic](https://www.scholastic.com/)
+- [Oxford University Press](https://global.oup.com/)
+- [Cambridge University Press](https://www.cambridge.org/)
+
+### Educação e ciência
+
+- [Pearson](https://www.pearson.com/) ★
+- [RELX (Elsevier)](https://www.relx.com/)
+- [Springer Nature](https://www.springernature.com/)
+- [Wiley](https://www.wiley.com/)
+- [Wolters Kluwer](https://www.wolterskluwer.com/)
+- [Informa (Taylor & Francis)](https://www.informa.com/)
+- [McGraw Hill](https://www.mheducation.com/)
+- [Cengage](https://www.cengage.com/)
+- [Houghton Mifflin Harcourt](https://www.hmhco.com/)
+- [Klett](https://www.klett.de/)
+
+### Grupos de revistas e jornais
+
+- [Condé Nast](https://www.condenast.com/) ★
+- [Hearst](https://www.hearst.com/) ★
+- [Dotdash Meredith](https://en.wikipedia.org/wiki/Dotdash_Meredith)
+- [Future plc](https://www.futureplc.com/)
+- [Hubert Burda Media](https://www.hubert-burda-media.com/)
+- [Axel Springer](https://www.axelspringer.com/)
+- [Bauer Media](https://www.bauermedia.com/)
+- [News Corp](https://newscorp.com/)
+- [The New York Times Company](https://www.nytco.com/)
+- [USA TODAY Co. (ex-Gannett)](https://www.usatodayco.com/)
+- [Schibsted](https://schibsted.com/)
+- [Mediahuis](https://www.mediahuis.com/)
+
+### Gigantes da Europa
+
+- [Grupo Planeta](https://www.planeta.es/) ★
+- [Santillana](https://santillana.com/)
+- [Mondadori](https://www.mondadori.it/)
+- [Bonnier](https://www.bonnier.com/)
+- [Egmont](https://www.egmont.com/)
+- [Penguin Books (Reino Unido)](https://www.penguin.co.uk/)
+- [Grupo Porto Editora](https://www.portoeditora.pt/)
+- [RBA](https://www.rbalibros.com/)
+
+### Gigantes da América Latina e Espanha
+
+- [Penguin Random House Grupo Editorial](https://www.penguinrandomhousegrupoeditorial.com/) ★
+- [Fondo de Cultura Económica](https://www.fondodeculturaeconomica.com/)
+- [Grupo SM](https://www.grupo-sm.com/)
+- [Editorial Planeta](https://www.planetadelibros.com/)
+
+### Gigantes da Ásia
+
+- [Kodansha](https://www.kodansha.co.jp/) ★
+- [Shueisha](https://www.shueisha.co.jp/) ★
+- [Shogakukan](https://www.shogakukan.co.jp/)
+- [Kadokawa](https://www.kadokawa.co.jp/)
+- [Woongjin ThinkBig](https://www.wjthinkbig.com/)
+
+### Editoras literárias de prestígio
+
+- [Alfred A. Knopf](https://knopfdoubleday.com/) ★
+- [Farrar, Straus and Giroux](https://us.macmillan.com/fsg/)
+- [W. W. Norton](https://wwnorton.com/)
+- [New Directions](https://www.ndbooks.com/)
+- [Grove Atlantic](https://groveatlantic.com/)
+- [Graywolf Press](https://www.graywolfpress.org/)
+- [Faber & Faber](https://www.faber.co.uk/) ★
+- [Bloomsbury](https://www.bloomsbury.com/)
+- [Gallimard](https://www.gallimard.fr/) ★
+- [Éditions du Seuil](https://www.seuil.com/)
+- [Flammarion](https://editions.flammarion.com/)
+- [Suhrkamp](https://www.suhrkamp.de/)
+- [Einaudi](https://www.einaudi.it/)
+- [Adelphi](https://www.adelphi.it/)
+- [Feltrinelli](https://www.feltrinellieditore.it/)
+- [Anagrama](https://www.anagrama-ed.es/)
+- [Shinchosha](https://www.shinchosha.co.jp/)
+
+### Quadrinhos
+
+- [Marvel Comics](https://www.marvel.com/comics) ★
+- [DC Comics](https://www.dc.com/) ★
+- [Image Comics](https://imagecomics.com/)
+- [Dark Horse Comics](https://www.darkhorse.com/)
+- [Viz Media](https://www.viz.com/)
+- [Panini Brasil](https://panini.com.br/)
+- [Mauricio de Sousa Produções](https://turmadamonica.uol.com.br/) ★
+- [Editora JBC](https://editorajbc.com.br/)
+- [Glénat](https://www.glenat.com/)
+- [Dargaud](https://www.dargaud.com/)
+- [Casterman](https://www.casterman.com/)
+- [Sergio Bonelli Editore](https://www.sergiobonelli.it/)
+- [Fantagraphics](https://www.fantagraphics.com/)
+- [Drawn & Quarterly](https://drawnandquarterly.com/)
+- [IDW Publishing](https://idwpublishing.com/)
+
+### Grandes editoras do Brasil
+
+- [Companhia das Letras](https://www.companhiadasletras.com.br/) ★
+- [Grupo Editorial Record](https://www.record.com.br/) ★
+- [Intrínseca](https://www.intrinseca.com.br/)
+- [Sextante](https://www.sextante.com.br/)
+- [Arqueiro](https://www.editoraarqueiro.com.br/)
+- [Rocco](https://www.rocco.com.br/)
+- [Ediouro](https://www.ediouro.com.br/)
+- [Grupo Autêntica](https://grupoautentica.com.br/)
+- [Planeta Brasil](https://www.planetadelivros.com.br/)
+- [HarperCollins Brasil](https://harpercollins.com.br/)
+- [Editora Melhoramentos](https://www.editoramelhoramentos.com.br/)
+- [Editora Moderna](https://www.moderna.com.br/)
+- [FTD Educação](https://ftd.com.br/)
+- [Editora Vozes](https://www.vozes.com.br/)
+- [L&PM Editores](https://www.lpm.com.br/)
+- [Editora 34](https://www.editora34.com.br/)
+- [WMF Martins Fontes](https://www.wmfmartinsfontes.com.br/)
+- [Boitempo](https://www.boitempoeditorial.com.br/)
+- [Editora Unesp](https://editoraunesp.com.br/)
+- [+A Educação (Grupo A)](https://maisaedu.com.br/)
+- [Editora Europa](https://www.europanet.com.br/)
+- [Editora Escala](https://www.escala.com.br/)
+- [EdiCase](https://www.edicase.com.br/) ★
+- [Alto Astral](https://www.pressreader.com/pt-br/publishers/2699-editora-alto-astral) ★
+- [Cosac Naify](https://en.wikipedia.org/wiki/Cosac_Naify) 🪦
+
+### Editoras com os melhores designs
+
+- [Ubu Editora](https://www.ubueditora.com.br/) ★
+- [DarkSide Books](https://www.darksidebooks.com.br/) ★
+- [Editora Aleph](https://aleph.com.br/)
+- [Autonomia Literária](https://autonomialiteraria.com.br/)
+- [Editora Guarda-Chuva](https://www.google.com/search?q=Editora+Guarda-Chuva+livros)
+- [Editora MOL](https://www.weforum.org/organizations/editora-mol)
+- [Globo Livros](https://globolivros.globo.com/)
+- [Lote 42](https://lote42.com.br/)
+- [Plutão Livros](https://www.google.com/search?q=Plut%C3%A3o+Livros+editora)
+- [Grupo Abril](https://grupoabril.com.br/) ★
+- [Editora Globo](https://pt.wikipedia.org/wiki/Editora_Globo)
+- [Phaidon](https://www.phaidon.com/) ★
+- [Taschen](https://www.taschen.com/) ★
+- [Gestalten](https://gestalten.com/)
+- [Thames & Hudson](https://www.thamesandhudson.com/)
+- [Rizzoli](https://www.rizzoliusa.com/)
+- [Lars Müller Publishers](https://www.lars-mueller-publishers.com/) ★
+- [Steidl](https://steidl.de/)
+- [MACK](https://mackbooks.co.uk/)
+- [Spector Books](https://spectorbooks.com/)
+- [Roma Publications](https://www.romapublications.org/)
+- [Unit Editions](https://uniteditions.com/)
+- [Victionary](https://victionary.com/)
+- [The Folio Society](https://www.foliosociety.com/)
+- [Chronicle Books](https://www.chroniclebooks.com/)
+- [Fitzcarraldo Editions](https://fitzcarraldoeditions.com/)
+- [Pushkin Press](https://pushkinpress.com/)
+
+## Revistas por tema
+
+### Moda
+
+- [Vogue](https://www.vogue.com/) ★
+- [Harper's Bazaar](https://www.harpersbazaar.com/) ★
+- [Elle](https://www.elle.com/) ★
+- [Vanity Fair](https://www.vanityfair.com/) ★
+- [Cosmopolitan](https://www.cosmopolitan.com/)
+- [Marie Claire](https://www.marieclaire.com/)
+- [GQ](https://www.gq.com/)
+- [Esquire](https://www.esquire.com/)
+- [Glamour](https://www.glamour.com/)
+- [W Magazine](https://www.wmagazine.com/)
+- [Allure](https://www.allure.com/)
+- [InStyle](https://www.instyle.com/)
+- [Teen Vogue](https://www.teenvogue.com/)
+- [Women's Wear Daily (WWD)](https://wwd.com/)
+- [Tatler](https://www.tatler.com/)
+- [Grazia](https://graziamagazine.com/)
+- [Burda Style](https://www.burdastyle.com/)
+- [British Vogue](https://www.vogue.co.uk/)
+- [Vogue Italia](https://www.vogue.it/)
+- [Vogue Paris](https://www.vogue.fr/)
+- [Vogue Japan](https://www.vogue.co.jp/)
+- [Vogue China](https://www.vogue.com.cn/)
+- [i-D](https://i-d.co/) ★
+- [Dazed](https://www.dazeddigital.com/) ★
+- [The Face](https://theface.com/)
+- [AnOther Magazine](https://www.anothermag.com/)
+- [L'Officiel](https://www.lofficiel.com/)
+- [Numéro](https://www.numero.com/)
+- [V Magazine](https://vmagazine.com/)
+- [032c](https://032c.com/)
+- [Nylon](https://www.nylon.com/)
+- [Paper](https://www.papermag.com/)
+- [Fruits](https://en.wikipedia.org/wiki/Fruits_(magazine)) 🪦
+- [Godey's Lady's Book](https://en.wikipedia.org/wiki/Godey%27s_Lady%27s_Book) 🪦
+- [Vogue Brasil](https://vogue.globo.com/) ★
+- [Elle Brasil](https://elle.com.br/)
+- [Harper's Bazaar Brasil](https://harpersbazaar.uol.com.br/)
+- [Marie Claire Brasil](https://revistamarieclaire.globo.com/)
+- [GQ Brasil](https://gq.globo.com/)
+- [Glamour Brasil](https://glamour.globo.com/)
+
+### Design
+
+- [Eye](https://www.eyemagazine.com/) ★
+- [Communication Arts](https://www.commarts.com/) ★
+- [Print](https://www.printmag.com/)
+- [Creative Review](https://www.creativereview.co.uk/)
+- [Slanted](https://www.slanted.de/) ★
+- [Étapes](https://etapes.com/)
+- [IdN](https://www.idnworld.com/)
+- [Novum](https://novum.graphics/)
+- [Baseline](https://www.baselinemagazine.com/)
+- [Frame](https://www.frameweb.com/)
+- [ABC Design](https://www.abcdesign.com.br/)
+- [Emigre](https://en.wikipedia.org/wiki/Emigre_(magazine)) 🪦
+- [U&lc](https://en.wikipedia.org/wiki/U%26lc) 🪦
+- [Computer Arts](https://en.wikipedia.org/wiki/Computer_Arts) 🪦
+
+### Ciência
+
+- [Nature](https://www.nature.com/) ★
+- [Science](https://www.science.org/) ★
+- [Scientific American](https://www.scientificamerican.com/) ★
+- [National Geographic](https://www.nationalgeographic.com/) ★
+- [New Scientist](https://www.newscientist.com/)
+- [Popular Science](https://www.popsci.com/)
+- [Popular Mechanics](https://www.popularmechanics.com/)
+- [Discover](https://www.discovermagazine.com/)
+- [Smithsonian](https://www.smithsonianmag.com/)
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [BBC Science Focus](https://www.sciencefocus.com/)
+- [The Lancet](https://www.thelancet.com/)
+- [Superinteressante](https://super.abril.com.br/) ★
+- [Galileu](https://revistagalileu.globo.com/)
+- [Pesquisa FAPESP](https://revistapesquisa.fapesp.br/)
+- [Ciência Hoje](https://cienciahoje.org.br/)
+- [Mundo Estranho](https://pt.wikipedia.org/wiki/Mundo_Estranho) 🪦
+
+### Culinária
+
+- [Bon Appétit](https://www.bonappetit.com/) ★
+- [Food & Wine](https://www.foodandwine.com/) ★
+- [Saveur](https://www.saveur.com/)
+- [Cook's Illustrated](https://www.americastestkitchen.com/cooksillustrated)
+- [BBC Good Food](https://www.bbcgoodfood.com/)
+- [Delicious](https://www.deliciousmagazine.co.uk/)
+- [Taste of Home](https://www.tasteofhome.com/)
+- [Martha Stewart Living](https://www.marthastewart.com/)
+- [Prazeres da Mesa](https://prazeresdamesa.com.br/)
+- [Paladar (Estadão)](https://www.estadao.com.br/paladar/)
+- [Gourmet](https://en.wikipedia.org/wiki/Gourmet_(magazine)) 🪦
+- [Lucky Peach](https://en.wikipedia.org/wiki/Lucky_Peach) 🪦
+
+### Arquitetura e decoração
+
+- [Architectural Digest](https://www.architecturaldigest.com/) ★
+- [Domus](https://www.domusweb.it/) ★
+- [El Croquis](https://elcroquis.es/) ★
+- [Dwell](https://www.dwell.com/)
+- [Architectural Record](https://www.architecturalrecord.com/)
+- [The Architectural Review](https://www.architectural-review.com/)
+- [Elle Decor](https://www.elledecor.com/)
+- [Casa Vogue](https://casavogue.globo.com/)
+- [Casa e Jardim](https://revistacasaejardim.globo.com/)
+- [Projeto](https://revistaprojeto.com.br/)
+
+### Estilo de vida
+
+- [Monocle](https://monocle.com/) ★
+- [Kinfolk](https://www.kinfolk.com/) ★
+- [Wallpaper*](https://www.wallpaper.com/) ★
+- [Cereal](https://readcereal.com/)
+- [Apartamento](https://www.apartamentomagazine.com/)
+- [Real Simple](https://www.realsimple.com/)
+- [Good Housekeeping](https://www.goodhousekeeping.com/)
+- [Better Homes & Gardens](https://www.bhg.com/)
+- [Men's Health](https://www.menshealth.com/)
+- [Women's Health](https://www.womenshealthmag.com/)
+- [Condé Nast Traveler](https://www.cntraveler.com/)
+- [Travel + Leisure](https://www.travelandleisure.com/)
+- [People](https://people.com/)
+- [Hello!](https://www.hellomagazine.com/)
+- [Claudia](https://claudia.abril.com.br/)
+- [Trip](https://revistatrip.uol.com.br/)
+- [Viagem e Turismo](https://viagemeturismo.abril.com.br/)
+- [Quem](https://revistaquem.globo.com/)
+
+### Esportes
+
+- [Sports Illustrated](https://www.si.com/) ★
+- [Placar](https://placar.com.br/) ★
+- [FourFourTwo](https://www.fourfourtwo.com/)
+- [World Soccer](https://www.worldsoccer.com/)
+- [Kicker](https://www.kicker.de/)
+- [Runner's World](https://www.runnersworld.com/)
+- [Bicycling](https://www.bicycling.com/)
+- [Golf Digest](https://www.golfdigest.com/)
+- [Surfer](https://www.surfer.com/)
+- [ESPN The Magazine](https://en.wikipedia.org/wiki/ESPN_The_Magazine) 🪦
+
+### Infantis
+
+- [Highlights](https://www.highlights.com/) ★
+- [National Geographic Kids](https://kids.nationalgeographic.com/)
+- [Ranger Rick](https://rangerrick.org/)
+- [TIME for Kids](https://www.timeforkids.com/)
+- [Le Journal de Mickey](https://www.journaldemickey.com/)
+- [Ciência Hoje das Crianças](https://chc.org.br/) ★
+- [Recreio](https://recreio.com.br/)
+- [Turma da Mônica (gibis)](https://turmadamonica.uol.com.br/) ★
+- [Nickelodeon Magazine](https://en.wikipedia.org/wiki/Nickelodeon_Magazine) 🪦
+- [Geolino](https://www.geo.de/geolino/)
+- [Spirou](https://www.spirou.com/)
+- [Weekly Shōnen Jump](https://en.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump)
+
+### Passatempos
+
+- [Coquetel](https://www.coquetel.com.br/) ★
+- [Passatempos Alto Astral](https://www.pressreader.com/pt-br/publishers/2699-editora-alto-astral)
+- [Passatempos EdiCase](https://www.edicase.com.br/)
+- [Puzzler](https://www.puzzler.com/)
+- [Penny Dell Puzzles](https://www.pennydellpuzzles.com/)
+- [NYT Crossword](https://www.nytimes.com/crosswords)
+- [Palavras cruzadas](https://en.wikipedia.org/wiki/Crossword)
+- [Caça-palavras](https://en.wikipedia.org/wiki/Word_search)
+- [Sudoku](https://en.wikipedia.org/wiki/Sudoku)
+- [Nonograma](https://en.wikipedia.org/wiki/Nonogram)
+
+### Notícias e atualidades
+
+- [Time](https://time.com/) ★
+- [The Economist](https://www.economist.com/) ★
+- [The New Yorker](https://www.newyorker.com/) ★
+- [The Atlantic](https://www.theatlantic.com/)
+- [Newsweek](https://www.newsweek.com/)
+- [Der Spiegel](https://www.spiegel.de/)
+- [Paris Match](https://www.parismatch.com/)
+- [Reader's Digest](https://www.rd.com/)
+- [Veja](https://veja.abril.com.br/) ★
+- [piauí](https://piaui.uol.com.br/) ★
+- [IstoÉ](https://istoe.com.br/)
+- [CartaCapital](https://www.cartacapital.com.br/)
+- [Life](https://en.wikipedia.org/wiki/Life_(magazine)) 🪦
+- [Época](https://pt.wikipedia.org/wiki/%C3%89poca_(revista)) 🪦
+- [O Cruzeiro](https://pt.wikipedia.org/wiki/O_Cruzeiro_(revista)) 🪦
+- [Manchete](https://pt.wikipedia.org/wiki/Manchete_(revista)) 🪦
+- [Realidade](https://pt.wikipedia.org/wiki/Realidade_(revista)) 🪦
+- [Le Point](https://www.lepoint.fr/)
+- [L'Express](https://www.lexpress.fr/)
+- [Stern](https://www.stern.de/)
+- [Internazionale](https://www.internazionale.it/)
+- [Courrier International](https://www.courrierinternational.com/)
+- [The Spectator](https://spectator.com/)
+- [New Statesman](https://www.newstatesman.com/)
+- [Foreign Affairs](https://www.foreignaffairs.com/)
+- [Proceso](https://www.proceso.com.mx/)
+- [Semana](https://www.semana.com/)
+
+### Negócios
+
+- [Forbes](https://www.forbes.com/) ★
+- [Fortune](https://fortune.com/)
+- [Bloomberg Businessweek](https://www.bloomberg.com/businessweek)
+- [Harvard Business Review](https://hbr.org/) ★
+- [Fast Company](https://www.fastcompany.com/)
+- [Inc.](https://www.inc.com/)
+- [Exame](https://exame.com/)
+- [Época Negócios](https://epocanegocios.globo.com/)
+- [Você S/A](https://vocesa.abril.com.br/)
+- [Pequenas Empresas & Grandes Negócios](https://revistapegn.globo.com/)
+
+### Cultura, música e cinema
+
+- [Rolling Stone](https://www.rollingstone.com/) ★
+- [Billboard](https://www.billboard.com/)
+- [Mojo](https://www.mojo4music.com/)
+- [NME](https://www.nme.com/)
+- [Variety](https://variety.com/)
+- [Empire](https://www.empireonline.com/)
+- [Sight and Sound](https://www.bfi.org.uk/sight-and-sound)
+- [Cahiers du Cinéma](https://www.cahiersducinema.com/)
+- [Interview](https://www.interviewmagazine.com/)
+- [The Paris Review](https://www.theparisreview.org/) ★
+- [Granta](https://granta.com/)
+- [Artforum](https://www.artforum.com/)
+- [Frieze](https://www.frieze.com/)
+- [Juxtapoz](https://www.juxtapoz.com/)
+
+### Games e tecnologia
+
+- [Wired](https://www.wired.com/) ★
+- [PC Gamer](https://www.pcgamer.com/)
+- [Retro Gamer](https://www.gamesradar.com/retrogamer/)
+- [Edge](https://en.wikipedia.org/wiki/Edge_(magazine))
+- [Nintendo Power](https://en.wikipedia.org/wiki/Nintendo_Power) 🪦
+- [Ação Games](https://pt.wikipedia.org/wiki/A%C3%A7%C3%A3o_Games) 🪦
+- [Super GamePower](https://pt.wikipedia.org/wiki/Super_GamePower) 🪦
+
+### Automóveis
+
+- [Quatro Rodas](https://quatrorodas.abril.com.br/) ★
+- [Autoesporte](https://autoesporte.globo.com/)
+- [Car and Driver](https://www.caranddriver.com/) ★
+- [Motor Trend](https://www.motortrend.com/)
+- [Road & Track](https://www.roadandtrack.com/)
+- [Top Gear](https://www.topgear.com/)
+- [Autocar](https://www.autocar.co.uk/)
+- [evo](https://www.evo.co.uk/)
+
+### Humor e sátira
+
+- [Charlie Hebdo](https://charliehebdo.fr/)
+- [Le Canard enchaîné](https://www.lecanardenchaine.fr/)
+- [Private Eye](https://www.private-eye.co.uk/)
+- [MAD](https://en.wikipedia.org/wiki/Mad_(magazine)) ★
+- [Punch](https://en.wikipedia.org/wiki/Punch_(magazine)) 🪦
+- [O Pasquim](https://pt.wikipedia.org/wiki/O_Pasquim) ★ 🪦
+
+### Independentes
+
+- [The Gentlewoman](https://thegentlewoman.co.uk/) ★
+- [Fantastic Man](https://www.fantasticman.com/)
+- [Delayed Gratification](https://www.slow-journalism.com/)
+- [Little White Lies](https://lwlies.com/)
+- [Huck](https://www.huckmag.com/)
+- [Toilet Paper](https://www.toiletpapermagazine.org/)
+- [Mousse](https://www.moussemagazine.it/)
+- [Purple](https://purple.fr/)
+
+## Jornais
+
+### Brasil
+
+- [Folha de S.Paulo](https://www.folha.uol.com.br/) ★
+- [O Estado de S. Paulo](https://www.estadao.com.br/) ★
+- [O Globo](https://oglobo.globo.com/) ★
+- [Valor Econômico](https://valor.globo.com/)
+- [Correio Braziliense](https://www.correiobraziliense.com.br/)
+- [Zero Hora (GZH)](https://gauchazh.clicrbs.com.br/)
+- [Estado de Minas](https://www.em.com.br/)
+- [Extra](https://extra.globo.com/)
+- [O Povo](https://www.opovo.com.br/)
+- [A Tarde](https://atarde.com.br/)
+- [Jornal do Commercio](https://jc.uol.com.br/)
+- [Diario de Pernambuco](https://www.diariodepernambuco.com.br/)
+- [Jornal do Brasil](https://www.jb.com.br/)
+- [Gazeta do Povo](https://www.gazetadopovo.com.br/)
+
+### América do Norte
+
+- [The New York Times](https://www.nytimes.com/) ★
+- [The Washington Post](https://www.washingtonpost.com/)
+- [The Wall Street Journal](https://www.wsj.com/)
+- [USA Today](https://www.usatoday.com/)
+- [Los Angeles Times](https://www.latimes.com/)
+- [The Globe and Mail](https://www.theglobeandmail.com/)
+- [Boston Globe](https://www.bostonglobe.com/)
+- [Chicago Tribune](https://www.chicagotribune.com/)
+- [New York Post](https://nypost.com/)
+- [Toronto Star](https://www.thestar.com/)
+- [Le Devoir](https://www.ledevoir.com/)
+
+### Europa
+
+- [The Guardian](https://www.theguardian.com/) ★
+- [Financial Times](https://www.ft.com/) ★
+- [The Times](https://www.thetimes.com/)
+- [The Independent](https://www.independent.co.uk/)
+- [Daily Mail](https://www.dailymail.co.uk/)
+- [Le Monde](https://www.lemonde.fr/) ★
+- [Le Figaro](https://www.lefigaro.fr/)
+- [El País](https://elpais.com/)
+- [Corriere della Sera](https://www.corriere.it/)
+- [La Repubblica](https://www.repubblica.it/)
+- [Frankfurter Allgemeine Zeitung](https://www.faz.net/)
+- [Süddeutsche Zeitung](https://www.sueddeutsche.de/)
+- [Die Zeit](https://www.zeit.de/)
+- [Neue Zürcher Zeitung](https://www.nzz.ch/)
+- [Público](https://www.publico.pt/)
+- [The Daily Telegraph](https://www.telegraph.co.uk/)
+- [Libération](https://www.liberation.fr/)
+- [El Mundo](https://www.elmundo.es/)
+- [ABC](https://www.abc.es/)
+- [La Stampa](https://www.lastampa.it/)
+- [Bild](https://www.bild.de/)
+- [De Volkskrant](https://www.volkskrant.nl/)
+- [Dagens Nyheter](https://www.dn.se/)
+- [Gazeta Wyborcza](https://wyborcza.pl/)
+- [Le Temps](https://www.letemps.ch/)
+- [Expresso](https://expresso.pt/)
+
+### América Latina
+
+- [Clarín](https://www.clarin.com/)
+- [La Nación](https://www.lanacion.com.ar/)
+- [El Universal](https://www.eluniversal.com.mx/)
+- [Reforma](https://www.reforma.com/)
+- [El Tiempo](https://www.eltiempo.com/)
+- [El Mercurio](https://www.elmercurio.com/)
+
+### Ásia e Oceania
+
+- [The Asahi Shimbun](https://www.asahi.com/)
+- [Yomiuri Shimbun](https://www.yomiuri.co.jp/)
+- [South China Morning Post](https://www.scmp.com/)
+- [The Times of India](https://timesofindia.indiatimes.com/)
+- [The Sydney Morning Herald](https://www.smh.com.au/)
+- [Nikkei](https://www.nikkei.com/)
+- [Mainichi Shimbun](https://mainichi.jp/)
+- [The Chosun Ilbo](https://www.chosun.com/)
+- [China Daily](https://www.chinadaily.com.cn/)
+- [The Hindu](https://www.thehindu.com/)
+- [The Straits Times](https://www.straitstimes.com/)
+- [The Australian](https://www.theaustralian.com.au/)
+
+### Oriente Médio e África
+
+- [Haaretz](https://www.haaretz.com/)
+- [Al-Ahram](https://english.ahram.org.eg/)
+- [Mail & Guardian](https://mg.co.za/)
+
+### Esportivos
+
+- [L'Équipe](https://www.lequipe.fr/) ★
+- [Marca](https://www.marca.com/)
+- [Mundo Deportivo](https://www.mundodeportivo.com/)
+- [La Gazzetta dello Sport](https://www.gazzetta.it/)
+- [A Bola](https://www.abola.pt/)
+- [Olé](https://www.ole.com.ar/)
+- [Lance!](https://www.lance.com.br/)
+
+### Históricos e encerrados
+
+- [Última Hora](https://pt.wikipedia.org/wiki/%C3%9Altima_Hora) 🪦
+- [Jornal da Tarde](https://pt.wikipedia.org/wiki/Jornal_da_Tarde) 🪦
+- [Gazeta Mercantil](https://pt.wikipedia.org/wiki/Gazeta_Mercantil) 🪦
+- [Notícias Populares](https://pt.wikipedia.org/wiki/Not%C3%ADcias_Populares) 🪦
+- [Correio da Manhã (Brasil)](https://pt.wikipedia.org/wiki/Correio_da_Manh%C3%A3_(Brasil)) 🪦
+- [News of the World](https://en.wikipedia.org/wiki/News_of_the_World) 🪦
+- [New York Herald Tribune](https://en.wikipedia.org/wiki/New_York_Herald_Tribune) 🪦
+- [International Herald Tribune](https://en.wikipedia.org/wiki/International_Herald_Tribune) 🪦
+- [Apple Daily](https://en.wikipedia.org/wiki/Apple_Daily) 🪦
+- [Rocky Mountain News](https://en.wikipedia.org/wiki/Rocky_Mountain_News) 🪦
+- [The Pennsylvania Gazette](https://en.wikipedia.org/wiki/The_Pennsylvania_Gazette) 🪦
+
+## Pessoas
+
+### Pioneiros da impressão
+
+- [Bi Sheng](https://en.wikipedia.org/wiki/Bi_Sheng) 🪦
+- [Johannes Gutenberg](https://en.wikipedia.org/wiki/Johannes_Gutenberg) ★ 🪦
+- [William Caxton](https://en.wikipedia.org/wiki/William_Caxton) 🪦
+- [Nicolas Jenson](https://en.wikipedia.org/wiki/Nicolas_Jenson) 🪦
+- [Aldo Manúcio](https://en.wikipedia.org/wiki/Aldus_Manutius) ★ 🪦
+- [Claude Garamond](https://en.wikipedia.org/wiki/Claude_Garamond) 🪦
+- [Christophe Plantin](https://en.wikipedia.org/wiki/Christophe_Plantin) 🪦
+- [John Baskerville](https://en.wikipedia.org/wiki/John_Baskerville) 🪦
+- [Giambattista Bodoni](https://en.wikipedia.org/wiki/Giambattista_Bodoni) 🪦
+- [Firmin Didot](https://en.wikipedia.org/wiki/Firmin_Didot) 🪦
+- [Benjamin Franklin](https://en.wikipedia.org/wiki/Benjamin_Franklin) 🪦
+- [Alois Senefelder](https://en.wikipedia.org/wiki/Alois_Senefelder) 🪦
+- [Ottmar Mergenthaler](https://en.wikipedia.org/wiki/Ottmar_Mergenthaler) 🪦
+- [William Morris](https://en.wikipedia.org/wiki/William_Morris) 🪦
+- [Wynkyn de Worde](https://en.wikipedia.org/wiki/Wynkyn_de_Worde) 🪦
+- [Robert Estienne](https://en.wikipedia.org/wiki/Robert_Estienne) 🪦
+- [Friedrich Koenig](https://en.wikipedia.org/wiki/Friedrich_Koenig) 🪦
+- [Richard March Hoe](https://en.wikipedia.org/wiki/Richard_March_Hoe) 🪦
+- [Tolbert Lanston](https://en.wikipedia.org/wiki/Tolbert_Lanston) 🪦
+- [Chester Carlson](https://en.wikipedia.org/wiki/Chester_Carlson) 🪦
+- [Paul Brainerd](https://en.wikipedia.org/wiki/Paul_Brainerd)
+- [John Warnock](https://en.wikipedia.org/wiki/John_Warnock) 🪦
+
+### Editores e magnatas da imprensa
+
+- [Joseph Pulitzer](https://en.wikipedia.org/wiki/Joseph_Pulitzer) ★ 🪦
+- [William Randolph Hearst](https://en.wikipedia.org/wiki/William_Randolph_Hearst) 🪦
+- [Henry Luce](https://en.wikipedia.org/wiki/Henry_Luce) 🪦
+- [Condé Montrose Nast](https://en.wikipedia.org/wiki/Cond%C3%A9_Montrose_Nast) 🪦
+- [Diana Vreeland](https://en.wikipedia.org/wiki/Diana_Vreeland) 🪦
+- [Anna Wintour](https://en.wikipedia.org/wiki/Anna_Wintour) ★
+- [Tina Brown](https://en.wikipedia.org/wiki/Tina_Brown)
+- [Hipólito José da Costa](https://pt.wikipedia.org/wiki/Hip%C3%B3lito_Jos%C3%A9_da_Costa) 🪦
+- [Assis Chateaubriand](https://pt.wikipedia.org/wiki/Assis_Chateaubriand) 🪦
+- [Victor Civita](https://pt.wikipedia.org/wiki/Victor_Civita) 🪦
+- [Roberto Civita](https://pt.wikipedia.org/wiki/Roberto_Civita) 🪦
+- [Roberto Marinho](https://pt.wikipedia.org/wiki/Roberto_Marinho) 🪦
+- [Adolpho Bloch](https://pt.wikipedia.org/wiki/Adolpho_Bloch) 🪦
+- [Samuel Wainer](https://pt.wikipedia.org/wiki/Samuel_Wainer) 🪦
+- [Adolph Ochs](https://en.wikipedia.org/wiki/Adolph_Ochs) 🪦
+- [Lord Northcliffe](https://en.wikipedia.org/wiki/Alfred_Harmsworth,_1st_Viscount_Northcliffe) 🪦
+- [Harold Ross](https://en.wikipedia.org/wiki/Harold_Ross) 🪦
+- [DeWitt Wallace](https://en.wikipedia.org/wiki/DeWitt_Wallace) 🪦
+- [Carmel Snow](https://en.wikipedia.org/wiki/Carmel_Snow) 🪦
+- [Helen Gurley Brown](https://en.wikipedia.org/wiki/Helen_Gurley_Brown) 🪦
+- [Katharine Graham](https://en.wikipedia.org/wiki/Katharine_Graham) ★ 🪦
+- [Harold Evans](https://en.wikipedia.org/wiki/Harold_Evans) 🪦
+- [Hubert Beuve-Méry](https://en.wikipedia.org/wiki/Hubert_Beuve-M%C3%A9ry) 🪦
+- [Axel Springer](https://en.wikipedia.org/wiki/Axel_Springer) 🪦
+- [Rudolf Augstein](https://en.wikipedia.org/wiki/Rudolf_Augstein) 🪦
+- [Rupert Murdoch](https://en.wikipedia.org/wiki/Rupert_Murdoch)
+- [Allen Lane](https://en.wikipedia.org/wiki/Allen_Lane) 🪦
+- [Gaston Gallimard](https://en.wikipedia.org/wiki/Gaston_Gallimard) 🪦
+- [Bennett Cerf](https://en.wikipedia.org/wiki/Bennett_Cerf) 🪦
+- [Maxwell Perkins](https://en.wikipedia.org/wiki/Maxwell_Perkins) 🪦
+
+### Designers editoriais
+
+- [Alexey Brodovitch](https://en.wikipedia.org/wiki/Alexey_Brodovitch) ★ 🪦
+- [Cipe Pineles](https://en.wikipedia.org/wiki/Cipe_Pineles) ★ 🪦
+- [Jan Tschichold](https://en.wikipedia.org/wiki/Jan_Tschichold) 🪦
+- [Herb Lubalin](https://en.wikipedia.org/wiki/Herb_Lubalin) 🪦
+- [George Lois](https://en.wikipedia.org/wiki/George_Lois) 🪦
+- [Willy Fleckhaus](https://en.wikipedia.org/wiki/Willy_Fleckhaus) 🪦
+- [Massimo Vignelli](https://en.wikipedia.org/wiki/Massimo_Vignelli) 🪦
+- [Fabien Baron](https://en.wikipedia.org/wiki/Fabien_Baron)
+- [Neville Brody](https://en.wikipedia.org/wiki/Neville_Brody) ★
+- [David Carson](https://en.wikipedia.org/wiki/David_Carson_(graphic_designer)) ★
+- [Irma Boom](https://en.wikipedia.org/wiki/Irma_Boom) ★
+- [Chip Kidd](https://en.wikipedia.org/wiki/Chip_Kidd)
+- [Peter Mendelsund](https://en.wikipedia.org/wiki/Peter_Mendelsund)
+- [Paula Scher](https://en.wikipedia.org/wiki/Paula_Scher)
+- [Mehemed Fehmy Agha](https://en.wikipedia.org/wiki/Mehemed_Fehmy_Agha) 🪦
+- [El Lissitzky](https://en.wikipedia.org/wiki/El_Lissitzky) 🪦
+- [Alvin Lustig](https://en.wikipedia.org/wiki/Alvin_Lustig) 🪦
+- [Bradbury Thompson](https://en.wikipedia.org/wiki/Bradbury_Thompson) 🪦
+- [Emil Ruder](https://en.wikipedia.org/wiki/Emil_Ruder) 🪦
+- [Josef Müller-Brockmann](https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann) 🪦
+- [Bruno Munari](https://en.wikipedia.org/wiki/Bruno_Munari) 🪦
+- [Germano Facetti](https://en.wikipedia.org/wiki/Germano_Facetti) 🪦
+- [Romek Marber](https://en.wikipedia.org/wiki/Romek_Marber) 🪦
+- [Wim Crouwel](https://en.wikipedia.org/wiki/Wim_Crouwel) 🪦
+- [Wolfgang Weingart](https://en.wikipedia.org/wiki/Wolfgang_Weingart) 🪦
+- [Tibor Kalman](https://en.wikipedia.org/wiki/Tibor_Kalman) 🪦
+- [Ruth Ansel](https://en.wikipedia.org/wiki/Ruth_Ansel)
+- [Karel Martens](https://en.wikipedia.org/wiki/Karel_Martens)
+- [Mirko Ilić](https://en.wikipedia.org/wiki/Mirko_Ili%C4%87)
+- [Vince Frost](https://en.wikipedia.org/wiki/Vince_Frost)
+- [Gail Anderson](https://en.wikipedia.org/wiki/Gail_Anderson_(graphic_designer))
+- [Kenya Hara](https://en.wikipedia.org/wiki/Kenya_Hara)
+- [Experimental Jetset](https://en.wikipedia.org/wiki/Experimental_Jetset)
+- [Julio Cesar Prava](https://www.behance.net/juliocesarprava)
+- [Bea Feitler](https://en.wikipedia.org/wiki/Bea_Feitler) ★ 🪦
+- [Aloísio Magalhães](https://en.wikipedia.org/wiki/Alo%C3%ADsio_Magalh%C3%A3es) 🪦
+- [Rogério Duarte](https://pt.wikipedia.org/wiki/Rog%C3%A9rio_Duarte) 🪦
+- [Elifas Andreato](https://pt.wikipedia.org/wiki/Elifas_Andreato) 🪦
+- [Victor Burton](https://www.esdi.uerj.br/projetos/2374/o-design-de-victor-burton)
+- [Tereza Bettinardi](https://www.behance.net/terezabettinardi) ★
+- [Fabricio Miranda](https://www.behance.net/fabrizium)
+- [Fernanda Didini](https://www.behance.net/fdidini)
+- [Feu](https://www.behance.net/feuuu)
+- [Jorge Oliveira](https://www.behance.net/jorgeoliveira)
+- [Juliana Caro](https://www.behance.net/julianacaro)
+- [May Tanferri](https://www.behance.net/maytanferri)
+- [Rafael Quick](https://www.behance.net/rafaelquick)
+- [Rodolfo França](https://www.behance.net/rodox)
+- [Tainá Ceccato](https://www.behance.net/tainaceccato)
+- [Bruna Sanches](https://www.behance.net/brunasanchesc)
+- [Carol Malavolta](https://www.behance.net/carolmalavolta)
+- [Débora Islas](https://www.behance.net/deboraislas)
+- [Fábio Dias](https://www.behance.net/diasfabio)
+- [Flavio Pessoa](https://www.behance.net/flaviopessoa)
+- [Gabi Oliveira](https://www.behance.net/gabioliveira)
+- [Hannah Uesugi](https://www.behance.net/hannahuesugi)
+- [Inara Pacheco Negrão](https://www.flickr.com/photos/inaranegrao/)
+- [João Brito](https://www.behance.net/jpbrito)
+- [Letícia Raposo](https://www.flickr.com/photos/leticiaraposo/)
+- [Lucas Blat](https://www.behance.net/LucasBlat)
+- [Mateus Valadares](https://mateusvaladares.com/)
+- [Mayra Fernandes](https://www.behance.net/mayfernandes)
+- [Paula Hentges](https://www.behance.net/paulahentges)
+- [Paula Seco](https://www.behance.net/paulaseco)
+- [Pedro Botton](https://www.behance.net/pedrobotton)
+- [Sophia Fernandez](https://www.behance.net/sophiafernandez)
+- [Valquiria Rabelo](https://www.behance.net/valrabelo)
+- [Yasmin Ayumi](https://www.behance.net/yasminayumi)
+
+## Instituições e eventos
+
+### Associações
+
+- [Society of Publication Designers (SPD)](https://www.spd.org/) ★
+- [Society for News Design (SND)](https://www.snd.org/) ★
+- [Type Directors Club](https://www.tdc.org/)
+- [AIGA](https://www.aiga.org/)
+- [ADG Brasil](https://www.adg.org.br/)
+- [Câmara Brasileira do Livro (CBL)](https://cbl.org.br/)
+- [SNEL](https://snel.org.br/)
+- [ANER](https://www.aner.org.br/)
+- [ANJ](https://www.anj.org.br/)
+- [Abigraf](https://www.abigraf.org.br/)
+- [International Publishers Association](https://www.internationalpublishers.org/)
+- [WAN-IFRA](https://wan-ifra.org/)
+- [FIPP](https://www.fipp.com/)
+- [Association of American Publishers](https://publishers.org/)
+- [The Publishers Association (Reino Unido)](https://www.publishers.org.uk/)
+- [ISTD](https://www.istd.org.uk/)
+- [ATypI](https://www.atypi.org/)
+
+### Prêmios
+
+- [Prêmio Jabuti](https://www.premiojabuti.com.br/) ★
+- [Prêmio Pulitzer](https://en.wikipedia.org/wiki/Pulitzer_Prize) ★
+- [D&AD Awards](https://www.dandad.org/)
+- [Stiftung Buchkunst (Os livros mais bonitos da Alemanha)](https://www.stiftung-buchkunst.de/)
+- [Prêmio Esso de Jornalismo](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_Esso_de_Jornalismo) 🪦
+- [National Magazine Awards](https://en.wikipedia.org/wiki/National_Magazine_Awards)
+- [British Press Awards](https://en.wikipedia.org/wiki/British_Press_Awards)
+- [De Best Verzorgde Boeken (Holanda)](https://www.debestverzorgdeboeken.nl/)
+- [Booker Prize](https://thebookerprizes.com/)
+
+### Feiras e festivais
+
+- [Feira do Livro de Frankfurt](https://www.buchmesse.de/) ★
+- [Bologna Children's Book Fair](https://www.bolognachildrensbookfair.com/)
+- [London Book Fair](https://www.londonbookfair.co.uk/)
+- [NY Art Book Fair (Printed Matter)](https://www.printedmatter.org/)
+- [Bienal do Livro de São Paulo](https://www.bienaldolivrosp.com.br/)
+- [Bienal do Livro Rio](https://www.bienaldolivro.com.br/)
+- [FLIP (Festa Literária de Paraty)](https://www.flip.org.br/) ★
+- [drupa (feira de impressão)](https://www.drupa.com/)
+- [FESPA](https://www.fespa.com/)
+- [Feira Internacional do Livro de Guadalajara](https://www.fil.com.mx/)
+- [Feria del Libro de Buenos Aires](https://www.feriadellibro.ar/)
+- [Tokyo Art Book Fair](https://tokyoartbookfair.com/)
+- [Miss Read (Berlim)](https://missread.com/)
+
+### Museus e bibliotecas
+
+- [Gutenberg-Museum](https://www.mainz.de/microsite/gutenberg-museum/) ★
+- [Museu Plantin-Moretus](https://www.museumplantinmoretus.be/) ★
+- [Biblioteca Nacional](https://www.gov.br/bn/)
+- [Library of Congress](https://www.loc.gov/)
+- [British Library](https://www.bl.uk/)
+- [Bibliothèque nationale de France](https://www.bnf.fr/)
+- [The Morgan Library & Museum](https://www.themorgan.org/)
+- [Museum Meermanno](https://rijksmuseummeermanno.nl/)
+- [Klingspor Museum](https://www.klingspor-museum.de/)
+- [St Bride Library](https://www.sbf.org.uk/)
+- [Newseum](https://en.wikipedia.org/wiki/Newseum) 🪦
+
+## História da mídia impressa
+
+### Origens da impressão
+
+- [Xilogravura](https://en.wikipedia.org/wiki/Woodcut)
+- [Sutra do Diamante](https://en.wikipedia.org/wiki/Diamond_Sutra)
+- [Tipos móveis](https://en.wikipedia.org/wiki/Movable_type) ★
+- [Prensa de Gutenberg](https://en.wikipedia.org/wiki/Printing_press) ★
+- [Bíblia de Gutenberg](https://en.wikipedia.org/wiki/Gutenberg_Bible) ★
+- [Incunábulo](https://en.wikipedia.org/wiki/Incunable)
+- [Litografia](https://en.wikipedia.org/wiki/Lithography)
+- [Linotipo](https://en.wikipedia.org/wiki/Linotype_machine)
+- [Fotocomposição](https://en.wikipedia.org/wiki/Phototypesetting)
+- [Editoração eletrônica (DTP)](https://en.wikipedia.org/wiki/Desktop_publishing)
+- [Xilogravura em blocos (Ásia)](https://en.wikipedia.org/wiki/Woodblock_printing)
+- [Jikji](https://en.wikipedia.org/wiki/Jikji)
+- [Prensa rotativa](https://en.wikipedia.org/wiki/Rotary_printing_press)
+- [Composição a quente](https://en.wikipedia.org/wiki/Hot_metal_typesetting)
+
+### Imprensa e jornalismo
+
+- [História do jornal](https://en.wikipedia.org/wiki/History_of_newspapers) ★
+- [História das revistas](https://en.wikipedia.org/wiki/History_of_magazines)
+- [Imprensa barata (penny press)](https://en.wikipedia.org/wiki/Penny_press)
+- [Revistas pulp](https://en.wikipedia.org/wiki/Pulp_magazines)
+- [Jornalismo amarelo](https://en.wikipedia.org/wiki/Yellow_journalism)
+- [Imprensa Régia](https://pt.wikipedia.org/wiki/Imprensa_R%C3%A9gia)
+- [Gazeta do Rio de Janeiro](https://pt.wikipedia.org/wiki/Gazeta_do_Rio_de_Janeiro)
+- [Correio Braziliense (1808)](https://pt.wikipedia.org/wiki/Correio_Braziliense_(1808))
+- [Imprensa alternativa no Brasil](https://pt.wikipedia.org/wiki/Imprensa_alternativa)
+- [Acta Diurna](https://en.wikipedia.org/wiki/Acta_Diurna)
+- [The London Gazette](https://en.wikipedia.org/wiki/The_London_Gazette)
+- [The Daily Courant](https://en.wikipedia.org/wiki/The_Daily_Courant)
+- [The Gentleman's Magazine](https://en.wikipedia.org/wiki/The_Gentleman%27s_Magazine)
+- [Encyclopédie](https://en.wikipedia.org/wiki/Encyclop%C3%A9die)
+- [Penguin Books e a revolução do livro de bolso](https://en.wikipedia.org/wiki/Penguin_Books)
+
+### Era digital
+
+- [Livro digital (e-book)](https://en.wikipedia.org/wiki/E-book) ★
+- [Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle)
+- [Leitor de livros digitais](https://en.wikipedia.org/wiki/E-reader)
+- [Tinta eletrônica (e-ink)](https://en.wikipedia.org/wiki/E_Ink)
+- [Paywall](https://en.wikipedia.org/wiki/Paywall)
+
+## Aprendizado e referências
+
+### Livros essenciais
+
+- [Robert Bringhurst - Elementos do Estilo Tipográfico](https://www.goodreads.com/search?q=Robert+Bringhurst+The+Elements+of+Typographic+Style) ★
+- [Josef Müller-Brockmann - Grid Systems](https://www.goodreads.com/search?q=Josef+M%C3%BCller-Brockmann+Grid+Systems) ★
+- [Ellen Lupton - Pensar com Tipos](https://www.goodreads.com/search?q=Ellen+Lupton+Thinking+with+Type) ★
+- [Jan Tschichold - A Forma do Livro](https://www.goodreads.com/search?q=Jan+Tschichold+The+Form+of+the+Book)
+- [Timothy Samara - Grid: Construção e Desconstrução](https://www.goodreads.com/search?q=Timothy+Samara+Making+and+Breaking+the+Grid)
+- [Andrew Haslam - O Livro e o Designer](https://www.goodreads.com/search?q=Andrew+Haslam+Book+Design)
+- [Yolanda Zappaterra - Editorial Design](https://www.goodreads.com/search?q=Yolanda+Zappaterra+Editorial+Design)
+- [Richard Hendel - O Design do Livro](https://www.goodreads.com/search?q=Richard+Hendel+On+Book+Design)
+- [Emanuel Araújo - A Construção do Livro](https://www.goodreads.com/search?q=Emanuel+Ara%C3%BAjo+A+Constru%C3%A7%C3%A3o+do+Livro)
+- [Jost Hochuli - O Detalhe na Tipografia](https://www.goodreads.com/search?q=Jost+Hochuli+Detail+in+Typography)
+- [The Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style)
+- [Philip B. Meggs - História do Design Gráfico](https://www.goodreads.com/search?q=Philip+Meggs+History+of+Graphic+Design) ★
+- [Jan Tschichold - A Nova Tipografia](https://www.goodreads.com/search?q=Jan+Tschichold+The+New+Typography)
+- [Erik Spiekermann - Stop Stealing Sheep](https://www.goodreads.com/search?q=Erik+Spiekermann+Stop+Stealing+Sheep)
+- [Robin Williams - Design para Quem Não É Designer](https://www.goodreads.com/search?q=Robin+Williams+The+Non-Designer%27s+Design+Book)
+- [Jeremy Leslie - magCulture: New Magazine Design](https://www.goodreads.com/search?q=Jeremy+Leslie+magCulture)
+
+### Blogs e inspiração
+
+- [magCulture](https://magculture.com/) ★
+- [Stack Magazines](https://www.stackmagazines.com/)
+- [Coverjunkie](https://coverjunkie.com/)
+- [Fonts In Use](https://fontsinuse.com/)
+- [Book Cover Archive](https://bookcoverarchive.com/)
+- [The Casual Optimist](https://www.casualoptimist.com/)
+- [Spine Magazine](https://www.spinemagazine.co/)
+- [The Book Design Blog](https://thebookdesignblog.com/)
+- [Nas Capas](https://nascapas.blogspot.com/)
+- [No Miolo](https://nomiolo.blogspot.com/)
+- [Today's Front Pages (Freedom Forum)](https://frontpages.freedomforum.org/)
+- [Kiosko.net](https://en.kiosko.net/)
+- [It's Nice That](https://www.itsnicethat.com/)
+
+### Bancas digitais
+
+- [PressReader](https://www.pressreader.com/) ★
+- [Readly](https://www.readly.com/)
+- [Zinio](https://www.zinio.com/)
+- [Magzter](https://www.magzter.com/)
+- [GoRead](https://www.goread.com.br/)
+
+### Acervos e hemerotecas
+
+- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) ★
+- [Acervo Folha](https://acervo.folha.com.br/)
+- [Acervo Estadão](https://www.estadao.com.br/acervo/)
+- [Acervo O Globo](https://oglobo.globo.com/acervo)
+- [Internet Archive (textos)](https://archive.org/details/texts)
+- [Project Gutenberg](https://www.gutenberg.org/) ★
+- [Google Books](https://books.google.com/)
+- [Chronicling America](https://chroniclingamerica.loc.gov/)
+- [Gallica](https://gallica.bnf.fr/)
+- [British Newspaper Archive](https://www.britishnewspaperarchive.co.uk/)
+- [Trove](https://trove.nla.gov.au/)
+- [Europeana](https://www.europeana.eu/)
+- [TimesMachine (NYT)](https://timesmachine.nytimes.com/)

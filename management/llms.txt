@@ -1,0 +1,380 @@
+# A Biblioteca de Organização
+
+> Catálogo pesquisável sobre organização: gestão do tempo, produtividade, apps de tarefas e notas, gestão de projetos e equipes, organização da casa e das finanças, metodologias, livros e pessoas.
+
+Biblioteca temática da BiblioVerse (The Organization Library), com curadoria humana. Página: https://biblioverse.org/management/ · 281 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Produtividade e gestão do tempo
+
+- [Produtividade](https://en.wikipedia.org/wiki/Productivity)
+- [Gestão do tempo](https://en.wikipedia.org/wiki/Time_management) ★
+- [Procrastinação](https://en.wikipedia.org/wiki/Procrastination) ★
+- [Matriz de Eisenhower](https://en.wikipedia.org/wiki/Eisenhower_matrix) ★
+- [Técnica Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) ★
+- [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done) ★
+- [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing)
+- [Princípio de Pareto (80/20)](https://en.wikipedia.org/wiki/Pareto_principle)
+- [Lei de Parkinson](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+- [Lei de Hofstadter](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+- [Falácia do planejamento](https://en.wikipedia.org/wiki/Planning_fallacy)
+- [Multitarefa](https://en.wikipedia.org/wiki/Human_multitasking)
+- [Estado de fluxo (flow)](https://en.wikipedia.org/wiki/Flow_(psychology))
+- [Hábito](https://en.wikipedia.org/wiki/Habit)
+- [Kaizen](https://en.wikipedia.org/wiki/Kaizen)
+
+### Organização pessoal e do lar
+
+- [Organização profissional (personal organizer)](https://en.wikipedia.org/wiki/Professional_organizing)
+- [Método KonMari](https://en.wikipedia.org/wiki/Marie_Kondo) ★
+- [Vida simples e minimalismo](https://en.wikipedia.org/wiki/Simple_living)
+- [Bullet Journal](https://en.wikipedia.org/wiki/Bullet_journal) ★
+- [Agenda e planner](https://en.wikipedia.org/wiki/Personal_organizer)
+- [Diário](https://en.wikipedia.org/wiki/Diary)
+- [Finanças pessoais](https://en.wikipedia.org/wiki/Personal_finance)
+- [Orçamento](https://en.wikipedia.org/wiki/Budget)
+- [Mise en place](https://en.wikipedia.org/wiki/Mise_en_place)
+- [Preparo de refeições (meal prep)](https://en.wikipedia.org/wiki/Meal_preparation)
+- [Lista de compras](https://en.wikipedia.org/wiki/Shopping_list)
+
+### Gestão do conhecimento
+
+- [Gestão do conhecimento pessoal (PKM)](https://en.wikipedia.org/wiki/Personal_knowledge_management) ★
+- [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) ★
+- [Tomada de notas](https://en.wikipedia.org/wiki/Note-taking)
+- [Método Cornell](https://en.wikipedia.org/wiki/Cornell_Notes)
+- [Mapa mental](https://en.wikipedia.org/wiki/Mind_map)
+- [Repetição espaçada](https://en.wikipedia.org/wiki/Spaced_repetition)
+- [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book)
+- [Wiki pessoal](https://en.wikipedia.org/wiki/Personal_wiki)
+
+### Gestão de projetos
+
+- [Gestão de projetos](https://en.wikipedia.org/wiki/Project_management) ★
+- [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) ★
+- [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) ★
+- [Desenvolvimento ágil](https://en.wikipedia.org/wiki/Agile_software_development)
+- [Modelo cascata](https://en.wikipedia.org/wiki/Waterfall_model)
+- [Gráfico de Gantt](https://en.wikipedia.org/wiki/Gantt_chart)
+- [Método do caminho crítico](https://en.wikipedia.org/wiki/Critical_path_method)
+- [PERT](https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique)
+- [Estrutura analítica do projeto (EAP/WBS)](https://en.wikipedia.org/wiki/Work_breakdown_structure)
+- [Matriz RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
+- [Gráfico de burndown](https://en.wikipedia.org/wiki/Burndown_chart)
+- [Reunião diária (stand-up)](https://en.wikipedia.org/wiki/Stand-up_meeting)
+- [Retrospectiva](https://en.wikipedia.org/wiki/Retrospective)
+- [OKR](https://en.wikipedia.org/wiki/OKR)
+- [Metas SMART](https://en.wikipedia.org/wiki/SMART_criteria)
+- [Indicador-chave de desempenho (KPI)](https://en.wikipedia.org/wiki/Performance_indicator)
+
+### Gestão e melhoria de processos
+
+- [Administração](https://en.wikipedia.org/wiki/Management) ★
+- [Delegação](https://en.wikipedia.org/wiki/Delegation)
+- [Tomada de decisão](https://en.wikipedia.org/wiki/Decision-making)
+- [Análise SWOT](https://en.wikipedia.org/wiki/SWOT_analysis)
+- [Processo de negócio](https://en.wikipedia.org/wiki/Business_process)
+- [Fluxograma](https://en.wikipedia.org/wiki/Flowchart)
+- [Procedimento operacional padrão](https://en.wikipedia.org/wiki/Standard_operating_procedure)
+- [Ciclo PDCA](https://en.wikipedia.org/wiki/PDCA) ★
+- [5S](https://en.wikipedia.org/wiki/5S_(methodology))
+- [Lean](https://en.wikipedia.org/wiki/Lean_manufacturing)
+- [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma)
+- [Gestão da qualidade](https://en.wikipedia.org/wiki/Quality_management)
+- [Gestão da mudança](https://en.wikipedia.org/wiki/Change_management)
+- [Análise de causa raiz](https://en.wikipedia.org/wiki/Root_cause_analysis)
+- [Diagrama de Ishikawa](https://en.wikipedia.org/wiki/Ishikawa_diagram)
+- [5 porquês](https://en.wikipedia.org/wiki/Five_whys)
+- [Gestão de e-mail](https://en.wikipedia.org/wiki/Email_management)
+
+## Apps de produtividade
+
+### Listas de tarefas
+
+- [Todoist](https://todoist.com/) ★
+- [TickTick](https://ticktick.com/) ★
+- [Things 3](https://culturedcode.com/things/) ★
+- [Microsoft To Do](https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app)
+- [Any.do](https://www.any.do/)
+- [OmniFocus](https://www.omnigroup.com/omnifocus/)
+- [Remember The Milk](https://www.rememberthemilk.com/)
+- [Superlist](https://www.superlist.com/)
+- [Amazing Marvin](https://amazingmarvin.com/)
+
+### Notas e segundo cérebro
+
+- [Notion](https://www.notion.com/) ★
+- [Obsidian](https://obsidian.md/) ★
+- [Evernote](https://evernote.com/)
+- [Microsoft OneNote](https://www.onenote.com/)
+- [Google Keep](https://workspace.google.com/products/keep/)
+- [Logseq](https://logseq.com/)
+- [Roam Research](https://roamresearch.com/)
+- [Anytype](https://anytype.io/)
+- [Capacities](https://capacities.io/)
+- [Tana](https://tana.inc/)
+- [Craft](https://www.craft.do/)
+- [Bear](https://bear.app/)
+- [Joplin](https://joplinapp.org/)
+- [Standard Notes](https://standardnotes.com/)
+- [Simplenote](https://simplenote.com/)
+- [Readwise](https://readwise.io/)
+- [Zotero](https://www.zotero.org/)
+- [Anki](https://apps.ankiweb.net/)
+- [Goodnotes](https://www.goodnotes.com/)
+- [Notability](https://notability.com/)
+- [Heptabase](https://heptabase.com/)
+- [Reflect](https://reflect.app/)
+- [Microsoft Loop](https://www.microsoft.com/microsoft-loop)
+
+### Calendário e agendamento
+
+- [Google Agenda](https://workspace.google.com/products/calendar/) ★
+- [Notion Calendar](https://www.notion.com/product/calendar)
+- [Fantastical](https://flexibits.com/fantastical)
+- [Morgen](https://www.morgen.so/)
+- [Calendly](https://calendly.com/) ★
+- [Cal.com](https://cal.com/)
+- [Doodle](https://doodle.com/)
+- [When2meet](https://www.when2meet.com/)
+- [Amie](https://amie.so/)
+
+### Planejamento com IA
+
+- [Motion](https://www.usemotion.com/) ★
+- [Reclaim.ai](https://reclaim.ai/)
+- [Sunsama](https://www.sunsama.com/)
+- [Akiflow](https://akiflow.com/)
+- [Structured](https://structured.app/)
+- [Tiimo](https://www.tiimoapp.com/)
+
+### Foco e bloqueio de distrações
+
+- [Forest](https://www.forestapp.cc/) ★
+- [Freedom](https://freedom.to/) ★
+- [Cold Turkey](https://getcoldturkey.com/)
+- [Opal](https://opalapp.com/)
+- [Focusmate](https://www.focusmate.com/)
+- [Pomofocus](https://pomofocus.io/)
+- [Session](https://www.stayinsession.com/)
+- [Brain.fm](https://www.brain.fm/)
+- [Noisli](https://www.noisli.com/)
+
+### Hábitos, rotina e bem-estar
+
+- [Habitica](https://habitica.com/) ★
+- [Streaks](https://streaks.app/)
+- [Loop Habit Tracker](https://loophabits.org/)
+- [Habitify](https://www.habitify.me/)
+- [Fabulous](https://www.thefabulous.co/)
+- [Daylio](https://daylio.net/)
+- [Headspace](https://www.headspace.com/)
+- [Calm](https://www.calm.com/)
+- [Sleep Cycle](https://www.sleepcycle.com/)
+
+### Controle de tempo
+
+- [Toggl Track](https://toggl.com/track/) ★
+- [Clockify](https://clockify.me/)
+- [RescueTime](https://www.rescuetime.com/)
+- [Rize](https://rize.io/)
+- [Harvest](https://www.getharvest.com/)
+- [Timing](https://timingapp.com/)
+- [Everhour](https://everhour.com/)
+
+## Projetos e equipes
+
+### Ferramentas de gestão de projetos
+
+- [Trello](https://trello.com/) ★
+- [Asana](https://asana.com/) ★
+- [monday.com](https://monday.com/) ★
+- [ClickUp](https://clickup.com/)
+- [Jira](https://www.atlassian.com/software/jira)
+- [Linear](https://linear.app/)
+- [Basecamp](https://basecamp.com/)
+- [Wrike](https://www.wrike.com/)
+- [Smartsheet](https://www.smartsheet.com/)
+- [Airtable](https://www.airtable.com/)
+- [Microsoft Planner](https://www.microsoft.com/microsoft-365/planner/microsoft-planner)
+- [Teamwork.com](https://www.teamwork.com/)
+- [Zoho Projects](https://www.zoho.com/projects/)
+- [Plane](https://plane.so/)
+- [OpenProject](https://www.openproject.org/)
+- [Taiga](https://taiga.io/)
+- [Runrun.it](https://runrun.it/)
+- [Shortcut](https://www.shortcut.com/)
+
+### Comunicação e colaboração
+
+- [Slack](https://slack.com/) ★
+- [Microsoft Teams](https://www.microsoft.com/microsoft-teams/)
+- [Google Workspace](https://workspace.google.com/)
+- [Zoom](https://www.zoom.com/)
+- [Loom](https://www.loom.com/)
+- [Twist](https://twist.com/)
+- [Otter.ai](https://otter.ai/)
+- [Fireflies.ai](https://fireflies.ai/)
+- [Superhuman (e-mail)](https://superhuman.com/)
+- [Spark Mail](https://sparkmailapp.com/)
+
+### Quadros brancos e diagramas
+
+- [Miro](https://miro.com/) ★
+- [FigJam](https://www.figma.com/figjam/)
+- [Mural](https://www.mural.co/)
+- [Whimsical](https://whimsical.com/)
+- [Lucidchart](https://www.lucidchart.com/)
+- [draw.io](https://www.drawio.com/)
+- [XMind](https://xmind.com/)
+
+### Documentação e processos
+
+- [Confluence](https://www.atlassian.com/software/confluence) ★
+- [GitBook](https://www.gitbook.com/)
+- [Slab](https://slab.com/)
+- [Scribe](https://scribe.com/)
+- [Tango](https://www.tango.ai/)
+- [Process Street](https://www.process.st/)
+
+### Automação e atalhos
+
+- [Zapier](https://zapier.com/) ★
+- [Make](https://www.make.com/)
+- [n8n](https://n8n.io/)
+- [IFTTT](https://ifttt.com/)
+- [Power Automate](https://www.microsoft.com/power-platform/products/power-automate)
+- [Raycast](https://www.raycast.com/)
+- [Alfred](https://www.alfredapp.com/)
+- [TextExpander](https://textexpander.com/)
+- [Espanso](https://espanso.org/)
+- [Microsoft PowerToys](https://learn.microsoft.com/windows/powertoys/)
+
+## Vida organizada
+
+### Planners e papelaria
+
+- [Bullet Journal](https://bulletjournal.com/) ★
+- [Moleskine](https://www.moleskine.com/)
+- [Leuchtturm1917](https://www.leuchtturm1917.com/)
+- [Hobonichi Techo](https://www.1101.com/store/techo/)
+- [Passion Planner](https://passionplanner.com/)
+- [Full Focus Planner](https://fullfocus.co/)
+- [Tilibra](https://www.tilibra.com.br/)
+
+### Casa, cozinha e família
+
+- [KonMari](https://konmari.com/) ★
+- [The Home Edit](https://thehomeedit.com/)
+- [Tody](https://todyapp.com/)
+- [Sweepy](https://sweepy.com/)
+- [Cozi](https://www.cozi.com/)
+- [AnyList](https://www.anylist.com/)
+- [Bring!](https://www.getbring.com/)
+- [Paprika](https://www.paprikaapp.com/)
+- [Mealime](https://www.mealime.com/)
+
+### Finanças pessoais
+
+- [YNAB](https://www.ynab.com/) ★
+- [Monarch](https://www.monarch.com/)
+- [Actual Budget](https://actualbudget.org/)
+- [GnuCash](https://www.gnucash.org/)
+- [Mobills](https://www.mobills.com.br/) ★
+- [Organizze](https://www.organizze.com.br/)
+- [Mint](https://en.wikipedia.org/wiki/Intuit_Mint) 🪦
+
+### Arquivos, senhas e leitura
+
+- [1Password](https://1password.com/) ★
+- [Bitwarden](https://bitwarden.com/)
+- [Google Drive](https://workspace.google.com/products/drive/)
+- [Dropbox](https://www.dropbox.com/)
+- [Paperless-ngx](https://docs.paperless-ngx.com/)
+- [Everything (busca no Windows)](https://www.voidtools.com/)
+- [Hazel](https://www.noodlesoft.com/)
+- [Raindrop.io](https://raindrop.io/)
+- [Instapaper](https://www.instapaper.com/)
+- [Pocket](https://en.wikipedia.org/wiki/Pocket_(service)) 🪦
+
+## Metodologias e certificações
+
+### Métodos de produtividade
+
+- [Getting Things Done (David Allen)](https://gettingthingsdone.com/) ★
+- [Forte Labs (método PARA e segundo cérebro)](https://fortelabs.com/)
+- [Zettelkasten.de](https://zettelkasten.de/)
+- [FranklinCovey](https://www.franklincovey.com/)
+- [Triad Productivity (Christian Barbosa)](https://www.triadps.com/)
+
+### Gestão de projetos e ágil
+
+- [PMI (Project Management Institute)](https://www.pmi.org/) ★
+- [PMBOK](https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge)
+- [PRINCE2](https://en.wikipedia.org/wiki/PRINCE2)
+- [IPMA](https://ipma.world/)
+- [Manifesto Ágil](https://agilemanifesto.org/) ★
+- [Guia do Scrum](https://scrumguides.org/) ★
+- [Scrum.org](https://www.scrum.org/)
+- [Scrum Alliance](https://www.scrumalliance.org/)
+- [Kanban University](https://kanban.university/)
+- [SAFe (Scaled Agile Framework)](https://framework.scaledagile.com/)
+
+### Qualidade e processos
+
+- [Lean Enterprise Institute](https://www.lean.org/) ★
+- [ISO 9001](https://en.wikipedia.org/wiki/ISO_9001)
+- [ITIL](https://en.wikipedia.org/wiki/ITIL)
+- [Sistema Toyota de Produção](https://en.wikipedia.org/wiki/Toyota_Production_System)
+
+## Conteúdo e inspiração
+
+### Blogs e canais
+
+- [James Clear](https://jamesclear.com/) ★
+- [Cal Newport](https://calnewport.com/) ★
+- [Ali Abdaal](https://aliabdaal.com/)
+- [Thomas Frank](https://www.youtube.com/@Thomasfrank)
+- [Ness Labs](https://nesslabs.com/)
+- [Zen Habits](https://zenhabits.net/)
+- [The Minimalists](https://www.theminimalists.com/)
+- [Lifehacker](https://lifehacker.com/)
+- [Vida Organizada (Thais Godinho)](https://vidaorganizada.com/) ★
+
+### Livros
+
+- [David Allen - A Arte de Fazer Acontecer (GTD)](https://www.goodreads.com/search?q=David+Allen+Getting+Things+Done) ★
+- [James Clear - Hábitos Atômicos](https://www.goodreads.com/search?q=James+Clear+Atomic+Habits) ★
+- [Cal Newport - Trabalho Focado](https://www.goodreads.com/search?q=Cal+Newport+Deep+Work) ★
+- [Stephen Covey - Os 7 Hábitos das Pessoas Altamente Eficazes](https://www.goodreads.com/search?q=Covey+7+Habits+of+Highly+Effective+People)
+- [Charles Duhigg - O Poder do Hábito](https://www.goodreads.com/search?q=Charles+Duhigg+The+Power+of+Habit)
+- [Greg McKeown - Essencialismo](https://www.goodreads.com/search?q=Greg+McKeown+Essentialism)
+- [Oliver Burkeman - Quatro Mil Semanas](https://www.goodreads.com/search?q=Oliver+Burkeman+Four+Thousand+Weeks)
+- [Tiago Forte - Criando um Segundo Cérebro](https://www.goodreads.com/search?q=Tiago+Forte+Building+a+Second+Brain)
+- [Sönke Ahrens - How to Take Smart Notes](https://www.goodreads.com/search?q=Sonke+Ahrens+How+to+Take+Smart+Notes)
+- [Marie Kondo - A Mágica da Arrumação](https://www.goodreads.com/search?q=Marie+Kondo+The+Life-Changing+Magic+of+Tidying+Up)
+- [Francesco Cirillo - The Pomodoro Technique](https://www.goodreads.com/search?q=Francesco+Cirillo+The+Pomodoro+Technique)
+- [Brian Tracy - Engula Aquele Sapo](https://www.goodreads.com/search?q=Brian+Tracy+Eat+That+Frog)
+- [Gary Keller - A Única Coisa](https://www.goodreads.com/search?q=Gary+Keller+The+One+Thing)
+- [John Doerr - Avalie o Que Importa](https://www.goodreads.com/search?q=John+Doerr+Measure+What+Matters)
+- [Jeff Sutherland - Scrum](https://www.goodreads.com/search?q=Jeff+Sutherland+Scrum+The+Art+of+Doing+Twice+the+Work)
+- [Peter Drucker - O Gestor Eficaz](https://www.goodreads.com/search?q=Peter+Drucker+The+Effective+Executive)
+- [Christian Barbosa - A Tríade do Tempo](https://www.goodreads.com/search?q=Christian+Barbosa+A+Triade+do+Tempo)
+
+### Pessoas
+
+- [David Allen](https://en.wikipedia.org/wiki/David_Allen_(author)) ★
+- [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) 🪦
+- [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker) ★ 🪦
+- [Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kondo)
+- [Cal Newport](https://en.wikipedia.org/wiki/Cal_Newport)
+- [James Clear](https://en.wikipedia.org/wiki/James_Clear)
+- [Ryder Carroll](https://en.wikipedia.org/wiki/Ryder_Carroll)
+- [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) 🪦
+- [Frederick Winslow Taylor](https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor) 🪦
+- [Henry Gantt](https://en.wikipedia.org/wiki/Henry_Gantt) 🪦
+- [Taiichi Ohno](https://en.wikipedia.org/wiki/Taiichi_Ohno) 🪦
+- [W. Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming) 🪦
+- [Eliyahu Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt) 🪦

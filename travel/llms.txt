@@ -1,0 +1,564 @@
+# A Biblioteca de Viagem
+
+> Catálogo pesquisável para quem quer viajar: conceitos, guias e wikis, passagens e milhas, hospedagem, passeios, comunidades e blogs, principais destinos, saúde, segurança, vistos e ferramentas do viajante.
+
+Biblioteca temática da BiblioVerse (The Travel Library), com curadoria humana. Página: https://biblioverse.org/travel/ · 395 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Tipos de viagem
+
+- [Turismo](https://en.wikipedia.org/wiki/Tourism) ★
+- [Mochilão (backpacking)](https://en.wikipedia.org/wiki/Backpacking_(travel)) ★
+- [Road trip](https://en.wikipedia.org/wiki/Road_trip)
+- [Ecoturismo](https://en.wikipedia.org/wiki/Ecotourism)
+- [Turismo de aventura](https://en.wikipedia.org/wiki/Adventure_travel)
+- [Turismo cultural](https://en.wikipedia.org/wiki/Cultural_tourism)
+- [Turismo gastronômico](https://en.wikipedia.org/wiki/Culinary_tourism)
+- [Turismo religioso](https://en.wikipedia.org/wiki/Religious_tourism)
+- [Turismo de saúde](https://en.wikipedia.org/wiki/Medical_tourism)
+- [Viagem de negócios](https://en.wikipedia.org/wiki/Business_travel)
+- [Turismo sustentável](https://en.wikipedia.org/wiki/Sustainable_tourism) ★
+- [Slow travel](https://en.wikipedia.org/wiki/Slow_travel)
+- [Nômade digital](https://en.wikipedia.org/wiki/Digital_nomad)
+- [Gap year](https://en.wikipedia.org/wiki/Gap_year)
+- [Volunturismo](https://en.wikipedia.org/wiki/Voluntourism)
+- [Lua de mel](https://en.wikipedia.org/wiki/Honeymoon)
+- [Cruzeiro](https://en.wikipedia.org/wiki/Cruise_ship)
+- [Overtourism](https://en.wikipedia.org/wiki/Overtourism)
+
+### Documentos e fronteiras
+
+- [Passaporte](https://en.wikipedia.org/wiki/Passport) ★
+- [Visto](https://en.wikipedia.org/wiki/Travel_visa) ★
+- [Exigências de visto para brasileiros](https://en.wikipedia.org/wiki/Visa_requirements_for_Brazilian_citizens) ★
+- [Espaço Schengen](https://en.wikipedia.org/wiki/Schengen_Area) ★
+- [ESTA (Estados Unidos)](https://en.wikipedia.org/wiki/Electronic_System_for_Travel_Authorization)
+- [ETIAS (União Europeia)](https://en.wikipedia.org/wiki/European_Travel_Information_and_Authorisation_System)
+- [Seguro viagem](https://en.wikipedia.org/wiki/Travel_insurance) ★
+- [Controle de fronteira](https://en.wikipedia.org/wiki/Border_control)
+- [Alfândega](https://en.wikipedia.org/wiki/Customs)
+- [Free shop (duty-free)](https://en.wikipedia.org/wiki/Duty-free_shop)
+- [Certificado Internacional de Vacinação](https://en.wikipedia.org/wiki/International_Certificate_of_Vaccination_or_Prophylaxis)
+- [Permissão Internacional para Dirigir](https://en.wikipedia.org/wiki/International_Driving_Permit)
+
+### Transporte
+
+- [Companhia aérea](https://en.wikipedia.org/wiki/Airline)
+- [Companhia aérea de baixo custo](https://en.wikipedia.org/wiki/Low-cost_carrier) ★
+- [Aliança aérea](https://en.wikipedia.org/wiki/Airline_alliance)
+- [Programa de milhas](https://en.wikipedia.org/wiki/Frequent-flyer_program) ★
+- [Overbooking](https://en.wikipedia.org/wiki/Overbooking)
+- [Jet lag](https://en.wikipedia.org/wiki/Jet_lag) ★
+- [Trem de alta velocidade](https://en.wikipedia.org/wiki/High-speed_rail)
+- [Interrail](https://en.wikipedia.org/wiki/Interrail)
+- [Aluguel de carro](https://en.wikipedia.org/wiki/Car_rental)
+- [Carona](https://en.wikipedia.org/wiki/Hitchhiking)
+
+### Hospedagem
+
+- [Hotel](https://en.wikipedia.org/wiki/Hotel)
+- [Albergue (hostel)](https://en.wikipedia.org/wiki/Hostel) ★
+- [Pousada (bed and breakfast)](https://en.wikipedia.org/wiki/Bed_and_breakfast)
+- [Aluguel por temporada](https://en.wikipedia.org/wiki/Vacation_rental)
+- [Resort](https://en.wikipedia.org/wiki/Resort)
+- [All inclusive](https://en.wikipedia.org/wiki/All-inclusive_resort)
+- [Camping](https://en.wikipedia.org/wiki/Camping)
+- [Glamping](https://en.wikipedia.org/wiki/Glamping)
+- [Hospitalidade gratuita (hospitality exchange)](https://en.wikipedia.org/wiki/Hospitality_exchange)
+- [House sitting](https://en.wikipedia.org/wiki/House_sitting)
+
+### Dinheiro, saúde e dia a dia
+
+- [Casa de câmbio](https://en.wikipedia.org/wiki/Bureau_de_change)
+- [IOF](https://pt.wikipedia.org/wiki/Imposto_sobre_Opera%C3%A7%C3%B5es_Financeiras)
+- [Gorjeta](https://en.wikipedia.org/wiki/Gratuity) ★
+- [Paridade do poder de compra](https://en.wikipedia.org/wiki/Purchasing_power_parity)
+- [Roteiro de viagem](https://en.wikipedia.org/wiki/Travel_itinerary)
+- [Fuso horário](https://en.wikipedia.org/wiki/Time_zone)
+- [Tomadas e voltagens pelo mundo](https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets) ★
+- [eSIM](https://en.wikipedia.org/wiki/ESIM)
+- [Roaming](https://en.wikipedia.org/wiki/Roaming)
+- [Bagagem](https://en.wikipedia.org/wiki/Baggage)
+- [Choque cultural](https://en.wikipedia.org/wiki/Culture_shock)
+- [Mal de altitude](https://en.wikipedia.org/wiki/Altitude_sickness)
+- [Diarreia do viajante](https://en.wikipedia.org/wiki/Travelers%27_diarrhea)
+
+## Planejamento e inspiração
+
+### Guias e wikis
+
+- [Wikivoyage](https://www.wikivoyage.org/) ★
+- [Lonely Planet](https://www.lonelyplanet.com/) ★
+- [Atlas Obscura](https://www.atlasobscura.com/) ★
+- [Rick Steves](https://www.ricksteves.com/)
+- [Rough Guides](https://www.roughguides.com/)
+- [Fodor's](https://www.fodors.com/)
+- [Frommer's](https://www.frommers.com/)
+- [Time Out](https://www.timeout.com/)
+- [Culture Trip](https://theculturetrip.com/)
+- [Wikitravel](https://wikitravel.org/)
+
+### Revistas e portais
+
+- [National Geographic Travel](https://www.nationalgeographic.com/travel) ★
+- [Condé Nast Traveler](https://www.cntraveler.com/)
+- [Travel + Leisure](https://www.travelandleisure.com/)
+- [Melhores Destinos](https://www.melhoresdestinos.com.br/) ★
+- [Viagem e Turismo](https://viagemeturismo.abril.com.br/)
+
+### Roteiros e organização
+
+- [Wanderlog](https://wanderlog.com/) ★
+- [TripIt](https://www.tripit.com/) ★
+- [Rome2Rio](https://www.rome2rio.com/) ★
+- [Google Travel](https://www.google.com/travel/)
+- [Tripadvisor](https://www.tripadvisor.com/) ★
+- [Roadtrippers](https://roadtrippers.com/)
+- [Visit A City](https://www.visitacity.com/)
+
+### Clima e época certa
+
+- [Weather Spark](https://weatherspark.com/) ★
+- [Climate-Data.org](https://en.climate-data.org/)
+- [Feriados pelo mundo (Time and Date)](https://www.timeanddate.com/holidays/)
+
+### Custo e orçamento
+
+- [Numbeo](https://www.numbeo.com/cost-of-living/) ★
+- [Budget Your Trip](https://www.budgetyourtrip.com/)
+- [Expatistan](https://www.expatistan.com/cost-of-living)
+- [XE (câmbio)](https://www.xe.com/)
+
+## Passagens e transporte
+
+### Busca de voos
+
+- [Google Flights](https://www.google.com/travel/flights) ★
+- [Skyscanner](https://www.skyscanner.com/) ★
+- [Kayak](https://www.kayak.com/)
+- [Momondo](https://www.momondo.com/)
+- [Kiwi.com](https://www.kiwi.com/)
+- [Expedia](https://www.expedia.com/)
+- [Hopper](https://www.hopper.com/)
+- [Going](https://www.going.com/)
+- [Secret Flying](https://www.secretflying.com/)
+- [Decolar](https://www.decolar.com/)
+- [MaxMilhas](https://www.maxmilhas.com.br/)
+- [Passagens Imperdíveis](https://www.passagensimperdiveis.com.br/)
+
+### Companhias aéreas do Brasil e América Latina
+
+- [LATAM](https://www.latamairlines.com/) ★
+- [GOL](https://www.voegol.com.br/) ★
+- [Azul](https://www.voeazul.com.br/) ★
+- [Avianca](https://www.avianca.com/)
+- [Copa Airlines](https://www.copaair.com/)
+- [Aerolíneas Argentinas](https://www.aerolineas.com.ar/)
+- [Aeroméxico](https://aeromexico.com/)
+
+### Companhias aéreas internacionais
+
+- [Emirates](https://www.emirates.com/) ★
+- [Qatar Airways](https://www.qatarairways.com/) ★
+- [Singapore Airlines](https://www.singaporeair.com/) ★
+- [Turkish Airlines](https://www.turkishairlines.com/)
+- [Etihad Airways](https://www.etihad.com/)
+- [American Airlines](https://www.aa.com/)
+- [Delta Air Lines](https://www.delta.com/)
+- [United Airlines](https://www.united.com/)
+- [Air Canada](https://www.aircanada.com/)
+- [Lufthansa](https://www.lufthansa.com/)
+- [Air France](https://www.airfrance.com/)
+- [KLM](https://www.klm.com/)
+- [British Airways](https://www.britishairways.com/)
+- [Iberia](https://www.iberia.com/)
+- [TAP Air Portugal](https://www.flytap.com/)
+- [ITA Airways](https://www.ita-airways.com/)
+- [Swiss](https://www.swiss.com/)
+- [Cathay Pacific](https://www.cathaypacific.com/)
+- [Japan Airlines](https://www.jal.com/)
+- [ANA](https://www.ana.co.jp/)
+- [Korean Air](https://www.koreanair.com/)
+- [Air India](https://www.airindia.com/)
+- [Qantas](https://www.qantas.com/)
+- [Air New Zealand](https://www.airnewzealand.com/)
+- [Ethiopian Airlines](https://www.ethiopianairlines.com/)
+- [Royal Air Maroc](https://www.royalairmaroc.com/)
+
+### Companhias aéreas de baixo custo
+
+- [Ryanair](https://www.ryanair.com/) ★
+- [easyJet](https://www.easyjet.com/)
+- [Wizz Air](https://wizzair.com/)
+- [Vueling](https://www.vueling.com/)
+- [Southwest Airlines](https://www.southwest.com/)
+- [JetBlue](https://www.jetblue.com/)
+- [AirAsia](https://www.airasia.com/)
+- [Scoot](https://www.flyscoot.com/)
+- [Jetstar](https://www.jetstar.com/)
+- [IndiGo](https://www.goindigo.in/)
+- [Volaris](https://www.volaris.com/)
+- [JetSMART](https://jetsmart.com/)
+- [Flybondi](https://flybondi.com/)
+- [Sky Airline](https://www.skyairline.com/)
+- [Norse Atlantic Airways](https://flynorse.com/)
+
+### Alianças e rankings de companhias aéreas
+
+- [Star Alliance](https://www.staralliance.com/) ★
+- [oneworld](https://www.oneworld.com/)
+- [SkyTeam](https://www.skyteam.com/)
+- [Skytrax World Airline Awards](https://www.worldairlineawards.com/) ★
+- [AirlineRatings](https://www.airlineratings.com/)
+
+### Milhas e pontos
+
+- [The Points Guy](https://thepointsguy.com/) ★
+- [Passageiro de Primeira](https://passageirodeprimeira.com/) ★
+- [Seats.aero](https://seats.aero/)
+- [Smiles](https://www.smiles.com.br/)
+- [LATAM Pass](https://latampass.latam.com/)
+- [Azul Fidelidade](https://www.voeazul.com.br/)
+- [Livelo](https://www.livelo.com.br/)
+- [Esfera](https://www.esfera.com.vc/)
+
+### Voos, aeroportos e direitos
+
+- [Flightradar24](https://www.flightradar24.com/) ★
+- [FlightAware](https://www.flightaware.com/)
+- [Flighty](https://www.flighty.com/)
+- [aeroLOPA (mapas de assentos)](https://www.aerolopa.com/)
+- [Sleeping in Airports](https://www.sleepinginairports.net/)
+- [Priority Pass](https://www.prioritypass.com/)
+- [AirHelp](https://www.airhelp.com/)
+- [Regulamento europeu de direitos dos passageiros (EU261)](https://en.wikipedia.org/wiki/Air_Passengers_Rights_Regulation)
+- [ANAC](https://www.gov.br/anac/pt-br)
+
+### Trens, ônibus e balsas
+
+- [The Man in Seat 61](https://www.seat61.com/) ★
+- [Omio](https://www.omio.com/) ★
+- [Trainline](https://www.thetrainline.com/)
+- [Interrail e Eurail](https://www.interrail.com/en)
+- [Amtrak](https://www.amtrak.com/)
+- [Japan Rail Pass](https://japanrailpass.net/)
+- [FlixBus](https://www.flixbus.com/)
+- [12Go](https://12go.asia/)
+- [Direct Ferries](https://www.directferries.com/)
+- [BlaBlaCar](https://www.blablacar.com/)
+- [ClickBus](https://www.clickbus.com.br/)
+- [Buser](https://www.buser.com.br/)
+
+### Carros e mobilidade urbana
+
+- [Citymapper](https://citymapper.com/) ★
+- [Moovit](https://moovitapp.com/)
+- [Waze](https://www.waze.com/)
+- [Uber](https://www.uber.com/)
+- [Bolt](https://bolt.eu/)
+- [Grab](https://www.grab.com/)
+- [Rentalcars.com](https://www.rentalcars.com/)
+- [DiscoverCars](https://www.discovercars.com/)
+- [Turo](https://turo.com/)
+- [Localiza](https://www.localiza.com/)
+- [Movida](https://www.movida.com.br/)
+
+## Hospedagem
+
+### Hotéis e reservas
+
+- [Booking.com](https://www.booking.com/) ★
+- [Airbnb](https://www.airbnb.com/) ★
+- [Hostelworld](https://www.hostelworld.com/) ★
+- [Hotels.com](https://www.hotels.com/)
+- [Agoda](https://www.agoda.com/)
+- [Trivago](https://www.trivago.com/)
+- [Vrbo](https://www.vrbo.com/)
+- [Trip.com](https://www.trip.com/)
+
+### Redes hoteleiras
+
+- [Marriott Bonvoy](https://www.marriott.com/)
+- [Hilton](https://www.hilton.com/)
+- [Accor (ALL)](https://all.accor.com/)
+- [IHG](https://www.ihg.com/)
+- [Hyatt](https://www.hyatt.com/)
+
+### Trocas, voluntariado e camping
+
+- [Couchsurfing](https://www.couchsurfing.com/) ★
+- [Worldpackers](https://www.worldpackers.com/) ★
+- [Workaway](https://www.workaway.info/) ★
+- [HelpX](https://www.helpx.net/)
+- [WWOOF](https://wwoof.net/)
+- [Servas International](https://www.servas.org/)
+- [TrustedHousesitters](https://www.trustedhousesitters.com/)
+- [HomeExchange](https://www.homeexchange.com/)
+- [Hipcamp](https://www.hipcamp.com/)
+
+## Experiências e atrações
+
+### Passeios e ingressos
+
+- [GetYourGuide](https://www.getyourguide.com/) ★
+- [Viator](https://www.viator.com/)
+- [Klook](https://www.klook.com/)
+- [Civitatis](https://www.civitatis.com/)
+- [Tiqets](https://www.tiqets.com/)
+- [Headout](https://www.headout.com/)
+- [Go City](https://gocity.com/)
+- [GuruWalk (free tours)](https://www.guruwalk.com/)
+- [Freetour.com](https://www.freetour.com/)
+
+### Gastronomia
+
+- [TasteAtlas](https://www.tasteatlas.com/) ★
+- [Guia Michelin](https://guide.michelin.com/) ★
+- [HappyCow (vegano e vegetariano)](https://www.happycow.net/)
+- [TheFork](https://www.thefork.com/)
+- [OpenTable](https://www.opentable.com/)
+- [Yelp](https://www.yelp.com/)
+- [Eater](https://www.eater.com/)
+
+### Natureza e trilhas
+
+- [AllTrails](https://www.alltrails.com/) ★
+- [Wikiloc](https://www.wikiloc.com/) ★
+- [Komoot](https://www.komoot.com/)
+- [National Park Service (EUA)](https://www.nps.gov/)
+- [Recreation.gov](https://www.recreation.gov/)
+- [ICMBio (parques nacionais do Brasil)](https://www.gov.br/icmbio/)
+- [Surfline](https://www.surfline.com/)
+
+### Patrimônios e cultura
+
+- [Patrimônio Mundial da UNESCO](https://whc.unesco.org/en/list/) ★
+- [Google Arts & Culture](https://artsandculture.google.com/)
+- [New 7 Wonders](https://world.new7wonders.com/)
+
+## Comunidades e redes sociais
+
+### Fóruns e comunidades
+
+- [Fóruns do Tripadvisor](https://www.tripadvisor.com/ForumHome) ★
+- [FlyerTalk](https://www.flyertalk.com/)
+- [r/travel](https://www.reddit.com/r/travel/) ★
+- [r/solotravel](https://www.reddit.com/r/solotravel/)
+- [r/onebag](https://www.reddit.com/r/onebag/)
+- [Mochileiros.com](https://www.mochileiros.com/) ★
+- [Nomads.com](https://nomads.com/)
+- [Travel Massive](https://www.travelmassive.com/)
+
+### Diários e mapas de viagem
+
+- [Polarsteps](https://www.polarsteps.com/) ★
+- [FindPenguins](https://findpenguins.com/)
+- [Visited](https://visitedapp.com/)
+
+## Blogs e criadores
+
+### Blogs internacionais
+
+- [Nomadic Matt](https://www.nomadicmatt.com/) ★
+- [Expert Vagabond](https://expertvagabond.com/)
+- [Adventurous Kate](https://www.adventurouskate.com/)
+- [The Blonde Abroad](https://www.theblondeabroad.com/)
+- [Migrationology](https://www.migrationology.com/)
+
+### Blogs brasileiros
+
+- [Viaje na Viagem](https://www.viajenaviagem.com/) ★
+- [360meridianos](https://www.360meridianos.com/)
+- [Matraqueando](https://www.matraqueando.com.br/)
+- [Mala de Aventuras](https://www.maladeaventuras.com/)
+
+### Criadores no Instagram
+
+- [Tamara Klink](https://www.instagram.com/tamaraklink/) ★
+- [Lexie Alford (Lexie Limitless)](https://www.instagram.com/lexielimitless/) ★
+- [The Bucket List Family](https://www.instagram.com/thebucketlistfamily/) ★
+- [Murad Osmann (#FollowMeTo)](https://www.instagram.com/muradosmann/) ★
+- [Chris Burkard](https://www.instagram.com/chrisburkard/) ★
+- [196 Sonhos (Anderson Dias)](https://www.instagram.com/196sonhos/) ★
+- [Louis Cole](https://www.instagram.com/louiscole/)
+- [Alex Strohl](https://www.instagram.com/alexstrohl/)
+- [Lauren Bullen (Gypsea Lust)](https://www.instagram.com/gypsea_lust/)
+- [Daniel Kordan](https://www.instagram.com/danielkordan/)
+- [Jack Morris](https://www.instagram.com/jackmorris/)
+- [Itchy Boots (Noraly)](https://www.instagram.com/itchybootstravel/)
+- [Peter Santenello](https://www.instagram.com/petersantenello/)
+- [Kara and Nate](https://www.instagram.com/karaandnate/)
+- [Luisito Comunica](https://www.instagram.com/luisitocomunica/)
+- [Asel Mustafaeva](https://www.instagram.com/aselmustafaeva/)
+- [Pierre T. Lambert](https://www.instagram.com/pierretlambert/)
+- [Kristin Wilson (Traveling with Kristin)](https://www.instagram.com/travelingwithkristin/)
+- [Marina Guaragna](https://www.instagram.com/marinaguaragna/)
+- [Drew Binsky](https://www.instagram.com/drewbinsky/)
+- [Lost LeBlanc](https://www.instagram.com/lostleblanc/)
+- [Expert Vagabond (Matt Karsten)](https://www.instagram.com/expertvagabond/)
+- [Nomadic Matt](https://www.instagram.com/nomadicmatt/)
+- [Mark Wiens](https://www.instagram.com/migrationology/)
+- [Eamon & Bec](https://www.instagram.com/eamonandbec/)
+- [Sam Kolder](https://www.instagram.com/samkolder/)
+- [Beautiful Destinations](https://www.instagram.com/beautifuldestinations/)
+- [National Geographic Travel](https://www.instagram.com/natgeotravel/)
+- [Partiu Intercâmbio](https://www.instagram.com/partiuintercambio/)
+- [Travel and Share (Romulo e Mirella)](https://www.instagram.com/travelandshare/)
+- [Por Aí de Kombi (Vanessa e Lorenzo)](https://www.instagram.com/poraidekombi/)
+- [Num Pulo (Daniel Negreiros e Paula Albino)](https://www.instagram.com/numpulo/)
+- [Viaje Sem Limites (Nataly Castro)](https://www.instagram.com/viajesemlimites/)
+- [Prefiro Viajar (Amanda Antunes)](https://www.instagram.com/prefiroviajar/)
+- [Estevam Pelo Mundo (Lucas Estevam)](https://www.instagram.com/estevampelomundo/)
+- [Viaje na Viagem (Ricardo Freire)](https://www.instagram.com/viajenaviagem/)
+- [Jesse Koz e Shurastey](https://www.instagram.com/jessekoz/) 🪦
+
+### Canais no YouTube
+
+- [Kara and Nate](https://www.youtube.com/@KaraandNate) ★
+- [Drew Binsky](https://www.youtube.com/@drewbinsky)
+- [Mark Wiens](https://www.youtube.com/@MarkWiens)
+- [Lost LeBlanc](https://www.youtube.com/@LostLeBlanc)
+- [Estevam Pelo Mundo](https://www.youtube.com/results?search_query=Estevam+Pelo+Mundo) ★
+
+## Destinos
+
+### Rankings e turismo mundial
+
+- [ONU Turismo (OMT)](https://www.untourism.int/) ★
+- [Rankings do turismo mundial](https://en.wikipedia.org/wiki/World_Tourism_rankings) ★
+- [Cidades mais visitadas por turistas estrangeiros](https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors)
+
+### Américas
+
+- [Visit Brasil](https://visitbrasil.com/) ★
+- [Visit the USA](https://www.visittheusa.com/)
+- [Destination Canada](https://travel.destinationcanada.com/)
+- [Argentina Travel](https://www.argentina.travel/)
+- [Chile Travel](https://chile.travel/)
+- [Peru Travel](https://www.peru.travel/)
+
+### Europa
+
+- [France.fr](https://www.france.fr/) ★
+- [Italia.it](https://www.italia.it/)
+- [Spain.info](https://www.spain.info/)
+- [Visit Portugal](https://www.visitportugal.com/)
+- [VisitBritain](https://www.visitbritain.com/)
+- [Visit Greece](https://www.visitgreece.gr/)
+- [Go Türkiye](https://goturkiye.com/)
+
+### Ásia e Oceania
+
+- [Japan Travel (JNTO)](https://www.japan.travel/) ★
+- [Amazing Thailand](https://www.tourismthailand.org/)
+- [Wonderful Indonesia](https://www.indonesia.travel/)
+- [Vietnam Travel](https://vietnam.travel/)
+- [Visit Dubai](https://www.visitdubai.com/)
+- [Australia.com](https://www.australia.com/)
+- [New Zealand](https://www.newzealand.com/)
+
+### África e Oriente Médio
+
+- [Experience Egypt](https://www.experienceegypt.eg/)
+- [Visit Morocco](https://www.visitmorocco.com/)
+- [South Africa Tourism](https://www.southafrica.net/)
+
+## Saúde, segurança e documentos
+
+### Saúde do viajante
+
+- [CDC Travelers' Health](https://wwwnc.cdc.gov/travel) ★
+- [Fit for Travel (NHS)](https://www.fitfortravel.nhs.uk/)
+
+### Alertas e segurança
+
+- [Smartraveller (Austrália)](https://www.smartraveller.gov.au/) ★
+- [Travel.State.Gov (EUA)](https://travel.state.gov/)
+- [Foreign travel advice (Reino Unido)](https://www.gov.uk/foreign-travel-advice)
+- [Portal Consular (Itamaraty)](https://www.gov.br/mre/pt-br/assuntos/portal-consular)
+
+### Vistos e passaporte
+
+- [Passport Index](https://www.passportindex.org/) ★
+- [Henley Passport Index](https://www.henleyglobal.com/passport-index)
+- [VisaGuide.World](https://visaguide.world/)
+- [Sherpa](https://www.joinsherpa.com/)
+- [iVisa](https://www.ivisa.com/)
+- [ESTA (site oficial)](https://esta.cbp.dhs.gov/)
+- [ETIAS (site oficial)](https://travel-europe.europa.eu/etias_en)
+- [Passaporte (Polícia Federal)](https://www.gov.br/pf/pt-br/assuntos/passaporte)
+
+### Seguro viagem
+
+- [World Nomads](https://www.worldnomads.com/) ★
+- [SafetyWing](https://safetywing.com/)
+- [Allianz Travel](https://www.allianztravelinsurance.com/)
+- [Assist Card](https://www.assistcard.com/)
+- [Seguros Promo](https://www.segurospromo.com.br/)
+
+## Ferramentas do viajante
+
+### Mapas e tradução
+
+- [Google Maps](https://www.google.com/maps) ★
+- [Organic Maps](https://organicmaps.app/)
+- [Maps.me](https://maps.me/)
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [Google Tradutor](https://translate.google.com/) ★
+- [DeepL](https://www.deepl.com/)
+- [Papago](https://papago.naver.com/)
+- [Duolingo](https://www.duolingo.com/)
+
+### Internet e dinheiro
+
+- [Airalo](https://www.airalo.com/) ★
+- [Holafly](https://esim.holafly.com/)
+- [Nomad eSIM](https://www.nomadesim.com/)
+- [Wise](https://wise.com/) ★
+- [Revolut](https://www.revolut.com/)
+- [Nomad (conta global)](https://www.nomadglobal.com/)
+
+### Tomadas, fusos e conversões
+
+- [World Standards (tomadas e voltagem por país)](https://www.worldstandards.eu/electricity/plug-voltage-by-country/) ★
+- [Time and Date](https://www.timeanddate.com/)
+- [Every Time Zone](https://everytimezone.com/)
+
+### Malas e equipamentos
+
+- [Osprey](https://www.osprey.com/) ★
+- [Peak Design](https://www.peakdesign.com/)
+- [Tortuga](https://www.tortugabackpacks.com/)
+- [Away](https://www.awaytravel.com/)
+- [Samsonite](https://www.samsonite.com/)
+
+## Livros e pessoas
+
+### Livros de viagem
+
+- [Jack Kerouac - On the Road](https://www.goodreads.com/search?q=Jack+Kerouac+On+the+Road) ★
+- [Rolf Potts - Vagabonding](https://www.goodreads.com/search?q=Rolf+Potts+Vagabonding) ★
+- [Alain de Botton - A Arte de Viajar](https://www.goodreads.com/search?q=Alain+de+Botton+The+Art+of+Travel)
+- [Paul Theroux - The Great Railway Bazaar](https://www.goodreads.com/search?q=Paul+Theroux+The+Great+Railway+Bazaar)
+- [Bill Bryson - Uma Caminhada na Floresta](https://www.goodreads.com/search?q=Bill+Bryson+A+Walk+in+the+Woods)
+- [Jon Krakauer - Na Natureza Selvagem](https://www.goodreads.com/search?q=Jon+Krakauer+Into+the+Wild)
+- [Elizabeth Gilbert - Comer, Rezar, Amar](https://www.goodreads.com/search?q=Elizabeth+Gilbert+Eat+Pray+Love)
+- [Che Guevara - Diários de Motocicleta](https://www.goodreads.com/search?q=Che+Guevara+The+Motorcycle+Diaries)
+- [Amyr Klink - Cem Dias entre Céu e Mar](https://www.goodreads.com/search?q=Amyr+Klink+Cem+Dias+entre+C%C3%A9u+e+Mar)
+- [Marco Polo - As Viagens](https://www.goodreads.com/search?q=Marco+Polo+The+Travels)
+
+### Viajantes e exploradores
+
+- [Marco Polo](https://en.wikipedia.org/wiki/Marco_Polo) ★ 🪦
+- [Ibn Battuta](https://en.wikipedia.org/wiki/Ibn_Battuta) 🪦
+- [Fernão de Magalhães](https://en.wikipedia.org/wiki/Ferdinand_Magellan) 🪦
+- [Thomas Cook](https://en.wikipedia.org/wiki/Thomas_Cook) 🪦
+- [Nellie Bly](https://en.wikipedia.org/wiki/Nellie_Bly) 🪦
+- [Anthony Bourdain](https://en.wikipedia.org/wiki/Anthony_Bourdain) ★ 🪦
+- [Tony Wheeler (Lonely Planet)](https://en.wikipedia.org/wiki/Tony_Wheeler)
+- [Rick Steves](https://en.wikipedia.org/wiki/Rick_Steves)
+- [Michael Palin](https://en.wikipedia.org/wiki/Michael_Palin)
+- [Paul Theroux](https://en.wikipedia.org/wiki/Paul_Theroux)
+- [Amyr Klink](https://pt.wikipedia.org/wiki/Amyr_Klink)

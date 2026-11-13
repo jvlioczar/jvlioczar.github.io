@@ -1,0 +1,534 @@
+# A Biblioteca de Listas
+
+> Catálogo pesquisável para quem gosta de listas: sites de listas e rankings, tier lists, estatísticas, pesquisas de opinião, índices globais, curadoria e conceitos de votação e classificação.
+
+Biblioteca temática da BiblioVerse (The List Library), com curadoria humana. Página: https://biblioverse.org/list/ · 343 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Listas e organização
+
+- [Lista](https://en.wikipedia.org/wiki/List) ★
+- [Ranking](https://en.wikipedia.org/wiki/Ranking) ★
+- [Tier list](https://en.wikipedia.org/wiki/Tier_list) ★
+- [Pódio](https://en.wikipedia.org/wiki/Podium)
+- [Ordem alfabética](https://en.wikipedia.org/wiki/Alphabetical_order)
+- [Categorização](https://en.wikipedia.org/wiki/Categorization) ★
+- [Classificação](https://en.wikipedia.org/wiki/Classification)
+- [Taxonomia](https://en.wikipedia.org/wiki/Taxonomy)
+- [Folksonomia](https://en.wikipedia.org/wiki/Folksonomy)
+- [Tag (metadado)](https://en.wikipedia.org/wiki/Tag_(metadata))
+- [Curadoria de conteúdo](https://en.wikipedia.org/wiki/Content_curation) ★
+- [Checklist](https://en.wikipedia.org/wiki/Checklist)
+- [Lista de desejos](https://en.wikipedia.org/wiki/Wish_list)
+- [Playlist](https://en.wikipedia.org/wiki/Playlist)
+- [Hall da fama](https://en.wikipedia.org/wiki/Hall_of_fame)
+
+### Referência e conhecimento
+
+- [Biblioteca](https://en.wikipedia.org/wiki/Library) ★
+- [Bibliografia](https://en.wikipedia.org/wiki/Bibliography)
+- [Referência (citação)](https://en.wikipedia.org/wiki/Citation)
+- [Enciclopédia](https://en.wikipedia.org/wiki/Encyclopedia) ★
+- [Dicionário](https://en.wikipedia.org/wiki/Dictionary)
+- [Almanaque](https://en.wikipedia.org/wiki/Almanac)
+- [Glossário](https://en.wikipedia.org/wiki/Glossary)
+- [Tesauro](https://en.wikipedia.org/wiki/Thesaurus)
+- [Índice remissivo](https://en.wikipedia.org/wiki/Index_(publishing))
+- [Catálogo de biblioteca](https://en.wikipedia.org/wiki/Library_catalog)
+- [Wiki](https://en.wikipedia.org/wiki/Wiki)
+
+### Votação e escolha social
+
+- [Sistema de votação](https://en.wikipedia.org/wiki/Electoral_system) ★
+- [Voto preferencial](https://en.wikipedia.org/wiki/Ranked_voting) ★
+- [Contagem de Borda](https://en.wikipedia.org/wiki/Borda_count)
+- [Método de Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ★
+- [Método de Schulze](https://en.wikipedia.org/wiki/Schulze_method)
+- [Ranked pairs](https://en.wikipedia.org/wiki/Ranked_pairs)
+- [Método de Kemeny-Young](https://en.wikipedia.org/wiki/Kemeny%E2%80%93Young_method)
+- [Voto alternativo (instant-runoff)](https://en.wikipedia.org/wiki/Instant-runoff_voting)
+- [Voto por aprovação](https://en.wikipedia.org/wiki/Approval_voting)
+- [Voto por pontuação](https://en.wikipedia.org/wiki/Score_voting)
+- [Paradoxo de Condorcet](https://en.wikipedia.org/wiki/Condorcet_paradox)
+- [Teorema da impossibilidade de Arrow](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem)
+- [Teoria da escolha social](https://en.wikipedia.org/wiki/Social_choice_theory)
+
+### Pesquisa e medição
+
+- [Instituto de pesquisa](https://en.wikipedia.org/wiki/Research_institute)
+- [Pesquisa de opinião pública](https://en.wikipedia.org/wiki/Opinion_poll) ★
+- [Pesquisa de mercado](https://en.wikipedia.org/wiki/Market_research)
+- [Pesquisa amostral (amostragem)](https://en.wikipedia.org/wiki/Sampling_(statistics)) ★
+- [Pesquisa quantitativa](https://en.wikipedia.org/wiki/Quantitative_research)
+- [Pesquisa qualitativa](https://en.wikipedia.org/wiki/Qualitative_research)
+- [Pesquisa censitária (censo)](https://en.wikipedia.org/wiki/Census)
+- [Metodologia de survey](https://en.wikipedia.org/wiki/Survey_methodology)
+- [Pesquisa de preferência (modelagem de escolha)](https://en.wikipedia.org/wiki/Choice_modelling)
+- [Análise conjunta](https://en.wikipedia.org/wiki/Conjoint_analysis)
+- [Comparação pareada](https://en.wikipedia.org/wiki/Pairwise_comparison_(psychology)) ★
+- [Escolha forçada](https://en.wikipedia.org/wiki/Two-alternative_forced_choice)
+- [MaxDiff](https://en.wikipedia.org/wiki/MaxDiff)
+- [Teste A/B](https://en.wikipedia.org/wiki/A/B_testing) ★
+- [Escala Likert](https://en.wikipedia.org/wiki/Likert_scale)
+- [Margem de erro](https://en.wikipedia.org/wiki/Margin_of_error)
+- [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score)
+
+### Algoritmos de ranqueamento
+
+- [PageRank](https://en.wikipedia.org/wiki/PageRank) ★
+- [Sistema Elo](https://en.wikipedia.org/wiki/Elo_rating_system) ★
+- [Sistema de recomendação](https://en.wikipedia.org/wiki/Recommender_system)
+- [Filtragem colaborativa](https://en.wikipedia.org/wiki/Collaborative_filtering)
+- [Learning to rank](https://en.wikipedia.org/wiki/Learning_to_rank)
+- [Média bayesiana](https://en.wikipedia.org/wiki/Bayesian_average)
+- [Classificação por estrelas](https://en.wikipedia.org/wiki/Star_(classification))
+- [Modelo de Bradley-Terry](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model)
+
+## Sites de listas
+
+### Internacionais
+
+- [Ranker](https://www.ranker.com/) ★
+- [Listverse](https://listverse.com/) ★
+- [TheTopTens](https://www.thetoptens.com/) ★
+- [Toptenz](https://www.toptenz.net/)
+- [List25](https://list25.com/)
+- [Listal](https://www.listal.com/)
+- [List Challenges](https://www.listchallenges.com/) ★
+- [Listly](https://list.ly/)
+- [BuzzFeed](https://www.buzzfeed.com/) ★
+- [Shortlist](https://www.shortlist.com/)
+- [TheMost10](https://www.themost10.com/)
+- [Wonders List](https://www.wonderslist.com/)
+- [LiveAbout (entretenimento)](https://www.liveabout.com/entertainment-4687948)
+- [Playbuzz](https://en.wikipedia.org/wiki/Playbuzz) 🪦
+
+### Brasileiros
+
+- [As Superlistas](https://assuperlistas.com/) ★
+- [Maiores e Melhores](https://maioresemelhores.com/)
+- [Mundo Top 10](https://mundotop10.com/)
+- [Top 10 Mais](https://top10mais.org/)
+- [Lista 10](https://lista10.org/)
+- [Hipercultura](https://www.hipercultura.com/)
+- [Superlistas (Superinteressante)](https://super.abril.com.br/blogs/superlistas/)
+- [Top 10 de A a Z](https://top10az.com.br/)
+- [Big Listas da Net](https://biglistasdanet.blogspot.com/)
+- [Adedonha Brasil](https://adedonhabrasil.blogspot.com/)
+- [Portal EdiCase](https://www.portaledicase.com/)
+
+### Listas da Wikipédia
+
+- [Lista de listas de listas](https://en.wikipedia.org/wiki/List_of_lists_of_lists) ★
+- [Listas destacadas da Wikipédia](https://en.wikipedia.org/wiki/Wikipedia:Featured_lists)
+- [Wikipédia — Categoria Listas](https://pt.wikipedia.org/wiki/Categoria:Listas) ★
+- [Wikipédia — Categoria Listas de pessoas](https://pt.wikipedia.org/wiki/Categoria:Listas_de_pessoas)
+- [Lista de serviços estatísticos nacionais e internacionais](https://en.wikipedia.org/wiki/List_of_national_and_international_statistical_services)
+- [Artigos vitais da Wikipédia](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles)
+
+## Ferramentas de listas e votação
+
+### Listas pessoais e tier lists
+
+- [Listography](https://listography.com/) ★
+- [TierMaker](https://tiermaker.com/) ★
+- [Bracket HQ](https://brackethq.com/)
+- [Trello](https://trello.com/)
+
+### Enquetes e votações
+
+- [StrawPoll](https://strawpoll.com/) ★
+- [Mentimeter](https://www.mentimeter.com/)
+- [All Our Ideas (comparação pareada)](https://allourideas.org/) ★
+- [Doodle](https://doodle.com/)
+
+### Curadoria e coleções
+
+- [BiblioVerse](https://biblioverse.org/) ★
+- [Awesome Lists](https://github.com/sindresorhus/awesome) ★
+- [Are.na](https://www.are.na/)
+- [Raindrop.io](https://raindrop.io/)
+- [Atlas Obscura](https://www.atlasobscura.com/)
+
+## Cinema, TV e anime
+
+### Cinema e TV
+
+- [IMDb](https://www.imdb.com/) ★
+- [IMDb Top 250](https://www.imdb.com/chart/top/) ★
+- [Letterboxd](https://letterboxd.com/) ★
+- [Rotten Tomatoes](https://www.rottentomatoes.com/) ★
+- [Metacritic](https://www.metacritic.com/)
+- [Collider (listas)](https://collider.com/tag/lists/)
+- [CBR (Comic Book Resources)](https://www.cbr.com/)
+- [Sight and Sound — Os maiores filmes de todos os tempos](https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time)
+- [AFI's 100 Years...100 Movies](https://www.afi.com/afis-100-years-100-movies/)
+- [They Shoot Pictures, Don't They?](https://www.theyshootpictures.com/)
+- [Trakt](https://app.trakt.tv/)
+- [Filmow](https://filmow.com/)
+- [Listas de 10](https://listasde10.blogspot.com/)
+
+### Anime e mangá
+
+- [MyAnimeList](https://myanimelist.net/) ★
+- [AniList](https://anilist.co/)
+- [Anime-Planet](https://www.anime-planet.com/)
+
+## Música
+
+### Paradas e charts
+
+- [Billboard Charts](https://www.billboard.com/charts/) ★
+- [Official Charts (Reino Unido)](https://www.officialcharts.com/)
+- [Spotify Charts](https://charts.spotify.com/) ★
+- [Playlists do Spotify](https://open.spotify.com/user/spotify/playlists)
+- [YouTube Charts](https://charts.youtube.com/)
+- [Kworb](https://kworb.net/)
+- [Last.fm Charts](https://www.last.fm/charts)
+
+### Crítica e listas de álbuns
+
+- [Rate Your Music](https://rateyourmusic.com/) ★
+- [Album of the Year](https://www.albumoftheyear.org/)
+- [Acclaimed Music](https://www.acclaimedmusic.net/)
+- [Rolling Stone — 500 melhores álbuns](https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/)
+- [MusicVF](https://www.musicvf.com/)
+- [Rock & Roll Hall of Fame](https://rockhall.com/inductees/)
+
+### Brasil
+
+- [Mais Tocadas](https://maistocadas.mus.br/) ★
+- [Tenho Mais Discos Que Amigos (listas)](https://www.tenhomaisdiscosqueamigos.com/category/listas/)
+- [Pro-Música Brasil](https://pro-musicabr.org.br/)
+- [Ecad (rankings)](https://www4.ecad.org.br/)
+
+## Livros e literatura
+
+### Listas de livros
+
+- [Goodreads Listopia](https://www.goodreads.com/list/popular_lists) ★
+- [Goodreads Choice Awards](https://www.goodreads.com/choiceawards)
+- [The Greatest Books](https://thegreatestbooks.org/) ★
+- [Modern Library 100 Best Novels](https://en.wikipedia.org/wiki/Modern_Library%27s_100_Best_Novels)
+- [1001 Livros para Ler Antes de Morrer](https://en.wikipedia.org/wiki/1001_Books_You_Must_Read_Before_You_Die)
+- [Revista Bula (listas)](https://www.revistabula.com/search/listas)
+
+### Mais vendidos
+
+- [The New York Times Best Sellers](https://www.nytimes.com/books/best-sellers/) ★
+- [PublishNews (ranking)](https://www.publishnews.com.br/ranking)
+- [Skoob](https://www.skoob.com.br/)
+
+## Games e jogos
+
+### Videogames
+
+- [Metacritic (games)](https://www.metacritic.com/game/) ★
+- [OpenCritic](https://opencritic.com/) ★
+- [Backloggd](https://www.backloggd.com/)
+- [SteamDB Charts](https://steamdb.info/charts/)
+- [Steam Charts](https://steamcharts.com/)
+- [VGChartz](https://www.vgchartz.com/)
+- [Steam250](https://steam250.com/)
+
+### Jogos de tabuleiro e xadrez
+
+- [BoardGameGeek (ranking)](https://boardgamegeek.com/browse/boardgame) ★
+- [Ranking FIDE](https://ratings.fide.com/)
+
+## Pessoas e celebridades
+
+### Rankings de pessoas
+
+- [TIME 100](https://en.wikipedia.org/wiki/Time_100) ★
+- [Pantheon](https://pantheon.world/) ★
+- [FamousFix (listas)](https://www.famousfix.com/list)
+- [Famous Birthdays](https://www.famousbirthdays.com/)
+- [Who's Dated Who](https://www.whosdatedwho.com/)
+- [Muck Rack (rankings de jornalistas)](https://muckrack.com/rankings)
+
+## Arte, design e gastronomia
+
+### Arte, design e criatividade
+
+- [Lürzer's Archive (ranking)](https://www.luerzersarchive.com/en/ranking.html) ★
+- [Artfacts](https://artfacts.net/)
+- [ArtReview Power 100](https://artreview.com/power-100/)
+- [Awwwards](https://www.awwwards.com/)
+
+### Gastronomia e viagem
+
+- [The World's 50 Best Restaurants](https://www.the50.com/) ★
+- [The World's 50 Best Bars](https://www.the50.com/bars/)
+- [Guia Michelin](https://guide.michelin.com/) ★
+- [La Liste](https://www.laliste.com/)
+- [TasteAtlas](https://www.tasteatlas.com/) ★
+- [Tripadvisor Travelers' Choice](https://www.tripadvisor.com/TravelersChoice)
+
+## Consumo, produtos e marcas
+
+### Avaliações de produtos
+
+- [Wirecutter](https://www.nytimes.com/wirecutter/) ★
+- [Consumer Reports](https://www.consumerreports.org/)
+- [RTINGS](https://www.rtings.com/)
+- [Real Simple](https://www.realsimple.com/)
+- [Product Hunt](https://www.producthunt.com/)
+- [Trend Hunter (top lists)](https://www.trendhunter.com/toplists)
+- [Reclame Aqui (rankings)](https://www.reclameaqui.com.br/ranking/)
+- [Trustpilot](https://www.trustpilot.com/) ★
+
+### Marcas
+
+- [Interbrand Best Global Brands](https://interbrand.com/best-global-brands/) ★
+- [Kantar BrandZ (Kantar Group)](https://www.kantar.com/campaigns/brandz/global) ★
+- [Brand Finance (Global 500)](https://brandirectory.com/) ★
+- [Forbes — As marcas mais valiosas do mundo](https://www.forbes.com/the-worlds-most-valuable-brands/)
+- [Fortune — As empresas mais admiradas do mundo](https://fortune.com/ranking/worlds-most-admired-companies/)
+- [Ranking the Brands (SyncForce)](https://www.rankingthebrands.com/) ★
+
+## Negócios, trabalho e educação
+
+### Empresas e fortunas
+
+- [Forbes Lists](https://www.forbes.com/lists/) ★
+- [Fortune 500](https://fortune.com/ranking/fortune500/) ★
+- [Fortune Global 500](https://fortune.com/ranking/global500/)
+- [Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/)
+- [Companies Market Cap](https://companiesmarketcap.com/)
+- [Fast Company — Most Innovative Companies](https://www.fastcompany.com/most-innovative-companies/list)
+- [Inc. 5000](https://www.inc.com/inc5000)
+- [CB Insights — Unicórnios](https://www.cbinsights.com/research-unicorn-companies)
+- [Startup Genome (ecossistemas de startups)](https://startupgenome.com/)
+
+### Lugares para trabalhar
+
+- [Great Place to Work](https://www.greatplacetowork.com/) ★
+- [Glassdoor Best Places to Work](https://www.glassdoor.com/Award/)
+- [ILOSTAT](https://ilostat.ilo.org/)
+
+### Universidades e educação
+
+- [QS World University Rankings](https://www.topuniversities.com/) ★
+- [Times Higher Education](https://www.timeshighereducation.com/world-university-rankings) ★
+- [ARWU (Ranking de Xangai)](https://www.shanghairanking.com/)
+- [U.S. News Best Global Universities](https://www.usnews.com/education/best-global-universities)
+- [CWUR](https://cwur.org/)
+- [Ranking Universitário Folha (RUF)](https://ruf.folha.uol.com.br/)
+- [PISA](https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment)
+- [CWTS Leiden Ranking](https://www.leidenranking.com/)
+- [SCImago Journal Rank](https://www.scimagojr.com/)
+
+## Países e índices globais
+
+### Desenvolvimento e bem-estar
+
+- [Índice de Desenvolvimento Humano (IDH)](https://hdr.undp.org/) ★
+- [World Happiness Report](https://worldhappiness.report/) ★
+- [Global Innovation Index](https://www.wipo.int/global_innovation_index/en/)
+- [Índice Big Mac](https://www.economist.com/big-mac-index)
+- [Henley Passport Index](https://www.henleyglobal.com/passport-index)
+- [Doing Business](https://en.wikipedia.org/wiki/Ease_of_doing_business_index) 🪦
+- [Numbeo — Qualidade de vida por país](https://www.numbeo.com/quality-of-life/rankings_by_country.jsp)
+
+### Poder e influência
+
+- [Global Firepower (poder militar)](https://www.globalfirepower.com/) ★
+- [Global Soft Power Index (Brand Finance)](https://brandirectory.com/softpower)
+
+### Democracia, liberdade e paz
+
+- [Índice de Democracia (The Economist)](https://en.wikipedia.org/wiki/The_Economist_Democracy_Index) ★
+- [Freedom in the World](https://freedomhouse.org/report/freedom-world)
+- [Índice de Percepção da Corrupção](https://www.transparency.org/en/cpi) ★
+- [Ranking Mundial de Liberdade de Imprensa](https://rsf.org/en/index)
+- [Global Peace Index](https://www.visionofhumanity.org/)
+
+## Estatísticas e dados
+
+### Organismos internacionais
+
+- [World Bank DataBank](https://databank.worldbank.org/) ★
+- [UNdata](https://data.un.org/) ★
+- [OECD Data](https://data.oecd.org/)
+- [Eurostat](https://ec.europa.eu/eurostat)
+- [UNICEF Data](https://data.unicef.org/)
+- [FAOSTAT](https://www.fao.org/statistics/en)
+- [WHO Global Health Observatory](https://www.who.int/data/gho)
+- [IMF Data](https://www.imf.org/en/Data)
+- [Bases de dados da Biblioteca da ONU](https://www.un.org/en/library/page/databases)
+
+### Institutos nacionais
+
+- [IBGE](https://www.ibge.gov.br/) ★
+- [Ipeadata](https://www.ipeadata.gov.br/)
+- [U.S. Census Bureau](https://www.census.gov/)
+- [ONS (Reino Unido)](https://www.ons.gov.uk/)
+- [INSEE (França)](https://www.insee.fr/)
+- [Destatis (Alemanha)](https://www.destatis.de/)
+- [INE (Portugal)](https://www.ine.pt/)
+- [INDEC (Argentina)](https://www.indec.gob.ar/)
+- [Statistics Canada](https://www.statcan.gc.ca/)
+
+### Agregadores e visualização
+
+- [Our World in Data](https://ourworldindata.org/) ★
+- [Statista](https://www.statista.com/) ★
+- [Worldometer](https://www.worldometers.info/) ★
+- [Gapminder](https://www.gapminder.org/)
+- [Visual Capitalist](https://www.visualcapitalist.com/)
+- [Information is Beautiful](https://informationisbeautiful.net/)
+- [Data Commons](https://datacommons.org/)
+- [Wolfram Alpha](https://www.wolframalpha.com/)
+- [PopulationPyramid](https://www.populationpyramid.net/)
+- [World Economics](https://www.worldeconomics.com/)
+- [Wisevoter](https://wisevoter.com/)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/)
+
+## Pesquisas de opinião
+
+### Institutos de pesquisa
+
+- [Gallup](https://www.gallup.com/) ★
+- [Pew Research Center](https://www.pewresearch.org/) ★
+- [Ipsos](https://www.ipsos.com/)
+- [YouGov](https://yougov.com/) ★
+- [Nielsen](https://www.nielsen.com/)
+- [Kantar](https://www.kantar.com/)
+- [Datafolha](https://datafolha.folha.uol.com.br/) ★
+- [Quaest](https://quaest.com.br/)
+- [Ipec](https://www.ipec-inteligencia.com.br/)
+- [Ibope](https://pt.wikipedia.org/wiki/Ibope) 🪦
+- [FiveThirtyEight](https://en.wikipedia.org/wiki/FiveThirtyEight) 🪦
+
+### Barômetros e surveys internacionais
+
+- [World Values Survey](https://www.worldvaluessurvey.org/) ★
+- [Eurobarometer](https://europa.eu/eurobarometer)
+- [Latinobarómetro](https://www.latinobarometro.org/)
+
+## Internet e redes sociais
+
+### Criadores e influenciadores
+
+- [Social Blade](https://socialblade.com/) ★
+- [HypeAuditor (top Instagram)](https://hypeauditor.com/top-instagram/) ★
+- [StarNgage](https://starngage.com/plus/en-us/influencer/ranking)
+- [Tokfluence](https://tokfluence.com/top?limit=100)
+- [Playboard](https://playboard.co/)
+- [NoxInfluencer](https://www.noxinfluencer.com/)
+- [Streams Charts](https://streamscharts.com/)
+- [TwitchTracker](https://twitchtracker.com/)
+- [TwitchMetrics](https://www.twitchmetrics.net/channels/follower)
+
+### Sites, apps e tendências
+
+- [Similarweb Top Websites](https://www.similarweb.com/pt/top-websites/) ★
+- [Semrush Top Websites](https://pt.semrush.com/website/top/)
+- [Sites mais visitados](https://en.wikipedia.org/wiki/List_of_most-visited_websites)
+- [Cloudflare Radar (domínios)](https://radar.cloudflare.com/domains)
+- [Tranco List](https://tranco-list.eu/)
+- [Wikipedia Topviews](https://pageviews.wmcloud.org/topviews/)
+- [Google Trends](https://trends.google.com/) ★
+- [Exploding Topics](https://explodingtopics.com/)
+- [AlternativeTo](https://alternativeto.net/)
+- [Feedly (top)](https://feedly.com/i/top)
+- [Influencer Marketing Hub](https://influencermarketinghub.com/articles/)
+
+### Bases de dados da Feedspot
+
+- [Feedspot — listas de blogs](https://blog.feedspot.com/) ★
+- [Feedspot — RSS](https://rss.feedspot.com/)
+- [Feedspot — Blogs](https://bloggers.feedspot.com/)
+- [Feedspot — Podcasts](https://podcast.feedspot.com/)
+- [Feedspot — Revistas](https://magazine.feedspot.com/)
+- [Feedspot — Jornalistas](https://journalists.feedspot.com/)
+- [Feedspot — YouTubers](https://videos.feedspot.com/)
+- [Feedspot — Sites de notícias](https://news.feedspot.com/)
+- [Feedspot — Influenciadores do Instagram](https://influencers.feedspot.com/)
+- [Feedspot — Influenciadores do X (Twitter)](https://x.feedspot.com/)
+- [Feedspot — Criadores do TikTok](https://creators.feedspot.com/)
+
+### Tecnologia e IA
+
+- [LMArena (ranking de IAs)](https://lmarena.ai/leaderboard) ★
+- [Artificial Analysis](https://artificialanalysis.ai/)
+- [Índice TIOBE](https://www.tiobe.com/tiobe-index/) ★
+- [DB-Engines Ranking](https://db-engines.com/en/ranking)
+- [TOP500 (supercomputadores)](https://www.top500.org/)
+- [PassMark CPU Benchmarks](https://www.cpubenchmark.net/)
+
+## Natureza e fauna
+
+### Fauna e bem-estar animal
+
+- [Lista Vermelha da IUCN](https://www.iucnredlist.org/) ★
+- [EDGE of Existence](https://www.edgeofexistence.org/)
+- [Faunalytics](https://faunalytics.org/)
+- [Fishcount](https://fishcount.org.uk/)
+- [Plant Based Data](https://plantbaseddata.org/)
+- [Reducing Suffering](https://reducing-suffering.org/)
+- [Rethink Priorities — Welfare Range Table](https://rethinkpriorities.org/publications/the-welfare-range-table)
+- [Our World in Data — Bem-estar animal](https://ourworldindata.org/animal-welfare)
+- [Animal Charity Evaluators](https://animalcharityevaluators.org/)
+
+### Meio ambiente e clima
+
+- [Environmental Performance Index](https://epi.yale.edu/) ★
+- [Climate Change Performance Index](https://ccpi.org/)
+- [IQAir (cidades mais poluídas)](https://www.iqair.com/world-most-polluted-cities)
+- [Climate Watch](https://www.climatewatchdata.org/)
+- [Global Carbon Project](https://www.globalcarbonproject.org/)
+
+## Esportes
+
+### Rankings esportivos
+
+- [Ranking FIFA](https://inside.fifa.com/fifa-world-ranking/men) ★
+- [World Football Elo Ratings](https://www.eloratings.net/)
+- [Transfermarkt](https://www.transfermarkt.com/) ★
+- [Ranking ATP](https://www.atptour.com/en/rankings/singles)
+- [Ranking WTA](https://www.wtatennis.com/rankings/singles)
+- [World Athletics Rankings](https://worldathletics.org/world-rankings)
+
+### Estatísticas e histórico
+
+- [Sports Reference](https://www.sports-reference.com/) ★
+- [Olympedia](https://www.olympedia.org/)
+- [Bola de Ouro](https://en.wikipedia.org/wiki/Ballon_d%27Or)
+
+## Recordes, prêmios e patrimônios
+
+### Recordes
+
+- [Guinness World Records](https://www.guinnessworldrecords.com/) ★
+- [RankBrasil](https://www.rankbrasil.com.br/)
+
+### Prêmios
+
+- [Prêmio Nobel](https://www.nobelprize.org/) ★
+- [Banco de dados do Oscar](https://awardsdatabase.oscars.org/)
+- [Grammy Awards](https://www.grammy.com/awards)
+
+### Patrimônios e maravilhas
+
+- [Lista do Patrimônio Mundial da UNESCO](https://whc.unesco.org/en/list/) ★
+- [New 7 Wonders](https://world.new7wonders.com/)
+
+## Leituras
+
+### Livros sobre listas e curadoria
+
+- [Umberto Eco - A Vertigem das Listas](https://www.goodreads.com/search?q=Umberto+Eco+The+Infinity+of+Lists) ★
+- [Atul Gawande - Checklist](https://www.goodreads.com/search?q=Atul+Gawande+The+Checklist+Manifesto) ★
+- [David Wallechinsky e Irving Wallace - The Book of Lists](https://www.goodreads.com/search?q=The+Book+of+Lists+Wallechinsky)
+- [Shaun Usher - Lists of Note](https://www.goodreads.com/search?q=Shaun+Usher+Lists+of+Note)
+- [Brian Christian e Tom Griffiths - Algoritmos para Viver](https://www.goodreads.com/search?q=Algorithms+to+Live+By)
+
+### Livros sobre votação e escolha
+
+- [Kenneth Arrow - Social Choice and Individual Values](https://www.goodreads.com/search?q=Kenneth+Arrow+Social+Choice+and+Individual+Values)
+- [William Poundstone - Gaming the Vote](https://www.goodreads.com/search?q=William+Poundstone+Gaming+the+Vote)

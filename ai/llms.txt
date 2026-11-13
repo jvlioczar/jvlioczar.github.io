@@ -1,0 +1,822 @@
+# A Biblioteca de IAs
+
+> Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The AI Library), com curadoria humana. Página: https://biblioverse.org/ai/ · 696 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria.
+
+## Agentes de IA
+
+- [AgentGPT](https://agentgpt.reworkd.ai)
+- [Amelia](https://soundhound.com/voice-ai-products/amelia/)
+- [AutoGPT](https://agpt.co/)
+- [Claude](https://anthropic.com/solutions/agents) ★
+- [CrewAI](https://crewai.com/) ★
+- [Director](https://director.ai/)
+- [Fin](https://fin.ai/)
+- [Forethought](https://forethought.ai/)
+- [Interakt](https://haptik.ai/interakt)
+- [Kruti](https://kruti.ai/)
+- [Manus](https://manus.im/) ★
+- [Mindflow](https://mindflow.io/)
+- [MyShell](https://myshell.ai/)
+- [Relevance](https://relevanceai.com/agents)
+- [Runner H](https://runner.hcompany.ai/)
+- [Sierra](https://sierra.ai/)
+- [Lindy](https://www.lindy.ai/) ★
+- [ChatGPT Agent](https://openai.com/index/introducing-chatgpt-agent/) ★
+- [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio)
+- [WebMCP](https://webmcp.com/)
+- [Composio](https://composio.dev/)
+- [OpenHome](https://openhome.com/)
+- [Arthur](https://www.arthur.ai/)
+
+## Apresentações com IA
+
+- [AutoSlide](https://autoslide.ai/)
+- [Beautiful](https://beautiful.ai/) ★
+- [Chronicle](https://chroniclehq.com/)
+- [ClassPoint](https://www.classpoint.io/)
+- [Decktopus](https://decktopus.com/)
+- [Gamma](https://gamma.app/) ★
+- [Google Slides](https://workspace.google.com/products/slides/)
+- [Graphy](https://graphy.app/)
+- [Kroma AI](https://kroma.ai/)
+- [PopAI](https://popai.pro/)
+- [Visme](https://visme.co/)
+- [Plus AI](https://plusai.com/)
+- [PowerPoint Copilot](https://microsoft.com/en-us/microsoft-365/powerpoint/ai-powerpoint-generator) ★
+- [Prezi AI](https://prezi.com/features/ai/)
+- [SlidesAI](https://slidesai.io/)
+- [Slidesgo](https://slidesgo.com/)
+- [Supademo](https://supademo.com/)
+- [Tome](https://tome.app/)
+- [Wonderslide](https://wonderslide.com/)
+- [Pitch](https://pitch.com/)
+
+## Áudio com IA
+
+- [Adobe Podcast](https://podcast.adobe.com/)
+- [AI Coustics](https://ai-coustics.com/)
+- [AIVA](https://aiva.ai/)
+- [Boomy](https://boomy.com)
+- [Covers](https://covers.ai/)
+- [Donna AI](https://musicdonna.com/)
+- [ElevenLabs](https://elevenlabs.io/music) ★
+- [Generative.fm](https://play.generative.fm/)
+- [Lyria](https://deepmind.google/models/lyria/realtime/)
+- [Magenta](https://magenta.withgoogle.com)
+- [Moises](https://moises.ai/) ★
+- [Musicfy](https://musicfy.lol/)
+- [MusicGen](https://labs.envato.com/music-gen)
+- [MusicLM](https://aitestkitchen.withgoogle.com/experiments/musiclm)
+- [Sonauto](https://sonauto.ai/)
+- [Stable Audio](https://stability.ai/stable-audio)
+- [Suno](https://suno.com/) ★
+- [Udio](https://udio.com/) ★
+- [X-Minus](https://x-minus.pro/)
+
+## Automação com IA
+
+- [AI-Flow](https://ai-flow.net/)
+- [Automation Anywhere](https://automationanywhere.com)
+- [Flora](https://florafauna.ai/)
+- [IFTTT](https://ifttt.com/)
+- [Make](https://make.com/) ★
+- [Microsoft Power Automate](https://powerautomate.microsoft.com)
+- [N8N](https://n8n.io/) ★
+- [UiPath](https://uipath.com)
+- [Zapier](https://zapier.com/) ★
+- [Gumloop](https://www.gumloop.com/)
+
+## Avatar com IA
+
+- [Colossyan](https://colossyan.com)
+- [D-ID](https://d-id.com)
+- [HeyGen](https://heygen.com/) ★
+- [Synthesia](https://synthesia.io/) ★
+- [Synthesys](https://synthesys.io/)
+- [Hedra](https://www.hedra.com/)
+
+## Banco de imagens com IA
+
+- [Adobe Stock](https://stock.adobe.com/au/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bcontent_type%3Aimage%5D=1&filters%5Bgentech%5D=only&k=ia&order=relevance&limit=100&search_type=filter-select&search_page=1&get_facets=1) ★
+- [Envato](https://elements.envato.com/)
+- [Generated Photos](https://generated.photos/)
+- [Getty Images Generative AI](https://gettyimages.com/ai) ★
+- [Lummi](https://lummi.ai/)
+- [Shutterstock](https://shutterstock.com/search?image_type=generated) ★
+- [StockPhotoAI](https://stockphotoai.com/)
+
+## Benchmarks de IA
+
+- [Android Bench](https://developer.android.com/bench)
+- [Arena](https://arena.ai/leaderboard)
+- [Artificial Analysis](https://artificialanalysis.ai/) ★
+- [Hugging Face Models](https://huggingface.co/models?sort=likes)
+- [Kaggle Game Arena](https://kaggle.com/game-arena)
+- [LMArena](https://lmarena.ai/leaderboard) ★
+- [Papers with Code](https://paperswithcode.com)
+- [Stanford HELM](https://crfm.stanford.edu/helm)
+- [SWE-bench](https://www.swebench.com/) ★
+
+## Chat com IA
+
+- [OpenRouter](https://openrouter.ai/rankings)
+- [Bing Chat](https://bing.com/new)
+- [Character](https://character.ai/)
+- [ChatGPT](https://chatgpt.com/) ★
+- [Clarice](https://clarice.ai/)
+- [Claude](https://claude.ai/) ★
+- [Cohere](https://dashboard.cohere.com/playground)
+- [Copilot](https://copilot.microsoft.com/) ★
+- [DeepSeek](https://deepseek.com/) ★
+- [Gemini (Bard)](https://gemini.google.com/) ★
+- [Granite](https://ibm.com/granite/playground/)
+- [Grok](https://grok.com/) ★
+- [Jamba](https://studio.ai21.com/)
+- [Kimi](https://kimi.com/)
+- [Le Chat](https://chat.mistral.ai/chat)
+- [Maritaca](https://chat.maritaca.ai/)
+- [Meta AI](https://meta.ai/) ★
+- [Nemotron](https://nemotron.one/chat/)
+- [Nova](https://nova.amazon.com/)
+- [Perplexity](https://perplexity.ai/) ★
+- [Pi](https://pi.ai/)
+- [Poe](https://poe.com/)
+- [Qwen](https://chat.qwen.ai/)
+- [Reka](https://app.reka.ai/)
+- [Solar Pro](https://console.upstage.ai/playground/chat)
+- [StepFun](https://stepfun.ai/)
+- [Yi-Large](https://app.fireworks.ai/playground)
+- [Z.ai](https://chat.z.ai/)
+
+## Bibliotecas de IAs
+
+- [AI Tools](https://aitools.inc/)
+- [BiblioVerse 😉](https://biblioverse.org/) ★
+- [AI Top Hub](https://aitophub.com/)
+- [AI Valley](https://aivalley.ai/)
+- [Easy With AI](https://easywithai.com/)
+- [EliteAI Tools](https://eliteai.tools/)
+- [Future Tools](https://futuretools.io/)
+- [Futurepedia](https://www.futurepedia.io/) ★
+- [Nextool AI](https://nextool.ai/)
+- [Offeo](https://offeo.com/)
+- [OpenTools.ai](https://opentools.ai)
+- [Product Hunt AI Agents](https://www.producthunt.com/categories/ai-agents)
+- [There's An AI For That](https://theresanaiforthat.com/) ★
+- [Toolnest](https://toolnest.ai/)
+- [Top AI Tools](https://topai.tools/)
+
+## Cursos de IA
+
+- [Adapta](https://adapta.org/)
+- [Coursera AI](https://www.coursera.org/courses?query=artificial%20intelligence) ★
+- [DataCamp](https://datacamp.com/)
+- [Deep Learning AI](https://www.deeplearning.ai/) ★
+- [Google AI Essentials](https://grow.google/ai-essentials/) ★
+- [Human Academy](https://humanacademy.ai/)
+- [Microsoft AI Learning Hub](https://learn.microsoft.com/en-us/ai/)
+- [OpenAI Academy](https://academy.openai.com/)
+- [Elements of AI](https://www.elementsofai.com/)
+- [Hugging Face Learn](https://huggingface.co/learn)
+- [fast.ai](https://course.fast.ai/)
+- [Anthropic Academy](https://academy.claude.com/)
+
+## Currículo com IA
+
+- [Kickresume](https://kickresume.com/) ★
+- [Resume.io](https://resume.io/)
+- [Rezi](https://www.rezi.ai/)
+- [Teal](https://www.tealhq.com/) ★
+
+## Design com IA
+
+- [Adobe Express](https://adobe.com/express/)
+- [Canva](https://canva.com/) ★
+- [Creatosaurus](https://creatosaurus.io/)
+- [Design Sense](https://designsense.ai/)
+- [Endless Tools](https://endlesstools.io/)
+- [Exists](https://exists.ai/)
+- [Figma](https://figma.com) ★
+- [Flair.ai](https://flair.ai/)
+- [Flora](https://florafauna.ai/)
+- [Freepik](https://freepik.com/)
+- [Ideogram](https://ideogram.ai/)
+- [Ilus AI](https://ilus.ai/)
+- [Image Farm](https://imagefarm.ai/)
+- [Logo Diffusion](https://logodiffusion.com/)
+- [Lovart](https://lovart.ai/)
+- [Microsoft Designer](https://designer.microsoft.com/)
+- [Muse Pro](https://musepro.app/)
+- [Playground](https://playground.com/)
+- [Post Nitro](https://postnitro.ai/)
+- [Recraft](https://recraft.ai/) ★
+- [Relume](https://www.relume.ai/)
+- [Sourceful](https://sourceful.com/)
+- [Spline](https://spline.design/)
+- [Stockimg](https://stockimg.ai/)
+- [Tripo AI](https://tripo3d.ai/)
+- [Uizard](https://uizard.io/)
+- [Unstock](https://unstock.ai/)
+- [UX Pilot](https://uxpilot.ai/)
+- [TapNow](https://tapnow.ai/)
+- [Mobbin](https://mobbin.com/)
+
+## Detetive com IA
+
+- [Maltego](https://maltego.com) ★
+- [White Bridge](https://whitebridge.ai/)
+- [Wilson](https://getwilson.ai/)
+
+## Divulgadores de IAs
+
+- [Alexandre Chiavegatto Filho](https://x.com/SaudenoBR)
+- [Andrew Ng](https://deeplearning.ai) ★
+- [Danilo Gato](https://x.com/oDaniloGato/)
+- [Diogo Cortiz](https://x.com/diogocortiz)
+- [Lex Fridman](https://x.com/lexfridman) ★: Pesquisador do MIT e podcaster, uma das vozes mais populares no debate público sobre IA.
+- [Miguel Lannes Fernandes](https://x.com/inventormiguel_)
+- [Paula Bernardes](https://x.com/PaulaBernar_des)
+- [Pedro Burgos](https://x.com/Burgos)
+- [Rachel Woods](https://x.com/rachel_l_woods): Ex-Facebook data scientist, CEO na DiviUp Agency e Founder da The AI Exchange.
+- [Two Minute Papers](https://youtube.com/@TwoMinutePapers) ★
+- [Victor Dias](https://youtube.com/@UniversoProgramado)
+- [Yannic Kilcher](https://youtube.com/@YannicKilcher)
+- [Ethan Mollick](https://x.com/emollick) ★
+- [Matt Wolfe](https://youtube.com/@mreflow) ★
+- [AI Explained](https://youtube.com/@aiexplained-official)
+- [Fireship](https://youtube.com/@Fireship)
+- [Matthew Berman](https://youtube.com/@matthew_berman)
+- [Wes Roth](https://youtube.com/@WesRoth)
+- [3Blue1Brown](https://youtube.com/@3blue1brown)
+- [Simon Willison](https://simonwillison.net/)
+- [Rowan Cheung (The Rundown AI)](https://x.com/rowancheung)
+- [Allie K. Miller](https://x.com/alliekmiller)
+- [Catharina Doria](https://www.instagram.com/cahdoria)
+- [Unwind AI](https://www.theunwindai.com/)
+
+## Educação com IA
+
+- [Curipod](https://curipod.com/)
+- [Creatium](https://creatium.com/)
+- [Edcafe](https://edcafe.ai/)
+- [Gradescope](https://gradescope.com/)
+- [Khanmigo](https://khanmigo.ai/) ★
+- [MagicSchool](https://magicschool.ai/) ★
+- [Mini Course Generator](https://minicoursegenerator.com/)
+- [Quizlet Q-Chat](https://quizlet.com) ★
+- [ScribeHow](https://scribehow.com/)
+- [Vega](https://myvega.ai/)
+- [Wayground](https://wayground.com/)
+- [Edexia](https://www.edexia.ai/)
+- [Go1](https://www.go1.com/)
+- [Brisk Teaching](https://www.briskteaching.com/)
+
+## Escrita com IA
+
+- [Frase](https://frase.io)
+- [Google Docs](https://workspace.google.com/products/docs/)
+- [Grammarly](https://grammarly.com/) ★
+- [Jetpack AI Assistant](https://jetpack.com/ai/)
+- [Microsoft Word Copilot](https://microsoft.com/en-us/microsoft-365)
+- [NotebookLM](https://notebooklm.google.com/) ★
+- [Pinpoint](https://journaliststudio.google.com/pinpoint/)
+- [ProWritingAid](https://prowritingaid.com/)
+- [Quillbot](https://quillbot.com/) ★
+- [Reword](https://reword.com/)
+- [Sudowrite](https://sudowrite.com)
+- [Type](https://type.ai/)
+- [Wordtune](https://wordtune.com/)
+- [Writeseed](https://writeseed.com/)
+- [Writer](https://writer.com/)
+
+## Fala com IA
+
+- [Ad Auris](https://adauris.ai/)
+- [Azure Speech Service](https://speech.microsoft.com/portal)
+- [Chatterbox](https://chatterboxai.net/)
+- [Descript](https://descript.com/) ★
+- [ElevenLabs](https://elevenlabs.io/) ★
+- [FakeYou](https://fakeyou.com/)
+- [Fish Audio](https://fish.audio/)
+- [IBM Watson](https://ibm.com/br-pt/products/text-to-speech)
+- [Illuminate](https://illuminate.google.com/)
+- [Inworld TTS](https://inworld.ai/tts)
+- [Kokoro](https://kokorotts.net/)
+- [LMNT](https://lmnt.com/)
+- [Luvvoice](https://luvvoice.com/)
+- [Murf](https://murf.ai/) ★
+- [Natural Readers](https://naturalreaders.com/)
+- [Octave](https://octavetts.com/)
+- [Play AI](https://play.ai/)
+- [PlayHT](https://play.ht/)
+- [Polly](https://aws.amazon.com/polly/)
+- [Replica Studios](https://replicastudios.com)
+- [Resemble AI](https://resemble.ai)
+- [Speechify](https://speechify.com/) ★
+- [Speechma](https://speechma.com/)
+- [TopMediai](https://topmediai.com/)
+- [Voicemod](https://voicemod.net/en/ai-voices/)
+- [Wondercraft](https://wondercraft.ai/)
+- [Zonos](https://zonosai.com/)
+- [Cartesia](https://www.cartesia.ai/)
+
+## Figuras-chave da IA
+
+- [Alexandr Wang](https://x.com/alexandr_wang): Fundador e CEO da Scale AI, uma plataforma que usa dados para treinamento para modelos de aprendizado de máquina.
+- [Andrej Karpathy](https://x.com/karpathy) ★: Ex-diretor de IA da Tesla e OpenAI, divulgador técnico muito popular.
+- [Dario Amodei](https://x.com/DarioAmodei) ★: CEO e cofundador da Anthropic (criadora do Claude).
+- [David Holz](https://x.com/davidsholz): Fundador e CEO da MidJourney, referência em geração de imagens por IA.
+- [Demis Hassabis](https://x.com/demishassabis) ★: CEO e cofundador da DeepMind (Google DeepMind), referência em IA científica.
+- [Emad Mostaque](https://x.com/EMostaque): Fundador da Stability AI (Stable Diffusion).
+- [Fei-Fei Li](https://x.com/drfeifei) ★: Professora em Stanford, pioneira no ImageNet e referência global em visão computacional e ética em IA.
+- [Gary Marcus](https://x.com/garymarcus)
+- [Geoffrey Hinton](https://x.com/geoffreyhinton) ★: Ex-Google, conhecido como 'padrinho da IA'; crítico dos riscos da IA avançada.
+- [Ilya Sutskever](https://x.com/ilyasut) ★: Cofundador e ex-chief scientist da OpenAI, agora lidera a Safe Superintelligence Inc. (SSI).
+- [Joy Buolamwini](https://x.com/jovialjoy): Fundadora da Algorithmic Justice League, pesquisadora e ativista pela justiça algorítmica.
+- [Logan Kilpatrick](https://x.com/OfficialLoganK): Líder de produto do Google AI Studio e da API Gemini, conhecido por divulgar novidades da IA.
+- [Mustafa Suleyman](https://x.com/mustafasuleymn): Cofundador da DeepMind, ex-CEO da Inflection AI e atual CEO da Microsoft AI.
+- [Reid Hoffman](https://x.com/reidhoffman): Cofundador do LinkedIn e grande investidor em IA (OpenAI, Anthropic, Inflection).
+- [Sam Altman](https://x.com/sama) ★: CEO da OpenAI, voz central no avanço dos modelos de linguagem.
+- [Timnit Gebru](https://x.com/timnitGebru): Ex-Google, fundadora do DAIR (Distributed AI Research Institute), destaque nos debates sobre ética e vieses em IA.
+- [Tristan Harris](https://x.com/tristanharris): Ex-Google, cofundador do Center for Humane Technology, crítico dos riscos sociais da IA.
+- [Yann LeCun](https://x.com/ylecun) ★: Um dos 'pais do deep learning', vencedor do Prêmio Turing e ex-cientista-chefe de IA da Meta.
+- [Yoshua Bengio](https://x.com/yoshua_bengio) ★: Pesquisador da Universidade de Montreal, pioneiro em redes neurais profundas.
+- [Jensen Huang](https://en.wikipedia.org/wiki/Jensen_Huang) ★: Cofundador e CEO da Nvidia, empresa dos chips que movem a IA moderna.
+- [Sundar Pichai](https://x.com/sundarpichai): CEO do Google e da Alphabet.
+- [Satya Nadella](https://x.com/satyanadella): CEO da Microsoft, principal parceira da OpenAI.
+- [Mark Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg): Fundador e CEO da Meta, criadora dos modelos Llama.
+- [Elon Musk](https://x.com/elonmusk): Cofundador da OpenAI e fundador da xAI (Grok).
+- [Greg Brockman](https://x.com/gdb): Cofundador e presidente da OpenAI.
+- [Mira Murati](https://x.com/miramurati): Ex-CTO da OpenAI e fundadora da Thinking Machines Lab.
+- [Daniela Amodei](https://en.wikipedia.org/wiki/Daniela_Amodei): Cofundadora e presidente da Anthropic.
+- [Arthur Mensch](https://x.com/arthurmensch): Cofundador e CEO da Mistral AI.
+- [Liang Wenfeng](https://en.wikipedia.org/wiki/Liang_Wenfeng): Fundador e CEO da DeepSeek.
+- [Aravind Srinivas](https://x.com/AravSrinivas): Cofundador e CEO da Perplexity.
+- [Jeff Dean](https://x.com/JeffDean): Cientista-chefe do Google DeepMind e do Google Research.
+- [Noam Shazeer](https://en.wikipedia.org/wiki/Noam_Shazeer): Coautor do Transformer, cofundador da Character.AI e co-líder do Gemini.
+- [Chris Olah](https://x.com/ch402): Cofundador da Anthropic e referência em interpretabilidade de redes neurais.
+- [Jürgen Schmidhuber](https://x.com/SchmidhuberAI): Pioneiro das redes neurais recorrentes (LSTM).
+- [Stuart Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell): Professor em Berkeley e coautor do livro-texto mais usado de IA.
+- [Kai-Fu Lee](https://x.com/kaifulee): Investidor e fundador da 01.AI, autor de "Inteligência Artificial".
+
+## Finanças com IA
+
+- [AlphaSense](https://alpha-sense.com/) ★
+- [Brightwave](https://brightwave.io/)
+- [Cleo](https://cleo.com/) ★
+- [Numerai](https://numer.ai/)
+- [Perplexity Finance](https://perplexity.ai/finance) ★
+- [Power Bi](https://microsoft.com/power-platform/products/power-bi/)
+- [S&P Kensho](https://spglobal.com/spdji/en/indices/thematics/sp-kensho-global-artificial-intelligence-enablers-index/)
+- [Wealthfront](https://wealthfront.com/)
+- [Yahoo Finance AI](https://finance.yahoo.com/technology/ai/)
+
+## Gerenciamento com IA
+
+- [Airtable](https://airtable.com)
+- [Any.do](https://any.do/)
+- [Asana](https://asana.com/)
+- [BeeDone](https://beedone.co/)
+- [ClickUp](https://clickup.com/) ★
+- [Clockwise](https://getclockwise.com/)
+- [Coda](https://coda.io/)
+- [Jira](https://atlassian.com/software/jira)
+- [Mapify](https://mapify.so/)
+- [monday.com](https://monday.com)
+- [Motion](https://usemotion.com/) ★
+- [Notion](https://notion.so/) ★
+- [Reclaim](https://reclaim.ai/)
+- [Scribe](https://scribehow.com/)
+- [Rootly](https://rootly.com/)
+- [Salve](https://umsalve.com/)
+
+## Grandes empresas de IA
+
+- [Adobe](https://adobe.com/)
+- [Alibaba](https://alibaba.com/)
+- [Alphabet](https://abc.xyz/)
+- [Amazon](https://amazon.com/)
+- [Anthropic](https://anthropic.com/) ★
+- [Apple](https://apple.com/)
+- [ByteDance](https://bytedance.com/)
+- [Cohere](https://cohere.com/)
+- [DeepMind](https://deepmind.google/) ★
+- [DeepSeek](https://deepseek.com/)
+- [Descript](https://descript.com/)
+- [ElevenLabs](https://elevenlabs.io/)
+- [Hugging Face](https://huggingface.co/)
+- [IBM](https://ibm.com/)
+- [Inflection AI](https://inflection.ai)
+- [Meta](https://about.meta.com/) ★
+- [Microsoft](https://microsoft.com/) ★
+- [Midjourney](https://midjourney.com/)
+- [Nvidia](https://nvidia.com/) ★
+- [OpenAI](https://openai.com/) ★
+- [Oracle](https://oracle.com/)
+- [Pangram](https://pangram.com/)
+- [Palantir](https://palantir.com/)
+- [Perplexity](https://perplexity.ai/)
+- [Scale AI](https://scale.com/)
+- [Stability AI](https://stability.ai)
+- [xAI](https://x.ai/)
+- [Mistral AI](https://mistral.ai/)
+
+## IA de uso geral
+
+- [ChatGPT](https://chatgpt.com/) ★
+- [Claude](https://claude.ai/) ★
+- [Fal](https://fal.ai/)
+- [Gemini (Bard)](https://gemini.google.com/) ★
+- [Genspark](https://genspark.ai/)
+- [Grok](https://grok.com/)
+- [Meta AI](https://meta.ai/)
+
+## Idiomas com IA
+
+- [Avatalks](https://avatalks.com/)
+- [Babbel](https://babbel.com/)
+- [Busuu](https://busuu.com/)
+- [Duolingo](https://duolingo.com/) ★
+- [Elsa AI](https://elsaspeak.com)
+- [Falou](https://falou.com/)
+- [LangDay](https://langday.ai/)
+- [LanguaTalk](https://languatalk.com/)
+- [Lingvist](https://lingvist.com/)
+- [Memrise](https://memrise.com/)
+- [MosaLingua](https://mosalingua.com/)
+- [Praktika](https://praktika.ai/) ★
+- [Pronounce](https://getpronounce.com/)
+- [Speaking](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)
+- [Talkpal](https://talkpal.ai/)
+- [Univerbal](https://univerbal.app/)
+- [Speak](https://www.speak.com/) ★
+
+## Imagem com IA
+
+- [Aftershoot](https://aftershoot.com/)
+- [Dreamina](https://dreamina.capcut.com/)
+- [Enhancor](https://enhancor.ai/)
+- [Evoto](https://evoto.ai/)
+- [Firefly](https://firefly.adobe.com/) ★
+- [Flux](https://playground.bfl.ai/) ★
+- [Gemini (Bard)](https://gemini.google.com/) ★
+- [Grok](https://grok.com/)
+- [Ideogram](https://ideogram.ai/) ★
+- [Illustroke](https://illustroke.com/)
+- [Janus Pro](https://janusai.pro/)
+- [Kling](https://kling.ai/)
+- [Kolors](https://kolors-ai.com/)
+- [Kora](https://kora.enhancor.ai/)
+- [Krea](https://krea.ai/)
+- [Leonardo AI](https://leonardo.ai/)
+- [LetzAI](https://letz.ai/)
+- [Lexica](https://lexica.art/)
+- [Logo Diffusion](https://logodiffusion.com/)
+- [Luma Photon](https://lumalabs.ai/)
+- [Mage](https://mage.space/)
+- [Magnific AI](https://magnific.ai/)
+- [Midjourney](https://midjourney.com/) ★
+- [Mixboard](https://mixboard.google.com/)
+- [NVIDIA Canvas](https://nvidia.com/studio/canvas/)
+- [OpenArt](https://openart.ai/)
+- [Photoroom](https://photoroom.com/)
+- [Playground](https://playground.com/)
+- [Recraft](https://recraft.ai/)
+- [Reve Image](https://preview.reve.art/)
+- [Runware](https://runware.ai/)
+- [RunDiffusion](https://rundiffusion.com/)
+- [Scenario](https://scenario.com/)
+- [Seedream](https://seedream.pro/)
+- [Sora (ended)](https://sora.com/)
+- [Spline](https://spline.design/)
+- [Stable Diffusion](https://stability.ai/stable-image)
+- [Topaz Labs](https://topazlabs.com/)
+- [Upscale](https://upscale.media/)
+- [Vectorizer](https://vectorizer.ai/)
+- [Vivago](https://vivago.ai/)
+- [Wan AI](https://wan.video/)
+- [ChatGPT Imagens](https://openai.com/index/introducing-4o-image-generation/) ★
+
+## Laboratórios de IA
+
+- [Allen Institute for AI](https://allenai.org)
+- [Copilot Labs](https://copilot.microsoft.com/labs/)
+- [Google Labs](https://labs.google/) ★
+- [Hugging Face](https://huggingface.co/) ★
+- [Jetson AI Lab](https://jetson-ai-lab.com/)
+- [Replicate](https://replicate.com/)
+
+## Marketing com IA
+
+- [AI Ad Generator](https://adcreative.ai/)
+- [AI Sugests](https://ai-suggests.com/)
+- [Anyword](https://anyword.com/)
+- [Attentive](https://attentive.com/)
+- [Bagel](https://bagel.ai/)
+- [Blaze](https://blaze.ai/)
+- [Copy.ai](https://copy.ai/) ★
+- [Cuttable](https://cuttable.com/)
+- [Gan AI](https://gan.ai/)
+- [Jasper](https://jasper.ai/) ★
+- [Krisp](https://krisp.ai/)
+- [MarketMuse](https://marketmuse.com)
+- [Pietra](https://pietrastudio.com/)
+- [Sprout Social](https://sproutsocial.com/)
+- [Waymark](https://waymark.com/)
+- [Writesonic](https://writesonic.com/)
+- [Genrok AI](https://genrok.ai/)
+
+## Matemática com IA
+
+- [MathGPT](https://math-gpt.org/)
+- [Photomath](https://photomath.com) ★
+- [Qanda](https://qanda.ai/)
+- [Solvely](https://solvely.ai/)
+- [Wolfram Alpha](https://www.wolframalpha.com/) ★
+
+## Navegador com IA
+
+- [Arc](https://arc.net/)
+- [Brave](https://brave.com/)
+- [Browserbase](https://browserbase.com/)
+- [Comet](https://perplexity.ai/comet/) ★
+- [Dia](https://diabrowser.com/) ★
+- [DuckAssist](https://duckduckgo.com)
+- [Edge](https://microsoft.com/edge/)
+- [Firefox](https://firefox.com/)
+- [Exa](https://exa.ai/)
+- [Fellou](https://fellou.ai/)
+- [Opera One](https://opera.com/one)
+- [Polar](https://polarbrowser.com/)
+- [Sigma](https://sigmabrowser.com/)
+- [ChatGPT Atlas](https://chatgpt.com/atlas) ★
+
+## Pacotes de IAs
+
+- [Adobe Firefly](https://firefly.adobe.com/) ★
+- [Canva Magic Studio](https://canva.com/ai/) ★
+- [ClipDrop](https://clipdrop.co/)
+- [Fotor](https://fotor.com/)
+- [Freepik AI](https://freepik.com/ai/) ★
+- [Higgsfield](https://higgsfield.ai/)
+- [Krea AI](https://krea.ai/)
+- [Labs Google](https://labs.google/)
+- [Media IO](https://media.io/)
+- [Microsoft Designer](https://designer.microsoft.com/)
+- [Replicate](https://replicate.com/)
+- [Tencent AI](https://arc.tencent.com/en/ai-demos/)
+- [Topaz Labs](https://topazlabs.com/)
+
+## Pesquisa com IA
+
+- [Connected Papers](https://connectedpapers.com/)
+- [Consensus](https://consensus.app/) ★
+- [Elicit](https://elicit.org/) ★
+- [Research Rabbit](https://researchrabbitapp.com/)
+- [Scispace](https://scispace.com/)
+- [scite](https://scite.ai)
+- [Semantic Scholar](https://semanticscholar.org) ★
+- [Askable](https://www.askable.com/)
+- [Otio](https://otio.ai/)
+- [DeepJudge](https://www.deepjudge.ai/)
+
+## Plataforma de serviços com IA
+
+- [Alibaba Cloud AI](https://alibabacloud.com/solutions/ai)
+- [Amazon Web Services](https://aws.amazon.com/machine-learning/) ★
+- [Anthropic Claude](https://anthropic.com/claude) ★
+- [Baidu AI Cloud](https://cloud.baidu.com/product/ai.html)
+- [DataRobot](https://datarobot.com)
+- [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) ★
+- [H2O.ai](https://h2o.ai)
+- [IBM Watsonx](https://ibm.com/watsonx)
+- [LangChain](https://langchain.com/)
+- [Microsoft Azure AI](https://azure.microsoft.com/en-us/solutions/ai) ★
+- [Nvidia AI Solutions](https://nvidia.com/en-au/solutions/ai/)
+- [OpenAI Platform](https://platform.openai.com/) ★
+- [Oracle Cloud AI](https://oracle.com/artificial-intelligence/)
+- [Salesforce Einstein](https://salesforce.com/products/einstein/overview/)
+- [SAP AI Core & AI Foundation](https://sap.com/products/artificial-intelligence.html)
+- [Tencent Cloud AI](https://tencentcloud.com/solutions/ai)
+- [Together AI](https://www.together.ai/)
+- [Lambda](https://lambda.com/)
+
+## Programação com IA
+
+- [Base44](https://base44.com/)
+- [Bolt](https://bolt.new/)
+- [Cerebras](https://cerebras.ai/)
+- [Cline](https://cline.bot/)
+- [Codex](https://openai.com/pt-BR/codex/) ★
+- [Cursor](https://cursor.com/) ★
+- [Devin](https://devin.ai/) ★
+- [Durable](https://durable.com/)
+- [Firebase Studio](https://firebase.studio/)
+- [Framer](https://framer.com/)
+- [GitHub Copilot](https://github.com/features/copilot) ★
+- [Google AI Code Generation](https://cloud.google.com/use-cases/ai-code-generation)
+- [HeroUI](https://heroui.chat/)
+- [Graphite](https://graphite.com/)
+- [Jules](https://jules.google.com/)
+- [Kiro](https://kiro.dev/)
+- [Lovable](https://lovable.dev/) ★
+- [Magic Patterns](https://magicpatterns.com/)
+- [Mendable](https://mendable.ai/)
+- [New Relic](https://newrelic.com/)
+- [Q Developer](https://aws.amazon.com/q/developer/)
+- [Replit](https://replit.com/)
+- [Rork](https://rork.com/)
+- [Screenshot to Code](https://screenshottocode.com/)
+- [Stitch](https://stitch.withgoogle.com/)
+- [Tabnine](https://tabnine.com/)
+- [Tiptap](https://tiptap.dev/)
+- [UIBrainX](https://softlite.io/uibrainx/)
+- [Unicorn Platform](https://unicornplatform.com/)
+- [Wegic](https://wegic.ai/)
+- [Windsurf (Codeium)](https://windsurf.com/) ★
+- [Claude Code](https://claude.com/product/claude-code) ★
+- [v0](https://v0.app/)
+- [Gemini Code Assist](https://codeassist.google/)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+- [Google Antigravity](https://antigravity.google/)
+- [JetBrains AI](https://www.jetbrains.com/ai/)
+- [Aider](https://aider.chat/)
+- [Amp](https://ampcode.com/)
+- [OpenHands](https://www.openhands.dev/)
+- [Continue](https://www.continue.dev/)
+- [Qodo](https://www.qodo.ai/)
+- [CodeRabbit](https://www.coderabbit.ai/)
+- [Warp](https://www.warp.dev/)
+- [Zed](https://zed.dev/)
+- [Momentic](https://momentic.ai/)
+- [PlayerZero](https://playerzero.ai/)
+
+## Prompting para IA
+
+- [AIPRM](https://aiprm.com/) ★
+- [OpenSea](https://opensea.io/)
+- [Optimize for GPT](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+- [PromptBase](https://promptbase.com/) ★
+- [PromptHub](https://prompthub.us/)
+- [PromptLayer](https://promptlayer.com/)
+- [PromptPerfect](https://promptperfect.jina.ai/)
+- [The Agency](https://github.com/msitarzewski/agency-agents)
+- [Proper Prompts](https://www.properprompts.ai/)
+
+## Retratos com IA
+
+- [Gemini (Bard)](https://gemini.google.com/)
+- [Lensa](https://lensa-ai.com) ★
+- [Photo AI](https://photoai.com/) ★
+- [Remini](https://remini.ai/) ★
+- [Sora (ended)](https://sora.com/)
+
+## Saúde com IA
+
+- [Glass Health](https://glass.health/)
+- [Hippocratic AI](https://hippocraticai.com/)
+- [PathAI](https://pathai.com/)
+- [Tempus AI](https://tempus.com/)
+- [OpenEvidence](https://www.openevidence.com/) ★
+- [Abridge](https://www.abridge.com/) ★
+
+## Sintografistas de IA
+
+- [Alessio](https://instagram.com/lostingans)
+- [Ali Aboutine](https://instagram.com/aliaboutine/)
+- [Ariadna Giménez](https://instagram.com/khoba_____/)
+- [David Szauder](https://instagram.com/davidszauder/)
+- [Francisco Aguirre](https://instagram.com/_franciscoaguirre_/)
+- [Harold Cohen](https://en.wikipedia.org/wiki/Harold_Cohen_(artist))
+- [High Taid](https://instagram.com/high.taid)
+- [Jay Pirabakaran](https://instagram.com/jayprints)
+- [Julie Wieland](https://instagram.com/juliewdesign/)
+- [Jyo John Mulloor](https://instagram.com/jyo_john_mulloor/)
+- [Katsukokoiso](https://instagram.com/katsukokoiso.ai)
+- [Laura Zambelli](https://instagram.com/lazambelliph)
+- [Liber](https://instagram.com/liberxx0/)
+- [Mac Baconai](https://instagram.com/macbaconai/)
+- [Maja Petrić](https://instagram.com/maja_petric/)
+- [Mr. Relative](https://instagram.com/mr_relative_/)
+- [Niceaunties](https://instagram.com/niceaunties/)
+- [Refik Anadol](https://instagram.com/refikanadol/) ★
+- [Sonya Mikhailovskaia](https://instagram.com/sonyamix.ai)
+- [Sougwen Chung](https://instagram.com/sougwen/) ★
+- [Str4ngeThing](https://instagram.com/str4ngething/)
+- [Suzan Valois](https://instagram.com/iva_ai_popsurreal/)
+- [Thierry Lechanteur](https://instagram.com/thierrylechanteur)
+
+## Termos de IA
+
+- [AI alignment](https://en.wikipedia.org/wiki/AI_alignment)
+- [Algorithm](https://en.wikipedia.org/wiki/Algorithm): The set of rules or instructions that guide the functioning of AI
+- [Algorithmic bias](https://en.wikipedia.org/wiki/Algorithmic_bias): An unwanted tendency or distortion in AI results, inherited from data or design
+- [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence): The idea of an AI with broad cognitive capacity, like a human
+- [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) ★: Systems that simulate forms of human intelligence in machines
+- [Data](https://en.wikipedia.org/wiki/Data_(computing)): The 'fuel' of AI; without it, nothing works
+- [Deep learning](https://en.wikipedia.org/wiki/Deep_learning): Deep neural networks responsible for breakthroughs such as speech recognition, translation, and computer vision
+- [Explainability](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence): The effort to understand and make transparent the decisions taken by an AI model
+- [Fine-tuning](https://en.wikipedia.org/wiki/Fine-tuning_(machine_learning)): The process of taking a pre-trained model and adjusting it with specific data to make it more suitable for a task or style
+- [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) ★: Systems capable of creating new content (text, image, audio, video) based on learned patterns
+- [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
+- [Hyperparameter tuning](https://en.wikipedia.org/wiki/Hyperparameter_optimization): The fine adjustment of the 'knobs and levers' of the model (number of layers, learning rate, regularization, etc.), usually done during training to improve performance
+- [Inference](https://en.wikipedia.org/wiki/Inference): The act of AI applying what it has learned to respond or make decisions in real time
+- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) ★: AIs trained on massive amounts of text to generate and understand natural language
+- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning) ★: A subfield of AI that teaches systems to learn patterns from data
+- [Multimodal AI](https://en.wikipedia.org/wiki/Multimodal_artificial_intelligence): Models that process different types of input and output simultaneously (text, image, audio, etc.)
+- [Narrow AI](https://en.wikipedia.org/wiki/Artificial_intelligence#Narrow_vs._general_AI): AIs specialized in a specific task (e.g., movie recommendation, facial recognition)
+- [Neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network): Structures inspired by the human brain used to learn complex relationships between data
+- [Overfitting](https://en.wikipedia.org/wiki/Overfitting): When an AI learns the details of a dataset so well that it fails to generalize properly
+- [Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering): The input (question or command) given to a language model
+- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
+- [Token](https://en.wikipedia.org/wiki/Tokenization_(lexical_analysis)): The minimal unit of text used by a language model (can be a word, part of a word, or even a character)
+- [Training](https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets): The process of feeding the AI with data so it can learn patterns
+
+## Tradução com IA
+
+- [Amazon Translate](https://aws.amazon.com/translate/)
+- [Azure Tradutor](https://azure.microsoft.com/products/ai-services/ai-translator)
+- [DeepL](https://deepl.com/translator) ★
+- [Google Translate](https://translate.google.com.br/) ★
+- [Rask AI](https://rask.ai/)
+- [Unbabel](https://unbabel.com/)
+- [Reverso](https://www.reverso.net/)
+
+## Transcrição com IA
+
+- [Aimbly](https://aimbly.co/)
+- [Amazon Transcribe](https://aws.amazon.com/pm/transcribe)
+- [Azure Speech Service](https://speech.microsoft.com/portal)
+- [Fireflies](https://fireflies.ai/) ★
+- [Fireworks](https://fireworks.ai/platform/voice-agent-platform)
+- [Fish Audio](https://fish.audio/)
+- [Gladia](https://gladia.io/)
+- [Krisp](https://krisp.ai/)
+- [Laxis](https://laxis.com/)
+- [Otter.ai](https://otter.ai) ★
+- [Rev](https://rev.ai/)
+- [Summarize](https://summarize.tech/)
+- [Transkriptor](https://transkriptor.com/)
+- [Voxtral](https://voxtral.org/)
+- [Zoom AI](https://zoom.us/)
+- [Granola](https://www.granola.ai/) ★
+- [Whisper](https://openai.com/index/whisper/)
+- [tl;dv](https://tldv.io/)
+
+## Vídeo com IA
+
+- [AnyVideo](https://anyvideo.ai/)
+- [ArtificialStudio](https://artificialstudio.ai/)
+- [Artlist](https://artlist.io/)
+- [CapCut](https://capcut.com/) ★
+- [Captions](https://captions.ai/)
+- [Clipfly](https://clipfly.ai/)
+- [Comfy](https://www.comfy.org/)
+- [Descript](https://descript.com/)
+- [Dream Machine](https://dream-machine.lumalabs.ai/)
+- [FlexClip](https://flexclip.com/)
+- [Genmo](https://genmo.ai/)
+- [Google Lumiere](https://lumiere-video.github.io/)
+- [Hailuo](https://hailuoai.video/) ★
+- [Haiper AI](https://haiper.ai/)
+- [Hera](https://hera.video/)
+- [Higgsfield](https://higgsfield.ai/)
+- [Hunyuan Video](https://hunyuanvideoai.com/)
+- [Kaiber](https://kaiber.ai/)
+- [Kapwing](https://kapwing.com)
+- [Kling AI](https://kling.ai/) ★
+- [Leonardo AI](https://leonardo.ai/)
+- [Live Portrait](https://liveportrait.org/)
+- [LTX](https://ltx.studio/)
+- [Luma Labs](https://lumalabs.ai/)
+- [Midjourney](https://midjourney.com/)
+- [Mojo](https://mojo-app.com/)
+- [Odyssey ML](https://odyssey.systems/)
+- [Pika](https://pika.art/)
+- [PixVerse](https://app.pixverse.ai/)
+- [Plask Motion](https://plask.ai/)
+- [pxz](https://pxz.ai/)
+- [Rask](https://rask.ai/)
+- [Runware](https://runware.ai/)
+- [Runway](https://runwayml.com/) ★
+- [Seedance](https://seedanceai.net/) ★
+- [Seedream](https://seed.bytedance.com/en/)
+- [Sora (ended)](https://sora.com/)
+- [Topaz Labs](https://topazlabs.com/)
+- [Unboring Reface](https://reface.ai/unboring/animate)
+- [Veed](https://veed.io/)
+- [Veo](https://gemini.google/overview/video-generation/) ★
+- [Vidful](https://vidful.ai/)
+- [Vidnoz](https://vidnoz.com/)
+- [Vidu](https://vidu.studio/)
+- [Viggle](https://viggle.ai/)
+- [Vivago](https://vivago.ai/)
+- [Vizard](https://vizard.ai/)
+- [Wan AI](https://wan.video/)
+- [Wondershare Filmora](https://filmora.wondershare.net)
+- [Opus Clip](https://www.opus.pro/)
+- [Google Flow](https://flow.google.com/)
+- [Twelve Labs](https://www.twelvelabs.io/)

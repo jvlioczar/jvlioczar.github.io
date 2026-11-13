@@ -1,0 +1,7 @@
+# BiblioVerse: todo o conteúdo pode ser lido e indexado, inclusive por assistentes de IA.
+# Resumo para modelos de linguagem: https://biblioverse.org/llms.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://biblioverse.org/sitemap.xml

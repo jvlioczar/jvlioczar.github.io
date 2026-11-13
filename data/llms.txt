@@ -1,0 +1,925 @@
+# A Biblioteca de Dados
+
+> Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: organizações internacionais, economia, países, índices globais, saúde, clima, animais e conceitos essenciais. Ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 793 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Dados gerais
+
+- [Our World in Data](https://ourworldindata.org) ★
+- [Gapminder](https://www.gapminder.org) ★
+- [Banco Mundial — World Bank Open Data](https://data.worldbank.org) ★: EN: World Bank — Open Data
+- [Statista](https://www.statista.com) ★
+- [YouGov](https://yougov.com) ★
+- [Data Commons (Google)](https://datacommons.org)
+- [Google Dataset Search](https://datasetsearch.research.google.com)
+- [Worldometer](https://www.worldometers.info)
+- [Visual Capitalist](https://www.visualcapitalist.com)
+- [WolframAlpha](https://www.wolframalpha.com)
+- [Humanitarian Data Exchange (HDX)](https://data.humdata.org)
+- [Wikidata](https://www.wikidata.org)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [data.world](https://data.world)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [USAFacts](https://usafacts.org)
+- [CIA World Factbook](https://www.cia.gov/the-world-factbook/) 🪦
+- [Data Is Plural](https://www.data-is-plural.com/)
+
+## Organizações internacionais
+
+- [ONU — UNdata](https://data.un.org) ★: EN: UN — UNdata
+- [OCDE — OECD Data Explorer](https://data-explorer.oecd.org) ★: EN: OECD — Data Explorer
+- [FMI — IMF Data](https://data.imf.org) ★: EN: IMF — Data
+- [OMS — Global Health Observatory](https://www.who.int/data/gho) ★: EN: WHO — Global Health Observatory
+- [ONU — SDG Global Database](https://unstats.un.org/sdgs/dataportal): EN: UN — SDG Global Database
+- [ONU — World Population Prospects](https://population.un.org/wpp/): EN: UN — World Population Prospects
+- [PNUD — Human Development Reports](https://hdr.undp.org/data-center): EN: UNDP — Human Development Reports
+- [FAO — FAOSTAT](https://www.fao.org/faostat/)
+- [OIT — ILOSTAT](https://ilostat.ilo.org): EN: ILO — ILOSTAT
+- [UNESCO — Institute for Statistics](https://uis.unesco.org)
+- [UNICEF — UNICEF Data](https://data.unicef.org)
+- [ACNUR — Refugee Data Finder](https://www.unhcr.org/refugee-statistics/): EN: UNHCR — Refugee Data Finder
+- [UNCTAD — UNCTADstat](https://unctadstat.unctad.org)
+- [OMC — WTO Stats](https://stats.wto.org): EN: WTO — Stats
+- [UIT — ITU DataHub](https://datahub.itu.int): EN: ITU — DataHub
+- [UNODC — Data Portal](https://data.unodc.org)
+- [OIM — Migration Data Portal](https://www.migrationdataportal.org): EN: IOM — Migration Data Portal
+- [BIS — Data Portal](https://data.bis.org)
+- [OMPI — IP Statistics](https://www.wipo.int/en/web/ip-statistics): EN: WIPO — IP Statistics
+- [CEPAL — CEPALSTAT](https://statistics.cepal.org): EN: ECLAC — CEPALSTAT
+- [Eurostat](https://ec.europa.eu/eurostat)
+- [BAD — Africa Information Highway](https://dataportal.opendataforafrica.org): EN: AfDB — Africa Information Highway
+- [ADB — Key Indicators Database](https://kidb.adb.org)
+- [Pacific Data Hub](https://pacificdata.org)
+
+## Dados econômicos
+
+- [FMI — World Economic Outlook Database](https://www.imf.org/en/Publications/WEO) ★: EN: IMF — World Economic Outlook Database
+- [Banco Mundial — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators) ★: EN: World Bank — World Development Indicators
+- [FRED (Federal Reserve de St. Louis)](https://fred.stlouisfed.org) ★: EN: FRED (St. Louis Fed)
+- [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/)
+- [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/)
+- [Trading Economics](https://tradingeconomics.com)
+- [Atlas of Economic Complexity (Harvard)](https://atlas.hks.harvard.edu)
+- [Observatory of Economic Complexity (OEC)](https://oec.world)
+- [UN Comtrade](https://comtradeplus.un.org)
+- [Big Mac Index (The Economist)](https://www.economist.com/big-mac-index)
+- [Total Economy Database (The Conference Board)](https://www.conference-board.org/data/economydatabase)
+- [Index of Economic Freedom (Heritage)](https://www.heritage.org/index/)
+- [Economic Freedom of the World (Fraser)](https://www.fraserinstitute.org/economic-freedom)
+- [B-READY (Banco Mundial)](https://www.worldbank.org/en/businessready): EN: B-READY (World Bank)
+- [Global Findex (Banco Mundial)](https://www.worldbank.org/en/publication/globalfindex): EN: Global Findex (World Bank)
+- [Numbeo — Custo de vida](https://www.numbeo.com/cost-of-living/): EN: Numbeo — Cost of Living
+- [Macrotrends](https://www.macrotrends.net)
+- [Damodaran Online](https://pages.stern.nyu.edu/~adamodar/)
+- [Fortune Global 500](https://fortune.com/ranking/global500/)
+- [CompaniesMarketCap](https://companiesmarketcap.com)
+- [SEC EDGAR](https://www.sec.gov/edgar/search/)
+- [OpenCorporates](https://opencorporates.com)
+- [Livingcost — Custo de vida](https://livingcost.org/): EN: Livingcost — Cost of living
+- [Yahoo Finance — Mercados](https://finance.yahoo.com/markets/): EN: Yahoo Finance — Markets
+
+## Pobreza e desigualdade
+
+- [World Inequality Database (WID)](https://wid.world) ★
+- [Poverty and Inequality Platform (Banco Mundial)](https://pip.worldbank.org) ★: EN: Poverty and Inequality Platform (World Bank)
+- [Global MPI (OPHI)](https://ophi.org.uk/global-mpi)
+- [LIS Cross-National Data Center](https://www.lisdatacenter.org)
+- [SWIID — Standardized World Income Inequality Database](https://fsolt.org/swiid/)
+- [Dollar Street (Gapminder)](https://www.gapminder.org/dollar-street)
+- [Global Wealth Report (UBS)](https://www.ubs.com/global/en/family-office-uhnw/reports/global-wealth-report.html)
+- [Oxfam — Desigualdade](https://www.oxfam.org/en/research): EN: Oxfam — Inequality research
+
+## Índices e rankings globais
+
+- [Índice de Desenvolvimento Humano (IDH)](https://hdr.undp.org/data-center/human-development-index) ★: EN: Human Development Index (HDI)
+- [World Happiness Report](https://worldhappiness.report) ★
+- [V-Dem — Varieties of Democracy](https://www.v-dem.net) ★
+- [Democracy Index (EIU)](https://www.eiu.com/n/campaigns/democracy-index-2024/)
+- [Freedom in the World (Freedom House)](https://freedomhouse.org/report/freedom-world)
+- [Índice de Percepção da Corrupção (Transparência Internacional)](https://www.transparency.org/en/cpi): EN: Corruption Perceptions Index (Transparency International)
+- [Global Peace Index](https://www.visionofhumanity.org/maps/)
+- [Global Terrorism Index](https://www.visionofhumanity.org/maps/global-terrorism-index/)
+- [Classificação Mundial da Liberdade de Imprensa (RSF)](https://rsf.org/en/index): EN: World Press Freedom Index (RSF)
+- [Global Gender Gap Report (WEF)](https://www.weforum.org/publications/global-gender-gap-report-2025/)
+- [Social Progress Index](https://www.socialprogress.org)
+- [Sustainable Development Report (SDG Index)](https://dashboards.sdgindex.org)
+- [Global Innovation Index (OMPI)](https://www.wipo.int/global_innovation_index/en/): EN: Global Innovation Index (WIPO)
+- [Human Freedom Index (Cato)](https://www.cato.org/human-freedom-index)
+- [Rule of Law Index (WJP)](https://worldjusticeproject.org/rule-of-law-index/)
+- [Fragile States Index](https://fragilestatesindex.org)
+- [Worldwide Governance Indicators (Banco Mundial)](https://www.worldbank.org/en/publication/worldwide-governance-indicators): EN: Worldwide Governance Indicators (World Bank)
+- [BTI Transformation Index (Bertelsmann)](https://bti-project.org)
+- [Global Hunger Index](https://www.globalhungerindex.org)
+- [Environmental Performance Index (Yale)](https://epi.yale.edu)
+- [Climate Change Performance Index](https://ccpi.org)
+- [ND-GAIN Country Index](https://gain.nd.edu/our-work/country-index/)
+- [Global Slavery Index](https://www.walkfree.org/global-slavery-index/)
+- [World Giving Index (CAF)](https://www.cafonline.org/insights/research/world-giving-index)
+- [Henley Passport Index](https://www.henleyglobal.com/passport-index)
+- [Global Liveability Index (EIU)](https://www.eiu.com/n/campaigns/global-liveability-index-2025/)
+- [Numbeo — Índice de poder de compra](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp) ★: EN: Numbeo — Purchasing Power Index
+- [Numbeo — Índice de qualidade de vida](https://www.numbeo.com/quality-of-life/rankings_by_country.jsp): EN: Numbeo — Quality of Life Index
+- [Banco Mundial — International Comparison Program (PPC)](https://www.worldbank.org/en/programs/icp): EN: World Bank — International Comparison Program (PPP)
+- [WageIndicator — Salário mínimo por país](https://wageindicator.org/work/minimum-wage/): EN: WageIndicator — Minimum wage by country
+- [Wikipedia — Países por salário mínimo](https://pt.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_sal%C3%A1rio_m%C3%ADnimo): EN: Wikipedia — Countries by minimum wage
+- [OCDE — Salários médios](https://www.oecd.org/en/data/indicators/average-wages.html): EN: OECD — Average wages
+- [OIT — Global Wage Report](https://www.ilo.org/resource/other/global-wage-report-series): EN: ILO — Global Wage Report
+- [Happy Planet Index](https://happyplanetindex.org)
+- [OECD Better Life Index](https://www.oecdbetterlifeindex.org)
+- [Gallup Global Emotions](https://www.gallup.com/analytics/349280/gallup-global-emotions-report.aspx)
+- [Human Capital Index (Banco Mundial)](https://www.worldbank.org/en/publication/human-capital): EN: Human Capital Index (World Bank)
+- [IMD World Competitiveness Ranking](https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-competitiveness-ranking/)
+- [EF English Proficiency Index](https://www.ef.com/wwen/epi/)
+- [Mercer — Custo de vida](https://www.mercer.com/insights/total-rewards/talent-mobility-insights/cost-of-living/): EN: Mercer — Cost of Living
+- [Kearney Global Cities Index](https://www.kearney.com/service/global-business-policy-council/gcr)
+- [Global Soft Power Index (Brand Finance)](https://brandirectory.com/softpower)
+- [Global Health Security Index](https://ghsindex.org)
+
+## Comparação entre países
+
+- [Our World in Data — Perfis de países](https://ourworldindata.org/countries) ★: EN: Our World in Data — Country profiles
+- [Banco Mundial — Dados por país](https://data.worldbank.org/country): EN: World Bank — Data by country
+- [TheGlobalEconomy.com](https://www.theglobaleconomy.com)
+- [CountryEconomy.com](https://countryeconomy.com)
+- [Index Mundi](https://www.indexmundi.com)
+- [NationMaster](https://www.nationmaster.com)
+- [Gapminder Tools](https://www.gapminder.org/tools/)
+- [Wikipedia — Listas de países](https://pt.wikipedia.org/wiki/Listas_de_pa%C3%ADses): EN: Wikipedia — Lists of countries
+
+## Demografia e população
+
+- [ONU — World Population Prospects](https://population.un.org/wpp/) ★: EN: UN — World Population Prospects
+- [PopulationPyramid.net](https://www.populationpyramid.net) ★
+- [U.S. Census Bureau — International Database](https://www.census.gov/programs-surveys/international-programs/about/idb.html)
+- [IPUMS](https://www.ipums.org)
+- [The DHS Program](https://dhsprogram.com)
+- [Human Mortality Database](https://www.mortality.org)
+- [Human Fertility Database](https://www.humanfertility.org)
+- [Wittgenstein Centre Human Capital Data Explorer](https://dataexplorer.wittgensteincentre.org)
+- [WorldPop](https://www.worldpop.org)
+- [Global Human Settlement Layer (GHSL)](https://human-settlement.emergency.copernicus.eu)
+- [City Population](https://www.citypopulation.de)
+
+## Saúde
+
+- [IHME — Global Burden of Disease (GBD Compare)](https://vizhub.healthdata.org/gbd-compare/) ★
+- [OMS — Global Health Observatory](https://www.who.int/data/gho) ★: EN: WHO — Global Health Observatory
+- [Global Health Data Exchange (GHDx)](https://ghdx.healthdata.org)
+- [UNAIDS — AIDSinfo](https://aidsinfo.unaids.org)
+- [CDC WONDER](https://wonder.cdc.gov)
+- [CDC — Dados e estatísticas](https://www.cdc.gov/datastatistics/): EN: CDC — Data & Statistics
+- [KFF Global Health Policy](https://www.kff.org/global-health-policy/)
+- [ClinicalTrials.gov](https://clinicaltrials.gov)
+- [NCD-RisC](https://www.ncdrisc.org)
+- [Global Cancer Observatory (IARC)](https://gco.iarc.who.int)
+- [Vital Strategies — Tobacco Atlas](https://tobaccoatlas.org): EN: Tobacco Atlas
+- [OMS — Mortality Database](https://platform.who.int/mortality): EN: WHO — Mortality Database
+
+## Educação
+
+- [UNESCO — Institute for Statistics](https://uis.unesco.org) ★
+- [PISA (OCDE)](https://www.oecd.org/en/about/programmes/pisa.html) ★: EN: PISA (OECD)
+- [TIMSS & PIRLS](https://timssandpirls.bc.edu)
+- [Banco Mundial — Education Statistics](https://datatopics.worldbank.org/education/): EN: World Bank — Education Statistics
+- [Barro-Lee Educational Attainment](https://barrolee.github.io/BarroLeeDataSet/)
+- [Education at a Glance (OCDE)](https://www.oecd.org/en/publications/serials/education-at-a-glance_19991487.html): EN: Education at a Glance (OECD)
+- [World Inequality Database on Education (WIDE)](https://www.education-inequalities.org)
+- [Times Higher Education World University Rankings](https://www.timeshighereducation.com/world-university-rankings)
+- [QS World University Rankings](https://www.topuniversities.com/world-university-rankings)
+- [ShanghaiRanking (ARWU)](https://www.shanghairanking.com)
+
+## Trabalho e emprego
+
+- [OIT — ILOSTAT](https://ilostat.ilo.org) ★: EN: ILO — ILOSTAT
+- [OCDE — Employment Outlook](https://www.oecd.org/en/topics/employment.html): EN: OECD — Employment
+- [EUA — Bureau of Labor Statistics](https://www.bls.gov): EN: USA — Bureau of Labor Statistics
+- [Eurostat — Mercado de trabalho](https://ec.europa.eu/eurostat/web/labour-market): EN: Eurostat — Labour market
+- [Penn World Table — Produtividade](https://www.rug.nl/ggdc/productivity/pwt/): EN: Penn World Table — Productivity
+- [Indeed Hiring Lab](https://www.hiringlab.org)
+- [wage.is — Salários por país](https://wage.is/): EN: wage.is — Wages by country
+
+## Gênero
+
+- [ONU Mulheres — Women Count](https://data.unwomen.org) ★: EN: UN Women — Women Count
+- [Banco Mundial — Gender Data Portal](https://genderdata.worldbank.org): EN: World Bank — Gender Data Portal
+- [Women, Business and the Law (Banco Mundial)](https://wbl.worldbank.org): EN: Women, Business and the Law (World Bank)
+- [UIP — Mulheres no parlamento](https://data.ipu.org/women-ranking): EN: IPU — Women in parliament
+- [Equal Measures 2030 — SDG Gender Index](https://equalmeasures2030.org)
+- [Equaldex (direitos LGBTQ+)](https://www.equaldex.com): EN: Equaldex (LGBTQ+ rights)
+- [ILGA World Database](https://database.ilga.org)
+
+## Política, democracia e eleições
+
+- [V-Dem — Varieties of Democracy](https://www.v-dem.net) ★
+- [International IDEA — Voter Turnout](https://www.idea.int/data-tools/data/voter-turnout-database)
+- [IFES ElectionGuide](https://www.electionguide.org)
+- [UIP — Parline](https://data.ipu.org): EN: IPU — Parline
+- [ParlGov](https://www.parlgov.org)
+- [Manifesto Project](https://manifesto-project.wzb.eu)
+- [Polity Project (Center for Systemic Peace)](https://www.systemicpeace.org/polityproject.html)
+- [Open Budget Survey](https://internationalbudget.org/open-budget-survey)
+
+## Conflitos, segurança e crime
+
+- [ACLED](https://acleddata.com) ★
+- [UCDP — Uppsala Conflict Data Program](https://ucdp.uu.se) ★
+- [SIPRI — Gastos militares e armas](https://www.sipri.org/databases): EN: SIPRI — Military expenditure & arms
+- [Global Terrorism Database (START)](https://www.start.umd.edu/gtd/)
+- [Correlates of War](https://correlatesofwar.org)
+- [Small Arms Survey](https://www.smallarmssurvey.org)
+- [UNODC — Homicídios e crimes](https://www.unodc.org/unodc/en/data-and-analysis/global-study-on-homicide.html): EN: UNODC — Homicide & crime
+- [World Prison Brief](https://www.prisonstudies.org)
+- [FBI Crime Data Explorer](https://cde.ucr.cjis.gov)
+- [Global Organized Crime Index](https://ocindex.net)
+
+## Migração e refugiados
+
+- [OIM — Migration Data Portal](https://www.migrationdataportal.org) ★: EN: IOM — Migration Data Portal
+- [ACNUR — Refugee Data Finder](https://www.unhcr.org/refugee-statistics/) ★: EN: UNHCR — Refugee Data Finder
+- [ONU DESA — International Migrant Stock](https://www.un.org/development/desa/pd/content/international-migrant-stock): EN: UN DESA — International Migrant Stock
+- [Migration Policy Institute — Data Hub](https://www.migrationpolicy.org/programs/migration-data-hub)
+- [IDMC — Deslocados internos](https://www.internal-displacement.org/database): EN: IDMC — Internal displacement
+- [OCDE — International Migration Database](https://www.oecd.org/en/topics/international-migration.html): EN: OECD — International Migration
+
+## Meio ambiente e clima
+
+- [Climate Watch (WRI)](https://www.climatewatchdata.org) ★
+- [NASA — Vital Signs of the Planet](https://science.nasa.gov/climate-change/) ★: EN: NASA — Climate Change
+- [Copernicus Climate Change Service](https://climate.copernicus.eu) ★
+- [Berkeley Earth](https://berkeleyearth.org)
+- [NOAA — National Centers for Environmental Information](https://www.ncei.noaa.gov)
+- [NOAA — Mauna Loa CO₂](https://gml.noaa.gov/ccgg/trends/)
+- [Global Carbon Budget](https://globalcarbonbudget.org)
+- [EDGAR — Emissions Database (JRC)](https://edgar.jrc.ec.europa.eu)
+- [Climate TRACE](https://climatetrace.org)
+- [Carbon Monitor](https://carbonmonitor.org)
+- [NSIDC — Gelo marinho](https://nsidc.org/sea-ice-today): EN: NSIDC — Sea ice
+- [Global Nature Watch (antigo Global Forest Watch)](https://globalnaturewatch.org): EN: Global Nature Watch (formerly Global Forest Watch)
+- [Resource Watch](https://resourcewatch.org)
+- [IPCC Data Distribution Centre](https://www.ipcc-data.org)
+- [Global Footprint Network](https://data.footprintnetwork.org)
+- [Climate Reanalyzer](https://climatereanalyzer.org)
+- [Copernicus Atmosphere Monitoring Service](https://atmosphere.copernicus.eu)
+- [IQAir — Qualidade do ar](https://www.iqair.com/world-air-quality-ranking): EN: IQAir — Air quality ranking
+- [OpenAQ](https://openaq.org)
+
+## Minerais e recursos naturais
+
+- [IEA — Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) ★
+- [USGS — Mineral Commodity Summaries](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) ★
+- [USGS — National Minerals Information Center](https://www.usgs.gov/centers/national-minerals-information-center)
+- [USGS — Terras raras](https://www.usgs.gov/centers/national-minerals-information-center/rare-earths-statistics-and-information): EN: USGS — Rare earths
+- [Global Rare Earth Industry Association (REIA)](https://global-reia.org)
+- [Benchmark Mineral Intelligence](https://www.benchmarkminerals.com)
+- [BGS — World Mineral Statistics](https://www.bgs.ac.uk/mineralsuk/statistics/world-mineral-statistics/)
+- [World Mining Data](https://www.world-mining-data.info)
+- [EITI — Transparência na mineração](https://eiti.org/open-data): EN: EITI — Extractives transparency
+- [Natural Resource Governance Institute — Resource Governance Index](https://resourcegovernanceindex.org)
+- [Global Energy Monitor — Mineração](https://globalenergymonitor.org/projects/global-coal-mine-tracker/): EN: Global Energy Monitor — Coal mines
+- [Our World in Data — Metais e minerais](https://ourworldindata.org/metals-minerals): EN: Our World in Data — Metals & minerals
+- [Agência Nacional de Mineração (Brasil)](https://www.gov.br/anm/pt-br): EN: National Mining Agency (Brazil)
+
+## Biodiversidade
+
+- [IUCN Red List](https://www.iucnredlist.org) ★
+- [Living Planet Index (WWF/ZSL)](https://www.livingplanetindex.org) ★
+- [GBIF — Global Biodiversity Information Facility](https://www.gbif.org)
+- [iNaturalist](https://www.inaturalist.org)
+- [Protected Planet (UNEP-WCMC)](https://www.protectedplanet.net)
+- [Map of Life](https://mol.org)
+- [OBIS — Ocean Biodiversity Information System](https://obis.org)
+- [eBird (Status and Trends)](https://science.ebird.org/en/status-and-trends)
+
+## Energia
+
+- [IEA — Data and Statistics](https://www.iea.org/data-and-statistics) ★
+- [Ember — Electricity Data](https://ember-energy.org/data/) ★
+- [Energy Institute — Statistical Review of World Energy](https://www.energyinst.org/statistical-review)
+- [IRENA — Estatísticas de renováveis](https://www.irena.org/Data): EN: IRENA — Renewable energy statistics
+- [EIA — U.S. Energy Information Administration](https://www.eia.gov)
+- [Global Energy Monitor](https://globalenergymonitor.org)
+- [Electricity Maps](https://app.electricitymaps.com)
+- [Our World in Data — Energia](https://ourworldindata.org/energy): EN: Our World in Data — Energy
+
+## Alimentação e agricultura
+
+- [FAO — FAOSTAT](https://www.fao.org/faostat/) ★
+- [Food Systems Research Fund](https://www.fsrfund.org/research-focus) ★
+- [Food Systems Dashboard](https://www.foodsystemsdashboard.org)
+- [WFP HungerMap LIVE](https://hungermap.wfp.org)
+- [IFPRI — Food Policy Data](https://www.ifpri.org/data): EN: IFPRI — Data
+- [USDA — Production, Supply and Distribution](https://apps.fas.usda.gov/psdonline/)
+- [USDA — Economic Research Service](https://www.ers.usda.gov)
+- [FAO — AQUASTAT](https://www.fao.org/aquastat/)
+- [FAO — FishStat](https://www.fao.org/fishery/en/fishstat)
+- [Good Food Institute — Proteínas alternativas](https://gfi.org/resource/alternative-protein-company-database/): EN: Good Food Institute — Alternative proteins
+- [Our World in Data — Alimentação](https://ourworldindata.org/food-supply): EN: Our World in Data — Food supply
+- [Poore & Nemecek (2018) — Impacto ambiental dos alimentos](https://ourworldindata.org/environmental-impacts-of-food): EN: Poore & Nemecek (2018) — Environmental impacts of food
+
+## Dados sobre animais
+
+- [Faunalytics](https://faunalytics.org) ★
+- [ACE Research Database](https://research-database.animalcharityevaluators.org) ★
+- [Rethink Priorities — Pesquisa](https://rethinkpriorities.org/our-research-areas) ★: EN: Rethink Priorities — Research
+- [Animal Ask](https://www.animalask.org)
+- [Compassion in World Farming — Research](https://www.ciwf.org.uk/research)
+- [Fish Count](https://fishcount.org.uk)
+- [Sentience Institute](https://www.sentienceinstitute.org)
+- [Wild Animal Initiative — Research](https://www.wildanimalinitiative.org/research)
+- [Animal Protection Index (World Animal Protection)](https://api.worldanimalprotection.org)
+- [Voiceless Animal Cruelty Index](https://vaci.voiceless.org.au)
+- [Shelter Animals Count](https://www.shelteranimalscount.org)
+- [Animal Charity Evaluators](https://animalcharityevaluators.org)
+- [Welfare Footprint Institute](https://welfarefootprint.org)
+- [Chicken Watch](https://chickenwatch.org)
+- [Our World in Data — Bem-estar animal](https://ourworldindata.org/animal-welfare): EN: Our World in Data — Animal welfare
+- [Cruelty Free International](https://crueltyfreeinternational.org)
+- [Shrimp Welfare Project](https://www.shrimpwelfareproject.org)
+- [Fish Welfare Initiative](https://www.fishwelfareinitiative.org)
+- [The Vegan Society — Estatísticas](https://www.vegansociety.com/news/media/statistics): EN: The Vegan Society — Statistics
+
+## Ciência, tecnologia e internet
+
+- [DataReportal](https://datareportal.com) ★
+- [Google Trends](https://trends.google.com) ★
+- [Statcounter Global Stats](https://gs.statcounter.com)
+- [Cloudflare Radar](https://radar.cloudflare.com)
+- [Similarweb — Top sites](https://www.similarweb.com/top-websites/)
+- [Speedtest Global Index (Ookla)](https://www.speedtest.net/global-index)
+- [Epoch AI](https://epoch.ai/data)
+- [Stanford AI Index](https://hai.stanford.edu/ai-index)
+- [OECD.AI Policy Observatory](https://oecd.ai)
+- [GitHub Innovation Graph](https://innovationgraph.github.com)
+- [Nature Index](https://www.nature.com/nature-index/)
+- [SCImago Journal & Country Rank](https://www.scimagojr.com)
+- [OpenAlex](https://openalex.org)
+- [UNESCO — Ciência](https://uis.unesco.org/en/topic/research-and-development): EN: UNESCO — Research & development
+
+## Transporte, turismo e cidades
+
+- [ONU Turismo — Tourism Data](https://www.untourism.int/tourism-data): EN: UN Tourism — Tourism Data
+- [ITF — International Transport Forum](https://www.itf-oecd.org)
+- [Logistics Performance Index (Banco Mundial)](https://lpi.worldbank.org): EN: Logistics Performance Index (World Bank)
+- [OpenSky Network](https://opensky-network.org)
+- [ONU-Habitat — Urban Indicators](https://data.unhabitat.org): EN: UN-Habitat — Urban Indicators
+- [TomTom Traffic Index](https://www.tomtom.com/traffic-index/)
+- [Numbeo — Cidades](https://www.numbeo.com/quality-of-life/): EN: Numbeo — Quality of life
+- [Global Road Safety (OMS)](https://www.who.int/data/gho/data/themes/road-safety): EN: Road Safety (WHO)
+
+## Cultura e entretenimento
+
+- [Flickmetrix](https://flickmetrix.com/) ★
+- [IMDb — Datasets não comerciais](https://data.imdb.com/non-commercial-datasets/) ★: EN: IMDb — Non-Commercial Datasets
+- [Box Office Mojo](https://www.boxofficemojo.com/)
+- [The Numbers](https://www.the-numbers.com/)
+- [Kworb (dados de streaming musical)](https://kworb.net/): EN: Kworb (music streaming data)
+- [Steam Charts](https://steamcharts.com/)
+- [AIWARDS — Prêmios da indústria adulta (18+)](https://aiwards.com/): EN: AIWARDS — Adult Industry Awards Database (18+)
+
+## Geoespacial e mapas
+
+- [OpenStreetMap](https://www.openstreetmap.org) ★
+- [NASA Earthdata](https://www.earthdata.nasa.gov) ★
+- [Natural Earth](https://www.naturalearthdata.com)
+- [Copernicus Data Space](https://dataspace.copernicus.eu)
+- [USGS EarthExplorer](https://earthexplorer.usgs.gov)
+- [Google Earth Engine](https://earthengine.google.com)
+- [GADM — Limites administrativos](https://gadm.org): EN: GADM — Administrative boundaries
+- [SEDAC (CIESIN/Columbia)](https://www.earthdata.nasa.gov/centers/sedac-daac)
+- [Esri Living Atlas](https://livingatlas.arcgis.com)
+- [NASA Worldview](https://worldview.earthdata.nasa.gov)
+
+## Opinião pública e surveys
+
+- [Pew Research Center](https://www.pewresearch.org) ★
+- [World Values Survey](https://www.worldvaluessurvey.org) ★
+- [Gallup](https://news.gallup.com)
+- [European Social Survey](https://www.europeansocialsurvey.org)
+- [Eurobarometer](https://europa.eu/eurobarometer/)
+- [General Social Survey (GSS)](https://gss.norc.org)
+- [Afrobarometer](https://www.afrobarometer.org)
+- [Latinobarómetro](https://www.latinobarometro.org)
+- [Arab Barometer](https://www.arabbarometer.org)
+- [Asian Barometer](https://www.asianbarometer.org)
+- [ISSP — International Social Survey Programme](https://issp.org)
+- [YouGov](https://today.yougov.com)
+- [Ipsos](https://www.ipsos.com)
+- [Datafolha](https://datafolha.folha.uol.com.br)
+
+## Dados abertos governamentais
+
+- [data.gov (EUA)](https://data.gov) ★: EN: data.gov (USA)
+- [dados.gov.br (Brasil)](https://dados.gov.br) ★: EN: dados.gov.br (Brazil)
+- [data.europa.eu (União Europeia)](https://data.europa.eu): EN: data.europa.eu (European Union)
+- [data.gov.uk (Reino Unido)](https://www.data.gov.uk): EN: data.gov.uk (United Kingdom)
+- [data.gov.au (Austrália)](https://data.gov.au): EN: data.gov.au (Australia)
+- [open.canada.ca (Canadá)](https://open.canada.ca): EN: open.canada.ca (Canada)
+- [data.gouv.fr (França)](https://www.data.gouv.fr): EN: data.gouv.fr (France)
+- [GovData (Alemanha)](https://www.govdata.de): EN: GovData (Germany)
+- [Open Data Inventory (ODIN)](https://odin.opendatawatch.com)
+- [Open Data Watch](https://opendatawatch.com)
+
+## Repositórios científicos
+
+- [Harvard Dataverse](https://dataverse.harvard.edu) ★
+- [Zenodo](https://zenodo.org) ★
+- [Figshare](https://figshare.com)
+- [ICPSR](https://www.icpsr.umich.edu)
+- [UK Data Service](https://ukdataservice.ac.uk)
+- [Dryad](https://datadryad.org)
+- [OSF — Open Science Framework](https://osf.io)
+- [re3data — Registro de repositórios](https://www.re3data.org): EN: re3data — Registry of repositories
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu)
+- [Registry of Open Data on AWS](https://registry.opendata.aws)
+- [Papers with Code — Datasets](https://paperswithcode.com/datasets) 🪦
+
+## Brasil
+
+- [IBGE](https://www.ibge.gov.br) ★
+- [SIDRA (IBGE)](https://sidra.ibge.gov.br) ★
+- [Ipeadata](http://www.ipeadata.gov.br) ★
+- [IBGE Cidades](https://cidades.ibge.gov.br)
+- [Base dos Dados](https://basedosdados.org)
+- [DATASUS](https://datasus.saude.gov.br)
+- [INEP — Dados abertos](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos): EN: INEP — Open data
+- [Banco Central — SGS (séries temporais)](https://www3.bcb.gov.br/sgspub/): EN: Central Bank of Brazil — SGS (time series)
+- [TSE — Dados eleitorais](https://dadosabertos.tse.jus.br): EN: TSE — Electoral data
+- [Portal da Transparência](https://portaldatransparencia.gov.br)
+- [Tesouro Transparente](https://www.tesourotransparente.gov.br)
+- [Novo Caged / RAIS (Ministério do Trabalho)](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho): EN: Novo Caged / RAIS (Ministry of Labour)
+- [Atlas do Desenvolvimento Humano no Brasil](http://www.atlasbrasil.org.br)
+- [Atlas da Violência (Ipea/FBSP)](https://www.ipea.gov.br/atlasviolencia/)
+- [Fórum Brasileiro de Segurança Pública](https://forumseguranca.org.br)
+- [MapBiomas](https://mapbiomas.org)
+- [TerraBrasilis (INPE — PRODES/DETER)](https://terrabrasilis.dpi.inpe.br)
+- [SEEG — Emissões de gases de efeito estufa](https://seeg.eco.br): EN: SEEG — Greenhouse gas emissions
+- [EPE — Balanço Energético Nacional](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben): EN: EPE — National Energy Balance
+- [Fundação SEADE (SP)](https://www.seade.gov.br)
+- [FGV IBRE](https://portalibre.fgv.br)
+- [DIEESE](https://www.dieese.org.br)
+- [DIEESE — Salário mínimo necessário](https://www.dieese.org.br/analisecestabasica/salarioMinimo.html): EN: DIEESE — Necessary minimum wage
+- [Observatório do Clima](https://www.oc.eco.br)
+- [Fiquem Sabendo](https://fiquemsabendo.com.br)
+- [DesvenDados](https://desvendados.com)
+
+## Países: Américas
+
+- [Antígua e Barbuda — Statistics Division](https://statistics.gov.ag): EN: Antigua and Barbuda — Statistics Division
+- [Argentina — INDEC](https://www.indec.gob.ar)
+- [Bahamas — BNSI](https://stats.gov.bs)
+- [Barbados — Barbados Statistical Service](https://stats.gov.bb)
+- [Belize — SIB](https://sib.org.bz)
+- [Bolívia — INE](https://www.ine.gob.bo): EN: Bolivia — INE
+- [Brasil — IBGE](https://www.ibge.gov.br) ★: EN: Brazil — IBGE
+- [Canadá — Statistics Canada](https://www.statcan.gc.ca) ★: EN: Canada — Statistics Canada
+- [Chile — INE](https://www.ine.gob.cl)
+- [Colômbia — DANE](https://www.dane.gov.co): EN: Colombia — DANE
+- [Costa Rica — INEC](https://inec.cr)
+- [Cuba — ONEI](https://www.onei.gob.cu)
+- [Dominica — Central Statistics Office](https://stats.gov.dm)
+- [República Dominicana — ONE](https://www.one.gob.do): EN: Dominican Republic — ONE
+- [Equador — INEC](https://www.ecuadorencifras.gob.ec): EN: Ecuador — INEC
+- [El Salvador — ONEC (BCR)](https://onec.bcr.gob.sv)
+- [Granada — Central Statistical Office](https://stats.gov.gd): EN: Grenada — Central Statistical Office
+- [Guatemala — INE](https://www.ine.gob.gt)
+- [Guiana — Bureau of Statistics](https://statisticsguyana.gov.gy): EN: Guyana — Bureau of Statistics
+- [Haiti — IHSI](https://ihsi.gouv.ht)
+- [Honduras — INE](https://ine.gob.hn)
+- [Jamaica — STATIN](https://statinja.gov.jm)
+- [México — INEGI](https://www.inegi.org.mx) ★: EN: Mexico — INEGI
+- [Nicarágua — INIDE](https://www.inide.gob.ni): EN: Nicaragua — INIDE
+- [Panamá — INEC](https://www.inec.gob.pa): EN: Panama — INEC
+- [Paraguai — INE](https://www.ine.gov.py): EN: Paraguay — INE
+- [Peru — INEI](https://www.inei.gob.pe)
+- [São Cristóvão e Névis — Statistics Department](https://www.stats.gov.kn): EN: Saint Kitts and Nevis — Statistics Department
+- [Santa Lúcia — Central Statistical Office](https://www.stats.gov.lc): EN: Saint Lucia — Central Statistical Office
+- [São Vicente e Granadinas — Statistical Office](https://stats.gov.vc): EN: Saint Vincent and the Grenadines — Statistical Office
+- [Suriname — ABS](https://statistics-suriname.org)
+- [Trinidad e Tobago — Central Statistical Office](https://cso.gov.tt): EN: Trinidad and Tobago — Central Statistical Office
+- [Estados Unidos — U.S. Census Bureau](https://www.census.gov) ★: EN: United States — U.S. Census Bureau
+- [Uruguai — INE](https://www.gub.uy/instituto-nacional-estadistica/): EN: Uruguay — INE
+- [Venezuela — INE](http://www.ine.gob.ve)
+- [Porto Rico — Instituto de Estadísticas](https://estadisticas.pr): EN: Puerto Rico — Instituto de Estadísticas
+- [Aruba — CBS](https://cbs.aw)
+- [Curaçao — CBS](https://www.cbs.cw)
+- [Ilhas Cayman — ESO](https://www.eso.ky): EN: Cayman Islands — ESO
+- [Bermudas — Department of Statistics](https://www.gov.bm/department/statistics): EN: Bermuda — Department of Statistics
+- [Anguilla — Statistics Department](https://www.gov.ai/statistics)
+- [Estados Unidos — Bureau of Economic Analysis](https://www.bea.gov): EN: United States — Bureau of Economic Analysis
+- [Estados Unidos — Bureau of Labor Statistics](https://www.bls.gov): EN: United States — Bureau of Labor Statistics
+
+## Países: Europa
+
+- [Albânia — INSTAT](https://www.instat.gov.al): EN: Albania — INSTAT
+- [Andorra — Departament d'Estadística](https://www.estadistica.ad)
+- [Áustria — Statistik Austria](https://www.statistik.at): EN: Austria — Statistik Austria
+- [Bielorrússia — Belstat](https://www.belstat.gov.by): EN: Belarus — Belstat
+- [Bélgica — Statbel](https://statbel.fgov.be): EN: Belgium — Statbel
+- [Bósnia e Herzegovina — BHAS](https://bhas.gov.ba): EN: Bosnia and Herzegovina — BHAS
+- [Bulgária — NSI](https://www.nsi.bg): EN: Bulgaria — NSI
+- [Croácia — DZS](https://dzs.gov.hr): EN: Croatia — DZS
+- [Chipre — CYSTAT](https://www.cystat.gov.cy): EN: Cyprus — CYSTAT
+- [Tchéquia — CZSO](https://csu.gov.cz): EN: Czechia — CZSO
+- [Dinamarca — Statistics Denmark](https://www.dst.dk): EN: Denmark — Statistics Denmark
+- [Estônia — Statistics Estonia](https://www.stat.ee): EN: Estonia — Statistics Estonia
+- [Finlândia — Statistics Finland](https://stat.fi): EN: Finland — Statistics Finland
+- [França — INSEE](https://www.insee.fr) ★: EN: France — INSEE
+- [Alemanha — Destatis](https://www.destatis.de) ★: EN: Germany — Destatis
+- [Grécia — ELSTAT](https://www.statistics.gr): EN: Greece — ELSTAT
+- [Hungria — KSH](https://www.ksh.hu): EN: Hungary — KSH
+- [Islândia — Statistics Iceland](https://www.hagstofa.is): EN: Iceland — Statistics Iceland
+- [Irlanda — CSO](https://www.cso.ie): EN: Ireland — CSO
+- [Itália — Istat](https://www.istat.it): EN: Italy — Istat
+- [Kosovo — KAS](https://ask.rks-gov.net)
+- [Letônia — CSP](https://www.csp.gov.lv): EN: Latvia — CSP
+- [Liechtenstein — Statistikportal](https://www.statistikportal.li)
+- [Lituânia — State Data Agency](https://osp.stat.gov.lt): EN: Lithuania — State Data Agency
+- [Luxemburgo — STATEC](https://statistiques.public.lu): EN: Luxembourg — STATEC
+- [Malta — NSO](https://nso.gov.mt)
+- [Moldávia — NBS](https://statistica.gov.md): EN: Moldova — NBS
+- [Mônaco — IMSEE](https://www.imsee.mc): EN: Monaco — IMSEE
+- [Montenegro — MONSTAT](https://monstat.org)
+- [Países Baixos — CBS](https://www.cbs.nl): EN: Netherlands — CBS
+- [Macedônia do Norte — State Statistical Office](https://www.stat.gov.mk): EN: North Macedonia — State Statistical Office
+- [Noruega — SSB](https://www.ssb.no): EN: Norway — SSB
+- [Polônia — GUS](https://stat.gov.pl): EN: Poland — GUS
+- [Portugal — INE](https://www.ine.pt) ★
+- [Romênia — INS](https://insse.ro): EN: Romania — INS
+- [Rússia — Rosstat](https://rosstat.gov.ru): EN: Russia — Rosstat
+- [San Marino — Ufficio di Statistica](https://www.statistica.sm)
+- [Sérvia — RZS](https://www.stat.gov.rs): EN: Serbia — RZS
+- [Eslováquia — Statistical Office](https://slovak.statistics.sk): EN: Slovakia — Statistical Office
+- [Eslovênia — SURS](https://www.stat.si): EN: Slovenia — SURS
+- [Espanha — INE](https://www.ine.es): EN: Spain — INE
+- [Suécia — SCB](https://www.scb.se): EN: Sweden — SCB
+- [Suíça — Federal Statistical Office](https://www.bfs.admin.ch): EN: Switzerland — Federal Statistical Office
+- [Turquia — TurkStat](https://www.tuik.gov.tr): EN: Türkiye — TurkStat
+- [Ucrânia — Ukrstat](https://ukrstat.gov.ua): EN: Ukraine — Ukrstat
+- [Reino Unido — ONS](https://www.ons.gov.uk) ★: EN: United Kingdom — ONS
+- [Ilhas Faroé — Hagstova Føroya](https://hagstova.fo): EN: Faroe Islands — Hagstova Føroya
+- [Groenlândia — Statistics Greenland](https://stat.gl): EN: Greenland — Statistics Greenland
+- [Ilhas Åland — ÅSUB](https://www.asub.ax): EN: Åland Islands — ÅSUB
+- [União Europeia — Eurostat](https://ec.europa.eu/eurostat) ★: EN: European Union — Eurostat
+- [Portugal — PORDATA](https://www.pordata.pt)
+
+## Países: Ásia e Oceania
+
+- [Afeganistão — NSIA](https://nsia.gov.af): EN: Afghanistan — NSIA
+- [Armênia — Armstat](https://armstat.am): EN: Armenia — Armstat
+- [Azerbaijão — State Statistical Committee](https://www.stat.gov.az): EN: Azerbaijan — State Statistical Committee
+- [Geórgia — Geostat](https://www.geostat.ge): EN: Georgia — Geostat
+- [Bangladesh — BBS](https://bbs.gov.bd)
+- [Butão — NSB](https://nsb.gov.bt): EN: Bhutan — NSB
+- [Brunei — DEPS](https://www.deps.gov.bn)
+- [Camboja — NIS](https://nis.gov.kh): EN: Cambodia — NIS
+- [China — National Bureau of Statistics](https://www.stats.gov.cn) ★
+- [Hong Kong — Census and Statistics Department](https://www.censtatd.gov.hk)
+- [Macau — DSEC](https://www.dsec.gov.mo): EN: Macao — DSEC
+- [Índia — MoSPI](https://www.mospi.gov.in) ★: EN: India — MoSPI
+- [Indonésia — BPS](https://www.bps.go.id): EN: Indonesia — BPS
+- [Japão — Statistics Bureau](https://www.stat.go.jp) ★: EN: Japan — Statistics Bureau
+- [Cazaquistão — Bureau of National Statistics](https://stat.gov.kz): EN: Kazakhstan — Bureau of National Statistics
+- [Quirguistão — National Statistical Committee](https://stat.gov.kg): EN: Kyrgyzstan — National Statistical Committee
+- [Laos — Lao Statistics Bureau](https://www.lsb.gov.la)
+- [Malásia — DOSM](https://www.dosm.gov.my): EN: Malaysia — DOSM
+- [Maldivas — Maldives Bureau of Statistics](https://statisticsmaldives.gov.mv): EN: Maldives — Maldives Bureau of Statistics
+- [Mongólia — NSO](https://www.1212.mn): EN: Mongolia — NSO
+- [Mianmar — CSO](https://www.csostat.gov.mm): EN: Myanmar — CSO
+- [Nepal — NSO](https://nsonepal.gov.np)
+- [Paquistão — PBS](https://www.pbs.gov.pk): EN: Pakistan — PBS
+- [Filipinas — PSA](https://psa.gov.ph): EN: Philippines — PSA
+- [Singapura — SingStat](https://www.singstat.gov.sg): EN: Singapore — SingStat
+- [Coreia do Sul — KOSIS](https://kosis.kr): EN: South Korea — KOSIS
+- [Sri Lanka — Department of Census and Statistics](https://www.statistics.gov.lk)
+- [Taiwan — DGBAS](https://eng.stat.gov.tw)
+- [Tajiquistão — TajStat](https://www.stat.tj): EN: Tajikistan — TajStat
+- [Tailândia — NSO](https://www.nso.go.th): EN: Thailand — NSO
+- [Timor-Leste — INETL](https://inetl-ip.gov.tl)
+- [Turcomenistão — State Statistics Committee](https://www.stat.gov.tm): EN: Turkmenistan — State Statistics Committee
+- [Uzbequistão — National Statistics Committee](https://stat.uz): EN: Uzbekistan — National Statistics Committee
+- [Vietnã — NSO](https://www.nso.gov.vn): EN: Vietnam — NSO
+- [Austrália — ABS](https://www.abs.gov.au) ★: EN: Australia — ABS
+- [Nova Zelândia — Stats NZ](https://www.stats.govt.nz): EN: New Zealand — Stats NZ
+- [Fiji — Fiji Bureau of Statistics](https://www.statsfiji.gov.fj)
+- [Papua-Nova Guiné — NSO](https://www.nso.gov.pg): EN: Papua New Guinea — NSO
+- [Samoa — Samoa Bureau of Statistics](https://www.sbs.gov.ws)
+- [Tonga — Tonga Statistics Department](https://tongastats.gov.to)
+- [Vanuatu — VBoS](https://vbos.gov.vu)
+- [Ilhas Salomão — National Statistics Office](https://www.statistics.gov.sb): EN: Solomon Islands — National Statistics Office
+- [Kiribati — National Statistics Office](https://nso.gov.ki)
+- [Tuvalu — Central Statistics Division](https://stats.gov.tv)
+- [Nauru — Bureau of Statistics](https://stats.gov.nr)
+- [Ilhas Marshall — EPPSO](https://rmieppso.org): EN: Marshall Islands — EPPSO
+- [Micronésia — SPC Statistics](https://sdd.spc.int/fm): EN: Micronesia — SPC Statistics
+- [Palau — SPC Statistics](https://sdd.spc.int/pw)
+- [Ilhas Cook — Cook Islands Statistics Office](https://stats.gov.ck): EN: Cook Islands — Cook Islands Statistics Office
+- [Guam — Bureau of Statistics and Plans](https://bsp.guam.gov)
+- [Nova Caledônia — ISEE](https://www.isee.nc): EN: New Caledonia — ISEE
+- [Polinésia Francesa — ISPF](https://www.ispf.pf): EN: French Polynesia — ISPF
+- [Japão — e-Stat](https://www.e-stat.go.jp): EN: Japan — e-Stat
+- [Austrália — AIHW](https://www.aihw.gov.au): EN: Australia — AIHW
+
+## Países: África e Oriente Médio
+
+- [Argélia — ONS](https://www.ons.dz): EN: Algeria — ONS
+- [Angola — INE](https://www.ine.gov.ao)
+- [Benin — INStaD](https://instad.bj)
+- [Botsuana — Statistics Botswana](https://www.statsbots.org.bw): EN: Botswana — Statistics Botswana
+- [Burkina Faso — INSD](https://www.insd.bf)
+- [Burundi — INSBU](https://www.insbu.bi)
+- [Cabo Verde — INE](https://ine.cv): EN: Cape Verde — INE
+- [Camarões — INS](https://ins-cameroun.cm): EN: Cameroon — INS
+- [República Centro-Africana — ICASEES](https://icasees.org): EN: Central African Republic — ICASEES
+- [Chade — INSEED](https://www.inseed.td): EN: Chad — INSEED
+- [Congo — INS](https://ins-congo.cg): EN: Republic of the Congo — INS
+- [RD Congo — INS](https://www.ins-rdc.org): EN: DR Congo — INS
+- [Costa do Marfim — ANStat](https://www.anstat.ci): EN: Côte d'Ivoire — ANStat
+- [Djibuti — INSTAD](https://www.instad.dj): EN: Djibouti — INSTAD
+- [Egito — CAPMAS](https://www.capmas.gov.eg): EN: Egypt — CAPMAS
+- [Etiópia — ESS](https://ess.gov.et): EN: Ethiopia — ESS
+- [Gabão — DGS](https://www.stat-gabon.org): EN: Gabon — DGS
+- [Gâmbia — GBoS](https://www.gbosdata.org): EN: Gambia — GBoS
+- [Gana — Ghana Statistical Service](https://statsghana.gov.gh): EN: Ghana — Ghana Statistical Service
+- [Guiné — INS](https://www.stat-guinee.org): EN: Guinea — INS
+- [Guiné-Bissau — INE](https://www.stat-guinebissau.com): EN: Guinea-Bissau — INE
+- [Quênia — KNBS](https://www.knbs.or.ke): EN: Kenya — KNBS
+- [Lesoto — Bureau of Statistics](https://www.bos.gov.ls): EN: Lesotho — Bureau of Statistics
+- [Libéria — LISGIS](https://www.lisgis.gov.lr): EN: Liberia — LISGIS
+- [Líbia — Bureau of Statistics and Census](https://bsc.ly): EN: Libya — Bureau of Statistics and Census
+- [Madagascar — INSTAT](https://www.instat.mg)
+- [Malawi — NSO](https://www.nsomalawi.mw)
+- [Mali — INSTAT](https://www.instat-mali.org)
+- [Mauritânia — ANSADE](https://ansade.mr): EN: Mauritania — ANSADE
+- [Maurício — Statistics Mauritius](https://statsmauritius.govmu.org): EN: Mauritius — Statistics Mauritius
+- [Marrocos — HCP](https://www.hcp.ma): EN: Morocco — HCP
+- [Moçambique — INE](https://www.ine.gov.mz): EN: Mozambique — INE
+- [Namíbia — NSA](https://nsa.org.na): EN: Namibia — NSA
+- [Níger — INS](https://www.stat-niger.org): EN: Niger — INS
+- [Nigéria — NBS](https://nigerianstat.gov.ng) ★: EN: Nigeria — NBS
+- [Ruanda — NISR](https://www.statistics.gov.rw): EN: Rwanda — NISR
+- [São Tomé e Príncipe — INE](https://www.ine.st): EN: São Tomé and Príncipe — INE
+- [Senegal — ANSD](https://www.ansd.sn)
+- [Seicheles — NBS](https://www.nbs.gov.sc): EN: Seychelles — NBS
+- [Serra Leoa — Statistics Sierra Leone](https://www.statistics.sl): EN: Sierra Leone — Statistics Sierra Leone
+- [Somália — SNBS](https://nbs.gov.so): EN: Somalia — SNBS
+- [África do Sul — Stats SA](https://www.statssa.gov.za) ★: EN: South Africa — Stats SA
+- [Sudão do Sul — NBS](https://nbs.gov.ss): EN: South Sudan — NBS
+- [Tanzânia — NBS](https://www.nbs.go.tz): EN: Tanzania — NBS
+- [Togo — INSEED](https://inseed.tg)
+- [Tunísia — INS](https://www.ins.tn): EN: Tunisia — INS
+- [Uganda — UBOS](https://www.ubos.org)
+- [Zâmbia — ZamStats](https://www.zamstats.gov.zm): EN: Zambia — ZamStats
+- [Zimbábue — ZIMSTAT](https://www.zimstat.co.zw): EN: Zimbabwe — ZIMSTAT
+- [Santa Helena — Statistics](https://www.sainthelena.gov.sh/st-helena/statistics/): EN: Saint Helena — Statistics
+- [Barein — Open Data Portal](https://www.data.gov.bh): EN: Bahrain — Open Data Portal
+- [Irã — Statistical Centre of Iran](https://www.amar.org.ir): EN: Iran — Statistical Centre of Iran
+- [Iraque — CSO](https://cosit.gov.iq): EN: Iraq — CSO
+- [Israel — CBS](https://www.cbs.gov.il)
+- [Jordânia — Department of Statistics](https://dosweb.dos.gov.jo): EN: Jordan — Department of Statistics
+- [Kuwait — CSB](https://www.csb.gov.kw)
+- [Líbano — CAS](https://www.cas.gov.lb): EN: Lebanon — CAS
+- [Omã — NCSI](https://www.ncsi.gov.om): EN: Oman — NCSI
+- [Palestina — PCBS](https://www.pcbs.gov.ps): EN: Palestine — PCBS
+- [Catar — National Planning Council](https://www.npc.qa): EN: Qatar — National Planning Council
+- [Arábia Saudita — GASTAT](https://www.stats.gov.sa): EN: Saudi Arabia — GASTAT
+- [Síria — CBS](https://cbssyr.sy): EN: Syria — CBS
+- [Emirados Árabes Unidos — FCSC](https://fcsc.gov.ae): EN: United Arab Emirates — FCSC
+
+## Visualização de dados
+
+- [Flourish](https://flourish.studio) ★
+- [Datawrapper](https://www.datawrapper.de) ★
+- [Our World in Data — Gráficos e dados](https://ourworldindata.org/search) ★: EN: Our World in Data — Charts & data
+- [Information is Beautiful](https://informationisbeautiful.net) ★
+- [Nexo Jornal — Gráficos](https://www.nexojornal.com.br/grafico): EN: Nexo Jornal — Charts
+- [Tableau Public](https://public.tableau.com)
+- [RAWGraphs](https://www.rawgraphs.io)
+- [Observable](https://observablehq.com)
+- [Looker Studio](https://lookerstudio.google.com/overview)
+- [Power BI](https://www.microsoft.com/power-platform/products/power-bi)
+- [Kepler.gl](https://kepler.gl)
+- [D3.js](https://d3js.org)
+- [Vega-Lite](https://vega.github.io/vega-lite/)
+- [Data Viz Project](https://datavizproject.com)
+- [From Data to Viz](https://www.data-to-viz.com)
+- [Financial Times — Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
+- [ColorBrewer](https://colorbrewer2.org)
+- [Plotly](https://plotly.com/)
+- [Infogram](https://infogram.com/)
+- [Metabase](https://www.metabase.com/)
+- [Apache Superset](https://superset.apache.org/)
+
+## Ferramentas de análise
+
+- [R / CRAN](https://cran.r-project.org) ★
+- [Python — pandas](https://pandas.pydata.org) ★
+- [Jupyter](https://jupyter.org)
+- [Google Colab](https://colab.research.google.com)
+- [RStudio (Posit)](https://posit.co/products/open-source/rstudio/)
+- [DuckDB](https://duckdb.org)
+- [OpenRefine](https://openrefine.org)
+- [JASP](https://jasp-stats.org)
+- [jamovi](https://www.jamovi.org)
+- [Orange Data Mining](https://orangedatamining.com)
+- [Stata](https://www.stata.com)
+- [IBM SPSS Statistics](https://www.ibm.com/products/spss-statistics)
+- [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
+- [Google Sheets](https://sheets.google.com)
+- [KNIME](https://www.knime.com)
+- [Polars](https://pola.rs/)
+- [Julia](https://julialang.org/)
+- [MATLAB](https://www.mathworks.com/products/matlab.html)
+- [SAS](https://www.sas.com/)
+
+## Jornalismo de dados e checagem
+
+- [Our World in Data — Artigos](https://ourworldindata.org/latest) ★: EN: Our World in Data — Latest
+- [The Pudding](https://pudding.cool) ★
+- [The Economist — Graphic Detail](https://www.economist.com/graphic-detail)
+- [The New York Times — The Upshot](https://www.nytimes.com/section/upshot)
+- [Reuters Graphics](https://www.reuters.com/graphics/)
+- [Financial Times — Data](https://www.ft.com/data)
+- [Information is Beautiful](https://informationisbeautiful.net)
+- [FlowingData](https://flowingdata.com)
+- [DataJournalism.com](https://datajournalism.com)
+- [Full Fact](https://fullfact.org)
+- [Projeto Comprova](https://projetocomprova.com.br) ★
+- [Aos Fatos](https://www.aosfatos.org)
+- [Observatório da Desinformação](https://observatoriodadesinformacao.org): EN: Disinformation Observatory
+- [Senado Verifica](https://www12.senado.leg.br/verifica): EN: Brazilian Senate — Senado Verifica
+- [Afonte Jornalismo de Dados](https://afonte.info): EN: Afonte Data Journalism
+- [FactCheck.org](https://www.factcheck.org) ★
+- [PolitiFact](https://www.politifact.com)
+- [Snopes](https://www.snopes.com)
+- [Google Fact Check Explorer](https://toolbox.google.com/factcheck/explorer)
+- [AllSides — Notícias equilibradas](https://www.allsides.com/unbiased-balanced-news): EN: AllSides — Balanced news
+- [Ground News](https://ground.news)
+- [Agência Lupa](https://www.agencialupa.org)
+- [Nexo Jornal — Gráficos](https://www.nexojornal.com.br/grafico): EN: Nexo Jornal — Charts
+- [Spurious Correlations](https://www.tylervigen.com/spurious-correlations)
+- [FiveThirtyEight](https://fivethirtyeight.com) 🪦
+
+## Aprender estatística
+
+- [Khan Academy — Estatística e probabilidade](https://pt.khanacademy.org/math/statistics-probability) ★: EN: Khan Academy — Statistics & Probability
+- [Seeing Theory (Brown University)](https://seeing-theory.brown.edu) ★
+- [OpenIntro Statistics](https://www.openintro.org/book/os/)
+- [OpenStax — Introductory Statistics](https://openstax.org/details/books/introductory-statistics-2e)
+- [StatQuest](https://statquest.org)
+- [Kaggle Learn](https://www.kaggle.com/learn)
+- [Calling Bullshit](https://callingbullshit.org)
+- [Think Stats](https://allendowney.github.io/ThinkStats/)
+- [R for Data Science](https://r4ds.hadley.nz)
+- [Coursera — Ciência de dados](https://www.coursera.org/browse/data-science): EN: Coursera — Data Science
+- [DataCamp](https://www.datacamp.com)
+- [Statistics How To](https://www.statisticshowto.com)
+- [Econometria Fácil](https://econometriafacil.com.br): EN: Econometria Fácil (Easy Econometrics)
+- [An Introduction to Statistical Learning](https://www.statlearning.com/)
+
+## Livros essenciais
+
+- [Factfulness — Hans Rosling](https://openlibrary.org/search?q=Factfulness+Rosling) ★
+- [Como mentir com estatística — Darrell Huff](https://openlibrary.org/search?q=How+to+Lie+with+Statistics) ★: EN: How to Lie with Statistics — Darrell Huff
+- [A arte da estatística — David Spiegelhalter](https://openlibrary.org/search?q=The+Art+of+Statistics+Spiegelhalter): EN: The Art of Statistics — David Spiegelhalter
+- [O sinal e o ruído — Nate Silver](https://openlibrary.org/search?q=The+Signal+and+the+Noise): EN: The Signal and the Noise — Nate Silver
+- [Como os gráficos mentem — Alberto Cairo](https://openlibrary.org/search?q=How+Charts+Lie+Cairo): EN: How Charts Lie — Alberto Cairo
+- [The Visual Display of Quantitative Information — Edward Tufte](https://openlibrary.org/search?q=The+Visual+Display+of+Quantitative+Information)
+- [Not the End of the World — Hannah Ritchie](https://openlibrary.org/search?q=Not+the+End+of+the+World+Ritchie)
+- [Calling Bullshit — Bergstrom & West](https://openlibrary.org/search?q=Calling+Bullshit+Bergstrom)
+- [O detetive de dados — Tim Harford](https://openlibrary.org/search?q=The+Data+Detective+Harford): EN: The Data Detective — Tim Harford
+- [Algoritmos de destruição em massa — Cathy O'Neil](https://openlibrary.org/search?q=Weapons+of+Math+Destruction): EN: Weapons of Math Destruction — Cathy O'Neil
+- [Mulheres invisíveis — Caroline Criado Perez](https://openlibrary.org/search?q=Invisible+Women+Criado+Perez): EN: Invisible Women — Caroline Criado Perez
+- [Storytelling com dados — Cole Nussbaumer Knaflic](https://openlibrary.org/search?q=Storytelling+with+Data+Knaflic): EN: Storytelling with Data — Cole Nussbaumer Knaflic
+- [Estatística nua e crua — Charles Wheelan](https://openlibrary.org/search?q=Naked+Statistics+Wheelan): EN: Naked Statistics — Charles Wheelan
+- [O capital no século XXI — Thomas Piketty](https://openlibrary.org/search?q=Capital+in+the+Twenty-First+Century): EN: Capital in the Twenty-First Century — Thomas Piketty
+
+## Podcasts e canais
+
+- [More or Less (BBC)](https://www.bbc.co.uk/programmes/p02nrss1) ★
+- [Data Stories](https://datastori.es)
+- [Freakonomics Radio](https://freakonomics.com/series/freakonomics-radio/)
+- [Storytelling with Data (podcast)](https://www.storytellingwithdata.com/podcast)
+- [PolicyViz](https://policyviz.com/podcast/)
+- [StatQuest (YouTube)](https://www.youtube.com/@statquest)
+- [3Blue1Brown (YouTube)](https://www.youtube.com/@3blue1brown)
+- [Gapminder (YouTube)](https://www.youtube.com/@Gapminder)
+
+## Figuras-chave
+
+- [Hans Rosling](https://pt.wikipedia.org/wiki/Hans_Rosling) ★
+- [Florence Nightingale](https://pt.wikipedia.org/wiki/Florence_Nightingale) ★
+- [Max Roser](https://en.wikipedia.org/wiki/Max_Roser)
+- [Hannah Ritchie](https://en.wikipedia.org/wiki/Hannah_Ritchie)
+- [John Snow](https://pt.wikipedia.org/wiki/John_Snow)
+- [William Playfair](https://pt.wikipedia.org/wiki/William_Playfair)
+- [Charles Joseph Minard](https://pt.wikipedia.org/wiki/Charles_Joseph_Minard)
+- [W. E. B. Du Bois](https://pt.wikipedia.org/wiki/W._E._B._Du_Bois)
+- [Edward Tufte](https://pt.wikipedia.org/wiki/Edward_Tufte)
+- [John Tukey](https://pt.wikipedia.org/wiki/John_Tukey)
+- [Ronald Fisher](https://pt.wikipedia.org/wiki/Ronald_Fisher)
+- [Karl Pearson](https://pt.wikipedia.org/wiki/Karl_Pearson)
+- [Thomas Bayes](https://pt.wikipedia.org/wiki/Thomas_Bayes)
+- [Carl Friedrich Gauss](https://pt.wikipedia.org/wiki/Carl_Friedrich_Gauss)
+- [Simon Kuznets](https://pt.wikipedia.org/wiki/Simon_Kuznets)
+- [Mahbub ul Haq](https://pt.wikipedia.org/wiki/Mahbub_ul_Haq)
+- [Amartya Sen](https://pt.wikipedia.org/wiki/Amartya_Sen)
+- [Angus Maddison](https://pt.wikipedia.org/wiki/Angus_Maddison)
+- [Angus Deaton](https://pt.wikipedia.org/wiki/Angus_Deaton)
+- [Thomas Piketty](https://pt.wikipedia.org/wiki/Thomas_Piketty)
+- [Esther Duflo](https://pt.wikipedia.org/wiki/Esther_Duflo)
+- [David Spiegelhalter](https://en.wikipedia.org/wiki/David_Spiegelhalter)
+- [Nate Silver](https://pt.wikipedia.org/wiki/Nate_Silver)
+- [Alberto Cairo](https://en.wikipedia.org/wiki/Alberto_Cairo)
+
+## Conceitos de estatística
+
+- [Estatística](https://pt.wikipedia.org/wiki/Estat%C3%ADstica) ★: EN: Statistics
+- [Média](https://pt.wikipedia.org/wiki/M%C3%A9dia): EN: Mean
+- [Mediana](https://pt.wikipedia.org/wiki/Mediana_(estat%C3%ADstica)): EN: Median
+- [Moda](https://pt.wikipedia.org/wiki/Moda_(estat%C3%ADstica)): EN: Mode
+- [Desvio padrão](https://pt.wikipedia.org/wiki/Desvio_padr%C3%A3o): EN: Standard deviation
+- [Variância](https://pt.wikipedia.org/wiki/Vari%C3%A2ncia): EN: Variance
+- [Percentil](https://pt.wikipedia.org/wiki/Percentil): EN: Percentile
+- [Distribuição normal](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_normal): EN: Normal distribution
+- [Correlação](https://pt.wikipedia.org/wiki/Correla%C3%A7%C3%A3o): EN: Correlation
+- [Correlação não implica causalidade](https://pt.wikipedia.org/wiki/Correla%C3%A7%C3%A3o_n%C3%A3o_implica_causalidade): EN: Correlation does not imply causation
+- [Regressão linear](https://pt.wikipedia.org/wiki/Regress%C3%A3o_linear): EN: Linear regression
+- [Amostragem](https://pt.wikipedia.org/wiki/Amostragem): EN: Sampling
+- [Margem de erro](https://pt.wikipedia.org/wiki/Margem_de_erro): EN: Margin of error
+- [Intervalo de confiança](https://pt.wikipedia.org/wiki/Intervalo_de_confian%C3%A7a): EN: Confidence interval
+- [Valor-p](https://pt.wikipedia.org/wiki/Valor-p): EN: p-value
+- [Significância estatística](https://pt.wikipedia.org/wiki/Signific%C3%A2ncia_estat%C3%ADstica): EN: Statistical significance
+- [Teste de hipóteses](https://pt.wikipedia.org/wiki/Teste_de_hip%C3%B3teses): EN: Statistical hypothesis test
+- [Lei dos grandes números](https://pt.wikipedia.org/wiki/Lei_dos_grandes_n%C3%BAmeros): EN: Law of large numbers
+- [Teorema central do limite](https://pt.wikipedia.org/wiki/Teorema_central_do_limite): EN: Central limit theorem
+- [Inferência bayesiana](https://pt.wikipedia.org/wiki/Infer%C3%AAncia_bayesiana): EN: Bayesian inference
+- [Outlier](https://pt.wikipedia.org/wiki/Outlier)
+- [Escala logarítmica](https://pt.wikipedia.org/wiki/Escala_logar%C3%ADtmica): EN: Logarithmic scale
+- [Crescimento exponencial](https://pt.wikipedia.org/wiki/Crescimento_exponencial): EN: Exponential growth
+- [Estudo clínico randomizado](https://pt.wikipedia.org/wiki/Estudo_cl%C3%ADnico_randomizado_controlado): EN: Randomized controlled trial
+- [Metanálise](https://pt.wikipedia.org/wiki/Metan%C3%A1lise): EN: Meta-analysis
+- [Risco relativo](https://pt.wikipedia.org/wiki/Risco_relativo): EN: Relative risk
+- [Per capita](https://pt.wikipedia.org/wiki/Per_capita)
+- [Número-índice](https://en.wikipedia.org/wiki/Index_(statistics)): EN: Index number
+- [Dados abertos](https://pt.wikipedia.org/wiki/Dados_abertos): EN: Open data
+- [Metadados](https://pt.wikipedia.org/wiki/Metadados): EN: Metadata
+- [Visualização de dados](https://pt.wikipedia.org/wiki/Visualiza%C3%A7%C3%A3o_de_dados): EN: Data visualization
+- [Big data](https://pt.wikipedia.org/wiki/Big_data)
+- [Ciência de dados](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_de_dados): EN: Data science
+- [Prática baseada em evidências](https://pt.wikipedia.org/wiki/Pr%C3%A1tica_baseada_em_evid%C3%AAncias) ★: EN: Evidence-based practice
+- [Medicina baseada em evidências](https://pt.wikipedia.org/wiki/Medicina_baseada_em_evid%C3%AAncias): EN: Evidence-based medicine
+- [Políticas baseadas em evidências](https://en.wikipedia.org/wiki/Evidence-based_policy): EN: Evidence-based policy
+- [Hierarquia de evidências](https://en.wikipedia.org/wiki/Hierarchy_of_evidence): EN: Hierarchy of evidence
+- [Pensamento crítico](https://pt.wikipedia.org/wiki/Pensamento_cr%C3%ADtico) ★: EN: Critical thinking
+- [Ceticismo científico](https://pt.wikipedia.org/wiki/Ceticismo_cient%C3%ADfico): EN: Scientific skepticism
+
+## Vieses e armadilhas com dados
+
+- [Viés de sobrevivência](https://pt.wikipedia.org/wiki/Vi%C3%A9s_de_sobreviv%C3%AAncia) ★: EN: Survivorship bias
+- [Paradoxo de Simpson](https://pt.wikipedia.org/wiki/Paradoxo_de_Simpson) ★: EN: Simpson's paradox
+- [Viés de seleção](https://pt.wikipedia.org/wiki/Vi%C3%A9s_de_sele%C3%A7%C3%A3o): EN: Selection bias
+- [Amostra enviesada](https://pt.wikipedia.org/wiki/Amostra_enviesada): EN: Sampling bias
+- [Regressão à média](https://pt.wikipedia.org/wiki/Regress%C3%A3o_%C3%A0_m%C3%A9dia): EN: Regression toward the mean
+- [Falácia da taxa-base](https://pt.wikipedia.org/wiki/Fal%C3%A1cia_da_taxa-base): EN: Base rate fallacy
+- [P-hacking (dragagem de dados)](https://en.wikipedia.org/wiki/Data_dredging): EN: Data dredging (p-hacking)
+- [Crise de replicação](https://pt.wikipedia.org/wiki/Crise_de_replica%C3%A7%C3%A3o): EN: Replication crisis
+- [Viés de publicação](https://pt.wikipedia.org/wiki/Vi%C3%A9s_de_publica%C3%A7%C3%A3o): EN: Publication bias
+- [Variável de confusão](https://pt.wikipedia.org/wiki/Vari%C3%A1vel_de_confus%C3%A3o): EN: Confounding
+- [Falácia ecológica](https://en.wikipedia.org/wiki/Ecological_fallacy): EN: Ecological fallacy
+- [Lei de Goodhart](https://pt.wikipedia.org/wiki/Lei_de_Goodhart): EN: Goodhart's law
+- [Falácia do apostador](https://pt.wikipedia.org/wiki/Fal%C3%A1cia_do_apostador): EN: Gambler's fallacy
+- [Gráfico enganoso](https://pt.wikipedia.org/wiki/Gr%C3%A1fico_enganoso): EN: Misleading graph
+- [Cherry picking (evidência suprimida)](https://pt.wikipedia.org/wiki/Evid%C3%AAncia_suprimida): EN: Cherry picking
+- [Viés cognitivo](https://pt.wikipedia.org/wiki/Vi%C3%A9s_cognitivo) ★: EN: Cognitive bias
+- [Viés de confirmação](https://pt.wikipedia.org/wiki/Vi%C3%A9s_de_confirma%C3%A7%C3%A3o): EN: Confirmation bias
+- [Efeito de ancoragem](https://pt.wikipedia.org/wiki/Efeito_de_ancoragem): EN: Anchoring effect
+- [Heurística de disponibilidade](https://pt.wikipedia.org/wiki/Heur%C3%ADstica_de_disponibilidade): EN: Availability heuristic
+- [Negligência da probabilidade](https://en.wikipedia.org/wiki/Neglect_of_probability): EN: Neglect of probability
+- [Lista de vieses cognitivos](https://pt.wikipedia.org/wiki/Lista_de_vieses_cognitivos): EN: List of cognitive biases
+
+## Conceitos de economia e desenvolvimento
+
+- [Produto Interno Bruto (PIB)](https://pt.wikipedia.org/wiki/Produto_interno_bruto) ★: EN: Gross domestic product (GDP)
+- [PIB per capita](https://en.wikipedia.org/wiki/GDP_per_capita): EN: GDP per capita
+- [Paridade do poder de compra (PPC)](https://pt.wikipedia.org/wiki/Paridade_do_poder_de_compra): EN: Purchasing power parity (PPP)
+- [Renda Nacional Bruta (RNB)](https://pt.wikipedia.org/wiki/Rendimento_nacional_bruto): EN: Gross national income (GNI)
+- [Inflação](https://pt.wikipedia.org/wiki/Infla%C3%A7%C3%A3o): EN: Inflation
+- [Índice de preços ao consumidor](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_pre%C3%A7os_ao_consumidor): EN: Consumer price index
+- [Taxa de desemprego](https://pt.wikipedia.org/wiki/Desemprego): EN: Unemployment
+- [Coeficiente de Gini](https://pt.wikipedia.org/wiki/Coeficiente_de_Gini): EN: Gini coefficient
+- [Linha de pobreza](https://pt.wikipedia.org/wiki/Linha_de_pobreza): EN: Poverty threshold
+- [Pobreza extrema](https://pt.wikipedia.org/wiki/Pobreza_extrema): EN: Extreme poverty
+- [Índice de Desenvolvimento Humano](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_Desenvolvimento_Humano): EN: Human Development Index
+- [Expectativa de vida](https://pt.wikipedia.org/wiki/Esperan%C3%A7a_de_vida): EN: Life expectancy
+- [Mortalidade infantil](https://pt.wikipedia.org/wiki/Mortalidade_infantil): EN: Infant mortality
+- [Taxa de fecundidade](https://pt.wikipedia.org/wiki/Taxa_de_fecundidade): EN: Total fertility rate
+- [Transição demográfica](https://pt.wikipedia.org/wiki/Transi%C3%A7%C3%A3o_demogr%C3%A1fica): EN: Demographic transition
+- [Dívida pública](https://pt.wikipedia.org/wiki/D%C3%ADvida_p%C3%BAblica): EN: Government debt
+- [Balança comercial](https://pt.wikipedia.org/wiki/Balan%C3%A7a_comercial): EN: Balance of trade
+- [Objetivos de Desenvolvimento Sustentável](https://pt.wikipedia.org/wiki/Objetivos_de_Desenvolvimento_Sustent%C3%A1vel): EN: Sustainable Development Goals
+- [Pegada ecológica](https://pt.wikipedia.org/wiki/Pegada_ecol%C3%B3gica): EN: Ecological footprint
+- [Curva de Kuznets](https://en.wikipedia.org/wiki/Kuznets_curve): EN: Kuznets curve
+- [Censo demográfico](https://pt.wikipedia.org/wiki/Censo_demogr%C3%A1fico): EN: Census

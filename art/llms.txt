@@ -1,0 +1,584 @@
+# A Biblioteca de Arte
+
+> Catálogo pesquisável de arte: conceitos, técnicas, materiais, movimentos artísticos, artistas, curadores, críticos, influenciadores, grupos, museus, bienais, redes sociais, cursos e livros.
+
+Biblioteca temática da BiblioVerse (The Art Library), com curadoria humana. Página: https://biblioverse.org/art/ · 395 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Conceitos fundamentais
+
+### Arte e sociedade
+
+- [Arte](https://en.wikipedia.org/wiki/Art) ★
+- [História da arte](https://en.wikipedia.org/wiki/Art_history) ★
+- [Belas-artes](https://en.wikipedia.org/wiki/Fine_art)
+- [Artesanato](https://en.wikipedia.org/wiki/Handicraft) ★
+- [Artes decorativas](https://en.wikipedia.org/wiki/Decorative_arts)
+- [Arte popular](https://en.wikipedia.org/wiki/Folk_art)
+- [Arte moderna](https://en.wikipedia.org/wiki/Modern_art) ★
+- [Arte contemporânea](https://en.wikipedia.org/wiki/Contemporary_art) ★
+- [Arte conceitual](https://en.wikipedia.org/wiki/Conceptual_art)
+- [Vanguarda](https://en.wikipedia.org/wiki/Avant-garde)
+- [Estética](https://en.wikipedia.org/wiki/Aesthetics)
+- [Filosofia da Arte (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/art-definition/) ★
+- [Filosofia da Estética (Internet Encyclopedia of Philosophy)](https://iep.utm.edu/aesthetics/)
+- [Crítica de arte](https://en.wikipedia.org/wiki/Art_criticism)
+- [Curadoria](https://en.wikipedia.org/wiki/Curator)
+- [Mecenato](https://en.wikipedia.org/wiki/Patronage)
+- [Mercado de arte](https://en.wikipedia.org/wiki/Art_market)
+- [Arte pública](https://en.wikipedia.org/wiki/Public_art)
+- [Iconografia](https://en.wikipedia.org/wiki/Iconography)
+- [Obra-prima](https://en.wikipedia.org/wiki/Masterpiece)
+- [Proveniência](https://en.wikipedia.org/wiki/Provenance)
+- [Falsificação de arte](https://en.wikipedia.org/wiki/Art_forgery)
+- [Conservação e restauro](https://en.wikipedia.org/wiki/Conservation_and_restoration_of_cultural_property)
+
+### Elementos e linguagem visual
+
+- [Teoria das cores](https://en.wikipedia.org/wiki/Color_theory) ★
+- [Círculo cromático](https://en.wikipedia.org/wiki/Color_wheel)
+- [Cores complementares](https://en.wikipedia.org/wiki/Complementary_colors)
+- [Composição](https://en.wikipedia.org/wiki/Composition_(visual_arts)) ★
+- [Perspectiva](https://en.wikipedia.org/wiki/Perspective_(graphical)) ★
+- [Ponto de fuga](https://en.wikipedia.org/wiki/Vanishing_point)
+- [Escorço](https://en.wikipedia.org/wiki/Foreshortening)
+- [Proporção áurea](https://en.wikipedia.org/wiki/Golden_ratio)
+- [Claro-escuro (chiaroscuro)](https://en.wikipedia.org/wiki/Chiaroscuro)
+- [Sfumato](https://en.wikipedia.org/wiki/Sfumato)
+- [Tenebrismo](https://en.wikipedia.org/wiki/Tenebrism)
+- [Textura](https://en.wikipedia.org/wiki/Texture_(visual_arts))
+- [Elementos da arte](https://en.wikipedia.org/wiki/Elements_of_art) ★
+- [Forma](https://en.wikipedia.org/wiki/Shape)
+- [Espaço negativo](https://en.wikipedia.org/wiki/Negative_space)
+
+## Técnicas
+
+### Pintura
+
+- [Pintura](https://en.wikipedia.org/wiki/Painting) ★
+- [Pintura a óleo](https://en.wikipedia.org/wiki/Oil_painting) ★
+- [Aquarela](https://en.wikipedia.org/wiki/Watercolor_painting) ★
+- [Pintura acrílica](https://en.wikipedia.org/wiki/Acrylic_paint)
+- [Guache](https://en.wikipedia.org/wiki/Gouache)
+- [Têmpera](https://en.wikipedia.org/wiki/Tempera)
+- [Afresco](https://en.wikipedia.org/wiki/Fresco) ★
+- [Encáustica](https://en.wikipedia.org/wiki/Encaustic_painting)
+- [Pastel](https://en.wikipedia.org/wiki/Pastel)
+- [Impasto](https://en.wikipedia.org/wiki/Impasto)
+- [Velatura (glazing)](https://en.wikipedia.org/wiki/Glaze_(painting_technique))
+- [Grisaille](https://en.wikipedia.org/wiki/Grisaille)
+- [Trompe-l'œil](https://en.wikipedia.org/wiki/Trompe-l%27%C5%93il)
+- [Pintura em nanquim](https://en.wikipedia.org/wiki/Ink_wash_painting)
+
+### Desenho, gravura e caligrafia
+
+- [Desenho](https://en.wikipedia.org/wiki/Drawing) ★
+- [Esboço](https://en.wikipedia.org/wiki/Sketch_(drawing))
+- [Desenho de figura humana](https://en.wikipedia.org/wiki/Figure_drawing)
+- [Carvão](https://en.wikipedia.org/wiki/Charcoal_(art))
+- [Gravura](https://en.wikipedia.org/wiki/Printmaking) ★
+- [Xilogravura](https://en.wikipedia.org/wiki/Woodcut)
+- [Água-forte](https://en.wikipedia.org/wiki/Etching)
+- [Litografia](https://en.wikipedia.org/wiki/Lithography)
+- [Serigrafia](https://en.wikipedia.org/wiki/Screen_printing)
+- [Linoleogravura](https://en.wikipedia.org/wiki/Linocut)
+- [Monotipia](https://en.wikipedia.org/wiki/Monotyping)
+- [Caligrafia](https://en.wikipedia.org/wiki/Calligraphy)
+
+### Escultura e arte tridimensional
+
+- [Escultura](https://en.wikipedia.org/wiki/Sculpture) ★
+- [Escultura em bronze](https://en.wikipedia.org/wiki/Bronze_sculpture)
+- [Escultura em madeira](https://en.wikipedia.org/wiki/Wood_carving)
+- [Escultura em mármore](https://en.wikipedia.org/wiki/Marble_sculpture)
+- [Cerâmica](https://en.wikipedia.org/wiki/Ceramic_art) ★
+- [Instalação](https://en.wikipedia.org/wiki/Installation_art) ★
+- [Assemblage](https://en.wikipedia.org/wiki/Assemblage_(art))
+- [Móbile](https://en.wikipedia.org/wiki/Mobile_(sculpture))
+- [Land art](https://en.wikipedia.org/wiki/Land_art)
+
+### Outras linguagens
+
+- [Colagem](https://en.wikipedia.org/wiki/Collage)
+- [Mosaico](https://en.wikipedia.org/wiki/Mosaic)
+- [Vitral](https://en.wikipedia.org/wiki/Stained_glass)
+- [Tapeçaria](https://en.wikipedia.org/wiki/Tapestry)
+- [Arte têxtil](https://en.wikipedia.org/wiki/Textile_arts)
+- [Mural](https://en.wikipedia.org/wiki/Mural)
+- [Grafite](https://en.wikipedia.org/wiki/Graffiti) ★
+- [Arte de rua](https://en.wikipedia.org/wiki/Street_art) ★
+- [Performance](https://en.wikipedia.org/wiki/Performance_art)
+- [Videoarte](https://en.wikipedia.org/wiki/Video_art)
+- [Arte digital](https://en.wikipedia.org/wiki/Digital_art) ★
+- [Arte generativa](https://en.wikipedia.org/wiki/Generative_art)
+- [Pixel art](https://en.wikipedia.org/wiki/Pixel_art)
+- [Ready-made](https://en.wikipedia.org/wiki/Readymades_of_Marcel_Duchamp)
+
+### Artesanato
+
+- [Artesanato](https://en.wikipedia.org/wiki/Handicraft) ★
+- [Movimento Arts and Crafts](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement)
+- [Marcenaria](https://en.wikipedia.org/wiki/Woodworking)
+- [Tecelagem](https://en.wikipedia.org/wiki/Weaving)
+- [Bordado](https://en.wikipedia.org/wiki/Embroidery)
+- [Crochê](https://en.wikipedia.org/wiki/Crochet)
+- [Tricô](https://en.wikipedia.org/wiki/Knitting)
+- [Macramê](https://en.wikipedia.org/wiki/Macram%C3%A9)
+- [Cestaria](https://en.wikipedia.org/wiki/Basket_weaving)
+- [Origami](https://en.wikipedia.org/wiki/Origami)
+- [Renda de bilros](https://pt.wikipedia.org/wiki/Renda_de_bilros)
+- [Arte marajoara](https://pt.wikipedia.org/wiki/Arte_marajoara)
+- [Mestre Vitalino](https://pt.wikipedia.org/wiki/Mestre_Vitalino) 🪦
+- [Etsy](https://www.etsy.com/)
+
+## Materiais
+
+### Pigmentos e tintas
+
+- [Pigmento](https://en.wikipedia.org/wiki/Pigment) ★
+- [Tinta a óleo](https://en.wikipedia.org/wiki/Oil_paint)
+- [Azul ultramar](https://en.wikipedia.org/wiki/Ultramarine)
+- [Azul da Prússia](https://en.wikipedia.org/wiki/Prussian_blue)
+- [Vermelhão](https://en.wikipedia.org/wiki/Vermilion)
+- [Pigmentos de cádmio](https://en.wikipedia.org/wiki/Cadmium_pigments)
+- [Branco de chumbo](https://en.wikipedia.org/wiki/Lead_white)
+- [Ocre](https://en.wikipedia.org/wiki/Ochre)
+- [Verniz](https://en.wikipedia.org/wiki/Varnish)
+
+### Suportes e ferramentas
+
+- [Tela](https://en.wikipedia.org/wiki/Canvas) ★
+- [Gesso (preparação)](https://en.wikipedia.org/wiki/Gesso)
+- [Pintura sobre painel](https://en.wikipedia.org/wiki/Panel_painting)
+- [Papel](https://en.wikipedia.org/wiki/Paper)
+- [Pincel](https://en.wikipedia.org/wiki/Paintbrush) ★
+- [Espátula](https://en.wikipedia.org/wiki/Palette_knife)
+- [Paleta](https://en.wikipedia.org/wiki/Palette_(painting))
+- [Cavalete](https://en.wikipedia.org/wiki/Easel)
+
+### Marcas de materiais artísticos
+
+- [Winsor & Newton](https://www.winsornewton.com/) ★
+- [Faber-Castell](https://www.faber-castell.com/) ★
+- [Schmincke](https://www.schmincke.de/)
+- [Daniel Smith](https://danielsmith.com/)
+- [Golden Artist Colors](https://goldenartistcolors.com/)
+- [Liquitex](https://www.liquitex.com/)
+- [Sennelier](https://www.sennelier.fr/)
+- [Caran d'Ache](https://www.carandache.com/)
+- [Canson](https://www.canson.com/)
+- [Copic](https://copic.jp/en/)
+- [Posca](https://www.posca.com/)
+- [Kremer Pigmente](https://www.kremer-pigmente.com/)
+- [Acrilex](https://www.acrilex.com.br/)
+
+### Lojas de materiais
+
+- [Blick Art Materials](https://www.dickblick.com/) ★
+- [Jackson's Art Supplies](https://www.jacksonsart.com/)
+- [Cass Art](https://www.cassart.co.uk/)
+
+## Movimentos artísticos
+
+### Antiguidade e Idade Média
+
+- [Arte rupestre](https://en.wikipedia.org/wiki/Cave_painting) ★
+- [Arte do Antigo Egito](https://en.wikipedia.org/wiki/Art_of_ancient_Egypt)
+- [Arte grega antiga](https://en.wikipedia.org/wiki/Ancient_Greek_art)
+- [Arte romana](https://en.wikipedia.org/wiki/Roman_art)
+- [Arte bizantina](https://en.wikipedia.org/wiki/Byzantine_art)
+- [Arte islâmica](https://en.wikipedia.org/wiki/Islamic_art)
+- [Arte românica](https://en.wikipedia.org/wiki/Romanesque_art)
+- [Arte gótica](https://en.wikipedia.org/wiki/Gothic_art)
+- [Iluminura](https://en.wikipedia.org/wiki/Illuminated_manuscript)
+
+### Do Renascimento ao século XIX
+
+- [Renascimento](https://en.wikipedia.org/wiki/Renaissance_art) ★
+- [Maneirismo](https://en.wikipedia.org/wiki/Mannerism)
+- [Barroco](https://en.wikipedia.org/wiki/Baroque_painting) ★
+- [Rococó](https://en.wikipedia.org/wiki/Rococo)
+- [Neoclassicismo](https://en.wikipedia.org/wiki/Neoclassicism)
+- [Romantismo](https://en.wikipedia.org/wiki/Romanticism)
+- [Realismo](https://en.wikipedia.org/wiki/Realism_(art_movement))
+- [Irmandade Pré-Rafaelita](https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood)
+- [Ukiyo-e](https://en.wikipedia.org/wiki/Ukiyo-e)
+- [Impressionismo](https://en.wikipedia.org/wiki/Impressionism) ★
+- [Pós-impressionismo](https://en.wikipedia.org/wiki/Post-Impressionism)
+- [Pontilhismo](https://en.wikipedia.org/wiki/Pointillism)
+- [Simbolismo](https://en.wikipedia.org/wiki/Symbolism_(movement))
+- [Art Nouveau](https://en.wikipedia.org/wiki/Art_Nouveau)
+
+### Modernismo
+
+- [Fauvismo](https://en.wikipedia.org/wiki/Fauvism)
+- [Expressionismo](https://en.wikipedia.org/wiki/Expressionism)
+- [Cubismo](https://en.wikipedia.org/wiki/Cubism) ★
+- [Futurismo](https://en.wikipedia.org/wiki/Futurism)
+- [Dadaísmo](https://en.wikipedia.org/wiki/Dada)
+- [Surrealismo](https://en.wikipedia.org/wiki/Surrealism) ★
+- [Construtivismo](https://en.wikipedia.org/wiki/Constructivism_(art))
+- [Suprematismo](https://en.wikipedia.org/wiki/Suprematism)
+- [De Stijl](https://en.wikipedia.org/wiki/De_Stijl)
+- [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)
+- [Art Déco](https://en.wikipedia.org/wiki/Art_Deco)
+- [Muralismo mexicano](https://en.wikipedia.org/wiki/Mexican_muralism)
+- [Expressionismo abstrato](https://en.wikipedia.org/wiki/Abstract_expressionism) ★
+- [Modernismo brasileiro](https://pt.wikipedia.org/wiki/Modernismo_no_Brasil) ★
+- [Semana de Arte Moderna (1922)](https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna)
+- [Concretismo](https://pt.wikipedia.org/wiki/Arte_concreta)
+- [Neoconcretismo](https://pt.wikipedia.org/wiki/Neoconcretismo)
+
+### Arte contemporânea
+
+- [Pop art](https://en.wikipedia.org/wiki/Pop_art) ★
+- [Minimalismo](https://en.wikipedia.org/wiki/Minimalism)
+- [Op art](https://en.wikipedia.org/wiki/Op_art)
+- [Fluxus](https://en.wikipedia.org/wiki/Fluxus)
+- [Arte povera](https://en.wikipedia.org/wiki/Arte_Povera)
+- [Neoexpressionismo](https://en.wikipedia.org/wiki/Neo-expressionism)
+- [Hiper-realismo](https://en.wikipedia.org/wiki/Hyperrealism_(visual_arts))
+- [Young British Artists](https://en.wikipedia.org/wiki/Young_British_Artists)
+- [Superflat](https://en.wikipedia.org/wiki/Superflat)
+- [Tropicália](https://en.wikipedia.org/wiki/Tropic%C3%A1lia)
+
+## Artistas
+
+### Renascimento e Maneirismo
+
+- [Leonardo da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci) ★ 🪦
+- [Michelangelo](https://en.wikipedia.org/wiki/Michelangelo) ★ 🪦
+- [Rafael](https://en.wikipedia.org/wiki/Raphael) 🪦
+- [Sandro Botticelli](https://en.wikipedia.org/wiki/Sandro_Botticelli) 🪦
+- [Jan van Eyck](https://en.wikipedia.org/wiki/Jan_van_Eyck) 🪦
+- [Hieronymus Bosch](https://en.wikipedia.org/wiki/Hieronymus_Bosch) 🪦
+- [Albrecht Dürer](https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer) 🪦
+- [Ticiano](https://en.wikipedia.org/wiki/Titian) 🪦
+- [El Greco](https://en.wikipedia.org/wiki/El_Greco) 🪦
+
+### Barroco
+
+- [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio) ★ 🪦
+- [Artemisia Gentileschi](https://en.wikipedia.org/wiki/Artemisia_Gentileschi) 🪦
+- [Peter Paul Rubens](https://en.wikipedia.org/wiki/Peter_Paul_Rubens) 🪦
+- [Rembrandt](https://en.wikipedia.org/wiki/Rembrandt) ★ 🪦
+- [Johannes Vermeer](https://en.wikipedia.org/wiki/Johannes_Vermeer) 🪦
+- [Diego Velázquez](https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez) 🪦
+
+### Ukiyo-e
+
+- [Katsushika Hokusai](https://en.wikipedia.org/wiki/Hokusai) 🪦
+- [Utagawa Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) 🪦
+- [Kitagawa Utamaro](https://en.wikipedia.org/wiki/Utamaro) 🪦
+
+### Romantismo e Realismo
+
+- [Francisco de Goya](https://en.wikipedia.org/wiki/Francisco_Goya) 🪦
+- [J. M. W. Turner](https://en.wikipedia.org/wiki/J._M._W._Turner) 🪦
+- [Eugène Delacroix](https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix) 🪦
+- [Gustave Courbet](https://en.wikipedia.org/wiki/Gustave_Courbet) 🪦
+
+### Impressionismo
+
+- [Édouard Manet](https://en.wikipedia.org/wiki/%C3%89douard_Manet) 🪦
+- [Claude Monet](https://en.wikipedia.org/wiki/Claude_Monet) ★ 🪦
+- [Edgar Degas](https://en.wikipedia.org/wiki/Edgar_Degas) 🪦
+- [Pierre-Auguste Renoir](https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir) 🪦
+- [Berthe Morisot](https://en.wikipedia.org/wiki/Berthe_Morisot) 🪦
+- [Auguste Rodin](https://en.wikipedia.org/wiki/Auguste_Rodin) 🪦
+
+### Pós-impressionismo
+
+- [Paul Cézanne](https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne) 🪦
+- [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh) ★ 🪦
+- [Paul Gauguin](https://en.wikipedia.org/wiki/Paul_Gauguin) 🪦
+- [Georges Seurat](https://en.wikipedia.org/wiki/Georges_Seurat) 🪦
+
+### Simbolismo e Expressionismo
+
+- [Gustav Klimt](https://en.wikipedia.org/wiki/Gustav_Klimt) 🪦
+- [Edvard Munch](https://en.wikipedia.org/wiki/Edvard_Munch) 🪦
+- [Egon Schiele](https://en.wikipedia.org/wiki/Egon_Schiele) 🪦
+
+### Fauvismo e Cubismo
+
+- [Henri Matisse](https://en.wikipedia.org/wiki/Henri_Matisse) 🪦
+- [Pablo Picasso](https://en.wikipedia.org/wiki/Pablo_Picasso) ★ 🪦
+- [Georges Braque](https://en.wikipedia.org/wiki/Georges_Braque) 🪦
+
+### Abstração e Construtivismo
+
+- [Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky) 🪦
+- [Piet Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian) 🪦
+- [Kazimir Malevich](https://en.wikipedia.org/wiki/Kazimir_Malevich) 🪦
+
+### Dadaísmo e Surrealismo
+
+- [Marcel Duchamp](https://en.wikipedia.org/wiki/Marcel_Duchamp) ★ 🪦
+- [Salvador Dalí](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD) ★ 🪦
+- [René Magritte](https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte) 🪦
+
+### Muralismo mexicano
+
+- [Frida Kahlo](https://en.wikipedia.org/wiki/Frida_Kahlo) ★ 🪦
+- [Diego Rivera](https://en.wikipedia.org/wiki/Diego_Rivera) 🪦
+- [José Clemente Orozco](https://en.wikipedia.org/wiki/Jos%C3%A9_Clemente_Orozco) 🪦
+- [David Alfaro Siqueiros](https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros) 🪦
+
+### Modernismo americano
+
+- [Georgia O'Keeffe](https://en.wikipedia.org/wiki/Georgia_O%27Keeffe) 🪦
+- [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper) 🪦
+- [Norman Rockwell](https://en.wikipedia.org/wiki/Norman_Rockwell) 🪦
+- [Bob Ross](https://en.wikipedia.org/wiki/Bob_Ross) 🪦
+
+### Expressionismo abstrato
+
+- [Jackson Pollock](https://en.wikipedia.org/wiki/Jackson_Pollock) 🪦
+- [Mark Rothko](https://en.wikipedia.org/wiki/Mark_Rothko) 🪦
+- [Willem de Kooning](https://en.wikipedia.org/wiki/Willem_de_Kooning) 🪦
+
+### Pop art e neo-pop
+
+- [Andy Warhol](https://en.wikipedia.org/wiki/Andy_Warhol) ★ 🪦
+- [Roy Lichtenstein](https://en.wikipedia.org/wiki/Roy_Lichtenstein) 🪦
+- [David Hockney](https://en.wikipedia.org/wiki/David_Hockney)
+- [Jeff Koons](https://en.wikipedia.org/wiki/Jeff_Koons)
+- [Takashi Murakami](https://en.wikipedia.org/wiki/Takashi_Murakami)
+- [KAWS](https://en.wikipedia.org/wiki/Kaws)
+
+### Arte conceitual e performance
+
+- [Yves Klein](https://en.wikipedia.org/wiki/Yves_Klein) 🪦
+- [Joseph Beuys](https://en.wikipedia.org/wiki/Joseph_Beuys) 🪦
+- [Louise Bourgeois](https://en.wikipedia.org/wiki/Louise_Bourgeois) 🪦
+- [Marina Abramović](https://en.wikipedia.org/wiki/Marina_Abramovi%C4%87)
+- [Ai Weiwei](https://en.wikipedia.org/wiki/Ai_Weiwei)
+- [Damien Hirst](https://en.wikipedia.org/wiki/Damien_Hirst)
+
+### Arte de rua e grafite
+
+- [Jean-Michel Basquiat](https://en.wikipedia.org/wiki/Jean-Michel_Basquiat) 🪦
+- [Keith Haring](https://en.wikipedia.org/wiki/Keith_Haring) 🪦
+- [Shepard Fairey](https://en.wikipedia.org/wiki/Shepard_Fairey)
+- [JR](https://en.wikipedia.org/wiki/JR_(artist))
+
+### Arte crítica
+
+- [Banksy](https://en.wikipedia.org/wiki/Banksy) ★
+- [Paweł Kuczyński](https://en.wikipedia.org/wiki/Pawe%C5%82_Kuczy%C5%84ski) ★
+- [Luis Quiles](https://www.facebook.com/LuisQuilesArt)
+
+### Contemporâneos
+
+- [Yayoi Kusama](https://en.wikipedia.org/wiki/Yayoi_Kusama) ★
+- [Gerhard Richter](https://en.wikipedia.org/wiki/Gerhard_Richter)
+- [Kara Walker](https://en.wikipedia.org/wiki/Kara_Walker)
+- [Olafur Eliasson](https://en.wikipedia.org/wiki/Olafur_Eliasson)
+- [Anish Kapoor](https://en.wikipedia.org/wiki/Anish_Kapoor)
+- [Beeple](https://en.wikipedia.org/wiki/Beeple)
+
+## Artistas brasileiros
+
+### Barroco e Academicismo brasileiro
+
+- [Aleijadinho](https://pt.wikipedia.org/wiki/Aleijadinho) 🪦
+- [Pedro Américo](https://pt.wikipedia.org/wiki/Pedro_Am%C3%A9rico) 🪦
+- [Almeida Júnior](https://pt.wikipedia.org/wiki/Almeida_J%C3%BAnior) 🪦
+
+### Modernismo brasileiro
+
+- [Tarsila do Amaral](https://pt.wikipedia.org/wiki/Tarsila_do_Amaral) ★ 🪦
+- [Candido Portinari](https://pt.wikipedia.org/wiki/Candido_Portinari) ★ 🪦
+- [Anita Malfatti](https://pt.wikipedia.org/wiki/Anita_Malfatti) 🪦
+- [Di Cavalcanti](https://pt.wikipedia.org/wiki/Di_Cavalcanti) 🪦
+- [Lasar Segall](https://pt.wikipedia.org/wiki/Lasar_Segall) 🪦
+- [Alfredo Volpi](https://pt.wikipedia.org/wiki/Alfredo_Volpi) 🪦
+
+### Concretismo e Neoconcretismo
+
+- [Hélio Oiticica](https://pt.wikipedia.org/wiki/H%C3%A9lio_Oiticica) 🪦
+- [Lygia Clark](https://pt.wikipedia.org/wiki/Lygia_Clark) 🪦
+- [Lygia Pape](https://pt.wikipedia.org/wiki/Lygia_Pape) 🪦
+- [Abraham Palatnik](https://pt.wikipedia.org/wiki/Abraham_Palatnik) 🪦
+- [Tomie Ohtake](https://pt.wikipedia.org/wiki/Tomie_Ohtake) 🪦
+
+### Arte de rua brasileira
+
+- [Os Gêmeos](https://pt.wikipedia.org/wiki/Os_G%C3%AAmeos) ★
+- [Eduardo Kobra](https://pt.wikipedia.org/wiki/Eduardo_Kobra)
+
+### Contemporâneos brasileiros
+
+- [Arthur Bispo do Rosário](https://pt.wikipedia.org/wiki/Arthur_Bispo_do_Ros%C3%A1rio) 🪦
+- [Cildo Meireles](https://pt.wikipedia.org/wiki/Cildo_Meireles)
+- [Beatriz Milhazes](https://pt.wikipedia.org/wiki/Beatriz_Milhazes)
+- [Adriana Varejão](https://pt.wikipedia.org/wiki/Adriana_Varej%C3%A3o)
+- [Ernesto Neto](https://pt.wikipedia.org/wiki/Ernesto_Neto)
+- [Vik Muniz](https://pt.wikipedia.org/wiki/Vik_Muniz)
+- [Romero Britto](https://pt.wikipedia.org/wiki/Romero_Britto)
+
+## Curadores, críticos e divulgadores
+
+### Curadores
+
+- [Hans Ulrich Obrist](https://en.wikipedia.org/wiki/Hans_Ulrich_Obrist) ★
+- [Adriano Pedrosa](https://en.wikipedia.org/wiki/Adriano_Pedrosa) ★
+- [Carolyn Christov-Bakargiev](https://en.wikipedia.org/wiki/Carolyn_Christov-Bakargiev)
+- [Harald Szeemann](https://en.wikipedia.org/wiki/Harald_Szeemann) 🪦
+- [Okwui Enwezor](https://en.wikipedia.org/wiki/Okwui_Enwezor) 🪦
+- [Lucy Lippard](https://en.wikipedia.org/wiki/Lucy_R._Lippard)
+
+### Críticos e historiadores
+
+- [Giorgio Vasari](https://en.wikipedia.org/wiki/Giorgio_Vasari) 🪦
+- [Ernst Gombrich](https://en.wikipedia.org/wiki/Ernst_Gombrich) ★ 🪦
+- [John Berger](https://en.wikipedia.org/wiki/John_Berger) ★ 🪦
+- [Clement Greenberg](https://en.wikipedia.org/wiki/Clement_Greenberg) 🪦
+- [Arthur Danto](https://en.wikipedia.org/wiki/Arthur_Danto) 🪦
+- [Rosalind Krauss](https://en.wikipedia.org/wiki/Rosalind_E._Krauss)
+- [Jerry Saltz](https://en.wikipedia.org/wiki/Jerry_Saltz)
+- [Mário Pedrosa](https://pt.wikipedia.org/wiki/M%C3%A1rio_Pedrosa) 🪦
+- [Ferreira Gullar](https://pt.wikipedia.org/wiki/Ferreira_Gullar) 🪦
+
+### Influenciadores e canais
+
+- [Great Art Explained](https://www.youtube.com/@GreatArtExplained) ★
+- [The Art Assignment](https://www.youtube.com/@theartassignment) ★
+- [Proko](https://www.youtube.com/@ProkoTV)
+- [Marco Bucci](https://www.youtube.com/@marcobucci)
+- [Sinix Design](https://www.youtube.com/@SinixDesign)
+- [Jazza](https://www.youtube.com/@Jazza)
+- [Bob Ross](https://www.youtube.com/results?search_query=Bob+Ross+The+Joy+of+Painting)
+- [Jerry Saltz no Instagram](https://www.instagram.com/jerrysaltz/)
+
+## Grupos e coletivos
+
+### Grupos e coletivos
+
+- [Guerrilla Girls](https://en.wikipedia.org/wiki/Guerrilla_Girls) ★
+- [Die Brücke](https://en.wikipedia.org/wiki/Die_Br%C3%BCcke)
+- [Der Blaue Reiter](https://en.wikipedia.org/wiki/Der_Blaue_Reiter)
+- [Grupo Gutai](https://en.wikipedia.org/wiki/Gutai_group)
+- [Grupo dos Cinco](https://pt.wikipedia.org/wiki/Grupo_dos_Cinco_(Brasil))
+- [Grupo Santa Helena](https://pt.wikipedia.org/wiki/Grupo_Santa_Helena)
+- [Grupo Ruptura](https://pt.wikipedia.org/wiki/Grupo_Ruptura)
+
+## Museus, bienais e feiras
+
+### Museus no mundo
+
+- [Museu do Louvre](https://www.louvre.fr/) ★
+- [Museo del Prado](https://www.museodelprado.es/) ★
+- [The Metropolitan Museum of Art](https://www.metmuseum.org/) ★
+- [MoMA](https://www.moma.org/) ★
+- [Galleria degli Uffizi](https://www.uffizi.it/)
+- [Rijksmuseum](https://www.rijksmuseum.nl/)
+- [Van Gogh Museum](https://www.vangoghmuseum.nl/)
+- [Musée d'Orsay](https://www.musee-orsay.fr/)
+- [Tate Modern](https://www.tate.org.uk/visit/tate-modern)
+- [National Gallery (Londres)](https://www.nationalgallery.org.uk/)
+- [Museu Hermitage](https://www.hermitagemuseum.org/)
+- [Guggenheim](https://www.guggenheim.org/)
+- [Centre Pompidou](https://www.centrepompidou.fr/)
+- [Art Institute of Chicago](https://www.artic.edu/)
+
+### Museus no Brasil
+
+- [MASP](https://masp.com.br/) ★
+- [Pinacoteca de São Paulo](https://pinacoteca.org.br/) ★
+- [Inhotim](https://www.inhotim.org.br/) ★
+- [Museu Nacional de Belas Artes](https://mnba.gov.br/)
+- [MAM São Paulo](https://mam.org.br/)
+- [MAM Rio](https://mam.rio/)
+- [Instituto Tomie Ohtake](https://www.institutotomieohtake.org.br/)
+
+### Bienais e feiras
+
+- [Bienal de Veneza](https://www.labiennale.org/) ★
+- [Bienal de São Paulo](https://www.bienal.org.br/) ★
+- [documenta](https://www.documenta.de/)
+- [Art Basel](https://www.artbasel.com/) ★
+- [Frieze](https://www.frieze.com/)
+- [TEFAF](https://www.tefaf.com/)
+- [SP-Arte](https://www.sp-arte.com/)
+- [ArtRio](https://www.artrio.com/)
+
+### Prêmios
+
+- [Turner Prize](https://en.wikipedia.org/wiki/Turner_Prize) ★
+- [Prêmio PIPA](https://www.premiopipa.com/)
+
+## Redes sociais e comunidades
+
+### Portfólio e comunidade
+
+- [ArtStation](https://www.artstation.com/) ★
+- [DeviantArt](https://www.deviantart.com/) ★
+- [Behance](https://www.behance.net/)
+- [Cara](https://cara.app/)
+- [Pixiv](https://www.pixiv.net/)
+- [ArtConnect](https://www.artconnect.com/)
+- [r/Art](https://www.reddit.com/r/Art/)
+
+### Comprar e vender arte
+
+- [Artsy](https://www.artsy.net/) ★
+- [Saatchi Art](https://www.saatchiart.com/)
+- [Singulart](https://www.singulart.com/)
+- [Society6](https://society6.com/)
+- [Redbubble](https://www.redbubble.com/)
+
+## Aprender e explorar
+
+### Acervos digitais
+
+- [Google Arts & Culture](https://artsandculture.google.com/) ★
+- [WikiArt](https://www.wikiart.org/) ★
+- [Smarthistory](https://smarthistory.org/) ★
+- [The Met Collection (Open Access)](https://www.metmuseum.org/art/collection)
+- [Art UK](https://artuk.org/)
+- [Web Gallery of Art](https://www.wga.hu/)
+- [Europeana](https://www.europeana.eu/)
+
+### Cursos e prática
+
+- [Proko](https://www.proko.com/) ★
+- [Drawabox](https://drawabox.com/) ★
+- [Ctrl+Paint](https://www.ctrlpaint.com/)
+- [Schoolism](https://www.schoolism.com/)
+- [New Masters Academy](https://www.nma.art/)
+- [Domestika](https://www.domestika.org/)
+- [Line of Action](https://line-of-action.com/)
+- [Quickposes](https://quickposes.com/)
+
+### Revistas e sites
+
+- [ARTnews](https://www.artnews.com/) ★
+- [The Art Newspaper](https://www.theartnewspaper.com/) ★
+- [Hyperallergic](https://hyperallergic.com/)
+- [Artforum](https://www.artforum.com/)
+- [Juxtapoz](https://www.juxtapoz.com/)
+- [Colossal](https://www.thisiscolossal.com/)
+
+## Livros
+
+### História e teoria da arte
+
+- [Ernst Gombrich - A História da Arte](https://www.goodreads.com/search?q=Gombrich+The+Story+of+Art) ★
+- [John Berger - Modos de Ver](https://www.goodreads.com/search?q=John+Berger+Ways+of+Seeing) ★
+- [Giorgio Vasari - Vidas dos Artistas](https://www.goodreads.com/search?q=Vasari+Lives+of+the+Artists)
+- [Wassily Kandinsky - Do Espiritual na Arte](https://www.goodreads.com/search?q=Kandinsky+Concerning+the+Spiritual+in+Art)
+- [Rudolf Arnheim - Arte e Percepção Visual](https://www.goodreads.com/search?q=Rudolf+Arnheim+Art+and+Visual+Perception)
+- [Will Gompertz - Isso é Arte?](https://www.goodreads.com/search?q=Will+Gompertz+What+Are+You+Looking+At)
+- [Victoria Finlay - Color: A Natural History of the Palette](https://www.goodreads.com/search?q=Victoria+Finlay+Color+A+Natural+History)
+
+### Técnica e criatividade
+
+- [Betty Edwards - Desenhando com o Lado Direito do Cérebro](https://www.goodreads.com/search?q=Betty+Edwards+Drawing+on+the+Right+Side+of+the+Brain) ★
+- [Johannes Itten - A Arte da Cor](https://www.goodreads.com/search?q=Johannes+Itten+The+Art+of+Color)
+- [Josef Albers - A Interação da Cor](https://www.goodreads.com/search?q=Josef+Albers+Interaction+of+Color)
+- [James Gurney - Color and Light](https://www.goodreads.com/search?q=James+Gurney+Color+and+Light)
+- [Andrew Loomis - Figure Drawing for All It's Worth](https://www.goodreads.com/search?q=Andrew+Loomis+Figure+Drawing+for+All+It%27s+Worth)
+- [Julia Cameron - O Caminho do Artista](https://www.goodreads.com/search?q=Julia+Cameron+The+Artist%27s+Way)
+- [Austin Kleon - Roube Como um Artista](https://www.goodreads.com/search?q=Austin+Kleon+Steal+Like+an+Artist)

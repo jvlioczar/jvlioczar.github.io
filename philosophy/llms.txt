@@ -1,0 +1,889 @@
+# A Biblioteca de Filosofia
+
+> Catálogo pesquisável de filosofia: áreas (metafísica, epistemologia, lógica, ética, estética e mais), conceitos, escolas, obras, filósofos e recursos.
+
+Biblioteca temática da BiblioVerse (The Philosophy Library), com curadoria humana. Página: https://biblioverse.org/philosophy/ · 616 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Enciclopédias e referências
+
+### Enciclopédias
+
+- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) ★
+- [Internet Encyclopedia of Philosophy](https://iep.utm.edu/) ★
+- [Routledge Encyclopedia of Philosophy](https://www.rep.routledge.com/)
+- [Britannica (Filosofia)](https://www.britannica.com/topic/philosophy)
+- [1000-Word Philosophy](https://1000wordphilosophy.com/)
+- [Crítica na Rede](https://criticanarede.com/)
+- [Enciclopédia de Termos Lógico-Filosóficos](https://cful.letras.ulisboa.pt/cfulprojects/encyclopedia-of-logico-philosophical-terms-new-edition/)
+
+### Bases, repositórios e diretórios
+
+- [PhilPapers](https://philpapers.org/) ★
+- [PhilArchive](https://philarchive.org/)
+- [PhilPeople](https://philpeople.org/)
+- [JSTOR](https://www.jstor.org/)
+- [Project Gutenberg (Filosofia)](https://www.gutenberg.org/ebooks/bookshelf/57)
+- [Early Modern Texts](https://www.earlymoderntexts.com/)
+- [Perseus Digital Library](https://www.perseus.tufts.edu/)
+- [Domínio Público (Brasil)](https://www.dominiopublico.gov.br/)
+
+### Guias e mapas
+
+- [Philosophy Pages](https://www.philosophypages.com/)
+- [Philosophy Ideas](https://www.philosophyideas.com/)
+- [Outline of Philosophy (Wikipedia)](https://en.wikipedia.org/wiki/Outline_of_philosophy) ★
+- [Glossary of philosophy (Wikipedia)](https://en.wikipedia.org/wiki/Glossary_of_philosophy)
+- [PhilPapers Surveys](https://survey2020.philpeople.org/) ★
+
+## Periódicos e revistas
+
+### Periódicos acadêmicos
+
+- [Mind](https://academic.oup.com/mind) ★
+- [The Philosophical Review](https://read.dukeupress.edu/the-philosophical-review) ★
+- [Noûs](https://onlinelibrary.wiley.com/journal/14680068)
+- [The Journal of Philosophy](https://www.journalofphilosophy.org/) ★
+- [Philosophy & Public Affairs](https://onlinelibrary.wiley.com/journal/10884963)
+- [Ethics](https://www.journals.uchicago.edu/toc/et/current)
+- [Analysis](https://academic.oup.com/analysis)
+- [Australasian Journal of Philosophy](https://www.tandfonline.com/journals/rajp20)
+- [Philosophical Studies](https://link.springer.com/journal/11098)
+- [Synthese](https://link.springer.com/journal/11229)
+- [Philosophy and Phenomenological Research](https://onlinelibrary.wiley.com/journal/19331592)
+- [Kriterion](https://www.scielo.br/j/kr/)
+- [Manuscrito](https://www.scielo.br/j/man/)
+- [Trans/Form/Ação](https://www.scielo.br/j/trans/)
+- [Principia](https://periodicos.ufsc.br/index.php/principia)
+
+### Revistas e sites de divulgação
+
+- [Philosophy Now](https://philosophynow.org/) ★
+- [The Philosophers' Magazine](https://www.philosophersmag.com/)
+- [Aeon](https://aeon.co/philosophy) ★
+- [Psyche](https://psyche.co/)
+- [Daily Nous](https://dailynous.com/)
+- [New Work in Philosophy](https://newworkinphilosophy.substack.com/)
+- [Revista Cult](https://revistacult.uol.com.br/)
+- [IAI TV (Institute of Art and Ideas)](https://iai.tv/)
+- [The Point](https://thepointmag.com/)
+
+## Podcasts e vídeos
+
+### Podcasts
+
+- [History of Philosophy without any gaps](https://historyofphilosophy.net/) ★
+- [Philosophy Bites](https://philosophybites.com/) ★
+- [Philosophize This!](https://www.philosophizethis.org/)
+- [Very Bad Wizards](https://www.verybadwizards.com/)
+- [The Partially Examined Life](https://partiallyexaminedlife.com/)
+- [Hi-Phi Nation](https://hiphination.org/)
+- [Elucidations](https://elucidations.vercel.app/)
+- [In Our Time (Filosofia)](https://www.bbc.co.uk/programmes/p01f0vzr)
+- [Rationally Speaking](https://rationallyspeakingpodcast.org/)
+- [Filosofia Pop](https://filosofiapop.com.br/)
+- [The Philosopher's Zone (ABC)](https://www.abc.net.au/listen/programs/philosopherszone)
+
+### Canais de vídeo
+
+- [Wireless Philosophy](https://www.wi-phi.com/) ★
+- [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR)
+- [Closer To Truth](https://closertotruth.com/)
+- [The School of Life](https://www.theschooloflife.com/)
+- [Philosophy Tube](https://www.youtube.com/@PhilosophyTube)
+- [Kane B](https://www.youtube.com/@KaneB)
+- [Isto Não É Filosofia](https://www.istonaoefilosofia.com.br/)
+- [Filosofia do Início](https://www.youtube.com/@filosofiadoinicio)
+- [Academy of Ideas](https://www.youtube.com/@academyofideas)
+- [Einzelgänger](https://www.youtube.com/@Einzelganger)
+- [Jeffrey Kaplan](https://www.youtube.com/results?search_query=Jeffrey+Kaplan+philosophy)
+
+## Cursos e aulas
+
+### Cursos online
+
+- [Justice (Michael Sandel, Harvard)](https://www.edx.org/learn/justice/harvard-university-justice) ★
+- [Death (Shelly Kagan, Open Yale)](https://oyc.yale.edu/philosophy/phil-176) ★
+- [Introduction to Philosophy (Edinburgh)](https://www.coursera.org/learn/philosophy)
+- [MIT OpenCourseWare (Filosofia)](https://ocw.mit.edu/search/?d=Linguistics%20and%20Philosophy)
+- [Open Yale Courses (Filosofia)](https://oyc.yale.edu/philosophy)
+- [The Great Courses (Filosofia)](https://plus.thegreatcourses.com/)
+- [Filosofia (Khan Academy)](https://www.khanacademy.org/humanities/philosophy)
+
+### Recursos para ensino
+
+- [Philosophy for Children (P4C)](https://en.wikipedia.org/wiki/Philosophy_for_Children)
+- [PLATO (Philosophy Learning and Teaching Organization)](https://www.plato-philosophy.org/)
+- [Teaching Philosophy (periódico)](https://www.pdcnet.org/teachphil)
+- [Olimpíada de Filosofia](https://www.olimpiadadefilosofia.com.br/)
+
+## Organizações e sociedades
+
+### Internacionais
+
+- [American Philosophical Association](https://www.apaonline.org/) ★
+- [Aristotelian Society](https://www.aristoteliansociety.org.uk/)
+- [Royal Institute of Philosophy](https://royalinstitutephilosophy.org/)
+- [Mind Association](https://www.mindassociation.org/)
+- [Australasian Association of Philosophy](https://aap.org.au/)
+- [British Philosophical Association](https://bpa.ac.uk/)
+- [FISP (Federação Internacional de Sociedades de Filosofia)](https://www.fisp.org/)
+- [Institut International de Philosophie](https://www.iiphilo.org/)
+- [Society for Women in Philosophy](https://www.swipinfo.org/)
+
+### Brasileiras
+
+- [ANPOF](https://anpof.org.br/) ★
+- [Sociedade Brasileira de Filosofia Analítica](https://www.sbfa.com.br/)
+- [Sociedade Brasileira de Lógica](https://www.sbl.org.br/)
+- [CLE Unicamp (Centro de Lógica e Epistemologia)](https://www.cle.unicamp.br/)
+- [NULFA](https://nulfa.weebly.com/)
+
+## Metafísica
+
+### Ontologia
+
+- [Metafísica](https://en.wikipedia.org/wiki/Metaphysics) ★
+- [Ontologia](https://en.wikipedia.org/wiki/Ontology) ★
+- [Existência](https://en.wikipedia.org/wiki/Existence)
+- [Ser](https://en.wikipedia.org/wiki/Being)
+- [Substância](https://en.wikipedia.org/wiki/Substance_theory)
+- [Universais](https://en.wikipedia.org/wiki/Universal_(metaphysics))
+- [Nominalismo](https://en.wikipedia.org/wiki/Nominalism)
+- [Realismo (metafísica)](https://en.wikipedia.org/wiki/Philosophical_realism)
+- [Idealismo](https://en.wikipedia.org/wiki/Idealism)
+- [Materialismo](https://en.wikipedia.org/wiki/Materialism)
+- [Mereologia](https://en.wikipedia.org/wiki/Mereology)
+- [Emergência](https://en.wikipedia.org/wiki/Emergence)
+
+### Livre-arbítrio e determinismo
+
+- [Livre-arbítrio](https://en.wikipedia.org/wiki/Free_will) ★
+- [Determinismo](https://en.wikipedia.org/wiki/Determinism)
+- [Compatibilismo](https://en.wikipedia.org/wiki/Compatibilism)
+- [Incompatibilismo](https://en.wikipedia.org/wiki/Incompatibilism)
+- [Libertarismo (metafísica)](https://en.wikipedia.org/wiki/Libertarianism_(metaphysics))
+- [Fatalismo](https://en.wikipedia.org/wiki/Fatalism)
+- [Responsabilidade moral](https://en.wikipedia.org/wiki/Moral_responsibility)
+
+### Tempo, espaço e causalidade
+
+- [Filosofia do espaço e do tempo](https://en.wikipedia.org/wiki/Philosophy_of_space_and_time)
+- [Eternalismo](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time))
+- [Presentismo](https://en.wikipedia.org/wiki/Presentism_(philosophy_of_time))
+- [Causalidade](https://en.wikipedia.org/wiki/Causality)
+- [Contrafactuais](https://en.wikipedia.org/wiki/Counterfactual_conditional)
+- [Princípio da razão suficiente](https://en.wikipedia.org/wiki/Principle_of_sufficient_reason)
+
+### Modalidade e identidade
+
+- [Mundos possíveis](https://en.wikipedia.org/wiki/Possible_world)
+- [Realismo modal](https://en.wikipedia.org/wiki/Modal_realism)
+- [Necessidade e contingência](https://en.wikipedia.org/wiki/Contingency_(philosophy))
+- [Identidade](https://en.wikipedia.org/wiki/Identity_(philosophy))
+- [Identidade pessoal](https://en.wikipedia.org/wiki/Personal_identity)
+- [Navio de Teseu](https://en.wikipedia.org/wiki/Ship_of_Theseus)
+
+## Epistemologia
+
+### Teorias do conhecimento
+
+- [Epistemologia](https://en.wikipedia.org/wiki/Epistemology) ★
+- [Crença verdadeira justificada](https://en.wikipedia.org/wiki/Definitions_of_knowledge)
+- [Problema de Gettier](https://en.wikipedia.org/wiki/Gettier_problem) ★
+- [Fundacionalismo](https://en.wikipedia.org/wiki/Foundationalism)
+- [Coerentismo](https://en.wikipedia.org/wiki/Coherentism)
+- [Confiabilismo](https://en.wikipedia.org/wiki/Reliabilism)
+- [Epistemologia das virtudes](https://en.wikipedia.org/wiki/Virtue_epistemology)
+- [Internalismo e externalismo](https://en.wikipedia.org/wiki/Internalism_and_externalism)
+
+### Fontes do conhecimento
+
+- [Empirismo](https://en.wikipedia.org/wiki/Empiricism)
+- [Racionalismo](https://en.wikipedia.org/wiki/Rationalism)
+- [A priori e a posteriori](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori)
+- [Analítico e sintético](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)
+- [Testemunho](https://en.wikipedia.org/wiki/Testimony)
+- [Percepção](https://en.wikipedia.org/wiki/Perception)
+- [Intuição](https://en.wikipedia.org/wiki/Intuition)
+
+### Ceticismo
+
+- [Ceticismo filosófico](https://en.wikipedia.org/wiki/Philosophical_skepticism) ★
+- [Cérebro numa cuba](https://en.wikipedia.org/wiki/Brain_in_a_vat)
+- [Problema da indução](https://en.wikipedia.org/wiki/Problem_of_induction) ★
+- [Trilema de Münchhausen](https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma)
+- [Gênio maligno](https://en.wikipedia.org/wiki/Evil_demon)
+- [Solipsismo](https://en.wikipedia.org/wiki/Solipsism)
+
+### Epistemologia social e formal
+
+- [Epistemologia social](https://en.wikipedia.org/wiki/Social_epistemology)
+- [Epistemologia bayesiana](https://en.wikipedia.org/wiki/Bayesian_epistemology)
+- [Desacordo epistêmico](https://en.wikipedia.org/wiki/Peer_disagreement)
+- [Injustiça epistêmica](https://en.wikipedia.org/wiki/Epistemic_injustice)
+- [Epistemologia feminista](https://en.wikipedia.org/wiki/Feminist_epistemology)
+- [Teoria da verdade](https://en.wikipedia.org/wiki/Truth)
+- [Teoria da correspondência](https://en.wikipedia.org/wiki/Correspondence_theory_of_truth)
+- [Pragmatismo (verdade)](https://en.wikipedia.org/wiki/Pragmatic_theory_of_truth)
+
+## Lógica
+
+### Lógica clássica
+
+- [Lógica](https://en.wikipedia.org/wiki/Logic) ★
+- [Lógica proposicional](https://en.wikipedia.org/wiki/Propositional_calculus) ★
+- [Lógica de primeira ordem](https://en.wikipedia.org/wiki/First-order_logic)
+- [Silogismo](https://en.wikipedia.org/wiki/Syllogism)
+- [Modus ponens](https://en.wikipedia.org/wiki/Modus_ponens)
+- [Validade](https://en.wikipedia.org/wiki/Validity_(logic))
+- [Solidez](https://en.wikipedia.org/wiki/Soundness)
+- [Dedução](https://en.wikipedia.org/wiki/Deductive_reasoning)
+- [Indução](https://en.wikipedia.org/wiki/Inductive_reasoning)
+- [Abdução](https://en.wikipedia.org/wiki/Abductive_reasoning)
+
+### Lógicas não clássicas
+
+- [Lógica modal](https://en.wikipedia.org/wiki/Modal_logic)
+- [Lógica paraconsistente](https://en.wikipedia.org/wiki/Paraconsistent_logic) ★
+- [Lógica intuicionista](https://en.wikipedia.org/wiki/Intuitionistic_logic)
+- [Lógica fuzzy](https://en.wikipedia.org/wiki/Fuzzy_logic)
+- [Lógica deôntica](https://en.wikipedia.org/wiki/Deontic_logic)
+- [Lógica temporal](https://en.wikipedia.org/wiki/Temporal_logic)
+- [Lógica multivalorada](https://en.wikipedia.org/wiki/Many-valued_logic)
+
+### Metalógica
+
+- [Metalógica](https://en.wikipedia.org/wiki/Metalogic)
+- [Teoremas da incompletude de Gödel](https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems) ★
+- [Teorema da completude](https://en.wikipedia.org/wiki/G%C3%B6del's_completeness_theorem)
+- [Decidibilidade](https://en.wikipedia.org/wiki/Decidability_(logic))
+- [Teoria dos conjuntos](https://en.wikipedia.org/wiki/Set_theory)
+
+### Argumentação e falácias
+
+- [Argumento](https://en.wikipedia.org/wiki/Argument)
+- [Lógica informal](https://en.wikipedia.org/wiki/Informal_logic)
+- [Falácia](https://en.wikipedia.org/wiki/Fallacy) ★
+- [Lista de falácias](https://en.wikipedia.org/wiki/List_of_fallacies)
+- [Pensamento crítico](https://en.wikipedia.org/wiki/Critical_thinking)
+- [Navalha de Occam](https://en.wikipedia.org/wiki/Occam's_razor)
+- [Princípio da caridade](https://en.wikipedia.org/wiki/Principle_of_charity)
+
+## Ética
+
+### Metaética
+
+- [Metaética](https://en.wikipedia.org/wiki/Meta-ethics) ★
+- [Realismo moral](https://en.wikipedia.org/wiki/Moral_realism)
+- [Antirrealismo moral](https://en.wikipedia.org/wiki/Moral_anti-realism)
+- [Teoria do erro](https://en.wikipedia.org/wiki/Moral_error_theory)
+- [Expressivismo](https://en.wikipedia.org/wiki/Expressivism)
+- [Construtivismo moral](https://en.wikipedia.org/wiki/Moral_constructivism)
+- [Relativismo moral](https://en.wikipedia.org/wiki/Moral_relativism)
+- [Guilhotina de Hume](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem)
+- [Falácia naturalista](https://en.wikipedia.org/wiki/Naturalistic_fallacy)
+
+### Ética normativa
+
+- [Ética normativa](https://en.wikipedia.org/wiki/Normative_ethics)
+- [Consequencialismo](https://en.wikipedia.org/wiki/Consequentialism) ★
+- [Utilitarismo](https://en.wikipedia.org/wiki/Utilitarianism) ★
+- [Deontologia](https://en.wikipedia.org/wiki/Deontology) ★
+- [Ética das virtudes](https://en.wikipedia.org/wiki/Virtue_ethics) ★
+- [Contratualismo](https://en.wikipedia.org/wiki/Contractualism)
+- [Ética do cuidado](https://en.wikipedia.org/wiki/Ethics_of_care)
+- [Egoísmo ético](https://en.wikipedia.org/wiki/Ethical_egoism)
+- [Teoria do mandamento divino](https://en.wikipedia.org/wiki/Divine_command_theory)
+- [Particularismo moral](https://en.wikipedia.org/wiki/Moral_particularism)
+
+### Ética aplicada
+
+- [Ética aplicada](https://en.wikipedia.org/wiki/Applied_ethics)
+- [Ética animal](https://en.wikipedia.org/wiki/Animal_ethics) ★
+- [Especismo](https://en.wikipedia.org/wiki/Speciesism) ★
+- [Senciocentrismo](https://en.wikipedia.org/wiki/Sentientism) ★
+- [Direitos animais](https://en.wikipedia.org/wiki/Animal_rights)
+- [Bioética](https://en.wikipedia.org/wiki/Bioethics)
+- [Ética ambiental](https://en.wikipedia.org/wiki/Environmental_ethics)
+- [Ética da inteligência artificial](https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence)
+- [Ética empresarial](https://en.wikipedia.org/wiki/Business_ethics)
+- [Neuroética](https://en.wikipedia.org/wiki/Neuroethics)
+- [Ética médica](https://en.wikipedia.org/wiki/Medical_ethics)
+- [Altruísmo eficaz](https://en.wikipedia.org/wiki/Effective_altruism)
+- [Longotermismo](https://en.wikipedia.org/wiki/Longtermism)
+- [Ética populacional](https://en.wikipedia.org/wiki/Population_ethics)
+- [Sofrimento dos animais selvagens](https://en.wikipedia.org/wiki/Wild_animal_suffering)
+
+## Estética
+
+### Conceitos fundamentais
+
+- [Estética](https://en.wikipedia.org/wiki/Aesthetics) ★
+- [Beleza](https://en.wikipedia.org/wiki/Beauty)
+- [Sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy))
+- [Gosto](https://en.wikipedia.org/wiki/Taste_(sociology))
+- [Mimese](https://en.wikipedia.org/wiki/Mimesis)
+- [Experiência estética](https://en.wikipedia.org/wiki/Aesthetic_experience)
+- [Distância estética](https://en.wikipedia.org/wiki/Aesthetic_distance)
+
+### Filosofia da arte
+
+- [Definição de arte](https://en.wikipedia.org/wiki/Theory_of_art)
+- [Arte pela arte](https://en.wikipedia.org/wiki/Art_for_art's_sake)
+- [Teoria institucional da arte](https://en.wikipedia.org/wiki/Institutional_theory_of_art)
+- [Ontologia da arte](https://en.wikipedia.org/wiki/Philosophy_of_art)
+- [Intencionalismo](https://en.wikipedia.org/wiki/Intentional_fallacy)
+
+### Filosofias das artes
+
+- [Filosofia da música](https://en.wikipedia.org/wiki/Philosophy_of_music)
+- [Filosofia do cinema](https://en.wikipedia.org/wiki/Philosophy_of_film)
+- [Filosofia da literatura](https://en.wikipedia.org/wiki/Philosophy_of_literature)
+- [Filosofia do design](https://en.wikipedia.org/wiki/Philosophy_of_design)
+
+## Filosofia política
+
+### Teorias da justiça
+
+- [Justiça](https://en.wikipedia.org/wiki/Justice) ★
+- [Justiça como equidade](https://en.wikipedia.org/wiki/Justice_as_Fairness) ★
+- [Véu da ignorância](https://en.wikipedia.org/wiki/Veil_of_ignorance)
+- [Igualitarismo](https://en.wikipedia.org/wiki/Egalitarianism)
+- [Igualitarismo da sorte](https://en.wikipedia.org/wiki/Luck_egalitarianism)
+- [Abordagem das capacidades](https://en.wikipedia.org/wiki/Capability_approach)
+- [Libertarianismo](https://en.wikipedia.org/wiki/Libertarianism)
+- [Prioritarismo](https://en.wikipedia.org/wiki/Prioritarianism)
+
+### Correntes
+
+- [Liberalismo](https://en.wikipedia.org/wiki/Liberalism)
+- [Conservadorismo](https://en.wikipedia.org/wiki/Conservatism)
+- [Socialismo](https://en.wikipedia.org/wiki/Socialism)
+- [Anarquismo](https://en.wikipedia.org/wiki/Anarchism)
+- [Republicanismo](https://en.wikipedia.org/wiki/Republicanism)
+- [Comunitarismo](https://en.wikipedia.org/wiki/Communitarianism)
+- [Marxismo](https://en.wikipedia.org/wiki/Marxism)
+- [Feminismo](https://en.wikipedia.org/wiki/Feminism)
+
+### Conceitos
+
+- [Contrato social](https://en.wikipedia.org/wiki/Social_contract) ★
+- [Soberania](https://en.wikipedia.org/wiki/Sovereignty)
+- [Direitos](https://en.wikipedia.org/wiki/Rights)
+- [Democracia](https://en.wikipedia.org/wiki/Democracy)
+- [Legitimidade política](https://en.wikipedia.org/wiki/Legitimacy_(political))
+- [Desobediência civil](https://en.wikipedia.org/wiki/Civil_disobedience)
+- [Tirania da maioria](https://en.wikipedia.org/wiki/Tyranny_of_the_majority)
+- [Liberdade positiva e negativa](https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty)
+
+## Filosofia da mente
+
+### Problema mente-corpo
+
+- [Problema mente-corpo](https://en.wikipedia.org/wiki/Mind%E2%80%93body_problem) ★
+- [Dualismo](https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism)
+- [Fisicalismo](https://en.wikipedia.org/wiki/Physicalism)
+- [Funcionalismo](https://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind))
+- [Teoria da identidade](https://en.wikipedia.org/wiki/Type_physicalism)
+- [Materialismo eliminativo](https://en.wikipedia.org/wiki/Eliminative_materialism)
+- [Pampsiquismo](https://en.wikipedia.org/wiki/Panpsychism)
+- [Dualismo de propriedades](https://en.wikipedia.org/wiki/Property_dualism)
+- [Epifenomenalismo](https://en.wikipedia.org/wiki/Epiphenomenalism)
+
+### Consciência
+
+- [Consciência](https://en.wikipedia.org/wiki/Consciousness) ★
+- [Problema difícil da consciência](https://en.wikipedia.org/wiki/Hard_problem_of_consciousness) ★
+- [Qualia](https://en.wikipedia.org/wiki/Qualia)
+- [Zumbi filosófico](https://en.wikipedia.org/wiki/Philosophical_zombie)
+- [Quarto de Mary](https://en.wikipedia.org/wiki/Knowledge_argument)
+- [Como é ser um morcego?](https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F)
+- [Quarto chinês](https://en.wikipedia.org/wiki/Chinese_room)
+
+### Mente e cognição
+
+- [Intencionalidade](https://en.wikipedia.org/wiki/Intentionality)
+- [Mente estendida](https://en.wikipedia.org/wiki/Extended_mind_thesis)
+- [Teoria computacional da mente](https://en.wikipedia.org/wiki/Computational_theory_of_mind)
+- [Problema das outras mentes](https://en.wikipedia.org/wiki/Problem_of_other_minds)
+- [Senciência](https://en.wikipedia.org/wiki/Sentience)
+- [Mentes digitais](https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence)
+
+## Filosofia da ciência
+
+### Método científico
+
+- [Filosofia da ciência](https://en.wikipedia.org/wiki/Philosophy_of_science) ★
+- [Método científico](https://en.wikipedia.org/wiki/Scientific_method)
+- [Falseabilidade](https://en.wikipedia.org/wiki/Falsifiability) ★
+- [Problema da demarcação](https://en.wikipedia.org/wiki/Demarcation_problem)
+- [Método hipotético-dedutivo](https://en.wikipedia.org/wiki/Hypothetico-deductive_model)
+- [Explicação científica](https://en.wikipedia.org/wiki/Scientific_explanation)
+
+### Teorias e debates
+
+- [Mudança de paradigma](https://en.wikipedia.org/wiki/Paradigm_shift)
+- [Programas de pesquisa](https://en.wikipedia.org/wiki/Imre_Lakatos)
+- [Realismo científico](https://en.wikipedia.org/wiki/Scientific_realism)
+- [Instrumentalismo](https://en.wikipedia.org/wiki/Instrumentalism)
+- [Subdeterminação](https://en.wikipedia.org/wiki/Underdetermination)
+- [Realismo estrutural](https://en.wikipedia.org/wiki/Structural_realism_(philosophy_of_science))
+- [Anarquismo epistemológico](https://en.wikipedia.org/wiki/Epistemological_anarchism)
+- [Pseudociência](https://en.wikipedia.org/wiki/Pseudoscience)
+
+### Filosofias das ciências
+
+- [Filosofia da física](https://en.wikipedia.org/wiki/Philosophy_of_physics)
+- [Filosofia da biologia](https://en.wikipedia.org/wiki/Philosophy_of_biology)
+- [Filosofia da psicologia](https://en.wikipedia.org/wiki/Philosophy_of_psychology)
+- [Filosofia das ciências sociais](https://en.wikipedia.org/wiki/Philosophy_of_social_science)
+- [Filosofia da química](https://en.wikipedia.org/wiki/Philosophy_of_chemistry)
+- [Filosofia da economia](https://en.wikipedia.org/wiki/Philosophy_and_economics)
+
+## Filosofia da linguagem
+
+### Significado e referência
+
+- [Filosofia da linguagem](https://en.wikipedia.org/wiki/Philosophy_of_language) ★
+- [Sentido e referência](https://en.wikipedia.org/wiki/Sense_and_reference) ★
+- [Teoria descritivista](https://en.wikipedia.org/wiki/Descriptivist_theory_of_names)
+- [Teoria causal da referência](https://en.wikipedia.org/wiki/Causal_theory_of_reference)
+- [Princípio de verificação](https://en.wikipedia.org/wiki/Verificationism)
+- [Holismo semântico](https://en.wikipedia.org/wiki/Semantic_holism)
+
+### Pragmática
+
+- [Atos de fala](https://en.wikipedia.org/wiki/Speech_act)
+- [Implicatura](https://en.wikipedia.org/wiki/Implicature)
+- [Jogos de linguagem](https://en.wikipedia.org/wiki/Language_game_(philosophy))
+- [Filosofia da linguagem comum](https://en.wikipedia.org/wiki/Ordinary_language_philosophy)
+
+### Linguagem e mente
+
+- [Argumento da linguagem privada](https://en.wikipedia.org/wiki/Private_language_argument)
+- [Indeterminação da tradução](https://en.wikipedia.org/wiki/Indeterminacy_of_translation)
+- [Relatividade linguística](https://en.wikipedia.org/wiki/Linguistic_relativity)
+- [Terra Gêmea](https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment)
+
+## Filosofia da religião
+
+### Argumentos
+
+- [Filosofia da religião](https://en.wikipedia.org/wiki/Philosophy_of_religion) ★
+- [Argumento ontológico](https://en.wikipedia.org/wiki/Ontological_argument)
+- [Argumento cosmológico](https://en.wikipedia.org/wiki/Cosmological_argument)
+- [Argumento teleológico](https://en.wikipedia.org/wiki/Teleological_argument)
+- [Problema do mal](https://en.wikipedia.org/wiki/Problem_of_evil) ★
+- [Aposta de Pascal](https://en.wikipedia.org/wiki/Pascal's_wager)
+- [Dilema de Eutífron](https://en.wikipedia.org/wiki/Euthyphro_dilemma)
+- [Bule de Russell](https://en.wikipedia.org/wiki/Russell's_teapot)
+
+### Posições
+
+- [Teísmo](https://en.wikipedia.org/wiki/Theism)
+- [Deísmo](https://en.wikipedia.org/wiki/Deism)
+- [Ateísmo](https://en.wikipedia.org/wiki/Atheism)
+- [Agnosticismo](https://en.wikipedia.org/wiki/Agnosticism)
+- [Panteísmo](https://en.wikipedia.org/wiki/Pantheism)
+- [Fideísmo](https://en.wikipedia.org/wiki/Fideism)
+- [Humanismo secular](https://en.wikipedia.org/wiki/Secular_humanism)
+
+## Outras subáreas
+
+### Filosofia do direito
+
+- [Filosofia do direito](https://en.wikipedia.org/wiki/Philosophy_of_law)
+- [Positivismo jurídico](https://en.wikipedia.org/wiki/Legal_positivism)
+- [Direito natural](https://en.wikipedia.org/wiki/Natural_law)
+- [Realismo jurídico](https://en.wikipedia.org/wiki/Legal_realism)
+- [Estado de direito](https://en.wikipedia.org/wiki/Rule_of_law)
+
+### Filosofia da educação
+
+- [Filosofia da educação](https://en.wikipedia.org/wiki/Philosophy_of_education)
+- [Pedagogia crítica](https://en.wikipedia.org/wiki/Critical_pedagogy)
+- [Paideia](https://en.wikipedia.org/wiki/Paideia)
+- [Filosofia para crianças](https://en.wikipedia.org/wiki/Philosophy_for_Children)
+
+### Filosofia da história
+
+- [Filosofia da história](https://en.wikipedia.org/wiki/Philosophy_of_history)
+- [Historicismo](https://en.wikipedia.org/wiki/Historicism)
+- [Materialismo histórico](https://en.wikipedia.org/wiki/Historical_materialism)
+- [Fim da história](https://en.wikipedia.org/wiki/The_End_of_History_and_the_Last_Man)
+
+### Filosofia da matemática
+
+- [Filosofia da matemática](https://en.wikipedia.org/wiki/Philosophy_of_mathematics)
+- [Platonismo matemático](https://en.wikipedia.org/wiki/Mathematical_Platonism)
+- [Formalismo](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))
+- [Logicismo](https://en.wikipedia.org/wiki/Logicism)
+- [Intuicionismo](https://en.wikipedia.org/wiki/Intuitionism)
+
+### Filosofia da tecnologia e da IA
+
+- [Filosofia da tecnologia](https://en.wikipedia.org/wiki/Philosophy_of_technology)
+- [Filosofia da inteligência artificial](https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence)
+- [Teste de Turing](https://en.wikipedia.org/wiki/Turing_test)
+- [Singularidade tecnológica](https://en.wikipedia.org/wiki/Technological_singularity)
+- [Alinhamento de IA](https://en.wikipedia.org/wiki/AI_alignment)
+- [Transumanismo](https://en.wikipedia.org/wiki/Transhumanism)
+- [Risco existencial](https://en.wikipedia.org/wiki/Global_catastrophic_risk)
+
+### Filosofia ambiental
+
+- [Filosofia ambiental](https://en.wikipedia.org/wiki/Environmental_philosophy)
+- [Ecologia profunda](https://en.wikipedia.org/wiki/Deep_ecology)
+- [Antropocentrismo](https://en.wikipedia.org/wiki/Anthropocentrism)
+
+### Filosofia da ação
+
+- [Teoria da ação](https://en.wikipedia.org/wiki/Action_theory_(philosophy))
+- [Razão prática](https://en.wikipedia.org/wiki/Practical_reason)
+- [Acrasia](https://en.wikipedia.org/wiki/Akrasia)
+
+### Filosofia feminista
+
+- [Filosofia feminista](https://en.wikipedia.org/wiki/Feminist_philosophy)
+- [Teoria do ponto de vista](https://en.wikipedia.org/wiki/Standpoint_theory)
+- [Interseccionalidade](https://en.wikipedia.org/wiki/Intersectionality)
+
+### Filosofia experimental
+
+- [Filosofia experimental](https://en.wikipedia.org/wiki/Experimental_philosophy)
+- [Psicologia moral](https://en.wikipedia.org/wiki/Moral_psychology)
+- [Intuições morais](https://en.wikipedia.org/wiki/Moral_intuitionism)
+
+### Filosofia comparada e intercultural
+
+- [Filosofia comparada](https://en.wikipedia.org/wiki/Comparative_philosophy)
+- [Filosofia africana](https://en.wikipedia.org/wiki/African_philosophy)
+- [Filosofia latino-americana](https://en.wikipedia.org/wiki/Latin_American_philosophy)
+- [Filosofia indígena americana](https://en.wikipedia.org/wiki/Indigenous_American_philosophy)
+
+### Filosofia da morte e do sentido da vida
+
+- [Sentido da vida](https://en.wikipedia.org/wiki/Meaning_of_life)
+- [Absurdismo](https://en.wikipedia.org/wiki/Absurdism)
+- [Niilismo](https://en.wikipedia.org/wiki/Nihilism)
+- [Filosofia da morte](https://en.wikipedia.org/wiki/Philosophy_of_death)
+- [Antinatalismo](https://en.wikipedia.org/wiki/Antinatalism)
+
+## Escolas e correntes
+
+### Antigas
+
+- [Pré-socráticos](https://en.wikipedia.org/wiki/Pre-Socratic_philosophy)
+- [Sofistas](https://en.wikipedia.org/wiki/Sophist)
+- [Platonismo](https://en.wikipedia.org/wiki/Platonism)
+- [Aristotelismo](https://en.wikipedia.org/wiki/Aristotelianism)
+- [Estoicismo](https://en.wikipedia.org/wiki/Stoicism) ★
+- [Epicurismo](https://en.wikipedia.org/wiki/Epicureanism)
+- [Ceticismo pirrônico](https://en.wikipedia.org/wiki/Pyrrhonism)
+- [Cinismo](https://en.wikipedia.org/wiki/Cynicism_(philosophy))
+- [Neoplatonismo](https://en.wikipedia.org/wiki/Neoplatonism)
+
+### Medievais
+
+- [Escolástica](https://en.wikipedia.org/wiki/Scholasticism)
+- [Tomismo](https://en.wikipedia.org/wiki/Thomism)
+- [Agostinianismo](https://en.wikipedia.org/wiki/Augustinianism)
+- [Filosofia islâmica](https://en.wikipedia.org/wiki/Early_Islamic_philosophy)
+- [Filosofia judaica](https://en.wikipedia.org/wiki/Jewish_philosophy)
+
+### Modernas
+
+- [Racionalismo continental](https://en.wikipedia.org/wiki/Continental_rationalism)
+- [Empirismo britânico](https://en.wikipedia.org/wiki/British_empiricism)
+- [Iluminismo](https://en.wikipedia.org/wiki/Age_of_Enlightenment) ★
+- [Idealismo alemão](https://en.wikipedia.org/wiki/German_idealism)
+- [Utilitarismo clássico](https://en.wikipedia.org/wiki/Utilitarianism)
+- [Romantismo](https://en.wikipedia.org/wiki/Romanticism)
+
+### Contemporâneas
+
+- [Filosofia analítica](https://en.wikipedia.org/wiki/Analytic_philosophy) ★
+- [Filosofia continental](https://en.wikipedia.org/wiki/Continental_philosophy) ★
+- [Positivismo lógico](https://en.wikipedia.org/wiki/Logical_positivism)
+- [Pragmatismo](https://en.wikipedia.org/wiki/Pragmatism)
+- [Fenomenologia](https://en.wikipedia.org/wiki/Phenomenology_(philosophy))
+- [Existencialismo](https://en.wikipedia.org/wiki/Existentialism)
+- [Escola de Frankfurt](https://en.wikipedia.org/wiki/Frankfurt_School)
+- [Estruturalismo](https://en.wikipedia.org/wiki/Structuralism)
+- [Pós-estruturalismo](https://en.wikipedia.org/wiki/Post-structuralism)
+- [Pós-modernismo](https://en.wikipedia.org/wiki/Postmodern_philosophy)
+- [Hermenêutica](https://en.wikipedia.org/wiki/Hermeneutics)
+- [Teoria crítica](https://en.wikipedia.org/wiki/Critical_theory)
+- [Naturalismo filosófico](https://en.wikipedia.org/wiki/Naturalism_(philosophy))
+
+### Orientais
+
+- [Confucionismo](https://en.wikipedia.org/wiki/Confucianism) ★
+- [Taoismo](https://en.wikipedia.org/wiki/Taoism)
+- [Filosofia budista](https://en.wikipedia.org/wiki/Buddhist_philosophy) ★
+- [Vedanta](https://en.wikipedia.org/wiki/Vedanta)
+- [Legalismo chinês](https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy))
+- [Moísmo](https://en.wikipedia.org/wiki/Mohism)
+- [Zen](https://en.wikipedia.org/wiki/Zen)
+- [Jainismo](https://en.wikipedia.org/wiki/Jainism)
+- [Nyaya](https://en.wikipedia.org/wiki/Nyaya)
+
+## Experimentos mentais e paradoxos
+
+### Experimentos mentais
+
+- [Problema do bonde](https://en.wikipedia.org/wiki/Trolley_problem) ★
+- [Alegoria da caverna](https://en.wikipedia.org/wiki/Allegory_of_the_cave) ★
+- [Máquina de experiências](https://en.wikipedia.org/wiki/Experience_machine)
+- [Criança se afogando](https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality)
+- [O violinista](https://en.wikipedia.org/wiki/A_Defense_of_Abortion)
+- [Anel de Giges](https://en.wikipedia.org/wiki/Ring_of_Gyges)
+- [Asno de Buridan](https://en.wikipedia.org/wiki/Buridan's_ass)
+- [Dilema do prisioneiro](https://en.wikipedia.org/wiki/Prisoner's_dilemma)
+- [Paradoxo de Newcomb](https://en.wikipedia.org/wiki/Newcomb's_paradox)
+- [Problema da Bela Adormecida](https://en.wikipedia.org/wiki/Sleeping_Beauty_problem)
+- [Teletransporte e identidade](https://en.wikipedia.org/wiki/Teletransportation_paradox)
+
+### Paradoxos
+
+- [Paradoxos de Zenão](https://en.wikipedia.org/wiki/Zeno's_paradoxes) ★
+- [Paradoxo do mentiroso](https://en.wikipedia.org/wiki/Liar_paradox)
+- [Paradoxo sorites](https://en.wikipedia.org/wiki/Sorites_paradox)
+- [Paradoxo de Russell](https://en.wikipedia.org/wiki/Russell's_paradox)
+- [Paradoxo de Fermi](https://en.wikipedia.org/wiki/Fermi_paradox)
+- [Paradoxo da tolerância](https://en.wikipedia.org/wiki/Paradox_of_tolerance)
+- [Paradoxo de Moore](https://en.wikipedia.org/wiki/Moore's_paradox)
+- [Paradoxo do enforcamento inesperado](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox)
+- [Paradoxo de Epicuro](https://en.wikipedia.org/wiki/Problem_of_evil)
+
+## Obras fundamentais
+
+### Antiguidade e Idade Média
+
+- [Platão - A República](https://en.wikipedia.org/wiki/Republic_(Plato)) ★
+- [Platão - Apologia de Sócrates](https://en.wikipedia.org/wiki/Apology_(Plato))
+- [Aristóteles - Ética a Nicômaco](https://en.wikipedia.org/wiki/Nicomachean_Ethics) ★
+- [Aristóteles - Metafísica](https://en.wikipedia.org/wiki/Metaphysics_(Aristotle))
+- [Aristóteles - Organon](https://en.wikipedia.org/wiki/Organon)
+- [Marco Aurélio - Meditações](https://en.wikipedia.org/wiki/Meditations) ★
+- [Epicteto - Encheirídion](https://en.wikipedia.org/wiki/Enchiridion_of_Epictetus)
+- [Sexto Empírico - Esboços Pirrônicos](https://en.wikipedia.org/wiki/Outlines_of_Pyrrhonism)
+- [Lucrécio - Sobre a Natureza das Coisas](https://en.wikipedia.org/wiki/De_rerum_natura)
+- [Agostinho - Confissões](https://en.wikipedia.org/wiki/Confessions_(Augustine))
+- [Boécio - A Consolação da Filosofia](https://en.wikipedia.org/wiki/The_Consolation_of_Philosophy)
+- [Tomás de Aquino - Suma Teológica](https://en.wikipedia.org/wiki/Summa_Theologica)
+- [Confúcio - Analectos](https://en.wikipedia.org/wiki/Analects)
+- [Laozi - Tao Te Ching](https://en.wikipedia.org/wiki/Tao_Te_Ching)
+
+### Modernidade
+
+- [Descartes - Meditações Metafísicas](https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy) ★
+- [Hobbes - Leviatã](https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book))
+- [Espinosa - Ética](https://en.wikipedia.org/wiki/Ethics_(Spinoza_book))
+- [Locke - Ensaio sobre o Entendimento Humano](https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding)
+- [Hume - Tratado da Natureza Humana](https://en.wikipedia.org/wiki/A_Treatise_of_Human_Nature)
+- [Rousseau - O Contrato Social](https://en.wikipedia.org/wiki/The_Social_Contract)
+- [Kant - Crítica da Razão Pura](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason) ★
+- [Kant - Fundamentação da Metafísica dos Costumes](https://en.wikipedia.org/wiki/Groundwork_of_the_Metaphysics_of_Morals)
+- [Mary Wollstonecraft - Reivindicação dos Direitos da Mulher](https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman)
+- [Bentham - Uma Introdução aos Princípios da Moral e da Legislação](https://en.wikipedia.org/wiki/An_Introduction_to_the_Principles_of_Morals_and_Legislation)
+- [Hegel - Fenomenologia do Espírito](https://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit)
+- [Mill - Sobre a Liberdade](https://en.wikipedia.org/wiki/On_Liberty)
+- [Mill - Utilitarismo](https://en.wikipedia.org/wiki/Utilitarianism_(book))
+- [Marx & Engels - Manifesto Comunista](https://en.wikipedia.org/wiki/The_Communist_Manifesto)
+- [Nietzsche - Assim Falou Zaratustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
+- [Kierkegaard - Temor e Tremor](https://en.wikipedia.org/wiki/Fear_and_Trembling)
+
+### Contemporâneas
+
+- [Wittgenstein - Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus)
+- [Wittgenstein - Investigações Filosóficas](https://en.wikipedia.org/wiki/Philosophical_Investigations) ★
+- [Heidegger - Ser e Tempo](https://en.wikipedia.org/wiki/Being_and_Time)
+- [Sartre - O Ser e o Nada](https://en.wikipedia.org/wiki/Being_and_Nothingness)
+- [Simone de Beauvoir - O Segundo Sexo](https://en.wikipedia.org/wiki/The_Second_Sex) ★
+- [Camus - O Mito de Sísifo](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus)
+- [Popper - A Lógica da Pesquisa Científica](https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery)
+- [Kuhn - A Estrutura das Revoluções Científicas](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions)
+- [Quine - Dois Dogmas do Empirismo](https://en.wikipedia.org/wiki/Two_Dogmas_of_Empiricism)
+- [Rawls - Uma Teoria da Justiça](https://en.wikipedia.org/wiki/A_Theory_of_Justice) ★
+- [Nozick - Anarquia, Estado e Utopia](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia)
+- [Singer - Libertação Animal](https://en.wikipedia.org/wiki/Animal_Liberation_(book)) ★
+- [Parfit - Razões e Pessoas](https://en.wikipedia.org/wiki/Reasons_and_Persons)
+- [Kripke - O Nome e a Necessidade](https://en.wikipedia.org/wiki/Naming_and_Necessity)
+- [Nagel - Como é ser um morcego?](https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F)
+- [Foucault - Vigiar e Punir](https://en.wikipedia.org/wiki/Discipline_and_Punish)
+- [Arendt - A Condição Humana](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book))
+- [Chalmers - The Conscious Mind](https://en.wikipedia.org/wiki/The_Conscious_Mind)
+
+### Introduções à filosofia
+
+- [Bertrand Russell - Os Problemas da Filosofia](https://en.wikipedia.org/wiki/The_Problems_of_Philosophy) ★
+- [Thomas Nagel - Que Quer Dizer Tudo Isto?](https://www.goodreads.com/search?q=Thomas+Nagel+What+Does+It+All+Mean)
+- [Simon Blackburn - Pense](https://www.goodreads.com/search?q=Simon+Blackburn+Think)
+- [Nigel Warburton - Uma Pequena História da Filosofia](https://www.goodreads.com/search?q=A+Little+History+of+Philosophy+Warburton)
+- [Jostein Gaarder - O Mundo de Sofia](https://en.wikipedia.org/wiki/Sophie's_World) ★
+- [Bertrand Russell - História da Filosofia Ocidental](https://en.wikipedia.org/wiki/A_History_of_Western_Philosophy)
+- [Julian Baggini - O Porco Filósofo](https://www.goodreads.com/search?q=The+Pig+That+Wants+to+Be+Eaten+Baggini)
+- [Desidério Murcho - Pensar Outra Vez](https://www.goodreads.com/search?q=Pensar+Outra+Vez+Desid%C3%A9rio+Murcho)
+
+## Filósofos
+
+### Antiguidade
+
+- [Tales de Mileto](https://en.wikipedia.org/wiki/Thales_of_Miletus)
+- [Heráclito](https://en.wikipedia.org/wiki/Heraclitus)
+- [Parmênides](https://en.wikipedia.org/wiki/Parmenides)
+- [Pitágoras](https://en.wikipedia.org/wiki/Pythagoras)
+- [Demócrito](https://en.wikipedia.org/wiki/Democritus)
+- [Sócrates](https://en.wikipedia.org/wiki/Socrates) ★
+- [Platão](https://en.wikipedia.org/wiki/Plato) ★
+- [Aristóteles](https://en.wikipedia.org/wiki/Aristotle) ★
+- [Diógenes de Sinope](https://en.wikipedia.org/wiki/Diogenes)
+- [Epicuro](https://en.wikipedia.org/wiki/Epicurus)
+- [Zenão de Cítio](https://en.wikipedia.org/wiki/Zeno_of_Citium)
+- [Pirro de Élis](https://en.wikipedia.org/wiki/Pyrrho)
+- [Sêneca](https://en.wikipedia.org/wiki/Seneca_the_Younger)
+- [Epicteto](https://en.wikipedia.org/wiki/Epictetus)
+- [Marco Aurélio](https://en.wikipedia.org/wiki/Marcus_Aurelius)
+- [Plotino](https://en.wikipedia.org/wiki/Plotinus)
+- [Hipátia](https://en.wikipedia.org/wiki/Hypatia)
+
+### Filosofia oriental
+
+- [Confúcio](https://en.wikipedia.org/wiki/Confucius) ★
+- [Laozi](https://en.wikipedia.org/wiki/Laozi)
+- [Zhuangzi](https://en.wikipedia.org/wiki/Zhuang_Zhou)
+- [Mêncio](https://en.wikipedia.org/wiki/Mencius)
+- [Mozi](https://en.wikipedia.org/wiki/Mozi)
+- [Sidarta Gautama (Buda)](https://en.wikipedia.org/wiki/The_Buddha) ★
+- [Nagarjuna](https://en.wikipedia.org/wiki/Nagarjuna)
+- [Adi Shankara](https://en.wikipedia.org/wiki/Adi_Shankara)
+- [Wang Yangming](https://en.wikipedia.org/wiki/Wang_Yangming)
+- [Dogen](https://en.wikipedia.org/wiki/D%C5%8Dgen)
+
+### Idade Média
+
+- [Agostinho de Hipona](https://en.wikipedia.org/wiki/Augustine_of_Hippo) ★
+- [Boécio](https://en.wikipedia.org/wiki/Boethius)
+- [Anselmo de Cantuária](https://en.wikipedia.org/wiki/Anselm_of_Canterbury)
+- [Avicena](https://en.wikipedia.org/wiki/Avicenna)
+- [Averróis](https://en.wikipedia.org/wiki/Averroes)
+- [Maimônides](https://en.wikipedia.org/wiki/Maimonides)
+- [Pedro Abelardo](https://en.wikipedia.org/wiki/Peter_Abelard)
+- [Tomás de Aquino](https://en.wikipedia.org/wiki/Thomas_Aquinas) ★
+- [Guilherme de Ockham](https://en.wikipedia.org/wiki/William_of_Ockham)
+- [Hildegarda de Bingen](https://en.wikipedia.org/wiki/Hildegard_of_Bingen)
+
+### Renascimento e Modernidade
+
+- [Nicolau Maquiavel](https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli)
+- [Michel de Montaigne](https://en.wikipedia.org/wiki/Michel_de_Montaigne)
+- [Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon)
+- [Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes)
+- [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes) ★
+- [Baruch Espinosa](https://en.wikipedia.org/wiki/Baruch_Spinoza)
+- [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal)
+- [John Locke](https://en.wikipedia.org/wiki/John_Locke)
+- [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
+- [George Berkeley](https://en.wikipedia.org/wiki/George_Berkeley)
+- [David Hume](https://en.wikipedia.org/wiki/David_Hume) ★
+- [Voltaire](https://en.wikipedia.org/wiki/Voltaire)
+- [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau)
+- [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) ★
+- [Mary Wollstonecraft](https://en.wikipedia.org/wiki/Mary_Wollstonecraft)
+- [Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham)
+
+### Século XIX
+
+- [G. W. F. Hegel](https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel)
+- [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
+- [Søren Kierkegaard](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
+- [John Stuart Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill) ★
+- [Karl Marx](https://en.wikipedia.org/wiki/Karl_Marx)
+- [Friedrich Nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche) ★
+- [Henry Sidgwick](https://en.wikipedia.org/wiki/Henry_Sidgwick)
+- [Charles Sanders Peirce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce)
+- [William James](https://en.wikipedia.org/wiki/William_James)
+- [Harriet Taylor Mill](https://en.wikipedia.org/wiki/Harriet_Taylor_Mill)
+
+### Século XX
+
+- [Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege) 🪦
+- [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell) ★ 🪦
+- [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl) 🪦
+- [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) ★ 🪦
+- [Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger) 🪦
+- [Jean-Paul Sartre](https://en.wikipedia.org/wiki/Jean-Paul_Sartre) 🪦
+- [Simone de Beauvoir](https://en.wikipedia.org/wiki/Simone_de_Beauvoir) ★ 🪦
+- [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus) 🪦
+- [Hannah Arendt](https://en.wikipedia.org/wiki/Hannah_Arendt) 🪦
+- [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) 🪦
+- [Thomas Kuhn](https://en.wikipedia.org/wiki/Thomas_Kuhn) 🪦
+- [W. V. O. Quine](https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine) 🪦
+- [John Rawls](https://en.wikipedia.org/wiki/John_Rawls) 🪦
+- [Robert Nozick](https://en.wikipedia.org/wiki/Robert_Nozick) 🪦
+- [Michel Foucault](https://en.wikipedia.org/wiki/Michel_Foucault) 🪦
+- [Jacques Derrida](https://en.wikipedia.org/wiki/Jacques_Derrida) 🪦
+- [Iris Murdoch](https://en.wikipedia.org/wiki/Iris_Murdoch) 🪦
+- [Elizabeth Anscombe](https://en.wikipedia.org/wiki/G._E._M._Anscombe) 🪦
+- [Philippa Foot](https://en.wikipedia.org/wiki/Philippa_Foot) 🪦
+- [Bernard Williams](https://en.wikipedia.org/wiki/Bernard_Williams) 🪦
+- [Derek Parfit](https://en.wikipedia.org/wiki/Derek_Parfit) 🪦
+- [Daniel Dennett](https://en.wikipedia.org/wiki/Daniel_Dennett) 🪦
+- [Saul Kripke](https://en.wikipedia.org/wiki/Saul_Kripke) 🪦
+- [Jürgen Habermas](https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas)
+
+### Contemporâneos
+
+- [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer) ★
+- [Martha Nussbaum](https://en.wikipedia.org/wiki/Martha_Nussbaum)
+- [Thomas Nagel](https://en.wikipedia.org/wiki/Thomas_Nagel)
+- [David Chalmers](https://en.wikipedia.org/wiki/David_Chalmers)
+- [Judith Butler](https://en.wikipedia.org/wiki/Judith_Butler)
+- [Slavoj Žižek](https://en.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek)
+- [Michael Sandel](https://en.wikipedia.org/wiki/Michael_Sandel)
+- [Kwame Anthony Appiah](https://en.wikipedia.org/wiki/Kwame_Anthony_Appiah)
+- [Christine Korsgaard](https://en.wikipedia.org/wiki/Christine_Korsgaard)
+- [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom)
+- [William MacAskill](https://en.wikipedia.org/wiki/William_MacAskill)
+- [Patricia Churchland](https://en.wikipedia.org/wiki/Patricia_Churchland)
+- [Timothy Williamson](https://en.wikipedia.org/wiki/Timothy_Williamson)
+- [Byung-Chul Han](https://en.wikipedia.org/wiki/Byung-Chul_Han)
+- [Oscar Horta](https://en.wikipedia.org/wiki/Oscar_Horta)
+
+### Brasil e América Latina
+
+- [Newton da Costa](https://en.wikipedia.org/wiki/Newton_da_Costa) ★ 🪦
+- [Marilena Chaui](https://en.wikipedia.org/wiki/Marilena_Chaui)
+- [Paulo Freire](https://en.wikipedia.org/wiki/Paulo_Freire) ★ 🪦
+- [Vilém Flusser](https://en.wikipedia.org/wiki/Vil%C3%A9m_Flusser) 🪦
+- [Oswaldo Porchat](https://pt.wikipedia.org/wiki/Oswaldo_Porchat) 🪦
+- [Bento Prado Júnior](https://pt.wikipedia.org/wiki/Bento_Prado_J%C3%BAnior) 🪦
+- [Djamila Ribeiro](https://en.wikipedia.org/wiki/Djamila_Ribeiro)
+- [Sueli Carneiro](https://en.wikipedia.org/wiki/Sueli_Carneiro)
+- [Enrique Dussel](https://en.wikipedia.org/wiki/Enrique_Dussel) 🪦
+- [Mario Bunge](https://en.wikipedia.org/wiki/Mario_Bunge) 🪦
+- [Desidério Murcho](https://en.wikipedia.org/wiki/Desid%C3%A9rio_Murcho)
+- [Luciano Carlos Cunha](https://pt.wikipedia.org/wiki/Luciano_Carlos_Cunha)
+
+## Divulgadores
+
+### Internacionais
+
+- [Nigel Warburton](https://en.wikipedia.org/wiki/Nigel_Warburton)
+- [Alain de Botton](https://en.wikipedia.org/wiki/Alain_de_Botton)
+- [Julian Baggini](https://en.wikipedia.org/wiki/Julian_Baggini)
+- [Simon Blackburn](https://en.wikipedia.org/wiki/Simon_Blackburn)
+- [Massimo Pigliucci](https://en.wikipedia.org/wiki/Massimo_Pigliucci)
+- [Stephen Law](https://en.wikipedia.org/wiki/Stephen_Law)
+- [Peter Adamson](https://en.wikipedia.org/wiki/Peter_Adamson_(philosopher))
+- [Stephen West](https://www.philosophizethis.org/)
+- [Abigail Thorn](https://en.wikipedia.org/wiki/Abigail_Thorn)
+
+### Brasil
+
+- [Mario Sergio Cortella](https://en.wikipedia.org/wiki/Mario_Sergio_Cortella) ★
+- [Clóvis de Barros Filho](https://pt.wikipedia.org/wiki/Cl%C3%B3vis_de_Barros_Filho)
+- [Vitor Lima](https://www.istonaoefilosofia.com.br/)
+- [Viviane Mosé](https://pt.wikipedia.org/wiki/Viviane_Mos%C3%A9)

@@ -1,0 +1,905 @@
+# A Biblioteca de True Crime
+
+> Catálogo pesquisável de true crime: crimes famosos no Brasil e no mundo, atentados, acidentes e desastres, crimes contra a humanidade, seitas, conceitos, livros, filmes, podcasts, premiações e canais de prevenção e denúncia.
+
+Biblioteca temática da BiblioVerse (The True Crime Library), com curadoria humana. Página: https://biblioverse.org/truecrime/ · 712 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria.
+
+## Crimes famosos
+
+### Assassinos em série
+
+- [Ted Bundy](https://pt.wikipedia.org/wiki/Ted_Bundy) ★
+- [Jeffrey Dahmer](https://pt.wikipedia.org/wiki/Jeffrey_Dahmer) ★
+- [Jack, o Estripador](https://pt.wikipedia.org/wiki/Jack,_o_Estripador) ★: EN: Jack the Ripper
+- [Assassino do Zodíaco](https://pt.wikipedia.org/wiki/Assassino_do_Zod%C3%ADaco) ★: EN: Zodiac Killer
+- [John Wayne Gacy](https://pt.wikipedia.org/wiki/John_Wayne_Gacy)
+- [Assassino de Golden State](https://pt.wikipedia.org/wiki/Joseph_James_DeAngelo): EN: Golden State Killer
+- [BTK (Dennis Rader)](https://pt.wikipedia.org/wiki/Dennis_Rader)
+- [Harold Shipman](https://pt.wikipedia.org/wiki/Harold_Shipman)
+- [Andrei Chikatilo](https://pt.wikipedia.org/wiki/Andrei_Tchikatilo)
+- [Luis Garavito](https://pt.wikipedia.org/wiki/Luis_Garavito)
+- [Pedro López](https://pt.wikipedia.org/wiki/Pedro_Alonso_L%C3%B3pez)
+- [H. H. Holmes](https://pt.wikipedia.org/wiki/H._H._Holmes)
+- [Aileen Wuornos](https://pt.wikipedia.org/wiki/Aileen_Wuornos)
+- [Ed Gein](https://pt.wikipedia.org/wiki/Ed_Gein)
+- [Richard Ramirez](https://pt.wikipedia.org/wiki/Richard_Ramirez)
+- [Gary Ridgway](https://pt.wikipedia.org/wiki/Gary_Ridgway)
+- [Charles Sobhraj](https://pt.wikipedia.org/wiki/Charles_Sobhraj)
+- [Isabel Báthory](https://pt.wikipedia.org/wiki/Isabel_Bathory): EN: Elizabeth Báthory
+- [Fred e Rose West](https://pt.wikipedia.org/wiki/Fred_West): EN: Fred and Rose West
+- [Estripador de Yorkshire](https://pt.wikipedia.org/wiki/Peter_Sutcliffe): EN: Yorkshire Ripper
+- [Samuel Little](https://pt.wikipedia.org/wiki/Samuel_Little)
+- [Israel Keyes](https://pt.wikipedia.org/wiki/Israel_Keyes)
+- [Unabomber](https://pt.wikipedia.org/wiki/Ted_Kaczynski)
+
+### Assassinatos famosos
+
+- [Caso O. J. Simpson](https://pt.wikipedia.org/wiki/Caso_O._J._Simpson) ★: EN: O. J. Simpson murder case
+- [Assassinato de John Lennon](https://pt.wikipedia.org/wiki/Assassinato_de_John_Lennon) ★: EN: Murder of John Lennon
+- [Assassinato de Abraham Lincoln](https://pt.wikipedia.org/wiki/Assassinato_de_Abraham_Lincoln): EN: Assassination of Abraham Lincoln
+- [Assassinato de John F. Kennedy](https://pt.wikipedia.org/wiki/Assassinato_de_John_F._Kennedy) ★: EN: Assassination of John F. Kennedy
+- [Assassinato de Martin Luther King Jr.](https://pt.wikipedia.org/wiki/Assassinato_de_Martin_Luther_King_Jr.): EN: Assassination of Martin Luther King Jr.
+- [Assassinato de Mahatma Gandhi](https://pt.wikipedia.org/wiki/Assassinato_de_Mahatma_Gandhi): EN: Assassination of Mahatma Gandhi
+- [Assassinato de Francisco Ferdinando](https://pt.wikipedia.org/wiki/Atentado_de_Sarajevo): EN: Assassination of Archduke Franz Ferdinand
+- [Assassinato de Olof Palme](https://en.wikipedia.org/wiki/Assassination_of_Olof_Palme): EN: Assassination of Olof Palme
+- [Assassinato de Jamal Khashoggi](https://pt.wikipedia.org/wiki/Assassinato_de_Jamal_Khashoggi): EN: Assassination of Jamal Khashoggi
+- [Assassinato de Kim Jong-nam](https://en.wikipedia.org/wiki/Assassination_of_Kim_Jong-nam): EN: Assassination of Kim Jong-nam
+- [Assassinato de Gianni Versace](https://pt.wikipedia.org/wiki/Andrew_Cunanan): EN: Murder of Gianni Versace
+- [Assassinatos da Família Manson](https://pt.wikipedia.org/wiki/Caso_Tate-LaBianca) ★: EN: Tate–LaBianca murders
+- [Assassinato de Kitty Genovese](https://pt.wikipedia.org/wiki/Kitty_Genovese): EN: Murder of Kitty Genovese
+- [Assassinato de Meredith Kercher (Amanda Knox)](https://pt.wikipedia.org/wiki/Assassinato_de_Meredith_Kercher): EN: Murder of Meredith Kercher (Amanda Knox)
+- [Assassinato de Emmett Till](https://pt.wikipedia.org/wiki/Emmett_Louis_Till): EN: Murder of Emmett Till
+- [Assassinato de George Floyd](https://pt.wikipedia.org/wiki/Assassinato_de_George_Floyd): EN: Murder of George Floyd
+- [Assassinato de Gabby Petito](https://pt.wikipedia.org/wiki/Assassinato_de_Gabrielle_Petito): EN: Killing of Gabby Petito
+- [Caso Lizzie Borden](https://pt.wikipedia.org/wiki/Lizzie_Borden): EN: Lizzie Borden
+- [Assassinatos dos irmãos Menendez](https://pt.wikipedia.org/wiki/Lyle_e_Erik_Menendez): EN: Menendez brothers
+- [Caso Jeffrey Epstein](https://pt.wikipedia.org/wiki/Jeffrey_Epstein) ★: EN: Jeffrey Epstein case
+- [Assassinatos de Delphi](https://pt.wikipedia.org/wiki/Assassinatos_de_Abigail_Williams_e_Liberty_German): EN: Delphi murders
+- [Assassinatos de Idaho (2022)](https://en.wikipedia.org/wiki/2022_Idaho_student_murders): EN: 2022 University of Idaho killings
+- [Caso Armin Meiwes (Canibal de Rotemburgo)](https://pt.wikipedia.org/wiki/Armin_Meiwes): EN: Armin Meiwes case (Rotenburg Cannibal)
+
+### Sequestros e cativeiros
+
+- [Sequestro do bebê Lindbergh](https://pt.wikipedia.org/wiki/Rapto_Lindbergh) ★: EN: Lindbergh kidnapping
+- [Sequestro de Patty Hearst](https://pt.wikipedia.org/wiki/Patty_Hearst): EN: Patty Hearst
+- [Natascha Kampusch](https://pt.wikipedia.org/wiki/Natascha_Kampusch)
+- [Caso Fritzl](https://en.wikipedia.org/wiki/Fritzl_case) ★: EN: Fritzl case
+- [Sequestro de Elizabeth Smart](https://en.wikipedia.org/wiki/Kidnapping_of_Elizabeth_Smart): EN: Kidnapping of Elizabeth Smart
+- [Sequestro de Jaycee Dugard](https://en.wikipedia.org/wiki/Kidnapping_of_Jaycee_Dugard): EN: Kidnapping of Jaycee Dugard
+- [Sequestros de Ariel Castro (Cleveland)](https://pt.wikipedia.org/wiki/Sequestros_de_Cleveland): EN: Ariel Castro kidnappings
+- [Sequestro de Chowchilla](https://en.wikipedia.org/wiki/1976_Chowchilla_kidnapping): EN: Chowchilla kidnapping
+- [Sequestro de Frank Sinatra Jr.](https://pt.wikipedia.org/wiki/Frank_Sinatra_Jr.): EN: Kidnapping of Frank Sinatra Jr.
+- [Caso Turpin](https://pt.wikipedia.org/wiki/Caso_Turpin): EN: Turpin case
+
+### Massacres e tiroteios
+
+- [Massacre de Columbine](https://pt.wikipedia.org/wiki/Massacre_de_Columbine) ★: EN: Columbine High School massacre
+- [Massacre de Sandy Hook](https://pt.wikipedia.org/wiki/Tiroteio_na_escola_prim%C3%A1ria_de_Sandy_Hook): EN: Sandy Hook Elementary School shooting
+- [Tiroteio de Las Vegas (2017)](https://pt.wikipedia.org/wiki/Tiroteio_de_Las_Vegas_Strip_em_2017): EN: 2017 Las Vegas shooting
+- [Massacre de Virginia Tech](https://pt.wikipedia.org/wiki/Massacre_de_Virginia_Tech): EN: Virginia Tech shooting
+- [Massacre da boate Pulse](https://pt.wikipedia.org/wiki/Massacre_de_Orlando): EN: Pulse nightclub shooting
+- [Massacre de Uvalde](https://pt.wikipedia.org/wiki/Tiroteio_na_escola_prim%C3%A1ria_Robb): EN: Uvalde school shooting
+- [Massacre de Port Arthur](https://pt.wikipedia.org/wiki/Massacre_de_Port_Arthur_(Austr%C3%A1lia)): EN: Port Arthur massacre
+- [Massacre de Dunblane](https://pt.wikipedia.org/wiki/Massacre_de_Dunblane): EN: Dunblane massacre
+- [Massacre de Christchurch](https://pt.wikipedia.org/wiki/Atentados_de_Christchurch): EN: Christchurch mosque shootings
+
+### Casos não resolvidos
+
+- [Dália Negra](https://pt.wikipedia.org/wiki/Elizabeth_Short) ★: EN: Black Dahlia
+- [D. B. Cooper](https://pt.wikipedia.org/wiki/D._B._Cooper) ★
+- [Caso JonBenét Ramsey](https://en.wikipedia.org/wiki/Killing_of_JonBen%C3%A9t_Ramsey): EN: Killing of JonBenét Ramsey
+- [Desaparecimento de Madeleine McCann](https://pt.wikipedia.org/wiki/Desaparecimento_de_Madeleine_McCann) ★: EN: Disappearance of Madeleine McCann
+- [Desaparecimento de Jimmy Hoffa](https://pt.wikipedia.org/wiki/Jimmy_Hoffa): EN: Jimmy Hoffa
+- [Caso Tamam Shud (Homem de Somerton)](https://pt.wikipedia.org/wiki/Caso_Taman_Shud): EN: Tamam Shud case
+- [Assassinatos de Hinterkaifeck](https://pt.wikipedia.org/wiki/Hinterkaifeck): EN: Hinterkaifeck murders
+- [Assassinatos de Villisca](https://pt.wikipedia.org/wiki/Assassinatos_de_Villisca): EN: Villisca axe murders
+- [Mulher de Isdal](https://pt.wikipedia.org/wiki/Mulher_de_Isdalen): EN: Isdal Woman
+- [Morte de Elisa Lam](https://pt.wikipedia.org/wiki/Morte_de_Elisa_Lam): EN: Death of Elisa Lam
+- [Assassino de Long Island](https://pt.wikipedia.org/wiki/Assassinatos_de_Gilgo_Beach): EN: Gilgo Beach serial killings
+- [Envenenamentos com Tylenol (1982)](https://pt.wikipedia.org/wiki/Assassinatos_com_Tylenol_em_Chicago): EN: Chicago Tylenol murders
+
+### Roubos e assaltos
+
+- [Grande Roubo do Trem](https://pt.wikipedia.org/wiki/Assalto_ao_trem_pagador_(Inglaterra)) ★: EN: Great Train Robbery
+- [Roubo da Mona Lisa (1911)](https://en.wikipedia.org/wiki/Mona_Lisa#Theft): EN: Theft of the Mona Lisa
+- [Roubo do Museu Isabella Stewart Gardner](https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum_theft): EN: Isabella Stewart Gardner Museum theft
+- [Roubo de diamantes de Antuérpia](https://pt.wikipedia.org/wiki/Roubo_de_diamantes_em_Antu%C3%A9rpia): EN: Antwerp diamond heist
+- [Roubo da Lufthansa](https://pt.wikipedia.org/wiki/Roubo_da_Lufthansa): EN: Lufthansa heist
+- [Roubo do Cofre Verde de Dresden](https://pt.wikipedia.org/wiki/Assalto_em_Dresden_em_2019): EN: Dresden Green Vault burglary
+- [Roubo de Hatton Garden](https://en.wikipedia.org/wiki/Hatton_Garden_safe_deposit_burglary): EN: Hatton Garden safe deposit burglary
+- [Roubo das joias do Louvre (2025)](https://pt.wikipedia.org/wiki/Roubo_no_Louvre_em_2025) ★: EN: Louvre jewel heist (2025)
+- [Roubo da Binance (2026)](https://en.wikipedia.org/wiki/2026_Binance_hack): EN: 2026 Binance hack
+
+### Crime organizado
+
+- [Máfia siciliana (Cosa Nostra)](https://pt.wikipedia.org/wiki/Cosa_nostra) ★: EN: Sicilian Mafia
+- [Máfia americana](https://pt.wikipedia.org/wiki/Cosa_Nostra_Americana): EN: American Mafia
+- [Al Capone](https://pt.wikipedia.org/wiki/Al_Capone)
+- [Pablo Escobar](https://pt.wikipedia.org/wiki/Pablo_Escobar) ★
+- [Cartel de Medellín](https://pt.wikipedia.org/wiki/Cartel_de_Medell%C3%ADn): EN: Medellín Cartel
+- [Cartel de Sinaloa](https://pt.wikipedia.org/wiki/Cartel_de_Sinaloa): EN: Sinaloa Cartel
+- [El Chapo](https://pt.wikipedia.org/wiki/El_Chapo)
+- [Yakuza](https://pt.wikipedia.org/wiki/Yakuza)
+- [Camorra](https://pt.wikipedia.org/wiki/Camorra)
+- ['Ndrangheta](https://pt.wikipedia.org/wiki/'Ndrangheta)
+- [Tríades](https://pt.wikipedia.org/wiki/Tr%C3%ADade_(organiza%C3%A7%C3%A3o_criminosa)): EN: Triads
+- [MS-13](https://pt.wikipedia.org/wiki/Mara_Salvatrucha)
+- [Primeiro Comando da Capital (PCC)](https://pt.wikipedia.org/wiki/Primeiro_Comando_da_Capital) ★
+- [Comando Vermelho](https://pt.wikipedia.org/wiki/Comando_Vermelho) ★
+
+## Crimes no Brasil
+
+### Casos brasileiros
+
+- [Caso Champinha (Liana Friedenbach e Felipe Caffé)](https://pt.wikipedia.org/wiki/Assassinatos_de_Liana_Friedenbach_e_Felipe_Caff%C3%A9): EN: Murders of Liana Friedenbach and Felipe Caffé
+- [Assassinato do cartunista Glauco](https://pt.wikipedia.org/wiki/Glauco_Villas_Boas): EN: Murder of cartoonist Glauco
+- [Linchamento de Fabiane Maria de Jesus](https://pt.wikipedia.org/wiki/Linchamento_de_Fabiane_Maria_de_Jesus): EN: Lynching of Fabiane Maria de Jesus
+- [Assassinato do indígena Galdino](https://pt.wikipedia.org/wiki/Assassinato_do_ind%C3%ADgena_Galdino): EN: Murder of Galdino Jesus dos Santos
+- [Caso Ives Ota](https://pt.wikipedia.org/wiki/Caso_Ives_Ota): EN: Ives Ota case
+- [Caso Farah Jorge Farah](https://pt.wikipedia.org/wiki/Farah_Jorge_Farah): EN: Farah Jorge Farah case
+- [Caso Pedreiro Amasiado (1992)](https://www.google.com/search?q=Caso+Pedreiro+Amasiado+1992): EN: Pedreiro Amasiado case (1992)
+- [Caso Ana Clara Gomes (2021)](https://www.google.com/search?q=Caso+Ana+Clara+Gomes+2021): EN: Ana Clara Gomes case (2021)
+- [Caso Cláudia Pinho Hartleben (2015)](https://www.google.com/search?q=Caso+Cl%C3%A1udia+Pinho+Hartleben+2015): EN: Cláudia Pinho Hartleben case (2015)
+- [Caso Isabella Nardoni](https://pt.wikipedia.org/wiki/Assassinato_de_Isabella_Nardoni) ★: EN: Isabella Nardoni case
+- [Caso Richthofen e irmãos Cravinhos](https://pt.wikipedia.org/wiki/Caso_Richthofen) ★: EN: Richthofen and Cravinhos case
+- [Caso Eloá Pimentel](https://pt.wikipedia.org/wiki/Sequestro_e_assassinato_de_Elo%C3%A1_Cristina): EN: Eloá Pimentel case
+- [Assassinato de Daniella Perez](https://pt.wikipedia.org/wiki/Assassinato_de_Daniella_Perez) ★: EN: Murder of Daniella Perez
+- [Caso Matsunaga e Kitano](https://pt.wikipedia.org/wiki/Assassinato_de_Marcos_Matsunaga): EN: Matsunaga case
+- [Caso Evandro](https://pt.wikipedia.org/wiki/Caso_Evandro) ★: EN: Evandro case
+- [Caso Eliza Samudio](https://pt.wikipedia.org/wiki/Assassinato_de_Eliza_Samudio): EN: Eliza Samudio case
+- [Caso Mércia Nakashima](https://pt.wikipedia.org/wiki/Assassinato_de_M%C3%A9rcia_Nakashima): EN: Mércia Nakashima case
+- [Caso Henry Borel](https://pt.wikipedia.org/wiki/Assassinato_de_Henry_Borel): EN: Henry Borel case
+- [Caso Bernardo Boldrini](https://pt.wikipedia.org/wiki/Assassinato_de_Bernardo_Boldrini): EN: Bernardo Boldrini case
+- [Caso João Hélio](https://pt.wikipedia.org/wiki/Assassinato_de_Jo%C3%A3o_H%C3%A9lio): EN: João Hélio case
+- [Caso Araceli](https://pt.wikipedia.org/wiki/Caso_Araceli): EN: Araceli case
+- [Caso Aída Curi](https://pt.wikipedia.org/wiki/Caso_A%C3%ADda_Curi): EN: Aída Curi case
+- [Assassinato de Ângela Diniz](https://pt.wikipedia.org/wiki/%C3%82ngela_Diniz): EN: Murder of Ângela Diniz
+- [Assassinato de Marielle Franco](https://pt.wikipedia.org/wiki/Assassinato_de_Marielle_Franco) ★: EN: Murder of Marielle Franco
+- [Assassinato de Tim Lopes](https://pt.wikipedia.org/wiki/Tim_Lopes): EN: Murder of Tim Lopes
+- [Assassinatos de Dom Phillips e Bruno Pereira](https://pt.wikipedia.org/wiki/Assassinatos_de_Bruno_Pereira_e_Dom_Phillips): EN: Killings of Dom Phillips and Bruno Pereira
+- [Assassinato de Chico Mendes](https://pt.wikipedia.org/wiki/Chico_Mendes): EN: Murder of Chico Mendes
+- [Assassinato de Dorothy Stang](https://pt.wikipedia.org/wiki/Dorothy_Stang): EN: Murder of Dorothy Stang
+- [Caso Celso Daniel](https://pt.wikipedia.org/wiki/Assassinato_de_Celso_Daniel): EN: Celso Daniel case
+- [Assassinato de PC Farias](https://pt.wikipedia.org/wiki/PC_Farias): EN: Death of PC Farias
+- [Morte de Vladimir Herzog](https://pt.wikipedia.org/wiki/Vladimir_Herzog): EN: Death of Vladimir Herzog
+- [Desaparecimento de Rubens Paiva](https://pt.wikipedia.org/wiki/Rubens_Paiva): EN: Disappearance of Rubens Paiva
+- [Caso dos Irmãos Naves (erro judiciário)](https://pt.wikipedia.org/wiki/Caso_dos_irm%C3%A3os_Naves): EN: Naves brothers case (miscarriage of justice)
+- [Caso Rachel Genofre](https://pt.wikipedia.org/wiki/Assassinato_de_Rachel_Genofre): EN: Rachel Genofre case
+- [Caso Lázaro Barbosa](https://pt.wikipedia.org/wiki/L%C3%A1zaro_Barbosa_de_Sousa): EN: Lázaro Barbosa manhunt
+- [Caso Discord (2023)](https://pt.wikipedia.org/wiki/Caso_Discord_(2023)): EN: Discord case (2023)
+- [Caso Discord (2026)](https://pt.wikipedia.org/wiki/Caso_Discord_(2026)): EN: Discord case (2026)
+- [Caso Antônia Ione Rodrigues da Silva (2025)](https://www.metropoles.com/distrito-federal/na-mira/faccionados-do-cv-matam-cozinheira-que-se-recusou-a-envenenar-pms): EN: Antônia Ione Rodrigues da Silva case (2025)
+- [Caso Juliana Garcia (61 socos em elevador, Natal, 2025)](https://sbtnews.sbt.com.br/noticia/brasil/acusado-de-espancar-namorada-vai-a-juri-popular-em-natal): EN: Juliana Garcia case (61 punches in an elevator, Natal, 2025)
+- [Caso Anna Gabriela Faria Lima e filho (Cotia, 2026)](https://sbtnews.sbt.com.br/noticia/brasil/policia-prende-suspeito-de-matar-ex-e-filho-na-grande-sp): EN: Anna Gabriela Faria Lima and son case (Cotia, 2026)
+- [Caso Lucas Portela (agressão a vizinhas em elevador, Tijuca, 2026)](https://sbtnews.sbt.com.br/noticia/brasil/quem-e-o-lutador-de-jiu-jitsu-preso-apos-espancar-vizinhas): EN: Lucas Portela case (elevator attack on two neighbours, Rio, 2026)
+
+### Crimes políticos
+
+- [Ditadura militar brasileira](https://pt.wikipedia.org/wiki/Ditadura_militar_brasileira) ★: EN: Brazilian military dictatorship
+- [Atentado contra Jair Bolsonaro (2018)](https://pt.wikipedia.org/wiki/Atentado_contra_Jair_Bolsonaro): EN: Stabbing of Jair Bolsonaro (2018)
+- [Tentativa de golpe de Estado (2022–2023)](https://pt.wikipedia.org/wiki/Tentativa_de_golpe_de_Estado_no_Brasil_em_2022%E2%80%932023) ★: EN: 2022–2023 Brazilian coup plot
+- [Esquema PC Farias (Governo Collor)](https://pt.wikipedia.org/wiki/Esquema_PC_Farias): EN: PC Farias scheme (Collor government)
+- [Anões do Orçamento (1993)](https://pt.wikipedia.org/wiki/An%C3%B5es_do_Or%C3%A7amento): EN: Budget Dwarves scandal (1993)
+- [Escândalo do Banestado](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_do_Banestado): EN: Banestado scandal
+- [Mensalão tucano](https://pt.wikipedia.org/wiki/Mensal%C3%A3o_tucano): EN: Toucan Mensalão
+- [Mensalão (2005)](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_do_mensal%C3%A3o) ★: EN: Mensalão scandal (2005)
+- [Escândalo dos Sanguessugas (2006)](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_dos_Sanguessugas): EN: Leeches scandal (2006)
+- [Trensalão (cartel dos trens de São Paulo)](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_das_licita%C3%A7%C3%B5es_no_transporte_p%C3%BAblico_em_S%C3%A3o_Paulo): EN: São Paulo train cartel scandal
+- [Petrolão / Operação Lava Jato](https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato) ★: EN: Petrolão / Operation Car Wash
+- [Operação Zelotes](https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Zelotes): EN: Operation Zealots
+- [Máfia da merenda (São Paulo)](https://pt.wikipedia.org/wiki/M%C3%A1fia_da_merenda): EN: School lunch mafia (São Paulo)
+- [Rachadinha](https://pt.wikipedia.org/wiki/Rachadinha): EN: Rachadinha (salary kickbacks)
+- [Caso Queiroz (rachadinha de Flávio Bolsonaro)](https://pt.wikipedia.org/wiki/Caso_Queiroz): EN: Queiroz case (Flávio Bolsonaro kickbacks)
+- [Orçamento secreto](https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto): EN: Secret budget
+- [Fraudes no INSS (2025)](https://pt.wikipedia.org/wiki/Esquema_de_fraudes_no_INSS) ★: EN: INSS pension fraud scheme (2025)
+- [Escândalo do Banco Master (2025)](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_do_Banco_Master): EN: Banco Master scandal (2025)
+- [Autodeclaração de Flávio Bolsonaro como "presidente eleito" (2026)](https://www.correiobraziliense.com.br/politica/2026/10/7529703-flavio-bolsonaro-se-autodeclara-verdadeiro-presidente-eleito-do-brasil.html) ★: EN: Flávio Bolsonaro self-declares "president-elect" (2026)
+
+### Assassinos em série brasileiros
+
+- [Maníaco do Parque](https://pt.wikipedia.org/wiki/Man%C3%ADaco_do_Parque) ★: EN: Park Maniac
+- [Pedrinho Matador](https://pt.wikipedia.org/wiki/Pedrinho_Matador) ★
+- [Chico Picadinho](https://pt.wikipedia.org/wiki/Chico_Picadinho)
+- [Bandido da Luz Vermelha](https://pt.wikipedia.org/wiki/Bandido_da_Luz_Vermelha): EN: Red Light Bandit
+- [Tiago Henrique Gomes da Rocha](https://pt.wikipedia.org/wiki/Man%C3%ADaco_de_Goi%C3%A2nia)
+- [Marcelo Costa de Andrade (Vampiro de Niterói)](https://pt.wikipedia.org/wiki/Vampiro_de_Niter%C3%B3i): EN: Marcelo Costa de Andrade
+
+### Chacinas e massacres
+
+- [Massacre do Colégio Santa Teresa (1963)](https://www.google.com/search?q=Massacre+do+Col%C3%A9gio+Santa+Teresa+1963): EN: Santa Teresa School massacre (1963)
+- [Massacre do Colégio Nossa Senhora de Fátima (1963)](https://www.google.com/search?q=Massacre+Col%C3%A9gio+Nossa+Senhora+de+F%C3%A1tima+1963): EN: Nossa Senhora de Fátima School massacre (1963)
+- [Chacina da Praça da Sé (1978)](https://www.google.com/search?q=Chacina+da+Pra%C3%A7a+da+S%C3%A9+1978): EN: Praça da Sé massacre (1978)
+- [Massacre do Colégio João Pessoa (1985)](https://www.google.com/search?q=Massacre+do+Col%C3%A9gio+Jo%C3%A3o+Pessoa+1985): EN: João Pessoa School massacre (1985)
+- [Chacina do Jardim Rosana (1990)](https://www.google.com/search?q=Chacina+do+Jardim+Rosana+1990): EN: Jardim Rosana massacre (1990)
+- [Chacina da Favela Nova Brasília (1994)](https://pt.wikipedia.org/wiki/Caso_Favela_Nova_Bras%C3%ADlia_versus_Brasil): EN: Favela Nova Brasília massacre (1994)
+- [Chacina de Porto Seguro (1994)](https://www.google.com/search?q=Chacina+de+Porto+Seguro+1994): EN: Porto Seguro massacre (1994)
+- [Massacre no cinema do Morumbi Shopping (1999)](https://pt.wikipedia.org/wiki/Massacre_no_Morumbi_Shopping): EN: Morumbi Shopping cinema shooting (1999)
+- [Chacina da Via Show (2003)](https://www.google.com/search?q=Chacina+da+Via+Show+2003): EN: Via Show massacre (2003)
+- [Chacina de Unaí (2004)](https://pt.wikipedia.org/wiki/Chacina_de_Una%C3%AD): EN: Unaí massacre (2004)
+- [Chacina da Baixada Fluminense (2005)](https://pt.wikipedia.org/wiki/Chacina_da_Baixada): EN: Baixada Fluminense massacre (2005)
+- [Barbárie de Queimadas (2012)](https://pt.wikipedia.org/wiki/Barb%C3%A1rie_de_Queimadas): EN: Queimadas barbarity (2012)
+- [Chacina de Osasco e Barueri (2015)](https://pt.wikipedia.org/wiki/Chacina_na_Grande_S%C3%A3o_Paulo_em_2015): EN: Osasco and Barueri massacre (2015)
+- [Chacina de Campinas (2016)](https://pt.wikipedia.org/wiki/Chacina_de_Campinas): EN: Campinas massacre (2016)
+- [Massacre do Colégio Goyases (2017)](https://pt.wikipedia.org/wiki/Massacre_do_Goyases): EN: Goyases School shooting (2017)
+- [Massacre de Janaúba (2017)](https://pt.wikipedia.org/wiki/Massacre_de_Jana%C3%BAba): EN: Janaúba daycare massacre (2017)
+- [Massacre de Saudades (2021)](https://pt.wikipedia.org/wiki/Ataque_%C3%A0_creche_de_Saudades): EN: Saudades daycare attack (2021)
+- [Chacina no DF (2022–2023)](https://pt.wikipedia.org/wiki/Familic%C3%ADdio_no_Distrito_Federal_em_2023): EN: Federal District family massacre (2022–2023)
+- [Massacre de Aracruz (2022)](https://pt.wikipedia.org/wiki/Ataques_escolares_de_Aracruz): EN: Aracruz school shootings (2022)
+- [Ataque à escola da Vila Sônia (2023)](https://pt.wikipedia.org/wiki/Ataque_%C3%A0_Escola_Estadual_Thomazia_Montoro): EN: Vila Sônia school attack (2023)
+- [Massacre do Carandiru](https://pt.wikipedia.org/wiki/Massacre_do_Carandiru) ★: EN: Carandiru massacre
+- [Chacina da Candelária](https://pt.wikipedia.org/wiki/Chacina_da_Candel%C3%A1ria) ★: EN: Candelária massacre
+- [Chacina de Vigário Geral](https://pt.wikipedia.org/wiki/Chacina_de_Vig%C3%A1rio_Geral): EN: Vigário Geral massacre
+- [Massacre de Eldorado dos Carajás](https://pt.wikipedia.org/wiki/Massacre_de_Eldorado_do_Caraj%C3%A1s): EN: Eldorado dos Carajás massacre
+- [Massacre de Realengo](https://pt.wikipedia.org/wiki/Massacre_de_Realengo): EN: Realengo massacre
+- [Massacre de Suzano](https://pt.wikipedia.org/wiki/Massacre_de_Suzano): EN: Suzano school shooting
+- [Chacina do Jacarezinho](https://pt.wikipedia.org/wiki/Chacina_do_Jacarezinho): EN: Jacarezinho massacre
+- [Massacre de Blumenau (creche)](https://pt.wikipedia.org/wiki/Massacre_de_Blumenau): EN: Blumenau daycare attack
+- [Massacre de Haximu (yanomamis)](https://pt.wikipedia.org/wiki/Massacre_de_Haximu): EN: Haximu massacre
+
+### Sequestros, roubos e golpes
+
+- [Sequestro do ônibus 174](https://pt.wikipedia.org/wiki/Sequestro_do_%C3%B4nibus_174) ★: EN: Bus 174 hijacking
+- [Sequestro de Abilio Diniz](https://pt.wikipedia.org/wiki/Sequestro_de_Abilio_Diniz): EN: Kidnapping of Abilio Diniz
+- [Sequestro de Washington Olivetto](https://pt.wikipedia.org/wiki/Washington_Olivetto): EN: Kidnapping of Washington Olivetto
+- [Furto ao Banco Central em Fortaleza](https://pt.wikipedia.org/wiki/Assalto_ao_Banco_Central_do_Brasil_em_Fortaleza) ★: EN: Banco Central burglary at Fortaleza
+- [Roubo da Taça Jules Rimet](https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy#Jules_Rimet_Trophy): EN: Theft of the Jules Rimet Trophy
+- [Roubo do Museu da Chácara do Céu](https://pt.wikipedia.org/wiki/Museu_da_Ch%C3%A1cara_do_C%C3%A9u): EN: Chácara do Céu Museum robbery
+
+### Ricos e impunidade
+
+- [Caso Thor Batista (atropelamento do ciclista Wanderson, 2012)](https://www.jornalopcao.com.br/ultimas-noticias/thor-batista-e-absolvido-por-morte-de-ciclista-28827/): EN: Thor Batista case (cyclist Wanderson run over, 2012)
+- [Caso Pimenta Neves (assassinato de Sandra Gomide, 2000)](https://pt.wikipedia.org/wiki/Pimenta_Neves): EN: Pimenta Neves case (murder of Sandra Gomide, 2000)
+- [Caso do Porsche (Fernando Sastre, 2024)](https://sbtnews.sbt.com.br/noticia/brasil/caso-porsche-motorista-e-condenado-a-17-anos-de-prisao): EN: Porsche case (Fernando Sastre, 2024)
+- [Edemar Cid Ferreira e o Banco Santos](https://pt.wikipedia.org/wiki/Edemar_Cid_Ferreira): EN: Edemar Cid Ferreira and Banco Santos
+- [Eike Batista (Operação Eficiência)](https://pt.wikipedia.org/wiki/Eike_Batista): EN: Eike Batista (Operation Efficiency)
+
+### Facções e crime organizado
+
+- [Primeiro Comando da Capital (PCC)](https://pt.wikipedia.org/wiki/Primeiro_Comando_da_Capital) ★
+- [Comando Vermelho](https://pt.wikipedia.org/wiki/Comando_Vermelho) ★
+- [Milícias do Rio de Janeiro](https://pt.wikipedia.org/wiki/Mil%C3%ADcia_(criminalidade_no_Brasil)): EN: Militias in Rio de Janeiro
+- [Jogo do bicho](https://pt.wikipedia.org/wiki/Jogo_do_bicho)
+- [Fernandinho Beira-Mar](https://pt.wikipedia.org/wiki/Fernandinho_Beira-Mar)
+- [Marcola](https://pt.wikipedia.org/wiki/Marcola_(criminoso))
+- [Ataques do PCC em 2006](https://pt.wikipedia.org/wiki/Atos_de_viol%C3%AAncia_organizada_no_Brasil_em_2006): EN: 2006 PCC attacks
+
+## Atentados e terrorismo
+
+### Atentados terroristas
+
+- [Estado Islâmico (ISIS)](https://pt.wikipedia.org/wiki/Estado_Isl%C3%A2mico_do_Iraque_e_do_Levante) ★: EN: Islamic State (ISIS)
+- [Ataque do Hamas a Israel (7 de outubro de 2023)](https://pt.wikipedia.org/wiki/Ataque_do_Hamas_a_Israel_em_2023) ★: EN: October 7 attacks (2023)
+- [Ataques de 11 de setembro](https://pt.wikipedia.org/wiki/Ataques_de_11_de_setembro_de_2001) ★: EN: September 11 attacks
+- [Atentado de Oklahoma City](https://pt.wikipedia.org/wiki/Atentado_de_Oklahoma_City): EN: Oklahoma City bombing
+- [Atentados de Madri (2004)](https://pt.wikipedia.org/wiki/Atentados_de_11_de_mar%C3%A7o_de_2004_em_Madrid): EN: 2004 Madrid train bombings
+- [Atentados de Londres (2005)](https://pt.wikipedia.org/wiki/Atentados_de_7_de_julho_de_2005_em_Londres): EN: 7 July 2005 London bombings
+- [Atentados de Paris (2015)](https://pt.wikipedia.org/wiki/Ataques_de_novembro_de_2015_em_Paris) ★: EN: November 2015 Paris attacks
+- [Atentado ao Charlie Hebdo](https://pt.wikipedia.org/wiki/Massacre_do_Charlie_Hebdo): EN: Charlie Hebdo shooting
+- [Massacre de Munique (1972)](https://pt.wikipedia.org/wiki/Massacre_de_Munique): EN: Munich massacre
+- [Atentado de Lockerbie](https://pt.wikipedia.org/wiki/Atentado_de_Lockerbie): EN: Lockerbie bombing
+- [Atentado à AMIA (Buenos Aires)](https://pt.wikipedia.org/wiki/Atentado_contra_a_AMIA): EN: AMIA bombing
+- [Atentados de 2011 na Noruega](https://pt.wikipedia.org/wiki/Atentados_na_Noruega_em_2011): EN: 2011 Norway attacks
+- [Atentado da Maratona de Boston](https://pt.wikipedia.org/wiki/Atentado_%C3%A0_Maratona_de_Boston_de_2013): EN: Boston Marathon bombing
+- [Ataque com gás sarin no metrô de Tóquio](https://pt.wikipedia.org/wiki/Ataque_com_g%C3%A1s_sarin_ao_Metr%C3%B4_de_T%C3%B3quio): EN: Tokyo subway sarin attack
+- [Atentado de Nice (2016)](https://pt.wikipedia.org/wiki/Atentado_de_julho_de_2016_em_Nice): EN: 2016 Nice truck attack
+- [Massacre da escola de Beslan](https://pt.wikipedia.org/wiki/Massacre_de_Beslan): EN: Beslan school siege
+- [Ataques de Mumbai (2008)](https://pt.wikipedia.org/wiki/Atentados_de_26_de_novembro_de_2008_em_Bombaim): EN: 2008 Mumbai attacks
+- [Atentado de Bali (2002)](https://pt.wikipedia.org/wiki/Atentados_em_Bali_em_outubro_de_2002): EN: 2002 Bali bombings
+- [Atentado da Manchester Arena](https://pt.wikipedia.org/wiki/Atentado_de_Manchester_em_2017): EN: Manchester Arena bombing
+- [Ataque ao Crocus City Hall](https://pt.wikipedia.org/wiki/Ataque_ao_Crocus_City_Hall): EN: Crocus City Hall attack
+- [Atentado do Riocentro (Brasil)](https://pt.wikipedia.org/wiki/Atentado_do_Riocentro): EN: Riocentro bombing (Brazil)
+- [Atentados de Ancara (2015)](https://pt.wikipedia.org/wiki/Atentado_em_Ancara_em_2015): EN: 2015 Ankara bombings
+- [Atentado do Hotel King David (1946)](https://pt.wikipedia.org/wiki/Atentado_do_Hotel_King_David): EN: King David Hotel bombing (1946)
+- [Massacre de Bolonha (1980)](https://pt.wikipedia.org/wiki/Massacre_de_Bolonha): EN: Bologna massacre (1980)
+- [Atentado contra os quartéis de Beirute (1983)](https://pt.wikipedia.org/wiki/Atentado_contra_os_quart%C3%A9is_de_Beirute_em_1983): EN: Beirut barracks bombings (1983)
+- [Voo Air India 182 (1985)](https://pt.wikipedia.org/wiki/Voo_Air_India_182): EN: Air India Flight 182 (1985)
+- [Atentado ao World Trade Center (1993)](https://pt.wikipedia.org/wiki/Atentado_de_1993_ao_World_Trade_Center): EN: World Trade Center bombing (1993)
+- [Atentado de Omagh (1998)](https://en.wikipedia.org/wiki/Omagh_bombing): EN: Omagh bombing (1998)
+- [Atentados às embaixadas dos EUA na África (1998)](https://pt.wikipedia.org/wiki/Atentados_terroristas_%C3%A0s_embaixadas_dos_Estados_Unidos_na_%C3%81frica_de_1998): EN: US embassy bombings in Africa (1998)
+- [Crise dos reféns do teatro de Moscou (2002)](https://pt.wikipedia.org/wiki/Crise_dos_ref%C3%A9ns_do_teatro_de_Dubrovka): EN: Moscow theater hostage crisis (2002)
+- [Ataque ao shopping Westgate (2013)](https://pt.wikipedia.org/wiki/Tiroteio_e_sequestro_no_centro_comercial_Westgate): EN: Westgate shopping mall attack (2013)
+- [Massacre da escola de Peshawar (2014)](https://pt.wikipedia.org/wiki/Ataque_%C3%A0_escola_do_ex%C3%A9rcito_em_Peshawar): EN: Peshawar school massacre (2014)
+- [Ataque à Universidade de Garissa (2015)](https://pt.wikipedia.org/wiki/Ataque_contra_a_Universidade_de_Garissa): EN: Garissa University College attack (2015)
+- [Atentados de Bruxelas (2016)](https://pt.wikipedia.org/wiki/Atentados_em_Bruxelas_em_mar%C3%A7o_de_2016): EN: Brussels bombings (2016)
+- [Atentado no aeroporto de Istambul (2016)](https://pt.wikipedia.org/wiki/Atentados_no_aeroporto_de_Istambul): EN: Istanbul airport attack (2016)
+- [Atentado de Berlim (2016)](https://pt.wikipedia.org/wiki/Atentado_de_Berlim_em_2016): EN: Berlin truck attack (2016)
+- [Atentados de Barcelona (2017)](https://pt.wikipedia.org/wiki/Atentados_na_Catalunha_em_2017): EN: Barcelona attacks (2017)
+- [Atentado de Mogadíscio (2017)](https://pt.wikipedia.org/wiki/Ataque_em_Mogad%C3%ADscio_em_outubro_de_2017): EN: Mogadishu bombings (2017)
+- [Tiroteio na sinagoga de Pittsburgh (2018)](https://pt.wikipedia.org/wiki/Tiroteio_na_sinagoga_de_Pittsburgh): EN: Pittsburgh synagogue shooting (2018)
+- [Atentados de Páscoa no Sri Lanka (2019)](https://pt.wikipedia.org/wiki/Atentados_de_P%C3%A1scoa_no_Sri_Lanka): EN: Sri Lanka Easter bombings (2019)
+- [Massacre de El Paso (2019)](https://pt.wikipedia.org/wiki/Tiroteio_em_El_Paso_de_2019): EN: El Paso Walmart shooting (2019)
+- [Ataque ao aeroporto de Cabul (2021)](https://pt.wikipedia.org/wiki/Ataque_no_aeroporto_de_Cabul_em_2021): EN: Kabul airport attack (2021)
+- [Massacre de Fort Hood (2009)](https://pt.wikipedia.org/wiki/Tiroteio_de_Fort_Hood_de_2009): EN: Fort Hood shooting (2009)
+
+## Acidentes e desastres
+
+### Trânsito e automobilismo
+
+- [Morte da princesa Diana](https://pt.wikipedia.org/wiki/Morte_de_Diana,_Princesa_de_Gales) ★: EN: Death of Diana, Princess of Wales
+- [Morte de James Dean](https://en.wikipedia.org/wiki/James_Dean#Death): EN: Death of James Dean
+- [Morte de Grace Kelly](https://en.wikipedia.org/wiki/Grace_Kelly#Death): EN: Death of Grace Kelly
+- [Morte de Paul Walker](https://en.wikipedia.org/wiki/Paul_Walker#Death): EN: Death of Paul Walker
+- [Morte de Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus#Death): EN: Death of Albert Camus
+- [Morte de Ayrton Senna](https://pt.wikipedia.org/wiki/Morte_de_Ayrton_Senna) ★: EN: Death of Ayrton Senna
+- [Desastre de Le Mans (1955)](https://pt.wikipedia.org/wiki/Desastre_de_Le_Mans_em_1955): EN: 1955 Le Mans disaster
+- [Desastre de Los Alfaques](https://pt.wikipedia.org/wiki/Acidente_de_Los_Alfaques): EN: Los Alfaques disaster
+- [Morte de Isadora Duncan](https://en.wikipedia.org/wiki/Isadora_Duncan#Death): EN: Death of Isadora Duncan
+
+### Aviação
+
+- [Desastre de Tenerife](https://pt.wikipedia.org/wiki/Desastre_a%C3%A9reo_de_Tenerife) ★: EN: Tenerife airport disaster
+- [Voo Japan Air Lines 123](https://pt.wikipedia.org/wiki/Voo_Japan_Airlines_123): EN: Japan Air Lines Flight 123
+- [Voo Malaysia Airlines 370](https://pt.wikipedia.org/wiki/Voo_Malaysia_Airlines_370) ★: EN: Malaysia Airlines Flight 370
+- [Voo Malaysia Airlines 17](https://pt.wikipedia.org/wiki/Voo_Malaysia_Airlines_17): EN: Malaysia Airlines Flight 17
+- [Voo Air France 447](https://pt.wikipedia.org/wiki/Voo_Air_France_447): EN: Air France Flight 447
+- [Voo Uruguaio 571 (Sociedade da Neve)](https://pt.wikipedia.org/wiki/Voo_For%C3%A7a_A%C3%A9rea_Uruguaia_571) ★: EN: Uruguayan Air Force Flight 571
+- [Voo Germanwings 9525](https://pt.wikipedia.org/wiki/Voo_Germanwings_9525): EN: Germanwings Flight 9525
+- [Desastre do Hindenburg](https://pt.wikipedia.org/wiki/Desastre_do_Hindenburg): EN: Hindenburg disaster
+- [O Dia em que a Música Morreu](https://pt.wikipedia.org/wiki/The_Day_the_Music_Died): EN: The Day the Music Died
+- [Queda do helicóptero de Kobe Bryant](https://pt.wikipedia.org/wiki/Acidente_do_helic%C3%B3ptero_Sikorsky_S-76_prefixo_N72EX_em_2020): EN: Kobe Bryant helicopter crash
+- [Voo LaMia 2933 (Chapecoense)](https://pt.wikipedia.org/wiki/Voo_LaMia_2933) ★: EN: LaMia Flight 2933 (Chapecoense)
+- [Voo TAM 3054](https://pt.wikipedia.org/wiki/Voo_TAM_3054): EN: TAM Airlines Flight 3054
+- [Voo Gol 1907](https://pt.wikipedia.org/wiki/Voo_Gol_1907): EN: Gol Transportes Aéreos Flight 1907
+- [Acidente aéreo dos Mamonas Assassinas](https://pt.wikipedia.org/wiki/Mamonas_Assassinas): EN: Mamonas Assassinas plane crash
+- [Queda do avião de Marília Mendonça](https://pt.wikipedia.org/wiki/Acidente_do_Beechcraft_King_Air_prefixo_PT-ONJ_em_2021): EN: Marília Mendonça plane crash
+- [Voo Voepass 2283](https://pt.wikipedia.org/wiki/Voo_Voepass_2283): EN: Voepass Flight 2283
+
+### Ferrovias
+
+- [Descarrilamento de Santiago de Compostela](https://pt.wikipedia.org/wiki/Descarrilamento_de_Santiago_de_Compostela): EN: Santiago de Compostela derailment
+- [Desastre ferroviário de Eschede](https://pt.wikipedia.org/wiki/Acidente_ferrovi%C3%A1rio_de_Eschede): EN: Eschede train disaster
+- [Acidente da Gare Montparnasse (1895)](https://pt.wikipedia.org/wiki/Expresso_Paris-Granville) ★: EN: Montparnasse derailment
+- [Desastre de Lac-Mégantic](https://pt.wikipedia.org/wiki/Acidente_ferrovi%C3%A1rio_de_Lac-M%C3%A9gantic_de_2013): EN: Lac-Mégantic rail disaster
+- [Desastre ferroviário de Odisha (2023)](https://pt.wikipedia.org/wiki/Desastre_ferrovi%C3%A1rio_de_Odixa): EN: 2023 Odisha train collision
+- [Desastre ferroviário do tsunami no Sri Lanka (2004)](https://pt.wikipedia.org/wiki/Desastre_ferrovi%C3%A1rio_de_Peraliya): EN: 2004 Sri Lanka tsunami train wreck
+
+### Naufrágios e afogamentos
+
+- [Naufrágio do Titanic](https://pt.wikipedia.org/wiki/Naufr%C3%A1gio_do_RMS_Titanic) ★: EN: Sinking of the Titanic
+- [Naufrágio do Lusitania](https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania): EN: Sinking of the RMS Lusitania
+- [Naufrágio do Wilhelm Gustloff](https://pt.wikipedia.org/wiki/MV_Wilhelm_Gustloff): EN: Sinking of the Wilhelm Gustloff
+- [Naufrágio do MV Doña Paz](https://pt.wikipedia.org/wiki/MV_Do%C3%B1a_Paz): EN: MV Doña Paz
+- [Naufrágio do MS Estonia](https://pt.wikipedia.org/wiki/MS_Estonia): EN: MS Estonia
+- [Naufrágio do Costa Concordia](https://pt.wikipedia.org/wiki/Naufr%C3%A1gio_do_Costa_Concordia): EN: Costa Concordia disaster
+- [Naufrágio do Sewol](https://pt.wikipedia.org/wiki/Naufr%C3%A1gio_do_Sewol): EN: Sinking of MV Sewol
+- [Naufrágio do Bateau Mouche IV](https://pt.wikipedia.org/wiki/Naufr%C3%A1gio_do_Bateau_Mouche_IV) ★: EN: Bateau Mouche IV sinking
+- [Desastre do submarino Kursk](https://en.wikipedia.org/wiki/Kursk_submarine_disaster): EN: Kursk submarine disaster
+- [Implosão do submersível Titan](https://pt.wikipedia.org/wiki/Acidente_do_submers%C3%ADvel_Titan_em_2023): EN: Titan submersible implosion
+- [Morte de Natalie Wood](https://en.wikipedia.org/wiki/Natalie_Wood#Death): EN: Death of Natalie Wood
+- [Morte de Brian Jones](https://en.wikipedia.org/wiki/Brian_Jones#Death): EN: Death of Brian Jones
+- [Morte de Jeff Buckley](https://en.wikipedia.org/wiki/Jeff_Buckley#Death): EN: Death of Jeff Buckley
+- [Resgate na caverna Tham Luang](https://pt.wikipedia.org/wiki/Resgate_da_caverna_de_Tham_Luang): EN: Tham Luang cave rescue
+
+### Incêndios
+
+- [Tragédia do Cine Oberdan (1938, falso incêndio)](https://pt.wikipedia.org/wiki/Trag%C3%A9dia_do_Cine_Oberdan): EN: Cine Oberdan tragedy (1938, false fire alarm)
+- [Incêndio na Boate Canecão Mineiro (2001)](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_Canec%C3%A3o_Mineiro): EN: Canecão Mineiro nightclub fire (2001)
+- [Incêndio na Favela do Coque (2014)](https://www.google.com/search?q=Inc%C3%AAndio+Favela+do+Coque+2014): EN: Favela do Coque fire (2014)
+- [Incêndio na Creche Gente Inocente (Janaúba, 2017)](https://pt.wikipedia.org/wiki/Massacre_de_Jana%C3%BAba): EN: Gente Inocente daycare fire (Janaúba, 2017)
+- [Incêndio no Hospital Badim (2019)](https://www.google.com/search?q=Inc%C3%AAndio+Hospital+Badim+2019): EN: Badim Hospital fire (2019)
+- [Incêndio na boate Kiss](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_na_boate_Kiss) ★: EN: Kiss nightclub fire
+- [Incêndio do Edifício Joelma](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_Edif%C3%ADcio_Joelma) ★: EN: Joelma Building fire
+- [Incêndio do Edifício Andraus](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_Edif%C3%ADcio_Andraus): EN: Andraus Building fire
+- [Incêndio do Gran Circus Norte-Americano](https://pt.wikipedia.org/wiki/Trag%C3%A9dia_do_Gran_Circus_Norte-Americano): EN: Niterói circus fire
+- [Incêndio no Ninho do Urubu](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_alojamento_do_Flamengo): EN: Ninho do Urubu fire
+- [Incêndio do Museu Nacional](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_Museu_Nacional_do_Rio_de_Janeiro): EN: National Museum of Brazil fire
+- [Grande Incêndio de Londres](https://pt.wikipedia.org/wiki/Grande_Inc%C3%AAndio_de_Londres): EN: Great Fire of London
+- [Grande Incêndio de Chicago](https://pt.wikipedia.org/wiki/Grande_inc%C3%AAndio_de_Chicago): EN: Great Chicago Fire
+- [Incêndio da Triangle Shirtwaist](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_na_f%C3%A1brica_da_Triangle_Shirtwaist): EN: Triangle Shirtwaist Factory fire
+- [Incêndio da Torre Grenfell](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_na_torre_Grenfell): EN: Grenfell Tower fire
+- [Incêndio da Catedral de Notre-Dame](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_da_Catedral_de_Notre-Dame_de_Paris): EN: Notre-Dame de Paris fire
+- [Incêndio da boate Cromañón](https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Croma%C3%B1%C3%B3n): EN: República Cromañón nightclub fire
+- [Incêndio da boate The Station](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_no_The_Station_Nightclub): EN: The Station nightclub fire
+- [Incêndio do Cocoanut Grove](https://en.wikipedia.org/wiki/Cocoanut_Grove_fire): EN: Cocoanut Grove fire
+- [Incêndios de Los Angeles (2025)](https://pt.wikipedia.org/wiki/Inc%C3%AAndios_florestais_na_Calif%C3%B3rnia_em_janeiro_de_2025): EN: January 2025 Southern California wildfires
+
+### Desastres industriais e nucleares
+
+- [Desastre de Chernobyl](https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Chernobil) ★: EN: Chernobyl disaster
+- [Acidente nuclear de Fukushima](https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Fukushima_I): EN: Fukushima nuclear accident
+- [Desastre de Bhopal](https://pt.wikipedia.org/wiki/Desastre_de_Bopal) ★: EN: Bhopal disaster
+- [Acidente radiológico de Goiânia (césio-137)](https://pt.wikipedia.org/wiki/Acidente_radiol%C3%B3gico_de_Goi%C3%A2nia) ★: EN: Goiânia accident
+- [Explosão no porto de Beirute](https://pt.wikipedia.org/wiki/Explos%C3%B5es_no_porto_de_Beirute_em_2020): EN: 2020 Beirut explosion
+- [Acidente de Three Mile Island](https://pt.wikipedia.org/wiki/Acidente_de_Three_Mile_Island): EN: Three Mile Island accident
+- [Explosão da Deepwater Horizon](https://pt.wikipedia.org/wiki/Explos%C3%A3o_da_plataforma_Deepwater_Horizon): EN: Deepwater Horizon explosion
+- [Derramamento do Exxon Valdez](https://pt.wikipedia.org/wiki/Derramamento_de_petr%C3%B3leo_do_Exxon_Valdez): EN: Exxon Valdez oil spill
+- [Desastre de Piper Alpha](https://pt.wikipedia.org/wiki/Piper_Alpha): EN: Piper Alpha
+- [Explosão de Halifax](https://pt.wikipedia.org/wiki/Explos%C3%A3o_de_Halifax): EN: Halifax Explosion
+- [Desastre do ônibus espacial Challenger](https://pt.wikipedia.org/wiki/Acidente_do_%C3%B4nibus_espacial_Challenger): EN: Space Shuttle Challenger disaster
+- [Desastre de Vila Socó (Cubatão)](https://pt.wikipedia.org/wiki/Inc%C3%AAndio_na_Vila_Soc%C3%B3): EN: Vila Socó fire (Cubatão)
+- [Afundamento do solo em Maceió (Braskem)](https://pt.wikipedia.org/wiki/Afundamento_do_solo_de_Macei%C3%B3): EN: Maceió ground subsidence (Braskem)
+
+### Barragens, desabamentos e enchentes
+
+- [Rompimento da barragem de Mariana](https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana) ★: EN: Mariana dam disaster
+- [Rompimento da barragem de Brumadinho](https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho) ★: EN: Brumadinho dam disaster
+- [Desabamento do Rana Plaza](https://pt.wikipedia.org/wiki/Desabamento_de_pr%C3%A9dio_em_Savar): EN: Rana Plaza collapse
+- [Desabamento do Edifício Palace II](https://pt.wikipedia.org/wiki/Desmoronamento_do_Palace_II): EN: Palace II building collapse
+- [Queda da Ponte Morandi](https://en.wikipedia.org/wiki/Ponte_Morandi_collapse): EN: Ponte Morandi collapse
+- [Desabamento em Surfside](https://pt.wikipedia.org/wiki/Colapso_de_edif%C3%ADcio_em_Surfside): EN: Surfside condominium collapse
+- [Desabamento da loja Sampoong](https://pt.wikipedia.org/wiki/Desabamento_da_loja_de_departamentos_de_Sampoong): EN: Sampoong Department Store collapse
+- [Desastre da barragem de Banqiao](https://en.wikipedia.org/wiki/1975_Banqiao_Dam_failure): EN: Banqiao Dam failure
+- [Enchentes no Rio Grande do Sul (2024)](https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024): EN: 2024 Rio Grande do Sul floods
+- [Tragédia de Petrópolis (2022)](https://pt.wikipedia.org/wiki/Enchentes_e_deslizamentos_em_Petr%C3%B3polis_em_2022): EN: 2022 Petrópolis floods
+
+### Multidões e estádios
+
+- [Desastre de Hillsborough](https://pt.wikipedia.org/wiki/Desastre_de_Hillsborough) ★: EN: Hillsborough disaster
+- [Tragédia de Heysel](https://pt.wikipedia.org/wiki/Trag%C3%A9dia_de_Heysel): EN: Heysel Stadium disaster
+- [Tragédia de Itaewon](https://pt.wikipedia.org/wiki/Trag%C3%A9dia_de_Halloween_na_Coreia_do_Sul): EN: Seoul Halloween crowd crush
+- [Tumulto de Mina (Hajj 2015)](https://pt.wikipedia.org/wiki/Pisoteamento_em_Meca_em_2015): EN: 2015 Mina stampede
+- [Love Parade (2010)](https://en.wikipedia.org/wiki/Love_Parade_disaster): EN: Love Parade disaster
+- [Astroworld (2021)](https://pt.wikipedia.org/wiki/Pisoteamento_no_Astroworld_Festival): EN: Astroworld Festival crowd crush
+- [Tragédia do estádio Kanjuruhan](https://pt.wikipedia.org/wiki/Desastre_do_est%C3%A1dio_Kanjuruhan): EN: Kanjuruhan Stadium disaster
+
+## Crimes contra a humanidade
+
+### Genocídios
+
+- [Genocídio na Faixa de Gaza](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_na_Faixa_de_Gaza) ★: EN: Gaza genocide
+- [Holocausto](https://pt.wikipedia.org/wiki/Holocausto) ★: EN: The Holocaust
+- [Genocídio em Ruanda](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_em_Ruanda) ★: EN: Rwandan genocide
+- [Genocídio armênio](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_arm%C3%AAnio): EN: Armenian genocide
+- [Genocídio cambojano](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_cambojano): EN: Cambodian genocide
+- [Massacre de Srebrenica](https://pt.wikipedia.org/wiki/Massacre_de_Srebrenica): EN: Srebrenica massacre
+- [Holodomor](https://pt.wikipedia.org/wiki/Holodomor)
+- [Genocídio dos hererós e namaquas](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_dos_herer%C3%B3s_e_namaquas): EN: Herero and Nama genocide
+- [Genocídio de Darfur](https://en.wikipedia.org/wiki/Darfur_genocide): EN: Darfur genocide
+- [Genocídio rohingya](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_ruainga): EN: Rohingya genocide
+- [Genocídio yazidi](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_iazidi): EN: Yazidi genocide
+- [Genocídio de Bangladesh (1971)](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_em_Bangladesh_em_1971): EN: 1971 Bangladesh genocide
+- [Porajmos (genocídio cigano)](https://pt.wikipedia.org/wiki/Porajmos): EN: Romani Holocaust
+- [Genocídio dos povos indígenas](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio_ind%C3%ADgena): EN: Genocide of Indigenous peoples
+- [Crise humanitária yanomami](https://pt.wikipedia.org/wiki/Crise_humanit%C3%A1ria_ianom%C3%A2mi_em_2022%E2%80%932023): EN: Yanomami humanitarian crisis
+
+### Crimes de guerra
+
+- [Invasão russa da Ucrânia](https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_(2022%E2%80%93presente)) ★: EN: Russian invasion of Ukraine
+- [Crimes de guerra na invasão da Ucrânia](https://pt.wikipedia.org/wiki/Crimes_de_guerra_durante_a_invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_em_2022): EN: War crimes in the Russian invasion of Ukraine
+- [Massacre de Nanquim](https://pt.wikipedia.org/wiki/Massacre_de_Nanquim) ★: EN: Nanjing Massacre
+- [Massacre de My Lai](https://pt.wikipedia.org/wiki/Massacre_de_M%E1%BB%B9_Lai): EN: My Lai massacre
+- [Massacre de Katyn](https://pt.wikipedia.org/wiki/Massacre_de_Katyn): EN: Katyn massacre
+- [Mulheres de conforto](https://pt.wikipedia.org/wiki/Mulheres_de_conforto): EN: Comfort women
+- [Bombardeio de Guernica](https://pt.wikipedia.org/wiki/Bombardeio_de_Guernica): EN: Bombing of Guernica
+- [Massacre de Lidice](https://pt.wikipedia.org/wiki/Massacre_de_L%C3%ADdice): EN: Lidice massacre
+- [Ataque químico de Halabja](https://pt.wikipedia.org/wiki/Massacre_de_Halabja): EN: Halabja massacre
+- [Massacre de Oradour-sur-Glane](https://pt.wikipedia.org/wiki/Massacre_de_Oradour-sur-Glane): EN: Oradour-sur-Glane massacre
+- [Massacre de Bucha](https://pt.wikipedia.org/wiki/Massacre_de_Bucha): EN: Bucha massacre
+- [Uso de crianças-soldado](https://pt.wikipedia.org/wiki/Crian%C3%A7a-soldado): EN: Child soldiers
+
+### Ditaduras e repressão
+
+- [Gulag](https://pt.wikipedia.org/wiki/Gulag) ★
+- [Grande Fome Chinesa](https://pt.wikipedia.org/wiki/Fome_de_1958%E2%80%931961_na_China): EN: Great Chinese Famine
+- [Revolução Cultural](https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cultural_Chinesa): EN: Cultural Revolution
+- [Massacre da Praça da Paz Celestial](https://pt.wikipedia.org/wiki/Massacre_da_Pra%C3%A7a_da_Paz_Celestial_em_1989): EN: Tiananmen Square massacre
+- [Campos de detenção de Xinjiang](https://pt.wikipedia.org/wiki/Campos_de_internamento_de_Sinqui%C3%A3o): EN: Xinjiang internment camps
+- [Operação Condor](https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Condor): EN: Operation Condor
+- [Desaparecidos políticos](https://pt.wikipedia.org/wiki/Desaparecimento_for%C3%A7ado): EN: Forced disappearance
+- [Tortura na ditadura militar brasileira](https://pt.wikipedia.org/wiki/Tortura_no_Brasil): EN: Torture in the Brazilian military dictatorship
+- [Apartheid](https://pt.wikipedia.org/wiki/Apartheid)
+- [Tuol Sleng (S-21)](https://pt.wikipedia.org/wiki/Tuol_Sleng)
+- [Linchamentos nos Estados Unidos](https://pt.wikipedia.org/wiki/Linchamentos_nos_Estados_Unidos): EN: Lynching in the United States
+- [Massacre de Tulsa](https://pt.wikipedia.org/wiki/Massacre_de_Tulsa): EN: Tulsa race massacre
+- [Ku Klux Klan](https://pt.wikipedia.org/wiki/Ku_Klux_Klan)
+- [Grande Expurgo](https://pt.wikipedia.org/wiki/Grande_Expurgo): EN: Great Purge
+
+### Escravidão e tráfico humano
+
+- [Tráfico atlântico de escravos](https://pt.wikipedia.org/wiki/Com%C3%A9rcio_de_escravos_no_Atl%C3%A2ntico) ★: EN: Atlantic slave trade
+- [Escravidão no Brasil](https://pt.wikipedia.org/wiki/Escravid%C3%A3o_no_Brasil) ★: EN: Slavery in Brazil
+- [Tráfico de pessoas](https://pt.wikipedia.org/wiki/Tr%C3%A1fico_de_pessoas): EN: Human trafficking
+- [Escravidão moderna](https://pt.wikipedia.org/wiki/Escravid%C3%A3o_contempor%C3%A2nea): EN: Modern slavery
+- [Trabalho análogo à escravidão no Brasil](https://pt.wikipedia.org/wiki/Trabalho_escravo_contempor%C3%A2neo): EN: Slave-like labor in Brazil
+- [Trabalho infantil](https://pt.wikipedia.org/wiki/Trabalho_infantil): EN: Child labour
+- [Atrocidades no Estado Livre do Congo](https://pt.wikipedia.org/wiki/Atrocidades_no_Estado_Livre_do_Congo): EN: Atrocities in the Congo Free State
+- [Escolas residenciais indígenas (Canadá)](https://pt.wikipedia.org/wiki/Sistema_canadense_de_escolas_residenciais_ind%C3%ADgenas): EN: Canadian Indian residential school system
+- [Lavanderias de Madalena](https://en.wikipedia.org/wiki/Magdalene_laundries_in_Ireland): EN: Magdalene laundries
+- [Caso Argentina Casting (Gianfranco Gaspar Núñez, 2026)](https://www.lacapital.com.ar/la-ciudad/quien-es-gianfranco-gaspar-nunez-el-rosarino-detras-argentina-casting-detenido-explotacion-sexual-mujeres-n10255650.html): EN: Argentina Casting case (Gianfranco Gaspar Núñez, 2026)
+
+### Experimentos antiéticos
+
+- [Estudo da sífilis de Tuskegee](https://pt.wikipedia.org/wiki/Estudo_da_s%C3%ADfilis_n%C3%A3o_tratada_de_Tuskegee) ★: EN: Tuskegee syphilis study
+- [Unidade 731](https://pt.wikipedia.org/wiki/Unidade_731) ★: EN: Unit 731
+- [Experimentos nazistas em humanos](https://pt.wikipedia.org/wiki/Experimentos_humanos_nazistas): EN: Nazi human experimentation
+- [Josef Mengele](https://pt.wikipedia.org/wiki/Josef_Mengele)
+- [Holocausto Brasileiro (Hospital Colônia de Barbacena)](https://pt.wikipedia.org/wiki/Hospital_Col%C3%B4nia_de_Barbacena) ★: EN: Brazilian Holocaust (Barbacena asylum)
+- [Experimentos de sífilis na Guatemala](https://pt.wikipedia.org/wiki/Experimentos_com_s%C3%ADfilis_na_Guatemala): EN: Guatemala syphilis experiments
+- [Projeto MKUltra](https://pt.wikipedia.org/wiki/Projeto_MKULTRA): EN: Project MKUltra
+- [Escândalo da talidomida](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_da_talidomida): EN: Thalidomide scandal
+- [Lobotomia](https://pt.wikipedia.org/wiki/Lobotomia): EN: Lobotomy
+
+### Exploração animal
+
+- [Pecuária industrial](https://pt.wikipedia.org/wiki/Pecu%C3%A1ria_intensiva) ★: EN: Factory farming
+- [Testes em animais](https://pt.wikipedia.org/wiki/Testes_com_animais) ★: EN: Animal testing
+- [Caça às baleias](https://pt.wikipedia.org/wiki/Balea%C3%A7%C3%A3o): EN: Whaling
+- [Tráfico de animais silvestres](https://pt.wikipedia.org/wiki/Tr%C3%A1fico_de_animais): EN: Wildlife trade
+- [Caça furtiva](https://pt.wikipedia.org/wiki/Ca%C3%A7a_furtiva): EN: Poaching
+- [Indústria de peles](https://en.wikipedia.org/wiki/Fur_farming): EN: Fur trade
+- [Tourada](https://pt.wikipedia.org/wiki/Tauromaquia): EN: Bullfighting
+- [Rinha de galos](https://pt.wikipedia.org/wiki/Luta_de_galos): EN: Cockfight
+- [Farra do boi](https://pt.wikipedia.org/wiki/Farra_do_Boi)
+- [Vaquejada](https://pt.wikipedia.org/wiki/Vaquejada)
+- [Foie gras](https://pt.wikipedia.org/wiki/Foie_gras)
+- [Matança de golfinhos em Taiji](https://en.wikipedia.org/wiki/Taiji_dolphin_drive_hunt): EN: Taiji dolphin drive hunt
+- [Orcas em cativeiro](https://en.wikipedia.org/wiki/Captive_orcas): EN: Captive killer whales
+- [Pesca de arrasto](https://en.wikipedia.org/wiki/Bottom_trawling): EN: Bottom trawling
+- [Ecocídio](https://pt.wikipedia.org/wiki/Ecoc%C3%ADdio): EN: Ecocide
+- [Desmatamento da Amazônia](https://pt.wikipedia.org/wiki/Desmatamento_da_Floresta_Amaz%C3%B4nica): EN: Deforestation of the Amazon rainforest
+
+## Líderes políticos autoritários
+
+### Europa
+
+- [Adolf Hitler](https://pt.wikipedia.org/wiki/Adolf_Hitler) ★
+- [Josef Stalin](https://pt.wikipedia.org/wiki/Josef_Stalin) ★
+- [Benito Mussolini](https://pt.wikipedia.org/wiki/Benito_Mussolini)
+- [Heinrich Himmler](https://pt.wikipedia.org/wiki/Heinrich_Himmler)
+- [Francisco Franco](https://pt.wikipedia.org/wiki/Francisco_Franco)
+- [Nicolae Ceaușescu](https://pt.wikipedia.org/wiki/Nicolae_Ceau%C8%99escu)
+- [Slobodan Milošević](https://pt.wikipedia.org/wiki/Slobodan_Milo%C5%A1evi%C4%87)
+- [Radovan Karadžić](https://pt.wikipedia.org/wiki/Radovan_Karad%C5%BEi%C4%87)
+- [Ratko Mladić](https://pt.wikipedia.org/wiki/Ratko_Mladi%C4%87)
+- [Leopoldo II da Bélgica](https://pt.wikipedia.org/wiki/Leopoldo_II_da_B%C3%A9lgica) ★: EN: Leopold II of Belgium
+- [Enver Hoxha](https://pt.wikipedia.org/wiki/Enver_Hoxha)
+- [Lavrentiy Beria](https://pt.wikipedia.org/wiki/Lavrenti_Beria)
+- [Vladimir Putin](https://pt.wikipedia.org/wiki/Vladimir_Putin) ★
+- [Aleksandr Lukashenko](https://pt.wikipedia.org/wiki/Aleksandr_Lukashenko): EN: Alexander Lukashenko
+
+### Ásia e Oriente Médio
+
+- [Mao Tsé-Tung](https://pt.wikipedia.org/wiki/Mao_Ts%C3%A9-Tung) ★: EN: Mao Zedong
+- [Pol Pot](https://pt.wikipedia.org/wiki/Pol_Pot) ★
+- [Kim Il-sung](https://pt.wikipedia.org/wiki/Kim_Il-sung)
+- [Kim Jong-il](https://pt.wikipedia.org/wiki/Kim_Jong-il)
+- [Kim Jong-un](https://pt.wikipedia.org/wiki/Kim_Jong-un)
+- [Saddam Hussein](https://pt.wikipedia.org/wiki/Saddam_Hussein)
+- [Hideki Tojo](https://pt.wikipedia.org/wiki/Hideki_T%C5%8Dj%C5%8D)
+- [Bashar al-Assad](https://pt.wikipedia.org/wiki/Bashar_al-Assad)
+- [Yahya Khan](https://pt.wikipedia.org/wiki/Yahya_Khan)
+- [Suharto](https://pt.wikipedia.org/wiki/Suharto)
+- [Abu Bakr al-Baghdadi](https://pt.wikipedia.org/wiki/Abu_Bakr_al-Baghdadi)
+- [Osama bin Laden](https://pt.wikipedia.org/wiki/Osama_bin_Laden)
+- [Ali Khamenei](https://pt.wikipedia.org/wiki/Ali_Khamenei)
+- [Rodrigo Duterte](https://pt.wikipedia.org/wiki/Rodrigo_Duterte)
+- [Min Aung Hlaing](https://pt.wikipedia.org/wiki/Min_Aung_Hlaing)
+
+### África
+
+- [Idi Amin](https://pt.wikipedia.org/wiki/Idi_Amin) ★
+- [Jean-Bédel Bokassa](https://pt.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa)
+- [Mobutu Sese Seko](https://pt.wikipedia.org/wiki/Mobutu_Sese_Seko)
+- [Mengistu Haile Mariam](https://pt.wikipedia.org/wiki/Mengistu_Haile_Mariam)
+- [Charles Taylor](https://pt.wikipedia.org/wiki/Charles_Taylor_(pol%C3%ADtico_liberiano))
+- [Omar al-Bashir](https://pt.wikipedia.org/wiki/Omar_al-Bashir)
+- [Robert Mugabe](https://pt.wikipedia.org/wiki/Robert_Mugabe)
+- [Muammar Gaddafi](https://pt.wikipedia.org/wiki/Muammar_Gaddafi)
+- [Théoneste Bagosora](https://pt.wikipedia.org/wiki/Theoneste_Bagosora)
+- [Hissène Habré](https://pt.wikipedia.org/wiki/Hiss%C3%A8ne_Habr%C3%A9)
+
+### Américas
+
+- [Augusto Pinochet](https://pt.wikipedia.org/wiki/Augusto_Pinochet) ★
+- [Jorge Rafael Videla](https://pt.wikipedia.org/wiki/Jorge_Rafael_Videla)
+- [Rafael Trujillo](https://pt.wikipedia.org/wiki/Rafael_Trujillo)
+- [François Duvalier (Papa Doc)](https://pt.wikipedia.org/wiki/Fran%C3%A7ois_Duvalier)
+- [Anastasio Somoza](https://pt.wikipedia.org/wiki/Anastasio_Somoza_Garc%C3%ADa)
+- [Alfredo Stroessner](https://pt.wikipedia.org/wiki/Alfredo_Stroessner)
+- [Efraín Ríos Montt](https://pt.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt)
+- [Manuel Noriega](https://pt.wikipedia.org/wiki/Manuel_Noriega)
+- [Fulgencio Batista](https://pt.wikipedia.org/wiki/Fulgencio_Batista)
+- [Alberto Fujimori](https://pt.wikipedia.org/wiki/Alberto_Fujimori)
+- [Donald Trump](https://pt.wikipedia.org/wiki/Donald_Trump) ★
+- [Jair Bolsonaro](https://pt.wikipedia.org/wiki/Jair_Bolsonaro) ★
+- [Fidel Castro](https://pt.wikipedia.org/wiki/Fidel_Castro)
+- [Hugo Chávez](https://pt.wikipedia.org/wiki/Hugo_Ch%C3%A1vez)
+- [Nicolás Maduro](https://pt.wikipedia.org/wiki/Nicol%C3%A1s_Maduro)
+- [Daniel Ortega](https://pt.wikipedia.org/wiki/Daniel_Ortega)
+
+## Seitas e gurus
+
+### Seitas destrutivas
+
+- [Templo dos Povos (Jonestown)](https://pt.wikipedia.org/wiki/Templo_do_Povo) ★: EN: Peoples Temple (Jonestown)
+- [Família Manson](https://pt.wikipedia.org/wiki/Fam%C3%ADlia_Manson) ★: EN: Manson Family
+- [Ramo Davidiano (cerco de Waco)](https://pt.wikipedia.org/wiki/Cerco_de_Waco): EN: Branch Davidians (Waco siege)
+- [Heaven's Gate](https://pt.wikipedia.org/wiki/Heaven's_Gate_(seita))
+- [Aum Shinrikyo](https://pt.wikipedia.org/wiki/Aum_Shinrikyo)
+- [NXIVM](https://pt.wikipedia.org/wiki/NXIVM)
+- [Rajneeshpuram](https://pt.wikipedia.org/wiki/Rajneeshpuram)
+- [Ordem do Templo Solar](https://pt.wikipedia.org/wiki/Ordem_do_Templo_Solar): EN: Order of the Solar Temple
+- [Meninos de Deus](https://pt.wikipedia.org/wiki/Meninos_de_Deus): EN: Children of God
+- [Igreja FLDS](https://pt.wikipedia.org/wiki/Igreja_Fundamentalista_de_Jesus_Cristo_dos_Santos_dos_%C3%9Altimos_Dias): EN: FLDS Church
+- [Movimento para a Restauração dos Dez Mandamentos](https://pt.wikipedia.org/wiki/Movimento_para_a_Restaura%C3%A7%C3%A3o_dos_Dez_Mandamentos_de_Deus): EN: Movement for the Restoration of the Ten Commandments of God
+- [Massacre de Shakahola](https://pt.wikipedia.org/wiki/Igreja_Internacional_das_Boas_Novas): EN: Shakahola Forest massacre
+- [Colônia Dignidade](https://pt.wikipedia.org/wiki/Col%C3%B4nia_Dignidade): EN: Colonia Dignidad
+- [Meninos emasculados de Altamira](https://pt.wikipedia.org/wiki/Caso_dos_meninos_emasculados_em_Altamira): EN: Emasculated boys of Altamira
+
+### Gurus e líderes
+
+- [Jim Jones](https://pt.wikipedia.org/wiki/Jim_Jones) ★
+- [Charles Manson](https://pt.wikipedia.org/wiki/Charles_Manson) ★
+- [David Koresh](https://pt.wikipedia.org/wiki/David_Koresh)
+- [Shoko Asahara](https://pt.wikipedia.org/wiki/Shoko_Asahara)
+- [Keith Raniere](https://en.wikipedia.org/wiki/Keith_Raniere)
+- [Bhagwan Shree Rajneesh (Osho)](https://pt.wikipedia.org/wiki/Rajneesh)
+- [Warren Jeffs](https://pt.wikipedia.org/wiki/Warren_Jeffs)
+- [David Berg](https://pt.wikipedia.org/wiki/David_Berg)
+- [Marshall Applewhite](https://pt.wikipedia.org/wiki/Marshall_Applewhite)
+- [Paul Schäfer](https://pt.wikipedia.org/wiki/Paul_Sch%C3%A4fer)
+- [João de Deus](https://pt.wikipedia.org/wiki/Jo%C3%A3o_de_Deus_(m%C3%A9dium))
+- [Paul Mackenzie](https://pt.wikipedia.org/wiki/Igreja_Internacional_das_Boas_Novas)
+
+## Conceitos
+
+### Criminologia e psicologia
+
+- [Criminologia](https://pt.wikipedia.org/wiki/Criminologia) ★: EN: Criminology
+- [Psicopatia](https://pt.wikipedia.org/wiki/Psicopatia) ★: EN: Psychopathy
+- [Assassino em série](https://pt.wikipedia.org/wiki/Assassino_em_s%C3%A9rie) ★: EN: Serial killer
+- [Assassinato em massa](https://pt.wikipedia.org/wiki/Assass%C3%ADnio_em_massa): EN: Mass murder
+- [Psicologia criminal](https://pt.wikipedia.org/wiki/Psicologia_criminal): EN: Criminal psychology
+- [Tríade sombria](https://pt.wikipedia.org/wiki/Tr%C3%ADade_obscura): EN: Dark triad
+- [Tríade de Macdonald](https://pt.wikipedia.org/wiki/Tr%C3%ADade_MacDonald): EN: Macdonald triad
+- [Síndrome de Estocolmo](https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Estocolmo): EN: Stockholm syndrome
+- [Efeito espectador](https://pt.wikipedia.org/wiki/Efeito_do_espectador): EN: Bystander effect
+- [Teoria das janelas quebradas](https://pt.wikipedia.org/wiki/Teoria_das_janelas_quebradas): EN: Broken windows theory
+- [Hibristofilia](https://pt.wikipedia.org/wiki/Hibristofilia): EN: Hybristophilia
+- [Feminicídio](https://pt.wikipedia.org/wiki/Feminic%C3%ADdio): EN: Femicide
+- [Crime de ódio](https://pt.wikipedia.org/wiki/Crime_de_%C3%B3dio): EN: Hate crime
+- [Crime contra a humanidade](https://pt.wikipedia.org/wiki/Crime_contra_a_humanidade): EN: Crime against humanity
+- [Genocídio](https://pt.wikipedia.org/wiki/Genoc%C3%ADdio): EN: Genocide
+
+### Investigação e justiça
+
+- [Perfil criminal](https://en.wikipedia.org/wiki/Offender_profiling) ★: EN: Offender profiling
+- [Ciência forense](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_forense) ★: EN: Forensic science
+- [Perfil de DNA](https://pt.wikipedia.org/wiki/Impress%C3%A3o_gen%C3%A9tica): EN: DNA profiling
+- [Genealogia genética forense](https://en.wikipedia.org/wiki/Investigative_genetic_genealogy): EN: Forensic genetic genealogy
+- [Modus operandi](https://pt.wikipedia.org/wiki/Modus_operandi)
+- [Autópsia](https://pt.wikipedia.org/wiki/Aut%C3%B3psia): EN: Autopsy
+- [Caso arquivado (cold case)](https://pt.wikipedia.org/wiki/Caso_arquivado): EN: Cold case
+- [Erro judiciário](https://pt.wikipedia.org/wiki/Erro_judicial): EN: Miscarriage of justice
+- [Confissão falsa](https://en.wikipedia.org/wiki/False_confession): EN: False confession
+- [Unidade de Análise Comportamental do FBI](https://en.wikipedia.org/wiki/Behavioral_Analysis_Unit): EN: FBI Behavioral Analysis Unit
+- [Tribunal Penal Internacional](https://pt.wikipedia.org/wiki/Tribunal_Penal_Internacional): EN: International Criminal Court
+- [Julgamentos de Nuremberg](https://pt.wikipedia.org/wiki/Julgamentos_de_Nuremberga): EN: Nuremberg trials
+
+### Fenômenos e cultura
+
+- [True crime](https://pt.wikipedia.org/wiki/True_crime_(g%C3%AAnero)) ★
+- [Efeito CSI](https://en.wikipedia.org/wiki/CSI_effect): EN: CSI effect
+- [Síndrome da mulher branca desaparecida](https://pt.wikipedia.org/wiki/S%C3%ADndrome_da_Mulher_Branca_Desaparecida): EN: Missing white woman syndrome
+- [Turismo sombrio](https://en.wikipedia.org/wiki/Dark_tourism): EN: Dark tourism
+- [Detetives da internet](https://pt.wikipedia.org/wiki/Vigilantismo_na_Internet): EN: Internet sleuths
+- [Imitação de crimes (efeito copycat)](https://pt.wikipedia.org/wiki/Efeito_copycat): EN: Copycat crime
+- [Florida Man](https://pt.wikipedia.org/wiki/Florida_Man)
+- [Murderabilia](https://en.wikipedia.org/wiki/Murderabilia)
+
+## Livros
+
+### Clássicos internacionais
+
+- [A Sangue Frio (Truman Capote)](https://pt.wikipedia.org/wiki/A_Sangue_Frio) ★: EN: In Cold Blood (Truman Capote)
+- [Helter Skelter (Vincent Bugliosi)](https://pt.wikipedia.org/wiki/Helter_Skelter_(livro))
+- [Eu Terei Sumido na Escuridão (Michelle McNamara)](https://en.wikipedia.org/wiki/I'll_Be_Gone_in_the_Dark) ★: EN: I'll Be Gone in the Dark (Michelle McNamara)
+- [Zodíaco (Robert Graysmith)](https://en.wikipedia.org/wiki/Zodiac_(true_crime_book)): EN: Zodiac (Robert Graysmith)
+- [Ted Bundy: Um Estranho ao Meu Lado (Ann Rule)](https://en.wikipedia.org/wiki/The_Stranger_Beside_Me): EN: The Stranger Beside Me (Ann Rule)
+- [Mindhunter (John Douglas)](https://en.wikipedia.org/wiki/Mindhunter:_Inside_the_FBI's_Elite_Serial_Crime_Unit)
+- [Assassinos da Lua das Flores (David Grann)](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon_(book)): EN: Killers of the Flower Moon (David Grann)
+- [Say Nothing (Patrick Radden Keefe)](https://en.wikipedia.org/wiki/Say_Nothing_(book))
+- [Columbine (Dave Cullen)](https://pt.wikipedia.org/wiki/Columbine_(livro))
+- [O Diabo na Cidade Branca (Erik Larson)](https://en.wikipedia.org/wiki/The_Devil_in_the_White_City): EN: The Devil in the White City (Erik Larson)
+- [Pela Bandeira do Paraíso (Jon Krakauer)](https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven): EN: Under the Banner of Heaven (Jon Krakauer)
+- [Eichmann em Jerusalém (Hannah Arendt)](https://pt.wikipedia.org/wiki/Eichmann_em_Jerusal%C3%A9m): EN: Eichmann in Jerusalem (Hannah Arendt)
+- [Divisão de Homicídios (David Simon) — DarkSide](https://en.wikipedia.org/wiki/Homicide:_A_Year_on_the_Killing_Streets): EN: Homicide: A Year on the Killing Streets (David Simon)
+- [Mindhunter Profile: Mundo Serial Killer (Robert K. Ressler) — DarkSide](https://www.goodreads.com/search?q=Whoever+Fights+Monsters+Ressler): EN: Whoever Fights Monsters (Robert K. Ressler)
+- [Serial Killers: Anatomia do Mal (Harold Schechter) — DarkSide](https://www.goodreads.com/search?q=The+Serial+Killer+Files+Harold+Schechter): EN: The Serial Killer Files (Harold Schechter)
+- [Enciclopédia Serial Killers (Harold Schechter e David Everitt) — DarkSide](https://www.goodreads.com/search?q=A+to+Z+Encyclopedia+of+Serial+Killers): EN: The A to Z Encyclopedia of Serial Killers (Harold Schechter & David Everitt)
+- [Ed Gein: O Psicopata (Harold Schechter) — DarkSide](https://www.goodreads.com/search?q=Deviant+Harold+Schechter+Ed+Gein): EN: Deviant: The Shocking True Story of Ed Gein (Harold Schechter)
+- [Lady Killers: Assassinas em Série (Tori Telfer) — DarkSide](https://www.goodreads.com/search?q=Lady+Killers+Tori+Telfer): EN: Lady Killers (Tori Telfer)
+- [Vítima: O Outro Lado do Assassinato (Gary Kinder) — DarkSide](https://www.goodreads.com/search?q=Victim+The+Other+Side+of+Murder+Gary+Kinder): EN: Victim: The Other Side of Murder (Gary Kinder)
+- [Ossos do Ofício (Sue Black) — DarkSide](https://www.goodreads.com/search?q=All+That+Remains+Sue+Black): EN: All That Remains (Sue Black)
+
+### Brasileiros
+
+- [Rota 66 (Caco Barcellos)](https://pt.wikipedia.org/wiki/Rota_66_(livro)) ★
+- [Abusado (Caco Barcellos)](https://pt.wikipedia.org/wiki/Abusado_-_O_Dono_do_Morro_Dona_Marta)
+- [Holocausto Brasileiro (Daniela Arbex)](https://pt.wikipedia.org/wiki/Holocausto_Brasileiro) ★: EN: Brazilian Holocaust (Daniela Arbex)
+- [Todo Dia a Mesma Noite (Daniela Arbex)](https://www.goodreads.com/search?q=Todo+Dia+a+Mesma+Noite+Daniela+Arbex): EN: Every Day the Same Night (Daniela Arbex)
+- [Arrastados (Daniela Arbex)](https://www.goodreads.com/search?q=Arrastados+Daniela+Arbex)
+- [Cova 312 (Daniela Arbex)](https://www.goodreads.com/search?q=Cova+312+Daniela+Arbex)
+- [Mentes Perigosas (Ana Beatriz Barbosa Silva)](https://www.goodreads.com/search?q=Mentes+Perigosas+Ana+Beatriz+Barbosa+Silva): EN: Dangerous Minds (Ana Beatriz Barbosa Silva)
+- [Suzane: Assassina e Manipuladora (Ullisses Campbell)](https://www.goodreads.com/search?q=Suzane+Assassina+e+Manipuladora)
+- [Elize Matsunaga: A Mulher que Esquartejou o Marido (Ullisses Campbell)](https://www.goodreads.com/search?q=Elize+Matsunaga+Ullisses+Campbell)
+- [O Caso Evandro (Ivan Mizanzuk)](https://www.goodreads.com/search?q=O+Caso+Evandro+Ivan+Mizanzuk): EN: The Evandro Case (Ivan Mizanzuk)
+- [Estação Carandiru (Drauzio Varella)](https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Carandiru) ★: EN: Carandiru Station (Drauzio Varella)
+- [O Matador (Patrícia Melo)](https://www.goodreads.com/search?q=O+Matador+Patr%C3%ADcia+Melo): EN: The Killer (Patrícia Melo)
+
+## Filmes e séries
+
+### Filmes
+
+- [Zodíaco (2007)](https://pt.wikipedia.org/wiki/Zodiac) ★: EN: Zodiac (2007)
+- [Memórias de um Assassino (2003)](https://pt.wikipedia.org/wiki/Mem%C3%B3rias_de_um_Assassino) ★: EN: Memories of Murder (2003)
+- [Assassinos da Lua das Flores (2023)](https://pt.wikipedia.org/wiki/Assassinos_da_Lua_das_Flores): EN: Killers of the Flower Moon (2023)
+- [Monster: Desejo Assassino (2003)](https://pt.wikipedia.org/wiki/Monster_(2003)): EN: Monster (2003)
+- [Um Dia de Cão (1975)](https://pt.wikipedia.org/wiki/Um_Dia_de_C%C3%A3o): EN: Dog Day Afternoon (1975)
+- [Os Bons Companheiros (1990)](https://pt.wikipedia.org/wiki/Goodfellas): EN: Goodfellas (1990)
+- [Prenda-me Se For Capaz (2002)](https://pt.wikipedia.org/wiki/Catch_Me_If_You_Can_(2002)): EN: Catch Me If You Can (2002)
+- [Spotlight (2015)](https://pt.wikipedia.org/wiki/Spotlight_(filme))
+- [A Sociedade da Neve (2023)](https://pt.wikipedia.org/wiki/A_Sociedade_da_Neve): EN: Society of the Snow (2023)
+- [Cidade de Deus (2002)](https://pt.wikipedia.org/wiki/Cidade_de_Deus_(filme)) ★: EN: City of God (2002)
+- [Carandiru (2003)](https://pt.wikipedia.org/wiki/Carandiru_(filme))
+- [Ainda Estou Aqui (2024)](https://pt.wikipedia.org/wiki/Ainda_Estou_Aqui_(filme_de_2024)) ★: EN: I'm Still Here (2024)
+- [A Menina que Matou os Pais (2021)](https://pt.wikipedia.org/wiki/A_Menina_Que_Matou_os_Pais_e_O_Menino_Que_Matou_Meus_Pais): EN: The Girl Who Killed Her Parents (2021)
+- [O Bandido da Luz Vermelha (1968)](https://pt.wikipedia.org/wiki/O_Bandido_da_Luz_Vermelha): EN: The Red Light Bandit (1968)
+- [Lúcio Flávio, o Passageiro da Agonia (1977)](https://pt.wikipedia.org/wiki/L%C3%BAcio_Fl%C3%A1vio,_o_Passageiro_da_Agonia)
+- [Elefante (2003)](https://pt.wikipedia.org/wiki/Elephant_(2003)): EN: Elephant (2003)
+
+### Séries e minisséries
+
+- [Mindhunter](https://pt.wikipedia.org/wiki/Mindhunter) ★
+- [The People v. O. J. Simpson](https://pt.wikipedia.org/wiki/The_People_v._O._J._Simpson:_American_Crime_Story)
+- [Dahmer: Um Canibal Americano](https://pt.wikipedia.org/wiki/Dahmer_%E2%80%93_Monster:_The_Jeffrey_Dahmer_Story): EN: Dahmer – Monster: The Jeffrey Dahmer Story
+- [Olhos que Condenam](https://pt.wikipedia.org/wiki/When_They_See_Us) ★: EN: When They See Us
+- [Chernobyl](https://pt.wikipedia.org/wiki/Chernobyl_(miniss%C3%A9rie)) ★
+- [Inacreditável](https://pt.wikipedia.org/wiki/Unbelievable_(miniss%C3%A9rie)): EN: Unbelievable
+- [Narcos](https://pt.wikipedia.org/wiki/Narcos)
+- [Bebê Rena](https://pt.wikipedia.org/wiki/Baby_Reindeer): EN: Baby Reindeer
+- [Adolescência](https://pt.wikipedia.org/wiki/Adolesc%C3%AAncia_(s%C3%A9rie_de_televis%C3%A3o)): EN: Adolescence
+- [Todo Dia a Mesma Noite (Boate Kiss)](https://pt.wikipedia.org/wiki/Todo_Dia_a_Mesma_Noite): EN: All the Same Night (Kiss nightclub)
+- [Linha Direta (TV Globo)](https://pt.wikipedia.org/wiki/Linha_Direta)
+- [Investigação Criminal](https://pt.wikipedia.org/wiki/Investiga%C3%A7%C3%A3o_Criminal): EN: Criminal Investigation
+
+### Documentários
+
+- [Making a Murderer](https://pt.wikipedia.org/wiki/Making_a_Murderer) ★
+- [The Jinx](https://pt.wikipedia.org/wiki/Jinx) ★
+- [The Staircase](https://en.wikipedia.org/wiki/Staircase_(disambiguation))
+- [Wild Wild Country](https://pt.wikipedia.org/wiki/Wild_Wild_Country)
+- [A Máfia dos Tigres](https://pt.wikipedia.org/wiki/Tiger_King:_Murder,_Mayhem_and_Madness): EN: Tiger King
+- [Don't F**k with Cats](https://pt.wikipedia.org/wiki/Don't_F%2A%2Ak_with_Cats:_Hunting_an_Internet_Killer)
+- [Conversando com um Serial Killer: Ted Bundy](https://en.wikipedia.org/wiki/Conversations_with_a_Killer:_The_Ted_Bundy_Tapes): EN: Conversations with a Killer: The Ted Bundy Tapes
+- [A Tênue Linha da Morte](https://pt.wikipedia.org/wiki/The_Thin_Blue_Line): EN: The Thin Blue Line
+- [O Ato de Matar](https://pt.wikipedia.org/wiki/The_Act_of_Killing): EN: The Act of Killing
+- [Ônibus 174](https://pt.wikipedia.org/wiki/%C3%94nibus_174) ★: EN: Bus 174
+- [Bandidos na TV](https://pt.wikipedia.org/wiki/Bandidos_na_TV): EN: Killer Ratings
+- [Elize Matsunaga: Era Uma Vez um Crime](https://pt.wikipedia.org/wiki/Elize_Matsunaga:_Era_Uma_Vez_um_Crime): EN: Elize Matsunaga: Once Upon a Crime
+- [Pacto Brutal: O Assassinato de Daniella Perez](https://pt.wikipedia.org/wiki/Pacto_Brutal_-_O_Assassinato_de_Daniella_Perez): EN: Brutal Pact: The Murder of Daniella Perez
+- [Dominion (2018)](https://en.wikipedia.org/wiki/Dominion_(2018_film)) ★
+- [Terráqueos](https://pt.wikipedia.org/wiki/Earthlings): EN: Earthlings
+- [Blackfish](https://pt.wikipedia.org/wiki/Blackfish_(filme))
+- [The Cove](https://pt.wikipedia.org/wiki/The_Cove)
+- [Seaspiracy](https://pt.wikipedia.org/wiki/Seaspiracy)
+
+## Canais, podcasts e influenciadores
+
+### Podcasts
+
+- [Scarycast](https://open.spotify.com/show/5CtBLXwpiyzeJuCe8LSvTr)
+- [Serial](https://serialpodcast.org/) ★
+- [Casefile True Crime](https://casefilepodcast.com/)
+- [My Favorite Murder](https://myfavoritemurder.com/)
+- [Crime Junkie](https://crimejunkiepodcast.com/)
+- [Criminal](https://thisiscriminal.com/)
+- [Last Podcast on the Left](https://www.lastpodcastontheleft.com/)
+- [Morbid](https://www.morbidpodcast.com/)
+- [Projeto Humanos: O Caso Evandro](https://www.projetohumanos.com.br/) ★: EN: Projeto Humanos: The Evandro Case
+- [Praia dos Ossos (Rádio Novelo)](https://radionovelo.com.br/originais/praiadosossos/) ★
+- [A Mulher da Casa Abandonada (Folha)](https://pt.wikipedia.org/wiki/A_Mulher_da_Casa_Abandonada)
+- [Modus Operandi](https://open.spotify.com/search/Modus%20Operandi%20podcast)
+- [Rotten Mango](https://www.youtube.com/@RottenMango)
+
+### Canais e influenciadores
+
+- [JCS – Criminal Psychology](https://www.youtube.com/@JCS) ★
+- [Bailey Sarian](https://www.youtube.com/@BaileySarian)
+- [Kendall Rae](https://www.youtube.com/@KendallRae)
+- [Stephanie Harlowe](https://www.youtube.com/@StephanieHarlowe)
+- [That Chapter](https://www.youtube.com/@ThatChapter)
+- [Coffeehouse Crime](https://www.youtube.com/@CoffeehouseCrime)
+- [MrBallen](https://www.youtube.com/@MrBallen)
+- [EXPLORE WITH US](https://www.youtube.com/@EXPLOREWITHUS)
+- [Carol Moreira](https://www.youtube.com/@CarolMoreira)
+- [Ullisses Campbell](https://www.instagram.com/ullissescampbell/)
+- [Fefe Schneider](https://www.instagram.com/fefe/)
+
+## Premiações
+
+### Prêmios irônicos
+
+- [Prêmio Darwin](https://darwinawards.com/) ★: EN: Darwin Awards
+- [Prêmio Darwin (Wikipédia)](https://pt.wikipedia.org/wiki/Pr%C3%A9mios_Darwin): EN: Darwin Awards (Wikipedia)
+- [Stella Awards](https://en.wikipedia.org/wiki/Randy_Cassingham)
+- [Prêmio Pigasus](https://pt.wikipedia.org/wiki/Pigasus_Award): EN: Pigasus Award
+- [Big Brother Awards](https://pt.wikipedia.org/wiki/Big_Brother_Awards)
+- [Public Eye Awards](https://en.wikipedia.org/wiki/Public_Eye_on_Davos)
+- [Prêmio Ig Nobel](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_IgNobel): EN: Ig Nobel Prize
+
+### Prêmios do gênero
+
+- [Prêmio Edgar](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_Edgar) ★: EN: Edgar Award
+- [CWA Dagger](https://en.wikipedia.org/wiki/Crime_Writers'_Association)
+- [Prêmio Agatha](https://pt.wikipedia.org/wiki/Agatha_Awards): EN: Agatha Award
+- [Prêmio Vladimir Herzog](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_Vladimir_Herzog): EN: Vladimir Herzog Award
+- [Prêmio Esso de Jornalismo](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_ExxonMobil_de_Jornalismo): EN: Esso Journalism Award
+
+## Prevenção e denúncia
+
+### Canais de denúncia (Brasil)
+
+- [Disque 100 (Direitos Humanos)](https://www.gov.br/mdh/pt-br/ondh) ★: EN: Dial 100 (Human Rights, Brazil)
+- [Ligue 180 (Central de Atendimento à Mulher)](https://www.gov.br/mulheres/pt-br/ligue180) ★: EN: Call 180 (Women's Helpline, Brazil)
+- [Disque Denúncia (RJ)](https://www.disquedenuncia.org.br/)
+- [SaferNet Brasil (crimes na internet)](https://new.safernet.org.br/denuncie): EN: SaferNet Brasil (online crimes)
+- [Polícia Federal: comunicação de crimes](https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes): EN: Federal Police: crime reporting
+- [Ibama Linha Verde (crimes ambientais)](https://www.gov.br/ibama/pt-br): EN: Ibama Green Line (environmental crimes)
+- [Mães da Sé (desaparecidos)](https://maesdase.org.br/): EN: Mães da Sé (missing persons)
+- [Instituto Maria da Penha](https://www.institutomariadapenha.org.br/)
+
+### Canais de denúncia (mundo)
+
+- [FBI Tips](https://tips.fbi.gov/)
+- [NCMEC CyberTipline](https://report.cybertip.org/)
+- [Crime Stoppers International](https://www.crimestoppersinternational.org/)
+- [Interpol](https://www.interpol.int/) ★
+- [Europol](https://www.europol.europa.eu/)
+- [Polaris Project (tráfico humano)](https://polarisproject.org/): EN: Polaris Project (human trafficking)
+- [National Domestic Violence Hotline](https://www.thehotline.org/)
+- [INHOPE](https://www.inhope.org/)
+
+### Prevenção e direitos humanos
+
+- [Instituto Sou da Paz](https://soudapaz.org/) ★
+- [Fórum Brasileiro de Segurança Pública](https://forumseguranca.org.br/) ★: EN: Brazilian Public Security Forum
+- [Instituto Igarapé](https://igarape.org.br/)
+- [Innocence Project](https://innocenceproject.org/) ★
+- [Innocence Project Brasil](https://www.innocencebrasil.org/)
+- [Anistia Internacional](https://www.amnesty.org/): EN: Amnesty International
+- [Human Rights Watch](https://www.hrw.org/)
+- [Tribunal Penal Internacional (site oficial)](https://www.icc-cpi.int/): EN: International Criminal Court (official site)
+- [UNODC](https://www.unodc.org/)
+
+### Proteção animal
+
+- [Mercy For Animals](https://mercyforanimals.org/) ★
+- [Animal Equality](https://animalequality.org/)
+- [Sinergia Animal](https://www.sinergiaanimal.org/)
+- [Fórum Animal](https://forumanimal.org/)
+- [Humane World for Animals](https://www.humaneworld.org/)
+- [Sea Shepherd](https://www.seashepherdglobal.org/)
+
+## Mapas e dados
+
+### Bases de dados
+
+- [Global Terrorism Database](https://www.start.umd.edu/data-tools/GTD) ★
+- [Aviation Safety Network](https://aviation-safety.net/) ★
+- [Atlas da Violência (Ipea)](https://www.ipea.gov.br/atlasviolencia/) ★: EN: Atlas of Violence (Ipea)
+- [Anuário Brasileiro de Segurança Pública](https://forumseguranca.org.br/publicacoes/anuario-brasileiro-de-seguranca-publica/): EN: Brazilian Public Security Yearbook
+- [Fogo Cruzado (mapa de tiroteios)](https://fogocruzado.org.br/): EN: Fogo Cruzado (gunfire map)
+- [Monitor da Violência (g1)](https://g1.globo.com/monitor-da-violencia/): EN: Violence Monitor (g1)
+- [Gun Violence Archive](https://www.gunviolencearchive.org/)
+- [Murder Accountability Project](https://www.murderdata.org/)
+- [NamUs (desaparecidos, EUA)](https://namus.nij.ojp.gov/): EN: NamUs (missing persons, US)
+- [The Doe Network](https://www.doenetwork.org/)
+- [The Charley Project](https://charleyproject.org/)
+- [UNODC: estatísticas de homicídio](https://data.unodc.org/): EN: UNODC homicide statistics
+- [ACLED (conflitos armados)](https://acleddata.com/): EN: ACLED (armed conflict)
+- [EM-DAT (desastres)](https://www.emdat.be/): EN: EM-DAT (disasters)
+
+### Listas da Wikipédia
+
+- [Assassinos em série por número de vítimas](https://pt.wikipedia.org/wiki/Lista_de_assassinos_em_s%C3%A9rie_por_n%C3%BAmero_de_v%C3%ADtimas) ★: EN: Serial killers by number of victims
+- [Desastres por número de mortes](https://en.wikipedia.org/wiki/List_of_accidents_and_disasters_by_death_toll) ★: EN: Disasters by death toll
+- [Ataques terroristas](https://pt.wikipedia.org/wiki/Cronologia_de_incidentes_terroristas): EN: Terrorist incidents
+- [Acidentes aéreos](https://pt.wikipedia.org/wiki/Lista_de_acidentes_a%C3%A9reos): EN: Aviation accidents and incidents
+- [Acidentes ferroviários](https://en.wikipedia.org/wiki/Lists_of_rail_accidents): EN: Rail accidents
+- [Desastres marítimos](https://pt.wikipedia.org/wiki/Lista_de_desastres_mar%C3%ADtimos): EN: Maritime disasters
+- [Incêndios](https://en.wikipedia.org/wiki/List_of_fires): EN: Fires
+- [Genocídios](https://en.wikipedia.org/wiki/List_of_genocides): EN: Genocides
+- [Tiroteios em massa](https://pt.wikipedia.org/wiki/Tiroteio_em_massa): EN: Mass shootings
+- [Pessoas desaparecidas](https://pt.wikipedia.org/wiki/Lista_de_pessoas_que_desapareceram_misteriosamente): EN: People who disappeared mysteriously

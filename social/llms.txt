@@ -1,0 +1,691 @@
+# A Biblioteca de Redes Sociais
+
+> Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
+
+Biblioteca temática da BiblioVerse (The Social Media Library), com curadoria humana. Página: https://biblioverse.org/social/ · 547 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Altruísmo e petições
+
+- [change.org](https://change.org/)
+- [DoSomething](https://dosomething.org/)
+- [Effective Altruism](https://forum.effectivealtruism.org/)
+- [GiveWell](https://givewell.org/)
+- [GlobalGiving](https://globalgiving.org/)
+- [Idealist](https://idealist.org/)
+- [Kiva](https://kiva.org/)
+
+## Arte e design
+
+- [ArtConnect](https://artconnect.com/)
+- [ArtStation](https://artstation.com/) ★
+- [Behance](https://behance.net/) ★
+- [Carbonmade](https://carbonmade.com/)
+- [DeviantArt](https://deviantart.com/) ★
+- [Dribbble](https://dribbble.com/) ★
+- [Peerlist](https://peerlist.io/)
+- [Pixiv](https://pixiv.net/)
+- [Society6](https://society6.com/)
+- [Cara](https://cara.app/)
+
+## Bate-papo
+
+- [Bate-papo da UOL](https://batepapo.uol.com.br/)
+- [Bazoocam](https://bazoocam.org/)
+- [CamSurf](https://camsurf.com/)
+- [Chatrandom](https://chatrandom.com/)
+- [Chatroulette](https://chatroulette.com/) ★
+- [Chitchat](https://chitchat.gg/)
+- [CooMeet](https://coomeet.com/)
+- [Flingster](https://flingster.com/)
+- [Omegle](https://omegle.fun/) 🪦
+- [Paltalk](https://paltalk.com/)
+- [Shagle](https://shagle.com/)
+- [TinyChat](https://tinychat.com/)
+
+## Blogs e escrita
+
+- [Blogger](https://blogger.com/)
+- [Ghost](https://ghost.org/)
+- [Jekyll](https://jekyllrb.com/)
+- [LiveJournal](https://livejournal.com/)
+- [Longreads](https://longreads.com/)
+- [Medium](https://medium.com/) ★
+- [Squarespace](https://squarespace.com/)
+- [Substack](https://substack.com/) ★
+- [Tumblr](https://tumblr.com/) ★
+- [Vocal Media](https://vocal.media/)
+- [Wix](https://wix.com/)
+- [WordPress](https://wordpress.com/) ★
+- [Write.as](https://write.as/)
+
+## Bookmarking
+
+- [BibSonomy](https://bibsonomy.org/)
+- [Booky](https://booky.io/)
+- [Delicious](https://en.wikipedia.org/wiki/Delicious_(website)) 🪦
+- [Diigo](https://diigo.com/)
+- [Google Bookmarks](https://en.wikipedia.org/wiki/Google_Bookmarks) 🪦
+- [Pinboard](https://pinboard.in/)
+- [Pinterest](https://pinterest.com/) ★
+- [Pocket (Read It Later)](https://en.wikipedia.org/wiki/Pocket_(service)) 🪦
+- [Raindrop.io](https://raindrop.io/)
+- [Savee](https://savee.com/)
+- [We Heart It](https://weheartit.com/) 🪦
+
+## Buscadores
+
+- [Ask](https://ask.com/)
+- [Baidu](https://baidu.com/)
+- [Bing](https://bing.com/)
+- [Brave Search](https://search.brave.com/)
+- [DuckDuckGo](https://duckduckgo.com/)
+- [Ecosia](https://ecosia.org/)
+- [Exa](https://exa.ai/)
+- [Google](https://google.com/) ★
+- [TinEye](https://tineye.com/) ★
+- [Mojeek](https://mojeek.com/)
+- [Qwant](https://qwant.com/)
+- [Startpage](https://startpage.com/)
+- [Swisscows](https://swisscows.com/)
+- [Yahoo Search](https://search.yahoo.com/)
+- [Yandex](https://yandex.com/)
+- [Perplexity](https://www.perplexity.ai/)
+
+## Ciência e pesquisa
+
+- [Academia.edu](https://academia.edu/)
+- [Escavador](https://escavador.com/)
+- [Lattes](https://lattes.cnpq.br/)
+- [Mendeley](https://mendeley.com/)
+- [ResearchGate](https://researchgate.net/)
+- [Google Scholar](https://scholar.google.com/)
+- [ORCID](https://orcid.org/)
+
+## Clubes de assinatura e Crowdfunding
+
+- [Apoia.se](https://apoia.se/)
+- [Buy Me a Coffee](https://buymeacoffee.com/)
+- [Catarse](https://catarse.me/)
+- [Crowd Supply](https://crowdsupply.com/)
+- [FanCentro](https://fancentro.com/)
+- [Fansly](https://fansly.com/)
+- [FundRazr](https://fundrazr.com/)
+- [GoFundMe](https://gofundme.com/)
+- [Gumroad](https://gumroad.com/)
+- [Indiegogo](https://indiegogo.com/)
+- [Kickbooster](https://kickbooster.me/)
+- [Kickstarter](https://kickstarter.com/) ★
+- [Ko-fi](https://ko-fi.com/)
+- [Liberapay](https://liberapay.com/)
+- [Locals](https://locals.com/)
+- [Memberful](https://memberful.com/)
+- [OnlyFans](https://onlyfans.com/)
+- [Orelo](https://orelo.cc/) ★
+- [Patreon](https://patreon.com/) ★
+- [Pozible](https://pozible.com/)
+- [Privacy](https://privacy.com.br/)
+- [Skool](https://skool.com/)
+- [Steady](https://steady.page/)
+- [Subscribestar](https://subscribestar.com/)
+- [Tipeee](https://tipeee.com/)
+- [Ulule](https://ulule.com/)
+- [Vakinha](https://www.vakinha.com.br/)
+- [MyCause](https://www.mycause.com.au/)
+- [Benfeitoria](https://benfeitoria.com/)
+- [JustGiving](https://www.justgiving.com/)
+
+## Comida (avaliação)
+
+- [Food Network Reviews](https://foodnetwork.com/)
+- [Food52 Community](https://food52.com/)
+- [HappyCow](https://happycow.net/) ★
+- [Michelin Guide](https://guide.michelin.com/)
+- [OpenTable](https://opentable.com/) ★
+- [TasteAtlas](https://tasteatlas.com/) ★
+- [TheFork](https://thefork.com/)
+- [Tripadvisor Restaurants](https://tripadvisor.com/Restaurants)
+- [Uber Eats](https://ubereats.com/)
+- [Zomato](https://zomato.com/)
+
+## Debate
+
+- [Argüman](https://arguman.org/)
+- [Debate.org](https://debate.org/) 🪦
+- [Kialo](https://kialo.com/)
+
+## Emprego
+
+- [99Freelas](https://99freelas.com.br/)
+- [Behance](https://behance.net/)
+- [Catho](https://catho.com.br/)
+- [Coroflot](https://coroflot.com/)
+- [Fiverr](https://fiverr.com/) ★
+- [Glassdoor](https://glassdoor.com/) ★
+- [Indeed](https://indeed.com/)
+- [InfoJobs](https://infojobs.com.br/)
+- [Jobcase](https://jobcase.com/)
+- [LinkedIn](https://linkedin.com/) ★
+- [Marfin](https://marfin.co/)
+- [Peerlist](https://peerlist.io/)
+- [Seek](https://seek.com/)
+- [Shapr](https://shapr.co/)
+- [Trampos](https://trampos.co/)
+- [Upwork](https://upwork.com/)
+- [Vagas](https://vagas.com.br/)
+- [Wellfound (AngelList)](https://wellfound.com/)
+- [Workana](https://workana.com/)
+- [Xing](https://xing.com/)
+
+## Encontros e eventos
+
+- [Eventbrite](https://eventbrite.com/)
+- [Facebook Events](https://facebook.com/events/)
+- [Fever](https://feverup.com/)
+- [Meetup](https://meetup.com/)
+- [Sympla](https://www.sympla.com.br/)
+- [Luma](https://luma.com/)
+- [Partiful](https://partiful.com/)
+
+## Esportes e atividades físicas
+
+- [Endomondo](https://en.wikipedia.org/wiki/Endomondo) 🪦
+- [Fancred](https://web.archive.org/web/2016/https://fancred.com/) 🪦
+- [Futeboxd](https://web.archive.org/web/2024/https://futeboxd.com/) 🪦
+- [Futez](https://futez.com.br/)
+- [Garmin Connect](https://connect.garmin.com/)
+- [Nike Run Club](https://nike.com/nrc-app) ★
+- [Runkeeper](https://runkeeper.com/)
+- [Runtastic (Adidas Running)](https://runtastic.com/)
+- [Sportidia](https://sportidia.com/)
+- [SportsYapper](https://sportsyapper.com/)
+- [Strava](https://strava.com/) ★
+- [Zwift](https://zwift.com/)
+- [AllTrails](https://www.alltrails.com/)
+- [Komoot](https://www.komoot.com/)
+
+## Estadias e viagens (avaliação)
+
+- [Agoda](https://agoda.com/)
+- [Airbnb](https://airbnb.com/)
+- [Booking.com](https://booking.com/)
+- [Couchsurfing](https://couchsurfing.com/)
+- [Expedia Reviews](https://expedia.com/)
+- [Google Maps Reviews](https://google.com/maps/contrib//reviews/) ★
+- [Hotels.com](https://hotels.com/)
+- [Kayak](https://kayak.com/)
+- [Lonely Planet](https://lonelyplanet.com/)
+- [Tripadvisor](https://tripadvisor.com/) ★
+- [Trivago](https://trivago.com/)
+- [VirtualTourist](https://en.wikipedia.org/wiki/Virtualtourist) 🪦
+
+## Feed
+
+- [Feedly](https://feedly.com/)
+- [Google Reader](https://en.wikipedia.org/wiki/Google_Reader) 🪦
+- [Inoreader](https://inoreader.com/) ★
+- [Netvibes](https://en.wikipedia.org/wiki/Netvibes) 🪦
+- [Panda](https://app.usepanda.com/)
+- [The Old Reader](https://theoldreader.com/)
+
+## Figuras-chave
+
+- [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates)
+- [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk)
+- [Evan Spiegel](https://en.wikipedia.org/wiki/Evan_Spiegel)
+- [Jack Dorsey](https://en.wikipedia.org/wiki/Jack_Dorsey)
+- [Jan Koum](https://en.wikipedia.org/wiki/Jan_Koum)
+- [Jeff Bezos](https://en.wikipedia.org/wiki/Jeff_Bezos)
+- [Kevin Systrom](https://en.wikipedia.org/wiki/Kevin_Systrom)
+- [Mark Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg)
+- [Reid Hoffman](https://en.wikipedia.org/wiki/Reid_Hoffman)
+- [Susan Wojcicki](https://en.wikipedia.org/wiki/Susan_Wojcicki)
+- [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee)
+- [Zhang Yiming](https://en.wikipedia.org/wiki/Zhang_Yiming)
+- [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales)
+
+## Filmes e séries (avaliação)
+
+- [CinemaScore](https://cinemascore.com/)
+- [FilmAffinity](https://filmaffinity.com/)
+- [IMDb](https://imdb.com/) ★
+- [Letterboxd](https://letterboxd.com/) ★
+- [Metacritic](https://metacritic.com/) ★
+- [Rotten Tomatoes](https://rottentomatoes.com/) ★
+- [Screen Rant Reviews](https://screenrant.com/)
+- [TMDb](https://themoviedb.org/)
+- [Trakt](https://app.trakt.tv/)
+- [Serializd](https://www.serializd.com/)
+- [Filmow](https://filmow.com/)
+- [JustWatch](https://www.justwatch.com/)
+- [Flickmetrix](https://flickmetrix.com/)
+
+## Fóruns
+
+- [4chan](https://4chan.org/)
+- [Discourse](https://discourse.org/)
+- [Lemmy](https://join-lemmy.org/)
+- [NeoGAF](https://neogaf.com/)
+- [Reddit](https://reddit.com/) ★
+- [Something Awful](https://somethingawful.com/)
+- [Stack Exchange](https://stackexchange.com/)
+- [Steemit](https://steemit.com/)
+- [Hacker News](https://news.ycombinator.com/)
+- [ResetEra](https://www.resetera.com/)
+
+## Fotografia
+
+- [1x](https://1x.com/)
+- [500px](https://500px.com/) ★
+- [Behance](https://behance.net/)
+- [BeReal.](https://bereal.com/)
+- [Flickr](https://flickr.com/) ★
+- [Fotolog](https://en.wikipedia.org/wiki/Fotolog) 🪦
+- [GuruShots](https://gurushots.com/)
+- [Instagram](https://instagram.com/)
+- [Photobucket](https://photobucket.com/)
+- [Pixelfed](https://pixelfed.org/)
+- [SmugMug](https://smugmug.com/)
+- [VSCO](https://vsco.co/)
+- [Glass](https://glass.photo/)
+
+## Games (avaliação)
+
+- [Metacritic Games](https://metacritic.com/game/)
+- [OpenCritic](https://opencritic.com/) ★
+- [GameFAQs](https://gamefaqs.gamespot.com/)
+- [Backloggd](https://www.backloggd.com/)
+- [IGDB](https://www.igdb.com/)
+- [HowLongToBeat](https://howlongtobeat.com/)
+
+## Gaming
+
+- [Allstar](https://allstar.gg/)
+- [Alvanista](https://alvanista.com/)
+- [Game Jolt](https://gamejolt.com/)
+- [Gameram](https://gameram.com/)
+- [GameTree](https://gametree.me/)
+- [Konect](https://konect.gg/)
+- [Liquipedia](https://liquipedia.net/)
+- [RankOne](https://rankone.global/)
+- [Steam](https://store.steampowered.com/) ★
+- [Xbox Live](https://xbox.com/en-GB/live)
+
+## Gerais
+
+- [diaspora*](https://diasporafoundation.org/)
+- [Ello](https://en.wikipedia.org/wiki/Ello_(social_network)) 🪦
+- [Facebook](https://facebook.com/) ★
+- [Gojek](https://gojek.com/)
+- [Hi5](https://hi5.com/)
+- [MeWe](https://mewe.com/)
+- [Mixi](https://mixi.jp/)
+- [Orkut](https://pt.wikipedia.org/wiki/Orkut) 🪦
+- [Path](https://en.wikipedia.org/wiki/Path_(social_network)) 🪦
+- [Trust Café (WT Social)](https://trustcafe.io/)
+- [Vero](https://vero.co/site/social)
+- [VK](https://vk.com/) ★
+- [WeChat (Weixin)](https://wechat.com/)
+- [Whisper](https://en.wikipedia.org/wiki/Whisper_(app)) 🪦
+- [Nextdoor](https://nextdoor.com/)
+- [Lemon8](https://www.lemon8-app.com/)
+
+## Línguas
+
+- [Busuu](https://busuu.com/)
+- [Duolingo](https://duolingo.com/)
+- [HelloTalk](https://hellotalk.com/)
+- [italki](https://italki.com/)
+- [Preply](https://preply.com/)
+- [Speaky](https://speaky.com/) ★
+- [Tandem](https://tandem.net/) ★
+
+## Literatura
+
+- [Archive of Our Own](https://archiveofourown.org/)
+- [BookBub](https://bookbub.com/)
+- [BookCrossing](https://bookcrossing.com/)
+- [FanFiction](https://fanfiction.net/)
+- [Goodreads](https://goodreads.com/) ★
+- [Inkitt](https://inkitt.com/)
+- [LibraryThing](https://librarything.com/)
+- [Litsy](https://litsy.com/)
+- [Open Library](https://openlibrary.org/)
+- [Penana](https://penana.com/)
+- [Royal Road](https://royalroad.com/)
+- [Scribd](https://scribd.com/)
+- [Skoob](https://skoob.com.br/)
+- [Wattpad](https://wattpad.com/) ★
+- [The StoryGraph](https://www.thestorygraph.com/)
+- [Fable](https://fable.co/)
+
+## Mais acessados
+
+- [Alexa](https://en.wikipedia.org/wiki/Alexa_Internet) 🪦
+- [Comscore](https://comscore.com/)
+- [Semrush](https://semrush.com/) ★
+- [Similarweb](https://similarweb.com/) ★
+- [Trends](https://trends.google.com/)
+
+## Marketplaces
+
+- [Alibaba](https://alibaba.com/)
+- [AliExpress](https://aliexpress.com/)
+- [Amazon](https://amazon.com/)
+- [eBay](https://ebay.com/)
+- [Depop](https://depop.com/)
+- [Enjoei](https://enjoei.com.br/)
+- [Etsy](https://etsy.com/)
+- [Facebook Marketplace](https://facebook.com/marketplace/)
+- [Google Shopping](https://google.com/shopping)
+- [Gumroad](https://gumroad.com/)
+- [Mercado Livre](https://mercadolivre.com/)
+- [Rakuten](https://rakuten.com/)
+- [Shein](https://au.shein.com/)
+- [Shopee](https://shopee.com/)
+- [Temu](https://temu.com/)
+
+## Mensagens
+
+- [AIM](https://en.wikipedia.org/wiki/AIM_(software)) 🪦
+- [Discord](https://discord.com/)
+- [Facebook Messenger](https://messenger.com/) ★
+- [Google Messages](https://messages.google.com/)
+- [ICQ](https://en.wikipedia.org/wiki/ICQ) 🪦
+- [iMessage](https://support.apple.com/messages)
+- [Kik](https://kik.com/)
+- [Line](https://line.me/)
+- [MSN Messenger](https://en.wikipedia.org/wiki/MSN_Messenger) 🪦
+- [Paltalk](https://paltalk.com/)
+- [QQ](https://qq.com/)
+- [Signal](https://signal.org/)
+- [Skype](https://en.wikipedia.org/wiki/Skype) 🪦
+- [Slack](https://slack.com/)
+- [Snapchat](https://snapchat.com/)
+- [Telegram](https://telegram.org/) ★
+- [Viber](https://viber.com/)
+- [WeChat (Weixin)](https://wechat.com/) ★
+- [WhatsApp](https://whatsapp.com/) ★
+- [Yahoo! Messenger](https://en.wikipedia.org/wiki/Yahoo_Messenger) 🪦
+
+## Microblogging
+
+- [Bluesky](https://bsky.app/) ★
+- [Gab](https://gab.com/)
+- [Gettr](https://gettr.com/)
+- [Mastodon](https://mastodon.social/)
+- [Plurk](https://plurk.com/)
+- [Spoutible](https://spoutible.com/)
+- [Threads](https://www.threads.com/) ★
+- [Truth Social](https://truthsocial.com/)
+- [Weibo](https://m.weibo.cn/)
+- [X (Twitter)](https://x.com/) ★
+
+## Música
+
+- [Anghami](https://anghami.com/)
+- [Apple Music](https://music.apple.com/)
+- [Audiomack](https://audiomack.com/)
+- [Audius](https://audius.co/)
+- [Bandcamp](https://bandcamp.com/) ★
+- [BandLab](https://bandlab.com/)
+- [Deezer](https://deezer.com/)
+- [Jamendo](https://jamendo.com/)
+- [JioSaavn](https://jiosaavn.com/)
+- [Last.fm](https://last.fm/) ★
+- [Mixcloud](https://mixcloud.com/)
+- [MySpace](https://myspace.com/)
+- [Pandora](https://pandora.com/)
+- [Qobuz](https://qobuz.com/)
+- [SoundCloud](https://soundcloud.com/) ★
+- [Spotify](https://spotify.com/) ★
+- [Tidal](https://tidal.com/)
+- [Vero Music](https://vero-music.com/)
+- [YouTube Music](https://music.youtube.com/) ★
+- [Gaana](https://gaana.com/)
+
+## Música (avaliação)
+
+- [AllMusic](https://allmusic.com/)
+- [Discogs](https://discogs.com/)
+- [Metacritic Music](https://metacritic.com/music) ★
+- [MusicBrainz](https://musicbrainz.org/)
+- [RateYourMusic](https://rateyourmusic.com/) ★
+- [Album of the Year](https://www.albumoftheyear.org/)
+
+## Navegadores web
+
+- [Google Chrome](https://google.com/chrome/)
+- [Mozilla Firefox](https://www.firefox.com/)
+- [Microsoft Edge](https://microsoft.com/edge)
+- [Apple Safari](https://apple.com/safari/)
+- [Opera](https://opera.com/)
+- [Brave](https://brave.com/)
+- [Vivaldi](https://vivaldi.com/)
+- [Tor Browser](https://torproject.org/)
+- [Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer) 🪦
+- [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator) 🪦
+- [Safari (Windows version)](https://en.wikipedia.org/wiki/Safari_(web_browser)#Windows_version) 🪦
+- [Konqueror](https://apps.kde.org/konqueror/)
+- [SeaMonkey](https://www.seamonkey-project.org/)
+- [Midori](https://astian.org/midori-browser/)
+- [Camino](https://en.wikipedia.org/wiki/Camino_(web_browser)) 🪦
+- [Flock](https://en.wikipedia.org/wiki/Flock_(web_browser)) 🪦
+- [Maxthon](https://www.maxthon.com/)
+- [UC Browser](https://www.ucweb.com/)
+- [Yandex Browser](https://browser.yandex.com/)
+- [Pale Moon](https://www.palemoon.org/)
+- [Samsung Internet](https://www.samsung.com/us/support/owners/app/samsung-internet)
+
+## Negócios (avaliação)
+
+- [Better Business Bureau](https://bbb.org/)
+- [Capterra](https://capterra.com/)
+- [Clutch](https://clutch.co/)
+- [Consumer Affairs](https://consumeraffairs.com/)
+- [G2](https://g2.com/)
+- [Glassdoor](https://glassdoor.com/) ★
+- [Google Business](https://business.google.com/) ★
+- [Indeed Company Reviews](https://indeed.com/companies)
+- [Reclame Aqui](https://reclameaqui.com.br/)
+- [ResellerRatings](https://resellerratings.com/)
+- [Sitejabber](https://sitejabber.com/)
+- [Trustpilot](https://trustpilot.com/) ★
+- [TrustRadius](https://trustradius.com/)
+- [Yelp](https://yelp.com/)
+
+## Perguntas
+
+- [Answers](https://answers.com/)
+- [Ask Metafilter](https://ask.metafilter.com/)
+- [Blurtit](https://blurtit.com/)
+- [Fluther](https://fluther.com/)
+- [Quora](https://quora.com/) ★
+- [Stack Exchange](https://stackexchange.com/)
+- [Yahoo! Answers](https://en.wikipedia.org/wiki/Yahoo_Answers) 🪦
+
+## Perguntas pessoais
+
+- [ASKfm](https://ask.fm/) 🪦
+- [CuriousCat](https://fanlore.org/wiki/CuriousCat) 🪦
+- [NGL](https://ngl.link/) ★
+- [Sarahah](https://sarahah.com/)
+- [Spring.me (Formspring)](https://en.wikipedia.org/wiki/Formspring) 🪦
+- [Tellonym](https://tellonym.me/)
+- [Yik Yak](https://yikyak.com/)
+
+## Profissional
+
+- [Goodwall](https://goodwall.io/)
+- [LinkedIn](https://linkedin.com/) ★
+- [Lunchclub](https://lunchclub.com/)
+- [Pozi](https://pozi.io/)
+- [Blind](https://www.teamblind.com/)
+
+## Rankings e listas
+
+- [List Challenges](https://listchallenges.com/)
+- [Listography](https://listography.com/) ★
+- [Ranker](https://ranker.com/) ★
+- [Ranx](https://ranx.com/)
+- [TierMaker](https://tiermaker.com/)
+
+## Relacionamento
+
+- [Badoo](https://badoo.com/)
+- [Boo](https://boo.world/)
+- [Bumble](https://bumble.com/) ★
+- [Coffee Meets Bagel](https://ww.coffeemeetsbagel.com/)
+- [eHarmony](https://eharmony.com/)
+- [Facebook Dating](https://facebook.com/dating)
+- [Feeld](https://feeld.co/)
+- [Grindr](https://grindr.com/)
+- [Happn](https://happn.com/)
+- [Her](https://weareher.com/)
+- [Hinge](https://hinge.co/) ★
+- [Inner Circle](https://theinnercircle.co/) ★
+- [Kin](https://kinconnect.com/)
+- [OkCupid](https://okcupid.com/)
+- [Tinder](https://tinder.com/) ★
+- [Veggly](https://veggly.net/)
+
+## Streaming
+
+- [Bigo Live](https://bigo.tv/)
+- [Chingari](https://chingari.io/)
+- [DLive](https://dlive.tv/)
+- [Facebook Gaming](https://facebook.com/gaming/)
+- [Instagram Live](https://instagram.com/)
+- [Kick](https://kick.com/)
+- [Mixer](https://en.wikipedia.org/wiki/Mixer_(service)) 🪦
+- [Nimo TV](https://nimo.tv/)
+- [Peertube Live](https://joinpeertube.org/)
+- [Periscope](https://en.wikipedia.org/wiki/Periscope_(service)) 🪦
+- [TikTok Live](https://tiktok.com/live)
+- [Trovo](https://trovo.live/)
+- [Twitch](https://twitch.tv/) ★
+- [Vimeo Livestream](https://livestream.com/)
+- [YouNow](https://younow.com/)
+- [YouTube Live](https://youtube.com/live) ★
+
+## Termos essenciais
+
+- [Algorithmic curation](https://en.wikipedia.org/wiki/Algorithmic_curation)
+- [Algorithmic radicalization](https://en.wikipedia.org/wiki/Algorithmic_radicalization)
+- [Social media bias](https://en.wikipedia.org/wiki/Media_bias#Social_media_bias)
+- [Hashtag](https://en.wikipedia.org/wiki/Hashtag)
+- [Influencer](https://en.wikipedia.org/wiki/Influencer)
+- [Viral marketing](https://en.wikipedia.org/wiki/Viral_marketing)
+- [Meme](https://en.wikipedia.org/wiki/Internet_meme)
+- [Clickbait](https://en.wikipedia.org/wiki/Clickbait)
+- [Social media](https://en.wikipedia.org/wiki/Social_media)
+
+## Viagem
+
+- [Booking.com](https://booking.com/)
+- [Couchsurfing](https://couchsurfing.com/)
+- [Rome2Rio](https://rome2rio.com/)
+- [TripIt](https://tripit.com/)
+- [Trusted Housesitters](https://trustedhousesitters.com/)
+- [Warmshowers](https://warmshowers.org/)
+- [Wikivoyage](https://wikivoyage.org/)
+- [Wanderlog](https://wanderlog.com/)
+- [Polarsteps](https://www.polarsteps.com/)
+
+## Vídeochamada
+
+- [Discord](https://discord.com/) ★
+- [FaceTime](https://apps.apple.com/us/app/facetime/id1110145091)
+- [Google Meet](https://meet.google.com/) ★
+- [Jitsi Meet](https://meet.jit.si/)
+- [Signal](https://signal.org/)
+- [Skype](https://en.wikipedia.org/wiki/Skype) 🪦
+- [Teams](https://teams.live.com/) ★
+- [WhatsApp](https://whatsapp.com/)
+- [Zoom](https://zoom.com/) ★
+
+## Vídeo curto
+
+- [Douyin](https://douyin.com/?recommend=1)
+- [Dubsmash](https://en.wikipedia.org/wiki/Dubsmash) 🪦
+- [Instagram (Reels)](https://instagram.com/reels/)
+- [Kwai](https://kwai.com/) ★
+- [Moj](https://mojapp.in/)
+- [Sharechat](https://sharechat.com/)
+- [TikTok](https://tiktok.com/) ★
+- [UpScrolled](https://upscrolled.com/)
+- [Vine](https://en.wikipedia.org/wiki/Vine_(service)) 🪦
+- [Xiaohongshu (Little Red Book)](https://xiaohongshu.com/)
+- [YouTube (Shorts)](https://youtube.com/shorts/)
+
+## Vídeo longo
+
+- [Bilibili](https://bilibili.com/)
+- [Dailymotion](https://dailymotion.com/)
+- [Facebook Watch](https://facebook.com/watch)
+- [Odysee](https://odysee.com/)
+- [PeerTube](https://joinpeertube.org/)
+- [Rumble](https://rumble.com/)
+- [Veoh](https://veoh.com/)
+- [Vimeo](https://vimeo.com/) ★
+- [YouTube](https://youtube.com/) ★
+
+## Wikis
+
+- [Baidu Baike](https://baike.baidu.com/)
+- [Citizendium](https://citizendium.org/)
+- [Fandom (Wikia)](https://fandom.com/)
+- [Fanlore](https://fanlore.org/)
+- [Liquipedia](https://liquipedia.net/)
+- [RationalWiki](https://rationalwiki.org/) ★
+- [Scholarpedia](https://scholarpedia.org/)
+- [WikiHow](https://wikihow.com/)
+- [Wikipedia](https://www.wikipedia.org/) ★
+
+## Agregador de Links
+
+- [About Me](https://about.me) ★
+- [Biosites](https://biosites.com) ★
+- [Bitly Link in Bio](https://bitly.com/pages/landing/link-in-bio)
+- [Campsite](https://campsite.bio)
+- [Canva Link in Bio](https://canva.com/features/link-in-bio)
+- [Feed Link](https://feed.link)
+- [Hoo.Be](https://hoo.be)
+- [Instabio](https://www.instabio.cc)
+- [Later Link in Bio](https://later.com/link-in-bio)
+- [Linktree](https://linktr.ee) ★
+- [Linkme](https://link.me) ★
+- [Lnk.Bio](https://lnk.bio)
+- [Milkshake](https://milkshake.app)
+- [Taplink](https://taplink.at)
+- [Tiles](https://tiles.bio)
+
+## Acesso à informação
+
+- [Wayback Machine](https://web.archive.org/) ★: Arquivo histórico da web do Internet Archive.
+- [Internet Archive](https://archive.org/) ★: Biblioteca digital sem fins lucrativos: livros, filmes, músicas e software.
+- [archive.today](https://archive.is/): Guarda cópias permanentes de páginas da web.
+- [Wikimedia](https://www.wikimedia.org/) ★: Fundação por trás da Wikipédia, Wikimedia Commons, Wikisource e outros projetos livres.
+- [Wikisource](https://wikisource.org/): Biblioteca livre de textos em domínio público.
+- [Creative Commons](https://creativecommons.org/) ★: Licenças abertas para compartilhar obras legalmente.
+- [Open Source Initiative](https://opensource.org/): Organização que define e promove o software de código aberto.
+- [OpenSubtitles](https://www.opensubtitles.org/): Legendas de filmes e séries enviadas pela comunidade.
+- [Project Gutenberg](https://www.gutenberg.org/): Livros em domínio público, gratuitos.
+- [Open Library](https://openlibrary.org/): Catálogo aberto de livros com empréstimo digital.
+- [LibriVox](https://librivox.org/): Audiolivros de domínio público lidos por voluntários.
+- [Domínio Público](http://www.dominiopublico.gov.br/): Biblioteca digital do governo brasileiro com obras em domínio público.
+- [Unpaywall](https://unpaywall.org/) ★: Encontra versões legais e gratuitas de artigos científicos.
+- [DOAJ](https://doaj.org/): Diretório de periódicos científicos de acesso aberto.
+- [CORE](https://core.ac.uk/): Milhões de artigos científicos de acesso aberto.
+- [arXiv](https://arxiv.org/): Pré-prints gratuitos de física, matemática, computação e mais.
+- [PubMed Central](https://pmc.ncbi.nlm.nih.gov/): Arquivo gratuito de artigos de ciências da saúde.
+- [BASE](https://www.base-search.net/): Buscador acadêmico de documentos de acesso aberto.
+- [Biblioteca-sombra (conceito)](https://en.wikipedia.org/wiki/Shadow_library): Artigo da Wikipédia sobre bibliotecas-sombra.
+- [Library Genesis](https://en.wikipedia.org/wiki/Library_Genesis): Biblioteca-sombra de livros e artigos. Link para o artigo da Wikipédia.
+- [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub): Biblioteca-sombra de artigos científicos. Link para o artigo da Wikipédia.
+- [Z-Library](https://en.wikipedia.org/wiki/Z-Library): Biblioteca-sombra de livros. Link para o artigo da Wikipédia.
+- [Anna's Archive](https://en.wikipedia.org/wiki/Anna%27s_Archive): Buscador de bibliotecas-sombra. Link para o artigo da Wikipédia.
+- [The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay): Site de torrents. Link para o artigo da Wikipédia.
+- [YTS (YIFY)](https://en.wikipedia.org/wiki/YIFY): Grupo de distribuição de filmes por torrent. Link para o artigo da Wikipédia.
+- [FitGirl Repacks](https://en.wikipedia.org/wiki/FitGirl_Repacks): Distribuidor de jogos piratas. Link para o artigo da Wikipédia.
+- [Antipaywall (Bye Bye Paywall)](https://byebyepaywall.com/): Ferramenta para ler matérias e artigos atrás de paywall.

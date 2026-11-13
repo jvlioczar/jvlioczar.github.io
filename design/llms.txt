@@ -1,0 +1,1533 @@
+# A Biblioteca de Design
+
+> Catálogo pesquisável dos melhores recursos de design por categoria. Ferramentas, conteúdo, agências, pessoas e muito mais.
+
+Biblioteca temática da BiblioVerse (The Design Library), com curadoria humana. Página: https://biblioverse.org/design/ · 1277 itens · atualizada em 2026-11-14.
+Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
+
+## Ferramentas
+
+### Redes Sociais / Portfolios
+
+- [500px](https://500px.com/)
+- [ArtConnect](https://www.artconnect.com/)
+- [ArtStation](https://www.artstation.com/) ★
+- [Behance](https://www.behance.net/) ★
+- [Carbonmade](https://carbonmade.com/)
+- [Cargo](https://cargo.site/)
+- [DeviantArt](https://www.deviantart.com/) ★
+- [Dribbble](https://dribbble.com/) ★
+- [Flickr](https://www.flickr.com/)
+- [Format](https://www.format.com/)
+- [Journo](https://www.journoportfolio.com/)
+- [Krop](https://www.krop.com/)
+- [Patterned](https://www.patterned.com/)
+- [Peerlist](https://peerlist.io/)
+- [Pixiv](https://www.pixiv.net/)
+- [Portfoliobox](https://www.portfoliobox.com/)
+- [Sesov](https://sesov.com/)
+- [Society6](https://society6.com/)
+- [Vsble](https://getvsble.com/)
+
+### Editor online de design
+
+- [Adobe Express](https://www.adobe.com/br/express/) ★
+- [Adobe Photoshop Web](https://www.adobe.com/au/products/photoshop/online.html)
+- [Artboard Studio](https://artboard.studio/) ★
+- [Beatflyer](https://www.beatflyer.com/)
+- [BeFunky](https://www.befunky.com/)
+- [Canva](https://www.canva.com/) ★
+- [Desygner](https://desygner.com/)
+- [Easil](https://about.easil.com/)
+- [Edit.org](https://edit.org/)
+- [Fotor](https://www.fotor.com/)
+- [Freepik](https://www.freepik.com/)
+- [Glorify](https://glorify.com/)
+- [Infography](https://www.infography.in/)
+- [iPiccy](https://ipiccy.com/)
+- [Luminar Neo Web](https://skylum.com/luminar)
+- [MagicPattern](https://www.magicpattern.design/)
+- [Marq](https://www.marq.com/)
+- [Microsoft Designer](https://designer.microsoft.com/)
+- [Modyfi](https://web.archive.org/web/2024/https://www.modyfi.com/) 🪦
+- [Photopea](https://www.photopea.com/)
+- [Picmonkey](https://www.picmonkey.com/)
+- [Pixelied](https://pixelied.com/)
+- [Pixlr](https://pixlr.com/)
+- [Polarr](https://photoeditor.polarr.co/)
+- [Previewed](https://previewed.app/)
+- [Rawpixel](https://www.rawpixel.com/)
+- [Snappa](https://snappa.com/)
+- [VistaCreate](https://create.vista.com/)
+- [Kittl](https://www.kittl.com/)
+
+### Editor online de mockups
+
+- [Adobe Stock Templates](https://stock.adobe.com/br/templates)
+- [Artboard Studio](https://artboard.studio/) ★
+- [Flair](https://flair.ai/)
+- [LiveSurface](https://www.livesurface.com/) ★
+- [Mock Mock](https://www.mockmock.pro/)
+- [Mockapus](https://mokapus.artlebedev.ru/en)
+- [MockFlow](https://mockflow.com/)
+- [MockupBro](https://mockupbro.com/pt)
+- [Mockuuups](https://mockuuups.studio/) ★
+- [Placeit](https://placeit.net/)
+- [Rotato](https://rotato.app/)
+- [Screenshot Studio](https://appstorescreenshotstudio.com/)
+- [Shots](https://shots.so/)
+- [Sourceful](https://www.sourceful.com/)
+
+### Softwares para pintura digital
+
+- [Adobe Fresco](https://www.adobe.com/products/fresco.html)
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop/) ★
+- [Affinity Designer](https://www.affinity.studio/graphic-design-software)
+- [Clip Studio Paint](https://www.clipstudio.net/)
+- [Concepts](https://concepts.app/)
+- [GIMP](https://www.gimp.org/)
+- [Krita](https://krita.org/)
+- [MyPaint](https://www.mypaint.app/)
+- [Painter](https://www.painterartist.com/) ★
+- [Pixelmator](https://www.apple.com/pixelmator-pro/)
+- [Procreate](https://procreate.com/) ★
+- [Rebelle](https://www.escapemotions.com/products/rebelle/)
+- [SketchBook](https://www.sketchbook.com/)
+- [Tayasui](https://www.tayasui.com/)
+- [Infinite Painter](https://www.infinitestudio.art/)
+
+### Softwares para ilustração vetorial
+
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator/) ★
+- [Affinity Designer](https://www.affinity.studio/graphic-design-software)
+- [CorelDRAW](https://www.coreldraw.com/en/product/coreldraw/)
+- [Inkscape](https://inkscape.org/)
+- [Linearity](https://www.linearity.io/)
+- [Vectr](https://vectr.com/)
+
+### Software para 3D
+
+- [3D-Coat](https://3dcoat.com/)
+- [3ds Max](https://www.autodesk.com/products/3ds-max/overview) ★
+- [Blender](https://www.blender.org/) ★
+- [Chaos V-Ray](https://www.chaos.com/vray)
+- [Cinema 4D](https://www.maxon.net/en/cinema-4d) ★
+- [Endless Tools](https://endlesstools.io/)
+- [Glossi](https://www.glossi.io/)
+- [Houdini](https://www.sidefx.com/)
+- [KickRender](https://www.kickrender.com/)
+- [Mari](https://www.foundry.com/products/mari)
+- [Maya](https://www.autodesk.com/products/maya/overview) ★
+- [Naker](https://web.archive.org/web/2022/https://www.naker.io/) 🪦
+- [Nomad Sculpt](https://nomadsculpt.com/)
+- [Realitymax](https://realitymax.com/)
+- [SketchUp](https://sketchup.trimble.com/)
+- [SolidWorks sDesign](https://www.solidworks.com/product/solidworks-xdesign)
+- [Substance 3D](https://www.adobe.com/products/substance3d.html)
+- [Tinkercad](https://www.tinkercad.com/)
+- [Tripo](https://www.tripo3d.ai/)
+- [Vectary](https://www.vectary.com/)
+- [ZBrush](https://www.maxon.net/en/zbrush)
+- [Spline](https://spline.design/)
+- [KeyShot](https://www.keyshot.com/)
+- [Rhino](https://www.rhino3d.com/)
+- [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/)
+
+### Softwares para editoração
+
+- [Adobe InDesign](https://www.adobe.com/products/indesign/) ★
+- [Affinity Publisher](https://www.affinity.studio/page-layout-software)
+- [BookWright](https://www.blurb.com/bookwright)
+- [Ceros](https://www.ceros.com/)
+- [Elite CS](https://www.mundiware.com/)
+- [Flickread](https://flickread.com/)
+- [Jilster](https://jilster.app/)
+- [Joomag](https://www.joomag.com/)
+- [Kotobee](https://www.kotobee.com/)
+- [Madmagz](https://madmagz.com/)
+- [Mag+](https://www.magplus.com/)
+- [Microsoft Publisher](https://www.microsoft.com/microsoft-365/publisher)
+- [PageMaker](https://en.wikipedia.org/wiki/Aldus_PageMaker) 🪦
+- [PageSuite](https://www.pagesuite.com/)
+- [QuarkXPress](https://www.quark.com/products/quarkxpress) ★
+- [RagTime](https://www.ragtime.de/)
+- [Scribus](https://sourceforge.net/projects/scribus/)
+- [Sigil](https://sigil-ebook.com/)
+- [Woodwing Studio](https://www.woodwing.com/products/woodwing-studio)
+
+### Softwares para edição de fotografia
+
+- [Adobe Lightroom](https://lightroom.adobe.com/) ★
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop/) ★
+- [Adobe Photoshop Elements](https://www.adobe.com/products/photoshop-elements.html)
+- [Affinity Photo](https://www.affinity.studio/photo-editing-software)
+- [Corel Photo-Paint](https://www.coreldraw.com/en/pages/photo-paint/)
+- [GIMP](https://www.gimp.org/)
+- [Paint.NET](https://paint.net/)
+- [Photopea](https://www.photopea.com/)
+- [Photoscape](https://photoscape.org/)
+- [Pixelmator](https://www.apple.com/pixelmator-pro/)
+- [Pixlr](https://pixlr.com/)
+- [Topaz Photo](https://www.topazlabs.com/topaz-photo)
+- [Capture One](https://www.captureone.com/) ★
+- [Luminar Neo](https://skylum.com/luminar)
+- [darktable](https://www.darktable.org/)
+
+### Softwares para edição de vídeo
+
+- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)
+- [Adobe Premiere](https://www.adobe.com/products/premiere.html) ★
+- [CapCut](https://www.capcut.com/) ★
+- [Davinci Resolve](https://www.movavi.com/support/how-to/how-to-use-davinci-resolve/) ★
+- [Kdenlive](https://kdenlive.org/)
+- [Olive Video Editor](https://www.olivevideoeditor.org/)
+- [OpenShot](https://www.openshot.org/)
+- [Premiere Rush](https://www.adobe.com/products/premiere-rush.html)
+- [Remotion](https://www.remotion.dev/)
+- [Shotcut](https://www.shotcut.org/)
+- [Vegas Pro](https://www.vegascreativesoftware.com/vegas-pro/)
+- [VibrantSnap](https://www.vibrantsnap.com/)
+- [VideoStudio](https://www.videostudiopro.com/)
+- [Final Cut Pro](https://www.apple.com/final-cut-pro/) ★
+- [Avid Media Composer](https://www.avid.com/media-composer)
+- [Clipchamp](https://clipchamp.com/)
+
+### Softwares para animação
+
+- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html) ★
+- [Adobe Animate](https://www.adobe.com/products/animate.html)
+- [Animaker](https://www.animaker.com/)
+- [Animation Desk](https://www.kdan.com/animation-desk)
+- [AnimStats](https://www.animstats.com/)
+- [Cacani](https://cacani.sg/)
+- [Flow](https://createwithflow.com/)
+- [GSAP](https://gsap.com/)
+- [Haiku Animator](https://www.haikuanimator.com/)
+- [Jitter](https://jitter.video/)
+- [Kite Compositor](https://kiteapp.co/)
+- [Lottiebox](https://lottiebox.com/)
+- [Lottielab](https://www.lottielab.com/)
+- [Mixamo](https://www.mixamo.com/#/)
+- [Modyfi](https://web.archive.org/web/2024/https://www.modyfi.com/) 🪦
+- [Moho](https://moho.lostmarble.com/)
+- [Motion](https://www.motion.design/)
+- [Nuke Stage](https://www.foundry.com/products/nuke-stage)
+- [Pencil2D](https://www.pencil2d.org/)
+- [Rive](https://rive.app/)
+- [Synfig](https://www.synfig.org/)
+- [Toon Boom Harmony](https://www.toonboom.com/products/harmony) ★
+- [Toon Boom Storyboard Pro](https://www.toonboom.com/products/storyboard-pro)
+- [Tumult Hype](https://tumult.com/hype/)
+- [TVPaint](https://tvpaint.com/) ★
+
+### Softwares para tipografia
+
+- [Birdfont](https://birdfont.org/)
+- [Web Font Preview](https://webfontpreview.com/)
+- [Calligraphr](https://www.calligraphr.com/)
+- [FontCreator](https://www.high-logic.com/font-editor/fontcreator) ★
+- [FontForge](https://fontforge.org/)
+- [FontLab](https://www.fontlab.com/) ★
+- [Fontself](https://www.fontself.com/)
+- [FontStruct](https://fontstruct.com/)
+- [Glyphr Studio](https://www.glyphrstudio.com/)
+- [Glyphs](https://glyphsapp.com/) ★
+- [iFontMaker](https://apps.apple.com/app/id377381670)
+- [Modulator Metaflop](https://www.metaflop.com/)
+- [Prototypo](https://www.prototypo.io/) 🪦
+- [RoboFont](https://robofont.com/) ★
+- [Type 3.2](https://cr8software.net/type.html)
+- [TypeTool](https://www.fontlab.com/typetool/)
+
+### Softwares para design de interfaces e webdesign
+
+- [Adobe XD](https://en.wikipedia.org/wiki/Adobe_XD) 🪦
+- [Axure RP](https://www.axure.com/) ★
+- [Balsamiq](https://balsamiq.com/) ★
+- [Bondlayer](https://www.bondlayer.com/)
+- [Bootstrap Studio](https://bootstrapstudio.io/)
+- [Bubble](https://bubble.io/)
+- [Control](https://cntrl.site/)
+- [CorelDRAW Web](https://web.coreldraw.com/)
+- [Creatr](https://getcreatr.com/)
+- [Creo](https://creolabs.com/)
+- [Designmodo](https://designmodo.com/)
+- [Dreamweaver](https://www.adobe.com/au/products/dreamweaver.html)
+- [Figma](https://www.figma.com/) ★
+- [FlowMapp](https://www.flowmapp.com/)
+- [Flowstep](https://flowstep.ai/)
+- [FlutterFlow](https://www.flutterflow.io/)
+- [Framer](https://www.framer.com/)
+- [Justinmind](https://www.justinmind.com/)
+- [Layer](https://layer.cafe/)
+- [Leadpages](https://www.leadpages.com/)
+- [Marvel](https://marvelapp.com/)
+- [Maze](https://maze.co/)
+- [Miro](https://miro.com/)
+- [mmm.page](https://mmm.page/)
+- [Mockup](https://getmockup.app/)
+- [Moio](https://moioapp.com/) ★
+- [Origami Studio](https://origami.design/)
+- [Overflow](https://overflow.io/)
+- [Paper](https://paper.design/)
+- [Penpot](https://penpot.app/)
+- [Proto.io](https://proto.io/)
+- [ProtoPie](https://www.protopie.io/)
+- [Revyme](https://www.revyme.com/)
+- [Rive](https://rive.app/) ★
+- [Shuffle](https://shuffle.dev/)
+- [Sketch](https://www.sketch.com/) ★
+- [Studio.Design](https://studio.design/)
+- [Subframe](https://www.subframe.com/)
+- [TeleportHQ](https://teleporthq.io/)
+- [UIBrainX](https://softlite.io/uibrainx/)
+- [Umso](https://www.umso.com/)
+- [UXPin](https://www.uxpin.com/)
+- [Webflow](https://webflow.com/) ★
+- [Webstudio](https://webstudio.is/)
+- [Ycode](https://www.ycode.com/)
+- [Zeroheight](https://zeroheight.com/)
+- [Relume](https://www.relume.ai/)
+- [Wix Studio](https://www.wix.com/studio)
+
+### Softwares e apps para testar tipografia e logo
+
+- [Font Brief](https://www.fontbrief.com/)
+- [Font Pair](https://fontpair.co/)
+- [Font Tester](https://font-tester.foxcraft.tech/)
+- [Fontonic](https://chromewebstore.google.com/detail/fontonic-change-fonts/hnjlnpipbcbgllcjgbcjfgepmeomdcog)
+- [Fonts Ninja](https://fonts.ninja/)
+- [Localfonts](https://localfonts.xyz/)
+- [Mojomox](https://mojomox.com/)
+- [Type Sample](https://www.typewolf.com/type-sample)
+- [Typescale](https://typescale.com/)
+- [Typogram](https://typogram.co/)
+- [WhatTheFont](https://www.myfonts.com/whatthefont)
+- [Wordmark](https://wordmark.it/)
+
+### Softwares e apps para design experimental
+
+- [Fffuel](https://www.fffuel.co/)
+- [Generativ Design](https://www.generativ.design/)
+- [Globs Designer](https://www.globs.design/)
+- [Gr iii d](https://www.griiid.ink/)
+- [Rogo](https://vanity-ibex.xyz/rogo/)
+- [Ruri](https://ruri.design/)
+- [ArtCraft](https://getartcraft.com/)
+
+### Softwares e apps para testar fotografia
+
+- [CameraSim](https://camerasim.com/) ★
+- [Canon Lens Simulator](https://lenssimulator-cna.academy.canon.de/)
+- [DOF Simulator](https://dofsimulator.net/en/)
+- [DxOMark](https://www.dxomark.com/)
+
+### Apps de cores e paletas
+
+- [Adobe Color](https://color.adobe.com/)
+- [BrandColors](https://brandcolors.net/)
+- [cccolor](https://www.fffuel.co/cccolor/)
+- [Color Hunt](https://colorhunt.co/)
+- [Color Leap](https://colorleap.app/home)
+- [Colorffy](https://colorffy.com/)
+- [Colors Vizualizer](https://colors-visualizer.vercel.app/)
+- [ColorSpace](https://mycolor.space/)
+- [CSS Gradient](https://cssgradient.io/)
+- [Flat UI Colors](https://flatuicolors.com/)
+- [Grabient](https://www.grabient.com/)
+- [Gradient](https://gradient.shapefactory.co/)
+- [Gradients App](https://gradients.app/)
+- [Happy Hues](https://www.happyhues.co/)
+- [Meshy](https://meshgradient.in/)
+- [Palitra](https://palitra.app/)
+- [Pigment](https://pigment.shapefactory.co/)
+- [Pixelied Colors](https://pixelied.com/colors)
+- [Realtime Colors](https://www.realtimecolors.com/)
+- [Shader Gradient](https://www.shadergradient.co/customize)
+- [UI Colors](https://uicolors.app/)
+- [Coolors](https://coolors.co/)
+
+### Pacotes de Softwares
+
+- [Adobe Creative Cloud](https://www.adobe.com/creativecloud/)
+- [Affinity](https://www.affinity.studio/)
+- [Corel](https://www.corel.com/en/all-products/)
+- [Foundry](https://www.foundry.com/)
+- [Freepik AI Suite](https://www.freepik.com/pikaso/explore)
+- [Quark](https://www.quark.com/)
+- [Topaz Labs](https://www.topazlabs.com/)
+
+## Recursos Gratuitos
+
+### Bancos de fotografias
+
+- [Brasil com S](https://www.brasilcoms.com.br/)
+- [Burst](https://www.shopify.com/stock-photos)
+- [Commons Wikimedia](https://commons.wikimedia.org/wiki/Commons:Featured_pictures)
+- [Creative Commons](https://search.creativecommons.org/)
+- [EyeEm](https://www.eyeem.com/)
+- [Foca Stock](https://focastock.com/)
+- [Foodiesfeed](https://foodiesfeed.com/)
+- [Free Nature Stock](https://freenaturestock.com/)
+- [FreeImages](https://web.archive.org/web/2022/https://www.freeimages.com/) 🪦
+- [Freerange](https://freerangestock.com/)
+- [Gratisography](https://gratisography.com/) ★
+- [ISO Republic](https://isorepublic.com/)
+- [Jay Mantri](https://jaymantri.com/)
+- [Kaboompics](https://kaboompics.com/)
+- [LibreShot](https://libreshot.com/)
+- [Magdeleine](https://magdeleine.co/)
+- [Morguefile](https://morguefile.com/)
+- [NegativeSpace](https://negativespace.co/)
+- [New Old Stock](https://nos.twnsnd.co/)
+- [Pexels](https://www.pexels.com/) ★
+- [Picjumbo](https://picjumbo.com/)
+- [Pixabay](https://pixabay.com/) ★
+- [Rgbstock](https://www.rgbstock.com/)
+- [Shopify Stock](https://www.shopify.com/stock-photos)
+- [Startup Stock Photos](https://startupstockphotos.com/)
+- [StockSnap](https://stocksnap.io/)
+- [Stockvault](https://www.stockvault.net/)
+- [Textures](https://www.textures.com/)
+- [Unsplash](https://unsplash.com/) ★
+
+### Bancos de ilustrações
+
+- [Blush Design](https://blush.design/)
+- [CocoMaterial](https://cocomaterial.com/)
+- [Free Illustrations](https://freeillustrations.xyz/)
+- [Freepik](https://www.freepik.com/images) ★
+- [Get Illustrations](https://getillustrations.com/)
+- [Illustration So](https://illustration.so/)
+- [Noun Project](https://thenounproject.com/) ★
+- [Open Doodles](https://opendoodles.com/)
+- [Picographic](https://pictographic.ai/) ★
+- [Pixabay](https://pixabay.com/) ★
+- [Reshot](https://web.archive.org/web/2023/https://www.reshot.com/) 🪦
+- [Resource Boy](https://resourceboy.com/)
+- [Storyset](https://storyset.com/)
+- [Transhumans](https://www.transhumans.xyz/)
+- [unDraw](https://undraw.co/)
+- [Vecteezy](https://vecteezy.com/) ★
+
+### Bancos de ícones
+
+- [3Dicons](https://3dicons.co/)
+- [Blendicons](https://blendicons.com/)
+- [Boxicons](https://remixicon.com/)
+- [CSS*GG](https://css.gg/)
+- [Flaticon](https://www.flaticon.com/) ★
+- [Fonts Google Icons](https://fonts.google.com/icons)
+- [Heroicons](https://heroicons.com/)
+- [Icônes](https://icones.js.org/)
+- [iconmonstr](https://iconmonstr.com/) ★
+- [Iconoir](https://iconoir.com/)
+- [Icons8](https://icons8.com/)
+- [Iconsax](https://iconsax.io/)
+- [Ionicons](https://ionic.io/ionicons)
+- [Line Icons](https://lineicons.com/)
+- [Noun Project](https://thenounproject.com/) ★
+- [Pictogrammers](https://pictogrammers.com/)
+- [Remix Icon](https://remixicon.com/)
+- [Sargam Icons](https://sargamicons.com/)
+- [Simple Icons](https://simpleicons.org/)
+- [Streamline](https://www.streamlinehq.com/?tab=free)
+- [SVG Repo](https://www.svgrepo.com/)
+- [Lucide](https://lucide.dev/)
+- [Phosphor Icons](https://phosphoricons.com/)
+
+### Bancos de mockups
+
+- [Behance Free Mockup Projects](https://www.behance.net/search/projects?search=free+mockup)
+- [Foca Stock](https://focastock.com/)
+- [Foodiesfeed](https://www.foodiesfeed.com/)
+- [Free Mockup Zone](https://freemockupzone.com/)
+- [FreePhotos](https://freephotos.cc/)
+- [Freepik Mockups](https://www.freepik.com/mockups)
+- [Good Mockups](https://goodmockups.com/)
+- [Graphberry Mockups](https://www.graphberry.com/category/mock-ups)
+- [Graphic Burger](https://graphicburger.com/)
+- [LibreStock](https://librestock.com/)
+- [ls Graphics Mockups](https://www.ls.graphics/free-mockups) ★
+- [Minimal Mockups](https://www.anthonyboyd.graphics/) ★
+- [Mocku](https://www.hellomocku.com/graphics/) ★
+- [Mockup Ceacle](https://mockup.ceacle.com/search?q=%22free%22)
+- [Mockup Cloud](https://www.mockupcloud.com/free)
+- [Mockup World](https://www.mockupworld.co/) ★
+- [Mockup World HQ](https://www.mockupworldhq.com/)
+- [Mockups Design](https://mockups-design.com/) ★
+- [Mr.Mockup Freebies](https://mrmockup.com/freebies)
+- [Nappy](https://nappy.co/)
+- [Pacdora](https://www.pacdora.com/)
+- [PhotoStock](https://photostockeditor.com/)
+- [picjumbo](https://picjumbo.com/)
+- [Pixeden](https://www.pixeden.com/) ★
+- [ShotStash](https://shotstash.com/)
+- [Sports Templates Free](https://sportstemplates.net/free-templates)
+- [Stock Up](https://stockup.sitebuilderreport.com/)
+- [The Noun Project Photos](https://thenounproject.com/photos/)
+- [Unblast Mockups](https://unblast.com/mockups)
+- [Yellow Images Free](https://yellowimages.com/all/objects/free-mockups)
+
+### Bancos de tipografias
+
+- [1001 Fonts](https://www.1001fonts.com/)
+- [Abstract Fonts](https://www.abstractfonts.com/)
+- [All Free Fonts](https://www.allfreefonts.co/)
+- [Behance Fonts](https://www.behance.net/assets?priceTier=free&category=fonts)
+- [Cufon Fonts](https://www.cufonfonts.com/)
+- [DaFont](https://www.dafont.com/) ★
+- [FFonts](https://www.ffonts.net/)
+- [Font Squirrel](https://www.fontsquirrel.com/) ★
+- [Font Struct](https://fontstruct.com/gallery)
+- [Fontesk](https://fontesk.com/) ★
+- [Fontmirror](https://www.fontmirror.com/)
+- [Fontshare](https://www.fontshare.com/) ★
+- [FontsHub](https://fontshub.pro/)
+- [FontSpace](https://www.fontspace.com/)
+- [Fontspring](https://www.fontspring.com/free/)
+- [FontZone](https://fontzone.net/)
+- [Free Design Resources](https://freedesignresources.net/)
+- [Google Fonts](https://fonts.google.com/) ★
+- [iFonts](https://ifonts.xyz/)
+- [Uncut.wtf](https://uncut.wtf/)
+- [Urban Fonts](https://www.urbanfonts.com/)
+
+### Conversores
+
+- [Cloud Convert](https://cloudconvert.com/) ★
+- [Convertio](https://convertio.co/pt/) ★
+- [FreeConvert](https://www.freeconvert.com/pt)
+- [iLoveIMG](https://www.iloveimg.com/pt)
+- [iLovePDF](https://www.ilovepdf.com/pt)
+- [Img2Go](https://www.img2go.com/pt)
+- [Online Convert](https://imagem.online-convert.com/pt)
+
+### Upscalers
+
+- [AI Image Upscaler](https://imgupscaler.com/) ★
+- [Clipdrop](https://clipdrop.co/)
+- [Microsoft Designer](https://designer.microsoft.com/)
+- [Remini](https://app.remini.ai/)
+- [Replicate](https://replicate.com/)
+- [Upscale.media](https://www.upscale.media/pt) ★
+
+## Recursos Pagos
+
+### Recursos em geral
+
+- [ArtStation Marketplace](https://www.artstation.com/marketplace)
+- [Craftwork](https://craftwork.design/)
+- [Creative Fabrica](https://www.creativefabrica.com/)
+- [Creative Market](https://creativemarket.com/) ★
+- [DesignBR](https://designbr.com.br/)
+- [DesignBundles](https://designbundles.net/)
+- [Envato](https://elements.envato.com/pt-br) ★
+- [Etsy](https://www.etsy.com/)
+- [Gumroad](https://gumroad.com/)
+- [Kittl](https://www.kittl.com/)
+- [Motion Array](https://motionarray.com/)
+- [Pixelbuddha](https://pixelbuddha.net/)
+- [Pond5](https://www.pond5.com/)
+- [Redbubble](https://www.redbubble.com/)
+- [Sagesmask](https://sagesmask.com/)
+- [Savee Marketplace](https://marketplace.savee.com/)
+- [Sellfy](https://sellfy.com/)
+- [Society6](https://society6.com/)
+- [Supply.Family](https://supply.family/)
+- [123RF](https://123rf.com/)
+- [Toools Design](https://www.toools.design/)
+- [Wannathis](https://wannathis.one/)
+- [YouWorkForThem](https://www.youworkforthem.com/) ★
+
+### Bancos de imagens
+
+- [123RF](https://www.123rf.com/)
+- [Adobe Stock](https://stock.adobe.com/) ★
+- [Alamy](https://www.alamy.com/)
+- [Death To Stock](https://www.deathtothestockphoto.com/)
+- [Deposit Photos](https://depositphotos.com/)
+- [Dreamstime](https://www.dreamstime.com/)
+- [EyeEm](https://www.eyeem.com/)
+- [Getty Images](https://www.gettyimages.com/) ★
+- [iStock](https://www.istockphoto.com/)
+- [Shutterstock](https://www.shutterstock.com/) ★
+- [Truestock](https://truestock.com.au/)
+- [Visual China Group](https://www.vcg.com/)
+
+### Bancos de ilustrações
+
+- [3dtotal](https://store.3dtotal.com/)
+- [atipo illustration](https://atipoillustrations.com/) ★
+- [Black Illustrations](https://www.blackillustrations.com/)
+- [Blush Design](https://blush.design/)
+- [DrawKit](https://www.drawkit.com/)
+- [GetIllustrations](https://www.getillustrations.com/) ★
+- [Icon Finder](https://www.iconfinder.com/illustrations)
+- [LogoArchive Shop](https://www.logoarchive.shop/)
+- [Nice Illustrations](https://niceillustrations.com/)
+- [Overflow Design](https://www.overflow.design/)
+- [Pixel True](https://www.pixeltrue.com/)
+- [Skribbl](https://weareskribbl.com/)
+- [Streamline](https://home.streamlinehq.com/)
+- [The Doodle Library](https://www.thedoodlelibrary.com/)
+
+### Bancos de ícones
+
+- [Amicons](https://amicons.design/)
+- [Boxicons](https://remixicon.com/)
+- [Figicon](https://www.figicon.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Icon Finder](https://www.iconfinder.com/)
+- [Iconbuddy](https://iconbuddy.com/)
+- [Icons8](https://icons8.com/)
+- [Iconsax](https://iconsax.io/)
+- [IconScout](https://iconscout.com/)
+- [Iconshock](https://www.iconshock.com/)
+- [Line Icons](https://lineicons.com/)
+- [Streamline](https://home.streamlinehq.com/)
+- [UI8](https://ui8.net/)
+- [Uicons](https://www.uicons.com/)
+- [Uxercon](https://www.uxercon.com/)
+- [Web In Motion](https://www.webinmotion.co/)
+
+### Bancos de padrões e texturas
+
+- [Creatica](https://creatica.app/backgrounds)
+- [MagicPattern](https://www.magicpattern.design/)
+- [Patternbank](https://patternbank.com/) ★
+- [Patterned](https://www.patterned.com/)
+- [Spoonflower](https://spoonflower.com/)
+- [Next State](https://nextstateprint.com/)
+
+### Bancos de mockups
+
+- [099 Supply](https://099.supply/)
+- [Layers](https://layers.design/) ★
+- [Lovely and SpotlessGraphics](https://www.ls.graphics/) ★
+- [Mockey](https://mockey.ai/)
+- [Mockup Republic](https://mockuprepublic.com/)
+- [Darkroom](https://darkroom.au/) ★
+- [Mocku](https://hellomocku.com/) ★
+- [Mockup Cloud](https://www.mockupcloud.com/)
+- [Mockup Maison](https://mockup.maison/)
+- [Mockup Zone](https://www.mockup.zone/) ★
+- [Mockuperia](https://mockuperia.com/)
+- [Mr.Mockup](https://mrmockup.com/)
+- [Placeit](https://placeit.net/)
+- [Sports Templates](https://sportstemplates.net/)
+- [Urban Poster Mockup](https://urbanpostermockup.com/) ★
+- [Wannathis](https://wannathis.one/) ★
+- [Yellow Images](https://yellowimages.com/)
+
+### Bancos de tipografias
+
+- [Adobe Fonts](https://fonts.adobe.com/) ★
+- [Creative Market](https://creativemarket.com/fonts)
+- [Envato Elements](https://elements.envato.com/pt-br/fonts)
+- [Font Bundles](https://fontbundles.net/)
+- [Fontfabric](https://www.fontfabric.com/)
+- [Fonts Ninja](https://fonts.ninja/)
+- [Fonts.com](https://www.fonts.com/)
+- [FontShop](https://www.fontshop.com/)
+- [Fontspring](https://www.fontspring.com/)
+- [Fontstore](https://www.fontstore.com/)
+- [Future Fonts](https://www.futurefonts.com/)
+- [I Love Typography](https://fonts.ilovetypography.com/)
+- [Mojomox Fonts](https://fonts.mojomox.com/)
+- [Monotype Fonts](https://www.monotypefonts.com/) ★
+- [MyFonts](https://www.myfonts.com/) ★
+- [Typeeverything](https://typeverything.com/) ★
+- [YouWorkForThem](https://www.youworkforthem.com/fonts) ★
+
+### Serviços de design
+
+- [99designs](https://99designs.com.br/)
+- [99Freelas](https://www.99freelas.com.br/)
+- [Behance](https://www.behance.net/)
+- [DesignCrowd](https://www.designcrowd.com/)
+- [Fiverr](https://www.fiverr.com/) ★
+- [Freelancer](https://www.br.freelancer.com/)
+- [GetNinjas](https://www.getninjas.com.br/) ★
+- [Trampos](https://trampos.co/)
+- [Workana](https://go.workana.com/)
+
+### Cursos de design
+
+- [8designers](https://8designers.com/)
+- [Aprender Design](https://www.aprender.design/)
+- [Brandster](https://brandster.com.br/)
+- [Designlab](https://designlab.com/) ★
+- [Domestika Design](https://www.domestika.org/courses/category/3-design)
+- [Laje](https://laje-ac.com.br/)
+- [Leiautar](https://leiautar.com.br/)
+- [Media Design School](https://www.mediadesignschool.com/)
+- [Mentorama](https://mentorama.com.br/)
+- [Motion Design School](https://motiondesign.school/)
+- [QC Design School](https://www.qcdesignschool.com/)
+- [Skillshare](https://www.skillshare.com/)
+- [The Futur](https://thefutur.com/) ★
+- [The Graphic Design School](https://www.thegraphicdesignschool.com/)
+- [Udemy Design](https://www.udemy.com/courses/design/)
+
+## Blogs e Conteúdo
+
+### Branding
+
+- [AdAge](https://adage.com/creativity)
+- [Behance Branding](https://www.behance.net/galleries/branding/logo-design)
+- [BP&O](https://bpando.org/) ★
+- [Brand New](https://www.underconsideration.com/brandnew/) ★
+- [BrandGuidelines](https://www.brandguidelines.net/)
+- [Branding](https://www.brandingmag.com/)
+- [Branding Style Guides](https://brandingstyleguides.com/)
+- [Font In Logo](https://www.fontinlogo.com/)
+- [Identity Designed](https://identitydesigned.com/) ★
+- [Logggos](https://www.logggos.club/)
+- [Logo Design Love](https://www.logodesignlove.com/)
+- [LogoArchive](https://www.logo-archive.org/)
+- [Logobook](https://www.logobook.com/)
+- [LogoLounge](https://www.logolounge.com/)
+- [Logopedia](https://logos.fandom.com/wiki/Logopedia)
+- [Mojomox Blog](https://mojomox.com/blog)
+- [The Dieline](https://thedieline.com/) ★
+
+### Inspiração
+
+- [Awwwards Sites of The Day](https://www.awwwards.com/websites/sites_of_the_day/) ★
+- [Behance](https://www.behance.net/)
+- [Bento Grids](https://bentogrids.com/) ★
+- [Best Designs On X](https://bestdesignsonx.com/)
+- [Branding Website](https://www.brandingwebsite.com/) ★
+- [Cool Infographics](https://coolinfographics.com/)
+- [Cover of the Day](https://www.spd.org/cover-of-the-day)
+- [Coverjunkie](https://coverjunkie.com/) ★
+- [CSS Design Awards](https://www.cssdesignawards.com/)
+- [Curated Inspiration](https://craftwork.design/curated/websites) ★
+- [Curations Supply](https://curations.supply/)
+- [Dark Mode Design](https://www.darkmodedesign.com/)
+- [Design Vault](https://designvault.io/)
+- [Designispiration](https://www.designspiration.com/)
+- [Doing Cool Stuff](https://web.archive.org/web/2023/https://www.doingcoolstuff.xyz/) 🪦
+- [Dribbble](https://dribbble.com/)
+- [Footer Design](https://www.footer.design/)
+- [Godly](https://godly.website/)
+- [Hover States](https://www.hoverstat.es/)
+- [Huds+Guis](https://www.hudsandguis.com/)
+- [IMP Awards](http://www.impawards.com/) ★
+- [Landbook](https://land-book.com/)
+- [Landdding](https://landdding.com/)
+- [Landingfolio](https://www.landingfolio.com/)
+- [Lapa Ninja](https://www.lapa.ninja/)
+- [Layers](https://layers.to/)
+- [Logggos](https://www.logggos.club/) ★
+- [Logobook](https://www.logobook.com/)
+- [MaxiBestOf](https://maxibestof.one/)
+- [Muzli](https://muz.li/)
+- [Nice Spread](https://www.spd.org/nice-spread)
+- [One Page Love](https://onepagelove.com/)
+- [Pinterest](https://pinterest.com/)
+- [Pôsteres](https://posteres.tumblr.com/)
+- [Typographic Posters](https://typographicposters.com)
+- [Seesaw](https://www.seesaw.website/)
+- [Siteinspire](https://www.siteinspire.com/)
+- [The FWA](https://thefwa.com/) ★
+- [Tumblr](https://www.tumblr.com/tagged/design)
+- [Typ.io](https://typ.io/)
+- [UI Sources](https://uisources.com/)
+- [Unsection](https://unsection.com/)
+- [Bestfolios](https://bestfolios.com/)
+- [Visual Journal](https://visualjournal.it/) ★
+- [Web Design Inspiration](https://webdesigninspiration.io/)
+- [Are.na](https://www.are.na/)
+- [Looks Like Good Design](https://www.lookslikegooddesign.com/)
+
+### Design em geral
+
+- [Abduzeedo](https://abduzeedo.com/) ★
+- [Brainstorm9](https://b9.com.br/criatividade)
+- [Adobe Blog](https://blog.adobe.com/br/)
+- [AIGA Eye on Design](https://eyeondesign.aiga.org/) ★
+- [Aprenda](https://www.canva.com/pt_br/aprenda/)
+- [Hue&Eye](https://www.hueandeye.org/)
+- [Behance Blog](https://www.behance.net/blog/)
+- [Brazuca Design](https://brazuca.design.blog/)
+- [Catsuka](https://catsuka.com/)
+- [Colossal](https://www.thisiscolossal.com/)
+- [Creative Boom](https://www.creativeboom.com/) ★
+- [Creative Review](https://www.creativereview.co.uk/) ★
+- [Des1gnON](https://www.des1gnon.com/)
+- [Design Conceitual](https://designconceitual.com.br/)
+- [Design Shack](https://designshack.net/)
+- [Designer Daily Report](https://designerdailyreport.com/)
+- [Designerd](https://www.designerd.com.br/)
+- [Eye On Design](https://eyeondesign.aiga.org/)
+- [Fast Company Branding](https://www.fastcompany.com/section/branding)
+- [Fubiz](https://www.fubiz.net/) ★
+- [Google Design](https://design.google/)
+- [Hack Design](https://hackdesign.org/)
+- [Hi-Fructose](https://hifructose.com/) ★
+- [Inspiration Grid](https://theinspirationgrid.com/)
+- [It’s Nice That](https://www.itsnicethat.com/) ★
+- [Leiautar Blog](https://leiautar.com.br/blog/)
+- [Panda](https://app.usepanda.com/)
+- [Sala7design](https://sala7design.com.br/)
+- [Shutterstock Blog](https://www.shutterstock.com/pt/blog/)
+- [Side Bar](https://sidebar.io/)
+- [Stories](https://dribbble.com/stories)
+- [The Art Story](https://www.theartstory.org/)
+- [The Design Blog](https://thedsgnblog.com/) ★
+- [The Stock](https://thestocks.im/)
+- [Walter Mattos Blog](https://waltermattos.com/blog)
+
+### Design de produto
+
+- [Behance Design Product](https://www.behance.net/galleries/product-design)
+- [Core77](https://www.core77.com/) ★
+- [Design Milk](https://design-milk.com/)
+- [Designboom](https://www.designboom.com/design/) ★
+- [Dezeen](https://www.dezeen.com/design/) ★
+- [Dieline](https://thedieline.com/)
+- [Fast Company Design](https://www.fastcompany.com/co-design)
+- [Form Trends](https://www.formtrends.com/)
+- [The Journal Speck Design](https://www.speckdesign.com/the-journal)
+- [Yanko Design](https://yankodesign.com/) ★
+
+### Design editorial
+
+- [Book Cover Archive](https://bookcoverarchive.com/)
+- [Design Observer](https://designobserver.com/) ★
+- [Eye Magazine](https://www.eyemagazine.com/) ★
+- [Faceout Books](https://faceoutstudio.com/)
+- [Fonts In Use](https://fontsinuse.com/)
+- [IMP Awards](http://www.impawards.com/)
+- [magCulture](https://magculture.com/) ★
+- [Nas Capas](https://nascapas.blogspot.com/)
+- [No Miolo](https://nomiolo.blogspot.com/)
+- [Pôsteres](https://posteres.tumblr.com/)
+- [Print Mag](https://www.printmag.com/) ★
+- [Spine Magazine](https://www.spinemagazine.co/)
+- [The Book Design Blog](https://thebookdesignblog.com/)
+- [Typographic Posters](https://typographicposters.com)
+- [The Casual Optimist](https://www.casualoptimist.com/)
+
+### Embalagem
+
+- [Dieline](https://thedieline.com/) ★
+- [Lovely Package](https://lovelypackage.com/)
+- [Packaging Design Archive](https://www.packagingdesignarchive.org/)
+- [Packaging of the World](https://packagingoftheworld.com/) ★
+- [PalpNews](https://psndesign.blog.br/)
+
+### Fotografia
+
+- [500px ISO](https://iso.500px.com/)
+- [DIY Photography](https://www.diyphotography.net/)
+- [DPReview](https://www.dpreview.com/) ★
+- [ExpertPhotography](https://expertphotography.com/)
+- [Feature Shoot](https://www.featureshoot.com/)
+- [Flickr Blog](https://blog.flickr.net/)
+- [Fstoppers](https://fstoppers.com/) ★
+- [LensCulture](https://www.lensculture.com/)
+- [Magnum Photos](https://www.magnumphotos.com/) ★
+- [PetaPixel](https://petapixel.com/)
+- [PhotoPills Academy](https://www.photopills.com/academy)
+- [Shotkit](https://shotkit.com/)
+- [The Phoblographer](https://www.thephoblographer.com/)
+- [Viva O Clique](https://www.vivaoclique.com/)
+
+### História do design
+
+- [AIGA Design Archives](https://designarchives.aiga.org/#/home) ★
+- [Archives Design](https://archives.design/)
+- [Casual Archivist](https://casualarchivist.substack.com/)
+- [Design Reviewed](https://designreviewed.com/)
+- [International Advertising & Design Database](https://iaddb.org/)
+- [People’s Graphic Design Archive](https://peoplesgdarchive.org/) ★
+
+### Infografia
+
+- [FlowingData](https://flowingdata.com/)
+- [Information Is Beautiful](https://informationisbeautiful.net/) ★
+- [Lemonly Blog](https://www.lemonly.com/blog)
+- [Nightingale](https://nightingaledvs.com/)
+- [The Pudding](https://pudding.cool/) ★
+- [Visualising Data](https://www.visualisingdata.com/)
+- [Visual Cinnamon](https://www.visualcinnamon.com/)
+- [Fontsight](https://fontsight.xyz/)
+
+### Ilustração
+
+- [50 Watts](https://50watts.com/)
+- [80 Level](https://80.lv/)
+- [Artists & Illustrators](https://www.artistsandillustrators.co.uk/)
+- [Artstation Magazine](https://magazine.artstation.com/) ★
+- [Behance Illustration](https://www.behance.net/galleries/illustration)
+- [BOOOOOOOM](https://www.booooooom.com/tag/illustration/) ★
+- [Colossal Illustration](https://www.thisiscolossal.com/category/illustration/)
+- [Directory of Illustration](https://www.directoryofillustration.com/)
+- [Drawn!](https://drawn.ca/)
+- [Illustration Age](https://illustrationage.com/)
+- [Illustrators’ Lounge](https://illustratorslounge.com/)
+- [Inkygoodness](https://www.inkygoodness.com/)
+- [It’s Nice That Illustration](https://www.itsnicethat.com/illustration)
+- [Juxtapoz](https://www.juxtapoz.com/illustration/) ★
+- [Muddy Colors](https://www.muddycolors.com/)
+- [Old Book Illustrations](https://www.oldbookillustrations.com/)
+- [Picturebook Makers](https://blog.picturebookmakers.com/)
+- [Revista Ilustrar](https://revistailustrar.com.br/)
+
+### Motion e 3D
+
+- [Art of the Title](https://www.artofthetitle.com/)
+- [CG Channel](https://www.cgchannel.com/)
+- [CG Cookie](https://cgcookie.com/)
+- [fxguide](https://www.fxguide.com/)
+- [Genery](https://genery.io/)
+- [Greyscalegorilla](https://greyscalegorilla.com/blog/)
+- [Layer Lemonade](https://www.layerlemonade.com/)
+- [Motion Design School Blog](https://motiondesign.school/blog/)
+- [Motion Graphic Blog](https://motiondesign.school/blog/)
+- [Motionographer](https://motionographer.com/) ★
+- [School of Motion](https://www.schoolofmotion.com/blog)
+- [Stash](https://www.stashmedia.tv/) ★
+- [The Art of VFX](https://www.artofvfx.com/) ★
+
+### Tipografia
+
+- [Alphabettes](https://www.alphabettes.org/)
+- [Beautiful Web Type](https://beautifulwebtype.com/)
+- [Butterick's Practical Typography](https://practicaltypography.com/)
+- [Entrelinha](https://www.plau.design/entrelinha)
+- [Font Brief](https://www.fontbrief.com/)
+- [Font In Logo](https://www.fontinlogo.com/)
+- [Font Review Journal](https://fontreviewjournal.com/) ★
+- [Fonts In The Wild](https://www.fontsinthewild.com/)
+- [Fonts In Use](https://fontsinuse.com/) ★
+- [Fonts Knowledge](https://fonts.google.com/knowledge)
+- [Fonts Ninja](https://fonts.ninja/) ★
+- [Fontstand](https://fontstand.com/)
+- [I Love Typography](https://ilovetypography.com/blog/) ★
+- [Letterform Archive](https://letterformarchive.org/) ★
+- [Pangram Journal](https://pangrampangram.com/blogs/journal/)
+- [Pimp My Type](https://pimpmytype.com/)
+- [Type Specimens](https://typespecimens.xyz/)
+- [TypeDrawers](https://typedrawers.com/)
+- [TypeRoom](https://www.typeroom.eu/)
+- [Typewolf](https://www.typewolf.com/) ★
+- [Typographica](https://typographica.org/) ★
+- [Typecache](https://typecache.com/)
+
+### Tutoriais
+
+- [Adobe Learn](https://www.adobe.com/learn) ★
+- [Canva Design School](https://www.canva.com/design-school/)
+- [Creative Bloq](https://www.creativebloq.com/) ★
+- [Creative Pro](https://creativepro.com/)
+- [Envato Tuts+](https://tutsplus.com/) ★
+- [Photoshop Cafe](https://photoshopcafe.com/tutorials.htm)
+- [Spoon Graphics](https://blog.spoongraphics.co.uk/)
+- [Tutsplus](https://tutsplus.com/)
+- [Proper Prompts](https://www.properprompts.ai/)
+
+### UX/UI
+
+- [A List Apart](https://alistapart.com/) ★
+- [Australian Web Awards](https://webawards.com.au/)
+- [Awwwards](https://www.awwwards.com/) ★
+- [Tiny Awards](https://tinyawards.net/) ★
+- [Codrops](https://tympanus.net/codrops/) ★
+- [Collect UI](https://collectui.com/)
+- [CSS Design Awards](https://www.cssdesignawards.com/)
+- [Design Systems](https://www.designsystems.com/)
+- [Huds+Guis](https://www.hudsandguis.com/)
+- [Interaction Design Foundation](https://ixdf.org/)
+- [Learn UI Design Blog](https://www.learnui.design/blog/)
+- [macOS Icon](https://www.macosicongallery.com/)
+- [Mobbin](https://mobbin.com/) ★
+- [Nielsen Norman Group](https://www.nngroup.com/articles/)
+- [Refero](https://refero.design/)
+- [Sesov](https://sesov.com/)
+- [Smashing Magazine](https://www.smashingmagazine.com/) ★
+- [The FWA](https://thefwa.com/) ★
+- [UX Collective](https://uxdesign.cc/)
+- [UX Movement](https://uxmovement.com/)
+- [UX Planet](https://uxplanet.org/)
+- [Web Design Museum](https://www.webdesignmuseum.org/)
+- [Webdesigner Depot](https://www.webdesignerdepot.com/)
+
+### Exercícios de Design
+
+- [Can't Unsee](https://cantunsee.space/)
+- [I Shot The Serif](https://www.tothepoint.co.uk/us/fun/i-shot-the-serif/)
+- [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
+- [It's Centred That](https://avark.agency/designers-eye/)
+- [Kern Type](https://type.method.ac/)
+- [Logo Design Quiz](https://www.jpink.co.uk/logo_quiz/)
+- [Pixel Game](https://pixact.ly/)
+- [Shape Type](https://shape.method.ac/)
+- [The Bézier Game](https://bezier.method.ac/)
+- [The Boolean Game](https://boolean.method.ac/)
+- [The Font Game](https://ilovetypography.com/2020/07/01/the-font-game/)
+- [Triangle](https://betterwebtype.com/triangle/)
+- [What The Hex?](https://yizzle.com/whatthehex/)
+
+## Estúdios e Agências
+
+### Design em geral
+
+- [Anagrama](https://www.anagrama.com/)
+- [Aruliden](https://aruliden.com/)
+- [Arup](https://www.arup.com/)
+- [Base Design](https://www.basedesign.com/)
+- [Bleed](https://bleed.com/)
+- [Bureau Borsche](https://bureauborsche.com/)
+- [Collins](https://www.wearecollins.com/)
+- [Designit](https://www.designit.com/)
+- [DesignStudio](https://design.studio/)
+- [Fjord (Accenture Song)](https://www.accenture.com/us-en/about/accenture-song-index)
+- [Forma](https://www.forma.co/)
+- [Frog Design](https://www.frog.co/)
+- [Happycentro](https://happycentro.it/)
+- [HardCuore](https://hardcuore.com/)
+- [Hey Studio](https://heystudio.es/)
+- [IDEO](https://www.ideo.com/) ★
+- [Karim Rashid Studio](https://karimrashid.com/)
+- [Landor](https://landor.com/) ★
+- [Made Thought](https://madethought.com/)
+- [MetaDesign](https://metadesign.com/) ★
+- [Moving Brands](https://www.movingbrands.com/)
+- [Mucho](https://wearemucho.com/)
+- [Nendo](https://www.nendo.jp/)
+- [Pentagram](https://www.pentagram.com/) ★
+- [Pushpin Studios](http://www.pushpininc.com/) ★
+- [REDsign](https://www.behance.net/redesignb4b3)
+- [Sagmeister & Walsh](https://sagmeisterwalsh.com/) ★
+- [Snøhetta](https://snohetta.com/)
+- [SocioDesign](https://sociodesign.co.uk/)
+- [Spin](https://spin.co.uk/)
+- [Studio Dumbar/DEPT®](https://studiodumbar.com/)
+- [Tátil](https://tatil.com.br/)
+- [Toormix](https://toormix.com/)
+- [Total Design](https://www.totaldesign.com/)
+- [Unimark International](https://en.wikipedia.org/wiki/Unimark_International) 🪦
+- [Vasava Studio](https://www.vasava.es/)
+- [Vignelli Associates](https://en.wikipedia.org/wiki/Vignelli_Associates) 🪦
+- [Wolff Olins](https://www.wolffolins.com/) ★
+- [Yeaaah! Studio](https://www.yeaaah-studio.com/)
+- [Zaha Hadid Architects](https://www.zha.com/)
+
+### Foundries (Tipografia)
+
+- [29LT](https://www.29lt.com/)
+- [ArabicType](https://arabictype.com/)
+- [atipo](https://atipo.es/)
+- [Colophon Foundry](https://www.colophon-foundry.org/)
+- [Commercial Type](https://commercialtype.com/) ★
+- [Dalton Maag](https://www.daltonmaag.com/)
+- [Ek Type](https://ektype.in/)
+- [Emigre](https://www.emigre.com/)
+- [F37](https://f37.com/)
+- [Fabio Haag Type](https://fabiohaagtype.com/)
+- [Fontfabric](https://www.fontfabric.com/)
+- [FontFont](https://www.myfonts.com/pt/collections/fontfont-foundry)
+- [FounderType](https://www.foundertype.com/)
+- [Frere-Jones](https://frerejones.com/)
+- [Good Type Foundry](https://goodtypefoundry.com/)
+- [Grilli Type](https://www.grillitype.com/)
+- [H. Berthold](https://en.wikipedia.org/wiki/Berthold_Type_Foundry) 🪦
+- [Hanyi Fonts](https://www.hanyi.com.cn/en/)
+- [Hoefler&Co.](https://typography.com/)
+- [House Industries](https://houseindustries.com/) ★
+- [Klim Type Foundry](https://klim.co.nz/)
+- [Latinotype](https://www.latinotype.com/)
+- [Lineto](https://lineto.com/)
+- [Linotype](https://www.linotype.com/) ★
+- [LucasFonts](https://www.lucasfonts.com/)
+- [Martype Co](https://www.behance.net/martypeco)
+- [Monotype](https://www.monotype.com/) ★
+- [Morisawa](https://en.morisawa.co.jp/)
+- [Pangram Pangram](https://pangrampangram.com/)
+- [Parachute](https://parachutefonts.com/)
+- [Plau](https://www.plau.design/)
+- [Sandoll](https://en.sandoll.co.kr/)
+- [Stempel](https://en.wikipedia.org/wiki/Stempel_Type_Foundry) 🪦
+- [Storm Type](https://www.stormtype.com/)
+- [The Designers Foundry](https://thedesignersfoundry.com/)
+- [TypeTogether](https://typography.com/)
+- [Typeverything](https://typeverything.com/)
+- [Typofonderie](https://typofonderie.com/)
+- [Typotheque](https://www.typotheque.com/)
+- [Underware](https://www.underware.nl/)
+- [URW](https://www.myfonts.com/pt/collections/urw-foundry) ★
+
+### Ilustração
+
+- [Arcade Studio](https://www.arcadestudio.tv/)
+- [Bang! Bang!](https://bangbangstudio.ru/)
+- [Bicicleta Sem Freio](https://www.bicicletasemfreio.com/)
+- [BMD Design](https://www.bmddesign.fr/)
+- [Brethren Design Co](https://www.brethrendesignco.com/)
+- [Brosmind](https://www.brosmind.com/) ★
+- [Buck](https://buck.co/) ★
+- [Cabeza Patata](https://cabezapatata.com/) ★
+- [Craig & Karl](https://craigandkarl.com/) ★
+- [eStudio Pum](https://www.estudiopum.com/)
+- [Estudio Yeye](https://by-yy.design/)
+- [Foreal Studio](https://weareforeal.com/) ★
+- [Giant Ant](https://www.giantant.ca/) ★
+- [Grafit Studio](https://www.grafitart.com/)
+- [Hey Studio](https://www.behance.net/Hey_studio) 🪦
+- [Illo](https://illo.tv/) ★
+- [Invisible Creature](https://www.invisiblecreature.com/)
+- [La Boca](https://site.laboca.co.uk/) ★
+- [Made Up Studio](https://www.madeup.org/)
+- [Makers Company](https://themakers.company/)
+- [Momkai](https://www.momkai.com/) ★
+- [Paiheme Studio](https://paihemestudio.com/)
+- [Red Nose Studio](https://www.rednosestudio.com/)
+- [Rilla Alexander](https://www.rillaalexander.com/)
+- [Studio Muti](https://www.studiomuti.co.za/)
+- [Superfiction](https://sf-superfiction.com/)
+- [The Brave Union](https://www.thebraveunion.com/)
+- [Thunder Rockets](https://www.behance.net/thunderockets)
+
+### Animação
+
+- [Aardman](https://www.aardman.com/)
+- [Bandai Namco Filmworks](https://www.bnfw.co.jp/en/)
+- [Blue Sky Studios](https://en.wikipedia.org/wiki/Blue_Sky_Studios) 🪦
+- [Cartoon Saloon](https://www.cartoonsaloon.ie/)
+- [DreamWorks](https://www.dreamworks.com/) ★
+- [Fleischer Studios](https://en.wikipedia.org/wiki/Fleischer_Studios) 🪦
+- [Framestore](https://www.framestore.com/)
+- [Hanna-Barbera](https://en.wikipedia.org/wiki/Hanna-Barbera) 🪦
+- [Hype Animation](https://www.hype.cg/)
+- [Illumination Entertainment](https://www.illumination.com/) ★
+- [Industrial Light & Magic](https://www.ilm.com/) ★
+- [Koi Factory](https://koifactory.com/)
+- [Kyoto Animation](https://www.kyotoanimation.co.jp/en/) ★
+- [Laika](https://www.laika.com/)
+- [MAPPA](https://www.mappa.co.jp/en/)
+- [Morphine](https://www.morphine.com.uy/)
+- [MSP Estúdios](https://turmadamonica.uol.com.br/)
+- [Pixar Animation](https://www.pixar.com/) ★
+- [Raw & Rendered](https://www.behance.net/rawandrendered)
+- [Sony Pictures Animation](https://www.sonypicturesanimation.com/)
+- [Studio Ghibli](https://www.ghibli.jp/) ★
+- [Sunrise Animation](https://www.sunriseproductions.tv/)
+- [Toei Animation](https://www.toei-animation.com/) ★
+- [Walt Disney Animation](https://disneyanimation.com/) ★
+- [Warner Bros. Animation](https://www.instagram.com/warnerbrosanimation/) ★
+- [Wētā FX](https://www.wetafx.co.nz/) ★
+
+### Design editorial
+
+- [Actual Source](https://actualsource.org/) ★
+- [Agency S/R](https://www.agencysr.co.uk/)
+- [Anonymous](https://madebyanonymous.com/)
+- [Antofágica](https://www.antofagica.com.br/)
+- [Autonomia Literária](https://autonomialiteraria.com.br/)
+- [Blok Design](https://blokdesign.com/)
+- [Bureau Est](https://www.bureau-est.com/)
+- [Carvalho Bernau](https://carvalho-bernau.com/)
+- [Cosac Naify](https://en.wikipedia.org/wiki/Cosac_Naify) 🪦
+- [Crayon Editorial](https://crayoneditorial.com.br/)
+- [Crush Editorial](https://www.crusheditorial.com/)
+- [Darkside Books](https://www.darksidebooks.com.br/)
+- [Éditions B42](https://editions-b42.com/) ★
+- [Editora Aleph](https://aleph.com.br/)
+- [Editora Biruta](https://www.editorabiruta.com.br/)
+- [Editora Carambaia](https://carambaia.com.br/)
+- [Editora Nós](https://editoranos.com.br/)
+- [Editora Perspectiva](https://www.editoraperspectiva.com.br/)
+- [Emphase Sàrl](https://emphase.ch/)
+- [Extract Studio](https://www.extract.studio/projects/editorial)
+- [Fraser Muggeridge Studio](https://pleasedonotbend.co.uk/)
+- [Irma Boom Office](https://www.irmaboom.nl/) ★
+- [LaTigre](https://www.latigre.net/)
+- [Lote 42](https://lote42.com.br/)
+- [M2-Systems](https://web.archive.org/web/2023/https://m2systemsoffice.com/) 🪦
+- [Mórula](https://morula.com.br/)
+- [Nine Editorial](https://www.nineeditorial.com/)
+- [Nomon Design](https://nomondesign.com/)
+- [Nonverbal Club](https://nonverbalclub.pt/en)
+- [OK-RM](https://ok-rm.co.uk/) ★
+- [Other Means](https://othermeans.us/)
+- [Passport](https://wearepassport.com/)
+- [Plutão Livros](https://www.plutaolivros.com.br/)
+- [Priest + Grace](https://www.priestandgrace.com/)
+- [RNDR](https://rndr.studio/)
+- [Siamo Studio](https://siamo.studio/)
+- [Slanted](https://www.slanted.de/) ★
+- [Spin](https://spin.co.uk/)
+- [Studio Lin](https://studiolin.org/) ★
+- [Studio Mathias Clottu](https://mathiasclottu.com/)
+- [Studio Mut](https://www.studiomut.com/)
+- [Studio Zosia](https://studiozosia.com/)
+- [Tereza Bettinardi](https://terezabettinardi.com/) ★
+- [The Rodina](https://therodina.com/) ★
+- [TheFlatStudios](https://theflatstudios.com/)
+- [thonik](https://thonik.nl/)
+- [Topos Graphics](https://www.toposgraphics.com/)
+- [TwoPoints](https://new.twopoints.net/) ★
+- [Ubu Editora](https://www.ubueditora.com.br/) ★
+- [Victionary](https://victionary.com/) ★
+- [Wedge & Lever](https://wedgeandlever.com/) 🪦
+
+### Branding
+
+- [Ana Couto](https://www.anacouto.com.br/)
+- [Anagrama](https://www.anagrama.com/)
+- [Chermayeff & Geismar & Haviv](https://www.cghnyc.com/) ★
+- [Collins](https://www.wearecollins.com/)
+- [Design Bridge and Partners (Superunion)](https://www.designbridge.com/)
+- [Designworks](https://designworks.co.nz/)
+- [Elephant Design](https://www.elephantdesign.com/)
+- [FutureBrand](https://www.futurebrand.com/) ★
+- [GAD'](https://www.gad.com.br/)
+- [Grid Worldwide](https://www.gridworldwide.com/)
+- [Interbrand](https://interbrand.com/) ★
+- [John & Hackmann Co.](https://johnandhackmann.com/)
+- [Jones Knowles Ritchie](https://jkrglobal.com/)
+- [Landor](https://landor.com/) ★
+- [Lippincott](https://lippincott.com/) ★
+- [MetaDesign](https://metadesign.com/)
+- [Moving Brands](https://www.movingbrands.com/)
+- [Nippon Design Center](https://www.ndc.co.jp/)
+- [Pentagram](https://www.pentagram.com/) ★
+- [Plau Design](https://www.plau.design/)
+- [Saffron Brand Consultants](https://saffron-consultants.com/)
+- [Sagmeister & Walsh](https://sagmeisterwalsh.com/)
+- [Siegel+Gale](https://www.siegelgale.com/) ★
+- [Snøhetta](https://www.snohetta.com/)
+- [Studio Dumbar/DEPT](https://studiodumbar.com/)
+- [Tátil](https://tatil.com.br/)
+- [Vignelli Associates](https://en.wikipedia.org/wiki/Vignelli_Associates) 🪦
+- [Wolff Olins](https://wolffolins.com/) ★
+
+### UX/UI
+
+- [Adaptive Path](https://adaptivepath.org/) 🪦
+- [AKQA](https://www.akqa.com/) ★
+- [AQ Works](https://aqworks.com/)
+- [Bakken & Bæck](https://bakkenbaeck.com/)
+- [Clay](https://clay.global/)
+- [Code and Theory](https://www.codeandtheory.com/)
+- [Cooper](https://www.designit.com/) 🪦
+- [Creative Mints](https://creativemints.com/)
+- [Cyber-Duck](https://www.cyber-duck.co.uk/)
+- [Designit](https://www.designit.com/)
+- [Fantasy](https://www.fantasy.co/)
+- [Fireart Studio](https://fireart.studio/)
+- [Firstborn](https://www.firstborn.com/)
+- [Fjord (Accenture Song)](https://www.accenture.com/us-en/about/accenture-song-index)
+- [Frog](https://www.frog.co/)
+- [Huge](https://www.hugeinc.com/) ★
+- [IDEO](https://www.ideo.com/) ★
+- [Instrument](https://www.instrument.com/) ★
+- [MetaDesign](https://www.metadesign.com/) ★
+- [Mormedi](https://mormedi.com/)
+- [Nielsen Norman Group](https://www.nngroup.com/) ★
+- [Pentagram Interactive](https://www.pentagram.com/) ★
+- [R/GA](https://rga.com/) ★
+- [Red Collar](https://redcollar.co/)
+- [Studio Dumbar/DEPT](https://studiodumbar.com/) ★
+- [Studio Harris Blondman](https://www.harrisblondman.nl/)
+- [Teague](https://teague.com/)
+- [Ueno](https://ueno.co/)
+- [Ustwo](https://www.ustwo.com/) ★
+- [Work & Co](https://work.co/) ★
+
+## Rankings e Listas
+
+### Pessoas
+
+- [Behance](https://www.behance.net/search/users)
+- [Find Design Agency](https://finddesignagency.com/)
+- [Lürzer's Archive](https://www.luerzersarchive.com/rankings/)
+
+### Marcas
+
+- [Brand Finance Global 500](https://brandirectory.com/rankings/global/table)
+- [Forbes Most Valuable Brands](https://www.forbes.com/the-worlds-most-valuable-brands/)
+- [Fortune Most Admired Companies](https://fortune.com/ranking/worlds-most-admired-companies/)
+- [Interbrand Best Global Brands](https://interbrand.com/best-global-brands/)
+- [Kantar Brandz](https://www.kantar.com/campaigns/brandz/global)
+- [Ranking The Brands](https://www.rankingthebrands.com/The-Brand-Rankings.aspx)
+
+### Audiovisual
+
+- [IMDB Top 250](https://imdb.com/chart/top/?ref_=nv_mv_250)
+- [BAFTA Awards](https://bafta.org/awards/)
+- [Cannes Lions Awards](https://www.lovethework.com/en/awards/winners-shortlists)
+- [Oscars Academy Awards Database](https://awardsdatabase.oscars.org/)
+- [Festival de Cannes Awards Retrospective](https://festival-cannes.com/en/retrospective/)
+
+### Premiações
+
+- [Pentawards](https://pentawards.com/)
+- [Indigo Design Award](https://indigoaward.com/)
+
+## Bibliotecas
+
+### Bibliotecas
+
+- [Colors & Fonts](https://www.colorsandfonts.com/)
+- [Curations Supply](https://curations.supply/)
+- [Design Resources](https://designresourc.es/)
+- [Mobbin](https://mobbin.com/)
+- [Panda](https://app.usepanda.com/)
+- [Dexiner](https://dexigner.com/directory/)
+- [The Design Library](https://biblioverse.org/design/)
+- [The Stocks](https://thestocks.im/)
+- [The Type Founders](https://thetypefounders.com/)
+- [Toools](https://www.toools.design/)
+- [Find Design Agency](https://finddesignagency.com/)
+- [Typecache](https://typecache.com/)
+- [Indexd](https://indexd.design/)
+
+### Agenciadores de criativos
+
+- [Advocate Art](https://www.advocate-art.com/)
+- [Agency Rush](https://agencyrush.com/)
+- [Anna Goodson Illustration Agency](https://www.annagoodson.com/)
+- [Arena Illustration](https://www.arenaillustration.com/)
+- [Astound Publishing](https://www.astound.us/)
+- [Bernstein & Andriulli](https://www.ba-reps.com/)
+- [Breed London](https://www.breedlondon.com/)
+- [Central Illustration](https://centralillustration.com/)
+- [Closer&Closer](https://www.closerandcloser.co/)
+- [Creasenso](https://www.creasenso.com/)
+- [Debut Art](https://www.debutart.com/)
+- [Dutch Uncle](https://www.dutchuncle.co.uk/)
+- [Everyone](https://www.everyone.agency/)
+- [Folio Illustration](https://www.folioart.co.uk/)
+- [Gera](https://gera.art.br/)
+- [Good Illustration](https://www.goodillustration.com/)
+- [Grand Matter](https://grandmatter.com/)
+- [Handsome Frank](https://www.handsomefrank.com/)
+- [Heart Agency](https://www.heartagency.com/)
+- [Illo Agency](https://illo.agency/)
+- [Illozoo](https://www.illozoo.com/)
+- [IllustrationX](https://www.illustrationx.com/)
+- [Jacky Winter](https://www.jackywinter.com/)
+- [Jehane Ltd](https://www.jehane.com/)
+- [Magnet Reps](https://magnetreps.com/)
+- [Meiklejohn Agency](https://www.meiklejohn.co.uk/)
+- [Mendola Artists](https://www.mendolaart.com/)
+- [NB Illustration](https://www.nbillustration.co.uk/)
+- [OIO](https://oio.studio/)
+- [Pocko](https://www.pocko.com/)
+- [Richard Solomon](https://www.richardsolomon.com/)
+- [Shannon Associates](https://www.shannonassociates.com/)
+- [Synergy Art](https://www.synergyart.co.uk/)
+- [The Bright Agency](https://thebrightagency.com/)
+- [Usfolk](https://usfolk.co.uk/)
+
+## Termos
+
+- [Animation](https://en.wikipedia.org/wiki/Animation)
+- [Art](https://en.wikipedia.org/wiki/Art)
+- [Art Direction](https://en.wikipedia.org/wiki/Art_direction)
+- [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)
+- [Branding](https://en.wikipedia.org/wiki/Branding)
+- [Color Psychology](https://en.wikipedia.org/wiki/Color_psychology)
+- [Color Theory](https://en.wikipedia.org/wiki/Color_theory)
+- [Composition](https://en.wikipedia.org/wiki/Composition_(visual_arts))
+- [Concept Art](https://en.wikipedia.org/wiki/Concept_art)
+- [Design](https://en.wikipedia.org/wiki/Design)
+- [Design Elements](https://en.wikipedia.org/wiki/Design_elements)
+- [Design Principles](https://en.wikipedia.org/wiki/Design_principles)
+- [Editorial Design](https://en.wikipedia.org/wiki/Editorial_design)
+- [Flat Design](https://en.wikipedia.org/wiki/Flat_design)
+- [Gestalt](https://en.wikipedia.org/wiki/Gestalt_psychology)
+- [Graphic Design](https://en.wikipedia.org/wiki/Graphic_design)
+- [Grid Theory](https://en.wikipedia.org/wiki/Grid_(graphic_design))
+- [Illustration](https://en.wikipedia.org/wiki/Illustration)
+- [Immersive Experience Design](https://en.wikipedia.org/wiki/Immersive_design)
+- [Infodesign](https://en.wikipedia.org/wiki/Information_design)
+- [Minimalism](https://en.wikipedia.org/wiki/Minimalism)
+- [Motion Design](https://en.wikipedia.org/wiki/Motion_graphic_design)
+- [Neumorphic Design](https://en.wikipedia.org/wiki/Neumorphism)
+- [Package Design](https://en.wikipedia.org/wiki/Packaging_and_labeling)
+- [Page Layout](https://en.wikipedia.org/wiki/Page_layout)
+- [Photography](https://en.wikipedia.org/wiki/Photography)
+- [Printing Press](https://en.wikipedia.org/wiki/Printing_press)
+- [Product Design](https://en.wikipedia.org/wiki/Product_design)
+- [Semiotic](https://en.wikipedia.org/wiki/Semiotics)
+- [Skeuomorphic Design](https://en.wikipedia.org/wiki/Skeuomorph)
+- [Swiss Design](https://en.wikipedia.org/wiki/International_Typographic_Style)
+- [Type Design](https://en.wikipedia.org/wiki/Type_design)
+- [UX/UI](https://en.wikipedia.org/wiki/User_experience_design)
+- [Visual Communication](https://en.wikipedia.org/wiki/Visual_communication)
+- [Visual Hierarchy](https://en.wikipedia.org/wiki/Visual_hierarchy)
+- [Visual Identity](https://en.wikipedia.org/wiki/Visual_identity)
+- [Web Design](https://en.wikipedia.org/wiki/Web_design)
+- [Advertising](https://en.wikipedia.org/wiki/Advertising)
+
+## Pessoas
+
+### Artistas Tradicionais
+
+- [Kim Jung Gi](https://www.instagram.com/kimjunggi_art/) ★
+- [Moebius (Jean Giraud)](https://www.moebius.fr/) ★
+- [James Jean](https://www.jamesjean.com/) ★
+- [Amilcar Pinna](https://www.instagram.com/milkar79/)
+- [Mattias Adolfsson](https://www.instagram.com/mattiasink/)
+- [Gustavo Duarte](https://www.instagram.com/_gustavoduarte/)
+
+### Ilustradores Digitais
+
+- [Tiago Hoisel](https://www.behance.net/hoisel) ★
+- [Will Murai](https://www.artstation.com/willmurai) ★
+- [Dominik Mayer](https://www.artstation.com/dominikmayerart)
+- [Lucas Leibholz](https://www.artstation.com/lucasleibholz)
+- [Rune Bennicke](https://www.instagram.com/flipbooksnstuff/)
+- [Loish](https://www.loish.net/) ★
+- [Sachin Teng](https://www.sachinteng.com/)
+
+### Fotógrafos
+
+- [Annie Leibovitz](https://www.annieleibovitz.com/) ★
+- [Steve McCurry](https://www.stevemccurry.com/) ★
+- [Chase Jarvis](https://www.chasejarvis.com/)
+- [Platon](https://www.platonphoto.com/)
+
+### Fotomanipuladores
+
+- [Erik Johansson](https://www.erikjo.com/) ★
+- [Christophe Gilbert](https://luerzersarchive.com/profiles/all/christophe-gilbert)
+
+### Designers de Identidade Visual
+
+- [Aaron Draplin](https://www.draplin.com/) ★
+- [Paula Scher](https://www.pentagram.com/about/paula-scher) ★
+- [Jessica Walsh](https://andwalsh.com/) ★
+- [Michael Bierut](https://www.pentagram.com/about/michael-bierut) ★
+- [Walter Mattos](https://waltermattos.com/)
+- [Roger Oddone](https://rogeroddone.com/)
+- [Sagi Haviv](https://cghnyc.com/about/sagi/)
+
+### Designers Editoriais
+
+- [Tereza Bettinardi](https://www.behance.net/terezabettinardi) ★
+- [Eduardo Bajzek](https://www.instagram.com/bajzek/)
+- [Henrique de França](https://www.instagram.com/henrique_defranca/)
+- [Eduardo Belga](https://www.ebelga.com/)
+- [Cipe Pineles](https://en.wikipedia.org/wiki/Cipe_Pineles) ★
+- [Alexey Brodovitch](https://en.wikipedia.org/wiki/Alexey_Brodovitch) ★
+
+### Tipógrafos
+
+- [Jessica Hische](https://jessicahische.is/) ★
+- [Erik Spiekermann](https://spiekermann.com/) ★
+- [Jonathan Hoefler](https://www.typography.com/) ★
+- [Mateus Santolouco](https://www.instagram.com/santolouco_art/)
+- [Roger Cruz](https://www.instagram.com/rogercruzart/)
+- [Sam Hart](https://www.instagram.com/samrahart/)
+- [J Scott Campbell](https://www.instagram.com/jscottcampbellart/)
+
+### Motion Designers
+
+- [Carlos Meira](https://www.carlosmeira.com/) ★
+- [Buck Design](https://www.buck.tv/) ★
+- [Ash Thorp](https://www.ashthorp.com/) ★
+- [Gmunk](https://www.gmunk.com/)
+- [Ordinary Folk](https://www.ordinaryfolk.co/)
+
+### Designers de UX/UI
+
+- [Mauro Souza](https://www.estudio22.com.br/)
+- [Hiro Kawahara](https://www.instagram.com/hirokawahara/)
+- [Waldomiro Neto](https://www.behance.net/waldomironeto)
+- [Tiago Lacerda](https://www.behance.net/elcerdo)
+- [Rayner Alencar](https://www.instagram.com/rayneralencar/)
+- [Leandro Francisca](https://www.instagram.com/leandrofca/)
+- [Bruna Oliveira](https://www.behance.net/bybruhart)
+- [Adilson Farias](https://www.instagram.com/adilsonfarias/)
+- [Tobias van Schneider](https://www.vanschneider.com/) ★
+- [Pavithra Aravindan](https://dribbble.com/pavithraa)
+
+### Designers de Produto
+
+- [Dieter Rams](https://www.vitsoe.com/gb/about/dieter-rams) ★
+- [Jonathan Ive](https://en.wikipedia.org/wiki/Jony_Ive) ★
+- [Yves Béhar](https://www.fuseproject.com/) ★
+- [Karim Rashid](https://www.karimrashid.com/)
+- [Marc Newson](https://www.marc-newson.com/)
+
+### Designers de Informação
+
+- [Edward Tufte](https://www.edwardtufte.com/) ★
+- [Nigel Holmes](https://www.nigelholmes.com/) ★
+- [Nicholas Felton](https://feltron.com/) ★
+- [Giorgia Lupi](https://giorgialupi.com/) ★
+- [Moritz Stefaner](https://truth-and-beauty.net/)
+
+### YouTubers
+
+- [Howard Pinsky](https://www.youtube.com/@HowardPinsky) ★
+- [Walter Mattos](https://www.youtube.com/@WalterMattosVideos)
+- [Marcelo Kimura](https://www.youtube.com/@MarceloKimuraDesign)
+- [Unmesh Dinda](https://www.youtube.com/@PiXimperfect) ★
+- [Mateus Ferreira](https://www.youtube.com/c/BrainstormTutoriais)
+- [Anderson Gaveta](https://www.youtube.com/@gaveta)
+- [The Futur](https://www.youtube.com/@TheFutur) ★
+- [Zimri Mayfield](https://www.youtube.com/@ZimriMayfield)
+
+### Ilustradores Vetoriais
+
+- [Von Glitschka](https://www.glitschkastudios.com/) ★
+- [Aaron Draplin](https://www.draplin.com/) ★
+- [Cristiano Siqueira](https://www.behance.net/crisvector) ★
+- [Nate Williams](https://www.n8w.com/) ★
+- [Bill Thornton](https://www.billthornton.com/)
+- [Tom Anders Watkins](https://www.taw.studio/)
+- [Bart Crosby](https://www.crosbyas.com/)
+
+### AI Designers
+
+- [Alessio](https://instagram.com/lostingans)
+- [Ali Aboutine](https://instagram.com/aliaboutine/)
+- [Ariadna Giménez](https://instagram.com/khoba_____/)
+- [David Szauder](https://instagram.com/davidszauder/)
+- [Francisco Aguirre](https://instagram.com/_franciscoaguirre_/)
+- [Harold Cohen](https://en.wikipedia.org/wiki/Harold_Cohen_(artist))
+- [High Taid](https://instagram.com/high.taid)
+- [Jay Pirabakaran](https://instagram.com/jayprints)
+- [Julie Wieland](https://instagram.com/juliewdesign/)
+- [Jyo John Mulloor](https://instagram.com/jyo_john_mulloor/)
+- [Katsukokoiso](https://instagram.com/katsukokoiso.ai)
+- [Laura Zambelli](https://instagram.com/lazambelliph)
+- [Liber](https://instagram.com/liberxx0/)
+- [Mac Baconai](https://instagram.com/macbaconai/)
+- [Maja Petrić](https://instagram.com/maja_petric/)
+- [Mr. Relative](https://instagram.com/mr_relative_/)
+- [Niceaunties](https://instagram.com/niceaunties/)
+- [Refik Anadol](https://instagram.com/refikanadol/)
+- [Sonya Mikhailovskaia](https://instagram.com/sonyamix.ai)
+- [Sougwen Chung](https://instagram.com/sougwen/)
+- [Str4ngeThing](https://instagram.com/str4ngething/)
+- [Suzan Valois](https://instagram.com/iva_ai_popsurreal/)
+- [Thierry Lechanteur](https://instagram.com/thierrylechanteur)
+
+### Designers de Jogos
+
+- [Shigeru Miyamoto](https://en.wikipedia.org/wiki/Shigeru_Miyamoto) ★
+- [Hideo Kojima](https://en.wikipedia.org/wiki/Hideo_Kojima) ★
+- [Will Wright](https://en.wikipedia.org/wiki/Will_Wright_(game_designer)) ★
+- [Jenova Chen](https://thatgamecompany.com/) ★
+- [Tim Schafer](https://www.doublefine.com/)
+- [Rami Ismail](https://ramiismail.com/)
+- [Bennett Foddy](https://www.foddy.net/)
+
+### Designers de Embalagem
+
+- [Louise Fili](https://www.louisefili.com/) ★
+- [Debbie Millman](https://www.debbiemillman.com/) ★
+- [Stefan Sagmeister](https://sagmeister.com/) ★
+- [Chip Kidd](https://en.wikipedia.org/wiki/Chip_Kidd) ★
+- [Robynne Raye](https://www.instagram.com/robynneraye/)
+- [David Brier](https://davidbrier.com/)
+- [Miran Lipovac](https://www.instagram.com/miranlipovac/)
