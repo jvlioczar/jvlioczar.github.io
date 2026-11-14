@@ -65,7 +65,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 ## Projetos especiais: Ética animal
 
-- [Guia de Argumentação Pelos Animais](https://pelosanimais.biblioverse.org/llms.txt): Catálogo de 213 argumentos usados para justificar a exploração animal, cada um com resposta fundamentada.
+- [Guia de Argumentação Pelos Animais](https://pelosanimais.biblioverse.org/llms.txt): Toda objeção merece uma boa resposta: +250 argumentos contra o veganismo, na versão mais forte, com o que acertam, onde falham e como responder.
 - [Questão de Ética](https://questaodeetica.biblioverse.org/llms.txt): Site-livro dos 12 volumes de Uma Jornada pela Ética Animal, de Luciano Carlos Cunha, com lições e testes.
 - [Guia de Alimentos Éticos](https://ethicalfood.biblioverse.org): Diretório e mapa de quase 2.300 empresas de proteína alternativa em 71 países.
 
