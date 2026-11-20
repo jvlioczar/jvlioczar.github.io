@@ -173,8 +173,8 @@
     '.bvbar-chip{background:var(--p-soft);border:1px solid var(--p-border);color:var(--p-muted);border-radius:999px;padding:1px 8px;font-size:11.5px;font-weight:700;line-height:1.4;}',
     '.bvbar-close{flex:none;height:42px;width:42px;border-radius:12px;border:1px solid var(--p-border);background:var(--p-soft);color:var(--p-text);cursor:pointer;font-size:16px;font-family:inherit;}',
     // módulos (ordem muda conforme o site) e grupos dentro deles
-    '.bvbar-mod{margin:0;padding:12px 0 2px;border-top:1px solid var(--p-border);}',
-    '.bvbar-mod:first-child{border-top:0;padding-top:6px;}',
+    '.bvbar-mod{margin:0;padding:16px 0 2px;}',
+    '.bvbar-mod:first-child{padding-top:6px;}',
     '.bvbar-mtitle{font-size:13.5px;font-weight:700;margin:0 0 8px 2px;color:var(--p-text);font-family:inherit;}',
     '.bvbar-group{margin:8px 0 2px;}',
     '.bvbar-panel h4.bvbar-gtitle{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted);margin:0 0 6px 2px;font-weight:700;font-family:inherit;}',
