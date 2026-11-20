@@ -60,7 +60,8 @@
     { key: 'ai', projects: true, name: { pt: 'Inteligência Artificial', en: 'Artificial Intelligence', es: 'Inteligencia artificial', fr: 'Intelligence artificielle', de: 'Künstliche Intelligenz', it: 'Intelligenza artificiale' } },
     { key: 'music', projects: true, name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' } },
     { key: 'travel', projects: true, name: { pt: 'Cultura e Viagem', en: 'Culture & Travel', es: 'Cultura y viajes', fr: 'Culture et voyage', de: 'Kultur & Reisen', it: 'Cultura e viaggi' } },
-    { key: 'sports', projects: true, name: { pt: 'Esportes', en: 'Sports', es: 'Deportes', fr: 'Sports', de: 'Sport', it: 'Sport' } }
+    { key: 'sports', projects: true, name: { pt: 'Esportes', en: 'Sports', es: 'Deportes', fr: 'Sports', de: 'Sport', it: 'Sport' } },
+    { key: 'humans', projects: true, name: { pt: 'Direitos humanos', en: 'Human Rights', es: 'Derechos humanos', fr: 'Droits humains', de: 'Menschenrechte', it: 'Diritti umani' } }
   ];
 
   // ── Projetos ──────────────────────────────────────────────────────────────
@@ -93,6 +94,7 @@
     { key: 'politicaparainiciantes', group: 'beginners', icon: '🏛️', url: 'https://politicaparainiciantes.biblioverse.org', name: { pt: 'Política Para Iniciantes', en: 'Politics for Beginners', es: 'Política para principiantes', fr: 'La politique pour débutants', de: 'Politik für Einsteiger', it: 'Politica per principianti' } },
     { key: 'eticaparainiciantes', group: 'beginners', icon: '⚖️', url: 'https://eticaparainiciantes.biblioverse.org', name: { pt: 'Ética Para Iniciantes', en: 'Ethics for Beginners', es: 'Ética para principiantes', fr: 'L’éthique pour débutants', de: 'Ethik für Einsteiger', it: 'Etica per principianti' } },
     { key: 'cienciaparainiciantes', group: 'beginners', icon: '🔬', url: 'https://cienciaparainiciantes.biblioverse.org', name: { pt: 'Ciência Para Iniciantes', en: 'Science for Beginners', es: 'Ciencia para principiantes', fr: 'La science pour débutants', de: 'Wissenschaft für Einsteiger', it: 'Scienza per principianti' } },
+    { key: 'peloshumanos', group: 'humans', icon: '🤝', url: 'https://peloshumanos.biblioverse.org', name: { pt: 'Guia de Argumentação Pelos Humanos', en: 'Guia de Argumentação Pelos Humanos', es: 'Guia de Argumentação Pelos Humanos', fr: 'Guia de Argumentação Pelos Humanos', de: 'Guia de Argumentação Pelos Humanos', it: 'Guia de Argumentação Pelos Humanos' } },
     { key: 'questaodeetica', group: 'animals', icon: '👁️', url: 'https://questaodeetica.biblioverse.org', name: { pt: 'Questão de Ética', en: 'Questão de Ética', es: 'Questão de Ética', fr: 'Questão de Ética', de: 'Questão de Ética', it: 'Questão de Ética' } },
     { key: 'pelosanimais', alias: ['fortheanimals'], group: 'animals', icon: '🐾', url: { pt: 'https://pelosanimais.biblioverse.org', en: 'https://fortheanimals.biblioverse.org' }, name: { pt: 'Guia de Argumentação Pelos Animais', en: 'For the Animals: An Argument Guide', es: 'Guía de argumentación por los animales', fr: 'Guide d’argumentation pour les animaux', de: 'Argumentationsleitfaden für die Tiere', it: 'Guida all’argomentazione per gli animali' } },
     // Projetos especiais · Inteligência Artificial

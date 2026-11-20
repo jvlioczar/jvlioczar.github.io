@@ -129,7 +129,7 @@ about_p = [strip(m.group(1)) for m in re.finditer(r'data-i18n="section\.about\.p
 
 PROJECT_LLMS = {
     'australianculture.biblioverse.org', 'brasileirosnaaustralia.biblioverse.org', 'brazilianmusic.biblioverse.org', 'cienciaparainiciantes.biblioverse.org', 'curatedai.biblioverse.org',
-    'eticaparainiciantes.biblioverse.org', 'fortheanimals.biblioverse.org', 'pelosanimais.biblioverse.org',
+    'eticaparainiciantes.biblioverse.org', 'fortheanimals.biblioverse.org', 'pelosanimais.biblioverse.org', 'peloshumanos.biblioverse.org',
     'politicaparainiciantes.biblioverse.org', 'questaodeetica.biblioverse.org',
 }
 
