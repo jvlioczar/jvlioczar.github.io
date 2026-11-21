@@ -50,10 +50,14 @@ def strip(s):
     return re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
 
 
-def last_modified(path):
+def last_modified(path, content_only=False):
+    """Data do último commit que mexeu no arquivo. Com content_only, só conta commits que mudaram
+    itens do catálogo (linhas "name"/"url" do bloco de dados), e não a barra, o rodapé ou o JSON-LD."""
+    cmd = ['git', 'log', '-1', '--format=%cs']
+    if content_only:
+        cmd += ['-G', r'^\s+"(name|url)": "']
     try:
-        out = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', path], capture_output=True,
-                             text=True, check=True).stdout.strip()
+        out = subprocess.run(cmd + ['--', path], capture_output=True, text=True, check=True).stdout.strip()
         return out or None
     except Exception:
         return None
@@ -105,7 +109,7 @@ for slug in sorted(os.listdir('.')):
         'name_en': brand(script, 1),
         'description': meta(h, 'description'),
         'items': items,
-        'modified': last_modified(page),
+        'modified': last_modified(page, content_only=True),
     })
 
 # ---------------------------------------------------------------- hub: grupos e cards
