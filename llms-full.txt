@@ -87,7 +87,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 ## Projetos especiais: Direitos humanos
 
-- [Guia de Argumentação Pelos Humanos](https://peloshumanos.biblioverse.org/llms.txt): Todo preconceito merece uma boa resposta: +190 argumentos contra a igualdade entre as pessoas, na versão mais forte, com o que acertam, onde falham e como responder.
+- [Guia de Argumentação Pelos Humanos](https://peloshumanos.biblioverse.org/llms.txt): Toda objeção à emancipação humana merece ser levada a sério: +190 argumentos contra a igual consideração entre as pessoas, na versão mais forte, com o que acertam e onde falham.
 
 ## Optional
 
