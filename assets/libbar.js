@@ -6,11 +6,11 @@
    logo da BiblioVerse · nome da biblioteca · [Bibliotecas ▾] · tema/idioma/info.
    Segunda linha: busca e categorias (layout na seção 4b de library.css).
 
-   A lista vem da superbar (window.BiblioVerseBar: libs, groups, text), só com os
-   grupos de bibliotecas: projetos especiais (projects: true) ficam de fora.
+   A lista vem da superbar das bibliotecas (superbar_libraries.js, que expõe
+   window.BiblioVerseBar: libs, groups, text).
    Os links abrem na mesma aba, para o app instalado não sair para o navegador.
 
-   Uso, no <head> de cada biblioteca, depois da superbar:
+   Uso, no <head> de cada biblioteca, depois de /superbar_libraries.js:
    <script src="/assets/libbar.js" defer></script>
    ========================================================================== */
 (function () {

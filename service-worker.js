@@ -1,7 +1,7 @@
 /* BiblioVerse — service worker único (escopo /), cobre o hub e todas as bibliotecas.
    Rede primeiro, cache como reserva: o conteúdo nunca fica velho quando há conexão. */
-const VERSION = 'bv-2026-11-07';
-const SHELL = ['/', '/styles.css', '/script.js', '/superbar.js', '/manifest.webmanifest'];
+const VERSION = 'bv-2026-11-21';
+const SHELL = ['/', '/styles.css', '/script.js', '/superbar.js', '/superbar_libraries.js', '/manifest.webmanifest'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL).catch(() => {})).then(() => self.skipWaiting()));
