@@ -6,7 +6,7 @@ A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites
 
 Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
 
-O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.440 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.441 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
 
 ## Bibliotecas: Tecnologia
 
@@ -33,7 +33,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 ## Bibliotecas: Conhecimento
 
 - [Biblioteca de Estudo de Idiomas](https://biblioverse.org/language/llms.txt): Apps, canais e métodos para aprender idiomas. (269 itens)
-- [Biblioteca de Dados](https://biblioverse.org/data/llms.txt): Fontes de dados, visualização e análise. (793 itens)
+- [Biblioteca de Dados](https://biblioverse.org/data/llms.txt): Fontes de dados, visualização e análise. (794 itens)
 - [Biblioteca de História](https://biblioverse.org/history/llms.txt): Períodos, civilizações, fontes e referências para estudar história. (779 itens)
 
 ## Bibliotecas: Pensamento Livre
@@ -3727,7 +3727,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: organizações internacionais, economia, países, índices globais, saúde, clima, animais e conceitos essenciais. Ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 793 itens · atualizada em 2026-11-07.
+Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 794 itens · atualizada em 2026-11-21.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Dados gerais
@@ -3861,6 +3861,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Kearney Global Cities Index](https://www.kearney.com/service/global-business-policy-council/gcr)
 - [Global Soft Power Index (Brand Finance)](https://brandirectory.com/softpower)
 - [Global Health Security Index](https://ghsindex.org)
+- [Índice de Soberania Digital (DSI)](https://zenodo.org/records/20277296): EN: Digital Sovereignty Index (DSI)
 
 ## Comparação entre países
 
