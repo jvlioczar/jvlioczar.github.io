@@ -6,7 +6,7 @@ A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites
 
 Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
 
-O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.431 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.432 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
 
 ## Bibliotecas: Tecnologia
 
@@ -45,7 +45,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 ## Bibliotecas: Vida prática
 
 - [Biblioteca de Emprego](https://biblioverse.org/job/llms.txt): Sites de vagas, currículo e carreira. (320 itens)
-- [Biblioteca de Organização](https://biblioverse.org/management/llms.txt): Apps e métodos de produtividade e gestão. (281 itens)
+- [Biblioteca de Organização](https://biblioverse.org/management/llms.txt): Apps e métodos de produtividade e gestão. (282 itens)
 - [Biblioteca de Viagem](https://biblioverse.org/travel/llms.txt): Ferramentas para planejar viagens e intercâmbio. (395 itens)
 - [Biblioteca Antigolpe](https://biblioverse.org/antiscam/llms.txt): Como identificar, verificar, denunciar e se proteger de golpes e fraudes. (334 itens)
 
@@ -9856,7 +9856,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável sobre organização: gestão do tempo, produtividade, apps de tarefas e notas, gestão de projetos e equipes, organização da casa e das finanças, metodologias, livros e pessoas.
 
-Biblioteca temática da BiblioVerse (The Organization Library), com curadoria humana. Página: https://biblioverse.org/management/ · 281 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Organization Library), com curadoria humana. Página: https://biblioverse.org/management/ · 282 itens · atualizada em 2026-11-14.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -10139,6 +10139,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Mobills](https://www.mobills.com.br/) ★
 - [Organizze](https://www.organizze.com.br/)
 - [Mint](https://en.wikipedia.org/wiki/Intuit_Mint) 🪦
+- [Raul Sena (Investidor Sardinha)](https://www.youtube.com/@investidorsardinha)
 
 ### Arquivos, senhas e leitura
 
