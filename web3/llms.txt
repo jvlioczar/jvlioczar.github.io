@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável de Web3: conceitos de blockchain, criptomoedas, DeFi, corretoras, carteiras, NFTs, ferramentas, regulação, pessoas e história.
 
-Biblioteca temática da BiblioVerse (The Web3 Library), com curadoria humana. Página: https://biblioverse.org/web3/ · 472 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Web3 Library), com curadoria humana. Página: https://biblioverse.org/web3/ · 480 itens · atualizada em 2026-11-21.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -68,6 +68,17 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Cryptojacking](https://en.wikipedia.org/wiki/Cryptojacking)
 - [Front running](https://en.wikipedia.org/wiki/Front_running)
 - [Wash trading](https://en.wikipedia.org/wiki/Wash_trade)
+
+### Ecossistemas abertos
+
+- [Open Banking](https://en.wikipedia.org/wiki/Open_banking)
+- [Open Finance Brasil](https://www.bcb.gov.br/estabilidadefinanceira/openfinance)
+- [Open Insurance Brasil](https://www.gov.br/susep/pt-br/assuntos/open-insurance)
+- [Open Health (proposta brasileira)](https://www.mobiletime.com.br/noticias/20/10/2023/regulacao-brasileira-para-o-open-health-esta-parada/)
+- [Open Energy (Aneel)](https://gesel.ie.ufrj.br/wp-content/uploads/2025/08/Gesel-Broadcast-Open-Energy-e-Abertura-de-Mercado.pdf)
+- [Open Social (Fediverso)](https://en.wikipedia.org/wiki/Fediverse)
+- [Open Data (dados abertos)](https://en.wikipedia.org/wiki/Open_data)
+- [Open Government (governo aberto)](https://en.wikipedia.org/wiki/Open_government)
 
 ## Criptomoedas
 

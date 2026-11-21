@@ -6,13 +6,13 @@ A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites
 
 Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
 
-O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.432 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.440 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
 
 ## Bibliotecas: Tecnologia
 
 - [Biblioteca de IAs](https://biblioverse.org/ai/llms.txt): As principais ferramentas de inteligência artificial, organizadas por uso. (696 itens)
 - [Biblioteca de Programação](https://biblioverse.org/code/llms.txt): Linguagens, cursos e ferramentas para aprender a programar. (1013 itens)
-- [Biblioteca de Web3](https://biblioverse.org/web3/llms.txt): Blockchain, carteiras e o ecossistema descentralizado. (472 itens)
+- [Biblioteca de Web3](https://biblioverse.org/web3/llms.txt): Blockchain, carteiras e o ecossistema descentralizado. (480 itens)
 - [Biblioteca de Redes Sociais](https://biblioverse.org/social/llms.txt): Plataformas, ferramentas e recursos para criadores de conteúdo. (547 itens)
 
 ## Bibliotecas: Criatividade
@@ -99,7 +99,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 > Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The AI Library), com curadoria humana. Página: https://biblioverse.org/ai/ · 696 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The AI Library), com curadoria humana. Página: https://biblioverse.org/ai/ · 696 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria.
 
 ## Agentes de IA
@@ -923,7 +923,7 @@ Legenda: ★ destaque da curadoria.
 
 > Catálogo pesquisável para evitar golpes, fraudes e scams: tipos de golpe, apostas e jogos de azar, ferramentas para verificar sites, perfis e investimentos, onde denunciar, guias oficiais, proteção digital, livros, documentários e quem desmascara golpes.
 
-Biblioteca temática da BiblioVerse (The Anti-Scam Library), com curadoria humana. Página: https://biblioverse.org/antiscam/ · 334 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Anti-Scam Library), com curadoria humana. Página: https://biblioverse.org/antiscam/ · 334 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -1380,7 +1380,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de arte: conceitos, técnicas, materiais, movimentos artísticos, artistas, curadores, críticos, influenciadores, grupos, museus, bienais, redes sociais, cursos e livros.
 
-Biblioteca temática da BiblioVerse (The Art Library), com curadoria humana. Página: https://biblioverse.org/art/ · 395 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Art Library), com curadoria humana. Página: https://biblioverse.org/art/ · 395 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -1966,7 +1966,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável do essencial da programação por categoria: linguagens, formatos, protocolos, conceitos, ferramentas e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Coding Library), com curadoria humana. Página: https://biblioverse.org/code/ · 1013 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Coding Library), com curadoria humana. Página: https://biblioverse.org/code/ · 1013 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Algoritmos
@@ -3128,7 +3128,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de crenças falsas: teorias da conspiração, negacionismo, pseudociências, medicina alternativa, paranormal, fraudes, seitas e desinformação — com organizações céticas, checagem de fatos, livros e podcasts para desmenti-las.
 
-Biblioteca temática da BiblioVerse (The Conspiracy Library), com curadoria humana. Página: https://biblioverse.org/conspiracy/ · 447 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Conspiracy Library), com curadoria humana. Página: https://biblioverse.org/conspiracy/ · 447 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Teorias da conspiração
@@ -3727,7 +3727,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: organizações internacionais, economia, países, índices globais, saúde, clima, animais e conceitos essenciais. Ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 793 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 793 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Dados gerais
@@ -4654,7 +4654,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável dos melhores recursos de design por categoria. Ferramentas, conteúdo, agências, pessoas e muito mais.
 
-Biblioteca temática da BiblioVerse (The Design Library), com curadoria humana. Página: https://biblioverse.org/design/ · 1277 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Design Library), com curadoria humana. Página: https://biblioverse.org/design/ · 1277 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Ferramentas
@@ -6189,7 +6189,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de eSports: jogos competitivos por gênero (MOBA, FPS, battle royale, luta, esportes, estratégia e mobile), campeonatos por jogo, equipes por continente, lendas por jogo, enciclopédias, notícias, sites de dados e estatísticas e transmissão.
 
-Biblioteca temática da BiblioVerse (The eSports Library), com curadoria humana. Página: https://biblioverse.org/esports/ · 341 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The eSports Library), com curadoria humana. Página: https://biblioverse.org/esports/ · 341 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Jogos competitivos
@@ -6674,7 +6674,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável do essencial dos games por categoria: lojas, consoles, jogos, gêneros, conceitos, esports, eventos, mídia e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Games Library), com curadoria humana. Página: https://biblioverse.org/games/ · 730 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Games Library), com curadoria humana. Página: https://biblioverse.org/games/ · 730 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Arcades e computadores clássicos
@@ -7490,7 +7490,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de história: da Pré-história ao século XXI, história do Brasil, guerras, patrimônio, obras fundamentais, historiadores, museus, acervos, podcasts e cursos.
 
-Biblioteca temática da BiblioVerse (The History Library), com curadoria humana. Página: https://biblioverse.org/history/ · 779 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The History Library), com curadoria humana. Página: https://biblioverse.org/history/ · 779 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Enciclopédias e referências
@@ -8479,7 +8479,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável sobre a vida profissional: sites de vagas e freelance, trabalho remoto, currículo e portfólio, entrevistas, salários, recrutamento, qualificação, direitos trabalhistas e conceitos de carreira.
 
-Biblioteca temática da BiblioVerse (The Job Library), com curadoria humana. Página: https://biblioverse.org/job/ · 320 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Job Library), com curadoria humana. Página: https://biblioverse.org/job/ · 320 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -8968,7 +8968,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável dos melhores recursos para aprender idiomas por categoria. Uma biblioteca essencial para estudantes de línguas, professores e curiosos.
 
-Biblioteca temática da BiblioVerse (The Language Learning Library), com curadoria humana. Página: https://biblioverse.org/language/ · 269 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Language Learning Library), com curadoria humana. Página: https://biblioverse.org/language/ · 269 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria.
 
 ## 📚 Aplicativos de Idiomas
@@ -9320,7 +9320,7 @@ Legenda: ★ destaque da curadoria.
 
 > Catálogo pesquisável para quem gosta de listas: sites de listas e rankings, tier lists, estatísticas, pesquisas de opinião, índices globais, curadoria e conceitos de votação e classificação.
 
-Biblioteca temática da BiblioVerse (The List Library), com curadoria humana. Página: https://biblioverse.org/list/ · 343 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The List Library), com curadoria humana. Página: https://biblioverse.org/list/ · 343 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -9856,7 +9856,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável sobre organização: gestão do tempo, produtividade, apps de tarefas e notas, gestão de projetos e equipes, organização da casa e das finanças, metodologias, livros e pessoas.
 
-Biblioteca temática da BiblioVerse (The Organization Library), com curadoria humana. Página: https://biblioverse.org/management/ · 282 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Organization Library), com curadoria humana. Página: https://biblioverse.org/management/ · 282 itens · atualizada em 2026-11-21.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -10239,7 +10239,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável do essencial da música por categoria: streaming, gêneros, gravadoras, instrumentos, conceitos, produção, festivais e artistas. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Music Library), com curadoria humana. Página: https://biblioverse.org/music/ · 1072 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Music Library), com curadoria humana. Página: https://biblioverse.org/music/ · 1072 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Aparelhos e equipamentos
@@ -11424,7 +11424,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de filosofia: áreas (metafísica, epistemologia, lógica, ética, estética e mais), conceitos, escolas, obras, filósofos e recursos.
 
-Biblioteca temática da BiblioVerse (The Philosophy Library), com curadoria humana. Página: https://biblioverse.org/philosophy/ · 616 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Philosophy Library), com curadoria humana. Página: https://biblioverse.org/philosophy/ · 616 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Enciclopédias e referências
@@ -12315,7 +12315,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de fotografia: conceitos, técnicas, estilos, aplicativos de fotos e de edição, softwares, redes sociais e sites de portfólio para fotógrafos, equipamentos, premiações, pessoas e história.
 
-Biblioteca temática da BiblioVerse (The Photography Library), com curadoria humana. Página: https://biblioverse.org/photography/ · 1065 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Photography Library), com curadoria humana. Página: https://biblioverse.org/photography/ · 1065 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -13717,7 +13717,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de mídia impressa: conceitos de editoração, tipos de impressos, formatos de arquivo, softwares, produção gráfica, editoras, revistas, jornais, designers, pessoas e história.
 
-Biblioteca temática da BiblioVerse (The Print Media Library), com curadoria humana. Página: https://biblioverse.org/print/ · 915 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Print Media Library), com curadoria humana. Página: https://biblioverse.org/print/ · 915 itens · atualizada em 2026-11-08.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -14865,7 +14865,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Social Media Library), com curadoria humana. Página: https://biblioverse.org/social/ · 547 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Social Media Library), com curadoria humana. Página: https://biblioverse.org/social/ · 547 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Altruísmo e petições
@@ -15558,7 +15558,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de pensamento crítico, racionalidade e práticas baseadas em evidências: livros, guias de falácias e vieses, organizações, pessoas, divulgação científica e filosófica.
 
-Biblioteca temática da BiblioVerse (The Rationality Library), com curadoria humana. Página: https://biblioverse.org/thinking/ · 619 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Rationality Library), com curadoria humana. Página: https://biblioverse.org/thinking/ · 619 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Referências e guias
@@ -16374,7 +16374,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável para quem quer viajar: conceitos, guias e wikis, passagens e milhas, hospedagem, passeios, comunidades e blogs, principais destinos, saúde, segurança, vistos e ferramentas do viajante.
 
-Biblioteca temática da BiblioVerse (The Travel Library), com curadoria humana. Página: https://biblioverse.org/travel/ · 395 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Travel Library), com curadoria humana. Página: https://biblioverse.org/travel/ · 395 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -16940,7 +16940,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável de true crime: crimes famosos no Brasil e no mundo, atentados, acidentes e desastres, crimes contra a humanidade, seitas, conceitos, livros, filmes, podcasts, premiações e canais de prevenção e denúncia.
 
-Biblioteca temática da BiblioVerse (The True Crime Library), com curadoria humana. Página: https://biblioverse.org/truecrime/ · 712 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The True Crime Library), com curadoria humana. Página: https://biblioverse.org/truecrime/ · 712 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria.
 
 ## Crimes famosos
@@ -17847,7 +17847,7 @@ Legenda: ★ destaque da curadoria.
 
 > Catálogo pesquisável de Web3: conceitos de blockchain, criptomoedas, DeFi, corretoras, carteiras, NFTs, ferramentas, regulação, pessoas e história.
 
-Biblioteca temática da BiblioVerse (The Web3 Library), com curadoria humana. Página: https://biblioverse.org/web3/ · 472 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Web3 Library), com curadoria humana. Página: https://biblioverse.org/web3/ · 480 itens · atualizada em 2026-11-21.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -17913,6 +17913,17 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Cryptojacking](https://en.wikipedia.org/wiki/Cryptojacking)
 - [Front running](https://en.wikipedia.org/wiki/Front_running)
 - [Wash trading](https://en.wikipedia.org/wiki/Wash_trade)
+
+### Ecossistemas abertos
+
+- [Open Banking](https://en.wikipedia.org/wiki/Open_banking)
+- [Open Finance Brasil](https://www.bcb.gov.br/estabilidadefinanceira/openfinance)
+- [Open Insurance Brasil](https://www.gov.br/susep/pt-br/assuntos/open-insurance)
+- [Open Health (proposta brasileira)](https://www.mobiletime.com.br/noticias/20/10/2023/regulacao-brasileira-para-o-open-health-esta-parada/)
+- [Open Energy (Aneel)](https://gesel.ie.ufrj.br/wp-content/uploads/2025/08/Gesel-Broadcast-Open-Energy-e-Abertura-de-Mercado.pdf)
+- [Open Social (Fediverso)](https://en.wikipedia.org/wiki/Fediverse)
+- [Open Data (dados abertos)](https://en.wikipedia.org/wiki/Open_data)
+- [Open Government (governo aberto)](https://en.wikipedia.org/wiki/Open_government)
 
 ## Criptomoedas
 

@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável do essencial da programação por categoria: linguagens, formatos, protocolos, conceitos, ferramentas e figuras-chave. O projeto é minimalista e ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Coding Library), com curadoria humana. Página: https://biblioverse.org/code/ · 1013 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The Coding Library), com curadoria humana. Página: https://biblioverse.org/code/ · 1013 itens · atualizada em 2026-11-07.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Algoritmos

@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The AI Library), com curadoria humana. Página: https://biblioverse.org/ai/ · 696 itens · atualizada em 2026-11-14.
+Biblioteca temática da BiblioVerse (The AI Library), com curadoria humana. Página: https://biblioverse.org/ai/ · 696 itens · atualizada em 2026-11-13.
 Legenda: ★ destaque da curadoria.
 
 ## Agentes de IA
