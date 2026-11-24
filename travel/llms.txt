@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável para quem quer viajar: conceitos, guias e wikis, passagens e milhas, hospedagem, passeios, comunidades e blogs, principais destinos, saúde, segurança, vistos e ferramentas do viajante.
 
-Biblioteca temática da BiblioVerse (The Travel Library), com curadoria humana. Página: https://biblioverse.org/travel/ · 395 itens · atualizada em 2026-11-07.
+Biblioteca temática da BiblioVerse (The Travel Library), com curadoria humana. Página: https://biblioverse.org/travel/ · 396 itens · atualizada em 2026-11-24.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Conceitos fundamentais
@@ -311,6 +311,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Go City](https://gocity.com/)
 - [GuruWalk (free tours)](https://www.guruwalk.com/)
 - [Freetour.com](https://www.freetour.com/)
+- [Vacayit (audioguias)](https://www.vacayit.com/)
 
 ### Gastronomia
 
