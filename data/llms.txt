@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: organizações internacionais, economia, países, índices globais, saúde, clima, animais e conceitos essenciais. Ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 795 itens · atualizada em 2026-11-21.
+Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 796 itens · atualizada em 2026-11-24.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Dados gerais
@@ -349,6 +349,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Statcounter Global Stats](https://gs.statcounter.com)
 - [Cloudflare Radar](https://radar.cloudflare.com)
 - [Similarweb — Top sites](https://www.similarweb.com/top-websites/)
+- [O Cara dos Rankings (influência digital no Brasil)](https://www.ocaradosrankings.com.br/): EN: O Cara dos Rankings (digital influence in Brazil)
 - [Speedtest Global Index (Ookla)](https://www.speedtest.net/global-index)
 - [Epoch AI](https://epoch.ai/data)
 - [Stanford AI Index](https://hai.stanford.edu/ai-index)

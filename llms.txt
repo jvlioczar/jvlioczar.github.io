@@ -6,7 +6,7 @@ A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites
 
 Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
 
-O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.443 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.444 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
 
 ## Bibliotecas: Tecnologia
 
@@ -33,7 +33,7 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 ## Bibliotecas: Conhecimento
 
 - [Biblioteca de Estudo de Idiomas](https://biblioverse.org/language/llms.txt): Apps, canais e métodos para aprender idiomas. (269 itens)
-- [Biblioteca de Dados](https://biblioverse.org/data/llms.txt): Fontes de dados, visualização e análise. (795 itens)
+- [Biblioteca de Dados](https://biblioverse.org/data/llms.txt): Fontes de dados, visualização e análise. (796 itens)
 - [Biblioteca de História](https://biblioverse.org/history/llms.txt): Períodos, civilizações, fontes e referências para estudar história. (779 itens)
 
 ## Bibliotecas: Pensamento Livre
