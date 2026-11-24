@@ -6,14 +6,14 @@ A BiblioVerse tem bibliotecas temáticas com curadoria humana: os melhores sites
 
 Além disso, há projetos especiais que exploram um só tema em profundidade, de cultura, música e esportes a ética, ciência e política, em guias autorais com ferramentas interativas e sempre com fontes.
 
-O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.444 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
+O site é em português do Brasil, com versão em inglês em todas as páginas. São 23 bibliotecas com 14.473 links no total. Cada link de biblioteca abaixo aponta para um llms.txt com o catálogo completo daquela biblioteca, organizado por categoria. O arquivo https://biblioverse.org/llms-full.txt junta todos os catálogos em um só.
 
 ## Bibliotecas: Tecnologia
 
 - [Biblioteca de IAs](https://biblioverse.org/ai/llms.txt): As principais ferramentas de inteligência artificial, organizadas por uso. (696 itens)
 - [Biblioteca de Programação](https://biblioverse.org/code/llms.txt): Linguagens, cursos e ferramentas para aprender a programar. (1013 itens)
 - [Biblioteca de Web3](https://biblioverse.org/web3/llms.txt): Blockchain, carteiras e o ecossistema descentralizado. (480 itens)
-- [Biblioteca de Redes Sociais](https://biblioverse.org/social/llms.txt): Plataformas, ferramentas e recursos para criadores de conteúdo. (547 itens)
+- [Biblioteca de Redes Sociais](https://biblioverse.org/social/llms.txt): Plataformas, ferramentas e recursos para criadores de conteúdo. (576 itens)
 
 ## Bibliotecas: Criatividade
 
@@ -14868,7 +14868,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 
 > Catálogo pesquisável das melhores ferramentas de IA por categoria. O projeto é minimalista e conta com uma biblioteca essencial sobre IAs, ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Social Media Library), com curadoria humana. Página: https://biblioverse.org/social/ · 547 itens · atualizada em 2026-11-07.
+Biblioteca temática da BiblioVerse (The Social Media Library), com curadoria humana. Página: https://biblioverse.org/social/ · 576 itens · atualizada em 2026-11-24.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Altruísmo e petições
@@ -14880,6 +14880,46 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [GlobalGiving](https://globalgiving.org/)
 - [Idealist](https://idealist.org/)
 - [Kiva](https://kiva.org/)
+
+## Analytics de redes sociais
+
+- [Social Blade](https://socialblade.com/) ★
+- [HypeAuditor](https://hypeauditor.com/)
+- [Modash](https://www.modash.io/)
+- [Metricool](https://metricool.com/)
+- [mLabs](https://www.mlabs.com.br/)
+- [Reportei](https://www.reportei.com/)
+- [Sprout Social](https://sproutsocial.com/)
+- [Hootsuite](https://www.hootsuite.com/)
+- [Brandwatch](https://www.brandwatch.com/)
+- [Talkwalker](https://www.talkwalker.com/)
+- [Brand24](https://brand24.com/)
+- [Meta Business Suite](https://business.facebook.com/)
+- [YouTube Studio](https://studio.youtube.com/)
+- [CrowdTangle](https://en.wikipedia.org/wiki/CrowdTangle) 🪦
+
+## Analytics de sites
+
+- [Alexa](https://en.wikipedia.org/wiki/Alexa_Internet) 🪦
+- [Comscore](https://comscore.com/)
+- [Semrush](https://semrush.com/) ★
+- [Similarweb](https://similarweb.com/) ★
+- [Google Trends](https://trends.google.com/)
+- [Google Analytics](https://marketingplatform.google.com/about/analytics/) ★
+- [Google Search Console](https://search.google.com/search-console/about)
+- [Google Tag Manager](https://tagmanager.google.com/)
+- [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)
+- [Microsoft Clarity](https://clarity.microsoft.com/)
+- [Hotjar](https://www.hotjar.com/)
+- [Matomo](https://matomo.org/)
+- [Plausible](https://plausible.io/)
+- [Fathom](https://usefathom.com/)
+- [Umami](https://umami.is/)
+- [Adobe Analytics](https://en.wikipedia.org/wiki/Adobe_Analytics)
+- [Mixpanel](https://mixpanel.com/)
+- [Amplitude](https://amplitude.com/)
+- [Statcounter](https://statcounter.com/)
+- [Ahrefs](https://ahrefs.com/)
 
 ## Arte e design
 
@@ -15224,14 +15264,6 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Wattpad](https://wattpad.com/) ★
 - [The StoryGraph](https://www.thestorygraph.com/)
 - [Fable](https://fable.co/)
-
-## Mais acessados
-
-- [Alexa](https://en.wikipedia.org/wiki/Alexa_Internet) 🪦
-- [Comscore](https://comscore.com/)
-- [Semrush](https://semrush.com/) ★
-- [Similarweb](https://similarweb.com/) ★
-- [Trends](https://trends.google.com/)
 
 ## Marketplaces
 
