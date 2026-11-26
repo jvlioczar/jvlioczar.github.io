@@ -69,7 +69,8 @@
     { key: 'music', name: { pt: 'Música', en: 'Music', es: 'Música', fr: 'Musique', de: 'Musik', it: 'Musica' } },
     { key: 'travel', name: { pt: 'Cultura e Viagem', en: 'Culture & Travel', es: 'Cultura y viajes', fr: 'Culture et voyage', de: 'Kultur & Reisen', it: 'Cultura e viaggi' } },
     { key: 'sports', name: { pt: 'Esportes', en: 'Sports', es: 'Deportes', fr: 'Sports', de: 'Sport', it: 'Sport' } },
-    { key: 'humans', name: { pt: 'Direitos humanos', en: 'Human Rights', es: 'Derechos humanos', fr: 'Droits humains', de: 'Menschenrechte', it: 'Diritti umani' } }
+    { key: 'humans', name: { pt: 'Direitos humanos', en: 'Human Rights', es: 'Derechos humanos', fr: 'Droits humains', de: 'Menschenrechte', it: 'Diritti umani' } },
+    { key: 'relationships', name: { pt: 'Relacionamentos', en: 'Relationships', es: 'Relaciones', fr: 'Relations', de: 'Beziehungen', it: 'Relazioni' } }
   ];
 
   // ── Projetos especiais ────────────────────────────────────────────────────
@@ -100,7 +101,9 @@
     // Esportes
     { key: 'goats', group: 'sports', icon: '🐐', url: 'https://goat.biblioverse.org', name: { pt: 'GOATs', en: 'GOATs' } },
     { key: 'lfb', group: 'sports', icon: '⚽', url: 'https://lendasdofutebolbrasileiro.biblioverse.org', name: { pt: 'Lendas do Futebol Brasileiro', en: 'Brazilian Football Legends', es: 'Leyendas del fútbol brasileño', fr: 'Légendes du football brésilien', de: 'Brasilianische Fußballlegenden', it: 'Leggende del calcio brasiliano' } },
-    { key: 'biggestclubs', group: 'sports', icon: '🏆', url: 'https://biggestclubs.biblioverse.org', name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' } }
+    { key: 'biggestclubs', group: 'sports', icon: '🏆', url: 'https://biggestclubs.biblioverse.org', name: { pt: 'Os Maiores Clubes do Futebol Mundial', en: 'The Biggest Clubs in World Football', es: 'Los clubes más grandes del fútbol mundial', fr: 'Les plus grands clubs du football mondial', de: 'Die größten Klubs im Weltfußball', it: 'I club più grandi del calcio mondiale' } },
+    // Relacionamentos (PT em /pt/; a raiz é a versão em inglês)
+    { key: 'lovetheory', alias: ['thelovetheory'], group: 'relationships', icon: '💗', url: { pt: 'https://lovetheory.biblioverse.org/pt/', en: 'https://lovetheory.biblioverse.org' }, name: { pt: 'The Love Theory', en: 'The Love Theory' } }
   ];
 
   // ── Textos da interface ───────────────────────────────────────────────────

@@ -89,6 +89,10 @@ O site é em português do Brasil, com versão em inglês em todas as páginas. 
 
 - [Guia de Argumentação Pelos Humanos](https://peloshumanos.biblioverse.org/llms.txt): Toda objeção à emancipação humana merece ser levada a sério: +210 argumentos contra a igual consideração entre as pessoas, na versão mais forte, com o que acertam e onde falham.
 
+## Projetos especiais: Relacionamentos
+
+- [The Love Theory](https://lovetheory.biblioverse.org/pt/): Um mapa de como amamos: 18 propriedades do amor, uma escala para medir o que você sente por alguém hoje, um teste de casal e testes de amor-próprio e autoconhecimento.
+
 ## Optional
 
 - [Catálogo completo de todas as bibliotecas](https://biblioverse.org/llms-full.txt): os 23 catálogos em um arquivo
