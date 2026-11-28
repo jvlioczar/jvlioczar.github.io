@@ -2,7 +2,7 @@
 
 > Catálogo pesquisável das melhores fontes de dados e estatísticas do mundo: organizações internacionais, economia, países, índices globais, saúde, clima, animais e conceitos essenciais. Ideal para colocar nos favoritos do seu navegador.
 
-Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 796 itens · atualizada em 2026-11-24.
+Biblioteca temática da BiblioVerse (The Data Library), com curadoria humana. Página: https://biblioverse.org/data/ · 797 itens · atualizada em 2026-11-28.
 Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou serviço encerrado.
 
 ## Dados gerais
@@ -138,6 +138,7 @@ Legenda: ★ destaque da curadoria · 🪦 pessoa falecida, banda desfeita ou se
 - [Global Health Security Index](https://ghsindex.org)
 - [Índice de Soberania Digital (DSI)](https://zenodo.org/records/20277296): EN: Digital Sovereignty Index (DSI)
 - [Índice de Soberania Digital (Nextcloud)](https://dsi.nextcloud.com/): EN: Digital Sovereignty Index (Nextcloud)
+- [Global Social Mobility Index (Fórum Econômico Mundial)](https://www.weforum.org/publications/global-social-mobility-index-2020-why-economies-benefit-from-fixing-inequality/): EN: Global Social Mobility Index (World Economic Forum)
 
 ## Comparação entre países
 
